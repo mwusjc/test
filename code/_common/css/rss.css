@@ -1,0 +1,89 @@
+body {font-family: verdana; font-size: 9pt; color: #444}
+a {color: #ff6600;}
+a.title {color: #222; font-size: 22pt; font-weight: 800; text-decoration: none; font-family: times}
+a.itemTitle {color: #ff6600; font-size: 9pt; font-weight: bold; text-decoration: none;}
+a.itemTitle:hover {color: #ff6600; font-size: 9pt; font-weight: bold; text-decoration: underline;}
+.subtitle { font-size: 10pt; color: #aaaaaa; font-style: italic}
+.itemDesc { font-size: 9pt; font-weight: normal; margin:2px 0px 3px}
+br {display:block; margin: 1px 0px;}
+.item {margin: 30px 60px 20px 30px; padding: 3px; }
+.pubDate {display:block; font-size: 8pt; font-weight: normal; margin: 9px 0 0px 0;}
+td.descTitle {width:150px;vertical-align:top; font-weight:bold; font-size:8pt; }
+td.std {vertical-align:top; font-weight:normal; font-size:8pt; }
+a.img {border:none}
+image {border: 0px}
+
+rss {
+    DISPLAY: block;
+    FONT-SIZE: 90%;
+		width:100%;
+    background-image: url(http://www.ventureincubator.com/rss/images/xml/leftboarder.jpg);
+    background-repeat: repeat-y;
+		margin: 0px;
+}
+
+a.test {color:#00ff00;}
+
+channel
+{
+    DISPLAY: block;
+    FONT-SIZE: 90%;
+    background-image: url(http://www.ventureincubator.com/rss/images/xml/rightboarder.jpg);
+    background-repeat: repeat-y;
+    background-position: right;
+    MARGIN: 0px;
+    COLOR: #00000;
+    FONT-FAMILY: verdana, sans-serif;
+		margin-left: 150px;
+}
+
+
+div.description
+{
+    DISPLAY: block;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    FONT-family: verdana;
+    color: #333;
+		margin: 20px 210px 4px 40px;
+		background-repeat: no-repeat;
+		background-position: center left;
+		border: 3px solid orange;
+    background-image: url(http://www.ventureincubator.com/rss/images/xml/orangebar.gif);
+    background-repeat: repeat-x;
+		padding: 3px 5px; 
+
+}
+
+
+channel description
+{
+    DISPLAY: block;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10pt;
+    FONT-family: verdana;
+    color: #333;
+		margin: 20px 210px 4px 40px;
+		background-repeat: no-repeat;
+		background-position: center left;
+		border: 3px solid orange;
+    background-image: url(http://www.ventureincubator.com/rss/images/xml/orangebar.gif);
+    background-repeat: repeat-x;
+		padding: 3px 5px; 
+
+}
+
+item title
+{
+    DISPLAY: block;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-family: verdana;
+    color: #333;
+		margin: 0px 0px 4px 0;
+    BACKGROUND-image: url(http://www.ventureincubator.com/rss/images/xml/orangefeed.gif);
+		background-repeat: no-repeat;
+		background-position: center left;
+		padding-left: 14px;
+}
+

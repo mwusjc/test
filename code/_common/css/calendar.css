@@ -1,0 +1,65 @@
+.calLink { /** calendar link */
+	font-face: Verdana; 
+	font-size: 10px;
+	font-weight:bold; 
+	color:black;
+	text-decoration: none;
+}
+.monthYear { /** current month-year */
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #F4F4F4;
+}
+.wkDay { /** weekday */
+	line-height: 15pt; 
+	font-family: Verdana, Arial, sans-serif; 
+	font-size: 10px; 
+	font-weight: bold; 
+	background-color: #F5F4D3; 
+	text-align: center; 
+	vertical-align: middle; 
+	width: 14%; 
+}
+.dayIn { 
+	background-color: #E5E5E5; 
+}
+.dayOut { 
+	background-color: #D4D4D4; 
+}
+.dayWeekend { 
+	background-color: #99CCFF; 
+}
+.dayActive { 
+	background-color: #FFCCCC; 
+	cursor: hand; 
+}
+.dayToday {
+	background-color: #F7F7F7; 
+}
+.calendarTable { 
+	background-color: #FFFFFF; 
+	border: 1px solid #003366; 
+	width: 100%; 
+}
+
+
+.dayRows {	
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10px;
+	line-height: 15pt;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.navTable { 
+	background-color: none; 
+	width: 100%; 
+}
+.navRows {	
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 15pt;
+	vertical-align: middle;
+}

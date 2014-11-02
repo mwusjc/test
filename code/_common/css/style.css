@@ -1,0 +1,61 @@
+html {font-size: 11px; font-family: tahoma; color: #333;}
+td {vertical-align: top; font-size: 10pt; color: #000;}
+
+
+.input_enabled {border: 1px solid #333; color: #000; background-color: #eee; }
+.input_disabled {border: 1px solid #fafafa; color: #333; background-color: #fafafa;}
+.required {border: 1px solid #ccc; color: #333; background-color: #f6f6f6;}
+.optional {border: 1px dotted #ccc; color: #333; background-color: #f6f6f6;}
+
+.info { border: 1px solid #f0f0f0; background-color: #fafafa; color: #333333; font-size: 11px; padding: 3px; width: 100%;}
+.alert {color: #FF6600; font-size: 11px;width: 100%;}
+.confirm {border: 1px solid #669900; font-size: 11px;width: 100%;}
+.notify {border: 1px dotted #99CC99; color: #99CC99; font-size: 12px;width: 100%; padding: 10px 0px; text-align: center; margin: 3px 0px 10px}
+
+.warning {border: 1px dotted #ff0000; font-size: 12px; padding: 3px; width: 100%;}
+.redalert {border: 2px solid #ff0000; font-size: 14px; padding: 5px; font-weight: bold; text-decoration: blink;width: 100%;}
+.note {font-size: 10px; width: 100%;}
+.subnote {font-size: 9px; width: 100%; color: #aaa;}
+.navigation_active {color: #000; text-decoration: underline}
+.navigation_selected {font-weight: bold; text-decoration: none;}
+
+.DYNTAB {width: auto; background-color: #fafafa; border: 1px solid #f6f6f6;}
+.DYNTAB_menuon {background-repeat: no-repeat; background-image: url(../images/dynTAB/m1hover.png); background-position: bottom; color: #ffffff; font-family: Comic sans-serif, Verdana, Arial; font-size: 10pt; width: 79px; height: 33px; padding-left: 20px; cursor: pointer;}
+.DYNTAB_menuoff {background-repeat: no-repeat; background-image: url(../images/dynTAB/m1off.png); background-position: bottom; color: #ffffff; font-family: Comic sans-serif, Verdana, Arial; font-size: 10pt; width: 79px; height: 33px; padding-left: 20px; cursor: pointer;}
+.DYNTAB_menuhover {background-repeat: no-repeat; background-image: url(../images/dynTAB/m1hover.png); background-position: bottom; color: #ffffff; font-family: Comic sans-serif, Verdana, Arial; font-size: 10pt; width: 79px; height: 33px;padding-left: 20px; cursor: pointer;}
+
+.size400 {width: 400px;}
+.size150 {width: 150px;}
+.size250 {width: 250px;}
+.size500 {width: 500px;}
+.size300 {width: 300px;}
+.size200 {width: 200px;}
+.size120 {width: 120px;}
+.size100 {width: 100px;}
+.size50 {width: 50px;}
+.size40 {width: 40px;}
+
+.center { text-align: center}
+.bold { font-weight: bold}
+
+.form_table {border: 0px solid #f0f0f0; background-color: #fff; padding: 2px;}
+.p1 {color: #ff0000;}
+.p1:first-line {font-style: italic;}
+.p1:first-letter {font-size: 300%; font-style: normal; font-weight: bold; float: left; }
+
+.tbl_standard {width: 100%; margin: 0px; padding: 1px; vertical-align: top;}
+
+.bold_ {font-weight: bold; }
+.italic_ {font-style: italic;}
+.normal_ {font-weight: normal;}
+
+td.copyspace_std {border: 1px dotted #aaa; background-color: #fff; filter: alpha(opacity=0); mozOpacity:0; opacity: 0; cursor: pointer;}
+
+td .admin_menu {color: inherit; font-size: 9px;}
+
+.white {color: #ffffff;}
+.white:hover {color: #aaaaaa;}
+
+.contact_left {font-weight: bold; color: #000 ; background-color: #eee; font-size: 11px; text-align: right; border: 1px solid #ddd; padding: 2px 4px;; border-bottom: 0px; border-right: 0px;}
+.contact_right {font-weight: normal; background-color: #fff; color: #333; border: 1px solid #ddd; font-size: 11px; text-align: left; padding: 2px 4px;border-bottom: 0px;}
+.unselectable {   -moz-user-select: none;   -khtml-user-select: none;   user-select: none;}

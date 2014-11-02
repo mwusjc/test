@@ -1,0 +1,42 @@
+<div class="container-page" id="containerPage" style="">
+<table cellpadding="0" cellspacing="0" style="width: 888px; background-image: url(images/easter_banner.png); background-repeat: no-repeat;">
+<tr>
+	<td valign="bottom" align="left">
+		<div style="margin-top: 2px; float:left; margin-left: 0px;"><form id="frmSearch" action="index.php?n=Main&o=results" method="GET" onsubmit=" el=document.getElementById('txtSearch'); if(el.value) return true;  else return false;"><input name="txtSearch" style="width: 160px; padding: 3px 0px; font-size: 12px; text-align: center; " type="text" class="searchbox" value="enter search criteria here" onfocus="this.value='';"	 id="txtSearch" /><input type="hidden" name="n" value="Main"><input type="hidden" name="o" value="results"></form></div>
+		<div style="text-align:left; margin-left: 165px;"><a href="#self" target="_self" onclick="el=document.getElementById('frmSearch'); el2=document.getElementById('txtSearch'); if(el2.value) el.submit(); "><img src="images/icon_srch.gif" alt="search" name="iconsrch" width="24" height="24" border="0" id="iconsrch" onmouseover="MM_swapImage('iconsrch','','images/icon_srch_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+	</td>
+	<td valign="top" align="center" style="padding-bottom: 20px;"><a href="index.php" target="_self"><img style="position:relative; top: 20px;" src="images/logo_hf.gif" name="logo" border="0" id="logo" /></a></td>
+	<td valign="bottom" align="right" style="padding-right: 14px;"><img src="images/logo_startfresh.jpg" alt="Start Fresh" width="189" height="40" style="visibility: hidden;" /> </td>
+	</tr>
+	<tr>
+		<td colspan="3" height="20"></td>
+	</tr>
+</table>
+ {LAYOUT_MENU}
+  <!-- end of menu div -->
+  <!-- begin container for content -->
+  <div class="container-content2">
+    <div class="content-pri">
+    <!-- begin the primary page content-->
+{LAYOUT_BODY}
+{LAYOUT_BOTTOM_BANNERS}
+<!-- end of bottombanner-->
+    </div>
+    <!-- end of content-pri - the primary page content-->
+    {LAYOUT_BANNERS}
+  </div>
+  <!-- end of rightnav -->
+  <!-- end of container for content -->
+{LAYOUT_FOOTER}
+  <!-- end of container-foot-->
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-1342185-45");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+{LAYOUT_ERROR}

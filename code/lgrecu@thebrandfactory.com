@@ -1,0 +1,1 @@
+Flyer was activated succesfully

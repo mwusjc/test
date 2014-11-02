@@ -1,0 +1,186 @@
+<!-- START BLOCK : frmEdit -->
+<table width="90%" border="0" cellspacing="0" cellpadding="0">
+	<tr> 
+		<td width="476" align="left" valign="top"> 
+			<form name="frmEdit" method="POST" action="{frmEdit_ACTION}" onsubmit="return frmEdit_validate();">
+				<br>
+				<table width="300" border="0" cellspacing="0" cellpadding="0">
+					<tr> 
+						<td valign="middle" class="copy">For more information 
+							about our company and our service, please complete this 
+							inquiry form:<br>
+						</td>
+					</tr>
+				</table>
+				<table width="300" border="0" cellspacing="0" cellpadding="2" class="copy">
+					<tr> 
+						<td valign="middle" class="copy" width="100"> 
+							<p>name:</p>
+						</td>
+						<td valign="middle" width="200"> 
+							{Name}
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle" class="copy" width="100"> 
+							<p>address:</p>
+						</td>
+						<td valign="middle" width="200"> 
+							{Address}
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle" class="copy" width="100"> 
+							<p>city:</p>
+						</td>
+						<td valign="middle" width="200"> 
+							{City}
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100"> 
+							<p>province:</p>
+						</td>
+						<td valign="middle" width="200"> 
+							<select name="Province">
+								<option value="select one" selected>select one</option>
+								<option value="Alberta">Alberta</option>
+								<option value="British Columbia">British Columbia</option>
+								<option value="Manitoba">Manitoba</option>
+								<option value="New Brunswick">New Brunswick</option>
+								<option value="New Foundland">New Foundland</option>
+								<option value="North West Teritories">North West Teritories</option>
+								<option value="Nova Scotia">Nova Scotia</option>
+								<option value="Nunavut">Nunavut</option>
+								<option value="Ontario">Ontario</option>
+								<option value="Prince Edward Island">Prince Edward Island</option>
+								<option value="Quebec">Quebec</option>
+								<option value="Saskatchewan">Saskatchewan</option>
+								<option value="Yukon">Yukon</option>
+							</select>
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100"> 
+							<p>postal code:</p>
+						</td>
+						<td valign="middle" width="200"> 
+							{PostalCode}
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100"> 
+							<p>phone:</p>
+						</td>
+						<td valign="middle" width="200"> 
+							{Phone}
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100"> 
+							<p>fax:</p>
+						</td>
+						<td valign="middle" width="200"> 
+							{Fax}
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100"> 
+							<p>email:</p>
+						</td>
+						<td valign="middle" width="200"> 
+							{Email}
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100">interested 
+							in: </td>
+						<td valign="middle"> 
+							<input type="checkbox" name="Interest1" value="home addition">
+							home addition</td>
+					</tr>
+<tr> 
+						<td valign="middle"  class="copy" width="100">&nbsp;</td>
+						<td valign="middle"> 
+							<input type="checkbox" name="Interest2" value="home renovation">
+							home renovation</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100">&nbsp;</td>
+						<td valign="middle"> 
+							<input type="checkbox" name="Interest3" value="basement renovation">
+							basement renovation</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100">&nbsp;</td>
+						<td valign="middle"> 
+							<input type="checkbox" name="Interest4" value="kitchen renovation">
+							kitchen renovation</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100">&nbsp;</td>
+						<td valign="middle"> 
+							<input type="checkbox" name="Interest5" value="general contractor">
+							<span class="copy"> general contractor</span></td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100">&nbsp;</td>
+						<td valign="middle"> 
+							<input type="checkbox" name="Interest6" value="other">
+							<span class="copy">other </span></td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100">you are 
+							a:</td>
+						<td valign="middle" width="200"> 
+							<select name="Type">
+								<option value="select one" SELECTED>select one</option>
+								<option value="home owner">home owner</option>
+								<option value="architect">architect</option>
+								<option value="designer & decorator">designer & decorator</option>
+								<option value="contractor">contractor</option>
+								<option value="project manager">project manager</option>
+								<option value="property manager">property manager</option>
+							</select>
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100">please select:</td>
+						<td valign="middle" width="200"> 
+							<select name="Referral">
+								<option value="How did you find our website?">How 
+								did you find our website?</option>
+								<option value="Friend/Family">Friend/Family</option>
+								<option value="Signs/Vehicle">Signs/Vehicle</option>
+								<option value="Trade Show">Trade Show</option>
+								<option value="GoPro.ca">GoPro.ca</option>
+								<option value="Renovations.ca">Renovations.ca</option>
+								<option value="Search Engine">Search Engine</option>
+								<option value="Yellow Pages">Yellow Pages</option>
+								<option value="Print Ad">Print Ad</option>
+								<option value="Radio Ad">Radio Ad</option>
+								<option value="T.V. Ad">T.V. Ad</option>
+							</select>
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100">details:</td>
+						<td valign="middle" width="200"> 
+							{Comments}
+						</td>
+					</tr>
+					<tr> 
+						<td valign="middle"  class="copy" width="100">&nbsp;</td>
+						<td valign="middle" width="200"> 
+							<input type="submit" name="frmEdit_SUBMIT_NAME" value="send">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</td>
+	</tr>
+	<tr> 
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<!-- END BLOCK : frmEdit -->
