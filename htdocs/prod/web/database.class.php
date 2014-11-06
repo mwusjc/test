@@ -7,10 +7,10 @@
 
 class CDatabase {
 
-	var $mHost = "192.168.1.166";
-	var $mUser = "admin";
+	var $mHost = "valhalla-prod.cb1qb4plxjpf.us-east-1.rds.amazonaws.com";
+	var $mUser = "highland";
 	var $mDb = "highland";
-	var $mPass = "6xfjybxk";
+	var $mPass = "1mn9alXLS65zYbK3pHxRgjC";
 	var $mConnection;
 	var $mQueryCnt = 0;
 	var $mLogging = false;
