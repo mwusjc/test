@@ -191,7 +191,8 @@
 		die();
 		$id = $this->mDatabase->getValue("flyers", "max(ID)");
 		$flyer = new CFlyer($id);
-		$ret = $flyer->emailFlyer();
+		//$ret = $flyer->emailFlyer();
+
 //		if ($flyer->mRowObj->Status == "disabled") {
 //			$flyer->toggle("on");
 //			$ret = $flyer->emailFlyer();

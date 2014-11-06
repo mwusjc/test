@@ -117,7 +117,7 @@ class CFlyer extends CDBContent {
 			$cmd = "copy \"" . str_replace("/","\\",$page[0]) ."\" \"media\\flyers\\flyer_" . $this->mRowObj->ID . "\\mainpage.jpg\"";
 			exec($cmd);
 //			die('a');
-			$ret = $this->emailFlyer();
+			//$ret = $this->emailFlyer();
 		}
 		$this->easySave();
 		Return true;
@@ -169,7 +169,7 @@ class CFlyer extends CDBContent {
 //			$mail->AddAddress($val["Email"], $val["FirstName"] . " " . $val["LastName"]);
 //			$mail->Body    = $message;
 //			$mail->AltBody    = $message;
-			mail($val["Email"], "This week's flyer", $message, $headers);
+			//mail($val["Email"], "This week's flyer", $message, $headers);
 //			$mail->ClearAddresses();					
 		}
 		$this->mRowObj->EmailsSent = count($data);
