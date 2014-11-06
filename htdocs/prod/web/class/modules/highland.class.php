@@ -686,8 +686,8 @@ function sendInvite() {
 	$headers .= 'From: '.$_GET["fromemail"].'' . "\r\n";
 
 
-	$txt = "<div style='width: 400px; font-family: Arial; color: #444; font-size: 12px; text-align: left;'><p><img src='http://www.highlandfarms.ca/".$product->mRowObj->Image."' style=' margin: 0x 10px 10px 0px'><br><br> I think you will appreciate this " . $product->mRowObj->Name . " at ".$product->mRowObj->Pricing."</p>";
-	$txt .= "<p>Follow <a href='http://www.highlandfarms.ca/index.php?n=Flyers&o=main&id=".$page."'>this link</a> to view this and other great deals in their online flyer</p></div>";
+	$txt = "<div style='width: 400px; font-family: Arial; color: #444; font-size: 12px; text-align: left;'><p><img src='".APP_SERVER_NAME.$product->mRowObj->Image."' style=' margin: 0x 10px 10px 0px'><br><br> I think you will appreciate this " . $product->mRowObj->Name . " at ".$product->mRowObj->Pricing."</p>";
+	$txt .= "<p>Follow <a href='".APP_SERVER_NAME."/index.php?n=Flyers&o=main&id=".$page."'>this link</a> to view this and other great deals in their online flyer</p></div>";
 	mail($obj->mRowObj->Email, "Highland Farm deals and special offers", $txt, $headers);
 	xml("<result>ok</result>");
 }

@@ -94,29 +94,29 @@ class CFlyerManager extends CSectionManager
 
 			if (!$_GET["mode"]) {
 				$this->mDocument->mHead->addScript(new CScript("", "js/flyer_popup.js"));
-				 $this->mDocument->mHead->addScript(new CScript(" var flyerpics = ['','']; flyerpics[0] = 'http://www.highlandfarms.ca/".$pics[$this->mPastFlyer]["PageLocation"]."';  flyerpics[1] = 'http://www.highlandfarms.ca/".$pics[$this->mCurrentFlyer]["PageLocation"]."'; var flyerdates = []; flyerdates[0] = '".date("F d, Y", $pics[$this->mPastFlyer]["Week"]+ 12000)." <br>to ".date("F d, Y", $pics[$this->mPastFlyer]["WeekEnds"]+ 12000)."';flyerdates[1] = '".date("F d, Y", $pics[$this->mCurrentFlyer]["Week"]+ 12000)." <br>to ".date("F d, Y", $pics[$this->mCurrentFlyer]["WeekEnds"]+ 12000)."';"));
+				 $this->mDocument->mHead->addScript(new CScript(" var flyerpics = ['','']; flyerpics[0] = '".APP_SERVER_NAME.$pics[$this->mPastFlyer]["PageLocation"]."';  flyerpics[1] = '".APP_SERVER_NAME.$pics[$this->mCurrentFlyer]["PageLocation"]."'; var flyerdates = []; flyerdates[0] = '".date("F d, Y", $pics[$this->mPastFlyer]["Week"]+ 12000)." <br>to ".date("F d, Y", $pics[$this->mPastFlyer]["WeekEnds"]+ 12000)."';flyerdates[1] = '".date("F d, Y", $pics[$this->mCurrentFlyer]["Week"]+ 12000)." <br>to ".date("F d, Y", $pics[$this->mCurrentFlyer]["WeekEnds"]+ 12000)."';"));
 			}
 
 			$this->newBlock("COMINGBOX");
 			$this->assign("Title", "VIEW CURRENT FLYER"); 
 			$this->assign("Mode", "previous"); 
-			$this->assign("FlyerImage", "http://www.highlandfarms.ca/".$boxflyer["PageLocation"]);
-			$this->assign("FlyerPDF", "http://www.highlandfarms.ca/".$boxflyer["PDF"]);
+			$this->assign("FlyerImage", APP_SERVER_NAME.$boxflyer["PageLocation"]);
+			$this->assign("FlyerPDF", APP_SERVER_NAME.$boxflyer["PDF"]);
 			$this->assign("Effective", "Effective ".date("F d, Y", $boxflyer["Week"]+12000) . " to " . date("F d, Y", $boxflyer["WeekEnds"]+12000));
 
 
 			$this->newBlock("COMINGBOX");
 			$this->assign("Title", "VIEW UPCOMING FLYER"); 
 			$this->assign("Mode", "standard"); 
-			$this->assign("FlyerImage", "http://www.highlandfarms.ca/".$boxflyer2["PageLocation"]);
-			$this->assign("FlyerPDF", "http://www.highlandfarms.ca/".$boxflyer2["PDF"]);
+			$this->assign("FlyerImage", APP_SERVER_NAME.$boxflyer2["PageLocation"]);
+			$this->assign("FlyerPDF", APP_SERVER_NAME.$boxflyer2["PDF"]);
 			$this->assign("Effective", "Effective ".date("F d, Y", $boxflyer2["Week"]+12000) . " to " . date("F d, Y", $boxflyer2["WeekEnds"]+12000));
 
 		}		 else {
 				$this->newBlock("CURRENT");
 			$pdf =$this->mDatabase->getValue("flyers", "PDF", "ID = " . intval($this->mCurrentFlyer));
 			
-			$this->assign("FlyerPDF", "http://www.highlandfarms.ca/".$pdf);
+			$this->assign("FlyerPDF", APP_SERVER_NAME.$pdf);
 
 		}
 
@@ -469,7 +469,7 @@ ORDER BY d.Name ASC";
 			CFileManager::download($flyer->mRowObj->PDF);
 			$this->redirect("index.php");
 		} else {
-			$this->redirect("http://www.highlandfarms.ca/index.php?n=Flyers&o=main");
+			$this->redirect(APP_SERVER_NAME."/index.php?n=Flyers&o=main");
 		}
 	}
 
@@ -484,7 +484,7 @@ ORDER BY d.Name ASC";
 			CFileManager::download($flyer->mRowObj->PDF);
 			$this->redirect("index.php");
 		} else {
-			$this->redirect("http://www.highlandfarms.ca/index.php?n=Flyers&o=main");
+			$this->redirect(APP_SERVER_NAME."/index.php?n=Flyers&o=main");
 		}
 		
 	}

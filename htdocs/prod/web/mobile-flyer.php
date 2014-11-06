@@ -73,7 +73,7 @@ function MM_preloadImages() { //v3.0
 		</div>
 <img src="images/hf-slogan.jpg" style="margin-top: 60px" >
 
-		<div class="footer"><a href="http://www.highlandfarms.ca/index.php?desktop=yes">switch to desktop version</a><div>
+		<div class="footer"><a href="/index.php?desktop=yes">switch to desktop version</a><div>
 		<div class="footer2">Copyright &copy; 2010 Highland Farms<div>
 	
 

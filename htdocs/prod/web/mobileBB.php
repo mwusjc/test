@@ -245,7 +245,7 @@ function die2($x) {
 						<td width="20" valign="middle" align="right"><img src="images/arrow-right.jpg" onclick="slideRight()" style="cursor: pointer;"></td>
 						</tr>
 		</table>
-		<div class="footer"><a href="http://www.highlandfarms.ca/index.php?desktop=yes"><b>switch to desktop version</b></a><div>
+		<div class="footer"><a href="/index.php?desktop=yes"><b>switch to desktop version</b></a><div>
 		<div class="footer2">Copyright &copy; 2010 Highland Farms<div>
 		<div>
 	</div>
