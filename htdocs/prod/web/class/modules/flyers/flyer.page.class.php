@@ -65,7 +65,7 @@ class CFlyerPage extends CDBContent {
 		$vForm->addText("Week", date("l, F d", $week));
 
 		if ($this->mRowObj->PageLocation) {
-			$vForm->addText("Thumbnail", "<a href=\"".$this->mRowObj->PageLocation."\" target=\"blank\"><img  height=72 src='".$this->mRowObj->Thumbnail."'></a>");
+			$vForm->addText("Thumbnail", "<a href=\"".$this->mRowObj->PageLocation."\" target=\"blank\"><img width=150 src='".$this->mRowObj->PageLocation."'></a>");
 		}
   	  $input = new CInputFile("Path", "");
 	  $input->setClass("required size300");
@@ -117,22 +117,24 @@ class CFlyerPage extends CDBContent {
 	  Return $this->flushTemplate() . $script;
 	}
 
-
-	/** comment here */
+	/**
+		@comment
+  		i'd like to know why these image variants all have the same height. is that an oversight?
+  		_sean.
+	*/
 	function save() {
 
 		$this->registerForm();
 		if ($_FILES["Path"]["name"]) {
 			$newsrc = "page_bg_" . date("YmdHis")  ;
 		  $path = $this->mDocument->mFileObj->upload2("Path", "any", "media/flyers/flyer_" . $this->mRowObj->FlyerID . "/pages/" . $newsrc);
-//		  die($path);
+		  // die($path);
 		  if ($path) {
 			$this->mDocument->mFileObj->resize($path, 600, 5000);
 			$halfsize = str_replace(".", "_hf.", $path);
 			$this->mDocument->mFileObj->resize2($path, $halfsize, 300, 5000);
 			$this->mRowObj->PageLocation = $path;
 			$this->mRowObj->Thumbnail = $this->mDocument->mFileObj->thumbnail($path, 150, 5000);
-
 		  }
 	  	}
 
