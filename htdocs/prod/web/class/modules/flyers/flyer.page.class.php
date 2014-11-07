@@ -25,13 +25,13 @@ class CFlyerPage extends CDBContent {
 
 		$region = "";
 		if ($this->mRowObj->ID) {
-			  $this->resetTemplate("templates/flyers/page.html");
-			  $this->assign("Image", $this->mRowObj->PageLocation);
-			  $x = GetImageSize($this->mRowObj->PageLocation);
-			  $this->assign("Width", $x[0]);
-			  $this->assign("Height", $x[1]);
-			  $region = $this->flushTemplate();
-			  $this->mDocument->mHead->addScript(new CScript("", "js/flyer.js"));
+			$this->resetTemplate("templates/flyers/page.html");
+			$this->assign("Image", $this->mRowObj->PageLocation);
+			$x = GetImageSize($this->mRowObj->PageLocation);
+			$this->assign("Width", $x[0]);
+			$this->assign("Height", $x[1]);
+			$region = $this->flushTemplate();
+			$this->mDocument->mHead->addScript(new CScript("", "js/flyer.js"));
 		}
 
 	  $this->resetTemplate("templates/flyers/flyer_page.html");

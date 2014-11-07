@@ -55,7 +55,14 @@ class CFileManager {
 
 	/** upload file to the server */
 	function uploadFile($pFile,$pUploadPath) {
-//die($pUploadPath);
+
+		//	create the dir if it doesn't exist
+		$dir_bits = explode('/',$pUploadPath);
+		array_pop($dir_bits);
+		$the_dir = implode('/',$dir_bits);
+		mkdir($the_dir,0777,true);
+
+		//die($pUploadPath);
 		if($ret = move_uploaded_file($pFile,$pUploadPath)) {
 			Return true;
 		} else {
@@ -180,7 +187,7 @@ class CFileManager {
 		} // if
 
 	$newFileName = md5(uniqid(rand(), true));
-	$vFullPath = "$this->mUploadDir/fullimages/$newFileName";
+	$vFullPath = $this->mUploadDir . "/fullimages/$newFileName";
 
 		Return $vFullPath;
 	}
@@ -205,6 +212,7 @@ class CFileManager {
 
 	/** comment here */
 	function upload2($pName, $pType, $pFileName) {
+
 		$file = $_FILES[$pName];
 		if (!$file["name"]) Return false;
 		$fileparts = explode(".", $file["name"]);
@@ -212,7 +220,7 @@ class CFileManager {
 		$check = $this->verifyExt($ext, $pType);
 		if ($check) {
 			$vName = $pFileName . "." . $ext;
-			if ($this->uploadFile($file["tmp_name"], $vName)) Return $vName;
+			if ($this->uploadFile($file["tmp_name"], APP_BASE_PATH . $vName)) Return $vName;
 			else Return false;
 		} else {
 			Return false;
@@ -221,6 +229,7 @@ class CFileManager {
 
 	/** comment here */
 	function simpleUpload($pDir = "media/uploads") {
+
 		foreach ($_FILES as $key=>$val) {
 			$pName = $key;
 		}

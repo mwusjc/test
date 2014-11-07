@@ -11,9 +11,9 @@
 
 	/** comment here */
 	function _init() {
-	  session_register("gErrorStack");
-	  if (!isset($_SESSION["gErrorStack"])) $_SESSION["gErrorStack"] = array();
-	  $this->mErrors = $_SESSION["gErrorStack"];
+		session_start();
+		if (!isset($_SESSION["gErrorStack"])) $_SESSION["gErrorStack"] = array();
+		$this->mErrors = $_SESSION["gErrorStack"];
 	}
 
 	/** comment here */

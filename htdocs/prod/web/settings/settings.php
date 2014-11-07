@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('UTC');
+
 # Control Settings
 DEFINE("INI_TEST_MODE", true);#VERISIGN USER NAME
 
