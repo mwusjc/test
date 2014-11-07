@@ -3,6 +3,9 @@
 * @package System
 * @author Lucian Grecu
 */
+
+include_once('function.sizeify.php');
+
 class CFileManager {
 	var $mBaseDir;
 	var $mUploadDir = 'media';
@@ -60,7 +63,9 @@ class CFileManager {
 		$dir_bits = explode('/',$pUploadPath);
 		array_pop($dir_bits);
 		$the_dir = implode('/',$dir_bits);
-		mkdir($the_dir,0777,true);
+		if (!file_exists($the_dir)) {
+			mkdir($the_dir,0777,true);
+		}
 
 		//die($pUploadPath);
 		if($ret = move_uploaded_file($pFile,$pUploadPath)) {
@@ -246,33 +251,73 @@ class CFileManager {
 	/** comment here */
 	function thumbnail($src, $width, $height = 0) {
 		if (!$height) $height = $width;
-
+		/*
 		$tmp = explode(".", $src);
 		$ext = array_pop($tmp);
 		$newsrc = implode("_", $tmp) . "_tn." . $ext;
 		passthru("convert.exe  \"".$src."\" -thumbnail \"".$width."x".$height.">\" \"".$newsrc."\"");
 		Return $newsrc;
+		*/
+		$sizeify_args = 'w' . $width . 'x' . $height;
+		$r = sizeify(APP_SERVER_NAME.$src, $sizeify_args);
+		return $r;
 	}
 
 	/** comment here */
 	function thumbnail2($src, $newsrc, $width, $height = "") {
 		if (!$height) $height = $width;
-		copy($src, $newsrc);
+		copy(APP_BASE_PATH.$src, APP_BASE_PATH.$newsrc);
+		/*
 		passthru("convert.exe  \"".$newsrc."\" -thumbnail \"".$width."x".$height.">\" \"".$newsrc."\"");
 		Return $newsrc;
+		*/
+		$sizeify_args = 'w' . $width . 'x' . $height;
+		$r = sizeify(APP_SERVER_NAME.$newsrc, $sizeify_args);
+		return $r;
 	}
 
 	/** comment here */
 	function resize($src, $width, $height = 0) {
 		if (!$height) {
-			$x = GetImageSize($src);
-			$height = $x[1] * $width / $x[0];
+			$x = getimagesize(APP_BASE_PATH.$src);
+			$height = $x[1] * ($width / $x[0]);
 		}
-		copy($src, $src . ".old");
-		unlink($src);
+
+		try {
+			$img = new Imagick();
+			$img->readImage(APP_BASE_PATH.$src);
+			$img->thumbnailImage($width,$height,true);
+			unlink(APP_BASE_PATH.$src);
+			$img->writeImage(APP_BASE_PATH.$src);
+			return true;
+		} catch (Exception $e) {
+			error_log( $e->getMessage() );
+			$this->error( $e->getMessage() );
+			return false;
+		}
+
+		/*
+		$sizeify_args = 'w' . $width . 'x' . $height;
+		$s = sizeify(APP_SERVER_NAME.$src, $sizeify_args);
+
+		if(!@copy($s, APP_BASE_PATH.$src.'.NEW')) {
+			$errors = error_get_last();
+			error_log( json_encode($errors) );
+			return false;
+		} else {
+			unlink(APP_BASE_PATH.$src);
+			rename(APP_BASE_PATH.$src.'.NEW',APP_BASE_PATH.$src);
+			return true;
+		}
+		*/
+
+		/*
+		copy(APP_BASE_PATH.$src, APP_BASE_PATH.$src . ".old");
+		unlink(APP_BASE_PATH.$src);
 		passthru("convert.exe  \"".addslashes($src).".old\" -thumbnail \"".$width."x".$height.">\" \"".addslashes($src)."\"");
 		unlink($src . ".old");
 		Return true;
+		*/
 	}
 
 	/** comment here */

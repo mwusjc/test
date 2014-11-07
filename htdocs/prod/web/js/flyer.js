@@ -285,7 +285,7 @@ function updateSlices() {
 	for (i in slices)
 	{
 		if (slices[i].selected) bgcl = "#cccccc"; else bgcl = "#f0f0f0";
-		if (slices[i].id) txt += "<tr><td style='width: 290px; vertical-align: middle; background-color: "+bgcl+"; color: #000; padding: 5px 2px; margin-bottom: 1px; cursor: pointer;' onclick='toggleSlice(\""+slices[i].id+"\");'>Region  # " + i + "</td><td style='width: 20px; vertical-align: middle;background-color: "+bgcl+"; '><a href='#self' onclick='removeSlice(\"region_"+i+"\")'><img src='_common/images/common/small/delete2.png' border='0'></a></td></tr>";
+		if (slices[i].id) txt += "<tr><td style='width: 290px; vertical-align: middle; background-color: "+bgcl+"; color: #000; padding: 5px 2px; margin-bottom: 1px; cursor: pointer;' onclick='toggleSlice(\""+slices[i].id+"\");'>Region  # " + i + "</td><td style='width: 20px; vertical-align: middle;background-color: "+bgcl+"; '><a href='#self' onclick='removeSlice(\"region_"+i+"\")'><img src='/_common/images/common/small/delete2.png' border='0'></a></td></tr>";
 	}
 	txt += "</table>";
 	container.innerHTML = txt;
