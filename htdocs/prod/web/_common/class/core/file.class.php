@@ -258,14 +258,8 @@ class CFileManager {
 		passthru("convert.exe  \"".$src."\" -thumbnail \"".$width."x".$height.">\" \"".$newsrc."\"");
 		Return $newsrc;
 		*/
-
 		$sizeify_args = $width . 'x' . $height;
 		$r = sizeify(APP_SERVER_NAME.$src, $sizeify_args);
-
-		error_log('thumb:: ' . $src);
-		error_log('absthumb:: ' . APP_SERVER_NAME.$src);
-		error_log('sizeify:: ' . $r );
-
 		return $r;
 	}
 
