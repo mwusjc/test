@@ -11,6 +11,8 @@ var masterWidth = 600;
 var toggleAutoShow = true;
 var showAutoAlert = true;
 
+var imgz = {};
+
 function initFlyer(pageid) {
 	if (!pageid) pageid = 0;
 	loadPage(pageid);
@@ -172,9 +174,20 @@ function showProductOnClick(obj, e) {
 
 function buildMouseover(productID) {
 
+	var txt;
+
+	if (!(productID in imgz)) {
+		imgz[productID] = {
+			rootRelative: products[productID].image,
+			fullyQualified: document.domain + '/' + products[productID].image,
+			thumb: sizeify(document.domain + '/' + products[productID].image,'p80')
+		};
+	}
+
 	txt = '<table class = "flyermo content" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"><tr>';
     txt += '<td valign=top> ';
-    txt += '<img src="'+products[productID].image.replace(".","_tn.")+'" alt="roast" /></td><td style="text-align: left"><table cellspacing=0 cellpadding=0><tr><td><b>';
+    //txt += '<img src="'+products[productID].image.replace(".","_tn.")+'" alt="roast" /></td><td style="text-align: left"><table cellspacing=0 cellpadding=0><tr><td><b>';
+    txt += '<img src="' + imgz[productID].thumb + '" alt="roast" /></td><td style="text-align: left"><table cellspacing=0 cellpadding=0><tr><td><b>';
 	txt += products[productID].name+'</b></td><td><img src="images/icon_delte_up.gif" onclick="hideProduct2(obj,event);" style="cursor: pointer; " onmouseover="this.src=\'images/icon_delte_over.gif\'"  onmouseout="this.src=\'images/icon_delte_up.gif\'"></td></tr></table><br />';
     txt += '<div class="mo-price" style="margin:5px 0 5px 0;"> $'+products[productID].pricing+'</div>';
     if (products[productID].packaging) txt += '<div style="margin:5px 0 5px 0; padding-left: 0px;"> '+products[productID].packaging+'</div>';

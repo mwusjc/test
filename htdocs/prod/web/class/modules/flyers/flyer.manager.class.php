@@ -67,21 +67,18 @@ class CFlyerManager extends CSectionManager
   // shows a list of available countries
     function display($pageid) {
 
-	STitle::set(APP_TITLE_SHORT . " - Browse Our Online Flyer, updated every Thursday");
-	 $this->mDocument->mPageTemplate = "templates/flyer.html";
-	 $this->mDocument->setPiece("BOTTOM_BANNERS", "");
-//	  $this->mDocument->mHead->addScript(new CScript("", "js/fsmenu.js"));
-	  $this->mDocument->mHead->addScript(new CScript("", "js/hfmenu.js"));
-	  $this->mDocument->mHead->addScript(new CScript("", "js/flyer_main.js"));
-	  $this->mDocument->mHead->addCss("css/listmenu_h.css");
-	  $this->mDocument->mHead->addCss("css/listmenu_hHF.css");
-
-
-
-
+		STitle::set(APP_TITLE_SHORT . " - Browse Our Online Flyer, updated every Thursday");
+		$this->mDocument->mPageTemplate = "templates/flyer.html";
+		$this->mDocument->setPiece("BOTTOM_BANNERS", "");
+		//	  $this->mDocument->mHead->addScript(new CScript("", "js/fsmenu.js"));
+		$this->mDocument->mHead->addScript(new CScript("", "js/hfmenu.js"));
+		$this->mDocument->mHead->addScript(new CScript("", "js/sizeify.js"));
+		$this->mDocument->mHead->addScript(new CScript("", "js/flyer_main.js"));
+		$this->mDocument->mHead->addCss("css/listmenu_h.css");
+		$this->mDocument->mHead->addCss("css/listmenu_hHF.css");
 		$this->resetTemplate("templates/flyers/flyer_container.html");
 		$id = $this->getID();
-//die2($id);
+		//die2($id);
 
 		$this->loadBrands($id);
 		
@@ -178,6 +175,7 @@ class CFlyerManager extends CSectionManager
 		 $this->mDocument->mPageTemplate = "templates/flyer.html";
 //		  $this->mDocument->mHead->addScript(new CScript("", "js/fsmenu.js"));
 		  $this->mDocument->mHead->addScript(new CScript("", "js/hfmenu.js"));
+		  $this->mDocument->mHead->addScript(new CScript("", "js/sizeify.js"));
 		  $this->mDocument->mHead->addScript(new CScript("", "js/flyer_main.js"));
 		  $this->mDocument->mHead->addCss("css/listmenu_h.css");
 		  $this->mDocument->mHead->addCss("css/listmenu_hHF.css");
@@ -217,6 +215,7 @@ class CFlyerManager extends CSectionManager
 		 $this->mDocument->mPageTemplate = "templates/flyer.html";
 //		  $this->mDocument->mHead->addScript(new CScript("", "js/fsmenu.js"));
 		  $this->mDocument->mHead->addScript(new CScript("", "js/hfmenu.js"));
+		  $this->mDocument->mHead->addScript(new CScript("", "js/sizeify.js"));
 		  $this->mDocument->mHead->addScript(new CScript("", "js/flyer_main.js"));
 		  $this->mDocument->mHead->addCss("css/listmenu_h.css");
 		  $this->mDocument->mHead->addCss("css/listmenu_hHF.css");
@@ -258,6 +257,7 @@ class CFlyerManager extends CSectionManager
 		 $this->mDocument->mPageTemplate = "templates/flyer.html";
 //		  $this->mDocument->mHead->addScript(new CScript("", "js/fsmenu.js"));
 		  $this->mDocument->mHead->addScript(new CScript("", "js/hfmenu.js"));
+		  $this->mDocument->mHead->addScript(new CScript("", "js/sizeify.js"));
 		  $this->mDocument->mHead->addScript(new CScript("", "js/flyer_main.js"));
 		  $this->mDocument->mHead->addCss("css/listmenu_h.css");
 		  $this->mDocument->mHead->addCss("css/listmenu_hHF.css");
@@ -307,6 +307,7 @@ class CFlyerManager extends CSectionManager
 		 $this->mDocument->mPageTemplate = "_common/templates/print.html";
 //		  $this->mDocument->mHead->addScript(new CScript("", "js/fsmenu.js"));
 		  $this->mDocument->mHead->addScript(new CScript("", "js/hfmenu.js"));
+		  $this->mDocument->mHead->addScript(new CScript("", "js/sizeify.js"));
 		  $this->mDocument->mHead->addScript(new CScript("", "js/flyer_main.js"));
 		  $this->mDocument->mHead->addCss("css/listmenu_h.css");
 		  $this->mDocument->mHead->addCss("css/listmenu_hHF.css");
@@ -357,6 +358,7 @@ class CFlyerManager extends CSectionManager
 	 $this->mDocument->setPiece("BOTTOM_BANNERS", "");
 //	  $this->mDocument->mHead->addScript(new CScript("", "js/fsmenu.js"));
 	  $this->mDocument->mHead->addScript(new CScript("", "js/hfmenu.js"));
+	  $this->mDocument->mHead->addScript(new CScript("", "js/sizeify.js"));
 	  $this->mDocument->mHead->addScript(new CScript("", "js/flyer_main.js"));
 	  $this->mDocument->mHead->addCss("css/listmenu_h.css");
 	  $this->mDocument->mHead->addCss("css/listmenu_hHF.css");
@@ -392,6 +394,7 @@ class CFlyerManager extends CSectionManager
 	 $this->mDocument->setPiece("BOTTOM_BANNERS", "");
 //	  $this->mDocument->mHead->addScript(new CScript("", "js/fsmenu.js"));
 	  $this->mDocument->mHead->addScript(new CScript("", "js/hfmenu.js"));
+	  $this->mDocument->mHead->addScript(new CScript("", "js/sizeify.js"));
 	  $this->mDocument->mHead->addScript(new CScript("", "js/flyer_main.js"));
 	  $this->mDocument->mHead->addCss("css/listmenu_h.css");
 	  $this->mDocument->mHead->addCss("css/listmenu_hHF.css");
