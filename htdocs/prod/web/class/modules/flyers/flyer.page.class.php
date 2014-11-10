@@ -130,7 +130,7 @@ class CFlyerPage extends CDBContent {
 		  $path = $this->mDocument->mFileObj->upload2("Path", "any", "media/flyers/flyer_" . $this->mRowObj->FlyerID . "/pages/" . $newsrc);
 		  // die($path);
 		  if ($path) {
-			$this->mDocument->mFileObj->resize($path, 600, 5000);
+			$this->mDocument->mFileObj->resize($path, 600, 3000);
 			$halfsize = str_replace(".", "_hf.", $path);
 			$this->mDocument->mFileObj->resize2($path, $halfsize, 300, 5000);
 			$this->mRowObj->PageLocation = $path;

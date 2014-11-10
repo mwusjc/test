@@ -377,7 +377,10 @@ class CFlyerManager extends CSectionManager
 		foreach ($pages as $key=>$val) {
 			$x = GetImageSize($val["PageLocation"]);
 			$script .= ' pages['.$key.'] = {id:'.$val["ID"].',image: "'.$val["PageLocation"].'", thumb: "'.$val["Thumbnail"].'", width:'.$x[0].', height:'.$x[1].'}; ';
-			$txt .= "<a href='index.php?n=Flyers&o=main&id=".($key+1)."'><img border='0' style='margin: 5px;' src='".$val["Thumbnail"]."' width=150></a>";
+			//	original markup
+			//	$txt .= "<a href='index.php?n=Flyers&o=main&id=".($key+1)."'><img border='0' style='margin: 5px;' src='".$val["Thumbnail"]."' width=150></a>";
+			//	avoid distortion
+			$txt .= "<a href='index.php?n=Flyers&o=main&id=".($key+1)."'><img border='0' style='margin: 5px;' src='".$val["Thumbnail"]."' width=150 height=185></a>";
 		}
 		$this->assign("PageList", $txt);
 
