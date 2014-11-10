@@ -134,7 +134,10 @@ class CFlyerPage extends CDBContent {
 			$halfsize = str_replace(".", "_hf.", $path);
 			$this->mDocument->mFileObj->resize2($path, $halfsize, 300, 5000);
 			$this->mRowObj->PageLocation = $path;
-			$this->mRowObj->Thumbnail = $this->mDocument->mFileObj->thumbnail($path, 150, 5000);
+			//	these are the original values which seem wrong
+			//	$this->mRowObj->Thumbnail = $this->mDocument->mFileObj->thumbnail($path, 150, 5000);
+			//	these are the actual dimension observed on the live site
+			$this->mRowObj->Thumbnail = $this->mDocument->mFileObj->thumbnail($path, 150, 185);
 		  }
 	  	}
 
