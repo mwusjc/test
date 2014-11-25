@@ -42,7 +42,9 @@
 			$menus["private_labels"] = array("ck", "Country Kitchen");
 			$menus["careers"] = array("jobs", "Jobs");
 			foreach ($menus as $key=>$val) {
-				if ($key == $_GET["o"])  $txt .= '<img src="images/mbttn_'.$val[0].'_dwn.gif" alt="'.$val[1].'" name="mbttn'.$key.'" border="0" id="mbttn'.$key.'"/></a>';
+				if ( !empty($_GET['o']) && $key == $_GET["o"] ) {
+					$txt .= '<img src="images/mbttn_'.$val[0].'_dwn.gif" alt="'.$val[1].'" name="mbttn'.$key.'" border="0" id="mbttn'.$key.'"/></a>';
+				}
 				else $txt .= '<a href="index.php?n=Main&o='.$key.'"><img src="images/mbttn_'.$val[0].'_up.gif" alt="'.$val[1].'" name="mbttn'.$key.'" border="0" id="mbttn'.$key.'" onmouseover="MM_swapImage(\'mbttn'.$key.'\',\'\',\'images/mbttn_'.$val[0].'_over.gif\',1)" onmouseout="MM_swapImgRestore()" /></a>';
 			}
 		$tpl->assign("Menu", $txt);

@@ -68,6 +68,9 @@ class CDatabase {
 
 	/** comment here */
 	function execute($pSql) {
+		if (!isset($vDiff)){
+			$vDiff = NULL;
+		}
 		if ($this->mLogging) $this->mBenchmark->timingStart('mysql');
 		$vResult = mysql_query($pSql,$this->mConnection);
 		if ($this->mLogging) $this->mBenchmark->timingStop('mysql');

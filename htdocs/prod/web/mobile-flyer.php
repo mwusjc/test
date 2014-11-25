@@ -19,12 +19,14 @@ $db->query("SET NAMES 'utf8'");
 <meta name="viewport" content="width=320" /> 
 <title>Highland Farms Mobile</title>
 <link rel="stylesheet" type="text/css" href="css/mobile.css"/>
+<!--
 <script type="text/javascript" src="js/tools.js" ></script>
 <script type="text/javascript" src="js/overlay.js" ></script>
-<script type="text/javascript" src="js/main.js" ></script>
 <script type="text/javascript" src="js/ajax.js" ></script>
 <script type="text/javascript" src="js/forms.js" ></script>
+-->
 <script type="text/javascript" src="js/mobile.js" ></script>
+<script type="text/javascript" src="js/main.js" ></script>
 <script type="text/JavaScript"> 
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
@@ -81,5 +83,13 @@ function MM_preloadImages() { //v3.0
 </div>
 
 </center>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56448531-1', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>

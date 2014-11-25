@@ -11,7 +11,11 @@ div.footer2 {width: 100%; background-color: #029e4b; padding: 3px 0px; text-alig
 div.footer a { color: #029e4b; font-size: 12px;text-decoration: none;}
 a.orange-button {display: block; padding: 3px 0px 3px 0px; background-color: #f78f1e; color: #fff; width: 80px; text-align: center; font-size: 13px; font-weight: normal; text-decoration: none;}
 
-a.button2 {display: block; padding: 4px 0px 4px 0px; border-top: 1px solid #6bc95b; color: #444; background-color: #f2f2f2; text-align: left; font-size: 14px; font-weight: bold; text-decoration: none; background-image: url(../images/arrow-down.jpg); background-repeat: no-repeat; background-position: 15px 6px;padding-left: 20px}
+a.button2 {display: block; padding: 4px 0px 4px 0px; border-top: 1px solid #6bc95b; color: #444; background-color: #f2f2f2; text-align: left; font-size: 14px; font-weight: bold; text-decoration: none;
+/*
+background-image: url(../images/arrow-down.jpg); background-repeat: no-repeat; background-position: 15px 6px;
+*/
+padding-left: 20px}
 div.content-area2 {padding: 10px 0px 10px 38px; display: none; background-color: #fafafa; line-height: 150%;}
 div.hr {width: 100%; border-top:  1px solid #6bc95b; font-size: 1px; margin-top: 15px; height: 1px; margin-bottom: 14px; clear: both;}
 

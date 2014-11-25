@@ -62,15 +62,17 @@ class CBenchmark {
 
 	/** just for debugging, info */
 	function logQuery($pQuery,$pTook) {
-		$fields = array('PageID'=>$GLOBALS["vDocument"]->mPageID,
-						'QueryStr'=>$pQuery,
-						'NumSecs'=>$pTook,
-						'FileTrace'=>'#'.$this->getFileTrace(),
-						'TimeStamp'=>time(),
+		/*
+		$fields = array(
+			'PageID'=>$GLOBALS["vDocument"]->mPageID,
+			'QueryStr'=>$pQuery,
+			'NumSecs'=>$pTook,
+			'FileTrace'=>'#'.$this->getFileTrace(),
+			'TimeStamp'=>time()
 		);
-
+		*/
+		$fields = array();
 		$this->mLog[] = $fields;
-
 	}
 		
 	/** log page stats into db */

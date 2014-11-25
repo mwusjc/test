@@ -133,7 +133,7 @@ class CHead extends CHtmlEntity{
 	
 	$tmp  = "<head>\n";
 	$tmp .= "<title>$this->mTitle</title>\n";
-	$tmp .= '<meta name="verify-v1" content="jjRkPLTPiAl8hc7vJo+LkAPpz9yKQqUKmvv/O7g3gMM=" />'."\n";
+	//$tmp .= '<meta name="verify-v1" content="jjRkPLTPiAl8hc7vJo+LkAPpz9yKQqUKmvv/O7g3gMM=" />'."\n";
 	$tmp .= "\n";
   
 	$tmp .= $this->displayMetas();

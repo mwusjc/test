@@ -1,4 +1,7 @@
 <?php
+
+date_default_timezone_set('UTC');
+
 include "benchmark.class.php";
 include "database.class.php";
 $db = new CDatabase();
@@ -6,7 +9,7 @@ $db->connect();
 $db->query("SET NAMES 'utf8'");
 
 
-if ($_GET["o"] == "find-store") {
+if ( isset($_GET['o']) && $_GET["o"] == "find-store") {
 	$sql = "select *  from stores where status = 'enabled'";
 	$stores = $db->getAll($sql);
 	$storecodes = array();
@@ -83,7 +86,7 @@ function MM_preloadImages() { //v3.0
 		<a href="mobile.php"><img src="images/logo_hf.gif" style="margin-top: 5px;"></a>
 		<div style="clear: both; height: 0px"></div>
 		<div>
-		<a href="mobile-flyer.php" style="display: none;"><img src="images/bt-flyer.jpg" style="float: left; margin-top: 5px;"></a>
+		<a href="mobile-flyer.php" style="display: none;"><!-- <img src="images/bt-flyer.jpg" style="float: left; margin-top: 5px;"> --></a>
 		
 		</div>
 		<div style="clear: both; height: 15px"></div>
@@ -118,7 +121,7 @@ function MM_preloadImages() { //v3.0
 		</table>
 		</form>
 <?php
-if ($store) {
+if ( !empty($store)) {
 
 echo "<div class='hr'></div>";
 echo "<div class='store'><b>" . $store["Name"] . "</b><br>" . $store["Address"] . " " . $store["City"] . ", ". $store["PostCode"] . "<br><br>";
@@ -213,7 +216,7 @@ echo "<script>showArea(1);</script>";
 <img src="images/logo.gif" width="100" style="margin-top: 8px" >
 <a class="button3" style="display: none;" href="#self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;THIS WEEK'S FLYER</a>
 <div style="width: 100%; text-align: left; margin-top: 10px;display: none;">
-<a href="mobile-flyer.php"><img src="images/flyer.jpg"></a>
+<a href="mobile-flyer.php"><!-- <img src="images/flyer.jpg"> --></a>
 </div>
 		<a class="button" style="display: none;" href="#self"></a>
 		<span style="padding-left: 0px; display: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This week at Highland Farms</span>
@@ -235,7 +238,7 @@ function die2($x) {
 		?>
 		<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#019f4a" STYLE="DISPLAy: none;">
 				<tr>
-						<td width="20" height="80" valign="middle" align="left"><img src="images/arrow-left.jpg" onclick="slideLeft()" style="cursor: pointer;"></td>
+						<td width="20" height="80" valign="middle" align="left"><!-- <img src="images/arrow-left.jpg" onclick="slideLeft()" style="cursor: pointer;"> --></td>
 						<td valign="middle" align="center" width="280"  >
 							<div style="width: 280px; overflow: hidden; margin-left: 0px; text-align: left; padding: 0px; ">
 								  <table cellpadding="0" cellspacing="0" id="slider" border="0" style="width: <?php echo $cnt * 280; ?>px">
@@ -256,7 +259,7 @@ function die2($x) {
 							  slideLength = -<?php echo ($cnt-1) * 280 - 10; ?>;
 							  </script>
 						</td>
-						<td width="20" valign="middle" align="right"><img src="images/arrow-right.jpg" onclick="slideRight()" style="cursor: pointer;"></td>
+						<td width="20" valign="middle" align="right"><!-- <img src="images/arrow-right.jpg" onclick="slideRight()" style="cursor: pointer;"> --></td>
 						</tr>
 		</table>
 		<div class="footer"><a href="/index.php?desktop=yes">switch to desktop version</a><div>
@@ -266,5 +269,13 @@ function die2($x) {
 </div>
 
 </center>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-56448531-1', 'auto');
+  ga('send', 'pageview');
+</script>
 </body>
 </html>
