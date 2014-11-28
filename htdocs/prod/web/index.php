@@ -3,7 +3,7 @@
 //	fix for bug # HF-22
 if (isset($_GET['n']) && $_GET['n'] == 'flyers') {
 	$_GET['n'] = 'Flyers';
-}	
+}
 	
 if ($_GET["desktop"]) setcookie("SiteVer", "desktop");
 
