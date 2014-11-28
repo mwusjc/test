@@ -1,4 +1,10 @@
 <?php
+	
+//	fix for bug # HF-22
+if (isset($_GET['n']) && $_GET['n'] == 'flyers') {
+	$_GET['n'] = 'Flyers';
+}	
+	
 include "_common/class/tools/functions.php";
 include "benchmark.class.php";
 include "database.class.php";

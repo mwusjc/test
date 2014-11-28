@@ -1,3 +1,3 @@
 <?php
-die(passthru("im_convert.exe"));
+//die(passthru("im_convert.exe"));
 ?>

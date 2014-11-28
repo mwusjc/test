@@ -1,5 +1,10 @@
 <?php
 
+//	fix for bug # HF-22
+if (isset($_GET['n']) && $_GET['n'] == 'flyers') {
+	$_GET['n'] = 'Flyers';
+}
+
 date_default_timezone_set('UTC');
 
 include "benchmark.class.php";
