@@ -12,7 +12,14 @@
 <div class="eflyercontainer">
 	<div class="left"></div>
 	<div class="right" id="mailchimp">
+		
+			<!--
 			<script src="//ajax.googleapis.com/ajax/libs/dojo/1.8/dojo/dojo.js" type="text/javascript"></script>
+			<script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.1/dojo/dojo.js"></script>
+			-->
+
+			<script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.1/dojo/dojo.js"></script>
+			
 			<script type="text/javascript">
 				require([
 				        "dojo/query",
@@ -42,6 +49,7 @@
 				        query('.addressfield input:text[value=""]').addClass('empty');
 				
 				        // Focus first input of birthdayfield or phonefield-us when parent wrapper is clicked
+
 				        query('div.subfields').on("click", function(e){
 				            var firstInput = query('input', e.target)[0];
 				            focusUtil.focus(firstInput);
@@ -79,11 +87,13 @@
 				
 				    });
 			</script>
+
 			<script type="text/javascript" src="http://www.google.com/jsapi"></script>
 			<script type="text/javascript">
-				google.load("jquery", "1.7.1");
+				google.load("jquery", "1.7");
 			</script>
 			<script type="text/javascript" src="http://downloads.mailchimp.com/js/jquery.mailcheck.min.js"></script>
+
 			<script type="text/javascript">
 				$(document).ready(function(){
 			        try {
@@ -114,6 +124,8 @@
 			        } catch(e){ console.log(e); }
 			    });
 			</script>
+
+
 		    <style type="text/css" scoped="scoped">
 		    label {
 			    display:block;
@@ -148,7 +160,10 @@
 		    background-color: rgb(255, 255, 255);
 		    color: rgb(0, 0, 0);
 		    cursor: auto;
-		    display: inline-block;
+		    display: inline-block; 
+		    /*
+			    Bug HF-23
+			    
 		    font-family: Verdana, sans-serif;
 		    font-size: 11px;
 		    font-style: normal;
@@ -161,6 +176,7 @@
 		    padding-bottom: 8px;
 		    padding-left:3px;
 		    padding-right:3px;
+		    */
 		    text-align: start;
 		    text-indent: 0px;
 		    text-shadow: none;
@@ -202,11 +218,11 @@
 		
 		    /* Firefox always displays native select arrow button, so hide the background image arrow. */
 		    @-moz-document url-prefix() {
-		    select {
-		    padding: 8px;
-		    background-position: -99px 0 !important;
-		    -moz-appearance: none;
-		    }
+			    select {
+			    padding: 8px;
+			    background-position: -99px 0 !important;
+			    -moz-appearance: none;
+			    }
 		    }
 		
 		    input:focus, textarea:focus, select:focus, .focused-field .subfields {
@@ -619,6 +635,7 @@
 		    .dijitTooltip{display:none !important;}
 		
 		    </style>
+		    
 		    <style type="text/css" scoped="scoped">
 		    body{
 		            font:14px/20px 'Helvetica', Arial, sans-serif;
