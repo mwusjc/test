@@ -10,7 +10,7 @@ $db = new CDatabase();
 $db->connect();
 $db->query("SET NAMES 'utf8'");
 if ( isset($_GET['o']) && $_GET["o"] == "find-store") {
-	$sql 		= "select *  from stores where status = 'enabled'";
+	$sql 		= "select * from stores where status = 'enabled'";
 	$stores 	= $db->getAll($sql);
 	$storecodes = array();
 	$storecodes[] = array("PostCode2" => "L4Z1N5","Latitude" => 43.620221,"Longitude" => -79.669361);
@@ -22,7 +22,6 @@ if ( isset($_GET['o']) && $_GET["o"] == "find-store") {
 	if (!empty($center)) {
 		$distances = array();
 		foreach ($storecodes as $key=>$val) {
-			#calc distance
 			$distances[$val["PostCode2"]] = $ret = 1.609344 * 3958.75 * acos(sin($center[0]/57.2958) * sin($val["Latitude"]/57.2958) + cos($center[0]/57.2958) * cos($val["Latitude"]/57.2958) * cos($val["Longitude"]/57.2958 - $center[1]/57.2958));
 		}
 	}
@@ -74,24 +73,24 @@ if ( isset($_GET['o']) && $_GET["o"] == "find-store") {
 					<a href="mobile.php"><img src="images/logo_hf.gif" style="margin-top: 5px;"></a>
 					<div style="clear: both; height: 0px"></div>
 					<div style="clear: both; height: 15px"></div>
-					<?php
+					<?php	
+					function googlify($flyer) {
+						$flyer_url = 'http://' . $_SERVER['HTTP_HOST'] . '/' . $flyer['PDF'];
+						//return 'http://docs.google.com/viewer?url=' . urlencode( $flyer_url ) . '&embedded=true';
+						return $flyer_url;
+					}
 					$activeflyer = $db->getRow("select * from flyers where Status = 'enabled' order by id desc limit 1");
 					$previousflyer = $db->getRow("select * from flyers where Status = 'disabled' and id < ".intval($activeflyer["ID"])." order by id desc limit 1");
-					if (date("w") == 3 || date("w") == 4) {
+					//if (date("w") == 3 || date("w") == 4) {
 						if ($activeflyer["Week"] >= time()) {
 							echo '
-							<a class="button" href="mobile-flyer.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upcoming Flyer';
-							echo '<div style="color: #666; font-size: 10px; padding:0 20px;">Effective '. date("l, F jS", $activeflyer["Week"]) . " to " . date("l, F jS", $activeflyer["WeekEnds"]);
-							echo '</div></a>';
-							echo '<a class="button" href="mobile-flyer-past.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This Week\'s Flyer';
-							echo '<div style="color: #666; font-size: 10px; padding:0 20px;">Effective '. date("l, F jS", $previousflyer["Week"]) . " to " . date("l, F jS", $previousflyer["WeekEnds"]);
-							echo '</div></a>';
+								<a class="button" target="pdf" href="'.googlify($activeflyer).'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upcoming Flyer</a>
+								<a class="button" target="pdf" href="'.googlify($previousflyer).'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This Week\'s Flyer</a>
+							';							
+						} else {
+							echo '<a class="button" target="pdf" href="'.googlify($activeflyer).'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This Week\'s Flyer</a>';	
 						}
-					} else {
-						echo '<a class="button" href="mobile-flyer.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This Week\'s Flyer';
-						echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="color: #666; font-size: 10px; padding:0 20px;">Effective '. date("l, F jS", $activeflyer["Week"]) . " to " . date("l, F jS", $activeflyer["WeekEnds"]);
-						echo '</a>';
-					}
+					//}
 					?>
 					<a class="button" href="#self" onclick="showArea(1)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find a Store</a>
 					<div class="content-area" id="area1">
@@ -111,13 +110,13 @@ if ( isset($_GET['o']) && $_GET["o"] == "find-store") {
 							</table>
 						</form>
 						<?php
-						if ( !empty($store)) {
-						echo "<div class='hr'></div>";
-						echo "<div class='store'><b>" . $store["Name"] . "</b><br>" . $store["Address"] . " " . $store["City"] . ", ". $store["PostCode"] . "<br><br>";
-						echo $store["Hours"];
-						echo "<br><br><a href='".$store["Google"]."' class='orange-button' style='width: 280px'>GET GOOGLE DRIVING DIRECTIONS</a>";
-						echo "</div>";
-						echo "<script>showArea(1);</script>";
+						if (!empty($store)) {
+							echo "<div class='hr'></div>";
+							echo "<div class='store'><b>" . $store["Name"] . "</b><br>" . $store["Address"] . " " . $store["City"] . ", ". $store["PostCode"] . "<br><br>";
+							echo $store["Hours"];
+							echo "<br><br><a href='".$store["Google"]."' class='orange-button' style='width: 280px'>GET GOOGLE DRIVING DIRECTIONS</a>";
+							echo "</div>";
+							echo "<script>showArea(1);</script>";
 						}
 						?>
 					</div>

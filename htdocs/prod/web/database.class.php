@@ -1,12 +1,5 @@
 <?php   
-/** Database Operations
-* @package System
-* @author Lucian Grecu
-*/
-
-
 class CDatabase {
-
 	var $mHost = "valhalla-prod.cb1qb4plxjpf.us-east-1.rds.amazonaws.com";
 	var $mUser = "highland";
 	var $mDb = "highland";
@@ -19,12 +12,10 @@ class CDatabase {
 	var $mNewCols;
 	var $mBenchmark;
 	var $mLastQueryTime;
-
 	function CDatabase() {
 		if (INI_ENABLE_LOG) $this->mLogging = true;
 		$this->mBenchmark = &$GLOBALS['vBenchmark'];
 	}
-
 	/** connect to the DB server */
 	function connect() {
 		$con = mysql_connect($this->mHost,$this->mUser,$this->mPass);
@@ -35,23 +26,17 @@ class CDatabase {
 		$this->mConnection = $con;
 		return $this->mConnection;
 	}
-
-	/** comment here */
 	function dbError() {
 		if (INI_TEST_MODE)  die(mysql_error()); else die(file_get_contents("static/db_error.html"));
 	}
-
-
 	/** run this query on the server */
 	function query($pSql, $log = true) {
 		// measure the speed of query, need benchmark class
 		$ret = $this->execute($pSql);
-//		echo mysql_error();
 		if (!$ret) {
 	  		$vErrMsg = mysql_error();
 			$msg = "Cannot query the database. <p><b>$pSql </b><p>Error:<br>$vErrMsg<br>Trace: ".getFileTrace();
 			echo $msg;
-//			$GLOBALS["vDocument"]->mErrorObj->pushError($msg, 1);
 		} else {
 
 		  if ($this->mLogging && $log) {
@@ -59,10 +44,8 @@ class CDatabase {
 			$this->mQueryCnt++;
 		  }
 		  return $ret;
-		} // else
+		}
 	}
-
-	/** comment here */
 	function execute($pSql) {
 		if ($this->mLogging) $this->mBenchmark->timingStart('mysql');
 		$vResult = mysql_query($pSql,$this->mConnection);
@@ -73,7 +56,6 @@ class CDatabase {
 		$this->mLastQueryTime = $vDiff;
 		Return $vResult;
 	}
-
 	/** get one row/array from this query */
 	function getRow($pSql) {
 		$vResult = $this->query($pSql);
@@ -82,7 +64,6 @@ class CDatabase {
 		} // if
 		return array();
 	}
-
 	/** get one row as object from this query */
 	function getRowObj($pSql) {
 		$vResult = $this->query($pSql);
@@ -107,7 +88,6 @@ class CDatabase {
 		} // if
 		return null;
 	}
-
 	/** get all rows, return a 2D array - string-indexed = column names */
 	function getAll($pSql) {
 		$vReturnHash = array();
@@ -122,7 +102,6 @@ class CDatabase {
 		} // while
 		return $vReturnHash;
 	}
-
 	/** get all rows, ALWAYS return a 2D array - string-indexed = column names */
 	function getAllTrue($pSql) {
 		$vReturnHash = array();
@@ -132,7 +111,6 @@ class CDatabase {
 		} // while
 		return $vReturnHash;
 	}
-
 	/** comment here */
 	function getAllAssoc($pSql) {
 		$vReturnHash = array();
@@ -147,17 +125,13 @@ class CDatabase {
 		} // while
 		return $vReturnHash;
 	}
-
 	function getAllExtended($pSql) {
 		$vReturnHash = array();
 		$vResult = $this->query($pSql);
-
 		$mNewCols=array();
 		for($i=0;$i<mysql_num_fields($vResult);$i++) {
 			$mNewCols+=array($i => mysql_field_table($vResult, $i).".".mysql_field_name($vResult, $i));
-
 		}
-
 		while ($vRow = mysql_fetch_assoc($vResult)) {
 			if (count($vRow)==1) {
 				reset($vRow);
@@ -166,10 +140,8 @@ class CDatabase {
 				$vReturnHash[] = $vRow;
 			} // else
 		} // while
-
 		return $mNewCols;
 	}
-
 	/** get all rows, return a 2D array - number-indexed starting from 0 */
 	function getAll2($pSql) {
 		$vReturnHash = array();
@@ -184,14 +156,12 @@ class CDatabase {
 		} // while
 		return $vReturnHash;
 	}
-
 	function getAll3($pTable, $pLabelCol, $pValCol = "") {
 		$vSql = "SELECT $pLabelCol as lab";
 		if ($pValCol) $vSql .= ",$pValCol as val";
 		$vSql .= " FROM $pTable ORDER BY 1 ASC";
 		Return $this->getAll($vSql);
 	}
-
 	/** 2 fields only, get all rows, simpler, return an array_key is ids, array_value is value */
 	function getAll4($pSql) {
 		$vReturnAry = array();
@@ -201,8 +171,6 @@ class CDatabase {
 		} // for
 		return $vReturnAry;
 	}
-
-
 	/** if there is any row, return bool */
 	function getRowExisted($pTableName,$pCondQuery="") {
 		if ($pCondQuery!="") {
@@ -212,7 +180,6 @@ class CDatabase {
 		$vRow = $this->getAll($vSql);
 		return (count($vRow)>=1);
 	}
-
 	/** get one value from the DB */
 	function getValue($pTableName,$pField,$pCondQuery="") {
 		$vCond = "";
@@ -224,7 +191,6 @@ class CDatabase {
 		$vRow = mysql_fetch_row($vResult);
 		Return $vRow[0];
 	}
-
 	/** get count(something) from the DB */
 	function getCount($pTableName,$pField="*",$pCondQuery="") {
 		if ($pCondQuery!="") {
@@ -237,7 +203,6 @@ class CDatabase {
 		} // if
 		return intval($vRow['cnt']);
 	}
-
 	/** get sum(something) from the DB */
 	function getSum($pTableName,$pField,$pCondQuery="") {
 		if ($pCondQuery!="") {
@@ -247,7 +212,6 @@ class CDatabase {
 		$vRow = $this->getRow($vSql);
 		return $vRow['total'];
 	}
-
 	/** get a row but with all empty fields */
 	function clearValues($vRow) {
 		$vReturnHash = array();
@@ -256,7 +220,6 @@ class CDatabase {
 		} // foreach
 		return $vReturnHash;
 	}
-
 	/** generate update query faster */
 	function makeUpdateQuery($pDataAry) {
 		$vUpdateAry = array();
@@ -265,7 +228,6 @@ class CDatabase {
 		} // for
 		return implode(",",$vUpdateAry);
 	}
-
 	/** generate insert query */
 	function makeInsertQuery($pDataAry) {
 		$vFieldAry = array();
@@ -280,7 +242,6 @@ class CDatabase {
 		$vValues = implode(",",$vValueAry);
 		return "($vFields) VALUES ($vValues)";
 	}
-
 	/** make one insert query with multiple sets of value */
 	function makeMultInsert($vFieldAry,&$vDataAry) {
 		$vTmpAry = array();
@@ -296,7 +257,6 @@ class CDatabase {
 		unset($vTmpAry);
 		return "($vFields) VALUES $vValues";
 	}
-
 	/** add slashes to multiple vars */
 	function addSlashAry($pFieldAry) {
 		foreach ($pFieldAry AS $vField=>$vValue) {
@@ -304,21 +264,18 @@ class CDatabase {
 		} // foreach
 		return $pFieldAry;
 	}
-
 	function getMax($pTable, $pField, $pCond){
 		$vTmp = mysql_list_fields($this->mDb,$pTable,$this->mConnection);
 		$vSql = "select max($pField) as max from $pTable where $pCond";
 		$vMax = $this->getRow($vSql);
 		return $vMax["max"];
 	}
-
 	function getMin($pTable, $pField, $pCond){
 		$vTmp = mysql_list_fields($this->mDb,$pTable,$this->mConnection);
 		$vSql = "select max($pField) as min from $pTable where $pCond";
 		$vMax = $this->getRow($vSql);
 		return $vMax["max"];
 	}
-
 	function getFieldsObject($pTable) {
 		if (strpos($pTable, ".")) {
 			$tmp = explode(".", $pTable);
@@ -345,28 +302,22 @@ class CDatabase {
   		}
 		Return $vObject;
 	}
-
 	function getLastID() {
 		return $this->mLastInserted;
 	}
-
 	function getAffectedRows() {
 		return mysql_affected_rows($this->mConnection);
 	}
-
 	function getRandValue($pTable, $pField) {
 		$vSql = "SELECT $pField FROM $pTable ORDER BY RAND() LIMIT 1";
 		$vResult = $this->getRow($vSql);
 		Return $vResult[$pField];
 	}
-
-
 	function getFulltextKey($table){
 		/* grab all keys of db.table */
 		$indices=mysql_query("SHOW INDEX FROM $table")
 			 or die(mysql_error());
 		$indices_rows=mysql_num_rows($indices);
-
 		/* grab only fulltext keys */
 		for($nth=0;$nth<$indices_rows;$nth++){
 			$nth_index=mysql_result($indices,$nth,'Index_type');
@@ -374,14 +325,9 @@ class CDatabase {
 				$match_a[].=mysql_result($indices,$nth,'Column_name');
 			}
 		}
-
 		/* delimit with commas */
 		$match=implode(',',$match_a);
-
 		return $match;
 	}
-
 }
-
-
 ?>
