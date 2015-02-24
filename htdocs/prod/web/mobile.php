@@ -90,7 +90,7 @@ if ( isset($_GET['o']) && $_GET["o"] == "find-store") {
 					} else {
 						echo '<a class="button" href="mobile-flyer.php">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This Week\'s Flyer';
 						echo '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="color: #666; font-size: 10px; padding:0 20px;">Effective '. date("l, F jS", $activeflyer["Week"]) . " to " . date("l, F jS", $activeflyer["WeekEnds"]);
-						echo '</a>';
+						echo '</div></a>';
 					}
 					?>
 					<a class="button" href="#self" onclick="showArea(1)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find a Store</a>
