@@ -21,16 +21,28 @@ class CHighland extends CSectionManager
   }
 
 
-/** comment here */
 function displayRecipes() {
 	STitle::set(APP_TITLE_SHORT . " - Tasty Recipes");
 	$this->mDocument->displayBottomBanners();
 	$sql = "";
 	$this->resetTemplate("templates/recipes/recipes.html");
+
+	/*
 	$sql = "select * from recipes where status = 'enabled' order by rand() limit 2";
+	*/
+
+	//	bug # HF-30
+	//	choose a recipes randomly, but make them the same for the whole day.
+	$sql = "
+		select *,(((ID*2) + ".date('z').") % 55) AS xid
+		from recipes 
+		WHERE status = 'enabled'
+		ORDER BY xid
+		LIMIT 2
+	";
+
 	$data = $this->mDatabase->getAll($sql);
 	foreach ($data as $key=>$val) {
-//		if (!file_exists($val["Image"])) $this->mDatabase->query("update recipes set status = 'disabled' where id ='".$val["ID"]."'");
 		$this->newBlock("RECIPE");
 		$this->assign("ID", $val["ID"]);
 		$this->assign("NAME", $val["Name"]);

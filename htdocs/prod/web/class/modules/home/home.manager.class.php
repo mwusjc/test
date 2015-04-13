@@ -34,6 +34,21 @@ class CHomeManager extends CSectionManager
 //			$this->assign("ID", $val["ID"]);
 //		}
 
+
+		$dir = new DirectoryIterator('media/current_banner');
+		$fylez = array();
+		foreach ($dir as $fileinfo) {
+			if (!$fileinfo->isDot()) {
+				$fylez[] = 'media/current_banner/' . $fileinfo->getFilename();
+			}
+		}
+		sort($fylez);
+		foreach ($fylez as $fyle) {
+			$this->newBlock("BANNER");
+			$this->assign("Image", $fyle);
+		}
+
+	/*
 	$d = dir("media/current_banner");
 	while (false !== ($entry = $d->read())) {
 		if ($entry == "." || $entry == "..") continue;
@@ -41,7 +56,7 @@ class CHomeManager extends CSectionManager
 		$this->assign("Image", "media/current_banner/" . $entry);
 	}
 	$d->close();
-
+	*/
 
 
 
