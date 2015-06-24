@@ -1,5 +1,0 @@
-<?
-$txt = file_get_contents("http://www.highlandfarms.ca/index2.php?n=Flyers&o=enable_new_flyer");
-$txt = "not again!";
-mail("lgrecu@thebrandfactory.com", "Highland Flyer", $txt);
-?>

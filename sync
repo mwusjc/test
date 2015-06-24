@@ -1,4 +1,0 @@
-#!/bin/bash
-
-rsync -av /var/www/domains/highlandfarms/ htdocs/
-cp /etc/httpd/conf.d/vhost.highlandfarms.conf vhost.conf
