@@ -1,7 +1,0 @@
-	<div class="eflyerbanner"><img src="images/eflyerbanner.jpg" alt="E-Flyer Banner" width="720" height="260" border="0" /></div>
-	<div class="eflyercontainer">
-		<div class="left"></div>
-		<div class="right" style="height: 380px; text-align: right">
-			<iframe src="/templates/pages/email_sign-up.html" width="530" height="380" frameborder="0" seamless="seamless"></iframe>
-		</div>
-</div>
