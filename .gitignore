@@ -1,5 +1,5 @@
 #	this script is meant to be run on kermit, in order to keep REPO files up to date
-#sync
+sync
 
 logz/
 

@@ -1,0 +1,46 @@
+<div style="margin-top: 0px;">
+<div style="float: left; margin: 20px; padding-top: 8px; width: 300px; display: inline;height: 350px;">
+	<img src="images/start_fresh_l.jpg">
+	<br><div class="disclaimer" style="width: 300px;">We thank everyone that is applying, however only those selected for an interview will be contacted<br>Highland Farms is an equal opportunity employer</div>
+</div>
+
+<h5>Start fresh with  a Career at Highland Farms!</h5>
+<div >
+<p>Highland Farms operates in a clean and friendly environment and we are always looking for driven individuals to join our team. Working at one of our stores is more than a job. It's an <span class="greenbig">opportunity</span>.</p>
+<p>It's an opportunity to learn and grow, both personally and professionally, and be a part of the Highland Farms' family.</p>
+<p>We have two full service supermarkets, so click on the store that is closest to you and start a fresh career <span class="greenbig">opportunity</span> with us!</p>
+<div class="storefilter" style="display: none;"><a href="#self" onclick="filterStore(1)">Dufferin & Supertest</a> | <a href="#self" onclick="filterStore(2)">Ellesmere & Kennedy</a> | <a href="#self" onclick="filterStore(3)">Bennett & Lawrence</a> | <a href="#self" onclick="filterStore(4)">Matheson & Hwy.10</a> | <a href="#self" onclick="filterStore(5)">Rutherford & Hwy. 400</a> </div>
+<div class="storefilter" style="padding-left: 25px; ">Search Available Jobs: <select onchange="filterStore(this.options[this.selectedIndex].value);" id="hideme">
+<option value=""> -- please select -- </option>
+<option value="0">View all jobs</option>
+<option value="2">Ellesmere & Kennedy</option>
+<option value="4">Matheson & Hwy.10</option>
+</select>
+</div>
+</div>
+</div>
+<br>
+<br>
+
+<table class="jobs" cellpadding="0" cellspacing="0" vspace="10" hspace="10" style="{disp}">
+<tr>
+<th>Store</th>
+<th>Position</th>
+<th>Posted on</th>
+<th>Apply</th>
+</tr>
+<!-- START BLOCK : JOB -->
+<tr id="row_{ID}">
+<td>{Store}&nbsp;</td>
+<td><a href="#self" onclick="message2('<div class=jobpop>{Description}</div>')">{Position}</a>&nbsp;</td>
+<td>{Date}&nbsp;</td>
+<td><a href="#self" onclick="showJobApply('{Store}', '{ID}', '{PositionID}') ;">Apply</a></td>
+</tr>
+<!-- END BLOCK : JOB -->
+<!-- START BLOCK : JOB2 -->
+<tr>
+	<td colspan="4" style="padding: 20px; font-weight: bold;">Sorry, no positions are available for this location.</td>
+</tr>
+<!-- END BLOCK : JOB2 -->
+</table>
+

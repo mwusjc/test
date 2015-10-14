@@ -1,0 +1,47 @@
+<!-- START BLOCK : frmEdit -->
+<table>
+		<tr> 
+          <td align="center" valign="top"> 
+            <form name="{frmEdit_NAME}" method="POST" action="{frmEdit_ACTION}" onsubmit="return frmEdit_validate();"  enctype="multipart/form-data">
+		<table width="750" border="0" cellspacing="0" cellpadding="2" class="copy">
+			<tr> 
+				  <td valign="middle"  align="left" class="form_section_title" colspan="2">Edit Flyer Settings</td>
+				</tr>
+			<tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Week: </td>
+                  <td valign="middle"  align="left"> {Week}</td>
+                </tr>
+			<tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Active until: </td>
+                  <td valign="middle"  align="left"> {WeekEnds}</td>
+                </tr>
+             <tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Upload PDF for eFlyer download:</td>
+                  <td valign="middle"  align="left"> {PDFPath} {Download}</td>
+                </tr>
+             <tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Page Count:</td>
+                  <td valign="middle"  align="left"> {Pages}</td>
+                </tr>
+<!-- START BLOCK : PAGE -->
+			<tr> 
+				  <td valign="middle"  align="left" class="form_section_title" colspan="2">Flyer Pages</td>
+				</tr>
+			<tr> 
+				  <td valign="top"  align="left" colspan="2">{PageList}</td>
+			</tr>
+			<tr> 
+				  <td valign="top"  align="left" colspan="2"><a href="index2.php?n=Flyers&o=edit_page&flyer_id={ID}">add page </a></td>
+			</tr>
+<!-- END BLOCK : PAGE -->
+			<tr> 
+				  <td valign="middle"  align="left" class="form_section_title" colspan="2">Save</td>
+				</tr>
+                <tr> 
+                  <td valign="middle"  class="copy" width="159">&nbsp;</td>
+                  <td valign="middle" > <input type="submit" name="frmEdit_SUBMIT_NAME" value="Submit"><br><br><br>
+                </tr>
+              </table>
+            </form>
+      </table>
+ <!-- END BLOCK : frmEdit -->

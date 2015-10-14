@@ -1,0 +1,4 @@
+echo off
+d:
+cd "D:\inetpub\wwwroot\freshathighlandfarms.com\"
+c:\php\php.exe activate.php > nul

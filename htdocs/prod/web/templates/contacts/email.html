@@ -1,0 +1,59 @@
+<!-- START BLOCK : frmEdit -->
+<form name="{frmEdit_NAME}" method="POST" action="{frmEdit_ACTION}" onsubmit="return frmEdit_validate();"  enctype="multipart/form-data" >
+	  <table width="100%" border="0" cellspacing="0" cellpadding="2" class="copy">
+		<tr> 
+		  <td valign="middle"  class="copy" width="130">From:</td>
+		  <td valign="middle" colspan="3" id="tdTypeID"> 
+			{FromName}
+		  </td>
+		</tr>
+		<tr> 
+		  <td valign="middle"  class="copy" width="130">From Address:</td>
+		  <td valign="middle" colspan="3" id="tdTypeID"> 
+			{FromAddress}
+		  </td>
+		</tr>
+		<tr> 
+		  <td valign="middle"  class="copy" width="130">To:</td>
+		  <td valign="middle" colspan="3" id="tdTypeID"> 
+			{To}
+		  </td>
+		</tr>
+		<tr> 
+		  <td valign="middle"  class="copy" width="130">Subject:</td>
+		  <td valign="middle" colspan="3" id="tdTypeID"> 
+			{Subject}
+		  </td>
+		</tr>
+		<tr> 
+		  <td valign="middle"  class="copy" width="130">Newsletter template</td>
+		  <td valign="middle" colspan="3" id="tdResolutionID"> 
+			{TemplateID}
+		  </td>
+		</tr>
+		<tr> 
+		  <td valign="middle" colspan="4" class="copy" width="130"></td>
+		</tr>
+		<tr>
+		  <td valign="middle" colspan="4" id="htmlver" style="height: 400px; border: 1px solid #000; overflow: scroll"> 
+			{HtmlVersion}
+		 </td>
+		</tr>
+		<tr> 
+		  <td valign="middle" colspan="4" class="copy" width="130">Preview Text Version</td>
+		</tr>
+		<tr>
+		  <td valign="middle" colspan="4" id="txtver" style="height: 400px; border: 1px solid #000; overflow: scroll"> 
+			{TxtVersion}
+			</td>
+		</tr>		<tr> 
+		  <td valign="middle"  class="copy" width="110">&nbsp;</td>
+		  <td valign="middle" colspan="3"> 
+			<input type="submit" name="frmEdit_SUBMIT_NAME" value="Submit">
+			<br>
+			<br>
+			<br>
+		</tr>
+	  </table>
+	</form>
+ <!-- END BLOCK : frmEdit -->

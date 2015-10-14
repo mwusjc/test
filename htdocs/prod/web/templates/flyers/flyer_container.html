@@ -1,0 +1,126 @@
+ <div class="flyermenu">
+
+	  <ul class="menulist" id="listMenuRoot">
+ <li>
+  <a href="#">Categories</a>
+  <ul>
+<!-- START BLOCK : CATEGORY -->
+   <li><a href="index.php?n=Flyers&o=categories&id={CategoryID}">{CategoryName}</a></li>
+<!-- END BLOCK : CATEGORY -->
+  </ul>
+ </li>
+ <li style="width: 120px;">
+  <a href="#">Brands</a>
+  <ul style="width: 120px; ">
+<!-- START BLOCK : BRAND -->
+   <li><a href="index.php?n=Flyers&o=brands&id={BrandID}">{BrandName}</a></li>
+<!-- END BLOCK : BRAND -->
+  </ul>
+ </li>
+</ul>
+<!-- end of flyer dropdown -->
+<!-- page navigation -->
+<!-- START BLOCK : MAINPAGE -->
+<div class="flyerpagenav">
+<div class="prevbttn"><a href="#self" onclick="prevPage();"><img src="images/icon_previous.gif" alt="Previous page" name="prevbttn" border="0" id="prevbttn" onmouseover="MM_swapImage('prevbttn','','images/icon_previous_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+<div class="flyernavtxt">Page <span id="currentPage">1</span> of {Pages}</div> 
+<div class="nxtbttn"><a href="#self" onclick="nextPage();"><img src="images/icon_next.gif" alt="Next page" name="nxtbttn" border="0" id="nxtbttn" onmouseover="MM_swapImage('nxtbttn','','images/icon_next_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div> 
+</div>
+<!-- end of page navigation -->
+<!-- bookmark -->
+<!-- END BLOCK : MAINPAGE -->
+<div class="bookmark">&nbsp;<a href="#self" onclick="addToFavorites(window.location, 'Highland Farms Flyer');">Bookmark this Page</a><img src="images/icon_bookmark_1.gif" width="12" height="15" /></div>
+<!-- end of bookmark -->
+      </div>
+      <!-- end of flyermenu -->
+
+      <div class="flyercontainer" style="min-height: 852px;">
+        
+        <!--flyercontainer left -->
+        <div class="left">
+		<div class="coming-boxes-holder">
+<!-- START BLOCK : COMINGBOX -->
+		<div class="coming-box-holder">
+			<div class="coming-box-title">{Title}</div>
+			<div class="coming-box-date">{Effective}</div>
+			<a href="/index.php?n=Flyers&o=main&mode={Mode}"><img src="{FlyerImage}"></a>
+			<div class="coming-box-dnld"><a href="{FlyerPDF}" target="_blank">CLICK HERE</a> to download this flyer in PDF format.</div>
+		</div>
+<!-- END BLOCK : COMINGBOX -->
+
+        <div class="flyerbttn-g1">
+<!-- START BLOCK : CURRENT -->
+		<a class="flyer-button" href="{FlyerPDF}" target="_blank" >DOWNLOAD PDF</a> 
+<!-- END BLOCK : CURRENT -->
+		</div>
+		<br>
+		<br>
+        <div class=" flyerbttn">
+        <div class="flyericon"><a href="index.php?n=Flyers"><img src="images/icon_single_page.gif" alt="Single page view" name="iconsnglepage" width="15" height="22" border="0" id="iconsnglepage" onmouseover="MM_swapImage('iconsnglepage','','images/icon_single_page_over.gif','fullarrow','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+        <div class="flyerbttntxt"><a href="index.php?n=Flyers" onmouseover="MM_swapImage('iconsnglepage','','images/icon_single_page_over.gif','fullarrow','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()">Full page</a></div>
+        <div style="float:right; margin:14px 10px 0 0;"> <img src="images/arrow_right_up.gif" name="fullarrow" id="fullarrow" onmouseover="MM_swapImage('iconsnglepage','','images/icon_single_page_over.gif','fullarrow','','images/arrow_right_up.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
+        </div>
+        
+        <div class=" flyerbttn">
+        <div class="flyericon" style="margin-left:8px;"><a href="index.php?n=Flyers&o=facing"><img src="images/icon_facingpages.gif" alt="Single page view" name="iconfacingpage" width="27" height="19" border="0" id="iconfacingpage" onmouseover="MM_swapImage('iconfacingpage','','images/icon_facingpages_over.gif','facingarrow','','images/arrow_right_up.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+        <div class="flyerbttntxt"><a href="index.php?n=Flyers&o=facing" onmouseover="MM_swapImage('iconfacingpage','','images/icon_facingpages_over.gif','facingarrow','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()">Facing pages</a></div>
+         <div style="float:right; margin:14px 10px 0 0;"> <a href="#"><img src="images/arrow_right_up.gif" name="facingarrow" border="0" id="facingarrow" onmouseover="MM_swapImage('iconfacingpage','','images/icon_facingpages_over.gif','facingarrow','','images/arrow_right_up.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+        </div>
+        <div class=" flyerbttn">
+          <div class="flyericon" style="margin-left:8px;"><a href="index.php?n=Flyers&o=all_pages"><img src="images/icon_allpages.gif" alt="Single page view" name="iconallpages" width="17" height="24" border="0" id="iconallpages" onmouseover="MM_swapImage('iconallpages','','images/icon_allpages_over.gif','allarrow','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+          <div class="flyerbttntxt"><a href="index.php?n=Flyers&o=all_pages" onmouseover="MM_swapImage('iconallpages','','images/icon_allpages_over.gif','allarrow','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()">View all pages</a></div>
+           <div style="float:right; margin:14px 10px 0 0;"> <img src="images/arrow_right_up.gif" name="allarrow" id="allarrow" onmouseover="MM_swapImage('iconallpages','','images/icon_allpages_over.gif','allarrow','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
+        </div> 
+        <div class=" flyerbttn">
+          <div class="flyericon" style="margin-left:8px;"><a href="index.php?n=Flyers&o=print-all" target="_blank"><img src="images/icon_allpages.gif" alt="Printer Friendly" name="iconallpages" width="17" height="24" border="0" id="iconallpages" onmouseover="MM_swapImage('iconallpages','','images/icon_allpages_over.gif','allarrow','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+          <div class="flyerbttntxt"><a href="index.php?n=Flyers&o=print-all" target="_blank" onmouseover="MM_swapImage('iconallpages','','images/icon_allpages_over.gif','allarrow','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()">Printer Friendly</a></div>
+           <div style="float:right; margin:14px 10px 0 0;"> <img src="images/arrow_right_up.gif" name="allarrow" id="allarrow" onmouseover="MM_swapImage('iconallpages','','images/icon_allpages_over.gif','allarrow','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
+        </div> 
+        </div>       
+        
+        <div class="flyerbttn-g2">
+        <!-- help bttn -->
+        <div class="helpbttns" style="margin-bottom:10px;">
+          <div style="float:left"><a href="index.php?n=Flyers&o=help"><img src="images/icon_flyerhelp.gif" alt="Help" name="iconhelp" border="0" id="iconhelp" onmouseover="MM_swapImage('iconhelp','','images/icon_flyerhelp_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+        <div style="float:left; margin:20px 0px 0 20px;"><a href="index.php?n=Flyers&o=help" onmouseover="MM_swapImage('iconhelp','','images/icon_flyerhelp_over.gif',1)" onmouseout="MM_swapImgRestore()">Help</a></div>
+        </div>
+        <!-- end of help bttn -->
+        <div class="helpbttns" style="margin-bottom:10px;">
+        <div style="float:left"><a href="#self" onclick="addToFavorites(window.location, 'Highland Farms Flyer');"><img src="images/icon_bookmark.gif" alt="Help" name="iconsbookmark" border="0" id="iconsbookmark" onmouseover="MM_swapImage('iconsbookmark','','images/icon_bookmark_over.gif',1)" onmouseout="MM_swapImgRestore()" border="0"/></a></div>
+        <!-- end of shoppinglist bttn -->
+        
+        <div style="float:left; margin:20px 0px 0 20px;"><a href="#self" onclick="addToFavorites(window.location, 'Highland Farms Flyer');" onmouseover="MM_swapImage('iconsbookmark','','images/icon_bookmark_over.gif',1)" onmouseout="MM_swapImgRestore()">Bookmarks</a></div>
+        </div>
+                <!-- shoppinglist bttn -->
+        <div class="helpbttns">
+        <div style="float:left"><img src="images/icon_flyershoppinglist.gif" alt="Help" name="iconshoppinglist" border="0" id="iconshoppinglist" onmouseover="MM_swapImage('iconshoppinglist','','images/icon_flyershoppinglist_over.gif',1)" onmouseout="MM_swapImgRestore()" /></div>
+        <!-- end of shoppinglist bttn -->
+        
+        <div style="float:left; margin:20px 0px 0 20px;"><a href="#self" onmouseover="MM_swapImage('iconshoppinglist','','images/icon_flyershoppinglist_over.gif',1)" onmouseout="MM_swapImgRestore()">Shopping List</a></div>
+        </div>
+        
+                        <!-- shoppinglist bttn -->
+            <!-- end of help bttn -->
+        </div>
+       
+        <!-- menu shopping list -->
+        <div class="menu-shoppinglist">
+        <div class="content">
+          Click on a product to add to shopping list.
+          <div style=" text-align:right; margin:10px 0 15px 0;">
+            <div class = "or-link"><a href="index.php?n=Flyers&o=cart">VIEW ITEMS</a></div>
+          </div>
+          <div class="listit" style="margin:5px 0 0 0;">Number of items<strong> <span id="cartSize">1</span> </strong></div>
+          <span id="shoppingList"></span>
+          </div>
+		   
+        </div>  <!-- end of menu shopping list -->
+		
+        </div> <!-- end of icon group 2 -->
+
+        <!-- end of flyercontainer left -->
+        
+        <div class="right" id="pageHolder1" onmouseover="showProduct(this, event);" onmousemove="showProduct(this, event);" onclick="showProductOnClick(this, event);"  onmouseout="hideProduct(this, event);"style="width: {Width1}px; height: {Height1}px; background-image: url({Image1});cursor: pointer; text-align: right">
+      
+        </div>       
+		<div class="right" id="autobrowse" style="visibility: hidden; float: right; border: 0px; margin: 0px; width: 610px; margin-top: 10px; "><a href='/index.php?n=Flyers&o=main'>Enable automatic browsing</a></div>

@@ -1,0 +1,7 @@
+table.coupon {border: 1px dashed #333; width: 300px; height: 150px;}
+table.coupon-details { margin: 10px 10px 10px 10px}
+td.coupon-title {text-align: left; font-weight: bold;font-size: 12px;}
+td.coupon-pricing {text-align: left; color: #ff6600; font-size: 18px; padding: 5px 0px 10px}
+td.coupon-description {text-align: left; font-size: 11px;}
+td.coupon-image{ padding: 10px 0px 10px 10px}
+td.coupon-notes { padding: 10px 0px 10px 10px; vertical-align: bottom;}
