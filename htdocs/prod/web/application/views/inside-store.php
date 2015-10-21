@@ -116,14 +116,14 @@ $inside[] = array(
 
 <script type='text/template' id='tpl-inside-store-collapsed'>
 <div class='inside-store-item-container' >
-    <div class="col-xs-12 col-sm-4 inside-store-item" data-istore-id="{ID}">
+    <div class="inside-store-item" data-istore-id="{ID}">
             <div class='img'><img src="<?=site_url()?>{IMG}" /></div>
             <h2 class="box bottom {CLASS}">{TITLE}</h2>
         </div>
 </div>
 </script>
 <script type='text/template' id='tpl-inside-store-details'>
-       <div id="details" class="row nopadding border border-bottom fade in" style="display:none;">
+       <div id="details" class="row nopadding border border-bottom fade"> 
         <div class="col-xs-12 col-sm-7">
             <img src="<?=site_url()?>{IMG}"/>
         </div>
@@ -142,41 +142,54 @@ $inside[] = array(
 
     
 
-        hlf.istore = {
-            init: function(data) {
-                this.container = '.inside-store-container';
-                this.drawListings(data);
-                this.setListeners();
-            },
+    hlf.istore = {
+        init: function(data) {
+            this.container = '.inside-store-container';
+            this.drawListings(data);
+            this.setListeners();
+        },
 
-            drawListings: function(data) {
-                var container = this.container;
-                $(container).html(' ');
-                
-                var count = 1;
-                $.each(data, function(key,item) {
-                    mapping = { "{IMG}" : item.image, "{TITLE}" : item.title, "{CLASS}" : item.class, "{ID}" : key };
-                    html = hlf.drawTemplate("#tpl-inside-store-collapsed", mapping); 
-                    $(container).append(html);
-                });
-            },
-            drawDetails: function(id) {
-                var item = hlf.data.istore[id];
-                
-                mapping = { "{IMG}" : item.image, "{TITLE}" : item.title, "{CLASS}" : item.class, "{ID}" : id };
-                    html = hlf.drawTemplate("#tpl-inside-store-details", mapping); 
-                console.log(html);
-            },
-            setListeners: function() {
-                var that = this;
-                $('.inside-store-container').on("click", '[data-istore-id]', function() {
-                   var id = $(this).data("istore-id"); 
-                   that.drawDetails(id);                   
-                });
-            }
+        drawListings: function(data) {
+            var container = this.container;
+            $(container).html(' ');
 
+            var count = 1;
+            $.each(data, function(key,item) {
+                mapping = { "{IMG}" : item.image, "{TITLE}" : item.title, "{CLASS}" : item.class, "{ID}" : key };
+                html = hlf.drawTemplate("#tpl-inside-store-collapsed", mapping); 
+                $(container).append(html);
+            });
+        },
+        drawDetails: function(id) {
+            var item = hlf.data.istore[id];
 
+            mapping = { "{IMG}" : item.image, "{TITLE}" : item.title, "{SUBTITLE}": item.subtitle, "{DESCRIPTION}": item.description, "{CLASS}" : item.class, "{ID}" : id };
+            html = hlf.drawTemplate("#tpl-inside-store-details", mapping); 
+
+            $('#details').remove();   
+            // get the index, place it at the start of the row...
+            var divisible = id % 3;
+            var index = id - divisible;
+            $('[data-istore-id="'+index+'"]').parent('.inside-store-item-container').before(html);
+            $('#details').slideDown();
+            window.setTimeout("$('#details').addClass('in');", 75);
+            // make the rest.. low opacity
+            $('.inside-store-item-container').css('opacity',0.2);
+        },
+        setListeners: function() {
+            var that = this;
+            $('.inside-store-container').on("click", '[data-istore-id]', function() {
+                var id = $(this).data("istore-id"); 
+                that.drawDetails(id);                   
+            });
+
+            $('.inside-store-container').on("click", 'span.close', function() {
+                $('#details').slideUp();
+                $('.inside-store-item-container').css('opacity',1);
+            });
         }
+    }
+        
     jQuery(document).ready(function() { 
         hlf.istore.init(hlf.data.istore);
     });
