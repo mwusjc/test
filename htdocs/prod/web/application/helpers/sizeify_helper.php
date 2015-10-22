@@ -12,12 +12,12 @@ function sizeify($url,$resizeto,$endpoint='http://sizeifyb.sjc.io') {
     if (!empty($u['query'])) {
         $p .= '?' . $u['query'];
     }
-    $r = [
+    $r = array(
         $endpoint,
         $u['scheme'],
         implode('.',array_reverse(explode('.',$u['host']))),
         $resizeto,
         rawurlencode($p)
-    ];
+    );
     return implode('/',$r);
 }
