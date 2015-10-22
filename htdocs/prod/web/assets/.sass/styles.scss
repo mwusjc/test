@@ -614,8 +614,16 @@ ol.custom {
     margin-bottom:30px;
     position: relative;
     display:none;
+    a {
+        text-align: center;
+    }
     img {
         max-width:200px;
         max-height:200px;
     }
+}
+
+.platter .image {
+    max-width:200px;
+    max-height:200px;
 }

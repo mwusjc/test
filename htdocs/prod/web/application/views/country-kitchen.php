@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class='col-sm-6'>
-            <div class="ck-item" data-id="5" data-slidedown='.ck-products[data-id="2"]'>                
+            <div class="ck-item" data-id="2" data-slidedown='.ck-products[data-id="2"]'>                
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_bread.png')?>" /></div>
                 <h2 class="box bottom">Bread & Artisan Breads</h2>
             </div>
@@ -109,41 +109,78 @@
     </div>
 
     <div class='row'>
-
         <div class='col-sm-6'>
-            <div class="ck-item" data-id="3">  
+            <div class="ck-item" data-id="3" data-slidedown='.ck-products[data-id="3"]'>  
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_sauces.png')?>" /></div>
                 <h2 class="box bottom">All Natural Sauces</h2>
             </div>
         </div>
         <div class='col-sm-6'>
-            <div class="ck-item" data-id="4">            
+            <div class="ck-item" data-id="4" data-slidedown='.ck-products[data-id="4"]'>            
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_snacks.png')?>" /></div>
                 <h2 class="box bottom">Sweet & Savoury Snacks</h2>
             </div>
         </div>
-
-        <div class='slidedown-container'></div>
     </div>
 
+        <div class='row'>
+        <div class='col-sm-12'>
+            <div class='ck-products' data-id='3' >
+                <h1>All Natural Sauces</h1>
+                <h4></h4>
+                
+                <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
+            </div>
+        </div>
+    </div>
+        <div class='row'>
+        <div class='col-sm-12'>
+            <div class='ck-products' data-id='4'>
+                <h1>Sweet & Savoury Snacks</h1>
+                <h4></h4>
+                
+                <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
+            </div>
+        </div>
+    </div>
 
     <div class='row'>
 
         <div class='col-sm-6'>
-            <div class="ck-item" data-id="5">            
+            <div class="ck-item" data-id="5" data-slidedown='.ck-products[data-id="5"]'>            
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_baked-goods.png')?>" /></div>
                 <h2 class="box bottom">Baked Goods</h2>
             </div>
         </div>
         <div class='col-sm-6'>                                                
-            <div class="ck-item" data-id="6">              
+            <div class="ck-item" data-id="6" data-slidedown='.ck-products[data-id="6"]'>              
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_readymeals.png')?>" /></div>
                 <h2 class="box bottom">Prepped & Ready Meals</h2>
             </div>
         </div>
     </div>
 
-
+            <div class='row'>
+        <div class='col-sm-12'>
+            <div class='ck-products' data-id='5' >
+                <h1>Baked Goods</h1>
+                <h4></h4>
+                
+                <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
+            </div>
+        </div>
+    </div>
+        <div class='row'>
+        <div class='col-sm-12'>
+            <div class='ck-products' data-id='6'>
+                <h1>Prepped & Ready Meals</h1>
+                <h4></h4>
+                
+                <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
+            </div>
+        </div>
+    </div>
+    
     <div class='row'>
         <div class='col-sm-8' style='padding-right:0px;'>
             <div class='img' style='height:200px;'><img src="<?=site_url('/assets/images/country-kitchen/ck_giftcard.jpg')?>" width="900" /></div>

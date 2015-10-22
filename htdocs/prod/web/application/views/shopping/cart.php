@@ -9,7 +9,9 @@
         </div>
     </div>
     <div class='row'>
-        <h2>You currently have nothing in your list.</h2>
+    <div class='col-sm-12'>
+        <h2>You currently have nothing in your list.</h2>     
+    </div>
     </div>
 
     <div class='row'>

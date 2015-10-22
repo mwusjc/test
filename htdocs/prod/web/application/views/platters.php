@@ -58,6 +58,9 @@
 </div>
 <div class="row divider spacer"></div>
 &nbsp;
+  
+
+<!--      
 <div class="row">
   <div class="col-xs-12 col-sm-3">
     <ul role="tablist">
@@ -89,5 +92,93 @@
       <div role="tabpanel" class="tab-pane" id="pasta"><h1>Alternatives</h1></div>
     </div>
   </div>
-</div>
+</div>   -->
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-3">
+            <ul role="tablist">
+                <?php foreach($platters_categories AS $key=>$item) : ?>
+                    <li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id='<?=$item->ID?>'><?=$item->Name?></a></li>
+                    <?PHP endforeach; ?>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-9">
+            <div class='pajinate'>
+                <div class='no-results-found hidden'><h1>Sorry! Nothing to be found here.</h1></div>
+                <div class="row platters-container content">
+
+                </div> 
+                <div class="page_navigation"></div>
+            </div>
+        </div>
+    </div>
 </main>
+
+<script type="text/html" id="tpl-platter-listing">
+    <div class="col-xs-12 col-sm-4 platter"><a href='#' data-obj-id='_ID_'>
+        <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" class='lazy' /></div>
+        _TITLE_
+        </a>
+    </div>
+</script>
+
+<script type='text/javascript'>
+    hlf.data.platters = <?=json_encode($platters)?>;
+    hlf.data.platters_categories = <?=json_encode($platters_categories)?>;
+    
+    jQuery(document).ready(function($) {
+        hlf.platters.init(hlf.data.platters);
+    })
+       
+          
+    hlf.platters = {
+        init: function(data) {
+            this.filterListener();
+            this.drawList(data);
+        },
+        
+        filterListener: function() {  
+            var that = this; 
+            $('[data-filter-id]').on("click", function() {
+               that.filterCategory( hlf.data.platters, $(this).data('filter-id') );
+            });
+            
+        },
+        filterCategory : function(data,filter) {    
+            var filtered = {};
+            $.each(data, function(key,item) {
+               if(item.CategoryID == filter) {
+                filtered[key] = item;   
+               } 
+            });
+            this.drawList(filtered);
+            $('input.search').val(null);
+        }, 
+         
+        drawList: function(data) { 
+            $('.platters-container').html(' ');
+            $.each(data, function(key,item) {
+                mapping = { "_IMAGE_" : item.Image, "_TITLE_" : item.Name, "_ID_" : item.ID, "_DESCRIPTION_": item.Description };
+                html = hlf.drawTemplate("#tpl-platter-listing", mapping);
+                $('.platters-container').append(html);
+            });
+            if( $('.platter').length == 0) {
+                $('.no-results-found').removeClass('hidden');
+            } else {
+                $('.no-results-found').addClass('hidden');
+            }
+            if($('.platter').length > 9) this.pajinate(".pajinate");
+            else $('.page_navigation').html(' ');
+             $("img.lazy").lazyload({
+                  placeholder : "img/grey.gif",
+                  effect      : "fadeIn"
+             });   
+        },
+        pajinate: function(ele) {
+            $(ele).pajinate({
+                'items_per_page': 9,
+                'show_paginate_if_one': false
+            })
+        }
+    };
+</script>

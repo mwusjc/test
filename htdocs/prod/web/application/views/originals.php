@@ -39,8 +39,8 @@
         <div class='col-sm-7'>
             <h2>Fresh Gift Idea</h2>
             <p>
-                The Highland Farm Gift Card is the perfect gift for any occasion. Available in denominations from $25 to $100, they are sure to please friends and relatives who love to entertain. Pick one up at the checkout on your next visit.
-            </p>
+           Prepared with the finest ingredients and using time-tested recipes, every delicious Country Kitchen dish is a comforting celebration of food. </p>
+           <p><a href='<?=site_url("/country-kitchen")?>' class='btn green'>See what's cooking</a></p>
         </div>
     </div>
 

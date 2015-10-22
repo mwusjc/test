@@ -6497,8 +6497,14 @@ ol.custom {
   margin-bottom: 30px;
   position: relative;
   display: none; }
+  .ck-products a {
+    text-align: center; }
   .ck-products img {
     max-width: 200px;
     max-height: 200px; }
+
+.platter .image {
+  max-width: 200px;
+  max-height: 200px; }
 
 /*# sourceMappingURL=styles.css.map */
