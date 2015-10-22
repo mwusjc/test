@@ -24,7 +24,7 @@
     <div class="shopcart">
         <a href='<?=site_url()?>shopping'>Shopping list
         <img src="<?=site_url()?>/assets/images/shoppingcart-2.png" />
-        <i>2</i>
+        <i class='items-in-cart'>0</i>
         </a>
     </div>
     <nav>

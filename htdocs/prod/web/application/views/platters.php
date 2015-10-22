@@ -56,7 +56,7 @@
     <h2>You have enough to worry about with your upcoming party. Leave the finger food to us. Simply reserve online and we'll have everything fresh and ready for your big day.</h2>
   </div>
 </div>
-<div class="row divider"></div>
+<div class="row divider spacer"></div>
 &nbsp;
 <div class="row">
   <div class="col-xs-12 col-sm-3">

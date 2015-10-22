@@ -64,7 +64,7 @@
         </div>
     </div>
 
-    <div class="row divider"></div>
+    <hr class='extra-space'>
 
     <div class="row">
         <div class="col-xs-12 col-sm-3">
@@ -80,7 +80,7 @@
             </a>
         </div>
         <div class="col-xs-12 col-sm-3">
-            <a href='<?=site_url()?>highland-farms-originals'>
+            <a href='<?=site_url()?>about/highland-farms-originals'>
                 <img src="<?=site_url()?>/assets/images/home_originals.jpg"/>
                 <p>Highland farms originals</p>
             </a>

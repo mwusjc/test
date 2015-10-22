@@ -6,9 +6,8 @@
     <div class="wrapper">
       <div class="row">
         <div class="col-xs-12 col-sm-12">
-         <h1>Only Available at Highland Farms </h1>
-          <h2>Prepared with the finest ingredients from traditional home-made recipes, 
-    every delicious Country Kitchen dish is a comforting celebration of life and food.</h2>
+         <h1>Exclusive to Highland Foods</h1>
+          <h2>Prepared with the finest ingredients from traditional recipes, every delicious Country Kitchen dish is a comforting celebration of life and food.</h2>
         </div>
       </div>
     </div>
@@ -16,72 +15,207 @@
 </header>
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <img src="images/ck_vodka_tn.jpg">
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <h2>Gourmet Creamy Vodka Sauce 473mL</h2>
-            <p><strong>Rich &amp; Creamy Flavour You Will Love</strong></p>
-            <p>Our All Natural Gourmet Vodka Sauce is made with the finest natural ingredients. Smother your dishes in the perfect blend of lush tomatoes and rich cream. The exquisite flavour will make it on of your familyâ€™s favourites.</p>
-            <input type="button" value="Add to Shopping List" class="green"/>
-          </div>
-        </div>
-        <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 <main>
 
-<div class="row">
-  <div class="col-xs-12 col-sm-3">
-    <ul role="tablist">
-      <li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab">Baked Goods</a></li>
-      <li role="presentation"><a href="#international" aria-controls="profile" role="tab" data-toggle="tab">Food-to-Go</a></li>
-      <li role="presentation"><a href="#meat" aria-controls="messages" role="tab" data-toggle="tab">Sauces &amp; Condiments</a></li>
-      <li role="presentation"><a href="#pasta" aria-controls="settings" role="tab" data-toggle="tab">Alternatives</a></li>
-    </ul>
-  </div>
-  <div class="col-xs-12 col-sm-9">
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="all">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4"><a href="" data-toggle="modal" data-target="#myModal"><img src="<?=site_url()?>assets/images/ck_lasagnameatsauce_tn.jpg" />Homestyle Lasagna with Meat Sauce</a></div>
-          <div class="col-xs-12 col-sm-4"><a href="" data-toggle="modal" data-target="#myModal"><img src="<?=site_url()?>assets/images/ck_vealcannelloni_tn.jpg" />Homestyle Veal Cannelloni</a></div>
-          <div class="col-xs-12 col-sm-4"><a href="" data-toggle="modal" data-target="#myModal"><img src="<?=site_url()?>assets/images/ck_3cheesecannelloni_tn.jpg" />Homestyle Three Cheese Cannelloni</a></div>
+    <div class='row'>
+
+        <div class='col-sm-6'>
+            <div class="ck-item" data-id="1" data-slidedown='.ck-products[data-id="1"]'>
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_frozen.png')?>" /></div>
+                <h2 class="box bottom">Frozen Entrées</h2>  
+            </div>
         </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_pizza_tn.jpg" />Gourmet Pizza Sauce 473ml</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_vodka_tn.jpg" />Gourmet Creamy Vodka Sauce 473ml</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_garlic_tn.jpg" />Gourmet Roasted Garlic Sauce 1L</div>
+        <div class='col-sm-6'>
+            <div class="ck-item" data-id="5" data-slidedown='.ck-products[data-id="2"]'>                
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_bread.png')?>" /></div>
+                <h2 class="box bottom">Bread & Artisan Breads</h2>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_basil_tn.jpg" />Gourmet Tomato Basil Sauce 1L</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_spicy_tn.jpg" />Gourmet Creamy Hot &amp; Spicy Sauce 1L</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_pies_tn.jpg" />Homestyle Baked Pies</div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_100Wheat-Slice-Bread_v1_tn.jpg" />Flax Seed Bread</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_100Wheatt-Slice-Bread_v2_tn.jpg" />100% Whole Wheat Bread</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_FlaxSeed-Slice-Bread_tn.jpg" />Enriched White Bread</div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_dryroastedalmonds_tn.jpg" />Homestyle Dry Roasted Almonds</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_dryroastedalmondssalted_tn.jpg" />Homestyle Dry Roasted Salted Almonds</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/ck_naturalpistachios_tn.jpg" />Homestyle Natural Pistachios</div>
-        </div>
-      </div>
-      <div role="tabpanel" class="tab-pane" id="dessert"><h1>Baked Goods</h1></div>
-      <div role="tabpanel" class="tab-pane" id="international"><h1>Food-to-go</h1></div>
-      <div role="tabpanel" class="tab-pane" id="meat"><h1>Sauces &amp; condiments</h1></div>
-      <div role="tabpanel" class="tab-pane" id="pasta"><h1>Alternatives</h1></div>
+
     </div>
-  </div>
-</div>
+    <div class='row'>
+        <div class='col-sm-12'>
+            <div class='ck-products' data-id='1'>
+                <h1>Frozen Entrées</h1>
+                <h4></h4>
+                
+                <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
+            </div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col-sm-12'>
+            <div class='ck-products' data-id='2'>
+                <h1>Bread & Artisan Breads</h1>
+                <h4>Our heart and wholesome breads are freshly baked with natural, quality ingredients.</h4>
+                <div class='row'>
+                    <div class='col-sm-3'>
+                    <a href='' data-toggle-details='true'>
+                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_ww.jpg'), 'l200')?>" />
+                        <p class='title'>Whole Wheat Bread</p> 
+                        </a>
+                    </div>
+                    <div class='col-sm-3'>
+                        <a href='' data-toggle-details='true'>
+                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_sunflower.jpg'), 'l200')?>" />
+                        <p>Sunflower Bread</p>
+                        </a>
+                    </div>
+                    <div class='col-sm-3'>
+                    <a href='' data-toggle-details='true'>
+                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_flax.jpg'), 'l200')?>" />
+                        <p>Flax Seed Bread</p>
+                        </a>
+                    </div>
+                    <div class='col-sm-3'>
+                    <a href='' data-toggle-details='true'>
+                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_baguette.jpg'), 'l200')?>" />
+                        <p>Baguette</p>
+                        </a>
+                    </div>
+                </div> 
+                <div class='row'>
+                    <div class='col-sm-3'>
+                    <a href='' data-toggle-details='true'>
+                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_100ww.jpg'), 'l200')?>" />
+                        <p>100% Whole Wheat Bread</p>
+                        </a>
+                    </div>
+                    <div class='col-sm-3'>
+                    <a href='' data-toggle-details='true'>
+                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_white.jpg'), 'l200')?>" />
+                        <p>Enriched White Bread</p>
+                        </a>
+                    </div>
+                    <div class='col-sm-3'>
+                    <a href='' data-toggle-details='true'>
+                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_rye.jpg'), 'l200')?>" />
+                        <p>Rye Bread</p>
+                        </a>
+                    </div>
+                    <div class='col-sm-3'>
+                    <a href='' data-toggle-details='true'>
+                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_cheese.jpg'), 'l200')?>" />
+                        <p>Cheese Bread</p>
+                        </a>
+                    </div>
+                </div>
+                <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
+            </div>  
+        </div>
+         
+    </div>
+
+    <div class='row'>
+
+        <div class='col-sm-6'>
+            <div class="ck-item" data-id="3">  
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_sauces.png')?>" /></div>
+                <h2 class="box bottom">All Natural Sauces</h2>
+            </div>
+        </div>
+        <div class='col-sm-6'>
+            <div class="ck-item" data-id="4">            
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_snacks.png')?>" /></div>
+                <h2 class="box bottom">Sweet & Savoury Snacks</h2>
+            </div>
+        </div>
+
+        <div class='slidedown-container'></div>
+    </div>
+
+
+    <div class='row'>
+
+        <div class='col-sm-6'>
+            <div class="ck-item" data-id="5">            
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_baked-goods.png')?>" /></div>
+                <h2 class="box bottom">Baked Goods</h2>
+            </div>
+        </div>
+        <div class='col-sm-6'>                                                
+            <div class="ck-item" data-id="6">              
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_readymeals.png')?>" /></div>
+                <h2 class="box bottom">Prepped & Ready Meals</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class='row'>
+        <div class='col-sm-8' style='padding-right:0px;'>
+            <div class='img' style='height:200px;'><img src="<?=site_url('/assets/images/country-kitchen/ck_giftcard.jpg')?>" width="900" /></div>
+        </div>
+        <div class='col-sm-4 green bg-primary border' style='height:200px;border-radius: 0 10px 10px 0px;border:0px;'>
+            <div class='bg-primary' style='position:absolute;bottom:0;'>
+                <h1>Fresh Gift Ideas</h1>
+                <p><a href='/about/highland-farms-originals'>Learn More <span style='font-size:120%;'>></span></a></p>
+            </div>
+        </div>
+    </div>
+
 </main>
+
+  <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 text-center">
+                        <img class='image' src="images/ck_vodka_tn.jpg">
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <h2 class='title'></h2>        
+                        <p class='description'>TBD.</p>
+                        <input type="button" data-cart='' value="Add to Shopping List" class="green"/>
+                    </div>
+                </div>     
+                <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type='text/javascript'>
+
+    hlf.data.ck = {};
+    
+    hlf.countrykitchen = {
+        init: function() {
+            this.setListeners();  
+        },
+
+        togglePopup: function(element) {
+            var title = $(element).children('p').html();
+            var img = $(element).children('img').attr('src');
+            $("#detailModal .title").html(title);
+            $("#detailModal .image").attr('src',img);
+            $('#detailModal').modal('show');  
+        },
+
+        setListeners: function() {
+            var that = this;
+            $('[data-toggle-details]').on('click', function(e) {
+                e.preventDefault();
+                that.togglePopup( $(this) ); 
+            });
+
+            $('[data-slidedown]').on("click", function() {
+                var obj = $(this).data("slidedown"); 
+                $('.ck-products').slideUp();
+                $(obj).slideDown(); 
+            });
+            $('[data-slideup]').on("click", function() {
+                var obj = $(this).data("slideup"); 
+                $(obj).slideUp();
+            });
+        }
+    };
+    
+    jQuery(document).ready(function($) {
+       hlf.countrykitchen.init(); 
+    });
+
+</script>

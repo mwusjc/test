@@ -56,6 +56,8 @@ $route['country-kitchen'] = 'countryKitchen';
 $route['party-platters'] = 'platters';
 $route['visit-us'] = 'visit';
 
+$route["about/highland-farms-originals"] = "about/originals";
+
 $route["inside-store/(:any)"] = "insideStore/$1";
 $route["country-kitchen/(:any)"] = "countryKitchen/$1";
 $route["party-platters/(:any)"] = "platters/$1";
@@ -65,6 +67,8 @@ $route["inside-store/(:any)/(:any)"] = "insideStore/$1/$2";
 $route["country-kitchen/(:any)/(:any)"] = "countryKitchen/$1/$2";
 $route["party-platters/(:any)/(:any)"] = "platters/$1/$2";
 $route["visit-us/(:any)/(:any)"] = "visit/$1/$2";
+
+
 
 $route["recipes/(:num)"] = "recipes/details/$1";                     
 $route["recipes/(:num)/:any"] = "recipes/details/$1";                     

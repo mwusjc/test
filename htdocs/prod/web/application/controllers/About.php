@@ -25,4 +25,10 @@ class About extends CI_Controller {
         $this->load->view("accessibility");
         $this->load->view("footer");
     }
+    
+    public function originals() {
+        $this->load->view("header");
+        $this->load->view("originals");
+        $this->load->view("footer");
+    }
 }
