@@ -87,11 +87,12 @@ class CFlyerManager extends CSectionManager
 		  $pics = $this->mDatabase->getAllAssoc("select a.PageLocation, b.Week, b.WeekEnds, b.ID, b.PDF from flyer_pages a, flyers b where a.flyerid in (".intval($this->mCurrentFlyer).",".intval($this->mPastFlyer).") and a.OrderID = 1 and a.FlyerID = b.ID order by a.FlyerID");
 			
 			$boxflyer = $pics[$this->mPastFlyer];	
-			$boxflyer2 = $pics[$this->mCurrentFlyer];	
+			$boxflyer2 = $pics[$this->mCurrentFlyer];
 
 			if (!$_GET["mode"]) {
+				//date_default_timezone_set('America/Toronto');
 				$this->mDocument->mHead->addScript(new CScript("", "js/flyer_popup.js"));
-				 $this->mDocument->mHead->addScript(new CScript(" var flyerpics = ['','']; flyerpics[0] = '".APP_SERVER_NAME.$pics[$this->mPastFlyer]["PageLocation"]."';  flyerpics[1] = '".APP_SERVER_NAME.$pics[$this->mCurrentFlyer]["PageLocation"]."'; var flyerdates = []; flyerdates[0] = '".date("F d, Y", $pics[$this->mPastFlyer]["Week"]+ 12000)." <br>to ".date("F d, Y", $pics[$this->mPastFlyer]["WeekEnds"]+ 12000)."';flyerdates[1] = '".date("F d, Y", $pics[$this->mCurrentFlyer]["Week"]+ 12000)." <br>to ".date("F d, Y", $pics[$this->mCurrentFlyer]["WeekEnds"]+ 12000)."';"));
+				$this->mDocument->mHead->addScript(new CScript(" var flyerpics = ['','']; flyerpics[0] = '".APP_SERVER_NAME.$pics[$this->mPastFlyer]["PageLocation"]."';  flyerpics[1] = '".APP_SERVER_NAME.$pics[$this->mCurrentFlyer]["PageLocation"]."'; var flyerdates = []; flyerdates[0] = '".date("F d, Y", $pics[$this->mPastFlyer]["Week"]+ 12000)." <br>to ".date("F d, Y", $pics[$this->mPastFlyer]["WeekEnds"]+ 12000)."';flyerdates[1] = '".date("F d, Y", $pics[$this->mCurrentFlyer]["Week"]+ 12000)." <br>to ".date("F d, Y", $pics[$this->mCurrentFlyer]["WeekEnds"]+ 12000)."';"));
 			}
 
 			$this->newBlock("COMINGBOX");
@@ -109,12 +110,10 @@ class CFlyerManager extends CSectionManager
 			$this->assign("FlyerPDF", APP_SERVER_NAME.$boxflyer2["PDF"]);
 			$this->assign("Effective", "Effective ".date("F d, Y", $boxflyer2["Week"]+12000) . " to " . date("F d, Y", $boxflyer2["WeekEnds"]+12000));
 
-		}		 else {
-				$this->newBlock("CURRENT");
+		} else {
+			$this->newBlock("CURRENT");
 			$pdf =$this->mDatabase->getValue("flyers", "PDF", "ID = " . intval($this->mCurrentFlyer));
-			
 			$this->assign("FlyerPDF", APP_SERVER_NAME.$pdf);
-
 		}
 
 		$this->newBlock("MAINPAGE");

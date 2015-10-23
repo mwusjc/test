@@ -29,10 +29,16 @@ DEFINE("APP_DOMAIN","highlandfarms.kermit.sjc.io");#BASE DOMAIN INCLUDING SUBDIR
 DEFINE("APP_SERVER_NAME","http://highlandfarms.kermit.sjc.io/");#HTTP ADDRESS
 DEFINE("APP_SERVER_NAME_SECURE","https://highlandfarms.kermit.sjc.io/");#HTTPS ADDRESS
 DEFINE("APP_SITE_NAME","Highland Farms");#SITE ADDRESS IN NICE FORMAT (DISPLAY ONLY)
-DEFINE("APP_BASE_PATH","/var/www/domains/highlandfarms/prod/web/");#APPLICATION BASE PATH
 DEFINE("APP_CMS_PATH","http://highlandfarms.kermit.sjc.io/");#APPLICATION BASE PATH
 
-DEFINE("INI_DB_SERVER", "valhalla-prod.cb1qb4plxjpf.us-east-1.rds.amazonaws.com");#DB SERVER NAME/IP ADDRESS
+if (getenv('DB_PORT')) {
+	DEFINE("INI_DB_SERVER", getenv('DB_PORT_3306_TCP_ADDR'));
+	DEFINE("APP_BASE_PATH","/var/www/html/");#APPLICATION BASE PATH
+} else {
+	DEFINE("INI_DB_SERVER", "valhalla-prod.cb1qb4plxjpf.us-east-1.rds.amazonaws.com");
+	DEFINE("APP_BASE_PATH","/var/www/domains/highlandfarms/prod/web/");#APPLICATION BASE PATH
+}
+
 DEFINE("INI_DB_USER", "highland"); #DB USER NAME
 DEFINE("INI_DB_PWD", "1mn9alXLS65zYbK3pHxRgjC");# DB PASSWORD
 DEFINE("INI_DB_DB", "highland");#DB DATABASE NAME

@@ -268,6 +268,15 @@ function displayPlattersOrderForm() {
 	Return $this->flushTemplate() . $script;
 }
 
+function get_include_contents($filename) {
+    if (is_file($filename)) {
+        ob_start();
+        include $filename;
+        return ob_get_clean();
+    }
+    return false;
+}
+
 /** comment here */
 function displayPrivateLabels() {
 	STitle::set(APP_TITLE_SHORT . " - Country Kitchen, Highland Farms' Private Label");
@@ -283,7 +292,8 @@ function displayPrivateLabels() {
 		$this->assign("Summary", addslashes(str_replace(array("\n", "\r"), array("<br>", ""), $val["Description"])));
 		$this->assign("Image", str_replace(".jpg", "_tn.jpg", $val["Image"]));
 	}
-	Return $this->flushTemplate();
+	//return $this->flushTemplate();
+	return $this->get_include_contents( $_SERVER['DOCUMENT_ROOT'] . '/templates/private_label/private_label.php');
 }
 
 /** comment here */

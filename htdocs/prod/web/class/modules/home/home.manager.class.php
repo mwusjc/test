@@ -35,7 +35,7 @@ class CHomeManager extends CSectionManager
 //		}
 
 
-		$dir = new DirectoryIterator('media/current_banner');
+		$dir = new DirectoryIterator( $_SERVER['DOCUMENT_ROOT'] . '/media/current_banner');
 		$fylez = array();
 		foreach ($dir as $fileinfo) {
 			if (!$fileinfo->isDot()) {

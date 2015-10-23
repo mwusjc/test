@@ -5,12 +5,15 @@
 }
 html, body {
 	height: 100%; /* Required *//* background-image:url(../images/bg_page.jpg);
-  background-repeat:repeat-x;*/
+	background-repeat:repeat-x;*/
 }
 body {
 	color: #666;
 	font: 12px Verdana, sans-serif;
 	text-align: center;
+	/*
+	transform: rotate(180deg);
+	*/
 }
 h1 {
 	padding: 12px 0 5px 20px;

@@ -1,9 +1,12 @@
-<?php   
+<?php
+	
+date_default_timezone_set('America/Toronto');	
+	
 class CDatabase {
-	var $mHost = "valhalla-prod.cb1qb4plxjpf.us-east-1.rds.amazonaws.com";
-	var $mUser = "highland";
-	var $mDb = "highland";
-	var $mPass = "1mn9alXLS65zYbK3pHxRgjC";
+	var $mHost	= "valhalla-prod.cb1qb4plxjpf.us-east-1.rds.amazonaws.com";
+	var $mUser	= "highland";
+	var $mDb	= "highland";
+	var $mPass	= "1mn9alXLS65zYbK3pHxRgjC";
 	var $mConnection;
 	var $mQueryCnt = 0;
 	var $mLogging = false;
@@ -12,6 +15,16 @@ class CDatabase {
 	var $mNewCols;
 	var $mBenchmark;
 	var $mLastQueryTime;
+
+	function __construct() {
+		if (getenv('DB_PORT')) {
+			$this->mHost	= getenv('DB_PORT_3306_TCP_ADDR');
+			$this->mUser	= getenv('DB_ENV_MYSQL_USER');
+			$this->mDb		= getenv('DB_ENV_MYSQL_DATABASE');
+			$this->mPass	= getenv('DB_ENV_MYSQL_PASSWORD');			
+		}
+	}
+
 	function CDatabase() {
 		if (INI_ENABLE_LOG) $this->mLogging = true;
 		$this->mBenchmark = &$GLOBALS['vBenchmark'];

@@ -4,6 +4,7 @@ if (isset($_GET['n']) && $_GET['n'] == 'flyers') {
 	$_GET['n'] = 'Flyers';
 }
 date_default_timezone_set('UTC');
+//date_default_timezone_set('America/Toronto');
 include "benchmark.class.php";
 include "database.class.php";
 $db = new CDatabase();

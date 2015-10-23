@@ -3,6 +3,8 @@
 **	 Common classes first - these will change very rarely
 ***************************************************************************************************************/
 
+date_default_timezone_set('America/Toronto');
+
 # settings - must be loaded first
 require_once "settings/settings.php";
 

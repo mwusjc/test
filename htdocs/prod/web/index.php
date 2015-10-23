@@ -1,4 +1,6 @@
 <?php
+
+date_default_timezone_set('America/Toronto');
 	
 //	fix for bug # HF-22
 if (isset($_GET['n']) && $_GET['n'] == 'flyers') {
