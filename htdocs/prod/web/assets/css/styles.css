@@ -5796,17 +5796,25 @@ button.close {
   .hidden-print {
     display: none !important; } }
 @font-face {
-  font-family: "Serifa";
-  src: url("../fonts/SerifaStd-Light.eot");
-  src: url("../fonts/SerifaStd-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/SerifaStd-Light.woff") format("woff"), url("../fonts/SerifaStd-Light.ttf") format("truetype"), url("../fonts/SerifaStd-Light.svg#SerifaStd-Light") format("svg");
-  font-weight: 300;
-  font-style: normal; }
+  font-family: 'SerifaBT-Light';
+  src: url("../fonts/2F04E4_0_0.eot");
+  src: url("../fonts/2F04E4_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E4_0_0.woff2") format("woff2"), url("../fonts/2F04E4_0_0.woff") format("woff"), url("../fonts/2F04E4_0_0.ttf") format("truetype"); }
 @font-face {
-  font-family: "Serifa";
-  src: url("../fonts/SerifaStd-Roman.eot");
-  src: url("../fonts/SerifaStd-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/SerifaStd-Roman.woff") format("woff"), url("../fonts/SerifaStd-Roman.ttf") format("truetype"), url("../fonts/SerifaStd-Roman.svg#SerifaStd-Roman") format("svg");
-  font-weight: 500;
-  font-style: normal; }
+  font-family: 'HelveticaNeueLT-Bold';
+  src: url("../fonts/2F04E7_0_0.eot");
+  src: url("../fonts/2F04E7_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_0_0.woff2") format("woff2"), url("../fonts/2F04E7_0_0.woff") format("woff"), url("../fonts/2F04E7_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'HelveticaNeueLT-Roman';
+  src: url("../fonts/2F04E7_1_0.eot");
+  src: url("../fonts/2F04E7_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_1_0.woff2") format("woff2"), url("../fonts/2F04E7_1_0.woff") format("woff"), url("../fonts/2F04E7_1_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'HelveticaNeueLTStd-MdCn';
+  src: url("../fonts/2F04E7_2_0.eot");
+  src: url("../fonts/2F04E7_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_2_0.woff2") format("woff2"), url("../fonts/2F04E7_2_0.woff") format("woff"), url("../fonts/2F04E7_2_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'HelveticaNeueLTStd-Hv';
+  src: url("../fonts/2F04E7_3_0.eot");
+  src: url("../fonts/2F04E7_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_3_0.woff2") format("woff2"), url("../fonts/2F04E7_3_0.woff") format("woff"), url("../fonts/2F04E7_3_0.ttf") format("truetype"); }
 .carousel-caption, input[type="button"] {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -5818,7 +5826,7 @@ button.close {
   height: 100%; }
 
 body {
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-family: "HelveticaNeueLT-Roman", "HelveticaNeueLT-Roman", "Helvetica", Arial, sans-serif;
   line-height: 1.3em;
   font-size: 14px; }
 
@@ -5828,15 +5836,19 @@ nav, h1, h2, h3, h4 {
 h1, h2, h3, h4 {
   margin-top: 0; }
 
+strong, strong {
+  font-family: 'HelveticaNeueLT-Bold'; }
+
 h1 {
   font-size: 32px;
+  font-family: 'HelveticaNeueLT-Bold';
   font-weight: normal;
   letter-spacing: 1px; }
 
 h2 {
   font-size: 22px;
   font-weight: 300;
-  font-family: 'Serifa';
+  font-family: 'SerifaBT-Light';
   letter-spacing: 1px; }
 
 h3 {
@@ -5959,7 +5971,7 @@ h4.box {
   background-color: #ffc627; }
 
 h2.box {
-  font: 26px/1.5em 'Helvetica Neue'; }
+  font: 26px/1.5em 'HelveticaNeueLT-Roman'; }
 
 .modal .modal-dialog {
   min-width: 670px;
@@ -6336,7 +6348,7 @@ ol > li:before {
   content: counter(customlistcounter) " ";
   float: left;
   width: 1.25em;
-  font-family: 'Helvetica Neue';
+  font-family: 'HelveticaNeueLT-Roman';
   font-size: 75%;
   color: #ab162b;
   margin-top: -4px; }
@@ -6345,7 +6357,7 @@ ol:first-child {
   counter-reset: customlistcounter; }
 
 ol.custom {
-  font: 22px/1.4em 'Serifa';
+  font: 22px/1.4em 'SerifaBT-Light';
   margin-left: -20px; }
 
 ol.custom {
@@ -6387,9 +6399,9 @@ ol.custom {
 .home .img {
   height: 180px; }
 
-.recipe {
+.platter {
   padding-bottom: 20px; }
-  .recipe .img {
+  .platter .img {
     height: 140px;
     margin-bottom: 10px; }
 
@@ -6411,12 +6423,12 @@ ol.custom {
   .privacy-policy ul li {
     margin-bottom: 20px; }
 
-.recipes-container .recipe {
+.platters-container .platter {
   min-height: 210px; }
-.recipes-container .img img {
+.platters-container .img img {
   min-width: 200px; }
 
-.recipes h1 {
+.platters h1 {
   padding-bottom: 20px; }
 
 .recommended .img img {
@@ -6479,6 +6491,12 @@ ol.custom {
     margin-bottom: 40px;
     width: 100%;
     display: inline-block; }
+    .inside-store-container .inside-store-item-container .inside-store-item .title {
+      font-size: 26px;
+      font-family: 'HelveticaNeueLT-Bold';
+      padding: 12px 15px;
+      color: #efefef;
+      line-height: 1.5em; }
 .inside-store-container #details {
   float: left;
   display: none;
@@ -6502,6 +6520,12 @@ ol.custom {
   .ck-products img {
     max-width: 200px;
     max-height: 200px; }
+  .ck-products .img-block {
+    width: 200px;
+    height: 200px; }
+
+#detailModal .image {
+  max-height: 300px; }
 
 .platter .image {
   max-width: 200px;

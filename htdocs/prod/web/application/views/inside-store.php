@@ -118,7 +118,7 @@ $inside[] = array(
 <div class='inside-store-item-container' >
     <div class="inside-store-item" data-istore-id="{ID}">
             <div class='img'><img src="<?=site_url()?>{IMG}" /></div>
-            <h2 class="box bottom {CLASS}">{TITLE}</h2>
+            <div class="box bottom title {CLASS}">{TITLE}</div>
         </div>
 </div>
 </script>

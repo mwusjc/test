@@ -38,6 +38,8 @@
 * @property CI_Xmlrpcs $xmlrpcs
 * @property CI_Zip $zip
 * @property Recipes_model $recipes_model
+* @property Platters_model $platters_model
+* @property Products_model $products_model
  */
 class CI_Model {};
 
@@ -80,6 +82,8 @@ class CI_Model {};
 * @property CI_Xmlrpcs $xmlrpcs
 * @property CI_Zip $zip
 * @property Recipes_model $recipes_model
+* @property Platters_model $platters_model
+* @property Products_model $products_model
  */
 class CI_Controller {};
 

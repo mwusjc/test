@@ -40,7 +40,18 @@
             <div class='ck-products' data-id='1'>
                 <h1>Frozen Entrées</h1>
                 <h4></h4>
-                
+                 <div class='row'>
+                   <?php
+                    foreach($products AS $key=>$item) {
+                        if($item->category == "1") : ?>
+                            <div class='col-sm-3'>
+                                <a href='' data-toggle-details='<?=$item->id?>'>
+                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <p class='title'><?=$item->name?></p> 
+                                </a>
+                            </div>
+                <?PHP endif; } ?>   
+                 </div>
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
         </div>
@@ -51,61 +62,22 @@
                 <h1>Bread & Artisan Breads</h1>
                 <h4>Our heart and wholesome breads are freshly baked with natural, quality ingredients.</h4>
                 <div class='row'>
-                    <div class='col-sm-3'>
-                    <a href='' data-toggle-details='true'>
-                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_ww.jpg'), 'l200')?>" />
-                        <p class='title'>Whole Wheat Bread</p> 
-                        </a>
-                    </div>
-                    <div class='col-sm-3'>
-                        <a href='' data-toggle-details='true'>
-                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_sunflower.jpg'), 'l200')?>" />
-                        <p>Sunflower Bread</p>
-                        </a>
-                    </div>
-                    <div class='col-sm-3'>
-                    <a href='' data-toggle-details='true'>
-                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_flax.jpg'), 'l200')?>" />
-                        <p>Flax Seed Bread</p>
-                        </a>
-                    </div>
-                    <div class='col-sm-3'>
-                    <a href='' data-toggle-details='true'>
-                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_baguette.jpg'), 'l200')?>" />
-                        <p>Baguette</p>
-                        </a>
-                    </div>
-                </div> 
-                <div class='row'>
-                    <div class='col-sm-3'>
-                    <a href='' data-toggle-details='true'>
-                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_100ww.jpg'), 'l200')?>" />
-                        <p>100% Whole Wheat Bread</p>
-                        </a>
-                    </div>
-                    <div class='col-sm-3'>
-                    <a href='' data-toggle-details='true'>
-                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_white.jpg'), 'l200')?>" />
-                        <p>Enriched White Bread</p>
-                        </a>
-                    </div>
-                    <div class='col-sm-3'>
-                    <a href='' data-toggle-details='true'>
-                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_rye.jpg'), 'l200')?>" />
-                        <p>Rye Bread</p>
-                        </a>
-                    </div>
-                    <div class='col-sm-3'>
-                    <a href='' data-toggle-details='true'>
-                        <img src="<?=sizeify( site_url('assets/images/country-kitchen/products/ck_bread_cheese.jpg'), 'l200')?>" />
-                        <p>Cheese Bread</p>
-                        </a>
-                    </div>
+                <?php
+                    foreach($products AS $key=>$item) {
+                        if($item->category == "2") : ?>
+                            <div class='col-sm-3'>
+                                <a href='' data-toggle-details='<?=$item->id?>'>
+                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <p class='title'><?=$item->name?></p> 
+                                </a>
+                            </div>
+                <?PHP endif; } ?>                            
+                                 
                 </div>
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>  
         </div>
-         
+
     </div>
 
     <div class='row'>
@@ -123,22 +95,44 @@
         </div>
     </div>
 
-        <div class='row'>
+    <div class='row'>
         <div class='col-sm-12'>
             <div class='ck-products' data-id='3' >
                 <h1>All Natural Sauces</h1>
                 <h4></h4>
-                
+                <div class='row'>
+                  <?php
+                    foreach($products AS $key=>$item) {
+                        if($item->category == "3") : ?>
+                            <div class='col-sm-3'>
+                                <a href='' data-toggle-details='<?=$item->id?>'>
+                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <p class='title'><?=$item->name?></p> 
+                                </a>
+                            </div>
+                <?PHP endif; } ?>   
+                </div>
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
         </div>
     </div>
-        <div class='row'>
+    <div class='row'>
         <div class='col-sm-12'>
             <div class='ck-products' data-id='4'>
                 <h1>Sweet & Savoury Snacks</h1>
                 <h4></h4>
-                
+                <div class='row'>
+                  <?php
+                    foreach($products AS $key=>$item) {
+                        if($item->category == "4") : ?>
+                            <div class='col-sm-3'>
+                                <a href='' data-toggle-details='<?=$item->id?>'>
+                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <p class='title'><?=$item->name?></p> 
+                                </a>
+                            </div>
+                <?PHP endif; } ?>   
+                </div>
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
         </div>
@@ -160,27 +154,49 @@
         </div>
     </div>
 
-            <div class='row'>
+    <div class='row'>
         <div class='col-sm-12'>
             <div class='ck-products' data-id='5' >
                 <h1>Baked Goods</h1>
                 <h4></h4>
-                
+                <div class='row'>
+                  <?php
+                    foreach($products AS $key=>$item) {
+                        if($item->category == "5") : ?>
+                            <div class='col-sm-3'>
+                                <a href='' data-toggle-details='<?=$item->id?>'>
+                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <p class='title'><?=$item->name?></p> 
+                                </a>
+                            </div>
+                <?PHP endif; } ?>   
+                </div>
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
         </div>
     </div>
-        <div class='row'>
+    <div class='row'>
         <div class='col-sm-12'>
             <div class='ck-products' data-id='6'>
                 <h1>Prepped & Ready Meals</h1>
                 <h4></h4>
-                
+                <div class='row'>
+                  <?php
+                    foreach($products AS $key=>$item) {
+                        if($item->category == "6") : ?>
+                            <div class='col-sm-3'>
+                                <a href='' data-toggle-details='<?=$item->id?>'>
+                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <p class='title'><?=$item->name?></p> 
+                                </a>
+                            </div>
+                <?PHP endif; } ?>   
+                </div>
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
         </div>
     </div>
-    
+
     <div class='row'>
         <div class='col-sm-8' style='padding-right:0px;'>
             <div class='img' style='height:200px;'><img src="<?=site_url('/assets/images/country-kitchen/ck_giftcard.jpg')?>" width="900" /></div>
@@ -195,18 +211,20 @@
 
 </main>
 
-  <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<script type='text/html' id='tpl-product-modal'>
+  <div class="modal fade otu" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 text-center">
-                        <img class='image' src="images/ck_vodka_tn.jpg">
+                        <img class='image' src="{IMG}">
                     </div>
                     <div class="col-xs-12 col-sm-6">
-                        <h2 class='title'></h2>        
-                        <p class='description'>TBD.</p>
-                        <input type="button" data-cart='' value="Add to Shopping List" class="green"/>
+                        <h2 class='title'>{TITLE} {QTY}{QTY_TYPE}</h2>
+                        <h3>{SUBTITLE}</h3>        
+                        <p class='description'>{DESCRIPTION}</p>
+                        <a href='#' data-add-cart='{ID}' class='btn green'>Add to Shopping List</a>
                     </div>
                 </div>     
                 <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
@@ -214,21 +232,31 @@
         </div>
     </div>
 </div>
-
+</script>
 <script type='text/javascript'>
 
-    hlf.data.ck = {};
-    
+    hlf.data.products = <?=json_encode($products)?>;
+    hlf.data.products_categories = <?=json_encode($products_categories)?>;
+
     hlf.countrykitchen = {
         init: function() {
             this.setListeners();  
         },
 
-        togglePopup: function(element) {
-            var title = $(element).children('p').html();
-            var img = $(element).children('img').attr('src');
-            $("#detailModal .title").html(title);
-            $("#detailModal .image").attr('src',img);
+        togglePopup: function(id) {
+            $('#detailModal.otu').remove();  // remove all modal instances (one time use)
+            item = hlf.data.products[id];
+            mapping = { 
+                "{IMG}" : item.image,
+                "{QTY}" : (item.qty ? item.qty : ''), 
+                "{QTY_TYPE}" : (item.qty_type ? item.qty_type : ''), 
+                "{TITLE}": item.name, 
+                "{SUBTITLE}": (item.subtitle ? item.subtitle : ''), 
+                "{DESCRIPTION}": item.description, 
+                "{ID}": item.id, 
+            };
+            html = hlf.drawTemplate("#tpl-product-modal", mapping);
+            $('body').append(html);
             $('#detailModal').modal('show');  
         },
 
@@ -236,7 +264,7 @@
             var that = this;
             $('[data-toggle-details]').on('click', function(e) {
                 e.preventDefault();
-                that.togglePopup( $(this) ); 
+                that.togglePopup( $(this).data("toggle-details") ); 
             });
 
             $('[data-slidedown]').on("click", function() {
@@ -248,11 +276,24 @@
                 var obj = $(this).data("slideup"); 
                 $(obj).slideUp();
             });
+            
+            $('body').on("click", '[data-add-cart]', function(e) {
+               e.preventDefault(); 
+               var id = $(this).data("add-cart");
+               
+               $.post('/shopping/add/', {"id": id},  function(response) {
+                  console.log(response); 
+               }).fail(function() {
+                  alert("Unfortunately something went wrong! Please try again."); 
+               });
+               
+               
+            });
         }
     };
-    
+
     jQuery(document).ready(function($) {
-       hlf.countrykitchen.init(); 
+        hlf.countrykitchen.init(); 
     });
 
 </script>

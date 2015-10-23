@@ -8,8 +8,32 @@ class Shopping extends CI_Controller {
     }
     public function index()
     {
+        $this->data->items = $this->cart->contents();
+        print_r($this->data);
         $this->load->view("header");
         $this->load->view("shopping/cart",$this->data);
         $this->load->view("footer");
+    }
+    
+    public function add() {
+        $id = $_POST["id"];
+        $this->load->model("Products_model",'products_model');
+        
+        $item =  $this->products_model->get($id)->$id;
+        
+        die();
+        $data = array(
+            "id" => $id,
+            "qty" => 1,
+            'price' => null,
+            'name' => $item->name,
+            'options' => array()        
+        );
+        $insert = $this->cart->insert($data);
+        
+        if($insert) {
+            $this->output->set_status_header('200');
+            die();
+        }
     }
 }

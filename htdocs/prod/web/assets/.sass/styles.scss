@@ -3,7 +3,7 @@
 @import "bootstrap-variables";
 
 
-$font-stack: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+$font-stack: 'HelveticaNeueLT-Roman','HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif;
 $green: #00a64f; 
 $lightgreen: #62a60a; 
 $orange: #f3a31d;
@@ -51,8 +51,19 @@ $yellow: #ffc627;
     font-weight: $weight;
     font-style: $style;
 }
-@font-face { @include font-face('Serifa',SerifaStd-Light,300,normal); }
-@font-face { @include font-face('Serifa',SerifaStd-Roman,500,normal); }
+
+@font-face {font-family: 'SerifaBT-Light';src: url('../fonts/2F04E4_0_0.eot');src: url('../fonts/2F04E4_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2F04E4_0_0.woff2') format('woff2'),url('../fonts/2F04E4_0_0.woff') format('woff'),url('../fonts/2F04E4_0_0.ttf') format('truetype');}
+
+@font-face {font-family: 'HelveticaNeueLT-Bold';src: url('../fonts/2F04E7_0_0.eot');src: url('../fonts/2F04E7_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2F04E7_0_0.woff2') format('woff2'),url('../fonts/2F04E7_0_0.woff') format('woff'),url('../fonts/2F04E7_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'HelveticaNeueLT-Roman';src: url('../fonts/2F04E7_1_0.eot');src: url('../fonts/2F04E7_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2F04E7_1_0.woff2') format('woff2'),url('../fonts/2F04E7_1_0.woff') format('woff'),url('../fonts/2F04E7_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'HelveticaNeueLTStd-MdCn';src: url('../fonts/2F04E7_2_0.eot');src: url('../fonts/2F04E7_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2F04E7_2_0.woff2') format('woff2'),url('../fonts/2F04E7_2_0.woff') format('woff'),url('../fonts/2F04E7_2_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'HelveticaNeueLTStd-Hv';src: url('../fonts/2F04E7_3_0.eot');src: url('../fonts/2F04E7_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2F04E7_3_0.woff2') format('woff2'),url('../fonts/2F04E7_3_0.woff') format('woff'),url('../fonts/2F04E7_3_0.ttf') format('truetype');}
 
 .carousel-caption, input[type="button"] {
     @include border-radius(10px);
@@ -69,8 +80,9 @@ nav,h1,h2,h3,h4 {
     letter-spacing: .5px;
 }
 h1,h2,h3,h4 { margin-top:0; }
-h1 { font-size:32px; font-weight:normal; letter-spacing:1px; }
-h2 { font-size:22px; font-weight:300; font-family:'Serifa'; letter-spacing:1px; }
+strong, strong { font-family: 'HelveticaNeueLT-Bold'; }
+h1 { font-size:32px; font-family:'HelveticaNeueLT-Bold'; font-weight:normal; letter-spacing:1px; }
+h2 { font-size:22px; font-weight:300; font-family:'SerifaBT-Light'; letter-spacing:1px; }
 h3 { font-size:16px; font-weight:bold; letter-spacing:-1px; }
 h4 { font-size:16px; font-weight:normal; letter-spacing:1px; }
 main {
@@ -95,11 +107,11 @@ a:focus, a:hover {
     outline-offset: initial;
 }
 hr {
-  border-top:1px solid rgb(201, 201, 201);
-  &.extra-space {
-    margin-top:40px;
-    margin-bottom:40px;
-  }  
+    border-top:1px solid rgb(201, 201, 201);
+    &.extra-space {
+        margin-top:40px;
+        margin-bottom:40px;
+    }  
 }
 p.small, input[type="button"] { font-size:12px; }
 
@@ -138,7 +150,7 @@ h4.box {
 .box.black { background-color:black; }
 .box.yellow { background-color:$yellow; }
 
-h2.box { font: 26px/1.5em 'Helvetica Neue'; }
+h2.box { font: 26px/1.5em 'HelveticaNeueLT-Roman'; }
 
 .modal {
     .modal-dialog { min-width: 670px; position:relative; }
@@ -195,7 +207,7 @@ a.details { padding:0; }
     margin: 0 10px 10px 0;
     max-height: 38px;
     &:hover {
-       background-color:$grey;
+        background-color:$grey;
     }
 }
 input[type="submit"], input[type="button"], .btn.green{
@@ -263,20 +275,20 @@ nav {
     padding: 15px 0;
     text-align:center;
     ul { 
-    max-width:1200px;
-    margin:auto;
-    margin-bottom:0; 
-    padding: 0;
+        max-width:1200px;
+        margin:auto;
+        margin-bottom:0; 
+        padding: 0;
     }
 }
 nav li { 
     margin: 0 2.5%; 
     display:inline-block; 
-    
+
 }   
 nav ul li:first-child {
-        margin-left:0;
-    }
+    margin-left:0;
+}
 footer li { margin-right: 35px; }
 footer {
     margin-top:100px;
@@ -425,7 +437,7 @@ ol {
         content: counter(customlistcounter) " ";
         float: left;
         width: 1.25em;
-        font-family:'Helvetica Neue';
+        font-family:'HelveticaNeueLT-Roman';
         font-size:75%;
         color:$red;
         margin-top: -4px;
@@ -435,7 +447,7 @@ ol:first-child {
     counter-reset: customlistcounter;
 }
 ol.custom {
-    font:22px/1.4em 'Serifa';
+    font:22px/1.4em 'SerifaBT-Light';
     margin-left: -20px;
 }
 ol.custom {
@@ -467,7 +479,7 @@ ol.custom {
 .home .img {
     height:180px;
 }
-.recipe {
+.platter {
     padding-bottom:20px;
     .img {
         height:140px; 
@@ -499,15 +511,15 @@ ol.custom {
 
 }
 
-.recipes-container {
-    .recipe {
+.platters-container {
+    .platter {
         min-height:210px;
     }
     .img img {
         min-width:200px;
     }
 }
-.recipes {
+.platters {
     h1 {
         padding-bottom:20px;
     }
@@ -543,7 +555,7 @@ ol.custom {
     text-align: center;
     .banner {
         margin:auto;
-        
+
     }
 }
 .nopad {
@@ -587,6 +599,14 @@ ol.custom {
             margin-bottom:40px;
             width:100%;
             display:inline-block;
+
+            .title {
+                font-size:26px;
+                font-family:'HelveticaNeueLT-Bold';
+                padding:12px 15px;   
+                color:$white;
+                line-height:1.5em;
+            }
         }
     }
     #details {
@@ -602,9 +622,9 @@ ol.custom {
     cursor:pointer;
     .image {
         img {
-           width:100%;
+            width:100%;
         }
-        
+
     }
 }
 .ck-products {
@@ -621,8 +641,16 @@ ol.custom {
         max-width:200px;
         max-height:200px;
     }
+    .img-block {
+        width: 200px;
+        height: 200px;
+    }
 }
-
+ #detailModal {
+    .image {
+        max-height:300px;
+    }
+ }
 .platter .image {
     max-width:200px;
     max-height:200px;
