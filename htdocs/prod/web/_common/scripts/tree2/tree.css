@@ -1,0 +1,34 @@
+.tree {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 10px;
+	white-space: nowrap;
+}
+.tree img {
+	border: 0px;
+	height: 18px;
+	vertical-align: text-bottom;
+}
+
+.tree a {
+	color: #000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.tree a:hover {
+  font-size: 11px;
+	color: #345373;
+}
+
+.tree a:visited {
+	color: #000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.tree a:active {
+	color: #000;
+	font-size: 11px;
+	text-decoration: none;
+}

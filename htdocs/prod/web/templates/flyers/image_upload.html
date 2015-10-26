@@ -1,0 +1,60 @@
+<!-- START BLOCK : frmEdit -->
+<table class="unselectable">
+		<tr> 
+          <td align="center" valign="top"> 
+            <form id="frmEdit" name="{frmEdit_NAME}" method="POST" action="{frmEdit_ACTION}" onsubmit="return frmEdit_validate();"  enctype="multipart/form-data" >
+			{FlyerID}
+						<table width="900" border="0" cellspacing="0" cellpadding="2" class="copy unselectable">
+			<tr> 
+				  <td valign="middle"  align="left" class="form_section_title" colspan="2">Flyer edition:</td>
+				</tr>
+             <tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Flyer:</td>
+                  <td valign="middle"  align="left"> {Week}</td>
+                </tr>
+			<tr> 
+				  <td valign="middle"  align="left" class="form_section_title" colspan="2">Existing Slides:</td>
+			</tr>
+<!-- START BLOCK : SLIDEB -->
+			<tr> 
+				  <td valign="middle"  align="left" colspan="2"><img src="{Slide}" height="128"></td>
+				</tr>
+<!-- END BLOCK : SLIDEB -->
+<!-- START BLOCK : NOSLIDES -->
+			<tr> 
+				  <td valign="middle"  align="left"  colspan="2">There are no slides for this flyer</td>
+				</tr>
+<!-- END BLOCK : NOSLIDES -->
+			<tr> 
+				  <td valign="middle"  align="left" class="form_section_title" colspan="2">Upload Slides:</td>
+				</tr>
+             <tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Upload Slide:</td>
+                  <td valign="middle"  align="left"> {Path1}</td>
+                </tr>
+             <tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Upload Slide:</td>
+                  <td valign="middle"  align="left"> {Path2}</td>
+                </tr>
+             <tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Upload Slide:</td>
+                  <td valign="middle"  align="left"> {Path3}</td>
+                </tr>
+             <tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Upload Slide:</td>
+                  <td valign="middle"  align="left"> {Path4}</td>
+                </tr>
+             <tr> 
+                  <td valign="middle"  align="right" class="copy" width="159">Upload Slide:</td>
+                  <td valign="middle"  align="left"> {Path5}</td>
+                </tr>
+               <tr> 
+                  <td valign="middle"  class="copy" width="159">&nbsp;</td>
+                  <td valign="middle" > <input type="submit" name="frmEdit_SUBMIT_NAME" value="Submit" ><br><br><br>
+                </tr>
+              </table>
+			  <textarea id="pageData" name="pageData" rows=15 cols=80 style="visibility: hidden;"></textarea>
+            </form>
+      </table>
+
+ <!-- END BLOCK : frmEdit -->

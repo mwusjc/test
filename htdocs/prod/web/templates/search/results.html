@@ -1,0 +1,22 @@
+  <div class="ckbanner"> <img src="images/resultsbanner.jpg" alt="Search results banner" border="0" /></div>
+      <!-- end of recipebanner -->
+      <div class="r-left" style="width:180px; float:left" ><!-- career menu -->
+	  <div class="careermenu" id="ResultsCategories">
+	  <div class="greentitle14" style="position:relative; top: -4px; margin-bottom: 6px;"> <strong>Filter by result type</strong></div>        
+<!-- START BLOCK : CATEG_LIST -->
+		{Categories}
+<!-- END BLOCK : CATEG_LIST -->
+</div>
+      </div>
+      <!-- end of recipecontainer left -->
+      <div class="srchresults">
+        <div class="recipetitle"><span class="greentitle14"><strong>Search Results</strong></span>:</div>
+<!-- START BLOCK : RESULT -->
+        <div class="resultsitem" id="result_{ID}_{Category}" name="result_{Category}">
+        <div style="float:right; margin:0px 0px 5px 20px;"><a href="javascript:;">{Category}</a></div>
+        <strong><a href="{Url}" target="_self">{Name}</a></strong>
+        <p><a href="{Url}" target="_self">{Txt}</a><br />
+        </p>
+       </div>    
+<!-- END BLOCK : RESULT -->
+      </div>

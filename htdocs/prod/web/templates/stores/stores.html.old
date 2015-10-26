@@ -1,0 +1,86 @@
+<form action="index.php" method="GET"><input type="hidden" name="n" value="Main"><input type="hidden" name="o" value="stores">
+	<table style="margin-top: 15px; margin-bottom: 10px;">
+			<tr>
+				<td valign="middle">To find a Highland Farms location near you  enter your postal code.</td>
+				<td valign="middle"><input style="width:105px; margin-right: 35px;" type="text" maxlength="7" name="PostCode" id="PostCode"/></td>
+				<td valign="middle" class="or-link"><a href="#self" onclick="submit();">ENTER</a></td>
+			</tr>
+		</table>
+</form>
+    <!-- end of postalswarch -->
+      <div class="insidecontainer">
+        <div class="left">
+<!-- START BLOCK : STORE -->
+        <div class="hours" id="StoreHours_{ID}" style="display: none;">  <span class="greentitle14">LOCATION HOURS:</span> <br /><br>
+          {Hours}
+		  <div class="phonenum"><strong>{Phone}</strong></div>
+        </div>
+        <!-- end of hours -->
+		<div id="StoreAddress_{ID}" class="address" style="display: none;">{Address}<br>{City}, {PostCode}</div>
+        <div id="StoreMap_{ID}" class="locmap" style="display: none;"><a href="{Google}" target="_blank"><img src="{Map}" border="0" /></a><a href="{Google}" target="_blank"><img style="margin-left:5px" src="images/bttn_plus.gif" name="mapplus" border="0" id="mapplus" onmouseover="MM_swapImage('mapplus','','images/bttn_plus_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a>
+          <div style="margin:10px 0 0 10px;"><a href="{Google}" target="_blank">Driving directions</a></div>
+		  </div>
+<!-- END BLOCK : STORE -->
+  <div class="hours" id="StoreHours_0" style="visibility: hidden;">  <span class="greentitle14">LOCATION HOURS:</span> <br /><br>
+          {Hours}
+				<div class="phonenum"><strong>{Phone}</strong></div>
+        </div>
+        <!-- end of hours -->
+		<div id="StoreAddress_0" class="address" style="visibility: hidden; margin: 20px 0px 0px 10px"></div>
+        <div id="StoreMap_0" class="locmap" style="visibility: hidden;"><a href="{Google}" target="_blank"><img src="{Map}" border="0" /></a><a href="{Google}" target="_blank"><img style="margin-left:5px" src="images/bttn_plus.gif" name="mapplus" border="0" id="mapplus" onmouseover="MM_swapImage('mapplus','','images/bttn_plus_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a>
+          <div style="margin:10px 0 0 10px;"><a href="{Google}" target="_blank">Driving directions</a></div>
+		  </div>
+</div>
+
+        <div class="right">
+          <div style="margin:0px 0 0 0px;">
+
+			
+<script language="JavaScript" type="text/javascript">
+<!--
+if (AC_FL_RunContent == 0 || DetectFlashVer == 0) {
+	alert("This page requires AC_RunActiveContent.js.");
+} else {
+	var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+	if(hasRightVersion) {  // if we've detected an acceptable version
+		// embed the flash movie
+		AC_FL_RunContent(
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,24,0',
+			'width', '497',
+			'height', '465',
+			'src', 'swf/hfPlayer1',
+			'quality', 'high',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'align', 'middle',
+			'play', 'true',
+			'loop', 'true',
+			'scale', 'showall',
+			'wmode', 'transparent',
+			'FlashVars', 'storeid=store1',
+			'devicefont', 'false',
+			'id', 'swf/hfPlayer1',
+			'bgcolor', '#b10334',
+			'name', 'swf/hfPlayer1',
+			'menu', 'true',
+			'allowScriptAccess','sameDomain',
+			'allowFullScreen','false',
+			'movie', 'swf/hfPlayer1',
+			'salign', ''
+			); //end AC code
+	} else {  // flash is too old or we can't detect the plugin
+		var alternateContent = 'Sorry your browser does not support scripting or it has been disabled. Please enable the support for scripting and refresh the page . This content requires the Adobe Flash Player.'
+			+ 'This content requires the Adobe Flash Player.'
+			+ '<a href=http://www.macromedia.com/go/getflash/>Get Flash</a>';
+		document.write(alternateContent);  // insert non-flash content
+	}
+}
+// -->
+</script>
+<noscript>
+	Sorry your browser does not support scripting or it has been disabled. Please enable the support for scripting and refresh the page .This content requires the Adobe Flash Player.
+  	<a href="http://www.macromedia.com/go/getflash/">Get Flash</a>
+</noscript>	
+</div>
+        </div>
+        <!-- end of recipecontainer right -->
+      </div>
