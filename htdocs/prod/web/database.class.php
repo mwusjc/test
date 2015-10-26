@@ -5,7 +5,7 @@ date_default_timezone_set('America/Toronto');
 class CDatabase {
 	var $mHost	= "valhalla-prod.cb1qb4plxjpf.us-east-1.rds.amazonaws.com";
 	var $mUser	= "highland";
-	var $mDb	= "highland";
+	var $mDb	= "webdev_hlf";
 	var $mPass	= "1mn9alXLS65zYbK3pHxRgjC";
 	var $mConnection;
 	var $mQueryCnt = 0;

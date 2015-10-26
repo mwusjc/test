@@ -1,5 +1,8 @@
 <?php
 
+include 'index2.php';
+exit;
+
 date_default_timezone_set('America/Toronto');
 	
 //	fix for bug # HF-22
