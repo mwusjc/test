@@ -38,27 +38,15 @@
         Categories
         <span class="caret"></span>
       </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li><a href="#">Deli</a></li>
-        <li><a href="#">Fish/ Seafood</a></li>
-        <li><a href="#">Meat</a></li>
-        <li><a href="#">Produce</a></li>
-        <li><a href="#">Bakery</a></li>
+      <ul class="dropdown-menu" id="categoryMenu" aria-labelledby="dropdownMenu1">
       </ul>
     </div>
     <div class="dropdown">
       <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Flyer
+        Brands
         <span class="caret"></span>
       </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li><a href="#">7 Days Bake It</a></li>
-        <li><a href="#">All Stars Bakery</a></li>
-        <li><a href="#">Black Diamond</a></li>
-        <li><a href="#">Breyers</a></li>
-        <li><a href="#">Bob's Red Mill</a></li>
-        <li><a href="#">Casa Italia</a></li>
-        <li><a href="#">Castello</a></li>
+      <ul class="dropdown-menu" id="brandMenu" aria-labelledby="dropdownMenu1">
       </ul>
     </div>
   </div>
@@ -66,7 +54,7 @@
     <input type="button" value="Download PDF" class="right green" />
   </div>
 </div>
-<div class="row">
+<div class="row" id="flyerView">
   <div class="col-xs-12 col-sm-12">
     <div id="carousel" class="carousel slide flyer" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
@@ -87,6 +75,11 @@
       </a>
     </div>
     
+  </div>
+</div>
+<div class="row" id="listView">
+  <div class="col-xs-12 col-sm-12 listViewWrapper">
+
   </div>
 </div>
 

@@ -1,5 +1,6 @@
 {
 	"week":20151022,
+	"pdf":"page1.jpg",
 	"pages":[
 		{
 			"id":"page1",
@@ -14,7 +15,7 @@
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$1.39/kg",
 					"pricing":"1.99/lb",
-					"comments":""
+					"comments":"save"
 				},
 				{
 					"image":"177555175.jpg",
@@ -37,7 +38,7 @@
 					"image":"470822257.jpg",
 					"coords":[10,170,210,200],
 					"name": "Test product 1",
-					"brand": ["Brand Name 3"],
+					"brands": ["Brand Name 3"],
 					"category": "category1",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$1.39/kg",
@@ -48,12 +49,12 @@
 					"image":"474947341.jpg",
 					"coords":[220,170,210,200],
 					"name": "Test product 2",
-					"brand": ["Brand Name 4", "Brand Name 2"],
+					"brands": ["Brand Name 4", "Brand Name 2"],
 					"category": "category2",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$2.39/kg",
 					"pricing":"2.99/lb",
-					"comments":""
+					"comments":"save"
 				}
 			]
 		}

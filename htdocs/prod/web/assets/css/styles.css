@@ -6026,6 +6026,9 @@ a.details {
 .centering, header, footer, .wrapper, header .logo {
   margin: 0 auto; }
 
+.banner img{
+  max-width: 960px;
+}
 .herobanner {
   position: relative;
   height: 285px; }
@@ -6259,10 +6262,18 @@ header .shopcart {
   text-align: left;
 }
 .productPopup .modal-product{
-    margin-top: 70px;
+  margin-top: 70px;
 }
 .productPopup .modal-body {
-    padding: 20px;
+  padding: 20px;
+}
+.productPopup .comment{
+  display: inline-block;
+  color: white;
+  background: red;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px 5px 2px;
 }
 .productPopup .pricing{
   font-weight: 900;
@@ -6276,6 +6287,38 @@ header .shopcart {
 }
 /**************************
 **********END FLYER********
+***************************/
+
+/**************************
+**********LIST VIEW********
+***************************/
+#listView{
+  display: none;
+}
+.listViewWrapper .row{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.listViewWrapper .addToCart{
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 18px;
+}
+.listViewWrapper .pricing{
+  font-weight: 900;
+  text-shadow: 0 0 0px;
+}
+.listViewWrapper .comment{
+  display: inline-block;
+  color: white;
+  background: red;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px 5px 2px;
+}
+
+/**************************
+*******END LIST VIEW*******
 ***************************/
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   max-width: initial; }
@@ -6306,6 +6349,7 @@ header .shopcart {
   filter: none; }
 
 .carousel-caption {
+  display: none;
   bottom: 0;
   padding-bottom: 20px;
   background: #ab162b;

@@ -68,27 +68,27 @@ var fl = {
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
-				html += 	"		<div class='modal fade out productPopup' id='productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
-				html += 	'			<div class="modal-dialog" role="document">'
-				html += 	'				<div class="modal-content">'
-				html += 	'					<div class="modal-body">'
-				html += 	'						<div class="row">'
-				html += 	'							<div class="col-xs-12 col-sm-6 text-center">'
-				html += 	'								<img class="image productPopupImage" src="/assets/images/'+prod.image+'">'
-				html += 	'							</div>'
-				html += 	'							<div class="col-xs-12 col-sm-6">'
-				html += 	'								<h3 class="comment">'+prod.comments+'</h3>  '
-				html += 	'								<h2 class="title">'+prod.name+'</h2>'      
-				html += 	'								<div class="pricing">$'+prod.pricing+'</div>'
-				html += 	'								<div class="packaging">'+prod.packaging+'</div>'
-				html += 	'								<a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a>'
-				html += 	'							</div>'
-				html += 	'						</div>'
-				html += 	'						<span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>'
+				html += 	"<div class='modal fade out productPopup' id='productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
+				html += 	'	<div class="modal-dialog" role="document">'
+				html += 	'		<div class="modal-content">'
+				html += 	'			<div class="modal-body">'
+				html += 	'				<div class="row">'
+				html += 	'					<div class="col-xs-12 col-sm-6 text-center">'
+				html += 	'						<img class="image productPopupImage" src="/assets/images/'+prod.image+'">'
+				html += 	'					</div>'
+				html += 	'					<div class="col-xs-12 col-sm-6">'
+				html += 	'						'+(prod.comments=='save'?'<h3 class="comment">save more !</h3>':"");
+				html += 	'						<h2 class="title">'+prod.name+'</h2>'      
+				html += 	'						<div class="pricing">$'+prod.pricing+'</div>'
+				html += 	'						<div class="packaging">'+prod.packaging+'</div>'
+				html += 	'						<a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a>'
 				html += 	'					</div>'
 				html += 	'				</div>'
-				html += 	'			</div>';
-				html += 	"		</div>";
+				html += 	'				<span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>'
+				html += 	'			</div>'
+				html += 	'		</div>'
+				html += 	'	</div>';
+				html += 	"</div>";
 			}
 			$(".flyer .item .flyerWrap")[j].innerHTML += html;
 			html = "";
@@ -119,8 +119,101 @@ var fl = {
 			if (xmlhttp.readyState == 4) {
 			var data = JSON.parse(xmlhttp.responseText);
 			fl.populateFlyer(data);
+			fl.populateListView(data);
+			fl.populateCategories(data);
+			fl.populateBrands(data);
 			}
 		}
 		xmlhttp.send();
+	},
+	populateBrands: function(data){
+		var brands = [];
+		var html = "";
+		for (var j = 0; j < data.pages.length; j++){
+			for (var i=0; i < data.pages[j].products.length; i++){
+				var prod = data.pages[j].products[i];
+				for (var b = 0; b < prod.brands.length; b++){
+					brands.indexOf(prod.brands[b])<0?brands.push(prod.brands[b]):null;
+				}
+			}
+		}
+		for (var i = 0; i < brands.length; i++){
+			html+= '<li><a href="#" class="brandItem" data-brand="'+brands[i]+'">'+brands[i]+'</a></li>'
+		}
+		$("#brandMenu")[0].innerHTML += html;
+		$(".brandItem").click(function(e){
+			fl.filterBrand(e.target.getAttribute("data-brand"));
+		})
+	},
+	populateCategories: function(data){
+		var categories = [];
+		var html = "";
+		for (var j = 0; j < data.pages.length; j++){
+			for (var i=0; i < data.pages[j].products.length; i++){
+				var prod = data.pages[j].products[i];
+				categories.indexOf(prod.category)<0?categories.push(prod.category):null;
+			}
+		}
+		for (var i = 0; i < categories.length; i++){
+			html+= '<li><a href="#" class="categoryItem" data-category="'+categories[i]+'">'+this.categoryList[categories[i]]+'</a></li>'
+		}
+		$("#categoryMenu")[0].innerHTML += html;
+		$(".categoryItem").click(function(e){
+			fl.filterCategory(e.target.getAttribute("data-category"));
+		})
+	},
+	categoryList:{
+		"category1":"First Category",
+		"category2":"Second Category",
+		"category3":"Third Category",
+		"category4":"Fourth Category"
+	},
+	filterCategory: function(cat){
+		$("#listView .row").show();
+		$("#listView .row:not([data-category='"+cat+"'])").hide();
+		this.switchView("list");
+	},
+	filterBrand: function(brand){
+		$("#listView .row").show();
+		$.each($("#listView .row"),function(i, row){
+			row.getAttribute("data-brand").indexOf(brand)<0? $(row).hide():$(row).show();
+		});
+		this.switchView("list");
+	},
+	populateListView: function(data){
+		var html = "";
+		for (var j = 0; j < data.pages.length; j++){
+			for (var i=0; i < data.pages[j].products.length; i++){
+				var prod = data.pages[j].products[i];
+				var brandstring = "";
+				for (var b = 0; b < prod.brands.length; b++){
+					brandstring+= prod.brands[b] + "|";
+				}
+				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'">'
+				html+=	    '	<div class="col-xs-12 col-sm-3 text-center">'
+				html+=	    '		<img class="image" src="/assets/images/'+prod.image+'">'
+				html+=	    '	</div>'
+				html+=	    '	<div class="col-xs-12 col-sm-9">'
+				html+=	    '		'+(prod.comments=='save'?'<h3 class="comment">save more !</h3>':"");
+				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
+				html+=	    '		<span class="pricing">$'+prod.pricing+'</span>'
+				html+=	    '		<span class="packaging">'+prod.packaging+'</span>'
+				html+=	    '		<div><a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a></div>'
+				html+=	    '	</div>'
+				html+=		'</div>'   
+			}
+		}
+		$(".listViewWrapper")[0].innerHTML += html;
+	},
+	switchView: function(view){
+		if (view == 'list'){
+			$('#listView').show();
+			$('#flyerView').hide();
+		}
+		else{
+			$('#listView').hide();
+			$('#flyerView').show();
+		}
+
 	}
 }
