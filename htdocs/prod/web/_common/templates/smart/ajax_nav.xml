@@ -1,0 +1,19 @@
+﻿<!-- START BLOCK : MAIN -->
+<!-- START BLOCK : NAVIGATIONTOP -->
+<prev_page>{PREV_PAGE}</prev_page>
+<results_per_page>{RESULTS_PER_PAGE}</results_per_page>
+<current_page>{CURRENT_PAGE}</current_page>
+<total_pages>{TOTAL_PAGES}</total_pages>
+<total_results>{TOTAL_RESULTS}</total_results>
+<next_page>{NEXT_PAGE}</next_page>
+<prev_page_100>{PREV_PAGE100}</prev_page_100>
+<next_page_100>{NEXT_PAGE100}</next_page_100>
+<nearby_pages>
+<!-- START BLOCK : NAV_PAGE_TOP -->
+	<pageid>{PAGEID}</pageid>
+	<pagelabel>{PAGELABEL}</pagelabel>
+<!-- END BLOCK : NAV_PAGE_TOP -->
+</nearby_pages>
+<!-- END BLOCK : NAVIGATIONTOP -->
+<main_table>{MainTable}</main_table>
+<!-- START BLOCK : MAIN -->

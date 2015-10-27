@@ -1,0 +1,51 @@
+<div class="ckbanner"><img src="images/temp_partyfavoursflashholder.jpg" alt="Party Favours" /></div>
+      <!-- end of kcbanner -->
+      <div class="ppcontainer">
+        <div class="left">
+          <div class = "or-link" style="margin:16px 0 0 0px; width:160px;"><a href="index.php?n=Main&o=platters" target="_self" style=" width:160px;">RETURN</a></div>
+          <div class="platteremenu">
+          <div class="greentitle14" style="margin:0 0 10px 0;"> <strong>Party Favour categories</strong></div>
+          <ul>
+          <li id="list_0" class="active" onclick="filterPlatters(0)"><a href="#self" onclick="filterPlatters(0)">Show All</a></li>
+		  <!-- START BLOCK : CATEG -->
+          <li id="list_{CategoryID}"><a href="#self" onclick="filterPlatters({CategoryID})">{CategoryName}</a></li>
+		  <!-- END BLOCK : CATEG -->
+          </ul>
+          <div class = "or-link" style="margin:26px 0 0 0px; width:160px;"><a href="#self" onclick="plShowOrder()" target="_self" style=" width:160px;">SHOW MY ORDER</a></div>
+          </div>
+        </div>
+        <!-- end of ppcontainer left -->
+        <div class="right">
+        <div style="margin:15px 0 10px 0;">Add platters and quantities to your order by selecting from the list. A Highland Farms representative will then contact you to confirm your order.</div>
+          <!-- START BLOCK : LISTITEM -->
+          <div class="platter-list-item" style="border-bottom:1px solid #ccc;" id="orderItem_{ID}" name="orderItem_{ID}_{CategoryID}" name="orderItem_{ID}_{CategoryID}">
+          <table width="460" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="120" align="left" valign="top" style="padding:0px;"><a href="#self"><img src="{Image}" id="platter_image_{ID}" onclick="openPlatter(this, '{Name}')" alt="{Name}" border="0" style="float:none" /></a></td>
+    <td width="183" align="left" valign="top" style="padding-left:10px; padding-top:5px;">    
+    <div class="mo-prodname" id="Name_{ID}">{Name}</div><br />
+                 <div class="mo-price" id="curPrice_{ID}">{CurPrice}</div></td>
+   
+    <td width="157" rowspan="2" align="left" valign="top" style="padding:5px;"><input style="width:140px; margin:0 0 10px 0"; name="Qty_{ID}" type="text" id="Qty_{ID}" value="{Qty}" onfocus="this.select();"/>
+      <select id="platterSizes_{ID}" onchange="updatePlatterPrice(this, {ID});" style="width: 145px;">
+      <option value="" selected="selected">Select a size</option>
+        <!-- START BLOCK : PRICE_OPTION -->
+	  <option value="{Price}">{PriceLabel}</option>
+	  <!-- END BLOCK : PRICE_OPTION -->
+      </select>
+      <div class = "or-link"><a style="width:140px; margin:10px 0 10px 0;" href="#self" onclick="plAddToCart({ID})">ADD TO ORDER</a></div>      <div class = "or-link"><a style="width:140px;"href="javascript:#self" onclick="plRemoveFromCart({ID})">REMOVE FROM ORDER</a></div></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" valign="top" style="padding:5px;"><div class="mo-desc"> </div></td>
+    </tr>
+</table>
+
+        </div>
+        <!-- END BLOCK : LISTITEM -->
+        
+
+        <div style="padding:10px 30px 30px 0; background-color:#f8f7f8;">
+          <div class = "gr-link" style="float:right; margin:0 0 0 0;"><a style="width:140px;"href="#self" onclick="submitOrder(); ">SUBMIT</a></div>
+        </div>
+        </div>
+        </div>

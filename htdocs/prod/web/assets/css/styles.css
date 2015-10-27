@@ -1122,7 +1122,10 @@ img {
 
 .img-circle {
   border-radius: 50%; }
-
+.green {
+	color: #00a64f;
+	font-weight: normal;
+}
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -5849,7 +5852,7 @@ h1 {
   font-size: 32px;
   font-family: 'HelveticaNeueLT-Bold';
   font-weight: normal;
-  letter-spacing: 1px; }
+  letter-spacing: 0px; }
 
 h2 {
   font-size: 22px;
@@ -5859,8 +5862,9 @@ h2 {
 
 h3 {
   font-size: 16px;
+  font-family: 'HelveticaNeueLT-Bold';
   font-weight: bold;
-  letter-spacing: -1px; }
+  letter-spacing: 0px; }
 
 h4 {
   font-size: 16px;
@@ -5883,7 +5887,8 @@ p {
 a {
   color: inherit;
   font-weight: bold;
-  display: block; }
+  display: block; 
+  text-align: left; }
 
 a:focus, a:hover {
   outline: none;
@@ -5934,10 +5939,10 @@ h4.box {
   border-radius: 10px 10px 0 0; }
 
 .box.bottom {
-  -webkit-border-radius: 0 0 8px 8px;
-  -moz-border-radius: 0 0 8px 8px;
-  -ms-border-radius: 0 0 8px 8px;
-  border-radius: 0 0 8px 8px; }
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px; }
 
 .box.natural {
   background: transparent url("../images/store_natural-texture_web.jpg") repeat;
@@ -6580,14 +6585,14 @@ ol.custom {
   -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear; }
   .inside-store-container .inside-store-item-container .inside-store-item {
-    margin-bottom: 40px;
+    margin-top: 40px;
     width: 100%;
     display: inline-block; }
     .inside-store-container .inside-store-item-container .inside-store-item .title {
       font-size: 26px;
       font-family: 'HelveticaNeueLT-Bold';
       padding: 12px 15px;
-      color: #efefef;
+      color: #fff;
       line-height: 1.5em; }
 .inside-store-container #details {
   float: left;
@@ -6615,7 +6620,9 @@ ol.custom {
   .ck-products .img-block {
     width: 200px;
     height: 200px; }
-
+  .ck-products .img-block p {
+	  text-align: left;
+  }
 #detailModal .image {
   max-height: 300px; }
 
@@ -6634,7 +6641,7 @@ ol.custom {
 .careers .job-row {
   width: 100%;
   border: 1px solid #c9c9c9;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 10px;
   padding: 15px;
   color: #999;}
@@ -6694,5 +6701,9 @@ ol.custom {
 .label-file {
   color: #dbdbdb;
   font-size: inherit;
+}
+.recipes-container .img_copy,
+.platters-container .img_copy {
+	height: 40px;
 }
 /*# sourceMappingURL=styles.css.map */

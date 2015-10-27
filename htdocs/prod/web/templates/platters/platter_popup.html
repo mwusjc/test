@@ -1,0 +1,37 @@
+<!-- START BLOCK : POPUP -->
+<div style=" width: 430px; height: 460px; border:9px solid #f8f9ee;">
+	<div style=" position:relative; left:0px top:0px; height:25px; ; margin:10px 10px 10px 17px; padding:10px 10px 0 10px;">
+		<div class="greentitlepop" style=" float:left; margin:0 0 0 0;"><strong>{Name}</strong></div>
+		<div style=" float:	 right; "><a href="#self" onclick="closeWait();"><img src="images/bttn_x.gif" alt="Close" name="bttnx" border="0" id="bttnx" onmouseover="MM_swapImage('bttnx','','images/bttn_x_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+	</div>
+<div style="display: none; float:left; margin-top:70px; width:390px;">
+<table width="384" border="0" align="left" cellpadding="0" cellspacing="10">
+  <tr>
+    <td width="69" height="30" align="left" valign="top" class="greentitle14" style="padding-left:20px">size</td>
+    <td width="72" align="left" valign="top" class="greentitle14">price</td>
+    <td width="50" align="center" valign="top" class="greentitle14">quantity</td>
+    <td colspan="2" align="right" valign="top" class="greentitle14">&nbsp;</td>
+  </tr>
+<!-- START BLOCK : PRICE -->
+<tr>
+    <td align="left" style="padding-left: 20px">{PriceDesc}</td>
+    <td align="left" id="tdPrice{Row}">{Price}</td>
+    <td align="center"><input name="Quantity{Row}" type="text" id="Quantity{Row}" size="3" onblur="if (this.value && parseInt(this.value) != this.value) {this.value=''; alert('Please enter a numeric quantity');this.focus(); return true} else { el=document.getElementById('Include{Row}'); if (this.value) el.checked=true}; "/></td>
+    <td width="112" align="right">add to order</td>
+    <td width="21" align="right"><input type="checkbox" name="Include{Row}" id="Include{Row}" /></td>
+  </tr>
+<!-- END BLOCK : PRICE -->
+  <tr>
+    <td align="left">&nbsp;</td>
+    <td align="left">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td colspan="2" align="right" style="padding-top:10PX;"><div class = "or-link"><a href="#self" onclick="plAddToCart({ID});">ADD TO ORDER</a></div></td>
+  </tr>
+</table>
+</div>
+<div style="margin:-10px 0 10px 0; float:right"><img src="{Image}" /></div>
+<div style="float:left; margin:90px 0px 0 30px; width:360px; text-align:left;">
+<img src="images/logo_hf_horizontal.gif" />
+</div>
+</div>
+<!-- END BLOCK : POPUP -->

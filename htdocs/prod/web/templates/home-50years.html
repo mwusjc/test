@@ -1,0 +1,69 @@
+<!--
+ <link rel="stylesheet" type="text/css" href="/css/sizes.css"/>
+
+<link rel="stylesheet" type="text/css" href="/css/hf.css"/>-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="/plugins/galleria/galleria-1.2.9.min.js"></script>
+
+<div id="galleria" style="height:317px; width: 720px"></div>
+<script> 
+
+    Galleria.loadTheme('/plugins/galleria/themes/classic/galleria.classic.min.js');
+
+	var data = [
+								  { image: "images/banners/banner1.png", thumb: "",link:'', title: ""},
+<!-- START BLOCK : BANNER -->
+								  { image: "{Image}", thumb: "",link:'', title: ""},
+<!-- END BLOCK : BANNER -->
+						];
+            Galleria.loadTheme('/plugins/galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('#galleria', {
+    dataSource: data,
+});
+			Galleria.configure({
+				imageCrop: true,
+				showCounter: false,
+				showImagenav: false,
+				transition: 'fadeslide',
+				width:720,
+				height:317,
+				autoplay: true,
+				thumbnails: 'numbers'
+			});
+</script>
+<div class="middlebanner">
+  <div class="left">
+    <div  class="txtblock">
+      <div class="greentitle16" style="margin-top:30px;"><a href="index.php?n=Main&o=about"><strong>Where it all started</strong></a></div>
+      <div style="margin-top:10px;"><!--In 1963, two 
+brothers embarked on a new 
+vision in the grocery retail 
+business. Read the history 
+of Highland Farms and the 
+men who started it all.--> 
+        In 1963, the Coppa family<br />
+        embarked on a new<br />
+        vision in the grocery<br />
+        retail business. <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div  class="txtblock" style=" border:none; width:190px;">
+      <div class="greentitle16" style="margin:5px 0 5px ;"><strong><a href="index.php?n=Main&o=scratch">50th Anniversary
+        Celebration:<br />
+
+        Scratch, Win & Save!</a></strong></div>
+      <div style="margin-top:10px;"><a href="index.php?n=Main&o=scratch">Click here</a> to learn more about how
+        you can win $50,000 in
+        store savings<br />
+ and prizes!</div>
+      <div  style="margin-top:0px; text-align:right; padding-right:5px;"><a href="index.php?n=Main&o=scratch" target="_self"><img src="images/arrow_right_up.gif" alt="See the Party Trays" name="arrpartyplatter" width="13" height="13" border="0" id="arrpartyplatter" onmouseover="MM_swapImage('arrpartyplatter','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+    </div>
+  </div>
+</div>

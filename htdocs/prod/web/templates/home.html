@@ -1,0 +1,84 @@
+<div style="width: 720px; position: relative">
+	<div style="position: absolute; color: #000; z-index: 10; left: 210px; top: 13px;font-weight: normal;  text-align : left; font-size: 13px; text-transform: uppercase;">EFFECTIVE {EffectiveDate}</div>
+	<div id="galleria" style="height:347px; width: 720px"></div>
+	<a href="#" id="closeCasl" style="display: none;"><img src="/images/casl-thanks.jpg" style="position: absolute; top: 20px; left: 100px; z-index: 10000"></a>
+</div>
+<script> 
+
+    Galleria.loadTheme('/plugins/galleria/themes/classic/galleria.classic.min.js');
+
+	var data = [
+
+<!-- START BLOCK : BANNER -->
+								  { image: "{Image}", thumb: "",link:'', title: ""},
+<!-- END BLOCK : BANNER -->
+						];
+            Galleria.loadTheme('/plugins/galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('#galleria', {
+    dataSource: data,
+});
+			Galleria.configure({
+				imageCrop: true,
+				showCounter: false,
+				showImagenav: false,
+				transition: 'fadeslide',
+				width:720,
+				height:317,
+				autoplay: true,
+				thumbnails: 'numbers'
+			});
+</script>
+
+
+<div class="middlebanner">
+  <div class="left">
+    <div  class="txtblock">
+      <div class="greentitle16" style="margin-top:20px;"><a href="index.php?n=Main&o=about"><strong>Where it all started</strong></a></div>
+      <div style="margin-top:10px;"><!--In 1963, two 
+brothers embarked on a new 
+vision in the grocery retail 
+business. Read the history 
+of Highland Farms and the 
+men who started it all.--> 
+        In 1963, Highland Farms<br />
+        embarked on a new<br />
+        vision in the grocery<br />
+        retail business. <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div  class="txtblock" style=" border:none; width:190px;">
+      <div class="greentitle16" style="margin:20px 0 5px ;"><strong><a href="index.php?n=Main&o=platters">Party Platters</a></strong></div>
+            <div style="margin-top:10px;">You have enough to worry about with your upcoming party. Leave the finger food<br> to us. Reserve online and we'll have everything fresh and ready for your big day.</div> 
+            <div  style="margin-top:0px; text-align:right; padding-right:5px;"><a href="index.php?n=Main&o=platters" target="_self"><img src="images/arrow_right_up.gif" alt="See the Party Trays" name="arrpartyplatter" width="13" height="13" border="0" id="arrpartyplatter" onmouseover="MM_swapImage('arrpartyplatter','','images/arrow_right_over.gif',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+$(function () {
+<!-- START BLOCK : CASL -->
+	$("#overlaycasl").css("opacity", 0.8);
+	$("#overlaycasl").width($(body).width());
+	$("#overlaycasl").height($(body).height());
+	$("#overlaycasl").fadeIn(1000);
+	$("#overlaycasl").click(closeCasl);
+	$("#closeCasl").fadeIn(500);
+<!-- END BLOCK : CASL -->
+	$("#closeCasl").click(function () {
+		closeCasl();
+		return false;
+	});
+});
+
+function closeCasl() {
+	$("#closeCasl").hide();
+	$("#overlaycasl").hide();
+}
+</script>

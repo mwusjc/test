@@ -105,7 +105,7 @@ $inside[] = array(
 </header>
 <main>
     <div class="row">
-        <div class="col-xs-12 col-sm-12"><h1>Inside the Store</h1></div>
+        <div class="col-xs-12 col-sm-12"><h1 style="margin-bottom: 0px;">Inside the Store</h1></div>
     </div>
 
     <div class="row inside-store-container"> 

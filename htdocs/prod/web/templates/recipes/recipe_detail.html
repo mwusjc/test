@@ -1,0 +1,38 @@
+<!-- START BLOCK : RECDETAIL -->
+      <div class="recipebanner"> <img src="images/temp_recipeflashholder.jpg" alt="Ontario Homegrown Friesh Field Tomatoes" border="0" /></div>
+      <div class="r-left" style="width:180px; float:left" > <img src="images/recipe_title_srch.gif" alt="Recipe.Search" class = "rtsrch" />
+      	<form action="index.php" method="GET"><input type="hidden" name="n" value="Main"><input type="hidden" name="o" value="recipe_search">
+        <input name="textfield" type="text" class="recsearchbox" id="textfield" />
+        
+       <div style="width:165px; text-align:right; margin-top:10px;"> <input name="button" type="submit" class="recsrchbttn" id="button" value="SEARCH" /></div>
+	   </form>
+        <div class="recipemenu" style="border-right:1px solid #ccc;">
+         <div class="greentitle14" style="margin:0 14px 10px 0;"> <strong>Recipe categories</strong>
+</div>        <ul>
+<li><a href="index.php?n=Main&o=recipes" target="_self"><b>Dish of the Day</b></a></li>
+<!-- START BLOCK : CATEGORY -->
+		<li><a href="index.php?n=Main&o=recipes_list&id={CategoryID}" target="_self">{CategoryName}</a></li>
+<!-- END BLOCK : CATEGORY -->         
+        
+        </ul>
+        </div>
+      </div>
+	<div class="recipe">
+      <div style="float:right; margin:19px 20px 0 0;"><table width="150" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="127" align="right">&nbsp;<a href="index.php?n=Main&o=recipe&id={ID}&mode=print" target="_blank">Print this Page &nbsp;</a></td>
+    <td width="23" align="right"><img src="images/icon_print.gif" alt="Print preview" border="0" /></td>
+  </tr>
+</table>
+</div>        <div class="recipetitle"><span class="greentitle14"><strong>RECIPE</strong>:</span> <span class="orangetitle14">{Name}</span></div>
+        <div class="recipetn" style=" float:left; margin-left:2px;">
+        <img src="{Image}" width="142" height="83" border="0">        
+
+        <p class="recipesub">Ingredients</p>
+        <p> {Ingredients} </p>
+          
+           <p class="recipesub" style="padding-top:2em">Directions</p>
+			{Directions}
+	  </div>
+<!-- END BLOCK : RECDETAIL -->
+</div>
