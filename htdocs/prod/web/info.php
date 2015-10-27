@@ -1,7 +1,4 @@
-<pre><?php
-
-echo getenv('DB_PORT');
-
+<pre><?php echo json_encode(array(
+	"x":5
+));
 ?></pre>
-
-<?php phpinfo() ?>
