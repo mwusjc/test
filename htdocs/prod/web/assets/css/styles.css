@@ -6229,6 +6229,10 @@ header .shopcart {
     -ms-border-radius: 10px;
     border-radius: 10px; }
 
+#chooseFlyer .modal-dialog{
+  margin: 160px auto;
+}
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   max-width: initial; }
 
