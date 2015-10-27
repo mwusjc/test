@@ -1,0 +1,61 @@
+{
+	"week":20151029,
+	"pages":[
+		{
+			"id":"page1",
+			"image":"page1.jpg",
+			"products":[
+				{
+					"id":"prod1",
+					"coords":[0,0,10,10],
+					"name": "Test product 1",
+					"brand": "brand1",
+					"category": "category1",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$1.39/kg",
+					"pricing":"1.99/lb",
+					"comments":""
+				},
+				{
+					"id":"prod2",
+					"coords":[0,10,10,20],
+					"name": "Test product 2",
+					"brand": "brand2",
+					"category": "category2",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$2.39/kg",
+					"pricing":"2.99/lb",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page2",
+			"image":"page2.jpg",
+			"products":[
+				{
+					"id":"prod1",
+					"coords":[0,0,10,10],
+					"name": "Test product 1",
+					"brand": "brand1",
+					"category": "category1",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$1.39/kg",
+					"pricing":"1.99/lb",
+					"comments":""
+				},
+				{
+					"id":"prod2",
+					"coords":[0,10,10,20],
+					"name": "Test product 2",
+					"brand": "brand2",
+					"category": "category2",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$2.39/kg",
+					"pricing":"2.99/lb",
+					"comments":""
+				}
+			]
+		}
+	]
+}

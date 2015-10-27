@@ -22,11 +22,13 @@
 
 <script src="/assets/js/bootstrap.js"></script>
 <script src="/assets/js/main.js"></script>
+<script src="/assets/js/flyerLoader.js"></script>
 <script src="/assets/js/jquery.pajinate.min.js"></script>
 <script src="/assets/js/jquery.lazyload.min.js"></script>
 <script src="/assets/js/hlf.js"></script>
 <script src="/assets/js/hlf.recipes.js"></script>
 <script src="/assets/js/sizeify.js"></script>
+<script src="/assets/js/jquery.loupe.min.js"></script>
 
 </body>
 </html>
