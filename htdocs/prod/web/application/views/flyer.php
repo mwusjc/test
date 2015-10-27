@@ -64,8 +64,6 @@
   </div>
   <div class="col-xs-12 col-sm-6">
     <input type="button" value="Download PDF" class="right green" />
-    <input type="button" value="+" class="white padding right" />
-    <input type="button" value="-" class="white padding margin right" />
   </div>
 </div>
 <div class="row">

@@ -1,7 +1,6 @@
 </header>
 <main class='disclaimer'>
-    <h1>Disclaimer</h1>
-    <p>&nbsp;</p>
+    <h1 style="margin-bottom: 30px;">Disclaimer</h1>
     <p>
         This Website is owned and provided by Highland Farms, and is prepared solely for your interest, information and education. Your access to and continued use of the Website constitutes your acceptance of and compliance to the following terms of this Policy, which may change at any time without notice. If you are uncomfortable or disagree with any of the terms of this Policy as outlined below, please discontinue any use of our Website.
     </p>

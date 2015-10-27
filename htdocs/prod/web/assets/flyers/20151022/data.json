@@ -6,10 +6,10 @@
 			"image":"page1.jpg",
 			"products":[
 				{
-					"id":"prod1",
-					"coords":[0,0,10,10],
+					"image":"177275363.jpg",
+					"coords":[10,170,210,200],
 					"name": "Test product 1",
-					"brand": "brand1",
+					"brands": ["Brand Name 1"],
 					"category": "category1",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$1.39/kg",
@@ -17,10 +17,10 @@
 					"comments":""
 				},
 				{
-					"id":"prod2",
-					"coords":[0,10,10,20],
+					"image":"177555175.jpg",
+					"coords":[220,170,210,200],
 					"name": "Test product 2",
-					"brand": "brand2",
+					"brands": ["Brand Name 1", "Brand Name 2"],
 					"category": "category2",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$2.39/kg",
@@ -34,10 +34,10 @@
 			"image":"page2.jpg",
 			"products":[
 				{
-					"id":"prod1",
-					"coords":[0,0,10,10],
+					"image":"470822257.jpg",
+					"coords":[10,170,210,200],
 					"name": "Test product 1",
-					"brand": "brand1",
+					"brand": ["Brand Name 3"],
 					"category": "category1",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$1.39/kg",
@@ -45,10 +45,10 @@
 					"comments":""
 				},
 				{
-					"id":"prod2",
-					"coords":[0,10,10,20],
+					"image":"474947341.jpg",
+					"coords":[220,170,210,200],
 					"name": "Test product 2",
-					"brand": "brand2",
+					"brand": ["Brand Name 4", "Brand Name 2"],
 					"category": "category2",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$2.39/kg",

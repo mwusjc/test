@@ -117,7 +117,7 @@
 <script type="text/html" id="tpl-platter-listing">
     <div class="col-xs-12 col-sm-4 platter"><a href='#' data-obj-id='_ID_'>
         <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" class='lazy' /></div>
-        _TITLE_
+        <div class="img_copy">_TITLE_</div>
         </a>
     </div>
 </script>

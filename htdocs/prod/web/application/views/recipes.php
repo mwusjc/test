@@ -5,8 +5,8 @@
         <div class="wrapper">
             <div class="row">
                 <div class="col-xs-12 col-sm-12">
-                    <h1>Recipe of the week</h1>
-                    <h2>Beef Stroganoff</h2>
+                    <h1 style="text-shadow: 1px 1px black;">Recipe of the week</h1>
+                    <h2 style="text-shadow: 1px 1px black;">Beef Stroganoff</h2>
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
 <main class='recipes'>
     <div class="row">
         <div class="col-xs-12 col-sm-12">
-            <h1>Good taste starts here</h1>
+            <h2>Good taste starts here</h2>
 
             <p>We don't just offer fresh food. We provide fresh ideas too. Every week we feature a new recipe. And, don't miss our tasty selection of appetizers, entrées and desserts in our recipe archive. Bon appetit! </p>
         </div>
@@ -86,7 +86,7 @@
 <script type="text/html" id="tpl-recipe-listing">
     <div class="col-xs-12 col-sm-4 recipe"><a href='<?=site_url()?>recipes/_ID_/_SEO_'>
         <div class='img'><img data-original="<?=site_url()?>assets/_IMAGE_" class='lazy' /></div>
-        _TITLE_
+        <div class="img_copy">_TITLE_</div>
         </a>
     </div>
 </script>
