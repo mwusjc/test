@@ -3,7 +3,7 @@
 
     <div class="wrapper">
       <div class="caption">
-        <h1>It starts with freshness.</h1>
+        <h1 style="text-shadow: 1px 1px black;">It starts with freshness.</h1>
       </div>
     </div>
   </div>
