@@ -50,7 +50,10 @@
       </ul>
     </div>
   </div>
-  <div class="col-xs-12 col-sm-6">
+  <div class="col-xs-12 col-sm-4" >
+    <span id="backToFlyerView" class="btn btn-default right" style="display:none;">Back to full flyer</span>
+  </div>
+  <div class="col-xs-12 col-sm-2">
     <input type="button" value="Download PDF" class="right green" />
   </div>
 </div>
@@ -93,6 +96,9 @@
       $("#nextFlyer").click(function(){
         fl.loadData(fl.getWeek("next"));
       });
+      $('#backToFlyerView').click(function(){
+        fl.switchView("flyer");
+      })
     });
 
 </script>

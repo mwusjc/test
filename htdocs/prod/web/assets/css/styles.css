@@ -6290,6 +6290,9 @@ header .shopcart {
 .productPopupImage{
   height: auto !important;
 }
+#backToFlyerView {
+    line-height: 22px;
+}
 /**************************
 **********END FLYER********
 ***************************/

@@ -209,10 +209,12 @@ var fl = {
 		if (view == 'list'){
 			$('#listView').show();
 			$('#flyerView').hide();
+			$('#backToFlyerView').show();
 		}
 		else{
 			$('#listView').hide();
 			$('#flyerView').show();
+			$('#backToFlyerView').hide();
 		}
 
 	}
