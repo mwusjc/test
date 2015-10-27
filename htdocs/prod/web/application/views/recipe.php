@@ -13,12 +13,12 @@
     <div class='row'>
         <div class='col-sm-4'>
             <h3>Ingredients</h3>
-            <?=nl2br($recipe->Ingredients)?>
+            <p><?=nl2br($recipe->Ingredients)?></p>
         </div>
 
         <div class='col-sm-8'>
             <h3>Instructions</h3>
-            <?=nl2br($recipe->Directions)?>
+            <p><?=nl2br($recipe->Directions)?></p>
         </div>
     </div>
     <div class='spacer-20'></div>
