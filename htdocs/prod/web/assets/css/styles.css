@@ -5544,8 +5544,7 @@ button.close {
 
 .carousel-caption {
   position: absolute;
-  left: 15%;
-  right: 15%;
+
   bottom: 20px;
   z-index: 10;
   padding-top: 20px;
@@ -5573,8 +5572,8 @@ button.close {
     margin-right: -15px; }
 
   .carousel-caption {
-    left: 20%;
-    right: 20%;
+	left: 50%;
+	margin-left: -400px;
     padding-bottom: 30px; }
 
   .carousel-indicators {
@@ -5647,6 +5646,13 @@ button.close {
   display: none !important; }
 
 @media (max-width: 767px) {
+.carousel-caption {
+	width: 100%!important;
+	 }	
+.carousel-caption h1 {
+	width: 80%!important;
+	font-size: 35px!important;
+}	 
   .visible-xs {
     display: block !important; }
 
@@ -5888,8 +5894,8 @@ a:focus, a:hover {
 hr {
   border-top: 1px solid #c9c9c9; }
   hr.extra-space {
-    margin-top: 40px;
-    margin-bottom: 40px; }
+    margin-top: 60px;
+    margin-bottom: 60px; }
 
 p.small, input[type="button"] {
   font-size: 12px; }
@@ -5922,10 +5928,10 @@ h4.box {
   margin: 0; }
 
 .box.top {
-  -webkit-border-radius: 8px 8px 0 0;
-  -moz-border-radius: 8px 8px 0 0;
-  -ms-border-radius: 8px 8px 0 0;
-  border-radius: 8px 8px 0 0; }
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0; }
 
 .box.bottom {
   -webkit-border-radius: 0 0 8px 8px;
@@ -6195,7 +6201,7 @@ footer li {
   margin-right: 35px; }
 
 footer {
-  margin-top: 100px;
+  margin-top: 60px;
   overflow: auto;
   background: #efefef;
   color: #999;
