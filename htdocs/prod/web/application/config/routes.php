@@ -73,5 +73,7 @@ $route["visit-us/(:any)/(:any)"] = "visit/$1/$2";
 $route["recipes/(:num)"] = "recipes/details/$1";                     
 $route["recipes/(:num)/:any"] = "recipes/details/$1";                     
 
+$route["careers/(:num)"] = "careers/details/$1"; 
+
 $route['404_override'] = 'errors/_404';
 $route['translate_uri_dashes'] = FALSE;
