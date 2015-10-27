@@ -6229,10 +6229,48 @@ header .shopcart {
     -ms-border-radius: 10px;
     border-radius: 10px; }
 
+/**************************
+**********FLYER************
+***************************/
+
 #chooseFlyer .modal-dialog{
   margin: 160px auto;
 }
-
+.carousel .carousel-inner .item{
+  text-align: center;
+}
+.flyerWrap{
+  display: inline-block;
+  margin: auto;
+  position: relative;
+}
+.imageMap{
+  position: absolute;
+/*  background: rgba(0,0,0,0.2);
+  border: 1px solid rgba(0,0,0,0.5);*/
+}
+.productPopup{
+  text-align: left;
+}
+.productPopup .modal-product{
+    margin-top: 70px;
+}
+.productPopup .modal-body {
+    padding: 20px;
+}
+.productPopup .pricing{
+  font-weight: 900;
+  text-shadow: 0 0 0px;
+}
+.productPopup .addToCart{
+  margin-top: 20px;
+}
+.productPopupImage{
+  height: auto !important;
+}
+/**************************
+**********END FLYER********
+***************************/
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   max-width: initial; }
 

@@ -224,7 +224,7 @@
                         <h2 class='title'>{TITLE} {QTY}{QTY_TYPE}</h2>
                         <h3>{SUBTITLE}</h3>        
                         <p class='description'>{DESCRIPTION}</p>
-                        <a href='#' data-add-cart='{ID}' class='btn green'>Add to Shopping List</a>
+                        <a href='#' data-add-cart='{ID}' class='btn green addToCart'>Add to Shopping List</a>
                     </div>
                 </div>     
                 <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
