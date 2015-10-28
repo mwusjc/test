@@ -97,9 +97,10 @@
     <div class="row">
         <div class="col-xs-12 col-sm-3">
             <ul role="tablist">
-                <?php foreach($platters_categories AS $key=>$item) : ?>
+                <?php foreach($platters_categories AS $key=>$item) :
+                      if ($item->Status == "enabled") {?>
                     <li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id='<?=$item->ID?>'><?=$item->Name?></a></li>
-                    <?PHP endforeach; ?>
+                <?PHP } endforeach; ?>
             </ul>
         </div>
         <div class="col-xs-12 col-sm-9">
