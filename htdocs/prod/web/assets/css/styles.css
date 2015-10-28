@@ -6293,6 +6293,9 @@ header .shopcart {
 #backToFlyerView {
     line-height: 22px;
 }
+#brandMenu li a{
+  text-transform: capitalize;
+}
 /**************************
 **********END FLYER********
 ***************************/
