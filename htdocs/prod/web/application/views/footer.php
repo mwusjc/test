@@ -11,11 +11,16 @@
         </ul>
         <p>© 2015 Highland Farms</p>
       </div>
-      <div class="subscribe col-xs-12 col-sm-4">
-        <p>Subscribe to our e-flyer!</p>
-        <input class="col-xs-12 col-sm-12" value="" placeholder="Your e-mail address" type="text" />
-        <input value="Subscribe" type="submit" class="sticky right green" />
-      </div>
+      <div class="subscribe col-xs-12 col-sm-4">        
+        <!-- Begin MailChimp Signup Form -->
+            <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <p>Subscribe to our e-flyer!</p>
+                <input type="email" value="" name="EMAIL" class="col-xs-12 col-sm-12" id="mce-EMAIL" placeholder="email address" required>
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="sticky right green">
+            </form>
+        </div>
+        <!--End mc_embed_signup-->
     </div>    
   </div>
 </footer>
