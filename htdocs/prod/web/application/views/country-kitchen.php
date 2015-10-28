@@ -46,7 +46,7 @@
                         if($item->category == "1") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -67,7 +67,7 @@
                         if($item->category == "2") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -106,7 +106,7 @@
                         if($item->category == "3") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -127,7 +127,7 @@
                         if($item->category == "4") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -165,7 +165,7 @@
                         if($item->category == "5") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -186,7 +186,7 @@
                         if($item->category == "6") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=sizeify( site_url($item->image), 'l200')?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>

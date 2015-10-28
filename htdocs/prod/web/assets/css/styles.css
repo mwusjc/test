@@ -6524,7 +6524,10 @@ ol.custom {
     margin-bottom: 20px; }
 
 .platters-container .platter {
-  min-height: 210px; }
+  min-height: 210px; 
+height: 210px;
+    margin: 20px 0;
+    }
 .platters-container .img img {
   min-width: 200px; }
 
@@ -6631,7 +6634,10 @@ ol.custom {
 
 .platter .image {
   max-width: 200px;
-  max-height: 200px; }
+  max-height: 200px; 
+    text-align: center;
+    height: 200px;
+    }
 .careers h2 {
   line-height: 140%;
   font-size: 22px;
@@ -6708,5 +6714,8 @@ ol.custom {
 .recipes-container .img_copy,
 .platters-container .img_copy {
 	height: 40px;
+}
+.platters-container .img_copy {
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
