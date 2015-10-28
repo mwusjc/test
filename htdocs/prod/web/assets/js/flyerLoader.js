@@ -163,10 +163,10 @@ var fl = {
 		})
 	},
 	categoryList:{
-		"category1":"First Category",
-		"category2":"Second Category",
-		"category3":"Third Category",
-		"category4":"Fourth Category"
+		"produce" : "Produce",
+		"grocery" : "Grocery",
+		"meat and deli" : "Meat & Deli",
+		"bakery" : "Bakery"
 	},
 	filterCategory: function(cat){
 		$("#listView .row").show();
