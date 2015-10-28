@@ -1,3 +1,6 @@
+<?php
+date_default_timezone_set('America/New_York');
+?>
 <!doctype html>
 <html class="no-js" lang="">
 <head>
