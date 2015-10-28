@@ -1,3 +1,29 @@
+<?php 
+if(isset($_POST['submit'])) {
+    $to = "mike.yoo@stjoseph.com";
+    $from = $_POST['email'];
+    $first = $_POST['first'];
+    $last = $_POST['last'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
+
+    $email = "From: $first $last<br/>
+                    Email: $from<br/>
+                    Phone: $phone<br/>
+                    Message: $message
+    ";
+
+    send_ses_email($to, "VISIT US: Submission", $email);
+    ?>
+    <script type='text/javascript'>
+        $(function() {
+            $('body').append($("#tpl-product-modal").html());
+            $('#detailModal').modal('show');  
+        });
+    </script>
+    <?php
+}
+?>
   </header>
 <main>
 <div class="row">
@@ -39,23 +65,40 @@ Or have a fresh idea that could make your Highland Farms experience even more en
   <div class="col-xs-12 col-sm-1">
   </div>
   <div class="col-xs-12 col-sm-8">
-    <form>
+    <form method="post" action="" id="form">
       <div class="row">
-        <div class="col-xs-12 col-sm-6"><input type="text" value="" placeholder="First Name"/></div>
-        <div class="col-xs-12 col-sm-6"><input type="text" value="" placeholder="Last Name"/></div>
+        <div class="col-xs-12 col-sm-6"><input name="first" type="text" value="" placeholder="First Name"/></div>
+        <div class="col-xs-12 col-sm-6"><input name="last" type="text" value="" placeholder="Last Name"/></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-6"><input type="text" value="" placeholder="Email"/></div>
-        <div class="col-xs-12 col-sm-6"><input type="text" value="" placeholder="Phone Number"/></div>
+        <div class="col-xs-12 col-sm-6"><input name="email" type="text" value="" placeholder="Email"/></div>
+        <div class="col-xs-12 col-sm-6"><input name="phone" type="text" value="" placeholder="Phone Number"/></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-12"><textarea value="" placeholder="Your Message"></textarea></div>
+        <div class="col-xs-12 col-sm-12"><textarea name="message" value="" placeholder="Your Message"></textarea></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-12"><input type="submit" value="Submit" class="green" /></div>
+        <div class="col-xs-12 col-sm-12"><input name="submit" type="submit" value="Submit" class="green" /></div>
       </div>
-    </form
+    </form>
   </div>
 </div>
 
 </main>
+  
+<script type='text/html' id='tpl-product-modal'>
+<div class="modal fade otu" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-s-12 text-center">
+                      <h3>Successfully Submitted.</h3>
+                  </div>
+              </div>     
+              <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
+          </div>
+      </div>
+  </div>
+</div>
+</script>

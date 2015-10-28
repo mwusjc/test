@@ -1,5 +1,34 @@
-<?php
+<?php 
+if(isset($_POST['submit'])) {
+    $to = "mike.yoo@stjoseph.com";
+    $from = $_POST['email'];
+    $first = $_POST['first'];
+    $last = $_POST['last'];
+    $phone = $_POST['phone'];
+    $location = $_POST['location'];
+    $title = $_POST['title'];
+    $id = $_POST['id'];
+    $resume = isset($_POST['file_resume_val']) ? $_POST['file_resume_val'] : "";
+    $coverletter = isset($_POST['file_coverletter_val']) ? $_POST['file_coverletter_val'] : "";
 
+    $email = "Job application submission:<br/><br/>
+                    Job: $id - $title - $location<br/>
+                    Name: $first $last<br/>
+                    Email: $from<br/>
+                    Phone: $phone<br/><br/>
+                    Resume/Coverletter attached.
+
+    ";
+    send_ses_email($to, "JOB APPLICATION: Submission", $email, $_FILES);
+    ?>
+    <script type='text/javascript'>
+        $(function() {
+            $('body').append($("#tpl-product-modal").html());
+            $('#detailModal').modal('show');  
+        });
+    </script>
+    <?php
+}
 ?>
 
 </header>
@@ -34,10 +63,13 @@
             <h3>Application:</h3>
         </div>
         <div class="col-xs-12 col-sm-9">
-            <form>
+            <form method="post" action="" enctype="multipart/form-data">
               <div class="row">
-                <div class="col-xs-12 col-sm-6"><input name="first_name" type="text" value="" placeholder="First Name"/></div>
-                <div class="col-xs-12 col-sm-6"><input name="last_name" type="text" value="" placeholder="Last Name"/></div>
+	            <input type="hidden" name="location" value="<?=$details['location']?>" />
+	            <input type="hidden" name="title" value="<?=$details['title']?>"/>
+	            <input type="hidden" name="id" value="<?=$details['id']?>"/>
+                <div class="col-xs-12 col-sm-6"><input name="first" type="text" value="" placeholder="First Name"/></div>
+                <div class="col-xs-12 col-sm-6"><input name="last" type="text" value="" placeholder="Last Name"/></div>
               </div>
               <div class="row">
                 <div class="col-xs-12 col-sm-6"><input name="email" type="text" value="" placeholder="Email"/></div>
@@ -48,7 +80,8 @@
                     <div style="position:relative;">
                             <a class='btn-file' href='javascript:;'>
                                 <span class='label-file' id="upload-resume">Upload Resume</span>
-                                <input type="file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_resume" size="40"  onchange='$("#upload-resume").html($(this).val());'>
+                                <input type="hidden" name="file_resume_val" id="upload-resume-val"/>
+                                <input type="file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="attachments[]" size="40"  onchange='$("#upload-resume").html($(this).val());$("#upload-resume-val").val($(this).val());' multiple/>
                             </a>
                     </div>
                 </div>
@@ -56,16 +89,34 @@
                     <div style="position:relative;">
                             <a class='btn-file' href='javascript:;'>
                                 <span class='label-file' id="upload-coverletter">Upload Coverletter</span>
-                                <input type="file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="file_coverletter" size="40"  onchange='$("#upload-coverletter").html($(this).val());'>
+                                <input type="hidden" name="file_coverletter_val" id="upload-coverletter-val"/>
+                                <input type="file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="attachments[]" size="40"  onchange='$("#upload-coverletter").html($(this).val());$("#upload-coverletter-val").val($(this).val());' multiple/>
                             </a>
                     </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col-xs-12 col-sm-12"><input type="submit" value="Submit Application" class="green" style="margin-top: 15px" /></div>
+                <div class="col-xs-12 col-sm-12"><input name="submit" type="submit" value="Submit Application" class="green" style="margin-top: 15px" /></div>
               </div>
             </form>
         </div>          
     </div>
     
 </main>
+
+<script type='text/html' id='tpl-product-modal'>
+<div class="modal fade otu" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-body">
+              <div class="row">
+                  <div class="col-s-12 text-center">
+                      <h3>Successfully Submitted.</h3>
+                  </div>
+              </div>     
+              <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
+          </div>
+      </div>
+  </div>
+</div>
+</script>

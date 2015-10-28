@@ -12,7 +12,7 @@ class Careers extends CI_Controller {
     	
     	$str = file_get_contents('./assets/data/jobs/listing.json');
         $json = json_decode($str, true);
-
+		
 	   	$this->data['joblistings'] = $json;
         $this->load->view("header");
         $this->load->view("careers", $this->data);
@@ -33,6 +33,7 @@ class Careers extends CI_Controller {
         
         $this->data['details'] = $data;
 
+		$this->load->helper('email');
         $this->load->view("header");
         $this->load->view("job", $this->data);
         $this->load->view("footer"); 

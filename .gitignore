@@ -13,3 +13,5 @@ htdocs/prod/web/media/flyers/*
 
 #	dumps
 db/*
+/nbproject/private/
+nbproject/
