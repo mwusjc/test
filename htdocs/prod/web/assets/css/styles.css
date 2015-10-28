@@ -6529,8 +6529,11 @@ height: 210px;
     margin: 20px 0;
     }
 .platters-container .img img {
-  min-width: 200px; }
-
+  min-width: 200px; 
+}
+.platters-container .image img {
+  min-width: 200px; 
+}
 .platters h1 {
   padding-bottom: 20px; }
 
