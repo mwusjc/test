@@ -100,28 +100,28 @@
     <hr class='extra-space'>
 
     <div class="row">
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-6 col-sm-3">
             <a href='<?=site_url()?>visit-us'>
-                <img src="<?=site_url()?>/assets/images/home_visit.jpg"/>
-                <p>Visit us</p>
+                <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_visit.jpg"/>
+                <p class="col-xs-12">Visit us</p>
             </a>
         </div>
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-6 col-sm-3">
             <a href='<?=site_url()?>party-platters'>
-                <img src="<?=site_url()?>/assets/images/home_pp.jpg"/>
-                <p>Party platters and more</p>
+                <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_pp.jpg"/>
+                <p class="col-xs-12">Party platters and more</p>
             </a>
         </div>
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-6 col-sm-3">
             <a href='<?=site_url()?>about/highland-farms-originals'>
-                <img src="<?=site_url()?>/assets/images/home_originals.jpg"/>
-                <p>Highland farms originals</p>
+                <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_originals.jpg"/>
+                <p class="col-xs-12">Highland farms originals</p>
             </a>
         </div>
-        <div class="col-xs-12 col-sm-3">
+        <div class="col-xs-6 col-sm-3">
             <a href='<?=site_url()?>inside-store'>
-                <img src="<?=site_url()?>/assets/images/home_inside-store.jpg" style='height:210px;' />
-                <p>Inside the store</p>
+                <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_inside-store.jpg" />
+                <p class="col-xs-12">Inside the store</p>
             </a>
         </div>
     </div>
