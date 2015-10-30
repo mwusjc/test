@@ -116,13 +116,34 @@
 </main>
 
 <script type="text/html" id="tpl-platter-listing">
-    <div class="col-xs-12 col-sm-4 platter"><a href='#' data-obj-id='_ID_'>
+    <div class="col-xs-12 col-sm-4 platter"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
         <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" class='lazy' /></div>
         <div class="img_copy">_TITLE_</div>
         </a>
     </div>
 </script>
-
+<script type='text/html' id='tpl-product-modal'>
+  <div class="modal fade otu" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 text-center">
+                        <img class='image' src="{IMG}">
+                    </div>
+                    <div class="col-xs-12 col-sm-6">
+                        <h2 class='title'>{TITLE} {QTY}{QTY_TYPE}</h2>
+                        <h3>{SUBTITLE}</h3>        
+                        <p class='description'>{DESCRIPTION}</p>
+                        <a href='#' data-add-cart='{ID}' class='btn green addToCart'>Add to Shopping List</a>
+                    </div>
+                </div>     
+                <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
 <script type='text/javascript'>
     hlf.data.platters = <?=json_encode($platters)?>;
     hlf.data.platters_categories = <?=json_encode($platters_categories)?>;
@@ -136,6 +157,7 @@
         init: function(data) {
             this.filterListener();
             this.drawList(data);
+            this.setListeners();  
         },
         
         filterListener: function() {  
@@ -145,6 +167,7 @@
             });
             
         },
+
         filterCategory : function(data,filter) {    
             var filtered = {};
             $.each(data, function(key,item) {
@@ -155,7 +178,55 @@
             this.drawList(filtered);
             $('input.search').val(null);
         }, 
-         
+        togglePopup: function(id) {
+            $('#detailModal.otu').remove();  // remove all modal instances (one time use)
+            item = hlf.data.platters[id];
+            console.log(item);
+            mapping = { 
+                "{IMG}" : item.Image,
+                "{QTY}" : (item.Qty ? item.Qty : ''), 
+                "{QTY_TYPE}" : (item.Qty_type ? item.Qty_type : ''), 
+                "{TITLE}": item.Name, 
+                "{SUBTITLE}": (item.Subtitle ? item.Subtitle : ''), 
+                "{DESCRIPTION}": item.Description, 
+                "{ID}": item.id, 
+            };
+            html = hlf.drawTemplate("#tpl-product-modal", mapping);
+            $('body').append(html);
+            $('#detailModal').modal('show');  
+        },
+
+        setListeners: function() {
+            var that = this;
+            $('[data-toggle-details]').on('click', function(e) {
+                e.preventDefault();
+                that.togglePopup( $(this).data("toggle-details") ); 
+            });
+
+            $('[data-slidedown]').on("click", function() {
+                var obj = $(this).data("slidedown"); 
+                $('.ck-products').slideUp();
+                $(obj).slideDown(); 
+            });
+            $('[data-slideup]').on("click", function() {
+                var obj = $(this).data("slideup"); 
+                $(obj).slideUp();
+            });
+            
+            $('body').on("click", '[data-add-cart]', function(e) {
+               e.preventDefault(); 
+               var id = $(this).data("add-cart");
+               
+               $.post('/shopping/add/', {"id": id},  function(response) {
+                  console.log(response); 
+               }).fail(function() {
+                  alert("Unfortunately something went wrong! Please try again."); 
+               });
+               
+               
+            });
+        },
+
         drawList: function(data) { 
             $('.platters-container').html(' ');
             $.each(data, function(key,item) {

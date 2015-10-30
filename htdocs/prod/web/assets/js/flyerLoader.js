@@ -123,6 +123,7 @@ var fl = {
 			fl.populateListView(data);
 			fl.populateCategories(data);
 			fl.populateBrands(data);
+			sl.init();
 			}
 		}
 		xmlhttp.send();
@@ -152,7 +153,6 @@ var fl = {
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
-				console.log(prod.category,"    ",prod.name);
 				prod.category!=undefined&&categories.indexOf(prod.category)<0?categories.push(prod.category):null;
 			}
 		}

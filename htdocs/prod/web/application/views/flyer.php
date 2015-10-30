@@ -98,7 +98,7 @@
       });
       $('#backToFlyerView').click(function(){
         fl.switchView("flyer");
-      })
+      });
     });
 
 </script>
