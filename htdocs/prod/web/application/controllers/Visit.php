@@ -5,8 +5,10 @@ class Visit extends CI_Controller {
 
     public function index()
     {
+	    $this->load->helper('email');
         $this->load->view("header");
         $this->load->view("visit-us");
         $this->load->view("footer");
+        
     }
 }
