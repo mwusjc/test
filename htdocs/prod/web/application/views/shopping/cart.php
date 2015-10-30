@@ -9,17 +9,25 @@
         </div>
     </div>
     <div class='row'>
-    <div class='col-sm-12'>
-        <h2>You currently have nothing in your list.</h2>     
+    <div class='col-sm-12 shoppingListWrapper'>  
+        <h2>You currently have nothing in your list.</h2>
     </div>
     </div>
 
     <div class='row'>
         <div class='col-sm-6 col-sm-push-6'>
             <div class='controls'>
-                <a href='#' class='btn lightgrey'>Clear List</a>
-                <a href='#' class='btn green'>Print List</a>        
+                <a href='#' class='btn lightgrey clearList'>Clear List</a>
+                <a href='#' class='btn green printList'>Print List</a>        
             </div>
         </div>
     </div>
 </main>
+<script type="text/javascript">
+$(document).ready(function(){
+    sl.populateShoppingList();
+    $(".clearList").click(function(){
+        sl.clearProducts();
+    });
+});
+</script>
