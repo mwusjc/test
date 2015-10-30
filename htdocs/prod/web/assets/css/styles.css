@@ -6487,6 +6487,10 @@ ol.custom {
 :-ms-input-placeholder {
   color: #ccc; }
 
+
+.home .img {
+  height: 180px; }
+  
 @media screen and (max-width: 768px) {
   .modal .modal-dialog {
     min-width: initial; }
@@ -6498,10 +6502,14 @@ ol.custom {
     padding: 20px 6.5%; }
 
   .row > div {
-    margin-bottom: 25px; } }
-.home .img {
-  height: 180px; }
-
+    margin-bottom: 25px; }
+  .home .img img {
+    width: 100%;
+  }
+  .home .img{
+    height: 320px;
+  }
+     }
 .platter {
   padding-bottom: 20px; }
   .platter .img {
