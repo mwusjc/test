@@ -76,11 +76,11 @@ var fl = {
 				html += 	'			<div class="modal-body">'
 				html += 	'				<div class="row">'
 				html += 	'					<div class="col-xs-12 col-sm-6 text-center">'
-//				html += 	'						<img class="image productPopupImage" src="/assets/images/'+prod.image+'">'
+//				html += 	'						<img class="image productPopupImage" src="/assets/images/flyer-images/'+prod.category+'/'+prod.image+'">'
 				html += 	'						<img class="image productPopupImage" src="/assets/images/121268869-1.jpg">'
 				html += 	'					</div>'
 				html += 	'					<div class="col-xs-12 col-sm-6">'
-				html += 	'						'+(prod.comments=='save'?'<h3 class="comment">save more !</h3>':"");
+				html += 	'						'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
 				html += 	'						<h2 class="title">'+prod.name+'</h2>'      
 				html += 	'						<div class="pricing">$'+prod.pricing+'</div>'
 				html += 	'						<div class="packaging">'+prod.packaging+'</div>'

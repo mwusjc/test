@@ -2,17 +2,17 @@
 // :|
 $inside = array();
 
-$inside[] = array(     "title" => "Fresh Bakery",     "subtitle" => "Find Your
+$inside[] = array(     "title" => "Bakery",     "subtitle" => "Find Your
 Slice of Heaven",     "description" => "Follow your nose to the bakery where
 you'll find freshly baked breads and all sorts of sweet temptations. Having a
 celebration? Stop by our bakery with your special order.",     "image" =>
 "assets/images/store_bakery_web_crop.jpg",     "class" => "brown" );
 
-$inside[] = array(     "title" => "Dairy",     "subtitle" => "Fresh Dairy
+$inside[] = array(     "title" => "Dairy",     "subtitle" => "Dairy
 Goodness",     "description" => "We have a wide selection of farm fresh dairy products including yogurt, milk, cheeses and spreads, as well as an extensive line-up of non-dairy and organic alternatives.",     "image" =>
 "assets/images/store_dairy_web_crop.jpg",     "class" => "blue" );
 
-$inside[] = array(     "title" => "Fresh Deli",     "subtitle" => "Always a
+$inside[] = array(     "title" => "Deli",     "subtitle" => "Always a
 Cut Above",     "description" => "Visit our deli counter for a traditional market experience. Deli meats and cheeses are cut-to-order by our friendly staff. You'll also find a mouth-watering selection of olives, antipastos and fresh deli salads.",     "image" =>
 "assets/images/store_deli_web_crop.jpg",     "class" => "orange" );
 
@@ -39,7 +39,7 @@ $inside[] = array(     "title" => "Produce",     "subtitle" => "The Freshest Pro
 "class" => "lightgreen" );
 
 $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to Roll",     "description" => "In the mood for some Japanese? We offer fresh sushi to satisfy your cravings. Packaged and ready to enjoy, Highland Farms gives you a taste of Japan without the cost of expensive specialty restaurants.",     "image" =>
-"assets/images/store_dairy_web_crop.jpg",     "class" => "black" ); $inside[]
+"assets/images/store_sushi_web_crop.jpg",     "class" => "black" ); $inside[]
 = array(     "title" => "Fresh Poultry",     "subtitle" => "Fresh Poultry",
 "description" => "",     "image" =>
 "assets/images/store_poultry_web_crop.jpg",     "class" => "yellow" );
