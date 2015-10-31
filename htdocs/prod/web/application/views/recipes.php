@@ -84,7 +84,7 @@
 
 
 <script type="text/html" id="tpl-recipe-listing">
-    <div class="col-xs-12 col-sm-4 recipe"><a href='<?=site_url()?>recipes/_ID_/_SEO_'>
+    <div class="col-xs-6 col-sm-4 recipe"><a href='<?=site_url()?>recipes/_ID_/_SEO_'>
         <div class='img'><img data-original="<?=site_url()?>assets/_IMAGE_" class='lazy' /></div>
         <div class="img_copy">_TITLE_</div>
         </a>

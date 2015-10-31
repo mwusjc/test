@@ -19,7 +19,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-6">
             <h2>Scarborough</h2>
-            <p>(416)-298-1999</p>
+            <p><a href="tel:+14162981999">(416)-298-1999</a></p>
 
             <p>850 Ellesmere Road </br>
             Scarborough, M1P 2W5</p>
@@ -29,7 +29,7 @@
           </div>
           <div class="col-xs-12 col-sm-6">
             <h2>Mississauga</h2>
-            <p>(905)-501-9910</p>
+            <p><a href="tel:+19055019910">(905)-501-9910</a></p>
 
             <p>50 Matheson Blvd. East </br>
             Mississauga, L4Z 1N5</p>
@@ -116,7 +116,7 @@
 </main>
 
 <script type="text/html" id="tpl-platter-listing">
-    <div class="col-xs-12 col-sm-4 platter"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
+    <div class="col-xs-6 col-sm-4 platter"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
         <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" class='lazy' /></div>
         <div class="img_copy">_TITLE_</div>
         </a>

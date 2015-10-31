@@ -55,4 +55,21 @@ nav.mobile {
     z-index: 100;
 }
 
+
+/*Platter*/
+.platter .image {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    height: auto;
+}
+.platter .image img{
+    max-width: 200px;
+    max-height: 200px;
+    text-align: center;
+    height: 200px;
+}
+
+
+
 }
