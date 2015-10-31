@@ -2874,7 +2874,7 @@ select[multiple].input-lg,
 .btn {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 500;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
@@ -5928,7 +5928,7 @@ h2.box,
 h3.box,
 h4.box {
   background: #00a64f;
-  color: #efefef;
+  color: #fff;
   padding: 12px 15px;
   margin: 0; }
 
@@ -6179,7 +6179,7 @@ main ul {
   list-style-type: disc; }
 
 footer p {
-  margin-bottom: 5px; }
+  margin-bottom: 5px; margin-top: 0;}
 footer ul {
   margin: 0;
   padding: 0; }
@@ -6490,7 +6490,7 @@ ol.custom {
 
 .home .img {
   height: 180px; }
-  
+
 @media screen and (max-width: 768px) {
   .modal .modal-dialog {
     min-width: initial; }
@@ -6732,4 +6732,12 @@ height: 210px;
 .platters-container .img_copy {
   text-align: center;
 }
-/*# sourceMappingURL=styles.css.map */
+
+h1{
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+h2{
+  letter-spacing: auto;
+  line-height: 1.3em;
+}

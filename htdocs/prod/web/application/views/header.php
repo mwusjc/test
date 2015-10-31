@@ -48,7 +48,7 @@
             <li><a href='<?=site_url()?>recipes'>Recipes</a></li>
             <li><a href='<?=site_url()?>inside-store'>Inside The Store</a></li>
             <li><a href='<?=site_url()?>country-kitchen'>Country Kitchen</a></li>
-            <li><a href='<?=site_url()?>party-platters'>Party Platters</a></li>
+            <li><a href='<?=site_url()?>party-platters'>Platters & Gifts</a></li>
             <li><a href='<?=site_url()?>about'>About</a></li>
             <li><a href='<?=site_url()?>visit-us'>Visit Us</a></li>
         </ul>
@@ -68,7 +68,7 @@
             <li><a href='<?=site_url()?>recipes'>Recipes</a></li>
             <li><a href='<?=site_url()?>inside-store'>Inside The Store</a></li>
             <li><a href='<?=site_url()?>country-kitchen'>Country Kitchen</a></li>
-            <li><a href='<?=site_url()?>party-platters'>Party Platters</a></li>
+            <li><a href='<?=site_url()?>party-platters'>Platters & Gifts</a></li>
             <li><a href='<?=site_url()?>about'>About</a></li>
             <li><a href='<?=site_url()?>visit-us'>Visit Us</a></li>
         </ul>

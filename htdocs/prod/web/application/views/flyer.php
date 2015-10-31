@@ -54,7 +54,7 @@
     <span id="backToFlyerView" class="btn btn-default right" style="display:none;">Back to full flyer</span>
   </div>
   <div class="col-xs-12 col-sm-2">
-    <input type="button" value="Download PDF" class="right green" />
+    <a href="#" id="flyerPDF" class="btn right green" target="_blank">Download PDF</a>
   </div>
 </div>
 <div class="row" id="flyerView">

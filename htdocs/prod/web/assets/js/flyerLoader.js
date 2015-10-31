@@ -39,6 +39,7 @@ var fl = {
 		return new Date(d.setDate(diff));
 	},
 	populateFlyer: function(data){
+
 		var html = "";
 		for (var i = 0; i < data.pages.length; i++){
 			html +='<div class="item"><div class="flyerWrap"><img src="/assets/flyers/'+data.week+'/'+data.pages[i].image+'"></div></div>';
@@ -47,6 +48,7 @@ var fl = {
 		this.generateImageMaps(data);
 		this.generatePopups(data);
 		$(".item").first().addClass("active");
+		$("#flyerPDF").attr("href","/assets/flyers/"+data.week+"/download.pdf");
 		// $('.item img').loupe({
 		// 	width: 500,
 		// 	height: 500
