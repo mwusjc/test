@@ -41,7 +41,7 @@
 </head>
 <body>
 <header>
-    <img class="menu-toggle" src="<?=site_url()?>/assets/images/mobile/icon_menu.png" />
+    <img class="menu-toggle mobile" src="<?=site_url()?>/assets/images/mobile/icon_menu.png" />
     <nav class="main-nav mobile closed">
         <ul class="main-menu">
             <li><a href='<?=site_url()?>flyer'>Flyer</a></li>
