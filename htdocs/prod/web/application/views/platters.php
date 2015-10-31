@@ -4,7 +4,7 @@
 
     <div class="wrapper">
       <div class="caption">
-        <h1 style="color:black;">Party Platters &amp; More</h1>
+        <h1>Party Platters &amp; More</h1>
         <input type="button" value="Place an order" data-toggle="modal" data-target="#myModal" class="green">
       </div>
     </div>
@@ -53,7 +53,7 @@
 <div class="row">
   <div class="col-xs-12 col-sm-12">
      <h1>Fresh Ideas For Your Next Event </h1>
-    <h2>You have enough to worry about with your upcoming party. Leave the finger food to us. Simply reserve online and we'll have everything fresh and ready for your big day.</h2>
+    <h2>You have enough to worry about with your upcoming party. Leave the finger food to us. Ask in store for details.</h2>
   </div>
 </div>
 <div class="row divider spacer"></div>
