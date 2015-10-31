@@ -21,6 +21,7 @@ var sl = {
 		localStorage.setItem("shoppingList",JSON.stringify(shoplistinit));
 	},
 	clearProducts: function(){
+		var shoplistinit = {"products":[]};
 		localStorage.setItem("shoppingList",JSON.stringify(shoplistinit))
 		sl.updateCount();
 		$(".shoppingListWrapper")[0].innerHTML = "<h2>You currently have nothing in your list.</h2>";

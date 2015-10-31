@@ -38,6 +38,10 @@
 <script type='text/javascript'>
   jQuery(document).ready(function($) {
     sl.init();
+    $(".menu-toggle").click(function(){
+      $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
+    });
+
   });
 </script>
 </body>

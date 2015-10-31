@@ -17,8 +17,8 @@
     <div class='row'>
         <div class='col-sm-6 col-sm-push-6'>
             <div class='controls'>
-                <a href='#' class='btn lightgrey clearList'>Clear List</a>
-                <a href='#' class='btn green printList'>Print List</a>        
+                <span href='#' class='btn lightgrey clearList'>Clear List</span>
+                <a href='javascript:window.print()' class='btn green printList'>Print List</a>        
             </div>
         </div>
     </div>

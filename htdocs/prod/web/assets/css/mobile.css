@@ -9,5 +9,50 @@
     display: none;
   }
 
+  .carousel.home {
+    height: 376px;
+    width: 100%;
+    border-top: 2px solid rgba(195,195,195,0.9);
+}
+header .shopcart {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+}
+header .logo {
+    max-width: 140px;
+    margin: 10px auto;
+}
+img.menu-toggle {
+    cursor: pointer;
+    position: absolute;
+    padding: 22px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+  color: black;
+  font-size: 30px;
+}
+.main-nav{
+  transition: all 200ms linear;
+}
+.main-nav.closed{
+  margin-left: -100%;
+}
+.main-menu li {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+  }
+.main-menu li a {
+    text-align: center;
+  }
+
+nav.mobile {
+    margin-top: 92px;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
 
 }
