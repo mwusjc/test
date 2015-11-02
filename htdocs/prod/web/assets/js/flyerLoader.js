@@ -175,7 +175,7 @@ var fl = {
 	filterCategory: function(cat){
 		$("#listView .row").show();
 		$("#listView .row:not([data-category='"+cat+"'])").hide();
-		$("#dropdownMenu1").innerHTML = this.categoryList[cat];
+		$("#dropdownMenu1")[0].innerHTML = this.categoryList[cat];
 		this.switchView("list");
 	},
 	filterBrand: function(brand){
@@ -184,7 +184,7 @@ var fl = {
 			row.getAttribute("data-brand").indexOf(brand)<0? $(row).hide():$(row).show();
 		});
 
-		$("#dropdownMenu2").innerHTML = brand;
+		$("#dropdownMenu2")[0].innerHTML = brand;
 		this.switchView("list");
 	},
 	populateListView: function(data){
@@ -223,6 +223,8 @@ var fl = {
 			$('#listView').hide();
 			$('#flyerView').show();
 			$('#backToFlyerView').hide();
+			$("#dropdownMenu1")[0].innerHTML = "Categories";
+			$("#dropdownMenu2")[0].innerHTML = "Brands";
 		}
 
 	}
