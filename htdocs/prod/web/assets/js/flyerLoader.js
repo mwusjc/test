@@ -175,6 +175,7 @@ var fl = {
 	filterCategory: function(cat){
 		$("#listView .row").show();
 		$("#listView .row:not([data-category='"+cat+"'])").hide();
+		$("#dropdownMenu1").innerHTML = categories[cat];
 		this.switchView("list");
 	},
 	filterBrand: function(brand){
@@ -182,6 +183,8 @@ var fl = {
 		$.each($("#listView .row"),function(i, row){
 			row.getAttribute("data-brand").indexOf(brand)<0? $(row).hide():$(row).show();
 		});
+
+		$("#dropdownMenu2").innerHTML = brand;
 		this.switchView("list");
 	},
 	populateListView: function(data){
@@ -199,7 +202,7 @@ var fl = {
 				html+=	    '		<img class="image" src="/assets/images/121268869-1.jpg">'
 				html+=	    '	</div>'
 				html+=	    '	<div class="col-xs-12 col-sm-9">'
-				html+=	    '		'+(prod.comments=='save'?'<h3 class="comment">save more !</h3>':"");
+				html+=	    '		'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
 				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
 				html+=	    '		<span class="pricing">$'+prod.pricing+'</span>'
 				html+=	    '		<span class="packaging">'+prod.packaging+'</span>'

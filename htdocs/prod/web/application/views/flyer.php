@@ -42,11 +42,11 @@
       </ul>
     </div>
     <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
         Brands
         <span class="caret"></span>
       </button>
-      <ul class="dropdown-menu" id="brandMenu" aria-labelledby="dropdownMenu1">
+      <ul class="dropdown-menu" id="brandMenu" aria-labelledby="dropdownMenu2">
       </ul>
     </div>
   </div>

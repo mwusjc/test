@@ -5948,7 +5948,7 @@ h4.box {
 
 .box.natural {
   background: transparent url("../images/store_natural-texture_web.jpg") repeat;
-  color: black; }
+  color: black !important; }
 
 .box.brown {
   background-color: #8a4d34; }
@@ -6297,6 +6297,9 @@ header .shopcart {
 }
 #brandMenu li a{
   text-transform: capitalize;
+}
+#flyerPDF{
+  margin: 0 -5px 0 0;
 }
 /**************************
 **********END FLYER********

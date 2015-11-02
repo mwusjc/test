@@ -35,7 +35,7 @@ if(isset($_POST['submit'])) {
     <p><strong>Store Hours</strong> </br/>
     Mon-Sat: 7:00AM-10:00PM </br/>
     Sun: 8:00AM-8:00PM</p>
-	(416)298-1999
+	<a target="_blank" href="tel:+14162981999">(416)298-1999</a>
 	
     <h2 style="margin-top: 25px;">Mississauga</h2>
     <p>50 Matheson Blvd. East </br/>
@@ -45,7 +45,7 @@ if(isset($_POST['submit'])) {
     <p><strong>Store Hours</strong> </br/>
     Mon-Sat: 7:00AM-10:00PM </br/>
     Sun: 8:00AM-8:00PM</p>
-    (905)501-9910
+    <a  target="_blank" href="tel:+19055019910">(905)501-9910</a>
   </div>
   <div class="col-xs-12 col-sm-1">
   </div>

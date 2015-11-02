@@ -6,7 +6,7 @@
     <div class="wrapper">
       <div class="row">
         <div class="col-xs-12 col-sm-12">
-         <h1>Exclusive to Highland Foods</h1>
+         <h1>Exclusive to Highland Farms</h1>
           <h2>Prepared with the finest ingredients from traditional recipes, every delicious Country Kitchen dish is a comforting celebration of life and food.</h2>
         </div>
       </div>

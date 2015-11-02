@@ -4,7 +4,7 @@
 
     <div class="wrapper">
       <div class="caption">
-        <h1>Party Platters &amp; More</h1>
+        <h1>Platters &amp; Gifts</h1>
         <input type="button" value="Place an order" data-toggle="modal" data-target="#myModal" class="green">
       </div>
     </div>

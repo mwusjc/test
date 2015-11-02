@@ -40,7 +40,7 @@ $inside[] = array(     "title" => "Produce",     "subtitle" => "The Freshest Pro
 
 $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to Roll",     "description" => "In the mood for some Japanese? We offer fresh sushi to satisfy your cravings. Packaged and ready to enjoy, Highland Farms gives you a taste of Japan without the cost of expensive specialty restaurants.",     "image" =>
 "assets/images/store_sushi_web_crop.jpg",     "class" => "black" ); $inside[]
-= array(     "title" => "Fresh Poultry",     "subtitle" => "Fresh Poultry",
+= array(     "title" => "Poultry",     "subtitle" => "Fresh Poultry",
 "description" => "",     "image" =>
 "assets/images/store_poultry_web_crop.jpg",     "class" => "yellow" );
 
