@@ -33,7 +33,7 @@ $inside[] = array(     "title" => "Natural &amp; Wellness",     "subtitle" =>
 => "assets/images/177555175.jpg",     "class" => "natural" );
 
 $inside[] = array(     "title" => "Country Kitchen",     "subtitle" => "No Time to Cook? We're Here to Help",     "description" => "Don't worry if you're running a little late. Our talented cooks whip up fresh and delicious meals such as chicken, ribs, pasta and a variety of sides – all ready to serve at a low price and great taste. Let us take care of dinner tonight!",     "image" =>
-"assets/images/store_prepared_web_crop.jpg",     "class" => "lightgrey" );
+"assets/images/store_prepared_web_crop.jpg",     "class" => "gingham" );
 
 $inside[] = array(     "title" => "Produce",     "subtitle" => "The Freshest Produce",     "description" => "The size, selection and value of our produce department is unsurpassed. Everything is hand-picked every day at the Ontario Food Terminal from local and international farmers, bringing you the freshest produce at the best prices possible.",     "image" => "assets/images/store_produce_web_crop.jpg",
 "class" => "lightgreen" );

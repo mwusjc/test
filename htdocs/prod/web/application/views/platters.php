@@ -198,7 +198,8 @@
 
         setListeners: function() {
             var that = this;
-            $('[data-toggle-details]').on('click', function(e) {
+            $(document).on('click', '[data-toggle-details]', function(e) {
+                console.log("click");
                 e.preventDefault();
                 that.togglePopup( $(this).data("toggle-details") ); 
             });
