@@ -11,7 +11,7 @@
                 <li><strong>relay service:</strong> (1-800)-855-0511</li>
             </ul>
             <h3>Multi Year Accessbility Plan</h3>
-            <a href='#' class='btn btn-primary green'>Download PDF</a>
+            <a href='/assets/accessibility.pdf' target="_blank" class='btn btn-primary green'>Download PDF</a>
 
         </div>
         <div class='col-sm-7'>

@@ -175,7 +175,7 @@ var fl = {
 	filterCategory: function(cat){
 		$("#listView .row").show();
 		$("#listView .row:not([data-category='"+cat+"'])").hide();
-		$("#dropdownMenu1")[0].innerHTML = this.categoryList[cat] + '<span class="caret"></span>';
+		$("#dropdownMenu1")[0].innerHTML = this.categoryList[cat] + ' <span class="caret"></span>';
 		this.switchView("list");
 	},
 	filterBrand: function(brand){
@@ -184,7 +184,7 @@ var fl = {
 			row.getAttribute("data-brand").indexOf(brand)<0? $(row).hide():$(row).show();
 		});
 
-		$("#dropdownMenu2")[0].innerHTML = brand + '<span class="caret"></span>';
+		$("#dropdownMenu2")[0].innerHTML = brand + ' <span class="caret"></span>';
 		this.switchView("list");
 	},
 	populateListView: function(data){

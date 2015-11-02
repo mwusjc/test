@@ -122,6 +122,9 @@
                 <h1>Sweet & Savoury Snacks</h1>
                 <h4>Satisfy your cravings with an array of nuts, dried fruit and candy.</h4>
                 <div class='row'>
+                    <img class="sweetSavoury" src="/assets/images/sweet_savory.jpg" alt="Sweet and Savoury Snacks"> 
+                </div>
+                <div class='row'>
                   <?php
                     foreach($products AS $key=>$item) {
                         if($item->category == "4") : ?>
