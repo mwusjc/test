@@ -183,7 +183,7 @@
             item = hlf.data.platters[id];
             console.log(item);
             mapping = { 
-                "{IMG}" : item.Image,
+                "{IMG}" : "<?=site_url() ?>"+"assets/"+item.Image,
                 "{QTY}" : (item.Qty ? item.Qty : ''), 
                 "{QTY_TYPE}" : (item.Qty_type ? item.Qty_type : ''), 
                 "{TITLE}": item.Name, 
@@ -199,7 +199,6 @@
         setListeners: function() {
             var that = this;
             $(document).on('click', '[data-toggle-details]', function(e) {
-                console.log("click");
                 e.preventDefault();
                 that.togglePopup( $(this).data("toggle-details") ); 
             });
