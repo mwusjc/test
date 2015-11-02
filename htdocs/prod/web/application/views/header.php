@@ -73,3 +73,5 @@
             <li><a href='<?=site_url()?>visit-us'>Visit Us</a></li>
         </ul>
     </nav>
+
+    <?php date_default_timezone_set('America/Toronto'); ?>
