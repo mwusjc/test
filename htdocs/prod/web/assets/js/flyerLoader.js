@@ -175,7 +175,7 @@ var fl = {
 	filterCategory: function(cat){
 		$("#listView .row").show();
 		$("#listView .row:not([data-category='"+cat+"'])").hide();
-		$("#dropdownMenu1").innerHTML = categories[cat];
+		$("#dropdownMenu1").innerHTML = this.categoryList[cat];
 		this.switchView("list");
 	},
 	filterBrand: function(brand){
