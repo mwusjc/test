@@ -6055,6 +6055,12 @@ a.details {
     width: 100%;
     color: white;
     padding-bottom: 30px; }
+  .herobanner .caption h1{
+    letter-spacing: 1px;
+    font-size: 42px;
+    text-transform: capitalize;
+
+  }
 
 .country-kitchen {
   background-color: #00a64f;

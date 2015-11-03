@@ -39,9 +39,10 @@ $inside[] = array(     "title" => "Produce",     "subtitle" => "The Freshest Pro
 "class" => "lightgreen" );
 
 $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to Roll",     "description" => "In the mood for some Japanese? We offer fresh sushi to satisfy your cravings. Packaged and ready to enjoy, Highland Farms gives you a taste of Japan without the cost of expensive specialty restaurants.",     "image" =>
-"assets/images/store_sushi_web_crop.jpg",     "class" => "black" ); $inside[]
-= array(     "title" => "Poultry",     "subtitle" => "Fresh Poultry",
-"description" => "",     "image" =>
+"assets/images/store_sushi_web_crop.jpg",     "class" => "black" ); 
+
+$inside[] = array(     "title" => "Poultry",     "subtitle" => "Discover our juicy selection",
+"description" => "Succulent and flavourful, our poultry selection will get your mouth watering. We have all your favourite cuts, from classic wings to boneless chicken breast. No time to marinate? No problem! We have a variety of freshly pre-marinated meats. ",     "image" =>
 "assets/images/store_poultry_web_crop.jpg",     "class" => "yellow" );
 
 ?>

@@ -44,6 +44,7 @@
     <img class="menu-toggle mobile" src="<?=site_url()?>/assets/images/mobile/icon_menu.png" />
     <nav class="main-nav mobile closed">
         <ul class="main-menu">
+            <li><a href='<?=site_url()?>'>Home</a></li>
             <li><a href='<?=site_url()?>flyer'>Flyer</a></li>
             <li><a href='<?=site_url()?>recipes'>Recipes</a></li>
             <li><a href='<?=site_url()?>inside-store'>Inside The Store</a></li>
@@ -64,6 +65,7 @@
     </div>
     <nav class="desktop">
         <ul>
+            <li><a href='<?=site_url()?>'>Home</a></li>
             <li><a href='<?=site_url()?>flyer'>Flyer</a></li>
             <li><a href='<?=site_url()?>recipes'>Recipes</a></li>
             <li><a href='<?=site_url()?>inside-store'>Inside The Store</a></li>

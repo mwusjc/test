@@ -73,7 +73,7 @@ var fl = {
 				html += 	"<div class='modal fade out productPopup' id='productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
 				html += 	'	<div class="modal-dialog" role="document">'
 				html += 	'		<div class="modal-content">'
-				html += 	'			<div class="modal-body">'
+				html += 	'			<div class="modal-body" data-category="'+ prod.category +'" >'
 				html += 	'				<div class="row">'
 				html += 	'					<div class="col-xs-12 col-sm-6 text-center">'
 				html += 	'						<img class="image productPopupImage" src="/assets/images/flyer-images/'+prod.category+'/'+prod.image+'">'

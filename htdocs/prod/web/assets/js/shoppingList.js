@@ -4,7 +4,7 @@ var sl = {
 		localStorage.getItem("shoppingList")? console.log("Shopping list exists") : localStorage.setItem("shoppingList",JSON.stringify(shoplistinit));   
 		this.updateCount();
 		$(document).on("click",".addToCart",function(e){
-	    	sl.addProduct(sl.scrapeProduct($(e.target).closest(".modal-body")));
+	    	sl.addProduct(sl.scrapeProduct($(e.target).closest(".productPopup")));
 	    	$(e.target)[0].innerHTML = "Added";
 	    	$(e.target).unbind( "click" );
 	    });
@@ -38,7 +38,7 @@ var sl = {
 				var brandstring = "";
 				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'">'
 				html+=	    '	<div class="col-xs-12 col-sm-3 text-center">'
-				html+=	    '		<img class="image" src="/assets/images/flyer-images/'+prod.category+'/'+prod.image+'">'
+				html+=	    '		<img class="image" src="'+prod.image+'">'
 //				html+=	    '		<img class="image" src="/assets/images/121268869-1.jpg">'
 				html+=	    '	</div>'
 				html+=	    '	<div class="col-xs-12 col-sm-9">'
@@ -70,7 +70,7 @@ var sl = {
 		var prod = {}
 		prod.name = html.find(".title").html();
 		prod.pricing = html.find(".pricing").html();
-		prod.pricing = html.attr("data-category");
+		prod.category = html.find(".modal-body").attr("data-category");
 		prod.packaging = html.find(".packaging").html();
 		prod.image = html.find("img").attr("src");
 		return prod;
