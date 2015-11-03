@@ -1,6 +1,7 @@
 var fl = {
 	init: function(){
-		this.loadData(fl.getWeek("current"));
+		this.loadData(fl.getWeek("current"),"desktop");
+                this.loadData(fl.getWeek("current"),"mobile");
 		this.checkOverlapDay();
 	},
 	getWeek: function(week){
@@ -38,16 +39,26 @@ var fl = {
 			diff = d.getDate() - day + (day == 0 ? -3:4); 
 		return new Date(d.setDate(diff));
 	},
-	populateFlyer: function(data){
+	populateFlyer: function(data,type){
 
 		var html = "";
 		for (var i = 0; i < data.pages.length; i++){
-			html +='<div class="item"><div class="flyerWrap"><img src="/assets/flyers/'+data.week+'/'+data.pages[i].image+'"></div></div>';
+			html +='<div class="item"><div class="flyerWrap"><img src="/assets/flyers/'+data.week+'/'+type+'/'+data.pages[i].image+'"></div></div>';
 		}
-		$(".carousel-inner").html(html);
+                if (type == "desktop") {
+                    $(".carousel-inner").html(html);
+                } else {
+                    $(".carousel-inner-mobile").html(html);
+                }
+		
 		this.generateImageMaps(data);
 		this.generatePopups(data);
-		$(".item").first().addClass("active");
+                if (type == "desktop") {
+                    $(".item").first().addClass("active");
+                } else {
+                    $(".carousel-inner-mobile .item").first().addClass("active");
+                }
+		
 		$("#flyerPDF").attr("href","/assets/flyers/"+data.week+"/download.pdf");
 		// $('.item img').loupe({
 		// 	width: 500,
@@ -114,14 +125,14 @@ var fl = {
 			$("#flyerModal").hide();
 		}
 	},
-	loadData: function(week){
-		var url = "/assets/flyers/"+week+"/data.json"; 
+	loadData: function(week,type){
+		var url = "/assets/flyers/"+week+"/"+type+"/data.json"; 
 		var xmlhttp = new XMLHttpRequest(); 
 		xmlhttp.open("GET", url, true);
 		xmlhttp.onreadystatechange= function() {
 			if (xmlhttp.readyState == 4) {
 			var data = JSON.parse(xmlhttp.responseText);
-			fl.populateFlyer(data);
+			fl.populateFlyer(data,type);
 			fl.populateListView(data);
 			fl.populateCategories(data);
 			fl.populateBrands(data);
