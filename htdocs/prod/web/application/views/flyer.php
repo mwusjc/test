@@ -59,14 +59,9 @@
 </div>
 <div class="row" id="flyerView">
   <div class="col-xs-12 col-sm-12">
+      
     <div id="carousel" class="carousel slide flyer" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
-<!--         <div class="item active">
-          <img src="<?=site_url()?>assets/images/flyer_cover_aug25.jpg"/>
-        </div>
-        <div class="item">
-          <img src="<?=site_url()?>assets/images/flyer_spread_aug25.jpg">
-        </div> -->
       </div>
       <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -77,7 +72,20 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    
+      
+    <div id="carousel-mobile" class="carousel slide flyer" data-ride="carousel">
+      <div class="carousel-inner carousel-inner-mobile" role="listbox">
+      </div>
+      <a class="left carousel-control" href="#carousel-mobile" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-mobile" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+      
   </div>
 </div>
 <div class="row" id="listView">
@@ -91,10 +99,12 @@
     jQuery(document).ready(function($) {
       fl.init();
       $("#currentFlyer").click(function(){
-        fl.loadData(fl.getWeek("current"));
+        fl.loadData(fl.getWeek("current"),"desktop");
+        fl.loadData(fl.getWeek("current"),"mobile");
       });
-      $("#nextFlyer").click(function(){
-        fl.loadData(fl.getWeek("next"));
+      $("#nextFlyer").click(function() {
+        fl.loadData(fl.getWeek("next"),"desktop");
+        fl.loadData(fl.getWeek("next"),"mobile");
       });
       $('#backToFlyerView').click(function(){
         fl.switchView("flyer");
