@@ -5,7 +5,7 @@
     <div class="wrapper">
       <div class="caption">
         <h1>Platters &amp; Gifts</h1>
-        <input type="button" value="Place an order" data-toggle="modal" data-target="#myModal" class="green">
+        <span data-toggle="modal" data-target="#myModal" class="btn green">Place an order</span>
       </div>
     </div>
   </div>
