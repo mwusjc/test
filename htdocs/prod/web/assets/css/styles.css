@@ -5945,7 +5945,10 @@ h4.box {
   -moz-border-radius: 0 0 10px 10px;
   -ms-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px; }
-
+.ck-item .box.bottom{
+      font-size: 26px;
+    font-family: 'HelveticaNeueLT-Bold';
+}
 .box.natural {
   background: transparent url("../images/store_natural-texture_web.jpg") repeat;
   color: black !important; }
@@ -6134,8 +6137,10 @@ input[type="text"], input[type="email"] {
 
 textarea {
   padding-left: 1.5%;
+  padding-top: 1.5%;
   width: 98.5%;
-  min-height: 200px; }
+  min-height: 200px;
+  margin-bottom: 5px;}
 
 input[type="text"], input[type="email"], textarea {
   border: solid 1px #ccc;
@@ -6635,7 +6640,9 @@ height: 210px;
       font-family: 'HelveticaNeueLT-Bold';
       padding: 12px 15px;
       color: #fff;
-      line-height: 1.5em; }
+      line-height: 1.5em; 
+      letter-spacing: 0.25px;
+    }
 .inside-store-container #details {
   float: left;
   display: none;

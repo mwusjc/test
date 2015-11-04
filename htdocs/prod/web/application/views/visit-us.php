@@ -55,6 +55,7 @@ if(isset($_POST['submit'])) {
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.0333680487756!2d-79.67259422484713!3d43.62160343674393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b40a400000000%3A0x9671955aa8a955ae!2sHighland+Farms+Inc!5e0!3m2!1sen!2sca!4v1443039231471" width="610" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>
+<div class="spacer"></div>
 <div class="row">
   <div class="col-xs-12 col-sm-3">
     <h2>We're here to help.</h2>
