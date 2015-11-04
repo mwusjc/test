@@ -8,7 +8,7 @@ $inside[] = array(     "title" => "Produce",     "subtitle" => "The Freshest Pro
 $inside[] = array(     "title" => "Meat",     "subtitle" => "A Cut Above",     "description" => "At our meat department you'll get prime cuts of fresh meat, weighed and packaged right before your eyes. Our friendly staff will ensure you get exactly what you want, including invaluable cooking advice.",     "image"
 => "assets/images/store_meat_web_crop.jpg",     "class" => "red" );
 
-$inside[] = array(     "title" => "Poultry",     "subtitle" => "Discover our juicy selection",
+$inside[] = array(     "title" => "Poultry",     "subtitle" => "Discover Our Juicy Selection",
 "description" => "Succulent and flavourful, our poultry selection will get your mouth watering. We have all your favourite cuts, from classic wings to boneless chicken breast. No time to marinate? No problem! We have a variety of freshly pre-marinated meats. ",     "image" =>
 "assets/images/store_poultry_web_crop.jpg",     "class" => "yellow" );
 
@@ -35,7 +35,7 @@ $inside[] = array(     "title" => "Seafood",     "subtitle" => "Fish for Flavour
 $inside[] = array(     "title" => "Flowers",     "subtitle" => "In Full Bloom",     "description" => "Stop by our flower shop for potted plants and beautiful blooms. Ask our specially trained assistants to put together a customized bouquet.",     "image" =>
 "assets/images/store_flowers_web_crop.jpg",     "class" => "lightgreen" );
 
-$inside[] = array(     "title" => "Groceries",     "subtitle" => "Selection to suit every taste",     "description" => "As the innovator of the ultimate one-stop supermarket, we are committed to bringing you the widest range of groceries, all while saving you money every day.",     "image" => "assets/images/93472004.jpg",     "class" =>
+$inside[] = array(     "title" => "Groceries",     "subtitle" => "Selection To Suit Every Taste",     "description" => "As the innovator of the ultimate one-stop supermarket, we are committed to bringing you the widest range of groceries, all while saving you money every day.",     "image" => "assets/images/93472004.jpg",     "class" =>
 "green" );
 
 $inside[] = array(     "title" => "Natural &amp; Wellness",     "subtitle" =>

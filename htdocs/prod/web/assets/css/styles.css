@@ -6170,10 +6170,7 @@ iframe {
   float: left; }
 
 input[type="submit"] {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px; }
+  border-radius: 10px; }
 
 .btn {
   padding: 7px 25px;
