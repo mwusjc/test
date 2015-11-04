@@ -4,10 +4,10 @@
     <div class="caption">
         <div class="wrapper">
             <div class="row">
-                <div class="col-xs-12 col-sm-12">
+                <a href="/recipes/381/Beef-Stroganoff" class="col-xs-12 col-sm-12">
                     <h1 style="text-shadow: 1px 1px 4px black;">Recipe of the week</h1>
                     <h2 style="text-shadow: 1px 1px 4px black;">Beef Stroganoff</h2>
-                </div>
+                </a>
             </div>
         </div>
     </div>    
