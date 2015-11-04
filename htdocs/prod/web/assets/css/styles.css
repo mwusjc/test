@@ -6663,7 +6663,7 @@ height: 210px;
   position: relative;
   display: none; }
   .ck-products a {
-    text-align: center; }
+    text-align: left; }
   .ck-products img {
     max-width: 200px;
     max-height: 200px; }
@@ -6769,4 +6769,11 @@ h1{
 h2{
   letter-spacing: auto;
   line-height: 1.3em;
+}
+.originals h1{
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+.originals hr{
+  margin: 40px 0;
 }

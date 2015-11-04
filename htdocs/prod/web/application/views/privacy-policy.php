@@ -29,7 +29,7 @@
 
     <p>
         <strong>
-            Highland Farms respects the privacy of Customers when promoting products and services. If you do not wish to receive marketing or promotional communications (other than in respect of any Program account itself), simply inform us at:
+            Highland Farms respects the privacy of Customers when promoting products and services. If you do not wish to receive marketing or promotional communications (other than in respect of any Program account itself), simply inform us at: <a href="mailto:customerservice@freshathighlandfarms.com">customerservice@freshathighlandfarms.com</a>
         </strong>
     </p>
 </main>

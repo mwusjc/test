@@ -2,6 +2,10 @@
 </header>
 <main>
 <div class="row">
+<h1 class="title">Current Flyer</h2>
+<h4 class="flyerDateRange">Thursday, Oct 29 - Wednesday, Nov 4</h4> 
+</div>
+<div class="row">
   <div class="col-xs-12 col-sm-6">
     <a class="btn btn-default modal-toggle" type="button" id="flyerModal" data-toggle="modal" data-backdrop="false" href="#chooseFlyer">
       Choose Flyer
@@ -16,7 +20,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-9">
                             <h2 class="title">This Week's Flyer</h2>
-                            <h3 class="flyerDateRange">Thursday, October 29 - Wednesday, Nov 4</h3>  
+                            <h3 class="flyerDateRange">Thursday, Oct 29 - Wednesday, Nov 4</h3>  
                         </div>
                     </div>     
                     <div class="row" id="nextFlyer" data-dismiss="modal">
@@ -25,7 +29,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-9">
                             <h2 class="title">Next Week's Flyer</h2>
-                            <h3 class="flyerDateRange">Thursday, October 29 - Wednesday, Nov 4</h3>  
+                            <h3 class="flyerDateRange">Thursday, Nov 5 - Wednesday, Nov 11</h3>  
                         </div>
                     </div>
                     <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
