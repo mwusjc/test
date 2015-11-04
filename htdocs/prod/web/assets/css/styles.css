@@ -6163,12 +6163,14 @@ iframe {
 .sticky {
   position: absolute;
   right: 0; }
-
+.btn.green.search{
+  border-radius: 0 4px 4px 0;
+}
 .sticky.right {
-  -webkit-border-radius: 0 10px 10px 0;
-  -moz-border-radius: 0 10px 10px 0;
-  -ms-border-radius: 0 10px 10px 0;
-  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -ms-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
   float: left; }
 
 input[type="submit"] {
