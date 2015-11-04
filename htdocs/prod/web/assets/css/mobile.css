@@ -14,12 +14,6 @@
   .desktop{
     display: none;
   }
-  #carousel-mobile {
-      display: block;
-  }
-  #carousel {
-      display: none;
-  }
   .carousel.home {
     height: 376px;
     width: 100%;
