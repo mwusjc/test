@@ -6017,11 +6017,7 @@ h2.box {
     padding: 0; }
 
 .border {
-  border: 1px solid #ccc;
-  -webkit-border-radius: 0 0 10px 10px;
-  -moz-border-radius: 0 0 10px 10px;
-  -ms-border-radius: 0 0 10px 10px;
-  border-radius: 0 0 10px 10px; }
+  border: 1px solid #ccc;}
 
 .details {
   position: relative;
