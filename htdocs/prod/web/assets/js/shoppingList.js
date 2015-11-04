@@ -43,7 +43,7 @@ var sl = {
 				html+=	    '	</div>'
 				html+=	    '	<div class="col-xs-12 col-sm-9">'
 				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
-				html+=	    '		<span class="pricing">$'+prod.pricing+'</span>'
+				html+=	    '		<span class="pricing">'+prod.pricing+'</span>'
 				html+=	    '		<span class="packaging">'+prod.packaging+'</span>'
 				html+=	    '	</div>'
 				html+=		'</div>'   

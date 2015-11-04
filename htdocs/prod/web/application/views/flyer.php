@@ -3,7 +3,7 @@
 <main>
 <div class="row">
 <h1 class="title">Current Flyer</h2>
-<h4 class="flyerDateRange">Thursday, Oct 29 - Wednesday, Nov 4</h4> 
+<h4 class="flyerDateRange">Friday, Oct 30 - Thursday, Nov 5</h4> 
 </div>
 <div class="row">
   <div class="col-xs-12 col-sm-6">

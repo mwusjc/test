@@ -97,7 +97,7 @@ var fl = {
 				html += 	'					<div class="col-xs-12 col-sm-6">'
 				html += 	'						'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
 				html += 	'						<h2 class="title">'+prod.name+'</h2>'      
-				html += 	'						<div class="pricing">$'+prod.pricing+'</div>'
+				html += 	'						<div class="pricing">'+prod.pricing+'</div>'
 				html += 	'						<div class="packaging">'+prod.packaging+'</div>'
 				html += 	'						<a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a>'
 				html += 	'					</div>'
