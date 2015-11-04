@@ -121,7 +121,6 @@ $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to
             window.setTimeout("$('#details').addClass('in');", 75);
             // make the rest.. low opacity
             $('.inside-store-item-container').css('opacity',0.2);
-            $('[data-istore-id="'+id+'"]').parent('.inside-store-item-container').css('opacity',0);
         },
         setListeners: function() {
             var that = this;
