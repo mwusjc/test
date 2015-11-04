@@ -40,7 +40,7 @@
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-12">
-            <input type="button" data-dismiss="modal" value="Download order form" />
+            <a href="/assets/order-form.pdf" class="btn green" target="_blank">Download order form</a>
           </div>
         </div>
         <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>

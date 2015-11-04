@@ -3,7 +3,7 @@
 
     <div class="wrapper">
       <div class="caption">
-        <h1 style="letter-spacing: 1px; font-size: 42px; margin-bottom: -6px;">It starts with freshness.</h1>
+        <h1 style="letter-spacing: 1px; font-size: 42px;">It starts with freshness.</h1>
       </div>
     </div>
   </div>
