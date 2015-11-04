@@ -1,7 +1,11 @@
 var fl = {
 	init: function(){
-		this.loadData(fl.getWeek("current"),"desktop");
-                this.loadData(fl.getWeek("current"),"mobile");
+		if (window.innerWidth > 677){
+			this.loadData(fl.getWeek("current"),"desktop");
+		}
+		else{
+        	this.loadData(fl.getWeek("current"),"mobile");
+		}
 		this.checkOverlapDay();
 	},
 	getWeek: function(week){
@@ -51,7 +55,7 @@ var fl = {
                     $(".carousel-inner-mobile").html(html);
                 }
 		
-		this.generateImageMaps(data);
+		this.generateImageMaps(data, type);
 		this.generatePopups(data);
                 if (type == "desktop") {
                     $(".item").first().addClass("active");
@@ -65,7 +69,7 @@ var fl = {
 		// 	height: 500
   		// });
 	},
-	generateImageMaps: function(data){
+	generateImageMaps: function(data, type){
 		var html = "";
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
