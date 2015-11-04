@@ -6062,6 +6062,7 @@ a.details {
     letter-spacing: 1px;
     font-size: 42px;
     text-transform: lowercase;
+    text-shadow: 1px 1px 4px #000;
   }
   .herobanner .caption h1:first-letter{
     text-transform: uppercase;
@@ -6646,7 +6647,7 @@ height: 210px;
 .inside-store-container #details {
   float: left;
   display: none;
-  margin: 0 15px 40px 15px; }
+  margin: 40px 15px 40px 15px; }
 
 .ck-item {
   margin-bottom: 30px;
@@ -6684,7 +6685,6 @@ height: 210px;
 .careers h2 {
   line-height: 140%;
   font-size: 22px;
-  font-family: 'HelveticaNeueLT-Roman';
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-style: normal;

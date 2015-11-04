@@ -13,6 +13,7 @@
             </p>
         </div>
     </div>
+    <div class="spacer-20"></div>
     <div class='row'>
         <div class='col-xs-12 col-sm-3'>
             <h2>Scarborough</h2>    
