@@ -3,8 +3,6 @@ sync.sh
 
 logz/
 
-logz/
-
 #	don't track anything in the media dir except source code
 htdocs/prod/web/media/*
 !htdocs/prod/web/media/flyers
@@ -15,3 +13,6 @@ htdocs/prod/web/media/flyers/*
 db/*
 /nbproject/private/
 nbproject/
+
+#	editor
+*.sublime-*
