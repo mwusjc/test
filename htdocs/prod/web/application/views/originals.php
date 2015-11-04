@@ -10,7 +10,7 @@
 
     <div class='row'>
         <div class='col-sm-5'>
-                <img src='<?=sizeify( site_url('/assets/images/originals/originals_gift-card.jpg'), '370x260' )?>' class='border'>
+                <img src='<?=sizeify( site_url('/assets/images/originals/originals_gift-card.jpg'), '370x260' )?>' class=''>
         </div>
         <div class='col-sm-7'>
             <h2>Fresh Gift Idea</h2>
@@ -22,7 +22,7 @@
     <hr>
     <div class='row'>                   
         <div class='col-sm-5'>
-                <img src='<?=sizeify( site_url('/assets/images/originals/originals_bags.jpg'), '370x260' )?>' class='border'>
+                <img src='<?=sizeify( site_url('/assets/images/originals/originals_bags.jpg'), '370x260' )?>' class=''>
         </div>
         <div class='col-sm-7'>
             <h2>Exclusive To Us</h2>
@@ -34,7 +34,7 @@
     <hr>
     <div class='row'>
         <div class='col-sm-5'>
-                <img src='<?=sizeify( site_url('/assets/images/originals/originals_ck.jpg'), '370x260' )?>' class='border'>
+                <img src='<?=sizeify( site_url('/assets/images/originals/originals_ck.jpg'), '370x260' )?>' class=''>
         </div>
         <div class='col-sm-7'>
             <h2>Fresh Gift Idea</h2>
