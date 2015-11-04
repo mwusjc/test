@@ -39,7 +39,7 @@
         <div class='col-sm-12'>
             <div class='ck-products' data-id='1'>
                 <h1>Frozen Entrées</h1>
-                <h4>Made from the freshest and finest ingredients, our selection of entrées is an easy way to serve your family's favourites.</h4>
+                <h2>Made from the freshest and finest ingredients, our selection of entrées is an easy way to serve your family's favourites.</h2>
                  <div class='row'>
                    <?php
                     foreach($products AS $key=>$item) {
@@ -60,7 +60,7 @@
         <div class='col-sm-12'>
             <div class='ck-products' data-id='2'>
                 <h1>Bread & Artisan Breads</h1>
-                <h4>Our hearty and wholesome breads are freshly baked with natural, quality ingredients.</h4>
+                <h2>Our hearty and wholesome breads are freshly baked with natural, quality ingredients.</h2>
                 <div class='row'>
                 <?php
                     foreach($products AS $key=>$item) {
@@ -99,7 +99,7 @@
         <div class='col-sm-12'>
             <div class='ck-products' data-id='3' >
                 <h1>All Natural Sauces</h1>
-                <h4>Enhance the flavour of your dishes with our flavourful sauces, seasoned to perfection.</h4>
+                <h2>Enhance the flavour of your dishes with our flavourful sauces, seasoned to perfection.</h2>
                 <div class='row'>
                   <?php
                     foreach($products AS $key=>$item) {
@@ -120,7 +120,7 @@
         <div class='col-sm-12'>
             <div class='ck-products' data-id='4'>
                 <h1>Sweet & Savoury Snacks</h1>
-                <h4>Satisfy your cravings with an array of nuts, dried fruit and candy.</h4>
+                <h2>Satisfy your cravings with an array of nuts, dried fruit and candy.</h2>
                 <div class='row'>
                     <img class="sweetSavoury" src="/assets/images/sweet_savory.jpg" alt="Sweet and Savoury Snacks"> 
                 </div>
@@ -161,7 +161,7 @@
         <div class='col-sm-12'>
             <div class='ck-products' data-id='5' >
                 <h1>Baked Goods</h1>
-                <h4>Freshly made and ready to be devoured, we have something for every sweet tooth.</h4>
+                <h2>Freshly made and ready to be devoured, we have something for every sweet tooth.</h2>
                 <div class='row'>
                   <?php
                     foreach($products AS $key=>$item) {
@@ -182,7 +182,7 @@
         <div class='col-sm-12'>
             <div class='ck-products' data-id='6'>
                 <h1>Prepped & Ready Meals</h1>
-                <h4>Our chefs have prepped the freshest ingredients of your favourite dishes. Everything's ready to be enjoyed in minutes.</h4>
+                <h2>Our chefs have prepped the freshest ingredients of your favourite dishes. Everything's ready to be enjoyed in minutes.</h2>
                 <div class='row'>
                   <?php
                     foreach($products AS $key=>$item) {
