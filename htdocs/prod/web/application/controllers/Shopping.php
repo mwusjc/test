@@ -9,7 +9,6 @@ class Shopping extends CI_Controller {
     public function index()
     {
         $this->data->items = $this->cart->contents();
-        //print_r($this->data);
         $this->load->view("header");
         $this->load->view("shopping/cart",$this->data);
         $this->load->view("footer");
