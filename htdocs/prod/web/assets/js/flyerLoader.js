@@ -36,9 +36,9 @@ var fl = {
 		thursday.setDate(thursday.getDate()+1);
 		t.setDate(t.getDate()+1);
 		nextWednesday = t;
-		console.log(nextWednesday.getDate());
+		//console.log(nextWednesday.getDate());
 		nextWednesday.setDate(nextWednesday.getDate()+6);
-		console.log(nextWednesday.getDate());
+		//console.log(nextWednesday.getDate());
 		return thursday.toDateString() +" - "+ nextWednesday.toDateString();
 	},
 	getThursday: function(d) {
@@ -126,9 +126,9 @@ var fl = {
 	checkOverlapDay: function(){
 		var today = new Date();
 		//Assuming overlap day is Thursday
-		console.log("today",today);
+		//console.log("today",today);
 		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22)){
-			console.log("overlap!")
+			//console.log("overlap!");
 			var currentWeek = fl.getWeek("current");
 			var nextWeek = fl.getWeek("next");
 			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/page1.jpg");

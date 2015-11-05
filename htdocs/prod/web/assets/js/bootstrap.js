@@ -328,12 +328,30 @@ if (typeof jQuery === 'undefined') {
 
   Carousel.TRANSITION_DURATION = 600
 
+  //  bug # ?? -- please make the carousel not auto-advance on mobile devices
   Carousel.DEFAULTS = {
-    interval: 5000,
+    interval: false,
     pause: 'hover',
     wrap: true,
     keyboard: true
   }
+  /*
+  if (window.innerWidth <= 800) {
+    Carousel.DEFAULTS = {
+      interval: false,
+      pause: 'hover',
+      wrap: true,
+      keyboard: true
+    }
+  } else {
+    Carousel.DEFAULTS = {
+      interval: 5000,
+      pause: 'hover',
+      wrap: true,
+      keyboard: true
+    }
+  }
+  */
 
   Carousel.prototype.keydown = function (e) {
     if (/input|textarea/i.test(e.target.tagName)) return
