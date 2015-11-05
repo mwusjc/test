@@ -77,7 +77,7 @@
       </a>
     </div>
       
-    <div id="carousel-mobile" class="carousel slide flyer" data-ride="carousel">
+    <div id="carousel-mobile" class="carousel slide flyer mobile" data-ride="carousel">
       <div class="carousel-inner carousel-inner-mobile" role="listbox">
       </div>
       <a class="left carousel-control" href="#carousel-mobile" role="button" data-slide="prev">
