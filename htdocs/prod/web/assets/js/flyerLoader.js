@@ -118,18 +118,20 @@ var fl = {
 	checkOverlapDay: function(){
 		var today = new Date();
 		//Assuming overlap day is Thursday
-
+		console.log("today",today);
 		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22)){
+			console.log("overlap!")
 			var currentWeek = fl.getWeek("current");
 			var nextWeek = fl.getWeek("next");
 			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/page1.jpg");
 			$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
 			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/page1.jpg");
 			$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
-			$("#flyerModal").show();
+			$("#chooseFlyer").modal("show");
 		}
 		else{
-			$("#flyerModal").hide();
+			console.log("no overlap!")
+			$("#chooseFlyer").modal("hide");
 		}
 	},
 	loadData: function(week,type){
@@ -214,6 +216,9 @@ var fl = {
 				for (var b = 0; b < prod.brands.length; b++){
 					brandstring+= prod.brands[b] + "|";
 				}
+				if (prod.pricing.indexOf("$")<0){
+					prod.pricing = "$"+prod.pricing;
+				}
 				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'">'
 				html+=	    '	<div class="col-xs-12 col-sm-3 text-center">'
 				html+=	    '		<img class="image" src="/assets/images/flyer-images/'+prod.category+'/'+prod.image+'">'
@@ -222,7 +227,7 @@ var fl = {
 				html+=	    '	<div class="col-xs-12 col-sm-9">'
 				html+=	    '		'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
 				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
-				html+=	    '		<span class="pricing">$'+prod.pricing+'</span>'
+				html+=	    '		<span class="pricing">'+prod.pricing+'</span>'
 				html+=	    '		<span class="packaging">'+prod.packaging+'</span>'
 				html+=	    '		<div><a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a></div>'
 				html+=	    '	</div>'
