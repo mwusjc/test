@@ -33,6 +33,8 @@ var fl = {
 		else{
 			var t = this.getNextThursday(new Date());
 		}
+		thursday.setDate(thursday.getDate()+1);
+		t.setDate(t.getDate()+1);
 		nextWednesday = t;
 		console.log(nextWednesday.getDate());
 		nextWednesday.setDate(nextWednesday.getDate()+6);
