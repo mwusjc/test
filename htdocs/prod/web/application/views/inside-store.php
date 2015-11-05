@@ -61,7 +61,7 @@ $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to
 
 
 <script type='text/template' id='tpl-inside-store-collapsed'>
-<div class='inside-store-item-container' >
+<div class='inside-store-item-container col-xs-12 col-sm-4' >
     <div class="inside-store-item" data-istore-id="{ID}">
             <div class='img'><img src="<?=site_url()?>{IMG}" /></div>
             <div class="box bottom title {CLASS}">{TITLE}</div>
