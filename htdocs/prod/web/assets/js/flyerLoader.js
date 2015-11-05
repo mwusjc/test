@@ -2,9 +2,11 @@ var fl = {
 	init: function(){
 		if (window.innerWidth > 677){
 			this.loadData(fl.getWeek("current"),"desktop");
+			$(".flyer.desktop .item").first().addClass("active");
 		}
 		else{
         	this.loadData(fl.getWeek("current"),"mobile");
+        	$(".flyer.mobile .item").first().addClass("active");
 		}
 		this.checkOverlapDay();
 	},
@@ -65,11 +67,11 @@ var fl = {
 		
 		this.generateImageMaps(data, type);
 		this.generatePopups(data, type);
-                if (type == "desktop") {
-                    $(".flyer.desktop .item").first().addClass("active");
-                } else {
-                    $(".flyer.mobile .item").first().addClass("active");
-                }
+        if (type == "desktop") {
+            $(".flyer.desktop .item").first().addClass("active");
+        } else {
+            $(".flyer.mobile .item").first().addClass("active");
+        }
 		
 		$("#flyerPDF").attr("href","/assets/flyers/"+data.week+"/download.pdf");
 		// $('.item img').loupe({
