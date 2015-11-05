@@ -9,7 +9,7 @@ $inside[] = array(     "title" => "Meat",     "subtitle" => "A Cut Above",     "
 => "assets/images/store_meat_web_crop.jpg",     "class" => "red" );
 
 $inside[] = array(     "title" => "Poultry",     "subtitle" => "Discover Our Juicy Selection",
-"description" => "Succulent and flavourful, our poultry selection will get your mouth watering. We have all your favourite cuts, from classic wings to boneless chicken breast. No time to marinate? No problem! We have a variety of freshly pre-marinated meats. ",     "image" =>
+"description" => "Succulent and flavourful, our poultry selection will get your mouth watering. We have all your favourite cuts, from classic wings to boneless chicken breast. No time to marinate? No problem! We have a variety of freshly pre-marinated poultry. ",     "image" =>
 "assets/images/store_poultry_web_crop.jpg",     "class" => "yellow" );
 
 $inside[] = array(     "title" => "Deli",     "subtitle" => "Always a
