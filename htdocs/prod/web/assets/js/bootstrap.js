@@ -328,6 +328,8 @@ if (typeof jQuery === 'undefined') {
 
   Carousel.TRANSITION_DURATION = 600
 
+  //  bug # ?? -- please make the carousel not auto-advance on mobile devices
+
   Carousel.DEFAULTS = {
     interval: false,
     pause: 'hover',
