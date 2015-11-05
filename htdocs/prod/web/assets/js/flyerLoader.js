@@ -128,7 +128,7 @@ var fl = {
 		//Assuming overlap day is Thursday
 		//console.log("today",today);
 		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22)){
-			console.log("overlap!")
+			//console.log("overlap!");
 			var currentWeek = fl.getWeek("current");
 			var nextWeek = fl.getWeek("next");
 			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/page1.jpg");
