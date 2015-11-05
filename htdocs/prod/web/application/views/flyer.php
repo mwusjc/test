@@ -20,7 +20,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-9">
                             <h2 class="title">This Week's Flyer</h2>
-                            <h3 class="flyerDateRange">Thursday, Oct 29 - Wednesday, Nov 4</h3>  
+                            <h3 class="flyerDateRange">Friday, Oct 30 - Thursday, Nov 5</h3>  
                         </div>
                     </div>     
                     <div class="row" id="nextFlyer" data-dismiss="modal">
@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-9">
                             <h2 class="title">Next Week's Flyer</h2>
-                            <h3 class="flyerDateRange">Thursday, Nov 5 - Wednesday, Nov 11</h3>  
+                            <h3 class="flyerDateRange">Friday, Nov 6 - Thursday, Nov 12</h3>  
                         </div>
                     </div>
                     <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
