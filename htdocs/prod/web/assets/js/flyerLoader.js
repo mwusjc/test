@@ -164,7 +164,7 @@ var fl = {
 		for (var i = 0; i < brands.length; i++){
 			html+= '<li><a href="#" class="brandItem" data-brand="'+brands[i]+'">'+brands[i]+'</a></li>'
 		}
-		$("#brandMenu")[0].innerHTML += html;
+		$("#brandMenu")[0].innerHTML = html;
 		$(".brandItem").click(function(e){
 			fl.filterBrand(e.target.getAttribute("data-brand"));
 		})
@@ -181,7 +181,7 @@ var fl = {
 		for (var i = 0; i < categories.length; i++){
 			html+= '<li><a href="#" class="categoryItem" data-category="'+categories[i]+'">'+this.categoryList[categories[i]]+'</a></li>'
 		}
-		$("#categoryMenu")[0].innerHTML += html;
+		$("#categoryMenu")[0].innerHTML = html;
 		$(".categoryItem").click(function(e){
 			fl.filterCategory(e.target.getAttribute("data-category"));
 		})
