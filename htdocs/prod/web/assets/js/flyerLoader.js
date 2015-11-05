@@ -234,7 +234,7 @@ var fl = {
 				html+=		'</div>'   
 			}
 		}
-		$(".listViewWrapper")[0].innerHTML += html;
+		$(".listViewWrapper")[0].innerHTML = html;
 	},
 	switchView: function(view){
 		if (view == 'list'){
