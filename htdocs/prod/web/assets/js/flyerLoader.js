@@ -27,8 +27,16 @@ var fl = {
 		else{
 			var thursday = this.getNextThursday(new Date());
 		}
-		nextWednesday = this.getThursday(new Date());
-		nextWednesday.setDate(thursday.getDate()+6);
+		if (week == "current"){
+			var t = this.getThursday(new Date());
+		}
+		else{
+			var t = this.getNextThursday(new Date());
+		}
+		nextWednesday = t;
+		console.log(nextWednesday.getDate());
+		nextWednesday.setDate(nextWednesday.getDate()+6);
+		console.log(nextWednesday.getDate());
 		return thursday.toDateString() +" - "+ nextWednesday.toDateString();
 	},
 	getThursday: function(d) {
@@ -38,10 +46,8 @@ var fl = {
 		return new Date(d.setDate(diff));
 	},
 	getNextThursday: function(d) {
-		d = new Date(d);
-		var day = d.getDay(),
-			diff = d.getDate() - day + (day == 0 ? -3:4); 
-		return new Date(d.setDate(diff));
+		var thu = this.getThursday(d);
+		return new Date(thu.setDate(thu.getDate()+7));
 	},
 	populateFlyer: function(data,type){
 
@@ -212,7 +218,6 @@ var fl = {
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
-				console.log(prod.image);
 				var brandstring = "";
 				for (var b = 0; b < prod.brands.length; b++){
 					brandstring+= prod.brands[b] + "|";
