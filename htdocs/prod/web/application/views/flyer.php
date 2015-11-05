@@ -3,7 +3,7 @@
 <main>
 <div class="row">
 <h1 class="title">Current Flyer</h2>
-<h4 class="flyerDateRange">Friday, Oct 30 - Thursday, Nov 5</h4> 
+<h4 class="currentFlyerDateRange" id="thisWeekDates">Friday, Oct 30 - Thursday, Nov 5</h4> 
 </div>
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -64,7 +64,7 @@
 <div class="row" id="flyerView">
   <div class="col-xs-12 col-sm-12">
       
-    <div id="carousel" class="carousel slide flyer" data-ride="carousel">
+    <div id="carousel" class="carousel slide flyer desktop" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
       </div>
       <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -105,10 +105,12 @@
       $("#currentFlyer").click(function(){
         fl.loadData(fl.getWeek("current"),"desktop");
         fl.loadData(fl.getWeek("current"),"mobile");
+        $(".currentFlyerDateRange").html(fl.getWeekRange("current"));
       });
       $("#nextFlyer").click(function() {
         fl.loadData(fl.getWeek("next"),"desktop");
         fl.loadData(fl.getWeek("next"),"mobile");
+        $(".currentFlyerDateRange").html(fl.getWeekRange("next"));
       });
       $('#backToFlyerView').click(function(){
         fl.switchView("flyer");
