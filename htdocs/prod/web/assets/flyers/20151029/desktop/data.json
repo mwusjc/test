@@ -1,5 +1,5 @@
 {
-	"week":20151029,
+	"week":20151022,
 	"pages":[
 		{
 			"id":"page1",
@@ -46,7 +46,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"2.99",
+					"pricing":"2.99/ea",
 					"comments":""
 				},
 				{
@@ -57,7 +57,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"5.99",
+					"pricing":"5.99/ea",
 					"comments":""
 				}
 			]
@@ -74,18 +74,18 @@
 					"category": "produce",
 					"summary": "",
 					"packaging":"",
-					"pricing":"3.99",
+					"pricing":"$3.99/ea",
 					"comments":""
 				},
 				{
 					"image":"Tomatoes_onVine_Ont_org_404664.jpg",
-					"coords":[230,465,205,123],
+					"coords":[230,46,205,123],
 					"name": "Ontario Homegrown Greenhouse Grown Fresh Tomatoes on the Vine No.1 Grade",
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
 					"packaging":"$3.28/kg",
-					"pricing":"1.49/lb",
+					"pricing":"$1.49/lb",
 					"comments":""
 				},
 				{
@@ -96,7 +96,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$3.28/kg",
-					"pricing":"1.49/lb",
+					"pricing":"$1.49/lb",
 					"comments":""
 				},
 				{
@@ -107,7 +107,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"1.99",
+					"pricing":"$1.99/ea",
 					"comments":""
 				},
 				{
@@ -118,7 +118,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"1.29",
+					"pricing":"$1.29/ea",
 					"comments":""
 				},
 				{
@@ -129,7 +129,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging": "283g",
-					"pricing": "4.99",
+					"pricing": "$4.99",
 					"comments":""
 				},
 				{
@@ -140,7 +140,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":".99",
+					"pricing":"$0.99/ea",
 					"comments":""
 				},
 				{
@@ -151,7 +151,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"2/1.00",
+					"pricing":"2/$1.00",
 					"comments":""
 				},
 				{
@@ -162,7 +162,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"bunch",
-					"pricing":"1.49",
+					"pricing":"$1.49",
 					"comments":""
 				},
 				{
@@ -173,7 +173,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"10lb polybag",
-					"pricing":"1.99",
+					"pricing":"$1.99",
 					"comments":""
 				},
 				{
@@ -184,7 +184,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$4.39/kg",
-					"pricing":"1.99",
+					"pricing":"$1.99",
 					"comments":""
 				},
 				{
@@ -195,7 +195,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"2lb cello bag",
-					"pricing":"1.99",
+					"pricing":"$1.99",
 					"comments":""
 				},
 				{
@@ -206,7 +206,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"3lb bag",
-					"pricing":"4.99",
+					"pricing":"$4.99",
 					"comments":""
 				},
 				{
@@ -217,7 +217,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"6in pot",
-					"pricing":"4.99",
+					"pricing":"$4.99",
 					"comments":""
 				},
 				{
@@ -228,7 +228,7 @@
 					"category": "bakery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"675g",
-					"pricing":"2.29",
+					"pricing":"$2.29",
 					"comments":""
 				},
 				{
@@ -239,7 +239,7 @@
 					"category": "bakery",
 					"summary": "",
 					"packaging":"",
-					"pricing":"19.99",
+					"pricing":"$19.99/ea",
 					"comments":""
 				},
 				{
@@ -250,7 +250,7 @@
 					"category": "bakery",
 					"summary": "",
 					"packaging":"270-340g",
-					"pricing":"2.99",
+					"pricing":"$2.99",
 					"comments":""
 				},
 				{
@@ -261,7 +261,7 @@
 					"category": "bakery",
 					"summary": "",
 					"packaging":"454g",
-					"pricing":"3.49",
+					"pricing":"$3.49",
 					"comments":""
 				},
 				{
@@ -272,7 +272,7 @@
 					"category": "bakery",
 					"summary": "",
 					"packaging":"617g",
-					"pricing":"4.99",
+					"pricing":"$4.99",
 					"comments":""
 				},
 				{
@@ -283,7 +283,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"1L",
-					"pricing":"1.99",
+					"pricing":"$1.99",
 					"comments":""
 				},
 				{
@@ -294,7 +294,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"6x200ml",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -305,7 +305,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"2L",
-					"pricing":"4.99",
+					"pricing":"$4.99",
 					"comments":""
 				},
 				{
@@ -316,7 +316,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"650g",
-					"pricing":"1.99",
+					"pricing":"$1.99",
 					"comments":""
 				},
 				{
@@ -327,7 +327,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"6x60g",
-					"pricing":"2.99",
+					"pricing":"$2.99",
 					"comments":""
 				},
 				{
@@ -338,7 +338,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"1.89L",
-					"pricing":"3.49",
+					"pricing":"$3.49",
 					"comments":""
 				},
 				{
@@ -349,7 +349,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"700g",
-					"pricing":"7.99",
+					"pricing":"$7.99",
 					"comments":""
 				},
 				{
@@ -360,7 +360,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"168g",
-					"pricing":"2.99",
+					"pricing":"$2.99",
 					"comments":""
 				},
 				{
@@ -371,7 +371,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"4x100g",
-					"pricing":"2.79",
+					"pricing":"$2.79",
 					"comments":""
 				}
 
@@ -390,7 +390,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"1.05L",
-					"pricing":".99",
+					"pricing":"$0.99",
 					"comments":"save"
 				},
 				{
@@ -401,7 +401,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"460-505g",
-					"pricing":"3.49",
+					"pricing":"$3.49",
 					"comments":""
 				},
 				{
@@ -412,7 +412,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"473ml-1L",
-					"pricing":"5.99",
+					"pricing":"$5.99",
 					"comments":""
 				},
 				{
@@ -423,7 +423,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"200g",
-					"pricing":"2/.99",
+					"pricing":"2/$0.99",
 					"comments":""
 				},
 				{
@@ -434,7 +434,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"660ml",
-					"pricing":".99",
+					"pricing":"$0.99",
 					"comments":""
 				},
 				{
@@ -445,7 +445,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"500g",
-					"pricing":".89",
+					"pricing":"$0.89",
 					"comments":""
 				},
 				{
@@ -456,7 +456,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"750ml",
-					"pricing":"5.99",
+					"pricing":"$5.99",
 					"comments":""
 				},
 				{
@@ -467,7 +467,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"250g",
-					"pricing":".99",
+					"pricing":"$0.99",
 					"comments":""
 				},
 				{
@@ -489,7 +489,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"1kg",
-					"pricing":".99",
+					"pricing":"$0.99",
 					"comments":""
 				},
 				{
@@ -500,7 +500,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"900ml",
-					"pricing":"1.79",
+					"pricing":"$1.79",
 					"comments":"new"
 				},
 				{
@@ -511,7 +511,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"3x80g",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -522,7 +522,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"255g",
-					"pricing":"2/5.00",
+					"pricing":"2/$5.00",
 					"comments":""
 				},
 				{
@@ -533,7 +533,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"24x500ml",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":"save"
 				},
 				{
@@ -544,7 +544,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"170ml",
-					"pricing":".99",
+					"pricing":"$0.99",
 					"comments":""
 				},
 				{
@@ -555,7 +555,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"500ml",
-					"pricing":"1.99",
+					"pricing":"$1.99",
 					"comments":""
 				},
 				{
@@ -566,7 +566,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"pkg of 30-35",
-					"pricing":"1.99",
+					"pricing":"$1.99",
 					"comments":""
 				},
 				{
@@ -577,7 +577,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"650ml",
-					"pricing":"2.49",
+					"pricing":"$2.49",
 					"comments":""
 				},
 				{
@@ -588,7 +588,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"250-400g, Salsa 650mL $2.99",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -599,7 +599,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"250g",
-					"pricing":"2.99",
+					"pricing":"$2.99",
 					"comments":""
 				},
 				{
@@ -610,7 +610,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"900g",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -621,7 +621,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"1.6-2kg",
-					"pricing":"6.99",
+					"pricing":"$6.99",
 					"comments":""
 				}
 			]
@@ -638,7 +638,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$15.41/kg",
-					"pricing":"6.99/lb",
+					"pricing":"$6.99/lb",
 					"comments":"save"
 				},
 				{
@@ -649,7 +649,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$15.41/kg",
-					"pricing":"6.99/lb",
+					"pricing":"$6.99/lb",
 					"comments":""
 				},
 				{
@@ -660,7 +660,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$22.02/kg",
-					"pricing":"9.99/lb",
+					"pricing":"$9.99/lb",
 					"comments":""
 				},
 				{
@@ -671,7 +671,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"450g",
-					"pricing":"6.99",
+					"pricing":"$6.99",
 					"comments":""
 				},
 				{
@@ -682,7 +682,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"900g",
-					"pricing":"13.99",
+					"pricing":"$13.99",
 					"comments":""
 				},
 				{
@@ -693,7 +693,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"1kg",
-					"pricing":"6.99",
+					"pricing":"$6.99",
 					"comments":""
 				},
 				{
@@ -704,7 +704,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"295ml",
-					"pricing":"2/3.00",
+					"pricing":"2/$3.00",
 					"comments":""
 				},
 				{
@@ -715,7 +715,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"415-510g",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -726,7 +726,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"2.99",
+					"pricing":"$2.99/ea",
 					"comments":""
 				},
 				{
@@ -737,7 +737,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$8.80/kg",
-					"pricing":"3.99/lb",
+					"pricing":"$3.99/lb",
 					"comments":""
 				},
 				{
@@ -748,7 +748,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$19.82/kg",
-					"pricing":"8.99/lb",
+					"pricing":"$8.99/lb",
 					"comments":""
 				},
 				{
@@ -759,7 +759,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$11.00/kg",
-					"pricing":"4.99/lb",
+					"pricing":"$4.99/lb",
 					"comments":"save"
 				},
 				{
@@ -770,7 +770,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$15.41/kg",
-					"pricing":"6.99/lb",
+					"pricing":"$6.99/lb",
 					"comments":""
 				},
 				{
@@ -781,7 +781,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$17.61/kg",
-					"pricing":"7.99/lb",
+					"pricing":"$7.99/lb",
 					"comments":""
 				},
 				{
@@ -792,7 +792,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"200g",
-					"pricing":"3.69",
+					"pricing":"$3.69",
 					"comments":""
 				},
 				{
@@ -803,7 +803,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"340g",
-					"pricing":"4.49",
+					"pricing":"$4.49",
 					"comments":""
 				},
 				{
@@ -814,7 +814,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"475g",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -825,7 +825,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$19.82/kg",
-					"pricing":"8.99/lb",
+					"pricing":"$8.99/lb",
 					"comments":""
 				},
 				{
@@ -836,7 +836,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"125g",
-					"pricing":"2.49",
+					"pricing":"$2.49",
 					"comments":""
 				},
 				{
@@ -847,7 +847,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"900g",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -858,7 +858,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"375g",
-					"pricing":"4.49",
+					"pricing":"$4.49",
 					"comments":""
 				},
 				{
@@ -869,7 +869,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"375g",
-					"pricing":"5.99",
+					"pricing":"$5.99",
 					"comments":""
 				}
 			]
@@ -886,7 +886,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$15.41/kg",
-					"pricing":"6.99/lb",
+					"pricing":"$6.99/lb",
 					"comments":"save"
 				},
 				{
@@ -897,7 +897,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$13.21/kg",
-					"pricing":"5.99/lb",
+					"pricing":"$5.99/lb",
 					"comments":""
 				},
 				{
@@ -908,7 +908,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$13.21/kg",
-					"pricing":"5.99/lb",
+					"pricing":"$5.99/lb",
 					"comments":""
 				},
 				{
@@ -919,7 +919,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$17.61/kg",
-					"pricing":"7.99/lb",
+					"pricing":"$7.99/lb",
 					"comments":""
 				},
 				{
@@ -930,7 +930,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$19.82/kg",
-					"pricing":"8.99/lb",
+					"pricing":"$8.99/lb",
 					"comments":""
 				},
 				{
@@ -941,7 +941,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$6.59/kg",
-					"pricing":"2.99/lb",
+					"pricing":"$2.99/lb",
 					"comments":""
 				},
 				{
@@ -952,7 +952,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$8.80/kg",
-					"pricing":"3.99/lb",
+					"pricing":"$3.99/lb",
 					"comments":""
 				},
 				{
@@ -963,7 +963,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$7.69/kg",
-					"pricing":"3.49/lb",
+					"pricing":"$3.49/lb",
 					"comments":""
 				},
 				{
@@ -974,7 +974,7 @@
 					"category": "meat and deli",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$11.00/kg",
-					"pricing":"4.99/lb",
+					"pricing":"$4.99/lb",
 					"comments":""
 				}
 			]

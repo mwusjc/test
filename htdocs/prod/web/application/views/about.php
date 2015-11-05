@@ -1,5 +1,6 @@
   <div class="herobanner responsive">
-    <img src="<?=site_url()?>assets/images/about_banner.jpg" />
+    <img class="desktop" src="<?=site_url()?>assets/images/about_banner.jpg" />
+    <img class="mobile" src="<?=site_url()?>assets/images/about_banner_mobile.jpg" />
 
     <div class="wrapper">
       <div class="caption">
