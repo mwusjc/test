@@ -43,8 +43,8 @@ var sl = {
 				html+=	    '	</div>'
 				html+=	    '	<div class="col-xs-12 col-sm-9">'
 				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
-				html+=	    '		<span class="pricing">'+prod.pricing+'</span>'
-				html+=	    '		<span class="packaging">'+prod.packaging+'</span>'
+				html+=	    '		<span class="pricing">'+(prod.pricing?prod.pricing:'')+'</span>'
+				html+=	    '		<span class="packaging">'+(prod.packaging?prod.packaging:'')+'</span>'
 				html+=	    '	</div>'
 				html+=		'</div>'   
 			}
@@ -68,6 +68,7 @@ var sl = {
 	},
 	scrapeProduct: function(html){
 		var prod = {}
+		console.log(html);
 		prod.name = html.find(".title").html();
 		prod.pricing = html.find(".pricing").html();
 		prod.category = html.find(".modal-body").attr("data-category");
