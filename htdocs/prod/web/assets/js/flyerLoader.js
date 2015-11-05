@@ -85,6 +85,9 @@ var fl = {
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
+				if (prod.pricing.indexOf("$")<0){
+					prod.pricing = "$"+prod.pricing;
+				}
 				html += 	"<div class='modal fade out productPopup' id='productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
 				html += 	'	<div class="modal-dialog" role="document">'
 				html += 	'		<div class="modal-content">'
@@ -116,7 +119,7 @@ var fl = {
 		var today = new Date();
 		//Assuming overlap day is Thursday
 
-		if (today.getDay() == 4){
+		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22)){
 			var currentWeek = fl.getWeek("current");
 			var nextWeek = fl.getWeek("next");
 			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/page1.jpg");
