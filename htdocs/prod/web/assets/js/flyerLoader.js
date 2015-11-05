@@ -118,18 +118,20 @@ var fl = {
 	checkOverlapDay: function(){
 		var today = new Date();
 		//Assuming overlap day is Thursday
-
+		console.log("today",today);
 		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22)){
+			console.log("overlap!")
 			var currentWeek = fl.getWeek("current");
 			var nextWeek = fl.getWeek("next");
 			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/page1.jpg");
 			$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
 			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/page1.jpg");
 			$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
-			$("#flyerModal").show();
+			$("#chooseFlyer").modal("show");
 		}
 		else{
-			$("#flyerModal").hide();
+			console.log("no overlap!")
+			$("#chooseFlyer").modal("hide");
 		}
 	},
 	loadData: function(week,type){
@@ -162,7 +164,7 @@ var fl = {
 		for (var i = 0; i < brands.length; i++){
 			html+= '<li><a href="#" class="brandItem" data-brand="'+brands[i]+'">'+brands[i]+'</a></li>'
 		}
-		$("#brandMenu")[0].innerHTML += html;
+		$("#brandMenu")[0].innerHTML = html;
 		$(".brandItem").click(function(e){
 			fl.filterBrand(e.target.getAttribute("data-brand"));
 		})
@@ -179,7 +181,7 @@ var fl = {
 		for (var i = 0; i < categories.length; i++){
 			html+= '<li><a href="#" class="categoryItem" data-category="'+categories[i]+'">'+this.categoryList[categories[i]]+'</a></li>'
 		}
-		$("#categoryMenu")[0].innerHTML += html;
+		$("#categoryMenu")[0].innerHTML = html;
 		$(".categoryItem").click(function(e){
 			fl.filterCategory(e.target.getAttribute("data-category"));
 		})
@@ -214,6 +216,9 @@ var fl = {
 				for (var b = 0; b < prod.brands.length; b++){
 					brandstring+= prod.brands[b] + "|";
 				}
+				if (prod.pricing.indexOf("$")<0){
+					prod.pricing = "$"+prod.pricing;
+				}
 				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'">'
 				html+=	    '	<div class="col-xs-12 col-sm-3 text-center">'
 				html+=	    '		<img class="image" src="/assets/images/flyer-images/'+prod.category+'/'+prod.image+'">'
@@ -222,14 +227,14 @@ var fl = {
 				html+=	    '	<div class="col-xs-12 col-sm-9">'
 				html+=	    '		'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
 				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
-				html+=	    '		<span class="pricing">$'+prod.pricing+'</span>'
+				html+=	    '		<span class="pricing">'+prod.pricing+'</span>'
 				html+=	    '		<span class="packaging">'+prod.packaging+'</span>'
 				html+=	    '		<div><a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a></div>'
 				html+=	    '	</div>'
 				html+=		'</div>'   
 			}
 		}
-		$(".listViewWrapper")[0].innerHTML += html;
+		$(".listViewWrapper")[0].innerHTML = html;
 	},
 	switchView: function(view){
 		if (view == 'list'){
