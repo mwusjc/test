@@ -14,6 +14,10 @@
   .desktop{
     display: none;
   }
+  .carousel-inner-mobile .flyerWrap>img{
+        width: 320px !important;
+    height: 395px !important;
+  }
   .carousel.home {
     height: 376px;
     width: 100%;

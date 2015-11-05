@@ -6615,7 +6615,7 @@ height: 210px;
 
 .inside-store-container .inside-store-item-container {
   display: inline-block;
-  width: 33.33333%;
+/*  width: 33.33333%;*/
   padding-left: 15px;
   padding-right: 15px;
   position: relative;

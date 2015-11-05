@@ -2,9 +2,11 @@ var fl = {
 	init: function(){
 		if (window.innerWidth > 677){
 			this.loadData(fl.getWeek("current"),"desktop");
+			$(".flyer.desktop .item").first().addClass("active");
 		}
 		else{
         	this.loadData(fl.getWeek("current"),"mobile");
+        	$(".flyer.mobile .item").first().addClass("active");
 		}
 		this.checkOverlapDay();
 	},
@@ -64,12 +66,12 @@ var fl = {
                 }
 		
 		this.generateImageMaps(data, type);
-		this.generatePopups(data);
-                if (type == "desktop") {
-                    $(".item").first().addClass("active");
-                } else {
-                    $(".carousel-inner-mobile .item").first().addClass("active");
-                }
+		this.generatePopups(data, type);
+        if (type == "desktop") {
+            $(".flyer.desktop .item").first().addClass("active");
+        } else {
+            $(".flyer.mobile .item").first().addClass("active");
+        }
 		
 		$("#flyerPDF").attr("href","/assets/flyers/"+data.week+"/download.pdf");
 		// $('.item img').loupe({
@@ -82,13 +84,18 @@ var fl = {
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
-				html += "<a href='#productPopup"+j+"_"+i+"' class='imageMap' data-toggle='modal' data-backdrop='false' style='left:"+prod.coords[0]+"px;top:"+prod.coords[1]+"px;width:"+prod.coords[2]+"px;height:"+prod.coords[3]+"px;' id='productImageMap"+j+"_"+i+"'></a>";
+				html += "<a href='#"+type+"productPopup"+j+"_"+i+"' class='imageMap' data-toggle='modal' data-backdrop='false' style='left:"+prod.coords[0]+"px;top:"+prod.coords[1]+"px;width:"+prod.coords[2]+"px;height:"+prod.coords[3]+"px;' id='productImageMap"+j+"_"+i+"'></a>";
 			}
-			$(".flyer .item .flyerWrap")[j].innerHTML += html;
+			if (type=="desktop"){
+				$(".desktop.flyer .item .flyerWrap")[j].innerHTML += html;
+			}
+			else{
+				$(".mobile.flyer .item .flyerWrap")[j].innerHTML += html;
+			}
 			html = "";
 		}
 	},
-	generatePopups: function(data){
+	generatePopups: function(data, type){
 		var html = "";
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
@@ -96,7 +103,7 @@ var fl = {
 				if (prod.pricing.indexOf("$")<0){
 					prod.pricing = "$"+prod.pricing;
 				}
-				html += 	"<div class='modal fade out productPopup' id='productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
+				html += 	"<div class='modal fade out productPopup' id='"+type+"productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
 				html += 	'	<div class="modal-dialog" role="document">'
 				html += 	'		<div class="modal-content">'
 				html += 	'			<div class="modal-body" data-category="'+ prod.category +'" >'
@@ -119,7 +126,12 @@ var fl = {
 				html += 	'	</div>';
 				html += 	"</div>";
 			}
-			$(".flyer .item .flyerWrap")[j].innerHTML += html;
+			if (type=="desktop"){
+				$(".desktop.flyer .item .flyerWrap")[j].innerHTML += html;
+			}
+			else{
+				$(".mobile.flyer .item .flyerWrap")[j].innerHTML += html;
+			}
 			html = "";
 		}
 	},
@@ -150,7 +162,7 @@ var fl = {
 			if (xmlhttp.readyState == 4) {
 			var data = JSON.parse(xmlhttp.responseText);
 			fl.populateFlyer(data,type);
-			fl.populateListView(data);
+			fl.populateListView(data,type);
 			fl.populateCategories(data);
 			fl.populateBrands(data);
 			sl.init();
