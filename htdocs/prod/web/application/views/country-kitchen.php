@@ -121,7 +121,7 @@
         <div class='col-sm-12'>
             <div class='ck-products' data-id='4'>
                 <h1>Sweet & Savoury Snacks</h1>
-                <h2>Satisfy your cravings with an array of nuts, dried fruit and candy.</h2>
+                <h2>Satisfy your cravings with an array of nuts and dried fruit.</h2>
                 <div class='row'>
                     <img class="sweetSavoury" src="/assets/images/sweet_savory.jpg" alt="Sweet and Savoury Snacks"> 
                 </div>

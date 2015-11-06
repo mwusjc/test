@@ -6063,6 +6063,9 @@ a.details {
   .herobanner .caption h1:first-letter{
     text-transform: uppercase;
   }
+  .herobanner .caption h1.capitalize{
+    text-transform: capitalize !important;
+  }
 .country-kitchen {
   background-color: #00a64f;
   color: white;
