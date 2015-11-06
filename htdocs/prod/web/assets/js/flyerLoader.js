@@ -213,12 +213,16 @@ var fl = {
 		"bakery" : "Bakery"
 	},
 	filterCategory: function(cat){
+		$("#dropdownMenu1")[0].innerHTML = "Categories <span class='caret'></span>";
+		$("#dropdownMenu2")[0].innerHTML = "Brands <span class='caret'></span>";
 		$("#listView .row").show();
 		$("#listView .row:not([data-category='"+cat+"'])").hide();
 		$("#dropdownMenu1")[0].innerHTML = this.categoryList[cat] + ' <span class="caret"></span>';
 		this.switchView("list");
 	},
 	filterBrand: function(brand){
+		$("#dropdownMenu1")[0].innerHTML = "Categories <span class='caret'></span>";
+		$("#dropdownMenu2")[0].innerHTML = "Brands <span class='caret'></span>";
 		$("#listView .row").show();
 		$.each($("#listView .row"),function(i, row){
 			row.getAttribute("data-brand").indexOf(brand)<0? $(row).hide():$(row).show();

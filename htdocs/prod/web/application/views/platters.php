@@ -5,7 +5,7 @@
 
     <div class="wrapper">
       <div class="caption">
-        <h1>Platters &amp; Gifts</h1>
+        <h1 class="capitalize">Platters &amp; Gifts</h1>
         <span data-toggle="modal" data-target="#myModal" class="btn green">Place an order</span>
       </div>
     </div>
