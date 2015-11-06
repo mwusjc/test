@@ -1,14 +1,16 @@
 <div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="false" >
     <div class="carousel-inner" role="listbox">
         <a href="/recipes/408/Basil-Rice-Soup"  class="item active responsive">
-            <img src="<?=site_url()?>/assets/images/home_carousel-1.jpg">
+            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-1.jpg">
+            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_1.jpeg">
             <div class="carousel-caption" style="padding:40px 20px 15px 20px; width:800px;">
                 <img src="<?=site_url()?>/assets/images/icon_sizzle.png" style="float:right; width: 100px; margin: -42px 17px -35px -20px;"/><h1 style="font-size: 60px; font-family: 'Serifa';line-height:0.7em;">Bring home the sizzle</h1>
                 <h2 style="font-size:1.45em;">Pre-seasoned meats ready-to-grill at your local Highland Farms. Start fresh.</h2>
             </div>
         </a>
         <a  href="/flyer"class="item responsive">
-            <img src="<?=site_url()?>/assets/images/home_carousel-2.jpg">
+            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-2.jpg">
+            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_2.jpg">
             <div class="carousel-caption save green">
                 <span class="price">
                     <span class="big">4</span><span class="dot">.</span><span class="small">99</span>
@@ -20,7 +22,8 @@
             </div>
         </a>
         <a href="/flyer" class="item responsive">
-            <img src="<?=site_url()?>/assets/images/home_carousel-3.jpg">
+            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-3.jpg">
+            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_3.jpg">
             <div class="carousel-caption feature teal">
                 <span class="price">
                     <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
@@ -31,7 +34,8 @@
             </div>
         </a>
         <a href="/flyer" class="item responsive">
-            <img src="<?=site_url()?>/assets/images/home_carousel-4.jpg">
+            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-4.jpg">
+            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_4.jpg">
             <div class="carousel-caption feature teal">
                 <span class="price">
                     <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
@@ -42,7 +46,8 @@
             </div>
         </a>
         <a href="/flyer" class="item responsive">
-            <img src="<?=site_url()?>/assets/images/home_carousel-5.jpg">
+            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-5.jpg">
+            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_5.jpg">
             <div class="carousel-caption feature teal">
                 <span class="price">
                     <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
@@ -53,7 +58,8 @@
             </div>
         </a>
         <a href="/flyer" class="item responsive">
-            <img src="<?=site_url()?>/assets/images/home_carousel-6.jpg">
+            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-6.jpg">
+            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_6.jpg">
             <div class="carousel-caption feature teal">
                 <span class="price">
                     <span class="big">6</span><span class="dot">.</span><span class="small">99</span>

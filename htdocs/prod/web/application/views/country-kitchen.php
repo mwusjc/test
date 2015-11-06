@@ -1,6 +1,7 @@
 
   <div class="herobanner responsive">
-    <img src="<?=site_url()?>assets/images/ck_banner_sep23_tn-logo-flatten.jpg" />
+    <img class="desktop" src="<?=site_url()?>assets/images/ck_banner_sep23_tn-logo-flatten.jpg" />
+    <img class="mobile" src="<?=site_url()?>assets/images/ck_banner_mobile.jpg" />
   </div>
   <div class="country-kitchen">
     <div class="wrapper">

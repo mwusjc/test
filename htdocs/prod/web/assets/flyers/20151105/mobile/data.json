@@ -35,7 +35,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"$2.99",
+					"pricing":"$2.99/ea",
 					"comments":""
 				},
 				{
@@ -46,7 +46,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"$0.97",
+					"pricing":"$0.97/ea",
 					"comments":""
 				},
 				{
@@ -57,7 +57,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"750ml",
-					"pricing":"$0.99",
+					"pricing":"$0.99/ea",
 					"comments":""
 				}
 			]
@@ -74,7 +74,7 @@
 					"category": "produce",
 					"summary": "",
 					"packaging":"",
-					"pricing":"$0.99",
+					"pricing":"$0.99/ea",
 					"comments":""
 				},
 				{
@@ -129,7 +129,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging": "",
-					"pricing":"$1.49",
+					"pricing":"$1.49/ea",
 					"comments":""
 				},
 				{
@@ -151,7 +151,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"$3.99",
+					"pricing":"$3.99/ea",
 					"comments":""
 				},
 				{
@@ -217,7 +217,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"$16.99",
+					"pricing":"$16.99/ea",
 					"comments":"floral"
 				}
 			]
@@ -267,7 +267,7 @@
 					"category": "bakery",
 					"summary": "",
 					"packaging":"",
-					"pricing":"$16.99",
+					"pricing":"$16.99/ea",
 					"comments":"save"
 				},
 				{
@@ -355,7 +355,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"",
-					"pricing":"$2.49",
+					"pricing":"$2.49/ea",
 					"comments":""
 				}
 			]
@@ -521,7 +521,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"",
-					"pricing":"$2.99",
+					"pricing":"$2.99/ea",
 					"comments":"save"
 				},
 				{
@@ -714,7 +714,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"$2.99",
+					"pricing":"$2.99/ea",
 					"comments":""
 				}
 			]
