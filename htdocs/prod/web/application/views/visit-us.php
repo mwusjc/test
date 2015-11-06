@@ -35,24 +35,24 @@ if(isset($_POST['submit'])) {
     <p><strong>Store Hours</strong> </br/>
     Mon-Sat: 7:00AM-10:00PM </br/>
     Sun: 8:00AM-8:00PM</p>
-	<a target="_blank" href="tel:+14162981999">(416)298-1999</a>
+	<a target="_blank" href="tel:+14162981999">(416) 298-1999</a>
 	
     <h2 style="margin-top: 25px;">Mississauga</h2>
     <p>50 Matheson Blvd. East </br/>
     Mississauga, ON, L4Z 1N5 </br/>
-    <a href="https://www.google.ca/maps/dir/Highland+Farms+Inc,+Matheson+Boulevard+East,+Mississauga,+ON//@43.6180221,-79.6594865,15z/data=!4m8!4m7!1m5!1m1!1s0x882b40a400000000:0x9671955aa8a955ae!2m2!1d-79.670644!2d43.620964!1m0" target="_blank" class="green">Get Directions</a></p>
+    <a href="https://www.google.ca/maps/dir/Highland+Farms,+Matheson+Boulevard+East,+Mississauga,+ON//@43.6180221,-79.6594865,15z/data=!4m8!4m7!1m5!1m1!1s0x882b40a400000000:0x9671955aa8a955ae!2m2!1d-79.670644!2d43.620964!1m0" target="_blank" class="green">Get Directions</a></p>
 
     <p><strong>Store Hours</strong> </br/>
     Mon-Sat: 7:00AM-10:00PM </br/>
     Sun: 8:00AM-8:00PM</p>
-    <a  target="_blank" href="tel:+19055019910">(905)501-9910</a>
+    <a  target="_blank" href="tel:+19055019910">(905) 501-9910</a>
   </div>
   <div class="col-xs-12 col-sm-1">
   </div>
   <div class="col-xs-12 col-sm-8">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11525.396282766096!2d-79.28310320000003!3d43.76561230000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x9b44a05bb8d40afe!2sHighland+Farms!5e0!3m2!1sen!2sca!4v1443038915026" width="610" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.0333680487756!2d-79.67259422484713!3d43.62160343674393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b40a400000000%3A0x9671955aa8a955ae!2sHighland+Farms+Inc!5e0!3m2!1sen!2sca!4v1443039231471" width="610" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.0333680487756!2d-79.67259422484713!3d43.62160343674393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b40a400000000%3A0x9671955aa8a955ae!2sHighland+Farms+!5e0!3m2!1sen!2sca!4v1443039231471" width="610" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>
 <div class="spacer"></div>
