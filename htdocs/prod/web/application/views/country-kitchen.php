@@ -268,22 +268,22 @@
             var that = this;
             $('[data-toggle-details]').on('click', function(e) {
                 e.preventDefault();
-                that.togglePopup( $(this).attr("data-toggle-details") ); 
+                that.togglePopup( $(this)[0].getAttribute("data-toggle-details") ); 
             });
 
             $('[data-slidedown]').on("click", function() {
-                var obj = $(this).attr("data-slidedown"); 
+                var obj = $(this)[0].getAttribute("data-slidedown"); 
                 $('.ck-products').slideUp();
                 $(obj).slideDown(); 
             });
             $('[data-slideup]').on("click", function() {
-                var obj = $(this).attr("data-slideup"); 
+                var obj = $(this)[0].getAttribute("data-slideup"); 
                 $(obj).slideUp();
             });
             
             $('body').on("click", '[data-add-cart]', function(e) {
                e.preventDefault(); 
-               var id = $(this).attr("data-add-cart");
+               var id = $(this)[0].getAttribute("data-add-cart");
                
                $.post('/shopping/add/', {"id": id},  function(response) {
                }).fail(function() {
