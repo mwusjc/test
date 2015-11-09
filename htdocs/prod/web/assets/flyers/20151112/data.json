@@ -1,0 +1,959 @@
+{
+	"week":20151105,
+	"pages":[
+		{
+			"id":"page1",
+			"image":"page1.jpg",
+			"products":[
+				{
+					"image":"Beef_Eye_of_Round_Roast.jpg",
+					"coords":[12,152,204,216],
+					"name": "Fresh Eye of Round Roast Product of Canada",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$13.21/kg",
+					"pricing":"5.99/lb",
+					"comments":"save"
+				},
+				{
+					"image":"Apples_Golden_Red_Delicious_4lb_bag_888.jpg",
+					"coords":[225,152,204,216],
+					"name": "Fresh Apples McIntosh, Red or Golden Delicious Fancy Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"4 lb cello bag",
+					"pricing":"2.99",
+					"comments":"save"
+				},
+				{
+					"image":"GeneralMills_Cheerios_LuckyCharms.jpg",
+					"coords":[12,380,134,146],
+					"name": "General Mills Cheerios 260x500g, Presweet Cereal 330-380g Selected Varieties",
+					"brands": ["general mills"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"",
+					"pricing":"2.99",
+					"comments":""
+				},
+				{
+					"image":"Unico_Tomatoes_Beans_Chickpeas_assort_alt.jpg",
+					"coords":[154,380,134,146],
+					"name": "Unico Tomatoes 796ml or Beans 540ml Selected Varieties",
+					"brands": ["unico"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"",
+					"pricing":".97",
+					"comments":""
+				},
+				{
+					"image":"Sealtest_Chocolate_Milk_750ml.jpg",
+					"coords":[294,380,134,146],
+					"name": "Sealtest Chocolate Milk",
+					"brands": ["sealtest"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"750ml",
+					"pricing":".99",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page2",
+			"image":"page2.jpg",
+			"products":[
+				{
+					"image":"Persimmons_Hachiya_USA_555.jpg",
+					"coords":[12,33,206,120],
+					"name": "Hachiya Persimmons Product of U.S.A. Large Size",
+					"brands": ["Persimmons_Hachiya_USA_555"],
+					"category": "produce",
+					"summary": "",
+					"packaging":"",
+					"pricing":".99",
+					"comments":""
+				},
+				{
+					"image":"Potatoes_10lbs_White_Ont_445485.jpg",
+					"coords":[222,12,206,140],
+					"name": "Ontario Homegrown White Potatoes No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"10lb paper bag",
+					"pricing":"1.99",
+					"comments":""
+				},
+				{
+					"image":"Apples_Royal_Gala_Ont.jpg",
+					"coords":[12,156,101,117],
+					"name": "Ontario Homegrown Royal Gala Apples Fancy Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$3.28/kg",
+					"pricing":"1.49/lb",
+					"comments":"newcrop"
+				},
+				{
+					"image":"Pears_Bosc_Ont_777.jpg",
+					"coords":[117,156,101,117],
+					"name": "Ontario Homegrown Bosc Pears Fancy Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$3.28/kg",
+					"pricing":"1.49/lb",
+					"comments":""
+				},
+				{
+					"image":"Tomatoes_Ont_999.jpg",
+					"coords":[222,156,101,117],
+					"name": "Ontario Homegrown Greenhouse Grown Tomatoes No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$3.28/kg",
+					"pricing":"1.49/lb",
+					"comments":""
+				},
+				{
+					"image":"Lettuce_Leaf_assort_999.jpg",
+					"coords":[327,156,101,117],
+					"name": "Leaf Lettuce Red or Green Product of U.S.A.",
+					"brands": [""],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging": "",
+					"pricing": "1.49",
+					"comments":""
+				},
+				{
+					"image":"Pomegranates_NEW.jpg",
+					"coords":[12,276,101,117],
+					"name": "Pom Wonderful Pomegranates Product of U.S.A. Jumbo Size",
+					"brands": ["pom wonderful"],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"",
+					"pricing":"2/5.00",
+					"comments":""
+				},
+				{
+					"image":"Pineapple_ExtraSweetGolden.jpg",
+					"coords":[117,276,101,117],
+					"name": "Extra Sweet Golden Pineapples Product of Costa Rica",
+					"brands": ["dole"],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"",
+					"pricing":"3.99",
+					"comments":""
+				},
+				{
+					"image":"Eggplant_000.jpg",
+					"coords":[222,276,101,117],
+					"name": "Eggplants Product of U.S.A.",
+					"brands": [""],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$2.18/kg",
+					"pricing":".99/lb",
+					"comments":""
+				},
+				{
+					"image":"Peppers_Green_404065.jpg",
+					"coords":[327,276,101,117],
+					"name": "Sweet Green Peppers Product of U.S.A. No. 1 Grade Extra Large Size",
+					"brands": [""],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$2.84/kg",
+					"pricing":"1.29/lb",
+					"comments":""
+				},
+				{
+					"image":"Pears_Anjou_org_999.jpg",
+					"coords":[12,397,101,117],
+					"name": "Anjou Pears Product of B.C. Canada Extra Fancy Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$4.39/kg",
+					"pricing":"1.99",
+					"comments":"organic"
+				},
+				{
+					"image":"Avocados_org_404225.jpg",
+					"coords":[117,397,101,117],
+					"name": "Avocados Product of Mexico",
+					"brands": ["calavo"],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"",
+					"pricing":"1.99",
+					"comments":"organic"
+				},
+				{
+					"image":"Carrots_Mini_EarthboundFarm_org_490205.jpg",
+					"coords":[222,276,101,117],
+					"name": "Mini Peeled Carrots Product of U.S.A.",
+					"brands": [""],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"1lb bag",
+					"pricing":"1.99",
+					"comments":"organic"
+				},
+				{
+					"image":"Bouquet_Jumbo_Premium_Ont.jpg",
+					"coords":[327,276,101,117],
+					"name": "Premium Jumbo Bouquets Product of Ontario",
+					"brands": [""],
+					"category": "produce",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"",
+					"pricing":"16.99",
+					"comments":"floral"
+				},
+				{
+					"image":"Dempsters_Sliced Bread_WholeGrain_GardenVeg_600g.jpg",
+					"coords":[470,12,206,140],
+					"name": "Dempster's Sliced Bread Whole Grains or Garden Vegetable Assorted Varieties",
+					"brands": ["dempster's"],
+					"category": "bakery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"600g",
+					"pricing":"2/5.00",
+					"comments":""
+				},
+				{
+					"image":"Dimpflmeier_Healthy_Living_Multigrain_Bread_454g.jpg",
+					"coords":[470,156,101,117],
+					"name": "Dimpflmeier Healthy Living Multigrain or Schweden Brot Light Rye Bread",
+					"brands": ["dimpflmeier"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"454g",
+					"pricing":"2.99",
+					"comments":""
+				},
+				{
+					"image":"HLF_Artisan_Bread_feat.jpg",
+					"coords":[575,156,101,117],
+					"name": "Fresh Artisan Bread Whole Clove Garlic, Henry's Harvest, Moroccan Olive, Semolina Raisin or Potato & Rosemary",
+					"brands": ["country kitchen"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"454g",
+					"pricing":"3.49",
+					"comments":"baked"
+				},
+				{
+					"image":"LaRocca_Red_Velvet_Cake.jpg",
+					"coords":[680,33,206,240],
+					"name": "La Rocca Fresh 6in Red Velvet Cake",
+					"brands": ["la rocca"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"",
+					"pricing":"16.99",
+					"comments":"save"
+				},
+				{
+					"image":"Natrel_Lactose_Free_Milk_1L_assort.jpg",
+					"coords":[470,276,101,117],
+					"name": "Natrel Lactose Free Milk 2%, 1% or Skim",
+					"brands": ["natrel"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1L",
+					"pricing":"2.99",
+					"comments":""
+				},
+				{
+					"image":"BlackDiamond_Cheese_Slices_assort_450g.jpg",
+					"coords":[575,276,101,117],
+					"name": "Black Diamond Cheese Slices",
+					"brands": ["black diamond"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"450g",
+					"pricing":"3.49",
+					"comments":""
+				},
+				{
+					"image":"Astro_Athentikos_Greek_Yogurt_500g.jpg",
+					"coords":[681,276,101,117],
+					"name": "Astro Athentikos Greek Yogourt Assorted Varieties",
+					"brands": ["astro"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"500g",
+					"pricing":"3.49",
+					"comments":""
+				},
+				{
+					"image":"Astro_Yogurt_Original_Zero_assort_12x100g.jpg",
+					"coords":[785,276,101,117],
+					"name": "Astro Yogourt Original, Fat Free Zero or Smooth 'n Fruity",
+					"brands": ["astro"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"pkg of 12x100g",
+					"pricing":"3.49",
+					"comments":""
+				},
+				{
+					"image":"Sealtest_Sour_Cream_500g_assort.jpg",
+					"coords":[470,397,101,117],
+					"name": "Sealtest Sour Cream Assorted Varieties",
+					"brands": ["sealtest"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"500ml",
+					"pricing":"1.99",
+					"comments":""
+				},
+				{
+					"image":"Western_Pressed_Cottage_Cheese.jpg",
+					"coords":[575,397,101,117],
+					"name": "Western Pressed Dry Cottage Cheese Salted or Unsalted",
+					"brands": ["western"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"500g",
+					"pricing":"4.99",
+					"comments":""
+				},
+				{
+					"image":"I_Cant_Believe_Its_Not_Butter.jpg",
+					"coords":[684,397,101,117],
+					"name": "I Can't Believe It's Not Butter! Regular & Light",
+					"brands": ["i can't believe it's not butter!"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"454g",
+					"pricing":"1.99",
+					"comments":""
+				},
+				{
+					"image":"Yoplait_Minigo_Tubes_assort_alt.jpg",
+					"coords":[785,397,101,117],
+					"name": "Yoplait Minigo 6x60g or Tubes 8x60g or Source 650g Assorted Varieties",
+					"brands": ["yoplait"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"",
+					"pricing":"2.49",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page3",
+			"image":"page3.jpg",
+			"products":[
+				{
+					"image":"Unico_Sunflower_Oil_3L.jpg",
+					"coords":[12,33,206,240],
+					"name": "Unico Sunflower Oil",
+					"brands": ["unico"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"3L",
+					"pricing":"6.99",
+					"comments":"save"
+				},
+				{
+					"image":"Unico_Olives_Black_375mL_assort.jpg",
+					"coords":[222,12,206,140],
+					"name": "Unico Ripe Black Olives Pitted or Sliced",
+					"brands": ["unico"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"375ml",
+					"pricing":".99",
+					"comments":""
+				},
+				{
+					"image":"Christie_ChipsAhoy_Oreo_300g.jpg",
+					"coords":[222,156,206,117],
+					"name": "Christie Cookies Chips Ahoy!, Original Oreo, Chips Ahoy! Chunks",
+					"brands": ["christie","chips ahoy!","oreo"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"500g",
+					"pricing":"3.49",
+					"comments":""
+				},
+				{
+					"image":"Nescafe_Rich_or_TastersChoice_Assort.jpg",
+					"coords":[12,276,101,117],
+					"name": "Nescafe Rich & Taster's Choice Instant Coffee Assorted Varieties",
+					"brands": ["nescafe","taster's choice"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"100-170g",
+					"pricing":"4.99",
+					"comments":""
+				},
+				{
+					"image":"Heinz_Ketchup_1L.jpg",
+					"coords":[117,276,101,117],
+					"name": "Heinz Tomato Ketchup",
+					"brands": ["heinz"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"1L",
+					"pricing":"3.49",
+					"comments":""
+				},
+				{
+					"image":"213286_Martelli Peach Halves 580mL.jpg",
+					"coords":[222,276,101,117],
+					"name": "Martelli Premium Peach Halves",
+					"brands": ["martelli"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"580ml",
+					"pricing":"2.99",
+					"comments":""
+				},
+				{
+					"image":"163506_Ara_Azzurro-Esspresso-Coffe_Beans_1kg.jpg",
+					"coords":[327,276,101,117],
+					"name": "Ara Azzurro Espresso Coffee Beans",
+					"brands": ["ara azzurro"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"1kg",
+					"pricing":"8.99",
+					"comments":""
+				},
+				{
+					"image":"Podravka_Vegeta_Food_Seasoning.jpg",
+					"coords":[12,397,101,117],
+					"name": "Podravka Vegata All Purpose Seasoning",
+					"brands": ["podravka vegata"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"1kg",
+					"pricing":"5.99",
+					"comments":""
+				},
+				{
+					"image":"Goumas_Kalamata_String_Figs_284g.jpg",
+					"coords":[117,397,101,117],
+					"name": "Aurora or Goumas Kalamata Figs",
+					"brands": ["aurora","goumas"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"284g",
+					"pricing":"2.49",
+					"comments":""
+				},
+				{
+					"image":"2425188_Gloria_Cabbage_Leaves_6x1.5L_vdr.jpg",
+					"coords":[222,276,101,117],
+					"name": "Gloria Pickled Cabbage Leaves",
+					"brands": ["gloria"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"1.5L",
+					"pricing":"3.49",
+					"comments":""
+				},
+				{
+					"image":"MammaNuccia_Traditional_Gnocchi_500g.jpg",
+					"coords":[327,276,101,117],
+					"name": "Mamma Nuccia Traditional Gnocchi",
+					"brands": ["mamma nuccia"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"500g",
+					"pricing":".99",
+					"comments":""
+				},
+				{
+					"image":"Tostitos_Tortilla_Chips_Assort_220-320g.jpg",
+					"coords":[470,12,206,140],
+					"name": "Tostitos Tortilla Chips Assorted Varieties",
+					"brands": ["tostitos"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"220-320g",
+					"pricing":"2/6.00",
+					"comments":""
+				},
+				{
+					"image":"Trophy_Dry_or_HoneyRoasted_Peanuts_700g.jpg",
+					"coords":[470,156,206,117],
+					"name": "Trophy Dry Roasted or Honey Roasted Peanuts",
+					"brands": ["trophy"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"700g",
+					"pricing":"3.99",
+					"comments":""
+				},
+				{
+					"image":"RedRose_Orange_Pekoe_Tea_72s.jpg",
+					"coords":[680,33,206,240],
+					"name": "Red Rose Tea Orange Pekoe 72's or Canadian Breakfast 60's",
+					"brands": ["red rose"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"",
+					"pricing":"2.99",
+					"comments":"save"
+				},
+				{
+					"image":"One_Coconut_Water_1L.jpg",
+					"coords":[470,276,101,117],
+					"name": "O.N.E. Coconut Water",
+					"brands": ["o.n.e."],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1L",
+					"pricing":"3.49",
+					"comments":""
+				},
+				{
+					"image":"Larabar_Engergy_Bars_assort.jpg",
+					"coords":[575,276,101,117],
+					"name": "Larabar Energy Bars Multipack Assorted Varieties",
+					"brands": ["larabar"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"225-240g",
+					"pricing":"5.99",
+					"comments":""
+				},
+				{
+					"image":"Fiuggi_Spring_Water_6x1L.jpg",
+					"coords":[681,276,101,117],
+					"name": "Fiuggi Spring Water Natural, Sparkling",
+					"brands": ["fiuggi"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"6x1L",
+					"pricing":"9.99",
+					"comments":""
+				},
+				{
+					"image":"Tilex_Shower_Cleaner_946mL_assort.jpg",
+					"coords":[785,276,101,117],
+					"name": "Tilex Shower Cleaner Fresh Shower, Mold & Mildew or Soap Scum",
+					"brands": ["tilex"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"946ml",
+					"pricing":"2.99",
+					"comments":""
+				},
+				{
+					"image":"212076-Grace-Organic-Coconut-Milk_400ml.jpg",
+					"coords":[470,397,101,117],
+					"name": "Grace Organic Coconut Milk",
+					"brands": ["grace"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"400ml",
+					"pricing":"1.99",
+					"comments":"organic"
+				},
+				{
+					"image":"212869_One-Cup-Organic-Variety-Pack-_Single-Serve-Coffee_132g.jpg",
+					"coords":[575,397,101,117],
+					"name": "OneCoffee Organic Single Serve Coffee Selected Varieties",
+					"brands": ["onecoffee"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"132g",
+					"pricing":"7.99",
+					"comments":"organic"
+				},
+				{
+					"image":"Eden Organic Apple Cider Vinegar_946 ml.jpg",
+					"coords":[684,397,101,117],
+					"name": "Eden Organic Apple Cider Vinegar",
+					"brands": ["eden"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"946ml",
+					"pricing":"7.99",
+					"comments":"organic"
+				},
+				{
+					"image":"209825_Persil Laundry Detergent_4.875kg.jpg",
+					"coords":[785,397,101,117],
+					"name": "Persil Laundry Detergent",
+					"brands": ["persil"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"4.875kg",
+					"pricing":"19.99",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page4",
+			"image":"page4.jpg",
+			"products":[
+				{
+					"image":"Sole_Fillets_Wild.jpg",
+					"coords":[12,33,206,240],
+					"name": "Fresh Wild Sole Fillets",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "",
+					"packaging":"$15.41/kg",
+					"pricing":"6.99/lb",
+					"comments":"save, wild"
+				},
+				{
+					"image":"Cod_Fillet_alt.jpg",
+					"coords":[222,12,101,140],
+					"name": "Fresh Cod Fillets Product of Iceland",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "",
+					"packaging":"$22.02/kg",
+					"pricing":"9.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Sea_Bream_Orata_Whole.jpg",
+					"coords":[327,12,101,140],
+					"name": "Fresh Whole European Sea Bream (Orata)",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "",
+					"packaging":"$17.61/kg",
+					"pricing":"7.99/lb",
+					"comments":""
+				},
+				{
+					"image":"309264_Janes_PubStyle-Fish-Flllets_580g_alt.jpg",
+					"coords":[222,156,206,117],
+					"name": "Janes Pub Style Fish Fillets",
+					"brands": ["janes"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"580g",
+					"pricing":"9.99",
+					"comments":""
+				},
+				{
+					"image":"Janes_PubStyle_Chicken_800g_assort.jpg",
+					"coords":[12,276,206,117],
+					"name": "Janes Pub Style Chicken Nuggets, Strips or Burgers",
+					"brands": ["janes"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"800g",
+					"pricing":"7.99",
+					"comments":""
+				},
+				{
+					"image":"DrOetker_Pizza_assort.jpg",
+					"coords":[222,276,206,117],
+					"name": "Dr. Oetker Frozen Pizza Ristorante, Casa di Mama or Panebello Selected Varieties",
+					"brands": ["dr. oetker"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"325-450g",
+					"pricing":"3.99",
+					"comments":""
+				},
+				{
+					"image":"209000_EarthboundFarm_Organic_Frozen_Strawberries_300g_vdr.jpg",
+					"coords":[12,397,101,117],
+					"name": "Earthbound Farm Frozen Organic Fruits Selected Varieties",
+					"brands": ["earthbound farm"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"300-400g",
+					"pricing":"5.99",
+					"comments":""
+				},
+				{
+					"image":"Stouffers_Frozen_Entrees_Assort_alt.jpg",
+					"coords":[117,397,101,117],
+					"name": "Stouffer's & Lean Cuisine Frozen Entrees Assorted Varieties",
+					"brands": ["stouffer's","lean cuisine"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"196-340g",
+					"pricing":"2/5.00",
+					"comments":""
+				},
+				{
+					"image":"Chapmans_Sweet_Canadian_Options_Yogurt_Novalties_assorth.jpg",
+					"coords":[222,276,206,117],
+					"name": "Chapman's Sorbert 2L or Sweet Canadian Options Novelties 4-8 pk Selected Varieties",
+					"brands": ["chapman's"],
+					"category": "grocery",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"",
+					"pricing":"2.99",
+					"comments":""
+				},
+				{
+					"image":"Salami_Calabrese_Sopressata.jpg",
+					"coords":[470,12,101,140],
+					"name": "Mastro Calabrese Sopressata Salami Sweet or Hot Freshly Sliced at the Deli",
+					"brands": ["mastro"],
+					"category": "meat and deli",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$26.43/kg",
+					"pricing":"11.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Prosciutto_Boneless_SD_888.jpg",
+					"coords":[575,12,101,140],
+					"name": "Casa Italia Boneless Prosciutto Freshly Sliced at the Deli",
+					"brands": ["casa italia"],
+					"category": "meat and deli",
+					"summary": "",
+					"packaging":"$24.23/kg",
+					"pricing":"10.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Provolone_Cheese_Sliced_909187.jpg",
+					"coords":[470,156,101,117],
+					"name": "Tre Stelle Provolone Cheese Regular or Light Freshly Sliced at the Deli",
+					"brands": ["tre stelle"],
+					"category": "meat and deli",
+					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"packaging":"$17.61/kg",
+					"pricing":"7.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Havarti_Cheese_Slices.jpg",
+					"coords":[575,156,101,117],
+					"name": "Dofino Havarti Cheese Freshly Cut at the Deli",
+					"brands": ["dofino"],
+					"category": "meat and deli",
+					"summary": "",
+					"packaging":"$15.41/kg",
+					"pricing":"6.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Chicken_Breast_Kentucky_DELI.jpg",
+					"coords":[680,33,206,240],
+					"name": "Cuddy Oven Roasted Chicken Breast Freshly Sliced at the Deli",
+					"brands": ["cuddy"],
+					"category": "meat and deli",
+					"summary": "",
+					"packaging":"$22.02/kg",
+					"pricing":"9.99",
+					"comments":"save"
+				},
+				{
+					"image":"Saputo_Sliced_Cheese_Asst_90-100g.jpg",
+					"coords":[470,276,101,117],
+					"name": "Saputo Sliced Cheese Selected Varieties",
+					"brands": ["saputo"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"90-100g",
+					"pricing":"2.99",
+					"comments":""
+				},
+				{
+					"image":"Stella_Asiago_Cheese_500g.jpg",
+					"coords":[575,276,101,117],
+					"name": "Stella Asiago Cheese At the Deli",
+					"brands": ["stella"],
+					"category": "meat and deli",
+					"summary": "",
+					"packaging":"500g",
+					"pricing":"8.99",
+					"comments":""
+				},
+				{
+					"image":"TreStella_Mozzarella_Cheese_340g_2014.jpg",
+					"coords":[681,276,101,117],
+					"name": "Tre Stelle Mozzarella Cheese",
+					"brands": ["tre stelle"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"340g",
+					"pricing":"4.99",
+					"comments":""
+				},
+				{
+					"image":"TreStelle_Bocconcini_assort_200g.jpg",
+					"coords":[785,276,101,117],
+					"name": "Tre Stelle Bocconcini Regular, Mini Light or Medallions",
+					"brands": ["tre stelle"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"200g",
+					"pricing":"3.99",
+					"comments":""
+				},
+				{
+					"image":"Mastro_Genoa_Salami_150g_assort.jpg",
+					"coords":[470,397,101,117],
+					"name": "Mastro Sliced Genoa Salami Hot or Mild",
+					"brands": ["mastro"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"150g",
+					"pricing":"3.49",
+					"comments":""
+				},
+				{
+					"image":"Springers_Smoked_Bone-in_Pork_Picnics.jpg",
+					"coords":[575,397,101,117],
+					"name": "Springer's Whole Smoked Bone-In Pork Picnic Shoulder",
+					"brands": ["springer's"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"$3.73/kg",
+					"pricing":"1.69/lb",
+					"comments":""
+				},
+				{
+					"image":"310524_Zabiha Hala Juicy Supreme Chicken Frankfurtrers_900g.jpg",
+					"coords":[684,397,101,117],
+					"name": "Zabiha Halal Juicy Supreme Chicken Frankfurters",
+					"brands": ["zabiha"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"900g",
+					"pricing":"4.99",
+					"comments":"new"
+				},
+				{
+					"image":"215296-Zabiha-Hala-Frozen-Homestyle-Pepperoni-Pizza_570g.jpg",
+					"coords":[785,397,101,117],
+					"name": "Zabiha Halal Frozen Homestyle Pepperoni Pizza",
+					"brands": ["zabiha"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"570g",
+					"pricing":"6.99",
+					"comments":"new"
+				}
+			]
+		},
+		{
+			"id":"page5",
+			"image":"page5.jpg",
+			"products":[
+				{
+					"image":"Pork_Whole_Picnic_Shoulder_Ont_300353.jpg",
+					"coords":[12,33,206,240],
+					"name": "Fresh Ontario Picnic Pork Shoulder Minced 1.79lb/3.95kg",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$3.28/kg",
+					"pricing":"1.49/lb",
+					"comments":"save"
+				},
+				{
+					"image":"Beef_Ground_Lean.jpg",
+					"coords":[223,33,101,120],
+					"name": "Fresh Lean Ground Beef",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$11.00/kg",
+					"pricing":"4.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Beef_Stewing_AAA.jpg",
+					"coords":[327,33,101,120],
+					"name": "Fresh Stewing Beef Product of Canada",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$13.21/kg",
+					"pricing":"5.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Beef_Eye_of_Round_Steaks_AAA_alt.jpg",
+					"coords":[223,156,101,117],
+					"name": "Fresh Beef Eye of Round Steaks Product of Canada",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$17.61/kg",
+					"pricing":"7.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Beef_Sirloin_Tip_Steaks_AAA_21Days.jpg",
+					"coords":[327,156,101,117],
+					"name": "Fresh Beef Boneless Top Sirloin Steaks Product of Canada",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$19.82/kg",
+					"pricing":"8.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Pork_Side_Ribs_Ont_NEW_300348.jpg",
+					"coords":[12,276,101,117],
+					"name": "Fresh Ontario Pork Side Ribs",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$6.59/kg",
+					"pricing":"2.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Pork_Side_Ribs_Sweet_Sour_Ontario.jpg",
+					"coords":[117,276,101,117],
+					"name": "Fresh Ontario Pork Side Ribs for Sweet & Sour",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$8.80/kg",
+					"pricing":"3.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Veal_Outside_Round_Cutlets_Ont_300315.jpg",
+					"coords":[223,276,101,117],
+					"name": "Fresh Ontario Outside Round Veal Cutlets",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$17.61/kg",
+					"pricing":"7.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Veal_Stewing_ONT.jpg",
+					"coords":[327,276,101,117],
+					"name": "Fresh Ontario Veal Stew",
+					"brands": [""],
+					"category": "meat and deli",
+					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"packaging":"$17.61/kg",
+					"pricing":"7.99/lb",
+					"comments":""
+				}
+			]
+		}
+	]
+}
