@@ -250,7 +250,6 @@
         togglePopup: function(id) {
             $('#detailModal.otu').remove();  // remove all modal instances (one time use)
             item = hlf.data.products[id];
-            console.log("item",item);
             mapping = { 
                 "{IMG}" : item.image,
                 "{QTY}" : (item.qty ? item.qty : ''), 
@@ -287,7 +286,6 @@
                var id = $(this).data("add-cart");
                
                $.post('/shopping/add/', {"id": id},  function(response) {
-                  console.log(response); 
                }).fail(function() {
                   alert("Unfortunately something went wrong! Please try again."); 
                });
