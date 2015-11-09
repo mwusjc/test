@@ -46,7 +46,7 @@ var fl = {
 	getThursday: function(d) {
 		d = new Date(d);
 		var day = d.getDay(),
-			diff = d.getDate() - day + (day == 0 ? -3:4); 
+			diff = d.getDate() - day + (day <= 4 ? -3:4); 
 		return new Date(d.setDate(diff));
 	},
 	getNextThursday: function(d) {
@@ -149,7 +149,7 @@ var fl = {
 			$("#chooseFlyer").modal("show");
 		}
 		else{
-			console.log("no overlap!")
+			//console.log("no overlap!")
 			$("#chooseFlyer").modal("hide");
 			$("#flyerModal").hide();
 		}

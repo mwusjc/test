@@ -1,11 +1,12 @@
 var sl = {
 	init: function(){ 
 		var shoplistinit = {"products":[]};
-		localStorage.getItem("shoppingList")? console.log("Shopping list exists") : localStorage.setItem("shoppingList",JSON.stringify(shoplistinit));   
+		localStorage.getItem("shoppingList")? null : localStorage.setItem("shoppingList",JSON.stringify(shoplistinit));   
 		this.updateCount();
 		$(document).on("click",".addToCart",function(e){
 	    	sl.addProduct(sl.scrapeProduct($(e.target).closest(".productPopup")));
 	    	$(e.target)[0].innerHTML = "Added";
+	    	$(e.target).closest(".productPopup").modal("hide");
 	    	$(e.target).unbind( "click" );
 	    });
 	},
@@ -68,7 +69,6 @@ var sl = {
 	},
 	scrapeProduct: function(html){
 		var prod = {}
-		console.log(html);
 		prod.name = html.find(".title").html();
 		prod.pricing = html.find(".pricing").html();
 		prod.category = html.find(".modal-body").attr("data-category");
