@@ -250,6 +250,7 @@
         togglePopup: function(id) {
             $('#detailModal.otu').remove();  // remove all modal instances (one time use)
             item = hlf.data.products[id];
+            console.log("item image",item.image);
             mapping = { 
                 "{IMG}" : item.image,
                 "{QTY}" : (item.qty ? item.qty : ''), 
@@ -268,7 +269,6 @@
             var that = this;
             $('[data-toggle-details]').on('click', function(e) {
                 e.preventDefault();
-                console.log("id",$(this)[0].getAttribute("data-toggle-details"));
                 that.togglePopup( $(this)[0].getAttribute("data-toggle-details") ); 
             });
 
