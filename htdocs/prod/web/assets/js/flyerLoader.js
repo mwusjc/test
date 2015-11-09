@@ -181,6 +181,7 @@ var fl = {
 				}
 			}
 		}
+		brands.sort();
 		for (var i = 0; i < brands.length; i++){
 			html+= '<li><a href="#" class="brandItem" data-brand="'+brands[i]+'">'+brands[i]+'</a></li>'
 		}
