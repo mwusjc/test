@@ -3240,7 +3240,9 @@ tbody.collapse.in {
   cursor: not-allowed; }
 
 .open > .dropdown-menu {
-  display: block; }
+  display: block; 
+    max-height: 540px;
+    overflow-y: auto;}
 .open > a {
   outline: 0; }
 
