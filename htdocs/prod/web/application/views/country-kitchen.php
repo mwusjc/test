@@ -268,6 +268,7 @@
             var that = this;
             $('[data-toggle-details]').on('click', function(e) {
                 e.preventDefault();
+                console.log("id",$(this)[0].getAttribute("data-toggle-details"));
                 that.togglePopup( $(this)[0].getAttribute("data-toggle-details") ); 
             });
 
