@@ -250,8 +250,6 @@
         togglePopup: function(id) {
             $('#detailModal.otu').remove();  // remove all modal instances (one time use)
             var item = hlf.data.products[id];
-            console.log("item",item);
-            console.log("item image",item.image);
             mapping = { 
                 "{IMG}" : item.image,
                 "{QTY}" : (item.qty ? item.qty : ''), 
