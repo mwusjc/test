@@ -6641,7 +6641,8 @@ height: 210px;
 .inside-store-container #details {
   float: left;
   display: none;
-  margin: 40px 15px 40px 15px; }
+  margin: 40px 15px 40px 15px;
+  border-radius: 0 0 10px 10px; }
 
 .ck-item {
   margin-bottom: 30px;
