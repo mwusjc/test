@@ -6033,8 +6033,11 @@ a.details {
   border-bottom: 1px solid #c9c9c9; }
 
 .row > div img, header img {
-  max-width: 100%;
-  height: auto; }
+  height: auto; 
+}
+
+.row > div img { max-height: 100%; }
+
 .sweetSavoury{
   width: 100% !important;
   height: 100% !important;
@@ -6750,6 +6753,9 @@ height: 210px;
 .recipes-container .img_copy,
 .platters-container .img_copy {
 	height: 40px;
+}
+.recipes-container .img_copy {
+  margin: 10px 0 10px 0;
 }
 .platters-container .img_copy {
   text-align: center;
