@@ -16,9 +16,9 @@
 <main class='recipes'>
     <div class="row">
         <div class="col-xs-12 col-sm-12">
-            <h2>Good taste starts here</h2>
+            <h1>Good taste starts here</h1>
 
-            <p>We don't just offer fresh food. We provide fresh ideas too. Every week we feature a new recipe. And, don't miss our tasty selection of appetizers, entrées and desserts in our recipe archive. Bon appetit! </p>
+            <h2>We don't just offer fresh food. We provide fresh ideas too. Every week we feature a new recipe. And, don't miss our tasty selection of appetizers, entrées and desserts in our recipe archive. Bon appetit! </h2>
         </div>
     </div>
     <div class='spacer-20'></div>
