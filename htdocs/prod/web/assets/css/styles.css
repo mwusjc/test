@@ -6638,6 +6638,12 @@ height: 210px;
       line-height: 1.5em; 
       letter-spacing: 0.25px;
     }
+
+.department-thumbnail {
+  max-height: inherit !important;
+  max-width: 100%;
+}
+
 .inside-store-container #details {
   float: left;
   display: none;
