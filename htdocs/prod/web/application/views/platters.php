@@ -134,7 +134,8 @@
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <h2 class='title'>{TITLE} {QTY}{QTY_TYPE}</h2>
-                        <h3>{SUBTITLE}</h3>        
+                        <h3>{SUBTITLE}</h3> 
+                        <div class='pricing'>{PRICE}</div>       
                         <p class='description'>{DESCRIPTION}</p>
                         <a href='#' data-add-cart='{ID}' class='btn green addToCart'>Add to Shopping List</a>
                     </div>
@@ -190,9 +191,12 @@
                 "{TITLE}": item.Name, 
                 "{SUBTITLE}": (item.Subtitle ? item.Subtitle : ''), 
                 "{DESCRIPTION}": item.Description, 
-                "{ID}": item.id, 
+                "{ID}": item.id,
+                //"{PRICE}": "$" + item.Price,
+                "{PRICE}": (item.Price ? "$" + item.Price : ''),
             };
             html = hlf.drawTemplate("#tpl-product-modal", mapping);
+
             $('body').append(html);
             $('#detailModal').modal('show');  
         },
@@ -231,7 +235,7 @@
         drawList: function(data) { 
             $('.platters-container').html(' ');
             $.each(data, function(key,item) {
-                mapping = { "_IMAGE_" : item.Image, "_TITLE_" : item.Name, "_ID_" : item.ID, "_DESCRIPTION_": item.Description };
+                mapping = { "_IMAGE_" : item.Image, "_TITLE_" : item.Name, "_ID_" : item.ID, "_PRICE_" : item.Price, "_DESCRIPTION_": item.Description };
                 html = hlf.drawTemplate("#tpl-platter-listing", mapping);
                 $('.platters-container').append(html);
             });
