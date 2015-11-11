@@ -5,7 +5,7 @@
 
     <div class="caption">
         <div class="wrapper">
-            <div class="row feature-title">
+            <div class="row feature-title col-xs-10 col-sm-6">
                 <h1 class="capitalize">Platters &amp; Gifts</h1>
             </div>
         </div>

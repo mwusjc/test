@@ -5933,7 +5933,9 @@ h4 {
 }
 
 main {
-  margin: 60px auto auto auto; }
+  margin: 60px auto auto auto; 
+  min-height: 40vh;
+}
   main h1 {
     font-weight: 500; }
   main .row.divider {
