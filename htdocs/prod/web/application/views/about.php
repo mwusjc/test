@@ -2,11 +2,20 @@
     <img class="desktop" src="<?=site_url()?>assets/images/about_banner.jpg" />
     <img class="mobile" src="<?=site_url()?>assets/images/about_banner_mobile.jpg" />
 
-    <div class="wrapper">
+    <!-- <div class="wrapper">
       <div class="caption">
         <h1 style="letter-spacing: 1px; font-size: 42px;">It starts with freshness.</h1>
       </div>
+    </div> -->
+
+    <div class="caption">
+        <div class="wrapper">
+            <div class="row feature-title">
+              <h1 class="about-feature-text">It starts with freshness.</h1>    
+            </div>
+        </div>
     </div>
+
   </div>
 </header>
 <main>

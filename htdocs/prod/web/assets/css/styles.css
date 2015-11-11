@@ -5514,29 +5514,6 @@ button.close {
     top: 240px;
   }
 }
-
-@media screen and (max-width: 640px) {
-  /*.item-1-text h2 {
-    font-size: 36px;
-    line-height: 1em;
-    margin-bottom: 10px;
-    padding-top: 10px;
-  }
-
-  .item-1-text .desktop-desc-text {
-    display: none;
-  }
-
-  .item-1-text .mobile-desc-text {
-    display: block;
-    font-size: 20px;
-    text-align: left;
-  }*/
-
-  .carousel-item-container {
-    display: none;
-  }
-}
 /* End copy overlay on homepage carousel image */
 
 .carousel-control {
@@ -6156,6 +6133,11 @@ a.details {
 .herobanner .caption h1.capitalize{
   margin-left: 20px;
   text-transform: capitalize !important;
+}
+.about-feature-text {
+  font-size: 42px;
+  letter-spacing: 1px;
+  margin-left: 20px;
 }
 .country-kitchen {
   background-color: #00a64f;

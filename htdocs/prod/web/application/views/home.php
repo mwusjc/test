@@ -2,7 +2,7 @@
     <div class="carousel-inner" role="listbox">
         <a href="/recipes/408/Basil-Rice-Soup"  class="item active responsive">
             <!-- Add inline text here to replace copy within current image asset -->
-            <div class="carousel-item-container col-xs-12">
+            <div class="carousel-item-container desktop col-xs-12">
                 <div class="item-1-text">
                     <h2>Comfort Food</h2>
                     <span class="desktop-desc-text">Warm up your winter with this </span>
