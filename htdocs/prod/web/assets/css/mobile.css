@@ -19,7 +19,8 @@
     height: 395px !important;
   }
   .carousel.home {
-    height: 376px;
+    /*height: 376px;*/
+    height: inherit;
     width: 100%;
     border-top: 2px solid rgba(195,195,195,0.9);
     }
