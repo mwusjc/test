@@ -3,18 +3,10 @@
     <img class="desktop" src="<?=site_url()?>assets/images/pp_banner.jpg" />
     <img class="mobile" src="<?=site_url()?>assets/images/pp_banner_mobile.jpg" />
 
-    <!-- <div class="wrapper">
-      <div class="caption">
-        <h1 class="capitalize">Platters &amp; Gifts</h1>
-        <span data-toggle="modal" data-target="#myModal" class="btn green">Place an order</span>
-      </div>
-    </div> -->
-
     <div class="caption">
         <div class="wrapper">
             <div class="row feature-title">
                 <h1 class="capitalize">Platters &amp; Gifts</h1>
-                <span data-toggle="modal" data-target="#myModal" class="btn green">Place an order</span>
             </div>
         </div>
     </div>
@@ -63,8 +55,9 @@
 <div class="row">
   <div class="col-xs-12 col-sm-12">
      <h1>Fresh Ideas For Your Next Event </h1>
-    <h2>You have enough to worry about with your upcoming party. Leave the finger food to us. Ask in store for details.</h2>
+     <h2>You have enough to worry about with your upcoming party. Leave the finger food to us. Ask in store for details.</h2>
   </div>
+  <span data-toggle="modal" data-target="#myModal" class="order-platter btn green">Place an order</span>
 </div>
 <div class="row divider spacer"></div>
 &nbsp;

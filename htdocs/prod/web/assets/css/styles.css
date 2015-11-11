@@ -6606,6 +6606,10 @@ ol.custom {
     height: 140px;
     margin-bottom: 10px; }
 
+.order-platter {
+  margin-left: 12px !important;
+}
+
 .img {
   position: relative;
   overflow: hidden;
