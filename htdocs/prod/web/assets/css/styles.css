@@ -6515,6 +6515,19 @@ header .shopcart {
   padding: 10px 20px;
   font-size: 19px; }
 
+.home-carousel-caption {
+  padding:40px 20px 15px 20px; 
+  max-width:930px;
+  margin: 0 auto;
+}
+
+.home-carousel-caption img {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 126px;
+}
+
 .tab-content img {
   margin-bottom: 12px;
   min-width: 100%; }

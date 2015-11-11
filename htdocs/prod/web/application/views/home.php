@@ -13,71 +13,72 @@
 
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-1.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_1.jpeg">
-            <div class="carousel-caption" style="padding:40px 20px 15px 20px; width:800px;">
-                <img src="<?=site_url()?>/assets/images/icon_sizzle.png" style="float:right; width: 100px; margin: -42px 17px -35px -20px;"/><h1 style="font-size: 60px; font-family: 'Serifa';line-height:0.7em;">Bring home the sizzle</h1>
-                <h2 style="font-size:1.45em;">Pre-seasoned meats ready-to-grill at your local Highland Farms. Start fresh.</h2>
-            </div>
+            
         </a>
         <a  href="/flyer"class="item responsive">
+
+            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
+                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-2.png">
+
+            </div>
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-2.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_2.jpg">
-            <div class="carousel-caption save green">
-                <span class="price">
-                    <span class="big">4</span><span class="dot">.</span><span class="small">99</span>
-                    <span class="division">/lb</span>
-                </span>
-                <p>Fresh Ontario <br/>
-                    Milk-Fed Veal <br/>
-                    Shoulder Blade</p>
-            </div>
         </a>
         <a href="/flyer" class="item responsive">
+
+            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
+
+                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-3.png">
+
+            </div>
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-3.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_3.jpg">
-            <div class="carousel-caption feature teal">
-                <span class="price">
+            
+        </a>
+        <a href="/flyer" class="item responsive">
+            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
+                <!-- <span class="price">
                     <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
                     <span class="division">/lb</span>
                 </span>
                 <p>Fresh <br/>
-                    Tilapia Fillets</p>
+                    Tilapia Fillets</p> -->
+                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-4.png">
             </div>
-        </a>
-        <a href="/flyer" class="item responsive">
+
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-4.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_4.jpg">
-            <div class="carousel-caption feature teal">
-                <span class="price">
+            
+        </a>
+        <a href="/flyer" class="item responsive">
+            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
+                <!-- <span class="price">
                     <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
                     <span class="division">/lb</span>
                 </span>
                 <p>Fresh <br/>
-                    Tilapia Fillets</p>
+                    Tilapia Fillets</p> -->
+                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-5.png">
             </div>
-        </a>
-        <a href="/flyer" class="item responsive">
+
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-5.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_5.jpg">
-            <div class="carousel-caption feature teal">
-                <span class="price">
-                    <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
-                    <span class="division">/lb</span>
-                </span>
-                <p>Fresh <br/>
-                    Tilapia Fillets</p>
-            </div>
+            
         </a>
         <a href="/flyer" class="item responsive">
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-6.jpg">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_6.jpg">
-            <div class="carousel-caption feature teal">
-                <span class="price">
+            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
+                <!-- <span class="price">
                     <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
                     <span class="division">/lb</span>
                 </span>
                 <p>Fresh <br/>
-                    Tilapia Fillets</p>
+                    Tilapia Fillets</p> -->
+                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-6.png">
             </div>
+
+            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-6.jpg">
+            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_6.jpg">
+            
         </a>
     </div>
     <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
