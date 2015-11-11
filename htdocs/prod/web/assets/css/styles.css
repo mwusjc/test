@@ -6111,7 +6111,7 @@ a.details {
 .herobanner .caption {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  /*width: 100%;*/
   color: white;
   padding-bottom: 30px; 
 }
