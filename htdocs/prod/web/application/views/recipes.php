@@ -1,7 +1,7 @@
 
 <div class="herobanner responsive">
     <img src="<?=site_url()?>assets/images/476444092.jpg">
-    <div class="caption">
+    <div class="caption col-xs-12">
         <div class="wrapper">
             <div class="row">
                 <a href="/recipes/381/Beef-Stroganoff" class="feature-title col-xs-12 col-sm-12">
