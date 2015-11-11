@@ -6140,7 +6140,8 @@ a.details {
 }
 .herobanner .caption .feature-title {
   background: #00a64f;
-  border-radius: 10px 10px 0 0;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: -30px;
   padding-top: 15px;
 }
 .herobanner .caption h1{
