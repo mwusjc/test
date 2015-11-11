@@ -4,11 +4,13 @@
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-1.jpg">
 
             <!-- Add inline text here to replace copy within current image asset -->
-            <div class="item-1-text">
-                <h2>Comfort Food</h2>
-                <span class="desktop-desc-text">Warm up your winter with this </span>
-                <span class="desktop-desc-text">hearty and delicious recipe.</span>
-                <span class="mobile-desc-text">Warm up your winter with this hearty and delicious recipe.</span>
+            <div class="carousel-item-container col-xs-12">
+                <div class="item-1-text">
+                    <h2>Comfort Food</h2>
+                    <span class="desktop-desc-text">Warm up your winter with this </span>
+                    <span class="desktop-desc-text">hearty and delicious recipe.</span>
+                    <span class="mobile-desc-text">Warm up your winter with this hearty and delicious recipe.</span>
+                </div>
             </div>
 
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_1.jpeg">

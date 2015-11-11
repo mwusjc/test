@@ -5463,15 +5463,24 @@ button.close {
     left: 100%; }
 
 /* Start copy overlay on homepage carousel image */
+.carousel-item-container {
+  float: none;
+  margin: 0 auto;
+  max-width: 930px;
+}
+
 .item-1-text {
   background: #00a64f;
   border-radius: 20px 20px 0 0;
   color: #fff;
   display: inline;
-  left: 129px;
+  /*left: 129px;*/
+  left: 0;
   padding: 10px 40px 120px 40px;
   position: absolute;
-  top: 50%;
+  /*top: 50%;*/
+  top: -240px;
+  width: 930px;
 }
 
 .item-1-text h2,
@@ -5498,17 +5507,24 @@ button.close {
   display: none;
 }
 
+@media screen and (max-width: 960px) {
+  /*.carousel-item-container {
+    width: 100vw;
+  }*/
+}
+
 @media screen and (max-width: 767px) {
   .item-1-text {
-    left: 10%;
-    width: 80%;
+    left: 7%;
+    width: 86%;
+    top: 140px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .item-1-text {
+  /*.item-1-text {
     top: 40%;
-  }
+  }*/
 
   .item-1-text h2 {
     font-size: 36px;
@@ -6119,25 +6135,32 @@ a.details {
 }
 .herobanner {
   position: relative;
-  height: 285px; }
-  .herobanner .caption {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    padding-bottom: 30px; }
-  .herobanner .caption h1{
-    letter-spacing: 1px;
-    font-size: 42px;
-    text-transform: lowercase;
-    text-shadow: 1px 1px 4px #000;
-  }
-  .herobanner .caption h1:first-letter{
-    text-transform: uppercase;
-  }
-  .herobanner .caption h1.capitalize{
-    text-transform: capitalize !important;
-  }
+  height: 285px; 
+}
+.herobanner .caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding-bottom: 30px; 
+}
+.herobanner .caption .feature-title {
+  background: #00a64f;
+  border-radius: 10px 10px 0 0;
+  padding-top: 15px;
+}
+.herobanner .caption h1{
+  letter-spacing: 1px;
+  font-size: 42px;
+  text-transform: lowercase;
+  text-shadow: 1px 1px 4px #000;
+}
+.herobanner .caption h1:first-letter{
+  text-transform: uppercase;
+}
+.herobanner .caption h1.capitalize{
+  text-transform: capitalize !important;
+}
 .country-kitchen {
   background-color: #00a64f;
   color: white;
@@ -6820,6 +6843,9 @@ height: 210px;
   color: #dbdbdb;
   font-size: inherit;
 }
+
+
+
 .recipes-container .img_copy,
 .platters-container .img_copy {
 	height: 40px;
