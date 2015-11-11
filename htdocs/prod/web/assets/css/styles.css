@@ -5436,6 +5436,7 @@ button.close {
           transform: translate3d(-100%, 0, 0);
           left: 0; }
         .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active {
+          border-bottom: 2px solid #00a64f;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
           left: 0; } }
@@ -5461,6 +5462,59 @@ button.close {
     left: -100%; }
   .carousel-inner > .active.right {
     left: 100%; }
+
+/* Start copy overlay on homepage carousel image */
+.carousel-item-container {
+  float: none;
+  margin: 0 auto;
+  max-width: 930px;
+}
+
+.item-1-text {
+  background: #00a64f;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  display: inline;
+  /*left: 129px;*/
+  left: 0;
+  padding: 10px 40px 120px 40px;
+  position: absolute;
+  /*top: 50%;*/
+  top: 190px;
+}
+
+.item-1-text h2,
+.item-1-text .desktop-desc-text {
+  text-align: left; 
+}
+
+.item-1-text h2 { 
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.item-1-text .desktop-desc-text,
+.item-1-text .mobile-desc-text {
+  display: block;
+  font-family: 'SerifaBT-Light';
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.25em;
+  word-wrap: normal;
+}
+
+.item-1-text .mobile-desc-text {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .item-1-text {
+    left: 7%;
+    width: 86%;
+    top: 240px;
+  }
+}
+/* End copy overlay on homepage carousel image */
 
 .carousel-control {
   position: absolute;
@@ -6052,25 +6106,39 @@ a.details {
 }
 .herobanner {
   position: relative;
-  height: 285px; }
-  .herobanner .caption {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    padding-bottom: 30px; }
-  .herobanner .caption h1{
-    letter-spacing: 1px;
-    font-size: 42px;
-    text-transform: lowercase;
-    text-shadow: 1px 1px 4px #000;
-  }
-  .herobanner .caption h1:first-letter{
-    text-transform: uppercase;
-  }
-  .herobanner .caption h1.capitalize{
-    text-transform: capitalize !important;
-  }
+  height: 285px; 
+}
+.herobanner .caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding-bottom: 30px; 
+}
+.herobanner .caption .feature-title {
+  background: #00a64f;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: -30px;
+  padding-top: 15px;
+}
+.herobanner .caption h1{
+  letter-spacing: 1px;
+  font-size: 42px;
+  text-transform: lowercase;
+  text-shadow: 1px 1px 4px #000;
+}
+.herobanner .caption h1:first-letter{
+  text-transform: uppercase;
+}
+.herobanner .caption h1.capitalize{
+  margin-left: 20px;
+  text-transform: capitalize !important;
+}
+.about-feature-text {
+  font-size: 42px;
+  letter-spacing: 1px;
+  margin-left: 20px;
+}
 .country-kitchen {
   background-color: #00a64f;
   color: white;
@@ -6495,7 +6563,7 @@ ol.custom {
 .responsive {
   overflow: hidden; }
   .responsive > img {
-    min-height: 100%;
+    /*min-height: 100%;*/
     min-width: 100%;
     width: auto;
     height: auto; }
@@ -6537,6 +6605,10 @@ ol.custom {
   .platter .img {
     height: 140px;
     margin-bottom: 10px; }
+
+.order-platter {
+  margin-left: 12px !important;
+}
 
 .img {
   position: relative;
@@ -6753,6 +6825,9 @@ height: 210px;
   color: #dbdbdb;
   font-size: inherit;
 }
+
+
+
 .recipes-container .img_copy,
 .platters-container .img_copy {
 	height: 40px;
