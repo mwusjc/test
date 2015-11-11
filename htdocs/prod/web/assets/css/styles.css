@@ -6154,6 +6154,7 @@ a.details {
   text-transform: uppercase;
 }
 .herobanner .caption h1.capitalize{
+  margin-left: 20px;
   text-transform: capitalize !important;
 }
 .country-kitchen {

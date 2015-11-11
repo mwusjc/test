@@ -3,11 +3,20 @@
     <img class="desktop" src="<?=site_url()?>assets/images/pp_banner.jpg" />
     <img class="mobile" src="<?=site_url()?>assets/images/pp_banner_mobile.jpg" />
 
-    <div class="wrapper">
+    <!-- <div class="wrapper">
       <div class="caption">
         <h1 class="capitalize">Platters &amp; Gifts</h1>
         <span data-toggle="modal" data-target="#myModal" class="btn green">Place an order</span>
       </div>
+    </div> -->
+
+    <div class="caption">
+        <div class="wrapper">
+            <div class="row feature-title">
+                <h1 class="capitalize">Platters &amp; Gifts</h1>
+                <span data-toggle="modal" data-target="#myModal" class="btn green">Place an order</span>
+            </div>
+        </div>
     </div>
   </div>
 </header>
