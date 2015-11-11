@@ -5462,6 +5462,73 @@ button.close {
   .carousel-inner > .active.right {
     left: 100%; }
 
+/* Start copy overlay on homepage carousel image */
+.item-1-text {
+  background: #00a64f;
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  display: inline;
+  left: 129px;
+  padding: 10px 40px 120px 40px;
+  position: absolute;
+  top: 50%;
+}
+
+.item-1-text h2,
+.item-1-text .desktop-desc-text {
+  text-align: left; 
+}
+
+.item-1-text h2 { 
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.item-1-text .desktop-desc-text,
+.item-1-text .mobile-desc-text {
+  display: block;
+  font-family: 'SerifaBT-Light';
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.25em;
+  word-wrap: normal;
+}
+
+.item-1-text .mobile-desc-text {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .item-1-text {
+    left: 10%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .item-1-text {
+    top: 40%;
+  }
+
+  .item-1-text h2 {
+    font-size: 36px;
+    line-height: 1em;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .item-1-text .desktop-desc-text {
+    display: none;
+  }
+
+  .item-1-text .mobile-desc-text {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+  }
+}
+/* End copy overlay on homepage carousel image */
+
 .carousel-control {
   position: absolute;
   top: 0;

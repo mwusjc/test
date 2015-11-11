@@ -2,6 +2,15 @@
     <div class="carousel-inner" role="listbox">
         <a href="/recipes/408/Basil-Rice-Soup"  class="item active responsive">
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-1.jpg">
+
+            <!-- Add inline text here to replace copy within current image asset -->
+            <div class="item-1-text">
+                <h2>Comfort Food</h2>
+                <span class="desktop-desc-text">Warm up your winter with this </span>
+                <span class="desktop-desc-text">hearty and delicious recipe.</span>
+                <span class="mobile-desc-text">Warm up your winter with this hearty and delicious recipe.</span>
+            </div>
+
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_1.jpeg">
             <div class="carousel-caption" style="padding:40px 20px 15px 20px; width:800px;">
                 <img src="<?=site_url()?>/assets/images/icon_sizzle.png" style="float:right; width: 100px; margin: -42px 17px -35px -20px;"/><h1 style="font-size: 60px; font-family: 'Serifa';line-height:0.7em;">Bring home the sizzle</h1>
