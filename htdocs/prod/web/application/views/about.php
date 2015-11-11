@@ -4,7 +4,7 @@
 
     <div class="caption">
         <div class="wrapper">
-            <div class="row feature-title">
+            <div class="row feature-title col-xs-10 col-sm-8">
               <h1 class="about-feature-text">It starts with freshness.</h1>    
             </div>
         </div>
