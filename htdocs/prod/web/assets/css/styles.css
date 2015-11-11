@@ -5479,8 +5479,7 @@ button.close {
   padding: 10px 40px 120px 40px;
   position: absolute;
   /*top: 50%;*/
-  top: -240px;
-  width: 930px;
+  top: 190px;
 }
 
 .item-1-text h2,
@@ -5507,25 +5506,15 @@ button.close {
   display: none;
 }
 
-@media screen and (max-width: 960px) {
-  /*.carousel-item-container {
-    width: 100vw;
-  }*/
-}
-
 @media screen and (max-width: 767px) {
   .item-1-text {
     left: 7%;
     width: 86%;
-    top: 140px;
+    top: 190px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  /*.item-1-text {
-    top: 40%;
-  }*/
-
   .item-1-text h2 {
     font-size: 36px;
     line-height: 1em;
