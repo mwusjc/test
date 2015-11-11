@@ -6313,6 +6313,9 @@ header .logo {
   max-width: 240px;
   height: auto;
   margin: 25px auto; }
+.logo img{
+  width: 100%;
+}
 header .shopcart {
   color: #ccc;
   position: absolute;
