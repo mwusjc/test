@@ -117,6 +117,16 @@
       $('#backToFlyerView').click(function(){
         fl.switchView("flyer");
       });
-    });
+      $('body').click(function(e){
+        if ($(e.target).parents(".productPopup").size()){
+          //Don't do anything
+        }
+        else{
+          $(".productPopup").modal("hide");
+        }
+      });
+      var style = $('<style>.modal-backdrop { display:none; }</style>');
+      $('html > head').append(style);
+      });
 
 </script>
