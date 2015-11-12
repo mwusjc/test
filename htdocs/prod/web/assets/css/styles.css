@@ -6363,6 +6363,9 @@ header .shopcart {
 /**************************
 **********FLYER************
 ***************************/
+a#flyerModal {
+  padding-top: 9px;
+}
 
 #chooseFlyer .modal-dialog{
   margin: 160px auto;
