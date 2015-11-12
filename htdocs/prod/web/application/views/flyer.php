@@ -82,7 +82,7 @@
 <div class="row" id="flyerView">
   <div class="col-xs-12 col-sm-12">
       
-    <div id="carousel" class="carousel slide flyer desktop" data-ride="carousel">
+    <div id="carousel" class="carousel slide flyer desktop" data-ride="carousel" data-interval="false">
       <div class="carousel-inner" role="listbox">
       </div>
       <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -95,7 +95,7 @@
       </a>
     </div>
       
-    <div id="carousel-mobile" class="carousel slide flyer mobile" data-ride="carousel">
+    <div id="carousel-mobile" class="carousel slide flyer mobile" data-ride="carousel" data-interval="false">
       <div class="carousel-inner carousel-inner-mobile" role="listbox">
       </div>
       <a class="left carousel-control" href="#carousel-mobile" role="button" data-slide="prev">

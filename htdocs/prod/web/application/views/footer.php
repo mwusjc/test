@@ -37,7 +37,6 @@
 <script src="/assets/js/hlf.js"></script>
 <script src="/assets/js/hlf.recipes.js"></script>
 <script src="/assets/js/sizeify.js"></script>
-<script src="/assets/js/jquery.loupe.min.js"></script>
 <script type='text/javascript'>
   jQuery(document).ready(function($) {
     sl.init();
