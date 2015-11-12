@@ -135,9 +135,9 @@
                         <img class='image' src="{IMG}">
                     </div>
                     <div class="col-xs-12 col-sm-6">
-                        <h2 class='title'>{TITLE} {QTY}{QTY_TYPE}</h2>
+                        <h2 class='title'>{TITLE} {QTY_TYPE}</h2>
                         <h3>{SUBTITLE}</h3> 
-                        <div class='pricing'>{PRICE}</div>       
+                        <div class='pricing'>{QTY} {PRICE} <br/> {QTY2} {PRICE2} <br/> {QTY3} {PRICE3} </div>       
                         <p class='description'>{DESCRIPTION}</p>
                         <a href='#' data-add-cart='{ID}' class='btn green addToCart'>Add to Shopping List</a>
                     </div>
@@ -188,7 +188,9 @@
             console.log(item);
             mapping = { 
                 "{IMG}" : "<?=site_url() ?>"+"assets/"+item.Image,
-                "{QTY}" : (item.Qty ? item.Qty : ''), 
+                "{QTY}" : (item.Quantity ? item.Quantity : ''), 
+                "{QTY2}" : (item.Quantity2 ? item.Quantity2 : ''), 
+                "{QTY3}" : (item.Quantity3 ? item.Quantity3 : ''), 
                 "{QTY_TYPE}" : (item.Qty_type ? item.Qty_type : ''), 
                 "{TITLE}": item.Name, 
                 "{SUBTITLE}": (item.Subtitle ? item.Subtitle : ''), 
@@ -196,6 +198,8 @@
                 "{ID}": item.id,
                 //"{PRICE}": "$" + item.Price,
                 "{PRICE}": (item.Price ? "$" + item.Price : ''),
+                "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
+                "{PRICE3}": (item.Price3 ? "$" + item.Price3 : '')
             };
             html = hlf.drawTemplate("#tpl-product-modal", mapping);
 

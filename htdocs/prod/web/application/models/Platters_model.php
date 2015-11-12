@@ -12,7 +12,7 @@
         * @param mixed $form - short/long (Name,id,image) vs (All details)
         */
         public function get($id = null, $category = null, $form = "short") {
-            if($form == "short") $this->db->select("platters.ID, platters.Name, Image, CategoryID, Price, Quantity, Description");
+            if($form == "short") $this->db->select("platters.ID, platters.Name, Image, CategoryID, Price, Quantity, Price2, Quantity2, Price3, Quantity3, Description");
             else $this->db->select("platters.*");
             
             $this->db->select("platters_categories.Name AS CategoryName");

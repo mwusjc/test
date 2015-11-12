@@ -210,7 +210,7 @@ var fl = {
 	categoryList:{
 		"produce" : "Produce",
 		"grocery" : "Grocery",
-		"meat and deli" : "Meat & Deli",
+		"meat and deli" : "Meat, Deli & Seafood",
 		"bakery" : "Bakery"
 	},
 	filterCategory: function(cat){
