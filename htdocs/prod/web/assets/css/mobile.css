@@ -72,6 +72,11 @@
       margin-bottom: 0px;
     }
 
+    .home-thumbnail-grid {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     /*Flyer*/
     .currentFlyerHeadingsContainer {
       margin-left: 0px;
