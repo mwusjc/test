@@ -113,25 +113,25 @@
         <div class="col-xs-6 col-sm-3 home-thumbnail-grid">
             <a href='<?=site_url()?>visit-us'>
                 <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_visit.jpg"/>
-                <p class="col-xs-12">Visit Us</p>
+                <p class="col-xs-12 home-thumbnail-desc">Visit Us</p>
             </a>
         </div>
         <div class="col-xs-6 col-sm-3 home-thumbnail-grid">
             <a href='<?=site_url()?>party-platters'>
                 <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_pp.jpg"/>
-                <p class="col-xs-12">Party Platters And More</p>
+                <p class="col-xs-12 home-thumbnail-desc">Party Platters And More</p>
             </a>
         </div>
         <div class="col-xs-6 col-sm-3 home-thumbnail-grid">
             <a href='<?=site_url()?>about/highland-farms-originals'>
                 <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_originals.jpg"/>
-                <p class="col-xs-12">Highland Farms Originals</p>
+                <p class="col-xs-12 home-thumbnail-desc">Highland Farms Originals</p>
             </a>
         </div>
         <div class="col-xs-6 col-sm-3 home-thumbnail-grid">
             <a href='<?=site_url()?>inside-store'>
                 <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_inside-store.jpg" />
-                <p class="col-xs-12">Inside The Store</p>
+                <p class="col-xs-12 home-thumbnail-desc">Inside The Store</p>
             </a>
         </div>
     </div>
