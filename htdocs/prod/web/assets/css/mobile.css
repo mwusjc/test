@@ -127,8 +127,21 @@
       margin-bottom: 10px !important;
     }
 
+    /*Footer*/
     footer {
       margin-top: 40px;
     }
 
+    footer ul li {
+      float: none;
+      padding: 10px 0 10px 0;
+    }
+
+    footer ul li a {
+      text-align: center;
+    }
+
+    footer p {
+      text-align: center;
+    }
 }
