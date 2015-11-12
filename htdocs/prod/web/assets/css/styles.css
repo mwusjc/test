@@ -6729,6 +6729,10 @@ height: 210px;
 .shopping-cart .controls {
   float: right; }
 
+.shoppingListWrapper img {
+  max-width: 200px !important;
+}
+
 .inside-store-container .inside-store-item-container {
   display: inline-block;
 /*  width: 33.33333%;*/
