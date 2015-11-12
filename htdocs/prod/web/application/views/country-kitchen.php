@@ -1,6 +1,6 @@
 
-  <div class="herobanner responsive">
-    <img class="desktop" style="max-width: 1200px;" src="<?=site_url()?>assets/images/ck_banner_sep23_tn-logo-flatten.jpg" />
+  <div class="herobanner responsive country-kitchen-banner-container">
+    <img class="desktop country-kitchen-banner" src="<?=site_url()?>assets/images/ck_banner_sep23_tn-logo-flatten.jpg" />
     <img class="mobile" src="<?=site_url()?>assets/images/ck_banner_mobile.jpg" />
   </div>
   <div class="country-kitchen">

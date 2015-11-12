@@ -6157,6 +6157,12 @@ a.details {
   letter-spacing: 1px;
   margin-left: 20px;
 }
+.country-kitchen-banner-container {
+  height: auto;
+}
+.country-kitchen-banner {
+  max-width: 100vw;
+}
 .country-kitchen {
   background-color: #00a64f;
   color: white;
