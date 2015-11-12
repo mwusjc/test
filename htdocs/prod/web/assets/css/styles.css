@@ -6390,6 +6390,7 @@ header .shopcart {
 }
 .productPopupImage{
   height: auto !important;
+  max-height: 200px !important;
 }
 #backToFlyerView {
     line-height: 22px;
