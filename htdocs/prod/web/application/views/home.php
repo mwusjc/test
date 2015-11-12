@@ -1,4 +1,4 @@
-<div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="6000" >
+<div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="false" >
     <div class="carousel-inner" role="listbox">
         <a href="/recipes/408/Basil-Rice-Soup"  class="item active responsive">
             <!-- Add inline text here to replace copy within current image asset -->
@@ -18,10 +18,7 @@
         <a  href="/flyer"class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Ontario</strong></p>
-                </div>
-                <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc"><strong>Veal Shoulder Blade</strong></p>
+                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Ontario</strong> <br/> <strong>Veal Shoulder Blade</strong></p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-2.png">
             </div>
@@ -32,13 +29,7 @@
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Apples</strong></p>
-                </div>
-                <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc"><strong>McIntosh or Cortland</strong></p>
-                </div>
-                <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc"><strong>Fancy Grade</strong></p>
+                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Apples</strong> <br/ > <strong>McIntosh or Cortland</strong> <br/> <strong>Fancy Grade</strong></p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-3.png">
             </div>

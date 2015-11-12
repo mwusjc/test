@@ -5470,8 +5470,9 @@ button.close {
   color: #000;
   font-size: 18px;
   line-height: 0;
-  position: relative;
+  position: absolute;
   top: 300px;
+  text-align: left;
 }
 
 .dow-product-desc {
