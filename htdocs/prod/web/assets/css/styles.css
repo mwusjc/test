@@ -5466,6 +5466,20 @@ button.close {
   .carousel-inner > .active.right {
     left: 100%; }
 
+.dow-product-desc-container {
+  color: #000;
+  font-size: 18px;
+  line-height: 0;
+  position: relative;
+  top: 300px;
+}
+
+.dow-product-desc {
+  display: block;
+  line-height: initial;
+  margin: 0;
+}
+
 /* Start copy overlay on homepage carousel image */
 .carousel-item-container {
   float: none;

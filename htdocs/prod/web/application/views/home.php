@@ -16,21 +16,33 @@
             
         </a>
         <a  href="/flyer"class="item responsive">
-
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
+                <div class="row dow-product-desc-container">
+                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Ontario</strong></p>
+                </div>
+                <div class="row dow-product-desc-container">
+                    <p class="pull-left desktop dow-product-desc"><strong>Veal Shoulder Blade</strong></p>
+                </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-2.png">
-
             </div>
+
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-2.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_2.jpg">
         </a>
         <a href="/flyer" class="item responsive">
-
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-
+                <div class="row dow-product-desc-container">
+                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Apples</strong></p>
+                </div>
+                <div class="row dow-product-desc-container">
+                    <p class="pull-left desktop dow-product-desc"><strong>McIntosh or Cortland</strong></p>
+                </div>
+                <div class="row dow-product-desc-container">
+                    <p class="pull-left desktop dow-product-desc"><strong>Fancy Grade</strong></p>
+                </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-3.png">
-
             </div>
+
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-3.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_3.jpg">
             
@@ -60,7 +72,6 @@
 
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-6.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_6.jpg">
-            
         </a>
     </div>
     <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
