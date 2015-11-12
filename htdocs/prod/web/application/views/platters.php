@@ -184,8 +184,7 @@
         }, 
         togglePopup: function(id) {
             $('#detailModal.otu').remove();  // remove all modal instances (one time use)
-            item = hlf.data.platters[id];
-            console.log(item);
+            var item = hlf.data.platters[id];
             mapping = { 
                 "{IMG}" : "<?=site_url() ?>"+"assets/"+item.Image,
                 "{QTY}" : (item.Quantity ? item.Quantity : ''), 
