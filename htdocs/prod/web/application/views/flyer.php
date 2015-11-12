@@ -1,9 +1,9 @@
 
 </header>
 <main>
-<div class="row">
-<h1 class="title currentFlyerDateRangeTitle">Current Flyer</h2>
-<h4 class="currentFlyerDateRange" id="thisWeekDates">Friday, Nov 6 - Thursday, Nov 12</h4> 
+<div class="row currentFlyerHeadingsContainer">
+  <h1 class="title currentFlyerDateRangeTitle">Current Flyer</h2>
+  <h4 class="currentFlyerDateRange" id="thisWeekDates">Friday, Nov 6 - Thursday, Nov 12</h4> 
 </div>
 <div class="row">
   <div class="col-xs-12 col-sm-6">

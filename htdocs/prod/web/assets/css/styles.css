@@ -6606,24 +6606,42 @@ ol.custom {
 
 
 .home .img {
-  height: 180px; }
+  height: 180px; 
+}
+
+@-moz-document url-prefix() {
+  .home .img {
+    height: 180px;
+    margin-top: -4px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .modal .modal-dialog {
-    min-width: initial; }
+    min-width: initial;
+  }
 
   .herobanner .caption {
-    margin: 0 6.5%; }
+    margin: 0 6.5%; 
+  }
 
   footer, main {
-    padding: 20px 6.5%; }
+    padding: 20px 6.5%; 
+  }
 
   .row > div {
-    margin-bottom: 25px; }
+    margin-bottom: 25px; 
+  }
+
   .home .img img {
     width: 100%;
   }
-     }
+
+  .country-kitchen-heading  {
+    margin-left: 15px;
+    margin-right: 15px; 
+  }
+}
 .platter {
   padding-bottom: 20px; }
   .platter .img {

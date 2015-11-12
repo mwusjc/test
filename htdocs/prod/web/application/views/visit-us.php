@@ -50,7 +50,7 @@ if(isset($_POST['submit'])) {
   </div>
   <div class="col-xs-12 col-sm-1">
   </div>
-  <div class="col-xs-12 col-sm-8">
+  <div class="col-xs-12 col-sm-8 desktop">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11525.396282766096!2d-79.28310320000003!3d43.76561230000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x9b44a05bb8d40afe!2sHighland+Farms!5e0!3m2!1sen!2sca!4v1443038915026" width="610" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.0333680487756!2d-79.67259422484713!3d43.62160343674393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b40a400000000%3A0x9671955aa8a955ae!2sHighland+Farms+!5e0!3m2!1sen!2sca!4v1443039231471" width="610" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -69,18 +69,18 @@ Or have a fresh idea that could make your Highland Farms experience even more en
   <div class="col-xs-12 col-sm-8">
     <form method="post" action="" id="form">
       <div class="row">
-        <div class="col-xs-12 col-sm-6"><input name="first" type="text" value="" placeholder="First Name"/></div>
-        <div class="col-xs-12 col-sm-6"><input name="last" type="text" value="" placeholder="Last Name"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="first" type="text" value="" placeholder="First Name"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" type="text" value="" placeholder="Last Name"/></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-6"><input name="email" type="text" value="" placeholder="Email"/></div>
-        <div class="col-xs-12 col-sm-6"><input name="phone" type="text" value="" placeholder="Phone Number"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" type="text" value="" placeholder="Email"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" type="text" value="" placeholder="Phone Number"/></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-12"><textarea name="message" value="" placeholder="Your Message"></textarea></div>
+        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="" placeholder="Your Message"></textarea></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-12"><input name="submit" type="submit" value="Submit" class="green" /></div>
+        <div class="col-xs-12 col-sm-12 visit-us-form-field"><input name="submit" type="submit" value="Submit" class="green" /></div>
       </div>
     </form>
   </div>

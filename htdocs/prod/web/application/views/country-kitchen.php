@@ -6,9 +6,9 @@
   <div class="country-kitchen">
     <div class="wrapper">
       <div class="row">
-        <div class="col-xs-12 col-sm-12">
-         <h1>Exclusive to Highland Farms</h1>
-          <h2>Prepared with the finest ingredients from traditional recipes, every delicious Country Kitchen dish is a comforting celebration of life and food.</h2>
+        <div class="country-kitchen-heading col-xs-12 col-sm-12">
+            <h1>Exclusive to Highland Farms</h1>
+            <h2>Prepared with the finest ingredients from traditional recipes, every delicious Country Kitchen dish is a comforting celebration of life and food.</h2>
         </div>
       </div>
     </div>
@@ -202,10 +202,10 @@
     </div>
 
     <div class='row'>
-        <div class='col-sm-8' style='padding-right:0px;'>
+        <div class='col-xs-12 col-sm-8 originals-feature' style='padding-right:0px;'>
             <div class='img' style='height:200px;'><img src="<?=site_url('/assets/images/country-kitchen/ck_giftcard.jpg')?>" width="900" /></div>
         </div>
-        <div class='col-sm-4 green bg-primary border' style='height:200px;border-radius: 0 10px 10px 0px;border:0px;'>
+        <div class='col-xs-12 col-sm-4 green bg-primary border bottom-box' style='height:200px;border:0px;'>
             <div class='bg-primary' style='position:absolute;bottom:0;'>
                 <h1>Highland Farms Originals</h1>
                 <p><a href='/about/highland-farms-originals'>Learn More <span style='font-size:120%;'>></span></a></p>

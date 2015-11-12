@@ -53,7 +53,7 @@
 
 <main>
 <div class="row">
-  <div class="col-xs-12 col-sm-12">
+  <div class="col-xs-12 col-sm-12 platters-heading">
      <h1>Fresh Ideas For Your Next Event </h1>
      <h2>You have enough to worry about with your upcoming party. Leave the finger food to us. Ask in store for details.</h2>
   </div>

@@ -37,12 +37,6 @@
         </a>
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <!-- <span class="price">
-                    <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
-                    <span class="division">/lb</span>
-                </span>
-                <p>Fresh <br/>
-                    Tilapia Fillets</p> -->
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-4.png">
             </div>
 
@@ -52,12 +46,6 @@
         </a>
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <!-- <span class="price">
-                    <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
-                    <span class="division">/lb</span>
-                </span>
-                <p>Fresh <br/>
-                    Tilapia Fillets</p> -->
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-5.png">
             </div>
 
@@ -67,12 +55,6 @@
         </a>
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <!-- <span class="price">
-                    <span class="big">6</span><span class="dot">.</span><span class="small">99</span>
-                    <span class="division">/lb</span>
-                </span>
-                <p>Fresh <br/>
-                    Tilapia Fillets</p> -->
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-6.png">
             </div>
 
@@ -93,7 +75,7 @@
 
 </header>
 <main class='home'>
-    <div class="row">
+    <div class="row home-categories">
         <div class="col-xs-12 col-sm-4">
             <a href='/flyer'>
                 <h4 class="box top">Flyers</h1>
