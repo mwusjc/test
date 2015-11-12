@@ -6452,6 +6452,12 @@ header .shopcart {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   max-width: initial; }
 
+@media screen and (max-width: 767px) {
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-width: 100%; 
+  }
+}
+
 .carousel.flyer img {
   height: 545px;
   margin: 0 auto; }
