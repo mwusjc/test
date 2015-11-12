@@ -142,9 +142,9 @@ var fl = {
 			//console.log("overlap!");
 			var currentWeek = fl.getWeek("current");
 			var nextWeek = fl.getWeek("next");
-			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/page1.jpg");
+			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
 			$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
-			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/page1.jpg");
+			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
 			$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
 			$("#chooseFlyer").modal("show");
 		}

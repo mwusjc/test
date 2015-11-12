@@ -6348,6 +6348,9 @@ header .shopcart {
 #chooseFlyer .modal-dialog{
   margin: 160px auto;
 }
+#chooseFlyer img{
+  width: 100%;
+}
 .carousel .carousel-inner .item{
   text-align: center;
 }
