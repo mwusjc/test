@@ -6181,6 +6181,10 @@ a.details {
 .country-kitchen:after {
   margin-top: 40px; }
 
+p.title {
+  text-align: center;
+}
+
 .btn.lightgrey {
   background-color: #ccc;
   letter-spacing: 1px;
