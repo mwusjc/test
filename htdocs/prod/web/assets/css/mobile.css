@@ -126,7 +126,9 @@
     .visit-us-form-field {
       margin-bottom: 10px !important;
     }
-
+  .responsive > img {
+    max-width: 100%;
+    }
     /*Footer*/
     footer {
       margin-top: 40px;
