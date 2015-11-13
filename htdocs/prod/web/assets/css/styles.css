@@ -6824,7 +6824,9 @@ height: 210px;
 	  text-align: left;
   }
 #detailModal .image {
-  max-height: 300px; }
+  max-height: 300px;
+  max-width: 200px; 
+}
 
 .platter .image {
   max-width: 200px;
