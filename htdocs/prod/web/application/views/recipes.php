@@ -24,7 +24,7 @@
     <div class='spacer-20'></div>
     <div class='row'>
         <div class="col-xs-12 col-sm-12">
-            <input type="text" class="search col-xs-12 col-sm-12" placeholder="What do you want to cook?" value="" data-filter-search="hlf.data.recipes">
+            <input type="text" class="search col-xs-12 col-sm-12" aria-label="What do you want to cook?" placeholder="What do you want to cook?" value="" data-filter-search="hlf.data.recipes">
             <button class="btn green sticky search"><span class="glyphicon glyphicon-search white" aria-hidden="true"></span></button>
         </div>
     </div>

@@ -69,18 +69,18 @@ Or have a fresh idea that could make your Highland Farms experience even more en
   <div class="col-xs-12 col-sm-8">
     <form method="post" action="" id="form">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="first" type="text" value="" placeholder="First Name"/></div>
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" type="text" value="" placeholder="Last Name"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="first" type="text" value="" aria-required="false" aria-label="First Name" placeholder="First Name"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" type="text" value="" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" type="text" value="" placeholder="Email"/></div>
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" type="text" value="" placeholder="Phone Number"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" type="text" value="" aria-required="false" aria-label="Email" placeholder="Email"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" type="text" value="" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="" placeholder="Your Message"></textarea></div>
+        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="" aria-required="false" aria-label="Your Message" placeholder="Your Message"></textarea></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-12 visit-us-form-field"><input name="submit" type="submit" value="Submit" class="green" /></div>
+        <div class="col-xs-12 col-sm-12 visit-us-form-field"><input name="submit" type="submit" aria-label="Submit" value="Submit" class="green" /></div>
       </div>
     </form>
   </div>

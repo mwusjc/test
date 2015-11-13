@@ -6181,6 +6181,10 @@ a.details {
 .country-kitchen:after {
   margin-top: 40px; }
 
+p.title {
+  text-align: center;
+}
+
 .btn.lightgrey {
   background-color: #ccc;
   letter-spacing: 1px;
@@ -6244,12 +6248,18 @@ input[type="text"], input[type="email"], textarea {
   border: solid 1px #ccc;
   border-radius: 10px; }
 
+input[type="text"]:focus, input[type="email"]:focus, input[type="submit"]:focus, textarea:focus {
+  outline: none;
+}
+
+form input[type="text"], form input[type="email"] {
+  /*width: 97%;*/
+  width: 65%;
+  padding-left: 3%;
+  padding-right: 7%;
+  overflow-x: initial; }
 form .row {
   margin-bottom: 0px; }
-form input[type="text"], form input[type="email"] {
-  width: 97%;
-  padding-left: 3%; }
-
 iframe {
   margin-bottom: 45px;
   width: 100%; }
@@ -6386,6 +6396,9 @@ a#flyerModal {
   position: absolute;
 /*  background: rgba(0,0,0,0.2);
   border: 1px solid rgba(0,0,0,0.5);*/
+}
+.imageMap:hover {
+  background: rgba(0,0,0,0.1);
 }
 .productPopup{
   text-align: left;
