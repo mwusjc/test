@@ -6618,7 +6618,7 @@ ol.custom {
   overflow: hidden; }
   .responsive > img {
     min-width: 100%;
-    width: auto;
+    width: 100%;
     height: auto; }
 
 ::-webkit-input-placeholder {
@@ -6664,6 +6664,7 @@ ol.custom {
 
   .home .img img {
     width: 100%;
+    max-height: none !important;
   }
 
   .country-kitchen-heading  {
