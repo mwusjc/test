@@ -65,11 +65,11 @@
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_6.jpg">
         </a>
     </div>
-    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev" onclick="$('#carousel').carousel('pause');">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next" onclick="$('#carousel').carousel('pause');">
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
