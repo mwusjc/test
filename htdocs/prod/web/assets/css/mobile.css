@@ -136,6 +136,7 @@
 
     footer ul li {
       float: none;
+      margin-right: 0;
       padding: 10px 0 10px 0;
     }
 
