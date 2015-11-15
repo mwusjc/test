@@ -3,7 +3,7 @@
 <main>
 <div class="row currentFlyerHeadingsContainer">
   <h1 class="title currentFlyerDateRangeTitle">Current Flyer</h2>
-  <h4 class="currentFlyerDateRange" id="thisWeekDates">Friday, Nov 6 - Thursday, Nov 12</h4> 
+  <h4 class="currentFlyerDateRange" id="thisWeekDates">Friday, Nov 13 - Thursday, Nov 19</h4> 
 </div>
 <div class="row">
   <div class="col-xs-12 col-sm-6">
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-9">
                             <h2 class="title">This Week's Flyer</h2>
-                            <h3 class="flyerDateRange">Friday, Nov 6 - Thursday, Nov 12</h3>  
+                            <h3 class="flyerDateRange">Friday, Nov 13 - Thursday, Nov 19</h3>  
                         </div>
                     </div>     
                     <div class="row" id="nextFlyer" data-dismiss="modal">
@@ -47,7 +47,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-9">
                             <h2 class="title">Next Week's Flyer</h2>
-                            <h3 class="flyerDateRange">Friday, Nov 13 - Thursday, Nov 19</h3>  
+                            <h3 class="flyerDateRange">Friday, Nov 20 - Thursday, Nov 26</h3>  
                         </div>
                     </div>
                     <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
