@@ -120,6 +120,8 @@
 <script type='text/javascript'>
     jQuery(document).ready(function($) {
       fl.init();
+
+      $(".currentFlyerDateRange").html(fl.getWeekRange("current"));
       $("#currentFlyer").click(function(){
         fl.loadData(fl.getWeek("current"),"desktop");
         fl.loadData(fl.getWeek("current"),"mobile");
