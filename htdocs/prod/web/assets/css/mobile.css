@@ -106,7 +106,7 @@
 
     @-moz-document url-prefix() {
       .details-thumbnail {
-        max-width: calc(100vw - 60px);
+        max-width: calc(100vw - 58px);
       }
     }
 
