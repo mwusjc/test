@@ -54,8 +54,8 @@
             <li><a href='<?=site_url()?>visit-us'>Visit Us</a></li>
         </ul>
     </nav>
-    <a href="/" class="logo desktop"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png" /></a>
-    <a href="/" class="logo mobile"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png"/></a>
+    <a href="/" class="logo desktop"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png" alt="Highland Farms"/></a>
+    <a href="/" class="logo mobile"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png" alt="Highland Farms"/></a>
     <div class="shopcart">
         <a href='<?=site_url()?>shopping'>
             <span class="desktop">Shopping list</span>
