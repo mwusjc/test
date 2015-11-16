@@ -11,6 +11,7 @@
   }
   .bottom-box {
     border-radius: 0 10px 10px 0px;
+    margin-left: -10px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -86,15 +87,27 @@
       margin-left: 0px;
     }
 
+    /*Inside Store*/
+    .inside-store-container .inside-store-item-container {
+      margin-bottom: 30px !important;
+    }
+
+    .inside-store-container .inside-store-item-container .inside-store-item {
+      margin-top: 0;
+    }
+
     /*Country Kitchen*/
     .originals-feature {
       margin-bottom: 0 !important;
-      padding-left: 0;
+      /*padding-left: 0;*/
+      width: calc(100% - 15px);
     }
 
     .bottom-box {
       border-radius: 0 0 10px 10px;
       height: 140px !important;
+      margin-left: 15px;
+      width: calc(100% - 30px);
     }
 
     /*Platter*/
