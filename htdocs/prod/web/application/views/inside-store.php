@@ -71,7 +71,7 @@ $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to
 <script type='text/template' id='tpl-inside-store-details'>
        <div id="details" class="row nopadding border border-bottom fade"> 
         <div class="col-xs-12 col-sm-7">
-            <img src="<?=site_url()?>{IMG}"/>
+            <img src="<?=site_url()?>{IMG}" class="details-thumbnail"/>
         </div>
         <div class="col-xs-12 col-sm-5 details">
             <h1>{TITLE}</h1>

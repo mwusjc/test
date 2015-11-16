@@ -100,6 +100,16 @@
       margin-top: 0;
     }
 
+    .details-thumbnail {
+      max-width: 100%;
+    }
+
+    @-moz-document url-prefix() {
+      .details-thumbnail {
+        max-width: calc(100vw - 60px);
+      }
+    }
+
     /*Country Kitchen*/
     .originals-feature {
       margin-bottom: 0 !important;
