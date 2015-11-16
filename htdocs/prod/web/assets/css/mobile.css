@@ -111,6 +111,10 @@
     }
 
     /*Country Kitchen*/
+    .ck-details {
+      margin-bottom: 0 !important;
+    }
+
     .originals-feature {
       margin-bottom: 0 !important;
       /*padding-left: 0;*/
