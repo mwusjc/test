@@ -120,7 +120,7 @@
 
 <script type="text/html" id="tpl-platter-listing">
     <div class="col-xs-6 col-sm-4 platter"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
-        <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" class='lazy' /></div>
+        <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" alt='_TITLE_' class='lazy' /></div>
         <div class="img_copy">_TITLE_</div>
         </a>
     </div>
@@ -132,7 +132,7 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 text-center">
-                        <img class='image' src="{IMG}">
+                        <img class='image' src="{IMG}" alt="{TITLE}">
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <h2 class='title'>{TITLE} {QTY_TYPE}</h2>
