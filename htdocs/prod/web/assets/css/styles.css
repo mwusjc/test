@@ -6089,7 +6089,7 @@ h2.box {
 
 .row.nopadding {
   margin: 10px 0 30px 0; }
-  
+
 .row.nopadding > div:not(.details) {
     margin-bottom: 0;
     padding: 0; 
@@ -6144,10 +6144,14 @@ a.details {
   margin-bottom: -30px;
   padding-top: 15px;
 }
+.herobanner .caption h1,
+.herobanner .caption h2 {
+  margin-left: 5px;
+}
 .herobanner .caption h1{
   letter-spacing: 1px;
   font-size: 42px;
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
 }
 .herobanner .caption h1:first-letter{
   text-transform: uppercase;

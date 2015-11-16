@@ -5,7 +5,7 @@
         <div class="wrapper">
             <div class="row">
                 <a href="/recipes/381/Beef-Stroganoff" class="feature-title col-xs-10 col-sm-6">
-                    <h1>Recipe of the week</h1>
+                    <h1>Recipe of the Week</h1>
                     <h2>Beef Stroganoff</h2>
                 </a>
             </div>
