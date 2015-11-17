@@ -5048,6 +5048,11 @@ button.list-group-item-danger {
     opacity: 0.5;
     filter: alpha(opacity=50); }
 
+.close-icon {
+  position: relative !important;
+  top: 0 !important;
+}
+
 button.close {
   padding: 0;
   cursor: pointer;
@@ -6336,6 +6341,14 @@ nav li {
 
 nav ul li:first-child {
   margin-left: 0; }
+
+nav ul li a {
+  font-weight: normal;
+}
+
+nav ul li a.current {
+  font-weight: bold;
+}
 
 footer li {
   margin-right: 35px; }
