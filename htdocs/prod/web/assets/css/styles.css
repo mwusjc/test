@@ -6980,12 +6980,9 @@ h2{
   footer .subscribe,
   footer ul li a,
   .controls,
-  .close-icon {
+  .close-icon,
+  ::-webkit-scrollbar {
     display: none;
-  }
-
-  ::-webkit-scrollbar { 
-    display: none; 
   }
 
   .shoppingListWrapper img {
@@ -7000,9 +6997,9 @@ h2{
   .shoppingListWrapper > .row > .col-sm-9 {
     float: right;
     max-width: calc(100% - 250px);
-    margin-top: -200px;
   }
 
+  .shoppingListWrapper > .row > .col-sm-9,
   footer .copyright {
     margin-top: -200px;
   }
