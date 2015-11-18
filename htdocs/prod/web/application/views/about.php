@@ -1,8 +1,5 @@
-  <div class="herobanner responsive">
-    <img class="desktop" src="<?=site_url()?>assets/images/about_banner.jpg" />
-    <img class="mobile" src="<?=site_url()?>assets/images/about_banner_mobile.jpg" />
-
-    <div class="caption">
+  <div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/images/about_banner.jpg); background-size:cover">
+    <div class="caption col-xs-12">
         <div class="wrapper">
             <div class="row feature-title col-xs-10 col-sm-8">
               <h1 class="about-feature-text">It starts with freshness.</h1>    
