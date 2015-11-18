@@ -6969,3 +6969,50 @@ h2{
 .originals hr{
   margin: 40px 0;
 }
+
+@media print {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow: -moz-scrollbars-none; 
+  }
+
+  header,
+  footer .subscribe,
+  footer ul li a,
+  .controls,
+  .close-icon,
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .shoppingListWrapper img {
+    float: left;
+    max-width: 200px !important;
+  }
+
+  .shoppingListWrapper > .row {
+    padding-bottom: 20px;
+  }
+
+  .shoppingListWrapper > .row > .col-sm-9 {
+    float: right;
+    max-width: calc(100% - 250px);
+  }
+
+  .shoppingListWrapper > .row > .col-sm-9,
+  footer .copyright {
+    margin-top: -200px;
+  }
+
+  /* For Safari specifically (v 9+) */
+  @supports (overflow:-webkit-marquee) and (justify-content:inherit) 
+  {
+    .shoppingListWrapper > .row > .col-sm-9 {
+      float: right;
+      max-width: calc(100% - 250px);
+      margin-top: 0px;
+    }
+  }
+}

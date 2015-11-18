@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <title>Highland Farms</title>
-<meta name="description" content="">
+<meta name="description" content="Highland Farms provides you with freshness down every aisle. From fresh produce, meat and seafood to freshly baked goods and prepared foods, our supermarkets also offer organic and natural alternatives for the healthy at heart. Visit one of our locations today!">
 <meta name="viewport" content="initial-scale=1">
 
 <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/images/apple-touch-icon-57x57.png" />
@@ -81,13 +81,7 @@
           $('nav ul li a').each(function() {
             if ($(this).prop('href') == window.location.href) {
               $(this).addClass('current');
-              // $('#home, nav ul.main-menu li:first-of-type a').removeClass('current');
             }
-            // else {
-            //     if ($(this).prop('href') == ("http://" + window.location.host + "/")) {
-            //         $(this).addClass('current');
-            //     } 
-            // }
           });
         });
     </script>
