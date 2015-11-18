@@ -81,13 +81,7 @@
           $('nav ul li a').each(function() {
             if ($(this).prop('href') == window.location.href) {
               $(this).addClass('current');
-              // $('#home, nav ul.main-menu li:first-of-type a').removeClass('current');
             }
-            // else {
-            //     if ($(this).prop('href') == ("http://" + window.location.host + "/")) {
-            //         $(this).addClass('current');
-            //     } 
-            // }
           });
         });
     </script>
