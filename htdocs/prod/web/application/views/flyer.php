@@ -55,22 +55,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Categories
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" id="categoryMenu" aria-labelledby="dropdownMenu1">
-      </ul>
-    </div>
-    <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Brands
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" id="brandMenu" aria-labelledby="dropdownMenu2">
-      </ul>
-    </div> -->
   </div>
   <div class="col-xs-12 col-sm-4" >
     <span id="backToFlyerView" class="btn btn-default right" style="display:none;">Back to full flyer</span>

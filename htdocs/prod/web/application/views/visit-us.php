@@ -1,6 +1,5 @@
 <?php 
 if(isset($_POST['submit'])) {
-    //$to = "mike.yoo@stjoseph.com";
     $to = "customerservice@highlandfarms.on.ca";
     $from = $_POST['email'];
     $first = $_POST['first'];
