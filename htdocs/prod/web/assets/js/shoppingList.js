@@ -90,6 +90,9 @@ var sl = {
 		var products = sl.getProducts();
 		products.splice(prod, 1);
 		$(".shoppingListWrapper .row")[prod].remove();
+		if (products.length < 1){
+			$(".shoppingListWrapper")[0].innerHTML = "<h2>You currently have nothing in your list.</h2>";
+		}
 		sl.setProducts(products);
 		sl.cleanup();
 		sl.updateCount();
