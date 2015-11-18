@@ -24,20 +24,20 @@
 
         <div class='col-sm-6'>
             <div class="ck-item" data-id="1" data-slidedown='.ck-products[data-id="1"]'>
-                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_frozen.png')?>" /></div>
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_frozen.png')?>" alt="Frozen Entr&eacute;es"/></div>
                 <h2 class="box bottom">Frozen Entrées</h2>  
             </div>
         </div>
         <div class='col-sm-6'>
             <div class="ck-item" data-id="2" data-slidedown='.ck-products[data-id="2"]'>                
-                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_bread.png')?>" /></div>
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_bread.png')?>" alt="Bread &amp; Artisan Breads"/></div>
                 <h2 class="box bottom">Bread & Artisan Breads</h2>
             </div>
         </div>
 
     </div>
     <div class='row'>
-        <div class='col-sm-12'>
+        <div class='col-sm-12 ck-details'>
             <div class='ck-products' data-id='1'>
                 <h1>Frozen Entrées</h1>
                 <h2>Made from the freshest and finest ingredients, our selection of entrées is an easy way to serve your family's favourites.</h2>
@@ -47,7 +47,7 @@
                         if($item->category == "1") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" alt="<?=$item->name?>"/></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -58,7 +58,7 @@
         </div>
     </div>
     <div class='row'>
-        <div class='col-sm-12'>
+        <div class='col-sm-12 ck-details'>
             <div class='ck-products' data-id='2'>
                 <h1>Bread & Artisan Breads</h1>
                 <h2>Our hearty and wholesome breads are freshly baked with natural, quality ingredients.</h2>
@@ -68,7 +68,7 @@
                         if($item->category == "2") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" alt="<?=$item->name?>"/></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -84,20 +84,20 @@
     <div class='row'>
         <div class='col-sm-6'>
             <div class="ck-item" data-id="3" data-slidedown='.ck-products[data-id="3"]'>  
-                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_sauces.png')?>" /></div>
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_sauces.png')?>" alt="All Natural Sauces"/></div>
                 <h2 class="box bottom">All Natural Sauces</h2>
             </div>
         </div>
         <div class='col-sm-6'>
             <div class="ck-item" data-id="4" data-slidedown='.ck-products[data-id="4"]'>            
-                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_snacks.png')?>" /></div>
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_snacks.png')?>" alt="Sweet &amp; Savoury Snacks"/></div>
                 <h2 class="box bottom">Sweet & Savoury Snacks</h2>
             </div>
         </div>
     </div>
 
     <div class='row'>
-        <div class='col-sm-12'>
+        <div class='col-sm-12 ck-details'>
             <div class='ck-products' data-id='3' >
                 <h1>All Natural Sauces</h1>
                 <h2>Enhance the flavour of your dishes with our flavourful sauces, seasoned to perfection.</h2>
@@ -107,7 +107,7 @@
                         if($item->category == "3") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" alt="<?=$item->name?>"/></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -118,7 +118,7 @@
         </div>
     </div>
     <div class='row'>
-        <div class='col-sm-12'>
+        <div class='col-sm-12 ck-details'>
             <div class='ck-products' data-id='4'>
                 <h1>Sweet & Savoury Snacks</h1>
                 <h2>Satisfy your cravings with an array of nuts and dried fruit.</h2>
@@ -131,7 +131,7 @@
                         if($item->category == "4") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" alt="<?=$item->name?>"/></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -146,20 +146,20 @@
 
         <div class='col-sm-6'>
             <div class="ck-item" data-id="5" data-slidedown='.ck-products[data-id="5"]'>            
-                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_baked-goods.png')?>" /></div>
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_baked-goods.png')?>" alt="Baked Goods"/></div>
                 <h2 class="box bottom">Baked Goods</h2>
             </div>
         </div>
         <div class='col-sm-6'>                                                
             <div class="ck-item" data-id="6" data-slidedown='.ck-products[data-id="6"]'>              
-                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_readymeals.png')?>" /></div>
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_readymeals.png')?>" alt="Prepped &amp; Ready Meals"/></div>
                 <h2 class="box bottom">Prepped & Ready Meals</h2>
             </div>
         </div>
     </div>
 
     <div class='row'>
-        <div class='col-sm-12'>
+        <div class='col-sm-12 ck-details'>
             <div class='ck-products' data-id='5' >
                 <h1>Baked Goods</h1>
                 <h2>Freshly made and ready to be devoured, we have something for every sweet tooth.</h2>
@@ -169,7 +169,7 @@
                         if($item->category == "5") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" alt="<?=$item->name?>"/></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -180,7 +180,7 @@
         </div>
     </div>
     <div class='row'>
-        <div class='col-sm-12'>
+        <div class='col-sm-12 ck-details'>
             <div class='ck-products' data-id='6'>
                 <h1>Prepped & Ready Meals</h1>
                 <h2>Our chefs have prepped the freshest ingredients of your favourite dishes. Everything's ready to be enjoyed in minutes.</h2>
@@ -190,7 +190,7 @@
                         if($item->category == "6") : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>'>
-                                    <div class='img-block'><img src="<?=site_url($item->image)?>" /></div>
+                                    <div class='img-block'><img src="<?=site_url($item->image)?>" alt="<?=$item->name?>"/></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
@@ -203,7 +203,7 @@
 
     <div class='row'>
         <div class='col-xs-12 col-sm-8 originals-feature' style='padding-right:0px;'>
-            <div class='img' style='height:200px;'><img src="<?=site_url('/assets/images/country-kitchen/ck_giftcard.jpg')?>" width="900" /></div>
+            <div class='img' style='height:200px;'><img src="<?=site_url('/assets/images/country-kitchen/ck_giftcard.jpg')?>" alt="Highland Farms Originals" width="900" /></div>
         </div>
         <div class='col-xs-12 col-sm-4 green bg-primary border bottom-box' style='height:200px;border:0px;'>
             <div class='bg-primary' style='position:absolute;bottom:0;'>

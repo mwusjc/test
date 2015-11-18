@@ -63,7 +63,7 @@ $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to
 <script type='text/template' id='tpl-inside-store-collapsed'>
 <div class='inside-store-item-container col-xs-12 col-sm-4' >
     <div class="inside-store-item" data-istore-id="{ID}">
-            <div class='img'><img src="<?=site_url()?>{IMG}" class="department-thumbnail"/></div>
+            <div class='img'><img src="<?=site_url()?>{IMG}" alt="{TITLE}" class="department-thumbnail"/></div>
             <div class="box bottom title {CLASS}">{TITLE}</div>
         </div>
 </div>
@@ -71,7 +71,7 @@ $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to
 <script type='text/template' id='tpl-inside-store-details'>
        <div id="details" class="row nopadding border border-bottom fade"> 
         <div class="col-xs-12 col-sm-7">
-            <img src="<?=site_url()?>{IMG}"/>
+            <img src="<?=site_url()?>{IMG}" alt="{TITLE}" class="details-thumbnail"/>
         </div>
         <div class="col-xs-12 col-sm-5 details">
             <h1>{TITLE}</h1>

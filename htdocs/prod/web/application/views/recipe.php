@@ -6,8 +6,8 @@
     <h1><?=$recipe->Name?></h1>
     <div class='banner-container'>
         <div class='banner'>
-            <img class="desktop" src="<?=site_url()?>assets/<?=nl2br($recipe->Image)?>">    
-            <img class="mobile" src="/assets/images/recipe_banner_mobile.jpg">    
+            <img class="desktop" src="<?=site_url()?>assets/<?=nl2br($recipe->Image)?>" alt="<?=$recipe->Name?>">    
+            <img class="mobile" src="/assets/images/recipe_banner_mobile.jpg" alt="<?=$recipe->Name?>">    
         </div>
     </div> 
     <div class='spacer'></div>

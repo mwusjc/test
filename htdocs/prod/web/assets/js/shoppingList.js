@@ -9,6 +9,11 @@ var sl = {
 	    	$(e.target).closest(".productPopup").modal("hide");
 	    	$(e.target).unbind( "click" );
 	    });
+	    $(document).on("click",".close-icon",function(e){
+	    	sl.deleteProduct();
+	    	console.log(e.target.parentElement);
+	    	e.target.parentElement.remove();
+	    });
 	},
 	updateCount: function(){
 		var prod = sl.getProducts();
@@ -37,7 +42,7 @@ var sl = {
 			for (var i=0; i < p.length; i++){
 				var prod = p[i];
 				var brandstring = "";
-				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'">'
+				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'" data-item="'+prod.name+'">'
 				html+=	    '	<div class="col-xs-12 col-sm-3 text-center">'
 				html+=	    '		<img class="image" src="'+prod.image+'">'
 //				html+=	    '		<img class="image" src="/assets/images/121268869-1.jpg">'
@@ -46,7 +51,7 @@ var sl = {
 				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
 				html+=	    '		<span class="pricing">'+(prod.pricing?prod.pricing:'')+'</span>'
 				html+=	    '		<span class="packaging">'+(prod.packaging?prod.packaging:'')+'</span>'
-				html+=	    '	</div>'
+				html+=	    '	</div><span class="glyphicon glyphicon-remove close close-icon"></span>'
 				html+=		'</div>'   
 			}
 		}
@@ -77,8 +82,15 @@ var sl = {
 		return prod;
 	},
 	addProduct: function(prod){
-		var products = sl.getProducts()
+		var products = sl.getProducts();
 		products.push(prod);
+		sl.setProducts(products);
+		sl.cleanup();
+		sl.updateCount();
+	},
+	deleteProduct: function(prod){
+		var products = sl.getProducts();
+		products.splice(prod, 1);
 		sl.setProducts(products);
 		sl.cleanup();
 		sl.updateCount();

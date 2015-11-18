@@ -54,8 +54,8 @@
             <li><a href='<?=site_url()?>visit-us'>Visit Us</a></li>
         </ul>
     </nav>
-    <a href="/" class="logo desktop"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png" /></a>
-    <a href="/" class="logo mobile"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png"/></a>
+    <a href="/" class="logo desktop"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png" alt="Highland Farms"/></a>
+    <a href="/" class="logo mobile"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png" alt="Highland Farms"/></a>
     <div class="shopcart">
         <a href='<?=site_url()?>shopping'>
             <span class="desktop">Shopping list</span>
@@ -75,5 +75,21 @@
             <li><a id="visitUs" href='<?=site_url()?>visit-us'>Visit Us</a></li>
         </ul>
     </nav>
+
+    <script type="text/javascript">
+        $(function(){
+          $('nav ul li a').each(function() {
+            if ($(this).prop('href') == window.location.href) {
+              $(this).addClass('current');
+              // $('#home, nav ul.main-menu li:first-of-type a').removeClass('current');
+            }
+            // else {
+            //     if ($(this).prop('href') == ("http://" + window.location.host + "/")) {
+            //         $(this).addClass('current');
+            //     } 
+            // }
+          });
+        });
+    </script>
 
     <?php date_default_timezone_set('America/Toronto'); ?>

@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['submit'])) {
     //$to = "mike.yoo@stjoseph.com";
-    $to = "customerservice@highlandfarms.on.ca";
+    $to = "jobs@highlandfarms.on.ca";
     $from = $_POST['email'];
     $first = $_POST['first'];
     $last = $_POST['last'];
