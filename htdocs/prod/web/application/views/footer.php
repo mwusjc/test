@@ -21,7 +21,7 @@
           <li><a href="<?=site_url()?>careers">Careers</a></li>
           <li><a href="<?=site_url()?>visit-us">Contact Us</a></li>
         </ul>
-        <p>© 2015 Highland Farms</p>
+        <p class="copyright">© 2015 Highland Farms</p>
       </div>
       
     </div>    
