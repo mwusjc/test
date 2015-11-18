@@ -25,7 +25,7 @@
       </ul>
     </div>
     
-    <a class="btn btn-default modal-toggle" type="button" id="flyerModal" data-toggle="modal" data-backdrop="false" href="#chooseFlyer">
+    <a class="btn btn-default modal-toggle" type="button" id="flyerModal" data-toggle="modal" data-backdrop="true" href="#chooseFlyer">
       Choose Flyer
     </a>
     <div class="modal fade out in" id="chooseFlyer" tabindex="-1" role="dialog" aria-labelledby="flyerModal">
@@ -145,8 +145,7 @@
           $(".productPopup").modal("hide");
         }
       });
-      var style = $('<style>.modal-backdrop { display:none; }</style>');
-      $('html > head').append(style);
+
       });
 
 </script>

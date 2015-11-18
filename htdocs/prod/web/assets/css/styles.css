@@ -5086,7 +5086,8 @@ button.close {
 
 .modal-open .modal {
   overflow-x: hidden;
-  overflow-y: auto; }
+  overflow-y: auto; 
+  z-index: 10;}
 
 .modal-dialog {
   position: relative;
@@ -5116,6 +5117,7 @@ button.close {
     opacity: 0;
     filter: alpha(opacity=0); }
   .modal-backdrop.in {
+    z-index: 0;
     opacity: 0.5;
     filter: alpha(opacity=50); }
 
