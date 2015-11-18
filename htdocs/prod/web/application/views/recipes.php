@@ -1,6 +1,5 @@
 
-<div class="herobanner responsive">
-    <img src="<?=site_url()?>assets/images/476444092.jpg">
+<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/images/476444092.jpg); background-size:cover">
     <div class="caption col-xs-12">
         <div class="wrapper">
             <div class="row">
