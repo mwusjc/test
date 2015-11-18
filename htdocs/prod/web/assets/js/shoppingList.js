@@ -10,9 +10,7 @@ var sl = {
 	    	$(e.target).unbind( "click" );
 	    });
 	    $(document).on("click",".close-icon",function(e){
-	    	sl.deleteProduct();
-	    	console.log(e.target.parentElement);
-	    	e.target.parentElement.remove();
+	    	sl.deleteProduct($(e.target.parentElement).index());
 	    });
 	},
 	updateCount: function(){
@@ -91,6 +89,7 @@ var sl = {
 	deleteProduct: function(prod){
 		var products = sl.getProducts();
 		products.splice(prod, 1);
+		$(".shoppingListWrapper .row")[prod].remove();
 		sl.setProducts(products);
 		sl.cleanup();
 		sl.updateCount();
