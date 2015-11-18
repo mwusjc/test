@@ -6139,6 +6139,7 @@ a.details {
 .herobanner {
   position: relative;
   height: 285px; 
+  background-position: center;
 }
 .herobanner .caption {
   position: absolute;
