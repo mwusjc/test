@@ -5098,7 +5098,9 @@ button.close {
   position: relative;
   width: auto;
   margin: 10px; }
-
+.productPopup .modal-dialog{
+  margin: 10% auto;
+}
 .modal-content {
   position: relative;
   background-color: #fff;
