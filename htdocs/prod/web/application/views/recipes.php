@@ -1,11 +1,11 @@
 
-<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/images/476444092.jpg); background-size:cover">
+<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/images/rec_herbed_rice_pilaf.jpg); background-size:cover">
     <div class="caption col-xs-12">
         <div class="wrapper">
             <div class="row">
-                <a href="/recipes/381/Beef-Stroganoff" class="feature-title col-xs-10 col-sm-6">
+                <a href="/recipes/417/Herbed-Rice-Pilaf" class="feature-title col-xs-10 col-sm-6">
                     <h1>Recipe of the Week</h1>
-                    <h2>Beef Stroganoff</h2>
+                    <h2>Herbed Rice Pilaf</h2>
                 </a>
             </div>
         </div>
