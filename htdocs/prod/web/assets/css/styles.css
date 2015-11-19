@@ -6865,7 +6865,8 @@ height: 210px;
     max-height: 200px; }
   .ck-products .img-block {
     width: 200px;
-    height: 200px; }
+    height: 200px;
+    margin: 0 auto; }
   .ck-products .img-block p {
 	  text-align: left;
   }
