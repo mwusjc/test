@@ -151,10 +151,13 @@ var fl = {
 	loadData: function(week,type){
 		var url = "/assets/flyers/"+week+"/"+type+"/data.json"; 
 		var xmlhttp = new XMLHttpRequest(); 
+
 		xmlhttp.open("GET", url, true);
-		xmlhttp.onreadystatechange= function() {
+		xmlhttp
+		xmlhttp.onreadystatechange = function() {
 			if (xmlhttp.readyState == 4) {
 			var data = JSON.parse(xmlhttp.responseText);
+			console.log("data",data);
 			fl.populateFlyer(data,type);
 			fl.populateListView(data,type);
 			fl.populateCategories(data);
