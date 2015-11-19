@@ -6186,11 +6186,15 @@ a.details {
   color: white;
   position: relative; }
 
-.country-kitchen:before, .country-kitchen:after {
+.country-kitchen:before, .country-kitchen:after, h4.box.gingham {
   content: '';
   height: 25px;
   background-image: url("../images/ck_pattern_tn.jpg");
   display: block; }
+
+h4.box.gingham {
+  background-size: 9px 8px;
+}
 
 .country-kitchen:before {
   margin-bottom: 40px; }
@@ -6275,6 +6279,10 @@ form input[type="text"], form input[type="email"] {
   padding-left: 3%;
   padding-right: 7%;
   overflow-x: initial; }
+
+.visit-us-half-width {
+  width: 97% !important;
+}
 form .row {
   margin-bottom: 0px; }
 iframe {
@@ -6778,7 +6786,9 @@ height: 210px;
   position: relative;
   text-align: center; }
   .banner-container .banner {
-    margin: auto; }
+    margin: auto;
+    background-position: center;
+    height: 350px; }
 
 .nopad {
   padding: 0; }
@@ -6857,7 +6867,8 @@ height: 210px;
     max-height: 200px; }
   .ck-products .img-block {
     width: 200px;
-    height: 200px; }
+    height: 200px;
+    margin: 0 auto; }
   .ck-products .img-block p {
 	  text-align: left;
   }

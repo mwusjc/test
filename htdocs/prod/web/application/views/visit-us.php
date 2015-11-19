@@ -68,12 +68,12 @@ Or have a fresh idea that could make your Highland Farms experience even more en
   <div class="col-xs-12 col-sm-8">
     <form method="post" action="" id="form">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="first" type="text" value="" aria-required="false" aria-label="First Name" placeholder="First Name"/></div>
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" type="text" value="" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="first" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="First Name" placeholder="First Name"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" type="text" value="" aria-required="false" aria-label="Email" placeholder="Email"/></div>
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" type="text" value="" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="Email" placeholder="Email"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="" aria-required="false" aria-label="Your Message" placeholder="Your Message"></textarea></div>

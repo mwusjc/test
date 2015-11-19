@@ -5,10 +5,7 @@
 <main class='recipes'>
     <h1><?=$recipe->Name?></h1>
     <div class='banner-container'>
-        <div class='banner'>
-            <img class="desktop" src="<?=site_url()?>assets/<?=nl2br($recipe->Image)?>" alt="<?=$recipe->Name?>">    
-            <img class="mobile" src="/assets/images/recipe_banner_mobile.jpg" alt="<?=$recipe->Name?>">    
-        </div>
+        <div class='banner' style="background-image:url(<?=site_url()?>assets/<?=nl2br($recipe->Image)?>); background-size:cover"></div>
     </div> 
     <div class='spacer'></div>
     <div class='row'>
