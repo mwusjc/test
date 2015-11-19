@@ -40,7 +40,7 @@
 <script type='text/javascript'>
   jQuery(document).ready(function($) {
     sl.init();
-    $(".menu-toggle").click(function(){
+    $("body").on("click", ".menu-toggle", function(){
       $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
     });
 

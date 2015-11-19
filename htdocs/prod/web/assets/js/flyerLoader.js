@@ -157,7 +157,7 @@ var fl = {
 		xmlhttp.onreadystatechange = function() {
 			if (xmlhttp.readyState == 4) {
 			var data = JSON.parse(xmlhttp.responseText);
-			console.log("data",data);
+			//console.log("data",data);
 			fl.populateFlyer(data,type);
 			fl.populateListView(data,type);
 			fl.populateCategories(data);
