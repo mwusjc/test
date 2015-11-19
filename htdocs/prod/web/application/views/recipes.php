@@ -40,40 +40,6 @@
              <div class='pajinate'>
              <div class='no-results-found hidden'><h1>Sorry! Nothing to be found here.</h1></div>
             <div class="row recipes-container content">
-                
-
-        <!--        <div class="col-xs-12 col-sm-4 recipe">
-                    <div class='img'><img src="<?=site_url()?>assets/images/177275363.jpg" /></div>
-                    Pasta Primevara
-                </div>
-                <div class="col-xs-12 col-sm-4 recipe">
-                    <div class='img'><img src="<?=site_url()?>assets/images/480928701.jpg" /></div>
-                    Cheese Linguini
-                </div>
-                <div class="col-xs-12 col-sm-4 recipe">
-                    <div class='img'><img src="<?=site_url()?>assets/images/476444092.jpg" /></div>
-                    Beef Stroganoff
-                </div>
-                <div class="col-xs-12 col-sm-4 recipe">
-                    <div class='img'><img src="<?=site_url()?>assets/images/474947341.jpg" /></div>
-                    Tuna Linguini
-                </div>
-                <div class="col-xs-12 col-sm-4 recipe">
-                    <div class='img'><img src="<?=site_url()?>assets/images/179229184.jpg" /></div>
-                    Salmon Linguini
-                </div>
-                <div class="col-xs-12 col-sm-4 recipe">
-                    <div class='img'><img src="<?=site_url()?>assets/images/468017321.jpg" /></div>
-                    Calamary Pasta
-                </div>
-                <div class="col-xs-12 col-sm-4 recipe">
-                    <div class='img'><img src="<?=site_url()?>assets/images/470822257.jpg" /></div>
-                    Pesto Linguini
-                </div>
-                <div class="col-xs-12 col-sm-4 recipe">
-                    <div class='img'><img src="<?=site_url()?>assets/images/121268869-1.jpg" /></div>
-                    Chicken Lasagna
-                </div>  -->
             </div> 
             <div class="page_navigation"></div>
             </div>

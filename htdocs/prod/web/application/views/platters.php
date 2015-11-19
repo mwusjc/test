@@ -58,41 +58,6 @@
 </div>
 <div class="row divider spacer"></div>
 &nbsp;
-  
-
-<!--      
-<div class="row">
-  <div class="col-xs-12 col-sm-3">
-    <ul role="tablist">
-      <li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab">Breakfast Bites</a></li>
-      <li role="presentation"><a href="#international" aria-controls="profile" role="tab" data-toggle="tab">Deli, Cheese, Vegetables and Seafood</a></li>
-      <li role="presentation"><a href="#meat" aria-controls="messages" role="tab" data-toggle="tab">Party Platters</a></li>
-      <li role="presentation"><a href="#pasta" aria-controls="settings" role="tab" data-toggle="tab">Fabulous Fruits</a></li>
-      <li role="presentation"><a href="#pasta" aria-controls="settings" role="tab" data-toggle="tab">Devine Deserts</a></li>
-      <li role="presentation"><a href="#pasta" aria-controls="settings" role="tab" data-toggle="tab">Special Order Cakes, Flowers &amp; Gift Baskets</a></li>
-    </ul>
-  </div>
-  <div class="col-xs-12 col-sm-9">
-    <div class="tab-content">
-      <div role="tabpanel" class="tab-pane active" id="all">
-        <div class="row">
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/pp_BagelBonanza.jpg" /><strong>$29.99</strong> <span class="break">2 dozen</span> Bagel Delight</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/pp_SunshineBreakfast.jpg" /><strong>$34.99</strong> <span class="break">14" </span> Sweet Mornings</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/pp_antipasto.jpg" /><strong>$49.99</strong> <span class="break">14" </span> Antipasto Perfecto</div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/pp_pop_deli_meat_cheese_fiesta.jpg" /><strong>$39.99</strong> <span class="break">14"+</span> Savoury Delights</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/pp_pop_deli_meat_banquet.jpg" /><strong>$49.99</strong> <span class="break">14"+</span> Meat Your Match</div>
-          <div class="col-xs-12 col-sm-4"><img src="<?=site_url()?>assets/images/pp_european_meat_tn.jpg" /><strong>$49.99</strong> <span class="break">14" </span> European Flair</div>
-        </div>
-      </div>
-      <div role="tabpanel" class="tab-pane" id="dessert"><h1>Baked Goods</h1></div>
-      <div role="tabpanel" class="tab-pane" id="international"><h1>Food-to-go</h1></div>
-      <div role="tabpanel" class="tab-pane" id="meat"><h1>Sauces &amp; condiments</h1></div>
-      <div role="tabpanel" class="tab-pane" id="pasta"><h1>Alternatives</h1></div>
-    </div>
-  </div>
-</div>   -->
 
     <div class="row">
         <div class="col-xs-12 col-sm-3">

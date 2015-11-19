@@ -8,6 +8,7 @@ var fl = {
         	this.loadData(fl.getWeek("current"),"mobile");
         	$(".flyer.mobile .item").first().addClass("active");
 		}
+
 		this.checkOverlapDay();
 	},
 	getWeek: function(week){
@@ -74,17 +75,14 @@ var fl = {
         }
 		
 		$("#flyerPDF").attr("href","/assets/flyers/"+data.week+"/download.pdf");
-		// $('.item img').loupe({
-		// 	width: 500,
-		// 	height: 500
-  		// });
+
 	},
 	generateImageMaps: function(data, type){
 		var html = "";
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
-				html += "<a href='#' data-target='#"+type+"productPopup"+j+"_"+i+"' class='imageMap' data-toggle='modal' data-backdrop='false' style='left:"+prod.coords[0]+"px;top:"+prod.coords[1]+"px;width:"+prod.coords[2]+"px;height:"+prod.coords[3]+"px;' id='productImageMap"+j+"_"+i+"'></a>";
+				html += "<a href='#' data-target='#"+type+"productPopup"+j+"_"+i+"' class='imageMap' data-toggle='modal' style='left:"+prod.coords[0]+"px;top:"+prod.coords[1]+"px;width:"+prod.coords[2]+"px;height:"+prod.coords[3]+"px;' id='productImageMap"+j+"_"+i+"'></a>";
 			}
 			if (type=="desktop"){
 				$(".desktop.flyer .item .flyerWrap")[j].innerHTML += html;
@@ -141,7 +139,8 @@ var fl = {
 			$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
 			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
 			$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
-			$("#chooseFlyer").modal("show");
+
+			window.setTimeout('$("#chooseFlyer").modal("show");',1000);
 		}
 		else{
 			//console.log("no overlap!")

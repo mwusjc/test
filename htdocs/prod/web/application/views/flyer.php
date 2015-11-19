@@ -28,7 +28,7 @@
     <a class="btn btn-default modal-toggle" type="button" id="flyerModal" data-toggle="modal" data-backdrop="true" href="#chooseFlyer">
       Choose Flyer
     </a>
-    <div class="modal fade out in" id="chooseFlyer" tabindex="-1" role="dialog" aria-labelledby="flyerModal">
+    <div class="modal out in" id="chooseFlyer" tabindex="-1" role="dialog" aria-labelledby="flyerModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -55,22 +55,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Categories
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" id="categoryMenu" aria-labelledby="dropdownMenu1">
-      </ul>
-    </div>
-    <div class="dropdown">
-      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        Brands
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" id="brandMenu" aria-labelledby="dropdownMenu2">
-      </ul>
-    </div> -->
   </div>
   <div class="col-xs-12 col-sm-4" >
     <span id="backToFlyerView" class="btn btn-default right" style="display:none;">Back to full flyer</span>
@@ -122,22 +106,24 @@
       fl.init();
 
       $(".currentFlyerDateRange").html(fl.getWeekRange("current"));
-      $("#currentFlyer").click(function(){
+      $("body").on('click','#currentFlyer', function(){
         fl.loadData(fl.getWeek("current"),"desktop");
         fl.loadData(fl.getWeek("current"),"mobile");
         $(".currentFlyerDateRange").html(fl.getWeekRange("current"));
         $(".currentFlyerDateRangeTitle").html("Current Flyer");
       });
-      $("#nextFlyer").click(function() {
+      $("body").on('click','#nextFlyer', function() {
         fl.loadData(fl.getWeek("next"),"desktop");
         fl.loadData(fl.getWeek("next"),"mobile");
         $(".currentFlyerDateRange").html(fl.getWeekRange("next"));
         $(".currentFlyerDateRangeTitle").html("Next Week's Flyer");
       });
-      $('#backToFlyerView').click(function(){
+
+      $("body").on('click','#backToFlyerView', function(){
         fl.switchView("flyer");
       });
-      $('body').click(function(e){
+
+      $("body").click(function(e){
         if ($(e.target).parents(".productPopup").size()){
           //Don't do anything
         }
