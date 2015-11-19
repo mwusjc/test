@@ -18,7 +18,7 @@
         <a  href="/flyer"class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Ontario</strong> <br/> <strong>Veal Shoulder Blade</strong></p>
+                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Ontario</strong> <br/> <strong>Loin of Pork</strong> <br/> <strong>Whole or Half</strong> <br/> <strong class="green">Sliced 2.29/lb-5.05/kg</strong></p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-2.png">
             </div>
@@ -29,7 +29,7 @@
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Apples</strong> <br/ > <strong>McIntosh or Cortland</strong> <br/> <strong>Fancy Grade</strong></p>
+                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Field Tomatoes</strong> <br/ > <strong>Product of U.S.A.</strong> <br/> <strong>No. 1 Grade, Large Size</strong></p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-3.png">
             </div>
