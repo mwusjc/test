@@ -6786,7 +6786,9 @@ height: 210px;
   position: relative;
   text-align: center; }
   .banner-container .banner {
-    margin: auto; }
+    margin: auto;
+    background-position: center;
+    height: 350px; }
 
 .nopad {
   padding: 0; }
