@@ -6275,6 +6275,10 @@ form input[type="text"], form input[type="email"] {
   padding-left: 3%;
   padding-right: 7%;
   overflow-x: initial; }
+
+.visit-us-half-width {
+  width: 97% !important;
+}
 form .row {
   margin-bottom: 0px; }
 iframe {
