@@ -95,13 +95,15 @@ var fl = {
 	},
 	generatePopups: function(data, type){
 		var html = "";
+
+		$("."+type+".productPopup").remove();
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
 				if (prod.pricing.indexOf("$")<0){
 					prod.pricing = "$"+prod.pricing;
 				}
-				html += 	"<div class='modal fade out productPopup' id='"+type+"productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
+				html += 	"<div class='modal fade out "+type+" productPopup' id='"+type+"productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
 				html += 	'	<div class="modal-dialog" role="document">'
 				html += 	'		<div class="modal-content">'
 				html += 	'			<div class="modal-body" data-category="'+ prod.category +'" >'
