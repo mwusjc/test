@@ -129,23 +129,26 @@ var fl = {
 			html = "";
 		}
 	},
+	previewFlyers: function() {
+		var currentWeek = fl.getWeek("current");
+		var nextWeek = fl.getWeek("next");
+		$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
+		$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
+		$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
+		$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
+		window.setTimeout('$("#chooseFlyer").modal("show");',1000);
+	},
 	checkOverlapDay: function(){
 		var today = new Date();
+		var test = location.search;
 		//Assuming overlap day is Thursday
-		//console.log("today",today);
-		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22)){
-			//console.log("overlap!");
-			var currentWeek = fl.getWeek("current");
-			var nextWeek = fl.getWeek("next");
-			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
-			$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
-			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
-			$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
-
-			window.setTimeout('$("#chooseFlyer").modal("show");',1000);
+		// console.log("today",today);
+		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true"))){
+			// console.log("overlap!");
+			this.previewFlyers();
 		}
 		else{
-			//console.log("no overlap!")
+			// console.log("no overlap!")
 			$("#chooseFlyer").modal("hide");
 			$("#flyerModal").hide();
 		}
