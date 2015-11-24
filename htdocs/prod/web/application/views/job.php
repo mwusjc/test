@@ -88,7 +88,7 @@ if(isset($_POST['submit'])) {
                 <div class="col-xs-12 col-sm-6">
                     <div style="position:relative;">
                             <a class='btn-file' href='javascript:;'>
-                                <span class='label-file' id="upload-coverletter">Upload Coverletter</span>
+                                <span class='label-file' id="upload-coverletter">Upload Cover Letter</span>
                                 <input type="hidden" name="file_coverletter_val" id="upload-coverletter-val"/>
                                 <input type="file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="attachments[]" size="40"  onchange='$("#upload-coverletter").html($(this).val());$("#upload-coverletter-val").val($(this).val());' multiple/>
                             </a>
