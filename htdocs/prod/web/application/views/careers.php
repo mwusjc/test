@@ -29,7 +29,7 @@
                             <?=$job['title']?>
                         </div>
                         <div class='job-row-date'>
-                            Posted <?=$time = date('F n, Y', strtotime($job['date_posted']))?>
+                            Posted <?=$time = date('F j, Y', strtotime($job['date_posted']))?>
                         </div>
                         <div class="clearer"></div>
                     </div>
@@ -53,7 +53,7 @@
                         <?=$job['title']?>
                     </div>
                     <div class='job-row-date'>
-                        Posted <?=$time = date('F n, Y', strtotime($job['date_posted']))?>
+                        Posted <?=$time = date('F j, Y', strtotime($job['date_posted']))?>
                     </div>
                     <div class="clearer"></div>
                 </div>
