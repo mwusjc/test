@@ -282,7 +282,7 @@
 					"comments":""
 				},
 				{
-					"image":"Natrel_Fine_Filtered_Milk_2L_1%_2%_Skim.jpg",
+					"image":"Natrel_Fine_Filtered_Milk_2L_1_2_Skim.jpg",
 					"coords":[161,200,73,85],
 					"name": "Natrel Fine-Filtered Milk 3.25%, 2%, 1% or Skim",
 					"brands": ["Natrel"],
@@ -806,7 +806,7 @@
 					"comments":""
 				},
 				{
-					"image":"HealthyChoice_Gourmet_Steamers_VH_Steamers_Entrées_assort.jpg",
+					"image":"HealthyChoice_Gourmet_Steamers_VH_Steamers_Entrees_assort.jpg",
 					"coords":[9,288,73,85],
 					"name": "VH or Healthy Choice Steamers Frozen Entrees Assorted Varieties",
 					"brands": ["VH","Healthy Choice"],
@@ -911,7 +911,7 @@
 					"comments":"save"
 				},
 				{
-					"image":"Luisas_Fiesta_Dip_assort_524g.jpg",
+					"image":"Luisas_Fiesta_Dip.jpg",
 					"coords":[9,200,73,85],
 					"name": "Luisa's Fiesta Dip Mild or Medium",
 					"brands": ["Luisa's"],
