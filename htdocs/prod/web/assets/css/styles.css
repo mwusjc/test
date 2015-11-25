@@ -6486,6 +6486,10 @@ a#flyerModal {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+.listViewWrapper .image {
+  max-height: 200px;
+  max-width: 200px;
+}
 .listViewWrapper .addToCart{
   margin-top: 20px;
   font-size: 12px;
