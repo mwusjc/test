@@ -11,7 +11,7 @@
                 </div>
             </div>
 
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-1.jpg">
+            <img class="desktop item-1-slide" src="<?=site_url()?>/assets/images/home_carousel-1.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_1.jpg">
             
         </a>

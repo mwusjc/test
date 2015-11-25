@@ -6514,6 +6514,10 @@ a#flyerModal {
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   max-width: initial; }
 
+.item-1-slide {
+  min-height: 100%;
+}
+
 @media screen and (max-width: 767px) {
   .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     max-width: 100%; 
