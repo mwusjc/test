@@ -81,7 +81,7 @@
         <div class="col-xs-12 col-sm-4">
             <a href='/flyer'>
                 <h4 class="box top">Flyers</h1>
-                <div class='img'><img src="<?=site_url()?>/assets/images/hf_flyer.jpg" alt="Flyers"/></div>
+                <div class='img'><img src="<?=site_url()?>/assets/images/hf_flyer.jpg" alt="Flyers" style="width: 100%;"/></div>
             </a>
         </div>
         <div class="col-xs-12 col-sm-4">
