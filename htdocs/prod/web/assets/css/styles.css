@@ -6515,7 +6515,8 @@ a#flyerModal {
   max-width: initial; }
 
 .item-1-slide {
-  min-height: 100%;
+  background-position: center;
+  min-height: 375px;
 }
 
 @media screen and (max-width: 767px) {

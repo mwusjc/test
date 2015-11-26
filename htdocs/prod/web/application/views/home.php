@@ -11,7 +11,7 @@
                 </div>
             </div>
 
-            <img class="desktop item-1-slide" src="<?=site_url()?>/assets/images/home_carousel-1.jpg">
+            <div class="desktop item-1-slide" style="background-image:url(<?=site_url()?>assets/images/home_carousel-1.jpg); background-size:cover"></div>
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_1.jpg">
             
         </a>
