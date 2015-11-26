@@ -255,7 +255,7 @@ var fl = {
 				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
 				html+=	    '		<span class="pricing">'+prod.pricing+'</span>'
 				html+=	    '		<span class="packaging">'+prod.packaging+'</span>'
-				html+=	    '		<div><a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a></div>'
+				html+=	    '		<div><a href="#" data-add-cart="id" class="btn green addToCartListView">Add to Shopping List</a></div>'
 				html+=	    '	</div>'
 				html+=		'</div>'   
 			}

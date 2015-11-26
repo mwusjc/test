@@ -9,6 +9,10 @@ var sl = {
 	    	$(e.target).closest(".productPopup").modal("hide");
 	    	$(e.target).unbind( "click" );
 	    });
+	    $(document).on("click",".addToCartListView",function(e){
+	    	sl.addProduct(sl.scrapeProduct($(e.target).closest(".listViewWrapper > .row")));
+	    	$(e.target).unbind( "click" );
+	    });
 	    $(document).on("click",".close-icon",function(e){
 	    	sl.deleteProduct($(e.target.parentElement).index());
 	    });
