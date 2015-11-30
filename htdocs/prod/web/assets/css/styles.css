@@ -5486,6 +5486,7 @@ button.close {
 
 .dow-product-desc {
   display: block;
+  font-family: "HelveticaNeueLTStd-MdCn", "HelveticaNeueLT-Roman", "Helvetica", Arial, sans-serif;
   line-height: initial;
   margin: 0;
   /*This is a specific fix made on a per week basis*/
