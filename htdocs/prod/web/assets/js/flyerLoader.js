@@ -202,19 +202,19 @@ var fl = {
 			}
 		}
 		for (var i = 0; i < categories.length; i++){
-			html+= '<li><a href="#" class="categoryItem" data-category="'+categories[i]+'">'+this.categoryList[categories[i]]+'</a></li>'
+			html+= '<li><a href="#" class="categoryItem" data-category="'+categories[i]+'">'+categories[i]+'</a></li>'
 		}
 		$("#categoryMenu")[0].innerHTML = html;
 		$(".categoryItem").click(function(e){
 			fl.filterCategory(e.target.getAttribute("data-category"));
 		})
 	},
-	categoryList:{
-		"produce" : "Produce",
-		"grocery" : "Grocery",
-		"meat and deli" : "Meat, Deli & Seafood",
-		"bakery" : "Bakery"
-	},
+	// categoryList:{
+	// 	"produce" : "Produce",
+	// 	"grocery" : "Grocery",
+	// 	"meat and deli" : "Meat, Deli & Seafood",
+	// 	"bakery" : "Bakery"
+	// },
 	filterCategory: function(cat){
 		$("#dropdownMenu1")[0].innerHTML = "Categories <span class='caret'></span>";
 		$("#dropdownMenu2")[0].innerHTML = "Brands <span class='caret'></span>";
