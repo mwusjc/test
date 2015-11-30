@@ -11,8 +11,8 @@ if(isset($_POST['submit'])) {
     $email = "From: $first $last<br/>
                     Email: $from<br/>
                     Phone: $phone<br/>
-                    Message: $message
-    ";
+                    Message: " . nl2br($message)
+    ;
 
     send_ses_email($to, "VISIT US: Submission", $email);
     ?>
