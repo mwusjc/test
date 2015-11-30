@@ -1,6 +1,7 @@
-<?php 
+<?php
 if(isset($_POST['submit'])) {
-    $to = "customerservice@highlandfarms.on.ca";
+    // $to = "customerservice@highlandfarms.on.ca";
+    $to = "andre.madarang@stjoseph.com";
     $from = $_POST['email'];
     $first = $_POST['first'];
     $last = $_POST['last'];
@@ -18,7 +19,7 @@ if(isset($_POST['submit'])) {
     <script type='text/javascript'>
         $(function() {
             $('body').append($("#tpl-product-modal").html());
-            $('#detailModal').modal('show');  
+            $('#detailModal').modal('show');
         });
     </script>
     <?php
@@ -36,7 +37,7 @@ if(isset($_POST['submit'])) {
     Mon-Sat: 7:00AM-10:00PM </br/>
     Sun: 8:00AM-8:00PM</p>
 	<a target="_blank" href="tel:+14162981999">(416) 298-1999</a>
-	
+
     <h2 style="margin-top: 50px;">Mississauga</h2>
     <p>50 Matheson Blvd. East </br/>
     Mississauga, ON, L4Z 1N5 </br/>
@@ -86,7 +87,7 @@ Or have a fresh idea that could make your Highland Farms experience even more en
 </div>
 
 </main>
-  
+
 <script type='text/html' id='tpl-product-modal'>
 <div class="modal fade otu" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
@@ -96,7 +97,7 @@ Or have a fresh idea that could make your Highland Farms experience even more en
                   <div class="col-s-12 text-center">
                       <h3>Successfully Submitted.</h3>
                   </div>
-              </div>     
+              </div>
               <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
           </div>
       </div>

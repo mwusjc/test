@@ -1,6 +1,7 @@
-<?php 
+<?php
 if(isset($_POST['submit'])) {
-    $to = "jobs@highlandfarms.on.ca";
+    // $to = "jobs@highlandfarms.on.ca";
+    $to = "andre.madarang@stjoseph.com";
     $from = $_POST['email'];
     $first = $_POST['first'];
     $last = $_POST['last'];
@@ -24,7 +25,7 @@ if(isset($_POST['submit'])) {
     <script type='text/javascript'>
         $(function() {
             $('body').append($("#tpl-product-modal").html());
-            $('#detailModal').modal('show');  
+            $('#detailModal').modal('show');
         });
     </script>
     <?php
@@ -99,9 +100,9 @@ if(isset($_POST['submit'])) {
                 <div class="col-xs-12 col-sm-12"><input name="submit" type="submit" value="Submit Application" class="green" style="margin-top: 15px" /></div>
               </div>
             </form>
-        </div>          
+        </div>
     </div>
-    
+
 </main>
 
 <script type='text/html' id='tpl-product-modal'>
@@ -113,7 +114,7 @@ if(isset($_POST['submit'])) {
                   <div class="col-s-12 text-center">
                       <h3>Successfully Submitted.</h3>
                   </div>
-              </div>     
+              </div>
               <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
           </div>
       </div>
