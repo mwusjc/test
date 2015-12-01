@@ -18,7 +18,7 @@
         <a  href="/flyer"class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Beef</strong><br/><strong>Sirloin Tip Roast</strong><br/><strong>Product of Canada</strong></p>
+                    <p class="pull-left desktop dow-product-desc">Fresh Beef<br/>Sirloin Tip Roast<br/>Product of Canada</p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-2.png">
             </div>
@@ -29,7 +29,7 @@
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc"><strong>Fresh Apples</strong><br/><strong>McIntosh or Cortland</strong><br/><strong>Fancy Grade</strong></p>
+                    <p class="pull-left desktop dow-product-desc">Fresh Apples<br/>McIntosh or Cortland<br/>Fancy Grade</p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-3.png">
             </div>
