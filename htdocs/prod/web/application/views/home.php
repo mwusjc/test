@@ -4,9 +4,9 @@
             <!-- Add inline text here to replace copy within current image asset -->
             <div class="carousel-item-container desktop col-xs-12">
                 <div class="item-1-text">
-                    <h2>Comfort Food</h2>
-                    <span class="desktop-desc-text">Warm up your winter with this </span>
-                    <span class="desktop-desc-text">hearty and delicious recipe.</span>
+                    <h2>Savoury Stuffing</h2>
+                    <span class="desktop-desc-text">Start a new tradition with this </span>
+                    <span class="desktop-desc-text">easy and delicious rice stuffing.</span>
                     <span class="mobile-desc-text">Warm up your winter with this hearty and delicious recipe.</span>
                 </div>
             </div>
