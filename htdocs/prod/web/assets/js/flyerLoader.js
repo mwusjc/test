@@ -210,18 +210,14 @@ var fl = {
 			fl.filterCategory(e.target.getAttribute("data-category"));
 		})
 	},
-	// categoryList:{
-	// 	"produce" : "Produce",
-	// 	"grocery" : "Grocery",
-	// 	"meat and deli" : "Meat, Deli & Seafood",
-	// 	"bakery" : "Bakery"
-	// },
 	filterCategory: function(cat){
 		$("#dropdownMenu1")[0].innerHTML = "Categories <span class='caret'></span>";
 		$("#dropdownMenu2")[0].innerHTML = "Brands <span class='caret'></span>";
 		$("#listView .row").show();
-		$("#listView .row:not([data-category='"+cat+"'])").hide();
-		$("#dropdownMenu1")[0].innerHTML = this.categoryList[cat] + ' <span class="caret"></span>';
+		$.each($("#listView .row"),function(i, row){
+			row.getAttribute("data-category").indexOf(cat)<0? $(row).hide():$(row).show();
+		});
+		$("#dropdownMenu1")[0].innerHTML = '<span class="filter">' + cat + '</span>' + ' <span class="caret"></span>';
 		this.switchView("list");
 	},
 	filterBrand: function(brand){
