@@ -13,12 +13,12 @@
 
             <div class="desktop item-1-slide" style="background-image:url(<?=site_url()?>assets/images/home_carousel-1.jpg); background-size:cover"></div>
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_1.jpg">
-            
+
         </a>
         <a  href="/flyer"class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc">Fresh Beef<br/>Sirloin Tip Roast<br/>Product of Canada</p>
+                    <p class="pull-left desktop dow-product-desc">Fresh Ontario<br/>Pork Back Ribs</p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-2.png">
             </div>
@@ -29,14 +29,14 @@
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc">Fresh Apples<br/>McIntosh or Cortland<br/>Fancy Grade</p>
+                    <p class="pull-left desktop dow-product-desc">Apples<br/>Red or Golden Delicious<br/>Fancy Grade</p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-3.png">
             </div>
 
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-3.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_3.jpg">
-            
+
         </a>
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
@@ -45,7 +45,7 @@
 
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-4.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_4.jpg">
-            
+
         </a>
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
@@ -54,7 +54,7 @@
 
             <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-5.jpg">
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_5.jpg">
-            
+
         </a>
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
