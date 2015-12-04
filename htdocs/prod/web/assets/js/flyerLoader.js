@@ -228,7 +228,6 @@ var fl = {
 		$.each($("#listView .row"),function(i, row){
 			row.getAttribute("data-brand").indexOf(brand)<0? $(row).hide():$(row).show();
 		});
-
 		$("#dropdownMenu2")[0].innerHTML = brand + ' <span class="caret"></span>';
 		this.switchView("list");
 	},
