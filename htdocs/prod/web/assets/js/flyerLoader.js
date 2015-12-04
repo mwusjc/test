@@ -202,6 +202,7 @@ var fl = {
 				prod.category!=undefined&&categories.indexOf(prod.category)<0?categories.push(prod.category):null;
 			}
 		}
+		categories.sort();
 		for (var i = 0; i < categories.length; i++){
 			html+= '<li><a href="#" class="categoryItem" data-category="'+categories[i]+'">'+categories[i]+'</a></li>'
 		}
