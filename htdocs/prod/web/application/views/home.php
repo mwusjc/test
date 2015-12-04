@@ -1,6 +1,6 @@
 <div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="6000" >
     <div class="carousel-inner" role="listbox">
-        <a href="/recipes/408/Basil-Rice-Soup"  class="item active responsive">
+        <a href="/recipes/420/Rice-Stuffing"  class="item active responsive">
             <!-- Add inline text here to replace copy within current image asset -->
             <div class="carousel-item-container desktop col-xs-12">
                 <div class="item-1-text">
