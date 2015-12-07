@@ -17,5 +17,5 @@ nbproject/
 #	editor
 *.sublime-*
 
-#	mac temp file
-.DS_Store
+#	Ignore Mac temp file
+**/.DS_Store

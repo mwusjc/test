@@ -202,6 +202,7 @@ var fl = {
 				prod.category!=undefined&&categories.indexOf(prod.category)<0?categories.push(prod.category):null;
 			}
 		}
+		categories.sort();
 		for (var i = 0; i < categories.length; i++){
 			html+= '<li><a href="#" class="categoryItem" data-category="'+categories[i]+'">'+categories[i]+'</a></li>'
 		}
@@ -227,7 +228,6 @@ var fl = {
 		$.each($("#listView .row"),function(i, row){
 			row.getAttribute("data-brand").indexOf(brand)<0? $(row).hide():$(row).show();
 		});
-
 		$("#dropdownMenu2")[0].innerHTML = brand + ' <span class="caret"></span>';
 		this.switchView("list");
 	},

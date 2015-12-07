@@ -11,6 +11,7 @@ var sl = {
 	    });
 	    $(document).on("click",".addToCartListView",function(e){
 	    	sl.addProduct(sl.scrapeProduct($(e.target).closest(".listViewWrapper > .row")));
+	    	$(e.target)[0].innerHTML = "Added";
 	    	$(e.target).unbind( "click" );
 	    });
 	    $(document).on("click",".close-icon",function(e){
