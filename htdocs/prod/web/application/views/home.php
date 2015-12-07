@@ -1,4 +1,12 @@
 <div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="6000" >
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
+        <li data-target="#carousel" data-slide-to="5"></li>
+    </ol>
     <div class="carousel-inner" role="listbox">
         <a href="/recipes/420/Rice-Stuffing"  class="item active responsive">
             <!-- Add inline text here to replace copy within current image asset -->
