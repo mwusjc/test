@@ -37,6 +37,8 @@
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/jquery-2.1.4.min.js"><\/script>')</script>
+</head>
+<body>
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K5FQFX"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -47,8 +49,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-K5FQFX');</script>
 <!-- End Google Tag Manager -->
-</head>
-<body>
 <header>
     <img class="menu-toggle mobile" src="<?=site_url()?>/assets/images/mobile/icon_menu.png" />
     <nav class="main-nav mobile closed">
