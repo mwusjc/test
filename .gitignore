@@ -16,3 +16,6 @@ nbproject/
 
 #	editor
 *.sublime-*
+
+#	mac temp file
+.DS_Store
