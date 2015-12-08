@@ -19,7 +19,7 @@
                 </div>
             </div>
 
-            <div class="desktop item-1-slide" style="background-image:url(<?=site_url()?>assets/images/home_carousel-1.jpg); background-size:cover"></div>
+            <div class="desktop item-1-slide"></div>
             <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_1.jpg">
 
         </a>
