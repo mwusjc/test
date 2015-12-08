@@ -1,11 +1,11 @@
 
-<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/images/rec_herbed_rice_pilaf.jpg); background-size:cover">
+<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/media/recipes/rec_creme_brulee.jpg); background-size:cover">
     <div class="caption col-xs-12">
         <div class="wrapper">
             <div class="row">
-                <a href="/recipes/417/Herbed-Rice-Pilaf" class="feature-title col-xs-10 col-sm-6">
+                <a href="/recipes/362/Creme-Brulee" class="feature-title col-xs-10 col-sm-6">
                     <h1>Recipe of the Week</h1>
-                    <h2>Herbed Rice Pilaf</h2>
+                    <h2>Creme Brulee</h2>
                 </a>
             </div>
         </div>
