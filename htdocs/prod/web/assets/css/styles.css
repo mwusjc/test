@@ -5450,9 +5450,6 @@ button.close {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
           left: 0; }
-        .home .carousel-inner > .item.next.left, .home .carousel-inner > .item.prev.right, .home .carousel-inner > .item.active {
-          border-bottom: 2px solid #00a64f;
-        }
         }
   .carousel-inner > .active,
   .carousel-inner > .next,
@@ -5482,7 +5479,7 @@ button.close {
   font-size: 18px;
   line-height: 0;
   position: absolute;
-  top: 300px;
+  top: -75px;
   text-align: left;
 }
 
@@ -5497,9 +5494,11 @@ button.close {
 
 /* Start copy overlay on homepage carousel image */
 .carousel-item-container {
+  border-bottom: 2px solid #00a64f;
   float: none;
-  margin: -1px auto 0;
+  margin: -2px auto 0;
   max-width: 930px;
+  top: 375px;
 }
 
 .item-1-text {
@@ -5507,12 +5506,10 @@ button.close {
   border-radius: 20px 20px 0 0;
   color: #fff;
   display: inline;
-  /*left: 129px;*/
   left: 0;
   padding: 10px 40px 120px 40px;
   position: absolute;
-  /*top: 50%;*/
-  top: 190px;
+  top: -190px;
 }
 
 .item-1-text h2,
@@ -6620,16 +6617,18 @@ a#flyerModal {
   font-size: 19px; }
 
 .home-carousel-caption {
+  border-bottom: 2px solid #00a64f;
   padding:0px 20px 0px 20px;
   max-width:930px;
   margin: 0 auto;
+  top: 372px;
 }
 
 .home-carousel-caption img {
   float: right;
   position: absolute;
   right: 0;
-  top: 140px;
+  top: -233px;
 }
 
 .tab-content img {
