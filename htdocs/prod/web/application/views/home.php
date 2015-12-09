@@ -8,7 +8,7 @@
         <li data-target="#carousel" data-slide-to="5"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-        <a href="/recipes/420/Rice-Stuffing"  class="item active responsive">
+        <a href="#"  class="item active responsive">
             <!-- Add inline text here to replace copy within current image asset -->
             <div class="carousel-item-container desktop col-xs-12">
                 <div class="item-1-text">
