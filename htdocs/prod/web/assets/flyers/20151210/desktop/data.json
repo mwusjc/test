@@ -10,7 +10,7 @@
 					"coords":[12,160,204,208],
 					"name": "Grade A Butterball Frozen Turkeys All Sizes Limit of 1 per family",
 					"brands": [""],
-					"category": "meat",
+					"category": "poultry",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$4.39/kg",
 					"pricing":"$1.99/lb",
@@ -459,7 +459,7 @@
 				},
 				{
 					"image":"pg4-s4.jpg",
-					"coords":[222,12,101,140],
+					"coords":[327,12,101,140],
 					"name": "Lay's Potato Chips 255g or Kettle Cooked Chips 220g Assorted Varieties",
 					"brands": ["Lay's"],
 					"category": "grocery",
@@ -553,7 +553,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"",
+					"pricing":"Another Fresh Idea from Highland Farms.",
 					"comments":""
 				},
 				{
@@ -860,7 +860,7 @@
 					"comments":""
 				},
 				{
-					"image":"215273_Toppits_Jumbo Cooked Shrimp Platter 425g.jpg",
+					"image":"215273_Toppits_Jumbo-Cooked-Shrimp-Platter-425g.jpg",
 					"coords":[12,276,101,117],
 					"name": "Toppits Jumbo Cooked Shrimp Platter with Cocktail Sauce",
 					"brands": ["Toppits"],
@@ -961,17 +961,6 @@
 				{
 					"image":"pg7-s3.jpg",
 					"coords":[663,37,129,116],
-					"name": "Agropur L'Extra Brie At the Deli",
-					"brands": ["Agropur"],
-					"category": "deli",
-					"summary": "",
-					"packaging":"$22.02/kg",
-					"pricing":"$9.99/lb",
-					"comments":""
-				},
-				{
-					"image":"pg7-s3.jpg",
-					"coords":[793,116,77,36],
 					"name": "Agropur L'Extra Brie At the Deli",
 					"brands": ["Agropur"],
 					"category": "deli",

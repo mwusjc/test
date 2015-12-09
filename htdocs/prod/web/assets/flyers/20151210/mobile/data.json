@@ -10,7 +10,7 @@
 					"coords":[9,116,148,150],
 					"name": "Grade A Butterball Frozen Turkeys All Sizes Limit of 1 per family",
 					"brands": [""],
-					"category": "meat",
+					"category": "poultry",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$4.39/kg",
 					"pricing":"$1.99/lb",
@@ -559,7 +559,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"",
+					"pricing":"Another Fresh Idea from Highland Farms.",
 					"comments":""
 				},
 				{
@@ -872,7 +872,7 @@
 					"comments":""
 				},
 				{
-					"image":"215273_Toppits_Jumbo Cooked Shrimp Platter 425g.jpg",
+					"image":"215273_Toppits_Jumbo-Cooked-Shrimp-Platter-425g.jpg",
 					"coords":[9,200,73,85],
 					"name": "Toppits Jumbo Cooked Shrimp Platter with Cocktail Sauce",
 					"brands": ["Toppits"],
@@ -898,7 +898,7 @@
 					"coords":[161,200,73,85],
 					"name": "Ocean Prime Frozen Raw Pacific White Shrimp 21/25ct",
 					"brands": ["Ocean Prime"],
-					"category": "grocery",
+					"category": "seafood",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"454g",
 					"pricing":"$8.99",
@@ -979,17 +979,6 @@
 				{
 					"image":"pg7-s3.jpg",
 					"coords":[161,24,95,97],
-					"name": "Agropur L'Extra Brie At the Deli",
-					"brands": ["Agropur"],
-					"category": "deli",
-					"summary": "",
-					"packaging":"$22.02/kg",
-					"pricing":"$9.99/lb",
-					"comments":""
-				},
-				{
-					"image":"pg7-s3.jpg",
-					"coords":[257,82,53,28],
 					"name": "Agropur L'Extra Brie At the Deli",
 					"brands": ["Agropur"],
 					"category": "deli",
