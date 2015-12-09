@@ -5494,7 +5494,6 @@ button.close {
 
 /* Start copy overlay on homepage carousel image */
 .carousel-item-container {
-  border-bottom: 2px solid #00a64f;
   float: none;
   margin: -2px auto 0;
   max-width: 930px;
