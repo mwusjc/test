@@ -109,8 +109,8 @@ var fl = {
 				html += 	'			<div class="modal-body" data-category="'+ prod.category +'" >'
 				html += 	'				<div class="row">'
 				html += 	'					<div class="col-xs-12 col-sm-6 text-center">'
-				// html += 	'						<img class="image productPopupImage" src="/assets/images/flyer-images/'+prod.category+'/'+prod.image+'">'
-				html += 	'						<img class="image productPopupImage" src="/assets/images/flyer-images/'+prod.image+'">'
+				//Pull in current week as folder name for Flyers
+				html += 	'						<img class="image productPopupImage" src="/assets/images/'+data.week+'/'+prod.image+'">'
 				html += 	'					</div>'
 				html += 	'					<div class="col-xs-12 col-sm-6">'
 				html += 	'						'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
@@ -245,8 +245,8 @@ var fl = {
 				}
 				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'">'
 				html+=	    '	<div class="col-xs-12 col-sm-3 text-center">'
-				// html+=	    '		<img class="image" src="/assets/images/flyer-images/'+prod.category+'/'+prod.image+'">'
-				html+=	    '		<img class="image" src="/assets/images/flyer-images/'+prod.image+'">'
+				//Pull in current week as folder name for Flyers
+				html += 	'			<img class="image" src="/assets/images/'+data.week+'/'+prod.image+'">'
 				html+=	    '	</div>'
 				html+=	    '	<div class="col-xs-12 col-sm-9">'
 				html+=	    '		'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
