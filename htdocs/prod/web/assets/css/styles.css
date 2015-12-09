@@ -5512,6 +5512,17 @@ button.close {
   top: -190px;
 }
 
+.item-1-img {
+  left: -53px;
+  padding: 10px 40px 120px 40px;
+  position: absolute;
+  top: -368px;
+}
+
+.item-1-img img {
+  height: 340px;
+}
+
 .item-1-text h2,
 .item-1-text .desktop-desc-text {
   text-align: left;
@@ -5667,7 +5678,7 @@ button.close {
     padding-bottom: 30px; }
 
   .carousel-indicators {
-    bottom: 10px; } }
+    bottom: 0px; } }
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
