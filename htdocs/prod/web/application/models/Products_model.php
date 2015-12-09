@@ -11,8 +11,8 @@
         * @param mixed $category - category id, null for all
         * @param mixed $form - short/long (Name,id,image) vs (All details)
         */
-        public function get($id = null, $category = null, $form = "short") {
-            if($form == "short") $this->db->select("products.id, products.name, products.image, category, description");
+        public function get($id = null, $category = null, $bread_type = null, $form = "short") {
+            if($form == "short") $this->db->select("products.id, products.name, products.image, category, description, products.bread_type");
             else $this->db->select("products.*");
             
             $this->db->select("products_categories.name AS CategoryName");
@@ -20,10 +20,13 @@
                 $id = (int) $id; 
                 $this->db->where("products.id",$id);
             } 
-            if($category != null) $this->db->where('category', $category);
+            if($category != null) $this->db->where('category', $category); 
             $this->db->join("products_categories",'products.category = products_categories.id');
-            $this->db->order_by("products.name", "asc");  
-            
+            /*Sort the different bread types to have products grouped by type*/ 
+            $this->db->order_by("products.bread_type", "desc"); 
+            /*Sort all products alphabetically*/
+            $this->db->order_by("products.name", "asc");
+
             $sql = $this->db->get('products')->result_object();
             $sql = $this->map_products($sql);
 

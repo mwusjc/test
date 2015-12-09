@@ -67,7 +67,7 @@
                     foreach($products AS $key=>$item) {
                         if($item->category == "2") : ?>
                             <div class='col-sm-3'>
-                                <a href='' data-toggle-details='<?=$item->id?>'>
+                                <a href='' data-toggle-details='<?=$item->id?>' data-category='<?=$item->bread_type?>'>
                                     <div class='img-block'><img src="<?=site_url($item->image)?>" alt="<?=$item->name?>"/></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
@@ -296,7 +296,7 @@
     };
 
     jQuery(document).ready(function($) {
-        hlf.countrykitchen.init(); 
+        hlf.countrykitchen.init();
     });
 
 </script>

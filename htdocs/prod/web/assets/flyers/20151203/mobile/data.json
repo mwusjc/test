@@ -24,7 +24,7 @@
 					"category": "produce",
 					"summary": "",
 					"packaging":"4lb cello bag",
-					"pricing":"$2.99/lb",
+					"pricing":"$2.99",
 					"comments":"save"
 				},
 				{
@@ -696,7 +696,7 @@
 					"comments":"save"
 				},
 				{
-					"image":"909150_Fresh_Wild_Pacific_Snapper.jpg",
+					"image":"909150_Fresh_Wild_Pacific_Snapper#1.jpg",
 					"coords":[161,9,73,102],
 					"name": "Fresh Wild Pacific Snapper Fillets",
 					"brands": [""],
@@ -944,7 +944,7 @@
 					"comments":""
 				},
 				{
-					"image":"19124_Stuffed-Peppers-with-Meat-in-Tomato-Sauce-.jpg",
+					"image":"19124_Stuffed Peppers with Meat in Tomato Sauce .jpg",
 					"coords":[237,288,73,85],
 					"name": "Stuffed Peppers with Meat in Tomato Sauce Min. Weight 300g",
 					"brands": ["Country Kitchen"],
