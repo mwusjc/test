@@ -5557,6 +5557,10 @@ button.close {
     width: 86%;
     top: 240px;
   }
+
+  .carousel-indicators {
+    bottom: -7px !important;
+  }
 }
 /* End copy overlay on homepage carousel image */
 
