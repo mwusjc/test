@@ -25,7 +25,7 @@
         <a  href="/flyer"class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc">Fresh Ontario<br/>Pork Back Ribs</p>
+                    <p class="pull-left desktop dow-product-desc">Grade A Butterball Frozen Turkeys<br/>All Sizes<br/><h5 class="dow-product-details">Limit of 1 per family</h5></p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-2.png">
             </div>
@@ -36,7 +36,7 @@
         <a href="/flyer" class="item responsive">
             <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
                 <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc">Apples<br/>Red or Golden Delicious<br/>Fancy Grade</p>
+                    <p class="pull-left desktop dow-product-desc">Fresh Clementines<br/>Product of Morocco</p>
                 </div>
                 <img class="desktop" src="<?=site_url()?>/assets/images/home_price-3.png">
             </div>

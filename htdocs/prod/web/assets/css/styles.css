@@ -5492,6 +5492,11 @@ button.close {
   margin-top: -25px;
 }
 
+.dow-product-details {
+  font-weight: bold;
+  line-height: 24px;
+}
+
 /* Start copy overlay on homepage carousel image */
 .carousel-item-container {
   float: none;
