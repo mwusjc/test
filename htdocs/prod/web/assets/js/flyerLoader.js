@@ -39,10 +39,13 @@ var fl = {
 		thursday.setDate(thursday.getDate()+1);
 		t.setDate(t.getDate()+1);
 		nextWednesday = t;
-		//console.log(nextWednesday.getDate());
 		nextWednesday.setDate(nextWednesday.getDate()+6);
-		//console.log(nextWednesday.getDate());
-		return thursday.toDateString() +" - "+ nextWednesday.toDateString();
+		var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
+		//Check if current Flyer range is either of the "normal" weeks during 2 week exception period and adjust duration shown on screen
+		if(range == "Fri Dec 11 2015 - Thu Dec 17 2015" || range == "Fri Dec 18 2015 - Thu Dec 24 2015") {
+			range = "Fri Dec 11 2015 - Thu Dec 24 2015";
+		}
+		return range;
 	},
 	getThursday: function(d) {
 		d = new Date(d);
@@ -132,11 +135,21 @@ var fl = {
 	},
 	previewFlyers: function() {
 		var currentWeek = fl.getWeek("current");
+		console.log("Current week: " + currentWeek);
 		var nextWeek = fl.getWeek("next");
+		console.log("Next week: " + nextWeek);
+
 		$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
 		$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
 		$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
 		$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
+		//Check if Flyer has entered what would normally be overlap period for 2 week exception, adjust duration dates and hide what would normally be "Next Weeks Flyer"
+		if(nextWeek == "20151217" || currentWeek == "20151217") {
+			$("#thisWeekDates").html("Fri Dec 11 2015 - Thu Dec 24 2015");
+			document.querySelector(".modal-backdrop").remove();
+			$("#chooseFlyer").addClass("hide");
+			$("#nextFlyer .flyerDateRange").html("");
+		}
 		window.setTimeout('$("#chooseFlyer").modal("show");',1000);
 	},
 	checkOverlapDay: function(){
@@ -156,6 +169,11 @@ var fl = {
 	},
 	loadData: function(week,type){
 		var url = "/assets/flyers/"+week+"/"+type+"/data.json"; 
+		//Check if week for current flyer is second week of 2 week exception period and modify data URL accordingly
+		if(week == "20151217") {
+			url = "/assets/flyers/20151210/"+type+"/data.json";
+		}
+
 		var xmlhttp = new XMLHttpRequest(); 
 
 		xmlhttp.open("GET", url, true);
