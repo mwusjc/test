@@ -253,7 +253,7 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 
-# Node gitignore
+# Node gitignore defaults
 
 # Logs
 logs
@@ -290,7 +290,7 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
-# CodeIgniter gitignore
+# CodeIgniter gitignore defaults
 
 */config/development
 */logs/log-*.php
