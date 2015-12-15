@@ -31,7 +31,7 @@ if(isset($_POST['submit'])) {
     <h2>Scarborough</h2>
     <p>850 Ellesmere Road </br/>
       Scarborough, ON, M1P 2W5 </br/>
-      <a href="https://www.google.ca/maps/dir//830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4/@43.7651696,-79.2837722,17z/data=!4m13!1m4!3m3!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2s830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4!3b1!4m7!1m0!1m5!1m1!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2m2!1d-79.2837722!2d43.7651696" target="_blank" class="green">Get Directions</a></p>
+      <a href="https://www.google.ca/maps/dir//830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4/@43.7651696,-79.2837722,17z/data=!4m13!1m4!3m3!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2s830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4!3b1!4m7!1m0!1m5!1m1!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2m2!1d-79.2837722!2d43.7651696" target="_blank" class="scarborough direction green">Get Directions</a></p>
     <p><strong>Store Hours</strong> </br/>
     Mon-Sat: 7:00AM-10:00PM </br/>
     Sun: 8:00AM-8:00PM</p>
@@ -40,7 +40,7 @@ if(isset($_POST['submit'])) {
     <h2 style="margin-top: 50px;">Mississauga</h2>
     <p>50 Matheson Blvd. East </br/>
     Mississauga, ON, L4Z 1N5 </br/>
-    <a href="https://www.google.ca/maps/dir/Highland+Farms,+Matheson+Boulevard+East,+Mississauga,+ON//@43.6180221,-79.6594865,15z/data=!4m8!4m7!1m5!1m1!1s0x882b40a400000000:0x9671955aa8a955ae!2m2!1d-79.670644!2d43.620964!1m0" target="_blank" class="green">Get Directions</a></p>
+    <a href="https://www.google.ca/maps/dir/Highland+Farms,+Matheson+Boulevard+East,+Mississauga,+ON//@43.6180221,-79.6594865,15z/data=!4m8!4m7!1m5!1m1!1s0x882b40a400000000:0x9671955aa8a955ae!2m2!1d-79.670644!2d43.620964!1m0" target="_blank" class="mississauga direction green">Get Directions</a></p>
 
     <p><strong>Store Hours</strong> </br/>
     Mon-Sat: 7:00AM-10:00PM </br/>
