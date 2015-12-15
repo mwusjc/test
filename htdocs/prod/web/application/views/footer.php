@@ -65,7 +65,7 @@
 			}
 		});
 
-		// job application form validation
+		// Job application form validation
     $('#job-application').validate({
 			rules: {
 				first: "required",
