@@ -56,13 +56,42 @@
 				message: "required"
 			},
 			messages: {
-				first: "Please enter your firstname",
+				first: "Please enter your first name",
 				email: {
 					required: "Please enter your email address",
 					email: "Please enter a valid email address"
 				},
 				message: "Please enter your message"
 			}
+		});
+
+		// job application form validation
+    $('#job-application').validate({
+			rules: {
+				first: "required",
+				last: "required",
+				email: {
+					required: true,
+					email: true
+				},
+				phone: "required"
+			},
+			messages: {
+				first: "Please enter your first name",
+				last: "Please enter your last name",
+				email: {
+					required: "Please enter your email address",
+					email: "Please enter a valid email address"
+				},
+				phone: "Please enter your phone number",
+			}
+		});
+
+		$("#upload-resume-file").rules("add", {
+			required:true,
+			messages: {
+		    required: "Please select a file"
+		  }
 		});
 
   });
