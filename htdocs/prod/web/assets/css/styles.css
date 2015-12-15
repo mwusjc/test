@@ -7035,6 +7035,15 @@ h2{
   margin: 40px 0;
 }
 
+.required-fields {
+	margin-bottom: 15px;
+}
+
+.error {
+	color: red;
+	margin-bottom: 10px;
+}
+
 @media print {
   html,
   body {

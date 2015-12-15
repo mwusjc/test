@@ -37,12 +37,33 @@
 <script src="/assets/js/hlf.js"></script>
 <script src="/assets/js/hlf.recipes.js"></script>
 <script src="/assets/js/sizeify.js"></script>
+<script src="/assets/js/jquery.validate.min.js"></script>
 <script type='text/javascript'>
   jQuery(document).ready(function($) {
     sl.init();
     $("body").on("click", ".menu-toggle", function(){
       $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
     });
+
+    // contact us/visit-us form validation
+    $('#form').validate({
+			rules: {
+				first: "required",
+				email: {
+					required: true,
+					email: true
+				},
+				message: "required"
+			},
+			messages: {
+				first: "Please enter your firstname",
+				email: {
+					required: "Please enter your email address",
+					email: "Please enter a valid email address"
+				},
+				message: "Please enter your message"
+			}
+		});
 
   });
 </script>
