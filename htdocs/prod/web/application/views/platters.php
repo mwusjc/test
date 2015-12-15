@@ -81,7 +81,7 @@
 </main>
 
 <script type="text/html" id="tpl-platter-listing">
-    <div class="col-xs-6 col-sm-4 platter"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
+    <div class="col-xs-6 col-sm-4 platter" data-platter-name="_TITLE_"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
         <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" alt='_TITLE_' class='lazy' /></div>
         <div class="img_copy">_TITLE_</div>
         </a>
@@ -116,7 +116,21 @@
     
     jQuery(document).ready(function($) {
         hlf.platters.init(hlf.data.platters);
-    })
+
+        $(".platters-container .platter").click(function(e){
+            //Check if product modal is visible on page (using jQuery object here, :visible is not part of native CSS spec)
+            var numDetails = $("#myModal").length;
+            if (numDetails > 0){
+                //Use HTML5 History API to change page state based on current fragment identifier
+                var data = e.currentTarget.getAttribute("data-platter-name"),
+                    url = "#" + encodeURIComponent(data).toLowerCase();
+                    history.replaceState(url, null, url);
+            }
+            else{
+              //Do nothing if no product has been selected
+            }
+        });
+    });
        
           
     hlf.platters = {
@@ -175,14 +189,13 @@
                 that.togglePopup( $(this).data("toggle-details") ); 
             });
 
-            $('[data-slidedown]').on("click", function() {
-                var obj = $(this).data("slidedown"); 
-                $('.ck-products').slideUp();
-                $(obj).slideDown(); 
-            });
-            $('[data-slideup]').on("click", function() {
-                var obj = $(this).data("slideup"); 
-                $(obj).slideUp();
+            //Listen on body element for close event as modal is not accessible on initial page load
+            $('body').on("click", 'span.close', function() {
+                //Check if a fragment identifier exists on section close and remove it from the URL if present
+                if(document.URL.substr(document.URL.indexOf('#') > 0)) {
+                    var resetURL = document.URL.substr(0, document.URL.indexOf('#'));
+                    window.location = resetURL;
+                }
             });
             
             $('body').on("click", '[data-add-cart]', function(e) {

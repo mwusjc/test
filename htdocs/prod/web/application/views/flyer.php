@@ -105,6 +105,30 @@
     jQuery(document).ready(function($) {
       fl.init();
 
+      $(document.body).on('click', '.imageMap', function(e){
+          var currentItem = e.currentTarget.getAttribute("data-item-name");
+          //Check to make sure the modal that appears matches the selected product name based on the data-attribute specified
+          var numDetails = $(".productPopup div[data-item-name='" + currentItem + "']").length;
+          if (numDetails > 0){
+              //Use HTML5 History API to change page state based on current fragment identifier
+              var data = currentItem,
+                  url = "#" + encodeURIComponent(data).toLowerCase();
+                  history.replaceState(url, null, url);
+          }
+          else{
+            //Do nothing if no product has been selected
+          }
+      });
+
+      //Listen on body element for close event as modal is not accessible on initial page load
+      $('body').on('click', 'span.close', function() {
+          //Check if a fragment identifier exists on section close and remove it from the URL if present
+          if(document.URL.substr(document.URL.indexOf('#') > 0)) {
+              var resetURL = document.URL.substr(0, document.URL.indexOf('#'));
+              window.location = resetURL;
+          }
+      });
+
       $(".currentFlyerDateRange").html(fl.getWeekRange("current"));
       $("body").on('click','#currentFlyer', function(){
         fl.loadData(fl.getWeek("current"),"desktop");
@@ -131,6 +155,6 @@
           $(".productPopup").modal("hide");
         }
       });
-      });
+    });
 
 </script>
