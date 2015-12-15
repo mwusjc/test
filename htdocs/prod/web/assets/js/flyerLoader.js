@@ -103,9 +103,6 @@ var fl = {
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
-				if (prod.pricing.indexOf("$")<0){
-					prod.pricing = "$"+prod.pricing;
-				}
 				html += 	"<div class='modal fade out "+type+" productPopup' id='"+type+"productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
 				html += 	'	<div class="modal-dialog" role="document">'
 				html += 	'		<div class="modal-content">'
@@ -117,7 +114,7 @@ var fl = {
 				html += 	'					</div>'
 				html += 	'					<div class="col-xs-12 col-sm-6">'
 				html += 	'						'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
-				html += 	'						<h2 class="title">'+prod.name+'</h2>'      
+				html += 	'						<h2 class="title">'+prod.name+'</h2>'     
 				html += 	'						<div class="pricing">'+prod.pricing+'</div>'
 				html += 	'						<div class="packaging">'+prod.packaging+'</div>'
 				html += 	'						<a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a>'
@@ -257,9 +254,6 @@ var fl = {
 				var brandstring = "";
 				for (var b = 0; b < prod.brands.length; b++){
 					brandstring+= prod.brands[b] + "|";
-				}
-				if (prod.pricing.indexOf("$")<0){
-					prod.pricing = "$"+prod.pricing;
 				}
 				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'">'
 				html+=	    '	<div class="col-xs-12 col-sm-3 text-center">'
