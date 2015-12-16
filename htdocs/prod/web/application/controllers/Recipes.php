@@ -22,7 +22,9 @@ class Recipes extends CI_Controller {
 
         $this->data->recipe = $this->recipes_model->get($slug,null,"long")->{$slug};
         
-        $this->data->recommended = $this->recipes_model->get_recommended($slug);
+        $recipe = $this->recipes_model->get($slug)->{$slug};
+        $currentCategory = $recipe->CategoryID;
+        $this->data->recommended = $this->recipes_model->get_related($slug, $currentCategory);
 
         $this->load->view("header");
         $this->load->view("recipe", $this->data);
