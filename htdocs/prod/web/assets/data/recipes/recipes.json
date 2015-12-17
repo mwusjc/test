@@ -898,5 +898,271 @@ about 6 cups), unthawed
 			}
 		],
 		"title": "Spring Style Beef Stir-Fry"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "meat"
+			},
+			{
+				"name": "pasta"
+			}
+		],
+		"image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+		"ingredients": "1 pound boneless sirloin steak  
+		1 tablespoon vegetable oil  
+		2 tablespoons butter  
+		1-1/2 cups sliced mushrooms  
+		1 onion, chopped  
+		2 tablespoons all-purpose flour  
+		1-1/2 cups beef stock  
+		1/2 teaspoon Worcestershire sauce  
+		1 package (375g) medium egg noodles  
+		1/2 cup light sour cream",
+		"instructions": "Cut steak into 1/4 inch strips. In skillet, heat oil and 1 tablespoon of butter over medium-high heat. Add steak and cook 1 minute, or until browned, stirring frequently. Remove from pan. Melt remaining butter in pan and reduce heat to medium. Add mushrooms and onion; cook 3 minutes or until softened, stirring occasionally. Add flour and cook 1 minute, stirring constantly. Gradually stir in stock and Worcestershire sauce. Cook 3 minutes or until mixture begins to simmer, stirring constantly. Reduce heat to low and cook 10 minutes. Meanwhile, in pot of boiling, salted water, cook pasta 8-10 minutes, or until tender, but firm. Drain pasta. Return beef to mushroom sauce and cook 2 minutes, or until meat is heated through. Remove from heat and stir in sour cream. Pour sauce over noodles and serve immediately.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_grilled_mustarddill_bugers.jpg",
+				"url": "recipes/383/Grilled-Mustard-Dill-Burgers",
+				"title": "Grilled Mustard-Dill Burgers"
+			},
+			{
+				"image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+				"url": "recipes/380/Spring-Style-Beef-Stir-Fry",
+				"title": "Spring Style Beef Stir-Fry"
+			},
+			{
+				"image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+				"url": "recipes/382/Cantonese-Pork-Chops",
+				"title": "Cantonese Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+				"url": "recipes/384/Grilled-Honey-Garlic-Pork-Chops",
+				"title": "Grilled Honey Garlic Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+				"url": "recipes/385/Lemon-Pork-Chops",
+				"title": "Lemon Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_onepot_itl_sausage.jpg",
+				"url": "recipes/386/One-Pot-Italian-Sausages-with-Potatoes",
+				"title": "One-Pot Italian Sausages with Potatoes"
+			},
+			{
+				"image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+				"url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
+				"title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
+			},
+			{
+				"image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+				"url": "recipes/388/Rib-Steaks-with-Beer",
+				"title": "Rib Steaks with Beer"
+			},
+			{
+				"image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+				"url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
+				"title": "Sirloin Steak with Wine & Shallot Sauce"
+			}
+		],
+		"title": "Beef Stroganoff"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "meat"
+			},
+			{
+				"name": "international dishes"
+			}
+		],
+		"image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+		"ingredients": "6 loin pork chops  
+		1 can apricot halves, drain & reserve juice  
+		2 tablespoons soy sauce  
+		1 clove garlic, crushed  
+		1/2 teaspoon powdered ginger  
+		1-1/2 cups diagonally sliced celery  
+		1 onion, finely sliced  
+		Salt and pepper  
+		Hot cooked rice",
+		"instructions": "Dry the chops. Heat a covered fryer over medium heat. Remove cover and brown the chops well on both sides. Pour off any excess fat. In another bowl, combine apricot juice, soy sauce, garlic and ginger. Add to the chops, cover and reduce heat to a low setting. Simmer for 25 minutes, or until chops are tender. Add celery and onions; cover again and simmer for five minutes more, or until celery is just tender. Just before serving, add apricots and cook until heated through. Season sauce to taste and serve with hot cooked rice. Enjoy!",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+				"url": "recipes/384/Grilled-Honey-Garlic-Pork-Chops",
+				"title": "Grilled Honey Garlic Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+				"url": "recipes/385/Lemon-Pork-Chops",
+				"title": "Lemon Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+				"url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
+				"title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
+			},
+			{
+				"image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+				"url": "recipes/388/Rib-Steaks-with-Beer",
+				"title": "Rib Steaks with Beer"
+			},
+			{
+				"image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+				"url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
+				"title": "Sirloin Steak with Wine & Shallot Sauce"
+			},
+			{
+				"image": "assets/media/recipes/rec_grilled_mustarddill_bugers.jpg",
+				"url": "recipes/383/Grilled-Mustard-Dill-Burgers",
+				"title": "Grilled Mustard-Dill Burgers"
+			},
+			{
+				"image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+				"url": "recipes/380/Spring-Style-Beef-Stir-Fry",
+				"title": "Spring Style Beef Stir-Fry"
+			},
+			{
+				"image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+				"url": "recipes/381/Beef-Stroganoff",
+				"title": "Beef Stroganoff"
+			}
+		],
+		"title": "Cantonese Pork Chops"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "meat"
+			}
+		],
+		"image": "assets/media/recipes/rec_grilled_mustarddill_bugers.jpg",
+		"ingredients": "3 tablespoons sour cream  
+		3 tablespoons Dijon mustard  
+		1-1/2 tablespoons chopped fresh dill  
+		10 ounces lean ground beef  
+		2 hamburger buns, split  
+		2 tomato slices  
+		2 lettuce leaves",
+		"instructions": "Heat barbecue. Mix first three ingredients in medium bowl. Transfer three tablespoons of sauce to small bowl and reserve. Add meat to remaining sauce in medium bowl and mix gently. Divide meat mixture into two equal portions. Flatten each to 1/2 inch thick patty; sprinkle with salt and pepper. Grill cut side of buns until toasted, about one minute. Grill patties to desired doneness, about four minutes per side for medium. Spread bottom half of buns with reserved sauce. Top each with burger, tomato slice, lettuce and bun top.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+				"url": "recipes/380/Spring-Style-Beef-Stir-Fry",
+				"title": "Spring Style Beef Stir-Fry"
+			},
+			{
+				"image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+				"url": "recipes/382/Cantonese-Pork-Chops",
+				"title": "Cantonese Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+				"url": "recipes/384/Grilled-Honey-Garlic-Pork-Chops",
+				"title": "Grilled Honey Garlic Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+				"url": "recipes/385/Lemon-Pork-Chops",
+				"title": "Lemon Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_onepot_itl_sausage.jpg",
+				"url": "recipes/386/One-Pot-Italian-Sausages-with-Potatoes",
+				"title": "One-Pot Italian Sausages with Potatoes"
+			},
+			{
+				"image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+				"url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
+				"title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
+			},
+			{
+				"image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+				"url": "recipes/388/Rib-Steaks-with-Beer",
+				"title": "Rib Steaks with Beer"
+			},
+			{
+				"image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+				"url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
+				"title": "Sirloin Steak with Wine & Shallot Sauce"
+			},
+			{
+				"image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+				"url": "recipes/381/Beef-Stroganoff",
+				"title": "Beef Stroganoff"
+			}	
+		],
+		"title": "Grilled Mustard-Dill Burgers"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "meat"
+			}
+		],
+		"image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+		"ingredients": "1/4 cup lemon juice  
+		1/4 cup honey  
+		2 tablespoons soy sauce  
+		1 tablespoon dry sherry  
+		2 cloves garlic, minced  
+		4 boneless center-cut pork chops  
+		Large pineapple chunks  
+		Cooked rice",
+		"instructions": "Combine all ingredients except pork chops in small bowl. Place pork in shallow baking dish; pour marinade over pork. Cover and refrigerate 4 hours or overnight. Remove pork from marinade. Heat remaining marinade in small saucepan over medium heat to a simmer. Grill pork over medium-hot coals 12 to15 minutes, turning once during cooking and basting frequently with marinade. Briefly grill pineapple chunks and brush with marinade. Serve with cooked rice, seasoned with a touch of honey, vegetable oil and basil.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+				"url": "recipes/385/Lemon-Pork-Chops",
+				"title": "Lemon Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+				"url": "recipes/382/Cantonese-Pork-Chops",
+				"title": "Cantonese Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+				"url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
+				"title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
+			},
+			{
+				"image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+				"url": "recipes/388/Rib-Steaks-with-Beer",
+				"title": "Rib Steaks with Beer"
+			},
+			{
+				"image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+				"url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
+				"title": "Sirloin Steak with Wine & Shallot Sauce"
+			},
+			{
+				"image": "assets/media/recipes/rec_grilled_mustarddill_bugers.jpg",
+				"url": "recipes/383/Grilled-Mustard-Dill-Burgers",
+				"title": "Grilled Mustard-Dill Burgers"
+			},
+			{
+				"image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+				"url": "recipes/380/Spring-Style-Beef-Stir-Fry",
+				"title": "Spring Style Beef Stir-Fry"
+			},
+			{
+				"image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+				"url": "recipes/381/Beef-Stroganoff",
+				"title": "Beef Stroganoff"
+			}
+		],
+		"title": "Grilled Honey Garlic Pork Chops"
 	}
 }
