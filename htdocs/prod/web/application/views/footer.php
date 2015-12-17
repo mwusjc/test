@@ -4,7 +4,7 @@
 
       <div class="subscribe col-xs-12 col-sm-4 pull-right">
         <!-- Begin MailChimp Signup Form -->
-            <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                 <p>Subscribe to our e-flyer!</p>
                 <input type="email" value="" name="EMAIL" class="col-xs-12 col-sm-12" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
                 <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
@@ -37,63 +37,13 @@
 <script src="/assets/js/hlf.js"></script>
 <script src="/assets/js/hlf.recipes.js"></script>
 <script src="/assets/js/sizeify.js"></script>
-<script src="/assets/js/jquery.validate.min.js"></script>
+<script src="/assets/js/validate.js"></script>
 <script type='text/javascript'>
   jQuery(document).ready(function($) {
     sl.init();
     $("body").on("click", ".menu-toggle", function(){
       $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
     });
-
-    // contact us/visit-us form validation
-    $('#form').validate({
-			rules: {
-				first: "required",
-				email: {
-					required: true,
-					email: true
-				},
-				message: "required"
-			},
-			messages: {
-				first: "Please enter your first name",
-				email: {
-					required: "Please enter your email address",
-					email: "Please enter a valid email address"
-				},
-				message: "Please enter your message"
-			}
-		});
-
-		// Job application form validation
-    $('#job-application').validate({
-			rules: {
-				first: "required",
-				last: "required",
-				email: {
-					required: true,
-					email: true
-				},
-				phone: "required"
-			},
-			messages: {
-				first: "Please enter your first name",
-				last: "Please enter your last name",
-				email: {
-					required: "Please enter your email address",
-					email: "Please enter a valid email address"
-				},
-				phone: "Please enter your phone number",
-			}
-		});
-
-		$("#upload-resume-file").rules("add", {
-			required:true,
-			messages: {
-		    required: "Please select a file"
-		  }
-		});
-
   });
 </script>
 <script>
