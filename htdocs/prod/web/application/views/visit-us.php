@@ -70,7 +70,7 @@ Or have a fresh idea that could make your Highland Farms experience even more en
     <form method="post" action="" id="form">
       <div class="row">
         <div class="col-xs-12 col-sm-6 visit-us-form-field">
-        	<input name="first" class="visit-us-half-width" type="text" value="" aria-required="true" aria-label="First Name" placeholder="First Name*" required/>
+        	<input name="first" class="visit-us-half-width" type="text" value="" aria-required="true" aria-label="First Name" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/>
         </div>
       	<div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
       </div>
@@ -81,11 +81,12 @@ Or have a fresh idea that could make your Highland Farms experience even more en
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="" aria-required="true" aria-label="Your Message" placeholder="Your Message*" required></textarea></div>
+        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="" aria-required="true" aria-label="Your Message" placeholder="Your Message*" title="Message should not be left blank." x-moz-errormessage="Message should not be left blank." required></textarea></div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 visit-us-form-field"><input name="submit" type="submit" aria-label="Submit" value="Submit" class="green" /></div>
       </div>
+      <span class="error" id="form-status"></span>
     </form>
   </div>
 </div>

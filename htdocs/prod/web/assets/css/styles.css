@@ -7041,7 +7041,14 @@ h2{
 
 .error {
 	color: red;
-	margin-bottom: 10px;
+}
+
+.invalid input:required:invalid, .invalid textarea:required:invalid {
+    border: 1px solid red;
+}
+
+.invalid input:required:valid, .invalid textarea:required:valid {
+    background: #DFF0D8;
 }
 
 @media print {

@@ -73,7 +73,7 @@ if(isset($_POST['submit'])) {
                 <div class="col-xs-12 col-sm-6"><input name="last" type="text" value="" placeholder="Last Name*" required/></div>
               </div>
               <div class="row">
-                <div class="col-xs-12 col-sm-6"><input name="email" type="text" value="" placeholder="Email*" required/></div>
+                <div class="col-xs-12 col-sm-6"><input name="email" type="email" value="" placeholder="Email*" required/></div>
                 <div class="col-xs-12 col-sm-6"><input name="phone" type="text" value="" placeholder="Phone Number*" required/></div>
               </div>
               <div class="row">
@@ -82,7 +82,7 @@ if(isset($_POST['submit'])) {
                             <a class='btn-file' href='javascript:;'>
                                 <span class='label-file' id="upload-resume">Upload Resume*</span>
                                 <input type="hidden" name="file_resume_val" id="upload-resume-val"/>
-                                <input type="file" id="upload-resume-file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="attachments[]" size="40"  onchange='$("#upload-resume").html($(this).val());$("#upload-resume-val").val($(this).val());' multiple/>
+                                <input type="file" id="upload-resume-file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="attachments[]" size="40"  onchange='$("#upload-resume").html($(this).val());$("#upload-resume-val").val($(this).val());' multiple required />
                             </a>
                     </div>
                 </div>
@@ -99,6 +99,7 @@ if(isset($_POST['submit'])) {
               <div class="row">
                 <div class="col-xs-12 col-sm-12"><input name="submit" type="submit" value="Submit Application" class="green" style="margin-top: 15px" /></div>
               </div>
+              <span class="error" id="form-status"></span>
             </form>
         </div>
     </div>
