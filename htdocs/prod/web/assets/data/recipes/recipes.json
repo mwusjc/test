@@ -1,5 +1,6 @@
 {
 	"recipe": {
+		"category": "desserts",
 		"image": "assets/media/recipes/rec_berries_cream.jpg",
 		"ingredients": "6 eggs (at room temperature)  
 		1 cup granulated sugar  
@@ -36,7 +37,7 @@ strawberries
 				"title": "Creme Brulee"
 			},
 			{
-				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
 				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
 				"title": "Original Chocolate Chip Cookies"
 			},
@@ -69,6 +70,7 @@ strawberries
 		"title": "Berries & Cream"
 	},
 	"recipe": {
+		"category": "desserts",
 		"image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
 		"ingredients": "1 cup hulled, sliced strawberries  
 		1 cup of raspberries  
@@ -120,7 +122,7 @@ of the fruit
 				"title": "Creme Brulee"
 			},
 			{
-				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
 				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
 				"title": "Original Chocolate Chip Cookies"
 			}
@@ -128,6 +130,7 @@ of the fruit
 		"title": "Berry Good Lemonade"
 	},
 	"recipe": {
+		"category": "desserts",
 		"image": "assets/media/recipes/rec_caramel_apples.jpg",
 		"ingredients": "5 McIntosh apples  
 		1 cup granulated sugar  
@@ -160,7 +163,7 @@ of the fruit
 				"title": "Creme Brulee"
 			},
 			{
-				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
 				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
 				"title": "Original Chocolate Chip Cookies"
 			},
@@ -198,6 +201,7 @@ of the fruit
 		"title": "Caramel Apples"
 	},
 	"recipe": {
+		"category": "desserts",
 		"image": "assets/media/recipes/rec_creme_brulee.jpg",
 		"ingredients": "6 egg yolks  
 		6 tablespoons sugar  
@@ -209,7 +213,7 @@ of the fruit
 		"publish": true,
 		"related": [
 			{
-				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
 				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
 				"title": "Original Chocolate Chip Cookies"
 			},
@@ -262,6 +266,7 @@ of the fruit
 		"title": "Creme Brulee"
 	},
 	"recipe": {
+		"category": "desserts",
 		"image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
 		"ingredients": "1/2 cup orange juice  
 		1/2 cup granulated sugar  
@@ -304,6 +309,7 @@ of the fruit
 		"title": "Ginger, Berry & Cantaloupe Sherbert"
 	},
 	"recipe": {
+		"category": "desserts",
 		"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
 		"ingredients": "2 tablespoons cornstarch  
 		2/3 cup granulated sugar  
@@ -347,6 +353,7 @@ Additional berries, mint sprigs and grated lemon zest",
 		"title": "Lemon Fool with Fresh Berries"
 	},
 	"recipe": {
+		"category": "desserts",
 		"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
 		"ingredients": "1 cup plus1 tablespoon sugar  
 		3/4 cup fresh lemon juice  
@@ -393,6 +400,7 @@ Additional berries, mint sprigs and grated lemon zest",
 		"title": "Lemon Mousse with Fresh Berries"
 	},
 	"recipe": {
+		"category": "desserts",
 		"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
 		"ingredients": "2 - 12 ounce packages of frozen mixed berries (such as 
 blueberries, blackberries, strawberries, and raspberries; 
@@ -422,7 +430,7 @@ about 6 cups), unthawed
 				"title": "Creme Brulee"
 			},
 			{
-				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
 				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
 				"title": "Original Chocolate Chip Cookies"
 			},
@@ -465,6 +473,7 @@ about 6 cups), unthawed
 		"title": "Mixed Berry Crisp"
 	},
 	"recipe": {
+		"category": "desserts",
 		"image": "assets/media/recipes/rec_orange_driz_slices.jpg",
 		"ingredients": "6 slices angel cake or pound cake  
 		Orange Sauce:  
@@ -511,5 +520,33 @@ about 6 cups), unthawed
 			}
 		],
 		"title": "Orange Drizzled Cake Slices"
+	},
+	"recipe": {
+		"category": "desserts",
+		"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
+		"ingredients": "1/2 cup butter  
+		1/2 cup brown sugar  
+		1/2 cup white sugar  
+		1 teaspoon vanilla extract  
+		1 egg  
+		1-1/8 cups flour  
+		1/2 teaspoon baking soda  
+		1 bag of chocolate chips (6 oz.)",
+		"instructions": "Preheat oven to 375°F. In a small pan, melt the butter. While it's hot, add both sugars. Stir then let cool a bit. While the butter mixture is still cooling, mix the flour, soda, and salt in the mixing bowl. In a small bowl, beat the egg lightly with a fork, then add the egg and vanilla to the butter mixture. Stir! Now add the butter, egg, and vanilla to the flour mixture in the mixing bowl. Stir again, and add chocolate chips. When everything is mixed well, put the bowl in the refrigerator to cool for about an hour. Roll the dough into walnut-sized balls, and place them on an ungreased cookie sheet and bake for 10 minutes. Enjoy!",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+				"url": "recipes/372/Pastry-Fruit-Tarts",
+				"title": "Pastry Fruit Tarts"
+			},
+			{
+				"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+				"url": "recipes/369/Mixed-Berry-Crisp",
+				"title": "Mixed Berry Crisp"
+			}
+		],
+		"title": "Original Chocolate Chip Cookies"
 	}
 }
