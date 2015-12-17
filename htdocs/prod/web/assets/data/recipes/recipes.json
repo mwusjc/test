@@ -1,6 +1,10 @@
 {
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_berries_cream.jpg",
 		"ingredients": "6 eggs (at room temperature)  
 		1 cup granulated sugar  
@@ -70,7 +74,11 @@ strawberries
 		"title": "Berries & Cream"
 	},
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
 		"ingredients": "1 cup hulled, sliced strawberries  
 		1 cup of raspberries  
@@ -130,7 +138,11 @@ of the fruit
 		"title": "Berry Good Lemonade"
 	},
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_caramel_apples.jpg",
 		"ingredients": "5 McIntosh apples  
 		1 cup granulated sugar  
@@ -201,7 +213,11 @@ of the fruit
 		"title": "Caramel Apples"
 	},
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_creme_brulee.jpg",
 		"ingredients": "6 egg yolks  
 		6 tablespoons sugar  
@@ -266,7 +282,11 @@ of the fruit
 		"title": "Creme Brulee"
 	},
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
 		"ingredients": "1/2 cup orange juice  
 		1/2 cup granulated sugar  
@@ -309,7 +329,11 @@ of the fruit
 		"title": "Ginger, Berry & Cantaloupe Sherbert"
 	},
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
 		"ingredients": "2 tablespoons cornstarch  
 		2/3 cup granulated sugar  
@@ -353,7 +377,11 @@ Additional berries, mint sprigs and grated lemon zest",
 		"title": "Lemon Fool with Fresh Berries"
 	},
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
 		"ingredients": "1 cup plus1 tablespoon sugar  
 		3/4 cup fresh lemon juice  
@@ -400,7 +428,11 @@ Additional berries, mint sprigs and grated lemon zest",
 		"title": "Lemon Mousse with Fresh Berries"
 	},
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
 		"ingredients": "2 - 12 ounce packages of frozen mixed berries (such as 
 blueberries, blackberries, strawberries, and raspberries; 
@@ -473,7 +505,11 @@ about 6 cups), unthawed
 		"title": "Mixed Berry Crisp"
 	},
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_orange_driz_slices.jpg",
 		"ingredients": "6 slices angel cake or pound cake  
 		Orange Sauce:  
@@ -522,7 +558,11 @@ about 6 cups), unthawed
 		"title": "Orange Drizzled Cake Slices"
 	},
 	"recipe": {
-		"category": "desserts",
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
 		"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
 		"ingredients": "1/2 cup butter  
 		1/2 cup brown sugar  
@@ -548,5 +588,315 @@ about 6 cups), unthawed
 			}
 		],
 		"title": "Original Chocolate Chip Cookies"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
+		"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+		"ingredients": "1 package pie crust mix  
+		1 egg, beaten  
+		1 to 2 tablespoons cold water  
+		1-1/2 cups half & half milk  
+		1 package instant pudding mix (vanilla)  
+		Fresh berries, sliced mandarin oranges, strawberries, peaches & kiwi fruit",
+		"instructions": "Preheat oven to 425°F. Combine pie crust mix with egg. Add just enough water to form dough. Form dough rounds and press inside small tart pans. Pierce pastry with fork. Place on baking sheet & bake for 10 mins. Cool completely & remove from tins. Beat pudding mix and half & half milk well. Spoon into shells and arrange fresh fruit slices on pudding. Chill & serve.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_creme_brulee.jpg",
+				"url": "recipes/362/Creme-Brulee",
+				"title": "Creme Brulee"
+			},
+			{
+				"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+				"url": "recipes/369/Mixed-Berry-Crisp",
+				"title": "Mixed Berry Crisp"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
+				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
+				"title": "Original Chocolate Chip Cookies"
+			}
+		],
+		"title": "Pastry Fruit Tarts"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
+		"image": "assets/media/recipes/rec_peach_amaretto_sundaes.jpg",
+		"ingredients": "2 pints vanilla ice cream, softened slightly  
+		5 tablespoons amaretto  
+		2 tablespoons brandy  
+		6 ripe peaches, peeled if desired, pitted, cut into 1/2 inch thick slices  
+		1/4 cup sugar  
+		1 cup crushed amaretti cookies",
+		"instructions": "Combine ice cream, 3 tablespoons amaretto and 1 tablespoon brandy in large bowl. Stir, to blend well. Cover and freeze until firm. (Can be prepared 2 days ahead. Keep ice cream mixture frozen.) Combine peaches, sugar, remaining 2 tablespoons amaretto and remaining 1 tablespoon brandy in another large bowl. Toss to coat. Let peach mixture stand until sugar dissolves, tossing occasionally, about 15 minutes. Divide sliced peaches among 6 dessert bowls or wineglasses. Spoon vanilla ice cream mixture atop peaches. Sprinkle desserts with crushed amaretti cookies. Serve immediately.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_caramel_apples.jpg",
+				"url": "recipes/361/Caramel-Apples",
+				"title": "Caramel Apples"
+			},
+			{
+				"image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+				"url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
+				"title": "Ginger, Berry & Cantaloupe Sherbert"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+				"url": "recipes/374/Strawberries-Cream-Cake",
+				"title": "Strawberries & Cream Cake"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
+				"url": "recipes/360/Berry-Good-Lemonade",
+				"title": "Berry Good Lemonade"
+			}
+		],
+		"title": "Peach Amaretto Sundaes"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "desserts"
+			}
+		],
+		"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+		"ingredients": "6 eggs (at room temperature)  
+		1 cup granulated sugar  
+		1 teaspoon vanilla  
+		1 cup cake & flour pastry  
+		1/2 teaspoon baking powder  
+		1/3 cup butter, melted & cooled until lukewarm  
+		2 cups whipping cream  
+		2 tablespoons granulated sugar  
+		1/2 teaspoon vanilla  
+		2 cups strawberries, sliced whole strawberries  
+		chocolate-dipped strawberries  
+		1 oz. melted semi-sweet chocolate",
+		"instructions": "Grease 13x9-inch cake pan. Line with waxed paper and grease again. Add eggs in large mixing bowl and beat until foamy; gradually beat in sugar. Beat at high speed for 8 to 10 minutes or until thick, pale yellow and tripled in volume. Beat in vanilla. Sift together flour and baking powder; lightly fold in batter. Fold in butter. Pour into prepared pan. Bake in 325°F oven for 25 to 30 minutes or until cake springs back when lightly touched in centre. Turn cake out into rack; remove paper and let cool. Cut cake in 1/2 lengthwise; cut halves horizontally to make total of 4 layers. Whip cream; beat in sugar and vanilla. Set 1 cup aside. Fold strawberries into remaining cream. Assemble cake, spreading 1/3 of the filling over each layer. Top cake with remaining cream. Decorate with berries. Drizzle with melted chocolate.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+				"url": "recipes/370/Orange-Drizzled-Cake-Slices",
+				"title": "Orange Drizzled Cake Slices"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			}
+		],
+		"title": "Strawberries & Cream Cake"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "international dishes"
+			},
+			{
+				"name": "seafood"
+			}
+		],
+		"image": "assets/media/recipes/rec_grlld_ital_swordfish.jpg",
+		"ingredients": "6 (6oz) swordfish steaks  
+		3 tablespoons lime juice  
+		2 tablespoons olive oil  
+		2 tablespoons sour cream  
+		2 tablespoons granulated sugar  
+		1/4 teaspoon salt  
+		1/2 teaspoon oregano  
+		1/2 teaspoon thyme leaves  
+		1/2 teaspoon cracked black pepper  
+		1/2 crushed red chilli peppers",
+		"instructions": "Wash the steaks and pat dry. Place in a shallow pan. In another bowl, combine the lime juice, oil, sour cream, sugar, salt, oregano, thyme leaves, black pepper and chilli pepper. Mix ingredients well. Pour the mixture over the swordfish steaks and allow to marinate for at least four hours. Grill steaks on the barbecue for five minutes per side, while continuously brushing with marinade. Serve swordfish with potato wedges or a variety of fresh steamed or grilled vegetables.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+				"url": "recipes/379/Italian-Chicken-Rice-Risotto",
+				"title": "Italian Chicken & Rice (Risotto)"
+			},
+			{
+				"image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+				"url": "recipes/378/Indian-Style-Chicken-Breast",
+				"title": "Indian-Style Chicken Breast"
+			},
+			{
+				"image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+				"url": "recipes/380/Spring-Style-Beef-Stir-Fry",
+				"title": "Spring Style Beef Stir-Fry"
+			}
+		],
+		"title": "Grilled Italian Swordfish"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "international dishes"
+			},
+			{
+				"name": "poultry"
+			}
+		],
+		"image": "recipes/378/Indian-Style-Chicken-Breast",
+		"ingredients": "1/2 cup plain low-fat yogurt  
+		1 tablespoon tomato paste  
+		2 green onions, coarsely chopped  
+		2 cloves garlic, quartered  
+		1 piece (1 inch) peeled ginger root, coarsely chopped  
+		1/2 teaspoon ground cumin  
+		1/2 teaspoon ground coriander  
+		1/2 teaspoon salt  
+		1/4 teaspoon cayenne pepper  
+		4 chicken breasts (bone-in)  
+		2 tablespoons chopped fresh coriander or parsley",
+		"instructions": "Preheat barbecue grill or oven to 350°F. In a food processor, combine yogurt, tomato paste, green onions, garlic, ginger, cumin, coriander, salt and cayenne pepper; puree until smooth. Arrange chicken in a shallow dish; coat with yogurt mixture. Cover and refrigerate 30 minutes before cooking. Place chicken skin-side down on greased grill over medium high heat; cook for 15 minutes. Brush with marinade; turn and cook for 10 to 15 minutes longer or until golden and juices run clear. (Or place chicken on rack set on baking dish; roast, basting after 30 minutes with marinade, for 50 to 55 minutes or until juices run clear.) Serve garnished with chopped coriander.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+				"url": "recipes/379/Italian-Chicken-Rice-Risotto",
+				"title": "Italian Chicken & Rice (Risotto)"
+			},
+			{
+				"image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+				"url": "recipes/380/Spring-Style-Beef-Stir-Fry",
+				"title": "Spring Style Beef Stir-Fry"
+			},
+			{
+				"image": "assets/media/recipes/rec_grlld_ital_swordfish.jpg",
+				"url": "recipes/377/Grilled-Italian-Swordfish",
+				"title": "Grilled Italian Swordfish"
+			}
+		],
+		"title": "Indian-Style Chicken Breast"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "international dishes"
+			},
+			{
+				"name": "poultry"
+			}
+		],
+		"image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+		"ingredients": "1lb boneless skinless chicken breast  
+		2 tablespoons butter  
+		1 onion, finely chopped  
+		1 cup short-grain rice  
+		1 clove garlic, minced  
+		1-1/4 cups chicken broth, double strength  
+		2 cups green beans cut into 1 inch (2.5 cm) lengths  
+		1/2 cup diced red pepper  
+		1 teaspoon grated lemon peel  
+		1-1/2 cups milk  
+		1/2 cup grated Canadian Parmesan cheese  
+		Salt and pepper, to taste",
+		"instructions": "Cut chicken into 1 inch (2.5 cm) cubes. In a large fry pan, melt butter. Add chicken and cook over medium heat until lightly browned. Add onion, rice and garlic; cook and stir for 4 minutes. Gradually add broth in small amounts, stirring frequently. (Allow broth to be absorbed by rice before adding more.) Add green beans, red pepper and lemon peel to chicken and rice mixture. Stir in milk. Cover and simmer for 10 minutes. Stir in cheese, season to taste and serve immediately.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_grlld_ital_swordfish.jpg",
+				"url": "recipes/377/Grilled-Italian-Swordfish",
+				"title": "Grilled Italian Swordfish"
+			},
+			{
+				"image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+				"url": "recipes/378/Indian-Style-Chicken-Breast",
+				"title": "Indian-Style Chicken Breast"
+			},
+			{
+				"image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+				"url": "recipes/380/Spring-Style-Beef-Stir-Fry",
+				"title": "Spring Style Beef Stir-Fry"
+			}
+		],
+		"title": "Italian Chicken & Rice (Risotto)"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "international dishes"
+			}
+		],
+		"image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+		"ingredients": "12 ounces boneless beef, cut into strips  
+		nonstick spray  
+		2 cloves of garlic, minced  
+		1 medium yellow summer squash, halved & sliced  
+		2 cups fresh broccoli cut into bite-size pieces  
+		1 teaspoon cooking oil  
+		1 cup cherry tomatoes, halved  
+		1/3 cup reduced-calorie or non-fat Italian dressing  
+		4 green onion, thinly sliced  
+		6 oz. cooked fettuccine or linguine  
+		1 tablespoon finely shredded Parmesan cheese, optional",
+		"instructions": "Trim fat from beef. Thinly slice beef across the grain into bite-size strips. Spray a wok or large nonstick skillet with nonstick spray coating. Heat over medium heat. Stir-fry garlic for 15 seconds. Add squash & broccoli, stir-fry for 4 to 5 minutes or till crisp tender. Remove veggies from wok. Add oil to wok. Add beef to wok. Stir-fry for 3 to 4 minutes. Return veggies to wok. Add cherry tomatoes, salad dressing & onion greens. Mix. Cover & heat through. Serve beef mixture over hot pasta. Sprinkle with Parmesan cheese, if desired. Enjoy this delicious Spring Sensation!",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+				"url": "recipes/378/Indian-Style-Chicken-Breast",
+				"title": "Indian-Style Chicken Breast"
+			},
+			{
+				"image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+				"url": "recipes/379/Italian-Chicken-Rice-Risotto",
+				"title": "Italian Chicken & Rice (Risotto)"
+			},
+			{
+				"image": "assets/media/recipes/rec_grlld_ital_swordfish.jpg",
+				"url": "recipes/377/Grilled-Italian-Swordfish",
+				"title": "Grilled Italian Swordfish"
+			}
+		],
+		"title": "Spring Style Beef Stir-Fry"
 	}
 }
