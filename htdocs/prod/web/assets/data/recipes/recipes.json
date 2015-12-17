@@ -1,0 +1,515 @@
+{
+	"recipe": {
+		"image": "assets/media/recipes/rec_berries_cream.jpg",
+		"ingredients": "6 eggs (at room temperature)  
+		1 cup granulated sugar  
+		1 teaspoon vanilla  
+		1 cup cake & flour pastry  
+		1/2 teaspoon baking powder  
+		1/3 cup butter, melted & cooled until lukewarm  
+		2 cups whipping cream  
+		2 tablespoons granulated sugar  
+		1/2 teaspoon vanilla  
+		1 cup strawberries, sliced  
+		1/2 cup blueberries  
+		1/2 cup raspberries  
+		whole strawberries, blueberries, raspberries chocolate-dipped 
+strawberries  
+		1 oz. Melted semi-sweet chocolate, if desired",
+		"instructions": "Grease small individual cake pans. Line with waxed paper and grease again. Add eggs in large mixing bowl and beat until foamy; gradually beat in sugar. Beat at high speed for 8 to 10 minutes or until thick, pale yellow and tripled in volume. Beat in vanilla. Sift together flour and baking powder; lightly fold in batter. Fold in butter. Pour into prepared pans. Bake in 325°F oven for 25 to 30 minutes or until cake springs back when lightly touched in centre. Turn cakes out into rack; remove paper and let cool. Whip cream; beat in sugar and vanilla. Set 1 cup aside. Fold berries (raspberries, blueberries, strawberries) into remaining cream. Assemble cake, spreading the filling underneath and over layer. Top cake with remaining cream. Decorate with berries. Drizzle with melted chocolate if desired.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+				"url": "recipes/369/Mixed-Berry-Crisp",
+				"title": "Mixed Berry Crisp"
+			},
+			{
+				"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+				"url": "recipes/372/Pastry-Fruit-Tarts",
+				"title": "Pastry Fruit Tarts"
+			},
+			{
+				"image": "assets/media/recipes/rec_creme_brulee.jpg",
+				"url": "recipes/362/Creme-Brulee",
+				"title": "Creme Brulee"
+			},
+			{
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
+				"title": "Original Chocolate Chip Cookies"
+			},
+			{
+				"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+				"url": "recipes/374/Strawberries-Cream-Cake",
+				"title": "Strawberries & Cream Cake"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+				"url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
+				"title": "Ginger, Berry & Cantaloupe Sherbert"
+			},
+			{
+				"image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
+				"url": "recipes/360/Berry-Good-Lemonade",
+				"title": "Berry Good Lemonade"
+			}
+		],
+		"title": "Berries & Cream"
+	},
+	"recipe": {
+		"image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
+		"ingredients": "1 cup hulled, sliced strawberries  
+		1 cup of raspberries  
+		3/4 cup plus 1 tablespoon sugar, depending on the sweetness 
+of the fruit  
+		1-1/2 cups lemon juice (4-5 large lemons)",
+		"instructions": "Place berries and sugar in a food processor and puree until liquid. Strain through a fine sieve, stirring with a spatula. Pour strained juice into a large pitcher. Add lemon juice and 1-3/4 cups water. Chill. Stir well before serving in tall, ice-filled glasses.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+				"url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
+				"title": "Ginger, Berry & Cantaloupe Sherbert"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+				"url": "recipes/374/Strawberries-Cream-Cake",
+				"title": "Strawberries & Cream Cake"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+				"url": "recipes/372/Pastry-Fruit-Tarts",
+				"title": "Pastry Fruit Tarts"
+			},
+			{
+				"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+				"url": "recipes/369/Mixed-Berry-Crisp",
+				"title": "Mixed Berry Crisp"
+			},
+			{
+				"image": "assets/media/recipes/rec_creme_brulee.jpg",
+				"url": "recipes/362/Creme-Brulee",
+				"title": "Creme Brulee"
+			},
+			{
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
+				"title": "Original Chocolate Chip Cookies"
+			}
+		],
+		"title": "Berry Good Lemonade"
+	},
+	"recipe": {
+		"image": "assets/media/recipes/rec_caramel_apples.jpg",
+		"ingredients": "5 McIntosh apples  
+		1 cup granulated sugar  
+		3/4 cup dark corn syrup  
+		1 cup heavy cream  
+		2 tablespoons unsalted butter  
+		1 teaspoon vanilla extract",
+		"instructions": "Wash and dry the apples, remove their stems and stick a wooden skewer into the stem end of each one. Set the skewered apples aside. In a small saucepan, combine sugar, syrup, cream and butter and place over high heat. Bring to a boil and boil for 3 to 5 minutes, or until mixture registers 245°F on a candy thermometer. Remove from heat and swirl in the vanilla. Quickly dip the apples, one at a time, into the caramel, and spoon extra over the apples to cover completely. Hold the skewer between the palms of your hands and spin for a moment to cool. Place upright on waxed paper.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+				"url": "recipes/370/Orange-Drizzled-Cake-Slices",
+				"title": "Orange Drizzled Cake Slices"
+			},
+			{
+				"image": "assets/media/recipes/rec_peach_amaretto_sundaes.jpg",
+				"url": "recipes/373/Peach-Amaretto-Sundaes",
+				"title": "Peach Amaretto Sundaes"
+			},
+			{
+				"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+				"url": "recipes/372/Pastry-Fruit-Tarts",
+				"title": "Pastry Fruit Tarts"
+			},
+			{
+				"image": "assets/media/recipes/rec_creme_brulee.jpg",
+				"url": "recipes/362/Creme-Brulee",
+				"title": "Creme Brulee"
+			},
+			{
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
+				"title": "Original Chocolate Chip Cookies"
+			},
+			{
+				"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+				"url": "recipes/369/Mixed-Berry-Crisp",
+				"title": "Mixed Berry Crisp"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+				"url": "recipes/374/Strawberries-Cream-Cake",
+				"title": "Strawberries & Cream Cake"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+				"url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
+				"title": "Ginger, Berry & Cantaloupe Sherbert"
+			}
+		],
+		"title": "Caramel Apples"
+	},
+	"recipe": {
+		"image": "assets/media/recipes/rec_creme_brulee.jpg",
+		"ingredients": "6 egg yolks  
+		6 tablespoons sugar  
+		3 cups half-and-half cream  
+		1 vanilla pod or 1 teaspoon vanilla extract  
+		1/2 cup light brown sugar",
+		"instructions": "Beat egg yolks slightly. Add sugar; beat 5 minutes or until eggs are lemon-coloured. Place cream and vanilla pod in top of double boiler; bring to boil. Pour small amount of hot mixture, beating constantly. Return to remaining hot mixture; cook over hot water 3 to 4 minutes or until slightly thickened. Remove vanilla pod. Pour mixture into heat-resistant serving dish. Chill 6 to 8 hours or until set. Sift brown sugar; sprinkle evenly over custard. Place under broiler about 4 inches from source of heat. Broil, watching carefully, 3 to 4 minutes or until brown sugar melts. Chill before serving.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
+				"title": "Original Chocolate Chip Cookies"
+			},
+			{
+				"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+				"url": "recipes/372/Pastry-Fruit-Tarts",
+				"title": "Pastry Fruit Tarts"
+			},
+			{
+				"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+				"url": "recipes/369/Mixed-Berry-Crisp",
+				"title": "Mixed Berry Crisp"
+			},
+			{
+				"image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+				"url": "recipes/370/Orange-Drizzled-Cake-Slices",
+				"title": "Orange Drizzled Cake Slices"
+			},
+			{
+				"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+				"url": "recipes/374/Strawberries-Cream-Cake",
+				"title": "Strawberries & Cream Cake"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+				"url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
+				"title": "Ginger, Berry & Cantaloupe Sherbert"
+			},
+			{
+				"image": "assets/media/recipes/rec_peach_amaretto_sundaes.jpg",
+				"url": "recipes/373/Peach-Amaretto-Sundaes",
+				"title": "Peach Amaretto Sundaes"
+			}
+		],
+		"title": "Creme Brulee"
+	},
+	"recipe": {
+		"image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+		"ingredients": "1/2 cup orange juice  
+		1/2 cup granulated sugar  
+		3 tablespoons finely chopped candied ginger  
+		4 cups cubed cantaloupe  
+		1 cup extra-thick or drained yogurt  
+		1 1/2 cups sliced strawberries  
+		1 1/2 cups fresh raspberries  
+		Fresh mint sprigs (optional)",
+		"instructions": "In saucepan, bring juice, sugar and ginger to boil; reduce heat to medium-low and simmer, stirring occasionally, for 3 minutes or until ginger is softened. Let cool to room temperature. Set aside 2 tablespoons. In food processor or blender, puree cantaloupe until very smooth. Add remaining ginger mixture and yogurt; mix just until combined. Pour into large shallow baking dish or metal pan; cover and freeze for at least 8 hours or until firm. Scoop into food processor; puree until slushy. Transfer to 4 cup container; cover and freeze for 8 hours or until firm. Let sherbet soften in refrigerator for 30 minutes. Just before serving, combine berries with reserved ginger mixture. Scoop sherbet into serving bowls; top with berries. Garnish with mint, if using. Makes 6 to 8 servings.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_peach_amaretto_sundaes.jpg",
+				"url": "recipes/373/Peach-Amaretto-Sundaes",
+				"title": "Peach Amaretto Sundaes"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
+				"url": "recipes/360/Berry-Good-Lemonade",
+				"title": "Berry Good Lemonade"
+			}
+		],
+		"title": "Ginger, Berry & Cantaloupe Sherbert"
+	},
+	"recipe": {
+		"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+		"ingredients": "2 tablespoons cornstarch  
+		2/3 cup granulated sugar  
+		1 tablespoon grated lemon zest  
+		1/3 cup freshly squeezed lemon juice  
+		2 egg yolks  
+		1 cup whipping cream  
+		3 cups fresh berries, such as sliced
+strawberries or raspberries or blueberries
+Additional berries, mint sprigs and grated lemon zest",
+		"instructions": "In a small saucepan, combine cornstarch with 1/2 cup cold water; whisk until smooth. Add sugar, lemon zest, juice and egg yolks; cook over medium-heat, whisking constantly, until mixture comes to a full boil; cook for 15 seconds. Remove from heat; pour into large bowl. Let cool slightly. Cover surface with plastic wrap. Refrigerate for 2 hours until chilled. In a bowl using an electric mixer, whip cream until stiff peak forms. Whisk lemon mixture until smooth. Whisk in one-quarter of the whipped cream; fold in remaining whipped cream. Arrange half the berries in 6 parfait or large wine glasses. Top with half the lemon fool; layer with remaining berries and lemon fool. To serve, garnish with whole berries, mint sprigs and grated lemon zest.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+				"url": "recipes/372/Pastry-Fruit-Tarts",
+				"title": "Pastry Fruit Tarts"
+			},
+			{
+				"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+				"url": "recipes/374/Strawberries-Cream-Cake",
+				"title": "Strawberries & Cream Cake"
+			},
+			{
+				"image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+				"url": "recipes/370/Orange-Drizzled-Cake-Slices",
+				"title": "Orange Drizzled Cake Slices"
+			}
+		],
+		"title": "Lemon Fool with Fresh Berries"
+	},
+	"recipe": {
+		"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+		"ingredients": "1 cup plus1 tablespoon sugar  
+		3/4 cup fresh lemon juice  
+		6 large egg yolks  
+		2 large eggs  
+		1-1/2 tablespoons grated lemon peel  
+		1-12oz basket halved strawberries  
+		1-6 oz basket fresh blueberries  
+		1-6 oz basket fresh raspberries  
+		1-6 oz basket fresh blackberries  
+		2 cups chilled whipping cream  
+		8 whole strawberries  
+		fresh mint sprigs",
+		"instructions": "Combine 1 cup sugar, lemon juice, 6 egg yolks, 2 whole eggs and grated lemon peel in large metal bowl. Set bowl over saucepan of simmering water (do not allow bowl to touch water). Whisk until thermometer inserted into mixture registers 160°F. Transfer lemon curd to another large bowl. Chill until cool, whisking occasionally. Toss berries and remaining 1 tablespoon sugar in another bowl. Using mixer, beat 1-1/2 cups cream in medium bowl until medium-firm peaks form. Fold 1/3 of whipped cream into lemon curd to lighten, then fold in remaining whipped cream. Divide berry mixture among 8 dessert bowls or wine glasses. Spoon lemon mousse over berries. Using mixer, beat remaining 1/2 cup cream in medium bowl until stiff peaks form. Spoon whipped cream atop desserts. Garnish with whole strawberries and mint sprigs.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+				"url": "recipes/372/Pastry-Fruit-Tarts",
+				"title": "Pastry Fruit Tarts"
+			},
+			{
+				"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+				"url": "recipes/374/Strawberries-Cream-Cake",
+				"title": "Strawberries & Cream Cake"
+			},
+			{
+				"image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+				"url": "recipes/370/Orange-Drizzled-Cake-Slices",
+				"title": "Orange Drizzled Cake Slices"
+			}
+		],
+		"title": "Lemon Mousse with Fresh Berries"
+	},
+	"recipe": {
+		"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+		"ingredients": "2 - 12 ounce packages of frozen mixed berries (such as 
+blueberries, blackberries, strawberries, and raspberries; 
+about 6 cups), unthawed  
+			1/4 cup sugar  
+			1 cup all purpose flour  
+			1 tablespoon fresh lemon juice  
+			3/4 cup old-fashioned oats  
+			2/3 cup packed brown sugar  
+			1 teaspoon ground cinnamon  
+			1/2 teaspoon ground ginger  
+			1/4 teaspoon nutmeg  
+			1/4 teaspoon salt  
+			7 tablespoons chilled unsalted butter,diced",
+		"instructions": "Preheat oven to 375°F. Combine berries, 1/4 cup sugar, 1/4 cup sugar, 1/4 cup flour and lemon juice in large bowl; toss to blend well. Transfer berry mixture to 9 inch diameter glass pie dish. Combine remaining 3/4 cup flour, oats, brown sugar, spices and salt in medium bowl. Add butter; rub in with fingertips until topping holds together in small moist clumps. Sprinkle over berry mixture. Bake crisp until berry mixture bubbles thickly and topping is golden brown, about 1 hour. Let stand 15 minutes. Serve warm or at room temperature.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+				"url": "recipes/372/Pastry-Fruit-Tarts",
+				"title": "Pastry Fruit Tarts"
+			},
+			{
+				"image": "assets/media/recipes/rec_creme_brulee.jpg",
+				"url": "recipes/362/Creme-Brulee",
+				"title": "Creme Brulee"
+			},
+			{
+				"image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg.jpg",
+				"url": "recipes/371/Original-Chocolate-Chip-Cookies",
+				"title": "Original Chocolate Chip Cookies"
+			},
+			{
+				"image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+				"url": "recipes/370/Orange-Drizzled-Cake-Slices",
+				"title": "Orange Drizzled Cake Slices"
+			},
+			{
+				"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+				"url": "recipes/374/Strawberries-Cream-Cake",
+				"title": "Strawberries & Cream Cake"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+				"url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
+				"title": "Ginger, Berry & Cantaloupe Sherbert"
+			},
+			{
+				"image": "assets/media/recipes/rec_peach_amaretto_sundaes.jpg",
+				"url": "recipes/373/Peach-Amaretto-Sundaes",
+				"title": "Peach Amaretto Sundaes"
+			}
+		],
+		"title": "Mixed Berry Crisp"
+	},
+	"recipe": {
+		"image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+		"ingredients": "6 slices angel cake or pound cake  
+		Orange Sauce:  
+		1/4 cup granulated sugar  
+		1 tablespoon cornstarch  
+		1 cup orange juice  
+		1 tablespoon butter  
+		2 teaspoons lemon juice  
+		1 teaspoon grated orange rind  
+		Shredded coconut (optional)",
+		"instructions": "Orange Sauce: In small saucepan, mix together sugar and cornstarch; blend in orange juice. Cook over medium heat until mixture thickens and comes to a boil. Remove from heat; stir in butter, lemon juice and orange rind. Let cool slightly. Arrange cake slices on baking sheet and broil until lightly toasted, if desired. Transfer to serving dishes and pour orange sauce evenly over tops. Sprinkle with coconut (if using). Makes 6 servings.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+				"url": "recipes/374/Strawberries-Cream-Cake",
+				"title": "Strawberries & Cream Cake"
+			},
+			{
+				"image": "assets/media/recipes/rec_berries_cream.jpg",
+				"url": "recipes/359/Berries-Cream",
+				"title": "Berries & Cream"
+			},
+			{
+				"image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+				"url": "recipes/369/Mixed-Berry-Crisp",
+				"title": "Mixed Berry Crisp"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+				"url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
+				"title": "Lemon Fool with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+				"url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
+				"title": "Lemon Mousse with Fresh Berries"
+			},
+			{
+				"image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+				"url": "recipes/372/Pastry-Fruit-Tarts",
+				"title": "Pastry Fruit Tarts"
+			}
+		],
+		"title": "Orange Drizzled Cake Slices"
+	}
+}
