@@ -2,6 +2,7 @@
 	{
 		"title": "Berries & Cream",
 		"slug": "berries-cream",
+		"category": "poultry",
 		"categories": [
 			{
 				"slug": "desserts",
@@ -12,7 +13,7 @@
 				"title": "International Dishes"
 			}
 		],
-		"image": "assets/media/recipes/rec_berries_cream.jpg",
+		"image": "media/recipes/rec_berries_cream.jpg",
 		"ingredients": "6 eggs (at room temperature)",
 		"instructions": "Grease small individual cake pans. Line with waxed paper and grease again. Add eggs in large mixing bowl and beat until foamy; gradually beat in sugar. Beat at high speed for 8 to 10 minutes or until thick, pale yellow and tripled in volume. Beat in vanilla. Sift together flour and baking powder; lightly fold in batter. Fold in butter. Pour into prepared pans. Bake in 325°F oven for 25 to 30 minutes or until cake springs back when lightly touched in centre. Turn cakes out into rack; remove paper and let cool. Whip cream; beat in sugar and vanilla. Set 1 cup aside. Fold berries (raspberries, blueberries, strawberries) into remaining cream. Assemble cake, spreading the filling underneath and over layer. Top cake with remaining cream. Decorate with berries. Drizzle with melted chocolate if desired.",
 		"featured-start-date": "2015-12-19T12:12:13Z-4",
@@ -68,6 +69,7 @@
 	{
 		"title": "Berry Good Lemonade",
 		"slug": "berry-good-lemonade",
+		"category": "desserts",
 		"categories": [
 			{
 				"slug": "desserts",
@@ -78,7 +80,7 @@
 				"title": "International Dishes"
 			}
 		],
-		"image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
+		"image": "media/recipes/rec_berry_good_lemonade.jpg",
 		"ingredients": "1 cup hulled, sliced strawberries",
 		"instructions": "Place berries and sugar in a food processor and puree until liquid. Strain through a fine sieve, stirring with a spatula. Pour strained juice into a large pitcher. Add lemon juice and 1-3/4 cups water. Chill. Stir well before serving in tall, ice-filled glasses.",
 		"featured-start-date": "2015-12-19T12:12:13Z-4",
