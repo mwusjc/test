@@ -1164,5 +1164,616 @@ about 6 cups), unthawed
 			}
 		],
 		"title": "Grilled Honey Garlic Pork Chops"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "meat"
+			}
+		],
+		"image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+		"ingredients": "4 pork chops, approx. 1 inch thick  
+		4 lemon slices  
+		1 onion, sliced, separated into rings  
+		Salt and pepper to taste  
+		1/2 cup ketchup  
+		1/2 cup chicken stock",
+		"instructions": "Dry pork chops with a paper towel. Heat a covered non stick fryer or flat roaster over medium heat until hot. Remove cover. Brown the chops well on both sides, about 3 minutes. Top each chop with a lemon slice, add the onion, salt and pepper. Meanwhile, combine the ketchup and chicken stock. Pour over the chops. Cover and reduce heat to a low setting. Cook for an additional 20 minutes, turning the heat off for the last 10 minutes. Serve the chops with sauce in the pan.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Lemon Pork Chops"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "meat"
+			}
+		],
+		"image": "assets/media/recipes/rec_onepot_itl_sausage.jpg",
+		"ingredients": "1 pound mild or hot Italian sausages  
+		1 tablespoon olive oil  
+		1 large onion, halved and sliced  
+		1 large fennel bulb, trimmed and cut into strips  
+		2 cloves garlic, finely chopped  
+		1 teaspoon dried oregano  
+		4 medium potatoes, peeled and cubed  
+		400 ml of fresh tomatoes, chopped  
+		1/2 cup beef stock  
+		1/2 teaspoon salt  
+		1/4 teaspoon pepper  
+		2 tablespoons chopped parsley",
+		"instructions": "With a fork, prick sausages all over and place in large saucepan over medium-high heat. Add 2 tbsp. water and cook, turning often and adding more water as needed, for 12 minutes or until browned and no longer pink in centre. Transfer to a cutting board. Let cool slightly; cut into slices. Drain any fat in pan; add oil, onion, fennel, garlic and oregano; cook, stirring, for 3 minutes or until softened. Add potatoes, tomatoes, stock, salt and pepper; bring to a boil. Reduce heat, cover and cook for 15 minutes or until potatoes are almost tender. Return sausage to pan; cover and cook for 8 minutes or until potatoes are tender. Sprinkle with parsley.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "One-Pot Italian Sausages with Potatoes"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "meat"
+			}
+		],
+		"image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+		"ingredients": "One 2-1/2 pound centre-cut boneless pork loin  
+		Salt and freshly ground black pepper to taste  
+		1/4 pound sliced pancetta  
+		5-6 sprigs fresh rosemary  
+		1/3 cup extra-virgin olive oil  
+		5-6 whole garlic cloves, peeled  
+		2 pounds potatoes, peeled and cut into chunk",
+		"instructions": "Preheat oven to 350°F. Season pork with salt & pepper. Place the slices of pancetta on a work surface, place the roast over the pancetta, and wrap around the pork. Tie the roast securely with string & tuck the sprigs of rosemary securely under the string. Heat the oil in a large, heavy casserole over medium heat. Add the roast and brown it very lightly all over, about 2 minutes. Keep turning the meat to avoid burning the rosemary. When the roast has a pale golden colour, turn the heat off. Add the potatoes & garlic with salt & pepper & mix in oil. Place roast in oven for 40 to 50 minutes. Baste with pan juices every so often. When pierced, juices should be clear or just barely pink. Remove string, slice and serve with potatoes and pan juices.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "meat"
+			}
+		],
+		"image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+		"ingredients": "1-1/2 tablespoons vegetable oil  
+		4 rib steaks (2 cm) thick  
+		1 onion, peeled and chopped  
+		1/4 teaspoon Celery seed  
+		1/4 teaspoon Tarragon  
+		1/4 teaspoon Paprika  
+		1 teaspoon Chopped parsley  
+		1 cup beer  
+		1-1/2 cups commercial brown sauce, heated Salt and pepper ",
+		"instructions": "Preheat oven to 150°F. Cook steaks in two batches following this procedure: Heat half of oil in large frying pan. When hot, add meat and cook 3 to 4 minutes over high heat. Turn meat over, season well and continue cooking three to four minutes. Remove meat from pan and keep steaks hot in oven. Add onion to frying pan and cook 4 to 5 minutes over medium heat. Sprinkle in herbs and cook 1 minute; mix well. Add beer and cook 5 to 6 minutes over high heat. Liquid should be reduced by 2/3. Stir in brown sauce and correct seasoning. Cook 2 to 3 minutes over medium heat. Pour sauce over steaks and serve.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Rib Steaks with Beer"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "meat"
+			}
+		],
+		"image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+		"ingredients": "4 sirloin steaks (about 2 cm thick)  
+		4 tablespoons vegetable oil  
+		4 shallots, finely chopped  
+		1 cup red wine  
+		1/2 cup of beef stock  
+		4 tablespoons whipping cream  
+		Salt & pepper",
+		"instructions": "Trim excess fat from steaks; nick fat at 1 inch (2.5 cm) intervals. In heavy skillet, heat 2 tbsp of the oil over medium-high heat; cook steaks for 5 to 7 minutes on each side for medium-rare or until desired doneness. Transfer to plate and keep warm. Pour off excess fat from skillet. Reduce heat to medium and heat remaining oil; cook shallots, stirring, for about 1 minute or until softened. Add wine and stock, scraping up any brown bits. Bring to boil over high heat; cook for 2 to 3 minutes or until reduced to about 1/2 cup. Strain sauce and return to skillet. Add cream and cook for 2 minutes or until thick enough to coat spoon. Stir in any accumulated meat juices from steaks. Season with salt and pepper to taste. Thinly slice steak and serve with sauce. Enjoy!",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Sirloin Steak with Wine & Shallot Sauce"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "pasta"
+			}
+		],
+		"image": "assets/media/recipes/rec_fiesta_chicken_lasagna.jpg",
+		"ingredients": "9 uncooked lasagna noodles  
+		2 jars thick-and-chunky salsa  
+		1 pkg. frozen chicken breast strips, thawed  
+		1 can black beans, rinsed and drained  
+		1/4 cup chopped fresh cilantro  
+		3 cups shredded cheese",
+		"instructions": "Cook and drain noodles as directed on package. Rinse noodles with cold water; drain. Heat oven to 375°F. Spread 1/4 cup of the salsa in ungreased rectangular baking dish, 13x9x2 inches. Layer with 3 noodles and one-third each of the chicken, beans, cilantro, salsa and cheese. Repeat 2 times with remaining noodles, chicken, beans, cilantro, salsa and cheese. Cover and bake 20 minutes. Uncover and bake 15 to 20 minutes or until hot in centre. Let stand 10 minutes before cutting.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Fiesta Chicken Lasagna"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "pasta"
+			}
+		],
+		"image": "assets/media/recipes/rec_linguine_with_pesto.jpg",
+		"ingredients": "2 cups packed fresh basil leaves  
+		1/2 cup grated parmesan cheese  
+		1/4 cup pine nuts, toasted  
+		3/4 teaspoon salt  
+		1/4 teaspoon pepper  
+		1/2 cup 100% pure olive oil  
+		4 garlic cloves, minced  
+		1 pound green beans, cut into 1-inch pieces  
+		1 pound linguine",
+		"instructions": "Place basil, parmesan, pine nuts, salt and pepper in food processor; mix until finely chopped. Slowly drizzle in oil with motor running; process until thoroughly combined. Stir in garlic and set aside. In a large pot of boiling, salted water, cook linguine 8-10 minutes or until tender but firm. Drain pasta. Toss with pesto and green beans, and serve.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Linguine with Pesto"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "pasta"
+			}
+		],
+		"image": "assets/media/recipes/rec_linguine_gorgo.jpg",
+		"ingredients": "1 cup table cream  
+		1 tablespoon butter  
+		6 oz Gorgonzola cheese, crumbled  
+		1/2 teaspoon pepper  
+		3/4 lb linguine fine  
+		1/4 cup Parmesan cheese and toasted, chopped pecans",
+		"instructions": "Place cream, butter, Gorgonzola and pepper in skillet over medium-low heat. Heat gently until cheese melts and sauce thickens. In a large pot of boiling, salted water, cook pasta 7 minutes, or until tender but firm. Drain and toss with Gorgonzola sauce and Parmesan. Garnish with toasted pecans and serve.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Linguine with Gorgonzola Cream Sauce"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "pasta"
+			}
+		],
+		"image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+		"ingredients": "8 ounces uncooked linguine  
+		1 can chunk light tuna in water  
+		1 tablespoon olive oil or vegetable oil  
+		1/4 cup finely chopped celery  
+		3 cloves garlic, finely chopped  
+		1 can crushed tomatoes undrained  
+		1/4 teaspoon freshly ground pepper  
+		1/3 cup quartered pitted Kalamata olives  
+		Fresh Italian sprigs, parsley",
+		"instructions": "Cook and drain linguine as directed on package. While linguine is cooking, heat oil in 10 inch skillet over medium-high heat. Add celery; cook 2 to 3 minutes, stirring frequently, until celery begins to soften. Add garlic; cook and stir 30 seconds. Stir in tomatoes, tuna and pepper. Cook 5 to 8 minutes, stirring frequently, until slightly thickened. Stir in olives. Cook 2 to 3 minutes or until hot. Serve sauce over linguine. Garnish with parsley.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Mediterranean Tuna Linguine"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "pasta"
+			}
+		],
+		"image": "assets/media/recipes/rec_pasta_primavera.jpg",
+		"ingredients": "8 ounces thin asparagus spears, cut in half  
+		4 ounces snow peas, topped and tailed  
+		4 ounces whole baby corn  
+		8 ounces whole baby carrots  
+		1 small red bell pepper, seeded and chopped  
+		8 scallions, sliced  
+		8 ounces torchietti or other pasta cuts  
+		2/3 cup cottage cheese  
+		2/3 cup low-fat yogourt  
+		1 tablespoon lemon juice  
+		1 tablespoon chopped fresh parsley milk (optional)  
+		1 tablespoon snipped chives salt and freshly ground black pepper sun-dried tomato bread, to serve",
+		"instructions": "Cook the asparagus spears in a pan of boiling salted water for 3-4 minutes. Add the snow peas halfway through the cooking time. Drain and rinse both under cold water. Cook the baby corn, carrots, pepper and scallions in the same way until tender. Drain and rinse. Cook the pasta in a large pan of boiling salted water until tender. Drain thoroughly. Put the cottage cheese, yogourt, lemon juice and parsley into a food processor or blender. Season with salt and pepper, then process until smooth. Thin the sauce with a little milk, if necessary. Put the sauce in a large pan with the pasta and vegetables, heat gently and toss carefully. Transfer to a warmed serving plate, sprinkle the chives over the top and serve with sun-dried tomato bread.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Pasta Primavera"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "pasta"
+			}
+		],
+		"image": "assets/media/recipes/rec_pasta_sauce_with_calamar.jpg",
+		"ingredients": "1/2 pound calamari  
+		1 medium sweet red or green pepper, sliced thinly  
+		Olive Oil  
+		1 large shallot, finely chopped  
+		1/2 bay leaf  
+		1 can tomato sauce  
+		4 or 5 large mushrooms, sliced  
+		hot pepper flakes  
+		salt and pepper to taste  
+		1 clove garlic, minced",
+		"instructions": "Saute sweet pepper in a little oil in a saucepan until just tender. Remove from pan. Add shallot, and more oil if necessary, and cook over low heat until limp and transparent, 4 to 5 minutes. Add bay leaf and tomato and simmer, stirring occasionally. When tomato mixture has cooked, about 10-15 minutes, heat more oil in a skillet and saute mushrooms 2-3 minutes, so they brown a little but don't begin to lose juice. Add mushrooms and reserved sweet pepper to tomato sauce, along with a shake or two of hot pepper flakes and salt and pepper to taste. Saute garlic in skillet in more oil for 1 minute. Add fish, and cook about 2 minutes. Add to sauce. Remove bay leaf, then toss with spaghetti or fettuccine cooked al dente.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Pasta Sauce with Calamari"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "pasta"
+			}
+		],
+		"image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+		"ingredients": "1/2 pound salmon fillets or steaks  
+		salt and pepper  
+		2 tablespoons vegetable oil  
+		2 tablespoons butter  
+		5 green onions, thinly sliced  
+		2 tablespoons finely chopped fresh parsley  
+		1 tablespoon lemon juice  
+		3/4 pound tomato linguine  
+		1/2 cup coarsely chopped watercress",
+		"instructions": "Cut salmon into bite-sized pieces (remove skin and bones if using salmon steaks). Season with salt and pepper to taste. In large skillet, heat oil over medium heat; add salmon and cook for about 3 minutes or until opaque. Remove with slotted spoon to warm plate. Add butter to skillet, then onions and parsley; cook for 1 minute. Stir in lemon juice; return salmon to skillet and cook for 1 minute or until heated through. Meanwhile, in large pot of boiling salted water, cook linguine until al dente (tender, but firm); drain. Add linguine and watercress to skillet; toss gently to coat linguine. Season with salt and a coarse grinding of pepper to taste.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Tomato Linguine with Salmon"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "poultry"
+			}
+		],
+		"image": "assets/media/recipes/rec_steak_kabob.jpg",
+		"ingredients": "2 tablespoons reduced-sodium soy sauce  
+		2 tablespoons honey  
+		1 tablespoon grated fresh ginger or 1 teaspoon ground ginger  
+		1 clove garlic, crushed  
+		1 teaspoon grated lemon peel  
+		1/4 teaspoon crushed hot red pepper flakes  
+		12 ounces boneless chicken and cut into 1 inch cubes  
+		8 cherry tomatoes  
+		4 large mushrooms, cut in half  
+		1 green bell pepper, cored, seeded, and cut into 8 squares",
+		"instructions": "In a shallow glass dish, combine soy sauce, honey, ginger, garlic, lemon peel, and red pepper flakes. Mix well. Add chicken; stir to coat. Cover with plastic wrap and refrigerate for 1 to 2 hours, stirring occasionally. Preheat broiler. Remove chicken from the marinade. Using four 10 inch metal skewers, alternately thread chicken, tomatoes, mushrooms, and bell pepper. Place on hot grill. Grill 2 or 3 times until meat is cooked and vegetables browned, about 10 minutes. Place on serving plates and serve immediately.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Chicken Kabobs"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "poultry"
+			}
+		],
+		"image": "assets/media/recipes/rec_polenta_turk_mush.jpg",
+		"ingredients": "1-1/2 tablespoons olive oil  
+		1 pound assorted fresh mushrooms (shiitake, crimini, button mushrooms), sliced  
+		1 tablespoon fresh tarragon, minced  
+		1/2 teaspoon black pepper  
+		1 teaspoon salt, divided  
+		2 cups cooked turkey, cubed  
+		2 cups skim milk  
+		1 cup yellow cornmeal  
+		1/2 cup Parmesan cheese, grated  
+		Fresh tarragon leaves for garnish",
+		"instructions": "In a 12-inch skillet over medium-high heat, in hot olive oil, saute mushrooms, minced tarragon, pepper and 1/2 teaspoon of salt until mushrooms are golden brown, about 10 minutes. Add cubed turkey and 1/3 cup water, stirring to loosen all browned bits from the bottom of the skillet. Keep warm. Meanwhile, in a 3 quart saucepan, place 1/2 tsp salt and 1-1/3 cups milk; gradually whisk in cornmeal until smooth. In a 2-quart saucepan, heat remaining 2/3 cup milk and 2 cups water to boiling over high heat; whisk into cornmeal mixture. Heat to boiling, whisking. Reduce heat to low. Cook while stirring, 5 minutes or until thick. Stir in Parmesan cheese. Serve polenta topped with turkey/mushroom mixture. Garnish each plate with a sprig of fresh tarragon leaves.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Polenta with Turkey & Mushroom Sauce"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "poultry"
+			}
+		],
+		"image": "assets/media/recipes/rec_stirfry_chicken_fajitas.jpg",
+		"ingredients": "5 tablespoons vegetable oil  
+		1/4 cup fresh lime juice  
+		1/2 teaspoon Ground cumin  
+		1/8 teaspoon Cayenne (ground red pepper)  
+		1 pound Skinless, boneless chicken breasts, cut into thin strips  
+		2 cups cooked white rice  
+		1 large red bell pepper, cut into thin strips  
+		1 large yellow bell pepper, cut into thin strips  
+		1 large green bell pepper, cut into thin strips  
+		1 onion, thinly sliced  
+		1 garlic clove, minced  
+		1/4 teaspoon Pepper Flour tortillas",
+		"instructions": "In a glass dish, mix together 2 tablespoons oil, the lime juice, cumin, and cayenne. Add chicken and toss to coat completely with marinade. Marinate chicken in refrigerator 1 to 2 hours for extra flavour, if time allows.In a wok, or deep frying pan, heat 1 tablespoon of oil until very hot. Add chicken with marinade and stir-fry over high heat until chicken is white throughout, 3 to 5 minutes. Remove to a plate. Add remaining 2 tablespoons of oil to wok and heat until very hot. Add rice, onion, peppers and garlic; stir-fry until crisp-tender, 3 to 5 minutes. Return chicken to wok and season with pepper. Toss until heated through, about 1 minute. Divide chicken among tortillas and pass toppings like shredded cheese, salsa, sour cream and guacamole. Enjoy as everyone completes their own meal.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Stir-Fry Chicken Fajitas"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "poultry"
+			}
+		],
+		"image": "assets/media/recipes/rec_turkey_stuffing.jpg",
+		"ingredients": "1lb sliced white, French or Italian bread, including crusts cut into 1/2 inch cubes  
+		4 to 8 tablespoons unsalted butter  
+		2 cups chopped onions  
+		1 cup finely chopped celery  
+		1/4 cup minced fresh parsley  
+		1 teaspoon dried sage  
+		1 teaspoon dried thyme  
+		3/4 teaspoon salt  
+		1/2 teaspoon ground black pepper  
+		1/4 teaspoon freshly grated nutmeg  
+		1/8 teaspoon ground cloves  
+		1/3 cup chicken stock  
+		1 to 2 large eggs, well beaten Stock and/or egg",
+		"instructions": "Preheat oven to 400°F. Toast bread in oven until golden brown. Turn into a large bowl. Heat unsalted butter in a large skillet over medium-heat high until the foam subsides. Add onions and celery; cook for 5 minutes, stirring constantly. Remove from heat and add in parsley, sage, thyme, salt, black pepper, nutmeg and cloves. Stir in the bread cubes and toss until well combined. Depending on how much butter you started with and how firm you want the stuffing stir in chicken stock and egg, a little at a time, until the stuffing is lightly moist but not packed together. Adjust the seasonings. To use as stuffing, reheat just before spooning it into the birds.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Traditional Turkey Stuffing"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "seafood"
+			}
+		],
+		"image": "assets/media/recipes/rec_sweet_spicy_shrimp.jpg",
+		"ingredients": "1/4 cup soy sauce  
+		2 teaspoon sugar  
+		2 teaspoon cornstarch  
+		1/2 teaspoon crushed red pepper  
+		1/2 teaspoon sesame oil  
+		1 tablespoon vegetable oil  
+		1 small onion  
+		1 small green pepper, sliced  
+		1 medium carrot, thinly sliced (1/2 cup)  
+		3/4 lb uncooked, peeled, de-veined large shrimp, thawed if frozen  
+		4 cups hot cooked rice",
+		"instructions": "Mix soy sauce, sugar, cornstarch, red pepper and sesame oil; set aside. Heat vegetable oil in 10 inch skillet over medium-high heat. Cook onion, bell pepper and carrot in oil 2 to 3 minutes, stirring occasionally, until crisp-tender. Stir in soy sauce mixture and shrimp. Cook 3 to 5 minutes, stirring occasionally, until shrimp are pink and firm and sauce is thickened. Serve over hot rice. *You can go Thai! Toss the rice with chopped fresh cilantro and shredded coconut for a Thai flavour. Enjoy!",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Sweet & Spicy Shrimp"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "soups & salads"
+			}
+		],
+		"image": "assets/media/recipes/rec_basil_rice_soup.jpg",
+		"ingredients": "2 tablespoons olive oil or vegetable oil  
+		2 cloves garlic, finely chopped  
+		2 medium stalks celery, chopped  
+		1 medium onion, chopped  
+		1 medium carrot, chopped  
+		1/4 cup chopped fresh basil leaves  
+		3/4 cup uncooked regular long grain rice  
+		2 medium tomatoes, chopped  
+		4 cups vegetable broth  
+		1 cup water  
+		1 teaspoon salt  
+		1/4 teaspoon pepper  
+		1/4 cup grated Romano cheese",
+		"instructions": "Heat oil in dutch oven over medium-low heat. Cover and cook garlic, celery, onion, carrot and basil in oil 10 minutes, stirring occasionally. Stir in rice and tomatoes. Cook uncovered over medium heat 5 minutes, stirring occasionally. Stir in remaining ingredients except cheese. Heat to boiling; reduce heat. Cover and simmer about 20 minutes or until rice is tender. Top each serving with cheese.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Basil Rice Soup"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "soups & salads"
+			}
+		],
+		"image": "assets/media/recipes/rec_cream_corn_chow.jpg",
+		"ingredients": "1/4 butter  
+		1 diced Spanish onion  
+		4 medium potatoes  
+		2 diced large carrots  
+		3 diced celery stalks  
+		1 minced large garlic clove  
+		4 cups corn kernels  
+		1/4 cup flour  
+		1 tablespoon grated ginger  
+		1/2 teaspoon cayenne pepper  
+		1/2 teaspoon oregano leaves  
+		1/2 teaspoon thyme leaves  
+		1/2 teaspoon crushed rosemary  
+		1/2 teaspoon basil leaves  
+		1/2 onion powder  
+		1/2 teaspoon salt  
+		4 cups chicken stock  
+		2 cups cream  
+		1/2 cup peas",
+		"instructions": "Heat the butter in a large kettle. Add the onion, potatoes, carrots, celery and garlic. Saute until onions are translucent. Add the corn and continue to saute for 5 minutes. Stir in the flour and cook over low for 2 minutes. Stir in the ginger, seasoning and chicken stock. Simmer for 30 minutes. Add the cream and peas; continue to cook for 5 minutes. Serve at once very hot.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "Cream Corn Chowder"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "soups & salads"
+			}
+		],
+		"image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+		"ingredients": "4 boneless, skinless chicken breast halves (1-1/2 lbs)  
+		2 sweet red, yellow, or green peppers, sliced  
+		1 large onion, thickly sliced  
+		2 zucchini, thickly sliced  
+		1/2 pint cherry tomatoes, halved  
+		1/2 cup olive or canola oil  
+		2 tablespoons lemon juice  
+		1 teaspoon finely grated lemon zest  
+		2 tablespoons dried basil  
+		1/8 teaspoon each salt and pepper  
+		4 cups mixed lettuce",
+		"instructions": "Cut each chicken breast half into 4 slices. Place in a baking dish. Place the peppers, onion, zucchini, and cherry tomatoes in a separate dish. In a small bowl, combine oil with lemon juice and zest, basil, salt and pepper until blended. Spoon half the marinade over chicken and remaining marinade over vegetables and toss to coat. Cover both dishes with plastic wrap and marinate in the refrigerator at least 2 hours. Remove chicken from marinade; drain and discard marinade. Preheat the broiler or grill. Broil or grill the chicken 6 to 8 minutes or until cooked through. Transfer the chicken breasts to a platter, cover and keep warm. Add the vegetables to the broiler and grill and cook until browned and softened, turning once and brushing twice with the marinade. Serve the chicken and vegetables on a bed of lettuce leaves.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "New-Style Chicken Salad"
+	},
+	"recipe": {
+		"categories": [
+			{
+				"name": "soups & salads"
+			}
+		],
+		"image": "assets/media/recipes/rec_spring_vegetable_salad.jpg",
+		"ingredients": "1 - 1/2 pounds small new potatoes, halved  
+		14 ounce can fava beans, drained  
+		4 ounces cherry tomatoes  
+		1/2 cup walnut halves  
+		2 tablespoons white wine vinegar  
+		1 tablespoon whole-grained mustard  
+		1/4 cup olive oil  
+		pinch of sugar  
+		8 ounces young asparagus spears, trimmed  
+		6 scallions, trimmed  
+		salt and freshly ground black pepper baby spinach leaves, to serve",
+		"instructions": "Put the potatoes in a saucepan. Cover with cold water and bring to a boil. Cook for 10-12 minutes, until tender. Meanwhile, put the fava beans in a bowl. Cut the tomatoes in half and add them to the bowl with the walnuts. Put the white wine vinegar, mustard, olive oil and sugar into a screw-top jar. Season with salt and pepper. Close the jar tightly and shake well. Add the asparagus to the potatoes and cook for 3 minutes more. Drain the cooked vegetables well. Cool under cold running water and drain again. Thickly slice the potatoes and cut the scallions in half. Add the asparagus, potatoes and scallions to the bowl containing the fava bean mixture. Pour the dressing over the salad and toss well. Serve on a bed of baby spinach leaves.",
+		"featured-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
+		"publish": true,
+		"related": [
+			{
+				"image": "",
+				"url": "",
+				"title": ""
+			}
+		],
+		"title": "New Spring Vegetable Salad"
 	}
 }
