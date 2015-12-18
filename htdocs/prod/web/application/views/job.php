@@ -69,12 +69,12 @@ if(isset($_POST['submit'])) {
 	            <input type="hidden" name="location" value="<?=$details['location']?>" />
 	            <input type="hidden" name="title" value="<?=$details['title']?>"/>
 	            <input type="hidden" name="id" value="<?=$details['id']?>"/>
-                <div class="col-xs-12 col-sm-6"><input name="first" type="text" value="" placeholder="First Name*" required/></div>
-                <div class="col-xs-12 col-sm-6"><input name="last" type="text" value="" placeholder="Last Name*" required/></div>
+                <div class="col-xs-12 col-sm-6"><input name="first" type="text" value="" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/></div>
+                <div class="col-xs-12 col-sm-6"><input name="last" type="text" value="" placeholder="Last Name*" title="Last Name should not be left blank." x-moz-errormessage="Last Name should not be left blank." required/></div>
               </div>
               <div class="row">
                 <div class="col-xs-12 col-sm-6"><input name="email" type="email" value="" placeholder="Email*" required/></div>
-                <div class="col-xs-12 col-sm-6"><input name="phone" type="text" value="" placeholder="Phone Number*" required/></div>
+                <div class="col-xs-12 col-sm-6"><input name="phone" type="text" value="" placeholder="Phone Number*" title="Phone Number should not be left blank." x-moz-errormessage="Phone Number should not be left blank." required/></div>
               </div>
               <div class="row">
                 <div class="col-xs-12 col-sm-6">

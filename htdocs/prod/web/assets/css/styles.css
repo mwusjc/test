@@ -7051,6 +7051,21 @@ h2{
     background: #DFF0D8;
 }
 
+/* Safari only */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media
+{
+  .invalid input#upload-resume-file:required:invalid {
+    border: 1px solid red;
+    opacity: 1 !important;
+    text-indent: -2000px;
+    border-radius: 8px;
+	}
+
+	.invalid input#upload-resume-file:required:valid {
+    background: #DFF0D8;
+	}
+}}
+
 @media print {
   html,
   body {
