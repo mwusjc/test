@@ -1183,9 +1183,49 @@ about 6 cups), unthawed
 		"publish": true,
 		"related": [
 			{
-				"image": "",
-				"url": "",
-				"title": ""
+				"image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+				"url": "recipes/384/Grilled-Honey-Garlic-Pork-Chops",
+				"title": "Grilled Honey Garlic Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+				"url": "recipes/382/Cantonese-Pork-Chops",
+				"title": "Cantonese Pork Chops"
+			},
+			{
+				"image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+				"url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
+				"title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
+			},
+			{
+				"image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+				"url": "recipes/388/Rib-Steaks-with-Beer",
+				"title": "Rib Steaks with Beer"
+			},
+			{
+				"image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+				"url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
+				"title": "Sirloin Steak with Wine & Shallot Sauce"
+			},
+			{
+				"image": "assets/media/recipes/rec_grilled_mustarddill_bugers.jpg",
+				"url": "recipes/383/Grilled-Mustard-Dill-Burgers",
+				"title": "Grilled Mustard-Dill Burgers"
+			},
+			{
+				"image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+				"url": "recipes/380/Spring-Style-Beef-Stir-Fry",
+				"title": "Spring Style Beef Stir-Fry"
+			},
+			{
+				"image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+				"url": "recipes/381/Beef-Stroganoff",
+				"title": "Beef Stroganoff"
+			},
+			{
+				"image": "assets/media/recipes/rec_leek_mush_lem_risott.jpg",
+				"url": "recipes/418/Leek-Mushroom-Lemon-Risotto",
+				"title": "Leek, Mushroom & Lemon Risotto"
 			}
 		],
 		"title": "Lemon Pork Chops"
