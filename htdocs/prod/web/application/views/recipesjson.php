@@ -1,4 +1,6 @@
 
+<?php //echo(json_encode($recipes)); die(); ?>
+
 <div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/media/recipes/rec_linguine_with_pesto.jpg); background-size:cover">
 	<div class="caption col-xs-12">
 		<div class="wrapper">
@@ -36,14 +38,23 @@
 				<?php //endforeach; ?>
 
 
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="8">Desserts</a></li>
+				<!-- <li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="8">Desserts</a></li>
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="7">International Dishes</a></li>
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="2">Meat</a></li>
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="5">Pasta</a></li>
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="3">Poultry</a></li>
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="4">Seafood</a></li>
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="1">Soups &amp; Salads</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="6">Vegetarian</a></li>
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="6">Vegetarian</a></li> -->
+
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="desserts">Desserts</a></li>
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="international">International Dishes</a></li>
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="meat">Meat</a></li>
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="pasta">Pasta</a></li>
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="poultry">Poultry</a></li>
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="seafood">Seafood</a></li>
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="soups">Soups &amp; Salads</a></li>
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="vegetarian">Vegetarian</a></li>
 
 			</ul>
 		</div>

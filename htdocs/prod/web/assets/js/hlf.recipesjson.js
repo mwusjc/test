@@ -7,7 +7,8 @@
 		},
 
 		loadData: function() {
-			var url = "/assets/data/recipes/recipes.json";
+			// var url = "/assets/flyers/20151210/desktop/data.json";
+			var url = "/assets/data/recipes/recipes-new2.json";
 
 			var xmlhttp = new XMLHttpRequest();
 
@@ -24,7 +25,8 @@
 		filterListener: function() {
 			var that = this;
 			$('[data-filter-id]').on("click", function() {
-			   that.filterCategory( hlf.data.recipes, $(this).data('filter-id') );
+				console.log($(this).data('filter-id'));
+				that.filterCategory( hlf.data.recipes, $(this).data('filter-id') );
 			});
 
 			$('[data-filter-search]').on("change keyup", function() {
@@ -35,7 +37,7 @@
 			var filtered = {};
 			$.each(data, function(key,item) {
 			   if(item.CategoryID == filter) {
-				filtered[key] = item;
+			   	filtered[key] = item;
 			   }
 			});
 			this.drawList(filtered);
