@@ -1,0 +1,104 @@
+[
+	{
+		"featured-start-date": "2015-12-21-TO-14:55:00-05:00",
+		"slides": [
+			{
+				"order": 0,
+				"link": "#",
+				"description": null,
+				"description-subtext": null,
+				"desktop-slide-background": "assets/images/home_carousel-1.jpg",
+				"desktop-side-image": null,
+				"desktop-side-image-styles": {
+					"left": "-53px",
+  				"padding": "10px 40px 120px 40px",
+  				"position": "absolute",
+  				"top": "-368px"
+				},
+				"desktop-price-image": null,
+				"mobile-slide-background": "assets/images/home_carousel-1.jpg"
+			},
+			{
+				"order": 1,
+				"link": "#",
+				"description": null,
+				"description-subtext": null,
+				"desktop-slide-background": "assets/images/home_carousel-1.jpg",
+				"desktop-side-image": null,
+				"desktop-side-image-styles": {
+					"left": "-53px",
+  				"padding": "10px 40px 120px 40px",
+  				"position": "absolute",
+  				"top": "-368px"
+				},
+				"desktop-price-image": null,
+				"mobile-slide-background": "assets/images/home_carousel-1.jpg"
+			},
+			{
+				"order": 2,
+				"link": "#",
+				"description": null,
+				"description-subtext": null,
+				"desktop-slide-background": "assets/images/home_carousel-1.jpg",
+				"desktop-side-image": null,
+				"desktop-side-image-styles": {
+					"left": "-53px",
+  				"padding": "10px 40px 120px 40px",
+  				"position": "absolute",
+  				"top": "-368px"
+				},
+				"desktop-price-image": null,
+				"mobile-slide-background": "assets/images/home_carousel-1.jpg"
+			},
+			{
+				"order": 3,
+				"link": "#",
+				"description": null,
+				"description-subtext": null,
+				"desktop-slide-background": "assets/images/home_carousel-1.jpg",
+				"desktop-side-image": null,
+				"desktop-side-image-styles": {
+					"left": "-53px",
+  				"padding": "10px 40px 120px 40px",
+  				"position": "absolute",
+  				"top": "-368px"
+				},
+				"desktop-price-image": null,
+				"mobile-slide-background": "assets/images/home_carousel-1.jpg"
+			},
+			{
+				"order": 4,
+				"link": "#",
+				"description": null,
+				"description-subtext": null,
+				"desktop-slide-background": "assets/images/home_carousel-1.jpg",
+				"desktop-side-image": null,
+				"desktop-side-image-styles": {
+					"left": "-53px",
+  				"padding": "10px 40px 120px 40px",
+  				"position": "absolute",
+  				"top": "-368px"
+				},
+				"desktop-price-image": null,
+				"mobile-slide-background": "assets/images/home_carousel-1.jpg"
+			},
+			{
+				"order": 5,
+				"link": "#",
+				"description": null,
+				"description-subtext": null,
+				"desktop-slide-background": "assets/images/home_carousel-1.jpg",
+				"desktop-side-image": null,
+				"desktop-side-image-styles": {
+					"left": "-53px",
+  				"padding": "10px 40px 120px 40px",
+  				"position": "absolute",
+  				"top": "-368px"
+				},
+				"desktop-price-image": null,
+				"mobile-slide-background": "assets/images/home_carousel-1.jpg"
+			}
+
+		]
+	}
+]
