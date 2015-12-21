@@ -1647,24 +1647,19 @@
     "publish": true,
     "related": [
       {
-        "image": "",
-        "url": "",
-        "title": ""
+        "image": "assets/media/recipes/rec_turkey_stuffing.jpg",
+        "url": "recipes/405/Traditional-Turkey-Stuffing",
+        "title": "Traditional Turkey Stuffing"
       },
       {
-        "image": "",
-        "url": "",
-        "title": ""
+        "image": "assets/media/recipes/rec_leek_mush_lem_risott.jpg",
+        "url": "recipes/418/Leek-Mushroom-Lemon-Risotto",
+        "title": "Leek, Mushroom & Lemon Risotto"
       },
       {
-        "image": "",
-        "url": "",
-        "title": ""
-      },
-      {
-        "image": "",
-        "url": "",
-        "title": ""
+        "image": "assets/media/recipes/rec_stuffed_mushrooms.jpg",
+        "url": "recipes/423/Stuffed-Mushrooms",
+        "title": "Stuffed Mushrooms"
       }
     ],
     "image":"assets/media/recipes/rec_polenta_turk_mush.jpg"
@@ -1682,6 +1677,18 @@
     "instructions": "Preheat oven to 150°F. Cook steaks in two batches following this procedure: Heat half of oil in large frying pan. When hot, add meat and cook 3 to 4 minutes over high heat. Turn meat over, season well and continue cooking three to four minutes. Remove meat from pan and keep steaks hot in oven. Add onion to frying pan and cook 4 to 5 minutes over medium heat. Sprinkle in herbs and cook 1 minute; mix well. Add beer and cook 5 to 6 minutes over high heat. Liquid should be reduced by 2/3. Stir in brown sauce and correct seasoning. Cook 2 to 3 minutes over medium heat. Pour sauce over steaks and serve.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+        "url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
+        "title": "Sirloin Steak with Wine & Shallot Sauce"
+      },
+      {
+        "image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+        "url": "recipes/381/Beef-Stroganoff",
+        "title": "Beef Stroganoff"
+      }
+    ],
     "image":"assets/media/recipes/rec_rib_steak_beer.jpg"
   },
   {
@@ -1697,6 +1704,28 @@
     "instructions": "Cook onion and celery in butter in frypan until tender. Add rice; heat, stirring often, about 5 minutes. Add remaining ingredients; bring to boil. Reduce heat; cover tightly. Simmer about 15 minutes, until rice is tender and all liquid absorbed. Easy and delicious stuffing for your Easter turkey.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_spicy_rice_pilaf.jpg",
+        "url": "recipes/422/Spicy-Rice-Pilaf",
+        "title": "Spicy Rice Pilaf"
+      },
+      {
+        "image": "assets/media/recipes/rec_orng_rice_red_lentil.jpg",
+        "url": "recipes/419/Orange-Rice-Red-Lentil-Pilaf",
+        "title": "Orange Rice & Red Lentil Pilaf"
+      },
+      {
+        "image": "assets/media/recipes/rec_herbed_rice_pilaf.jpg",
+        "url": "recipes/417/Herbed-Rice-Pilaf",
+        "title": "Herbed Rice Pilaf"
+      },
+      {
+        "image": "assets/media/recipes/rec_stuffed_mushrooms.jpg",
+        "url": "recipes/423/Stuffed-Mushrooms",
+        "title": "Stuffed Mushrooms"
+      }
+    ],
     "image":"assets/media/recipes/rec_rice_stuffing.jpg"
   },
   {
@@ -1712,6 +1741,18 @@
     "instructions": "Preheat the oven to 500°F. Snap off the bottoms and peel the lower halves of the asparagus. Arrange the spears in a single layer in a shallow baking dish and drizzle over them very lightly the extra virgin olive oil. Toss the spears to coat lightly. Roast until tender but still slightly firm, 8 to 10 minutes. Sprinkle with salt and ground black pepper to taste and the extra virgin olive oil. Serve as a first course at room temperature. Garnish with lemon wedges.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_vegetables_provencal.jpg",
+        "url": "recipes/426/Vegetables-Provencal",
+        "title": "Vegetables Provencal"
+      },
+      {
+        "image": "assets/media/recipes/rec_baked_sweet_potatoes.jpg",
+        "url": "recipes/414/Baked-Sweet-Potatoes",
+        "title": "Baked Sweet Potatoes"
+      }
+    ],
     "image":"assets/media/recipes/rec_roasted_asparagus.jpg"
   },
   {
@@ -1727,6 +1768,18 @@
     "instructions": "Trim excess fat from steaks; nick fat at 1 inch (2.5 cm) intervals. In heavy skillet, heat 2 tbsp of the oil over medium-high heat; cook steaks for 5 to 7 minutes on each side for medium-rare or until desired doneness. Transfer to plate and keep warm. Pour off excess fat from skillet. Reduce heat to medium and heat remaining oil; cook shallots, stirring, for about 1 minute or until softened. Add wine and stock, scraping up any brown bits. Bring to boil over high heat; cook for 2 to 3 minutes or until reduced to about 1/2 cup. Strain sauce and return to skillet. Add cream and cook for 2 minutes or until thick enough to coat spoon. Stir in any accumulated meat juices from steaks. Season with salt and pepper to taste. Thinly slice steak and serve with sauce. Enjoy!",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+        "url": "recipes/388/Rib-Steaks-with-Beer",
+        "title": "Rib Steaks with Beer"
+      },
+      {
+        "image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+        "url": "recipes/381/Beef-Stroganoff",
+        "title": "Beef Stroganoff"
+      }
+    ],
     "image":"assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg"
   },
   {
@@ -1742,6 +1795,23 @@
     "instructions": "Place the rice in a sieve and rinse well under cold running water, gently stirring to rinse all the grains. Set the sieve over a bowl and allow to drain well. In a heavy non-stick skillet, heat oil over moderate heat. Saute onions and sweet pepper, stirring, 8 to 10 minutes or until soft. Stir in curry powder and cook a few minutes longer or until fragrant. Add rice and saute, stirring about 1 minute or until well coated. Add stock and water until combined. Cover the skillet and simmer about 5 minutes or until rice is tender. Remove from heat and stir in almonds, salt and pepper.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_herbed_rice_pilaf.jpg",
+        "url": "recipes/417/Herbed-Rice-Pilaf",
+        "title": "Herbed Rice Pilaf"
+      },
+      {
+        "image": "assets/media/recipes/rec_orng_rice_red_lentil.jpg",
+        "url": "recipes/419/Orange-Rice-Red-Lentil-Pilaf",
+        "title": "Orange Rice & Red Lentil Pilaf"
+      },
+      {
+        "image": "assets/media/recipes/rec_rice_stuffing.jpg",
+        "url": "recipes/420/Rice-Stuffing",
+        "title": "Rice Stuffing"
+      }
+    ],
     "image":"assets/media/recipes/rec_spicy_rice_pilaf.jpg"
   },
   {
@@ -1789,6 +1859,33 @@
     "instructions": "In a glass dish, mix together 2 tablespoons oil, the lime juice, cumin, and cayenne. Add chicken and toss to coat completely with marinade. Marinate chicken in refrigerator 1 to 2 hours for extra flavour, if time allows.In a wok, or deep frying pan, heat 1 tablespoon of oil until very hot. Add chicken with marinade and stir-fry over high heat until chicken is white throughout, 3 to 5 minutes. Remove to a plate. Add remaining 2 tablespoons of oil to wok and heat until very hot. Add rice, onion, peppers and garlic; stir-fry until crisp-tender, 3 to 5 minutes. Return chicken to wok and season with pepper. Toss until heated through, about 1 minute. Divide chicken among tortillas and pass toppings like shredded cheese, salsa, sour cream and guacamole. Enjoy as everyone completes their own meal.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+        "url": "recipes/378/Indian-Style-Chicken-Breast",
+        "title": "Indian-Style Chicken Breast"
+      },
+      {
+        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "url": "recipes/379/Italian-Chicken-Rice-Risotto",
+        "title": "Italian Chicken & Rice (Risotto)"
+      },
+      {
+        "image": "assets/media/recipes/rec_steak_kabob.jpg",
+        "url": "recipes/391/Chicken-Kabobs",
+        "title": "Chicken Kabobs"
+      },
+      {
+        "image": "assets/media/recipes/rec_fiesta_chicken_lasagna.jpg",
+        "url": "recipes/394/Fiesta-Chicken-Lasagna",
+        "title": "Fiesta Chicken Lasagna"
+      },
+      {
+        "image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+        "url": "recipes/412/New-Style-Chicken-Salad",
+        "title": "New-Style Chicken Salad"
+      }
+    ],
     "image":"assets/media/recipes/rec_stirfry_chicken_fajitas.jpg"
   },
   {
@@ -1841,6 +1938,18 @@
     "instructions": "Preheat the oven to 350°F. Cut off the mushroom stalks and reserve. Arrange the mushroom caps in a buttered shallow dish, gill side up. Heat 1 tablespoon of the oil in a frying pan and sauté the garlic briefly. Finely chop the mushroom stalks and mix with the parsley and bread crumbs. Add the garlic and 1 tablespoon of the oil. Season with salt and pepper. Pile a little of the mixture into each mushroom. Add the remaining oil to the dish and cover the mushrooms with buttered wax paper. Bake for 15-20 minutes, removing the paper for the last 5 minutes to brown the tops. Garnish with a sprig of the flat-leaf parsley.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_leek_mush_lem_risott.jpg",
+        "url": "recipes/418/Leek-Mushroom-Lemon-Risotto",
+        "title": "Leek, Mushroom & Lemon Risotto"
+      },
+      {
+        "image": "assets/media/recipes/rec_polenta_turk_mush.jpg",
+        "url": "recipes/402/Polenta-with-Turkey-Mushroom-Sauce",
+        "title": "Polenta with Turkey & Mushroom Sauce"
+      }
+    ],
     "image":"assets/media/recipes/rec_stuffed_mushrooms.jpg"
   },
   {
@@ -1856,6 +1965,18 @@
     "instructions": "Mix soy sauce, sugar, cornstarch, red pepper and sesame oil; set aside. Heat vegetable oil in 10 inch skillet over medium-high heat. Cook onion, bell pepper and carrot in oil 2 to 3 minutes, stirring occasionally, until crisp-tender. Stir in soy sauce mixture and shrimp. Cook 3 to 5 minutes, stirring occasionally, until shrimp are pink and firm and sauce is thickened. Serve over hot rice. *You can go Thai! Toss the rice with chopped fresh cilantro and shredded coconut for a Thai flavour. Enjoy!",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "url": "recipes/397/Mediterranean-Tuna-Linguine",
+        "title": "Mediterranean Tuna Linguine"
+      },
+      {
+        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "url": "recipes/401/Tomato-Linguine-with-Salmon",
+        "title": "Tomato Linguine with Salmon"
+      }
+    ],
     "image":"assets/media/recipes/rec_sweet_spicy_shrimp.jpg"
   },
   {
@@ -1871,6 +1992,18 @@
     "instructions": "Stir together tomatoes, olives, red onion, anchovy, vinegar, chili pepper, and garlic in a medium mixing bowl. Let stand at room temperature for 20 to 30 minutes. Meanwhile, slice bread into 1/2-inch thick slices. Place bread slices on a baking sheet. Bake in a 350°F oven about 5 minutes or until brown. Turn bread over and bake 5 minutes more. Arrange mozzarella cheese slices evenly on toasted bread. Drain tomato mixture. Top each cheese slice with a spoonful of tomato mixture. Return bread slices to oven; bake for 5 minutes more or till cheese melts and tomato mixture is heated through.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_eggplant_salad_caprese.jpg",
+        "url": "recipes/416/Eggplant-Salad-Capres",
+        "title": "Eggplant Salad Capres"
+      },
+      {
+        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "url": "recipes/401/Tomato-Linguine-with-Salmon",
+        "title": "Tomato Linguine with Salmon"
+      }
+    ],
     "image":"assets/media/recipes/rec_tomato_crostini.jpg"
   },
   {
@@ -1886,6 +2019,18 @@
     "instructions": "Cut salmon into bite-sized pieces (remove skin and bones if using salmon steaks). Season with salt and pepper to taste. In large skillet, heat oil over medium heat; add salmon and cook for about 3 minutes or until opaque. Remove with slotted spoon to warm plate. Add butter to skillet, then onions and parsley; cook for 1 minute. Stir in lemon juice; return salmon to skillet and cook for 1 minute or until heated through. Meanwhile, in large pot of boiling salted water, cook linguine until al dente (tender, but firm); drain. Add linguine and watercress to skillet; toss gently to coat linguine. Season with salt and a coarse grinding of pepper to taste.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "url": "recipes/397/Mediterranean-Tuna-Linguine",
+        "title": "Mediterranean Tuna Linguine"
+      },
+      {
+        "image": "assets/media/recipes/rec_sweet_spicy_shrimp.jpg",
+        "url": "recipes/407/Sweet-Spicy-Shrimp",
+        "title": "Sweet & Spicy Shrimp"
+      }
+    ],
     "image":"assets/media/recipes/rec_tomato_linguine_salmon.jpg"
   },
   {
@@ -1901,6 +2046,18 @@
     "instructions": "Preheat oven to 400°F. Toast bread in oven until golden brown. Turn into a large bowl. Heat unsalted butter in a large skillet over medium-heat high until the foam subsides. Add onions and celery; cook for 5 minutes, stirring constantly. Remove from heat and add in parsley, sage, thyme, salt, black pepper, nutmeg and cloves. Stir in the bread cubes and toss until well combined. Depending on how much butter you started with and how firm you want the stuffing stir in chicken stock and egg, a little at a time, until the stuffing is lightly moist but not packed together. Adjust the seasonings. To use as stuffing, reheat just before spooning it into the birds.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_polenta_turk_mush.jpg",
+        "url": "recipes/402/Polenta-with-Turkey-Mushroom-Sauce",
+        "title": "Polenta with Turkey & Mushroom Sauce"
+      },
+      {
+        "image": "assets/media/recipes/rec_rice_stuffing.jpg",
+        "url": "recipes/420/Rice-Stuffing",
+        "title": "Rice Stuffing"
+      }
+    ],
     "image":"assets/media/recipes/rec_turkey_stuffing.jpg"
   },
   {
@@ -1916,6 +2073,28 @@
     "instructions": "Cook pasta according to package directions; drain and rinse under cold water until completely cool. Drain thoroughly. Preheat oven to 350°F. Squeeze as much water as possible from the thawed spinach. In large bowl, stir together the spinach, mozzarella, ricotta, carrots, egg whites, pepper and nutmeg until thoroughly blended. Line the bottom of an 11x17-inch baking dish with 1/2 cup tomato sauce. Divide the ricotta mixture among the pasta shells, pressing the filling into the shells with spoon to completely fill each shell. Arrange the shells side by side in a baking dish. Coat the shells with an even layer of the remaining tomato sauce. Sprinkle with Parmesan cheese, if desired. Bake until the centres of the shells are heated through and the sauce is bubbling, about 40 minutes. Let stand 10 minutes before serving.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_pasta_sauce_with_calamar.jpg",
+        "url": "recipes/399/Pasta-Sauce-with-Calamari",
+        "title": "Pasta Sauce with Calamari"
+      },
+      {
+        "image": "assets/media/recipes/rec_linguine_with_pesto.jpg",
+        "url": "recipes/395/Linguine-with-Pesto",
+        "title": "Linguine with Pesto"
+      },
+      {
+        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "url": "recipes/397/Mediterranean-Tuna-Linguine",
+        "title": "Mediterranean Tuna Linguine"
+      },
+      {
+        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "url": "recipes/401/Tomato-Linguine-with-Salmon",
+        "title": "Tomato Linguine with Salmon"
+      }
+    ],
     "image":"assets/media/recipes/rec_turtle_shells.jpg"
   },
   {
@@ -1931,6 +2110,23 @@
     "instructions": "Put the onion, leeks, garlic, peppers, zucchini and mushrooms in a large saucepan. Add the tomatoes, port, tomato paste and ketchup and mix well. Rinse and drain the chick peas and add to the pan. Cover, bring to a boil and simmer gently for 20-30 minutes, stirring occasionally, until the vegetables are cooked and tender but not overcooked. Remove the lid and increase the heat slightly for the last 10 minutes of the cooking time, to thicken the sauce, if you like. Stir in the olives and herbs and season with salt and pepper. Serve immediately, garnished with chopped mixed herbs.",
     "featured-start-date": "YYYY-MM-DD-TO-HH:MM:SS-05:00",
     "publish": true,
+    "related": [
+      {
+        "image": "assets/media/recipes/rec_spring_vegetable_salad.jpg",
+        "url": "recipes/413/New-Spring-Vegetable-Salad",
+        "title": "New Spring Vegetable Salad"
+      },
+      {
+        "image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+        "url": "recipes/412/New-Style-Chicken-Salad",
+        "title": "New-Style Chicken Salad"
+      },
+      {
+        "image": "assets/media/recipes/rec_eggplant_salad_caprese.jpg",
+        "url": "recipes/416/Eggplant-Salad-Capres",
+        "title": "Eggplant Salad Capres"
+      }
+    ],
     "image":"assets/media/recipes/rec_vegetables_provencal.jpg"
   }
 ]
