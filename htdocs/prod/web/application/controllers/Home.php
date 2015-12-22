@@ -15,6 +15,9 @@ class Home extends CI_Controller {
 		// and AFTER the cutover time. DO NOT forget to set the correct cutover Date/Time
 		// before you push to the repo.
 		$dateCarouselUpdate = new DateTime('2015-12-21 13:09:00');
+		// var_dump($dateCarouselUpdate); echo '<br>';
+		// echo gmdate('d.m.Y H:i', strtotime('2015-12-21 13:09:00'));
+		// die();
 
     $this->load->view("header");
 
@@ -22,7 +25,7 @@ class Home extends CI_Controller {
     if ($dateNow < $dateCarouselUpdate) { // current Carousel BEFORE cutover
     	$this->load->view("home");
     } else { // updated carousel AFTER cutover
-    	$this->load->view("home-after-cutover");
+    	$this->load->view("home");
     }
 
 		$this->load->view("footer");
