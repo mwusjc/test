@@ -1,9 +1,8 @@
 
-<div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="66000" >
+<div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="6000" >
     <ol class="carousel-indicators">
     </ol>
     <div class="carousel-inner" role="listbox">
-
     </div>
     <a class="left carousel-control" href="#carousel" role="button" data-slide="prev" onclick="$('#carousel').carousel('pause');">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -13,12 +12,7 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-
 </div>
-
-<!-- <div class="carousel-indicators2">
-
-</div> -->
 
 </header>
 
@@ -62,93 +56,6 @@
     <img class="mobile" src="<?=site_url()?>_mobileSlideBackground_">
 
   </a>
-</script>
-
-
-<script type="text/html" id="tpl-testing">
-	<div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="6000" >
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <a href="_link_"  class="item active responsive">
-            <div class="carousel-item-container desktop col-xs-12">
-		            <!-- Add inline text here to replace copy within current image asset -->
-		            _featuredDescription_
-                <div class="item-1-img" style="_desktopSideImageStyles_">
-                    <img src="<?=site_url()?>_desktopSideImage_" alt="holidays">
-                </div>
-            </div>
-
-            <div class="desktop item-1-slide" style="background-image: url('_desktopSlideBackground_');"></div>
-
-            <img class="mobile" src="<?=site_url()?>_mobileSlideBackground_">
-        </a>
-        <a  href="_link_"class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc">_description_<h5 class="dow-product-details">_descriptionSubtext_</h5></p>
-                </div>
-                <img class="desktop" src="<?=site_url()?>_desktopPriceImage_">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>_desktopSlideBackground_">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_2.jpg">
-        </a>
-        <a href="/flyer" class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc">Fresh Clementines<br/>Product of Morocco</p>
-                </div>
-                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-3.png">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-3.jpg">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_3.jpg">
-
-        </a>
-        <a href="_link_" class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <img class="desktop" src="<?=site_url()?>_desktopPriceImage_">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>_desktopSlideBackground_">
-            <img class="mobile" src="<?=site_url()?>_mobileSlideBackground_">
-
-        </a>
-        <a href="/flyer" class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-5.png">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-5.jpg">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_5.jpg">
-
-        </a>
-        <a href="/flyer" class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-6.png">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-6.jpg">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_6.jpg">
-        </a>
-    </div>
-    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev" onclick="$('#carousel').carousel('pause');">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel" role="button" data-slide="next" onclick="$('#carousel').carousel('pause');">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-	</div>
 </script>
 
 <main class='home'>

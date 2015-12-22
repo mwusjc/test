@@ -19,7 +19,7 @@ var carousel = {
 	},
 	render: function(data) {
 
-		// iterate through carousels, if current time greater than start-time, use that carousel
+		// iterate through carousels, if current time is greater than start-time, use that carousel
 		$.each(data, function(key,item) {
 
 			var d1 = new Date(carousel.currentTime);
@@ -29,10 +29,9 @@ var carousel = {
 			// found the current carousel we should be rendering
 			if (d1.getTime() > d2.getTime()) {
 
-
 				$.each(item.slides, function(key2,slide) {
 
-					// add logic for each type of template
+					// render the correct template based on the slide number.
 					if (slide.order === 0) {
 						mapping = {
 							"_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
@@ -86,7 +85,5 @@ var carousel = {
 			}
 
     });
-
 	}
-
 }
