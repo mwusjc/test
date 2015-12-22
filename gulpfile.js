@@ -9,7 +9,7 @@ gulp.task('css', function() {
 	.pipe(gulp.dest('./htdocs/prod/web/assets/css/'));
 });
 
-gulp.task('js', ['css'], function() {
+gulp.task('js', function() {
 	return gulp.src('./htdocs/prod/web/assets/js/*.js')
 	.pipe(cachebust({
 		type: 'timestamp'
