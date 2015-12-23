@@ -1,6 +1,6 @@
 [
 	{
-		"startDate": "2015/12/22 16:06:00",
+		"startDate": "2015/12/23 10:35:00",
 		"slides": [
 			{
 				"order": 0,
@@ -8,18 +8,18 @@
 				"featuredDescription": "",
 				"description": null,
 				"descriptionSubtext": null,
-				"desktopSlideBackground": "assets/images/home_carousel-1.jpg",
-				"desktopSideImage": "assets/images/home_float_left.png",
+				"desktopSlideBackground": "assets/images/20151223-carousel/home_carousel-1.jpg",
+				"desktopSideImage": "assets/images/20151223-carousel/home_float_left.png",
 				"desktopSideImageStyles": "left:-53px; padding: 10px 40px 120px 40px; position: absolute; top: -368px",
 				"desktopPriceImage": null,
-				"mobileSlideBackground": "assets/images/home_banner_mobile_1.jpg"
+				"mobileSlideBackground": "assets/images/20151223-carousel/home_banner_mobile_1.jpg"
 			},
 			{
 				"order": 1,
 				"link": "/flyer",
 				"featuredDescription": null,
-				"description": "Grade AAAA Butterball Frozen Turkeys <br> All Sizes <br>",
-				"descriptionSubtext": "Limit of 1000 per family",
+				"description": "Grade A Butterball Frozen Turkeys <br> All Sizes <br>",
+				"descriptionSubtext": "Limit of 1 per family",
 				"desktopSlideBackground": "assets/images/home_carousel-2.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",

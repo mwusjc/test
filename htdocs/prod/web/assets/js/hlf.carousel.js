@@ -1,7 +1,6 @@
 var carousel = {
 	init: function(currentTime) {
 		this.loadData();
-
 	},
 	loadData: function() {
 		var url = "/assets/data/carousel/carousel.json";
@@ -11,7 +10,6 @@ var carousel = {
 		xmlhttp.onreadystatechange = function() {
 			if (xmlhttp.readyState == 4) {
 				var data = JSON.parse(xmlhttp.responseText);
-
 				carousel.render(data);
 			}
 		}
@@ -19,16 +17,17 @@ var carousel = {
 	},
 	render: function(data) {
 
-		// iterate through carousels, if current time is greater than start-time, use that carousel
+		// iterate through carousels, if current time is greater than start-time of current carousel,
+		// use that carousel
 		$.each(data, function(key,item) {
 
 			var d1 = new Date(carousel.currentTime);
 			var d2 = new Date(item.startDate);
 
-
 			// found the current carousel we should be rendering
 			if (d1.getTime() > d2.getTime()) {
 
+				// iterate through the slides of the current carousel
 				$.each(item.slides, function(key2,slide) {
 
 					// render the correct template based on the slide number.
