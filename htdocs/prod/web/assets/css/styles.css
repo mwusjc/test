@@ -6534,6 +6534,7 @@ a#flyerModal {
   max-width: initial; }
 
 .item-1-slide {
+	background-image: url('../../assets/images/home_carousel-1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
