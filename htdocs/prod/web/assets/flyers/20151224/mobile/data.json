@@ -464,7 +464,7 @@
 				},
 				{
 					"image":"ChocoMaxBarsCombined.jpg",
-					"coords":[9,288,73,85],
+					"coords":[236,288,73,85],
 					"name": "Leclerc Chocomax Chewy Bars Assorted Varieties",
 					"brands": ["Leclerc"],
 					"category": "grocery",
@@ -846,7 +846,7 @@
 				},
 				{
 					"image":"C8334.jpg",
-					"coords":[851,200,73,85],
+					"coords":[85,200,73,85],
 					"name": "Alexis De Portneuf Double-Creme Brie  At the Deli",
 					"brands": ["Alexis De Portneuf"],
 					"category": "deli",

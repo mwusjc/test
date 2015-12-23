@@ -751,7 +751,7 @@
 				},
 				{
 					"image":"C737.jpg",
-					"coords":[453,12,141,117],
+					"coords":[453,12,101,141],
 					"name": "Cuddy Oven Roasted Turkey Breast Freshly Sliced at the Deli",
 					"brands": ["Cuddy"],
 					"category": "deli",
@@ -762,7 +762,7 @@
 				},
 				{
 					"image":"C985.jpg",
-					"coords":[559,12,141,117],
+					"coords":[559,12,101,141],
 					"name": "Mastro Prosciutto Cotto  Freshly Sliced at the Deli",
 					"brands": ["Mastro"],
 					"category": "deli",
