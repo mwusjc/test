@@ -41,9 +41,12 @@ var fl = {
 		nextWednesday = t;
 		nextWednesday.setDate(nextWednesday.getDate()+6);
 		var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
-		//Check if current Flyer range is either of the "normal" weeks during 2 week exception period and adjust duration shown on screen
-		if(range == "Fri Dec 11 2015 - Thu Dec 17 2015" || range == "Fri Dec 18 2015 - Thu Dec 24 2015") {
+		//Check current Flyer range, and adjust duration shown on screen
+		if(range == "Fri Dec 18 2015 - Thu Dec 24 2015") {
 			range = "Fri Dec 11 2015 - Thu Dec 24 2015";
+		}
+		else if (range == "Fri Dec 25 2015 - Thu Dec 31 2015") {
+			range = "Sun Dec 27 2015 - Thu Dec 31 2015";
 		}
 		return range;
 	},
@@ -132,43 +135,43 @@ var fl = {
 	},
 	previewFlyers: function() {
 		var currentWeek = fl.getWeek("current");
-		console.log("Current week: " + currentWeek);
 		var nextWeek = fl.getWeek("next");
-		console.log("Next week: " + nextWeek);
 
 		$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
 		$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
 		$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
 		$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
-		//Check if Flyer has entered what would normally be overlap period for 2 week exception, adjust duration dates and hide what would normally be "Next Weeks Flyer"
-		if(nextWeek == "20151217" || currentWeek == "20151217") {
-			$("#thisWeekDates").html("Fri Dec 11 2015 - Thu Dec 24 2015");
-			document.querySelector(".modal-backdrop").remove();
-			$("#chooseFlyer").addClass("hide");
-			$("#nextFlyer .flyerDateRange").html("");
+
+		//Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
+		if(nextWeek == "20151224" && currentWeek == "20151217") {
+			$("#thisWeekDates").html("Sun Dec 27 2015 - Thu Dec 31 2015");
+			//Specify flyer for current week due to 2 week exception period
+			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20151210/mobile/page1.jpg");
+			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
 		}
+		
 		window.setTimeout('$("#chooseFlyer").modal("show");',1000);
 	},
 	checkOverlapDay: function(){
 		var today = new Date();
 		var test = location.search;
 		//Assuming overlap day is Thursday
-		// console.log("today",today);
 		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true"))){
-			// console.log("overlap!");
 			this.previewFlyers();
 		}
 		else{
-			// console.log("no overlap!")
 			$("#chooseFlyer").modal("hide");
 			$("#flyerModal").hide();
 		}
 	},
 	loadData: function(week,type){
 		var url = "/assets/flyers/"+week+"/"+type+"/data.json"; 
-		//Check if week for current flyer is second week of 2 week exception period and modify data URL accordingly
+		//Check week for current flyer, and modify data URL accordingly
 		if(week == "20151217") {
 			url = "/assets/flyers/20151210/"+type+"/data.json";
+		}
+		else if (week == "20151224") {
+			url = "/assets/flyers/20151224/"+type+"/data.json";	
 		}
 
 		var xmlhttp = new XMLHttpRequest(); 
@@ -178,7 +181,6 @@ var fl = {
 		xmlhttp.onreadystatechange = function() {
 			if (xmlhttp.readyState == 4) {
 			var data = JSON.parse(xmlhttp.responseText);
-			//console.log("data",data);
 			fl.populateFlyer(data,type);
 			fl.populateListView(data,type);
 			fl.populateCategories(data);
