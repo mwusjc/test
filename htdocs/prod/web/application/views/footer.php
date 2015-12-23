@@ -38,16 +38,12 @@
 <script src="/assets/js/hlf.recipes.js"></script>
 <script src="/assets/js/sizeify.js"></script>
 <script src="/assets/js/validate.js"></script>
-<script src="/assets/js/hlf.carousel.js"></script>
 <script type='text/javascript'>
   jQuery(document).ready(function($) {
     sl.init();
     $("body").on("click", ".menu-toggle", function(){
       $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
     });
-    <?php $currentDate = new DateTime('now'); ?>
-    carousel.currentTime = "<?php echo $currentDate->format('Y/m/d H:i:s'); ?>";
-    carousel.init(carousel.currentTime);
   });
 </script>
 <script>
