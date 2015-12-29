@@ -5474,6 +5474,11 @@ button.close {
   .carousel-inner > .active.right {
     left: 100%; }
 
+
+.fake-selector {}
+
+
+
 .dow-product-desc-container {
   color: #000;
   font-size: 18px;
