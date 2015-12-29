@@ -1,0 +1,233 @@
+[
+	{
+		"startDate": "2015-12-25T03:00:00Z",
+		"slides": [
+			{
+				"order": 0,
+				"link": "#",
+				"featuredDescription": "",
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/20151223-carousel/home_carousel-1.jpg",
+				"desktopSideImage": "assets/images/20151223-carousel/home_float_left.png",
+				"desktopSideImageStyles": "left:-53px; padding: 10px 40px 120px 40px; position: absolute; top: -368px",
+				"desktopPriceImage": null,
+				"mobileSlideBackground": "assets/images/20151223-carousel/home_banner_mobile_1.jpg"
+			},
+			{
+				"order": 1,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": "Fresh Beef <br> Striploin Steaks <br> Product of Canada",
+				"descriptionSubtext": "",
+				"desktopSlideBackground": "assets/images/20151224-carousel/home_carousel-2.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/20151224-carousel/home_price-2.png",
+				"mobileSlideBackground": "assets/images/20151224-carousel/home_banner_mobile_2.jpg"
+			},
+			{
+				"order": 2,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": "Fresh Red Cherries <br> Product of Chile <br> No. 1 Grade, Extra Large",
+				"descriptionSubtext": "",
+				"desktopSlideBackground": "assets/images/20151224-carousel/home_carousel-3.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/20151224-carousel/home_price-3.png",
+				"mobileSlideBackground": "assets/images/20151224-carousel/home_banner_mobile_3.jpg"
+			},
+			{
+				"order": 3,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/20151224-carousel/home_carousel-4.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/20151224-carousel/home_price-4.png",
+				"mobileSlideBackground": "assets/images/20151224-carousel/home_banner_mobile_4.jpg"
+			},
+			{
+				"order": 4,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/20151224-carousel/home_carousel-5.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/20151224-carousel/home_price-5.png",
+				"mobileSlideBackground": "assets/images/20151224-carousel/home_banner_mobile_5.jpg"
+			},
+			{
+				"order": 5,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/20151224-carousel/home_carousel-6.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/20151224-carousel/home_price-6.png",
+				"mobileSlideBackground": "assets/images/20151224-carousel/home_banner_mobile_6.jpg"
+			}
+		]
+	},
+	{
+		"startDate": "2015-12-23T21:00:00Z",
+		"slides": [
+			{
+				"order": 0,
+				"link": "#",
+				"featuredDescription": "",
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/20151223-carousel/home_carousel-1.jpg",
+				"desktopSideImage": "assets/images/20151223-carousel/home_float_left.png",
+				"desktopSideImageStyles": "left:-53px; padding: 10px 40px 120px 40px; position: absolute; top: -368px",
+				"desktopPriceImage": null,
+				"mobileSlideBackground": "assets/images/20151223-carousel/home_banner_mobile_1.jpg"
+			},
+			{
+				"order": 1,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": "Grade A Butterball Frozen Turkeys <br> All Sizes <br>",
+				"descriptionSubtext": "Limit of 1 per family",
+				"desktopSlideBackground": "assets/images/home_carousel-2.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-2.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_2.jpg"
+			},
+			{
+				"order": 2,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": "Fresh Clementines<br>Product of Morocco",
+				"descriptionSubtext": "",
+				"desktopSlideBackground": "assets/images/home_carousel-3.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-3.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_3.jpg"
+			},
+			{
+				"order": 3,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/home_carousel-4.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-4.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_4.jpg"
+			},
+			{
+				"order": 4,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/home_carousel-5.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-5.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_5.jpg"
+			},
+			{
+				"order": 5,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/home_carousel-6.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-6.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_6.jpg"
+			}
+		]
+	},
+	{
+		"startDate": "2015-12-11T03:00:00Z",
+		"slides": [
+			{
+				"order": 0,
+				"link": "#",
+				"featuredDescription": "",
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/home_carousel-1.jpg",
+				"desktopSideImage": "assets/images/home_float_left.png",
+				"desktopSideImageStyles": "left:-53px; padding: 10px 40px 120px 40px; position: absolute; top: -368px",
+				"desktopPriceImage": null,
+				"mobileSlideBackground": "assets/images/home_banner_mobile_1.jpg"
+			},
+			{
+				"order": 1,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": "Grade A Butterball Frozen Turkeys <br> All Sizes <br>",
+				"descriptionSubtext": "Limit of 1 per family",
+				"desktopSlideBackground": "assets/images/home_carousel-2.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-2.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_2.jpg"
+			},
+			{
+				"order": 2,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": "Fresh Clementines<br>Product of Morocco",
+				"descriptionSubtext": "",
+				"desktopSlideBackground": "assets/images/home_carousel-3.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-3.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_3.jpg"
+			},
+			{
+				"order": 3,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/home_carousel-4.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-4.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_4.jpg"
+			},
+			{
+				"order": 4,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/home_carousel-5.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-5.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_5.jpg"
+			},
+			{
+				"order": 5,
+				"link": "/flyer",
+				"featuredDescription": null,
+				"description": null,
+				"descriptionSubtext": null,
+				"desktopSlideBackground": "assets/images/home_carousel-6.jpg",
+				"desktopSideImage": null,
+				"desktopSideImageStyles": "",
+				"desktopPriceImage": "assets/images/home_price-6.png",
+				"mobileSlideBackground": "assets/images/home_banner_mobile_6.jpg"
+			}
+		]
+	}
+]

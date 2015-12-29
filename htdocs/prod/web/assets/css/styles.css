@@ -5474,6 +5474,11 @@ button.close {
   .carousel-inner > .active.right {
     left: 100%; }
 
+
+.fake-selector {}
+
+
+
 .dow-product-desc-container {
   color: #000;
   font-size: 18px;
@@ -5488,8 +5493,14 @@ button.close {
   font-family: "HelveticaNeueLTStd-MdCn", "HelveticaNeueLT-Roman", "Helvetica", Arial, sans-serif;
   line-height: initial;
   margin: 0;
+  font-weight: initial;
   /*This is a specific fix made on a per week basis*/
   margin-top: -25px;
+}
+
+.dow-product-details {
+  font-weight: bold;
+  line-height: 24px;
 }
 
 /* Start copy overlay on homepage carousel image */
@@ -5551,6 +5562,10 @@ button.close {
     left: 7%;
     width: 86%;
     top: 240px;
+  }
+
+  .carousel-indicators {
+    bottom: -7px !important;
   }
 }
 /* End copy overlay on homepage carousel image */
@@ -6525,7 +6540,6 @@ a#flyerModal {
   max-width: initial; }
 
 .item-1-slide {
-  background-image: url("../../assets/images/home_carousel-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7025,6 +7039,37 @@ h2{
 .originals hr{
   margin: 40px 0;
 }
+
+.required-fields {
+	margin-bottom: 15px;
+}
+
+.error {
+	color: red;
+}
+
+.invalid input:required:invalid, .invalid textarea:required:invalid {
+    border: 1px solid red;
+}
+
+.invalid input:required:valid, .invalid textarea:required:valid {
+    background: #DFF0D8;
+}
+
+/* Safari only */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media
+{
+  .invalid input#upload-resume-file:required:invalid {
+    border: 1px solid red;
+    opacity: 1 !important;
+    text-indent: -2000px;
+    border-radius: 8px;
+	}
+
+	.invalid input#upload-resume-file:required:valid {
+    background: #DFF0D8;
+	}
+}}
 
 @media print {
   html,

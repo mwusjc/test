@@ -39,10 +39,16 @@ var fl = {
 		thursday.setDate(thursday.getDate()+1);
 		t.setDate(t.getDate()+1);
 		nextWednesday = t;
-		//console.log(nextWednesday.getDate());
 		nextWednesday.setDate(nextWednesday.getDate()+6);
-		//console.log(nextWednesday.getDate());
-		return thursday.toDateString() +" - "+ nextWednesday.toDateString();
+		var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
+		//Check current Flyer range, and adjust duration shown on screen
+		if(range == "Fri Dec 18 2015 - Thu Dec 24 2015") {
+			range = "Fri Dec 11 2015 - Thu Dec 24 2015";
+		}
+		else if (range == "Fri Dec 25 2015 - Thu Dec 31 2015") {
+			range = "Sun Dec 27 2015 - Thu Dec 31 2015";
+		}
+		return range;
 	},
 	getThursday: function(d) {
 		d = new Date(d);
@@ -100,9 +106,6 @@ var fl = {
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
-				if (prod.pricing.indexOf("$")<0){
-					prod.pricing = "$"+prod.pricing;
-				}
 				html += 	"<div class='modal fade out "+type+" productPopup' id='"+type+"productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
 				html += 	'	<div class="modal-dialog" role="document">'
 				html += 	'		<div class="modal-content">'
@@ -114,7 +117,7 @@ var fl = {
 				html += 	'					</div>'
 				html += 	'					<div class="col-xs-12 col-sm-6">'
 				html += 	'						'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
-				html += 	'						<h2 class="title">'+prod.name+'</h2>'      
+				html += 	'						<h2 class="title">'+prod.name+'</h2>'     
 				html += 	'						<div class="pricing">'+prod.pricing+'</div>'
 				html += 	'						<div class="packaging">'+prod.packaging+'</div>'
 				html += 	'						<a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a>'
@@ -133,29 +136,44 @@ var fl = {
 	previewFlyers: function() {
 		var currentWeek = fl.getWeek("current");
 		var nextWeek = fl.getWeek("next");
+
 		$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
 		$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
 		$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
 		$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
+
+		//Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
+		if(nextWeek == "20151224" && currentWeek == "20151217") {
+			$("#thisWeekDates").html("Sun Dec 27 2015 - Thu Dec 31 2015");
+			//Specify flyer for current week due to 2 week exception period
+			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20151210/mobile/page1.jpg");
+			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
+		}
+		
 		window.setTimeout('$("#chooseFlyer").modal("show");',1000);
 	},
 	checkOverlapDay: function(){
 		var today = new Date();
 		var test = location.search;
 		//Assuming overlap day is Thursday
-		// console.log("today",today);
 		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true"))){
-			// console.log("overlap!");
 			this.previewFlyers();
 		}
 		else{
-			// console.log("no overlap!")
 			$("#chooseFlyer").modal("hide");
 			$("#flyerModal").hide();
 		}
 	},
 	loadData: function(week,type){
 		var url = "/assets/flyers/"+week+"/"+type+"/data.json"; 
+		//Check week for current flyer, and modify data URL accordingly
+		if(week == "20151217") {
+			url = "/assets/flyers/20151210/"+type+"/data.json";
+		}
+		else if (week == "20151224") {
+			url = "/assets/flyers/20151224/"+type+"/data.json";	
+		}
+
 		var xmlhttp = new XMLHttpRequest(); 
 
 		xmlhttp.open("GET", url, true);
@@ -163,7 +181,6 @@ var fl = {
 		xmlhttp.onreadystatechange = function() {
 			if (xmlhttp.readyState == 4) {
 			var data = JSON.parse(xmlhttp.responseText);
-			//console.log("data",data);
 			fl.populateFlyer(data,type);
 			fl.populateListView(data,type);
 			fl.populateCategories(data);
@@ -239,9 +256,6 @@ var fl = {
 				var brandstring = "";
 				for (var b = 0; b < prod.brands.length; b++){
 					brandstring+= prod.brands[b] + "|";
-				}
-				if (prod.pricing.indexOf("$")<0){
-					prod.pricing = "$"+prod.pricing;
 				}
 				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'">'
 				html+=	    '	<div class="col-xs-12 col-sm-3 text-center">'

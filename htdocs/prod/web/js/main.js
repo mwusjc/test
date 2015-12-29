@@ -61,16 +61,16 @@ function showStore(id) {
 //		el = document.getElementById("StoreMap_" + stores[i].id);
 //		el.style.display = "none";
 //	}
-	el1 = document.getElementById("StoreHours_0"); 
+	el1 = document.getElementById("StoreHours_0");
 	el = document.getElementById("StoreHours_" + id);
 	el1.innerHTML = el.innerHTML;
 	el1.style.visibility = "visible";
-	el1 = document.getElementById("StoreMap_0"); 
+	el1 = document.getElementById("StoreMap_0");
 	el = document.getElementById("StoreMap_" + id);
 	el1.innerHTML = el.innerHTML;
 	el1.style.visibility = "visible";
-	
-	el1 = document.getElementById("StoreAddress_0"); 
+
+	el1 = document.getElementById("StoreAddress_0");
 	el = document.getElementById("StoreAddress_" + id);
 	el1.innerHTML = el.innerHTML;
 	el1.style.visibility = "visible";
@@ -169,7 +169,7 @@ function showResultsCategory(cat) {
 			{
 				for (k=0; k<el.length; k++)
 				{
-					if (cat == cats[i]) el[k].style.display = "block"; else el[k].style.display = "none"; 
+					if (cat == cats[i]) el[k].style.display = "block"; else el[k].style.display = "none";
 				}
 			}
 		}
@@ -182,7 +182,7 @@ function updatePlatterPrice(obj, id) {
 	{
 		el.innerHTML = '<b>Price: </b>$' + obj.options[obj.selectedIndex].value;
 	} else el.innerHTML = 'N/A';
-	
+
 }
 
 
@@ -246,7 +246,7 @@ function plRemoveFromCart(productID) {
 
 function plShowOrder() {
 	if (plCart.length == 0)
-	{ 
+	{
 		txt = "Your cart is empty";
 	} else {
 		txt = "<b>Order Information: </b><br><br>";
@@ -304,7 +304,7 @@ function plSelectAll(obj) {
 	el = document.getElementsByName("Delete[]");
 	for (i =0; i<el.length ; i++ )
 	{
-		if (obj.checked) el[i].checked = true; else el[i].checked = false; 
+		if (obj.checked) el[i].checked = true; else el[i].checked = false;
 	}
 }
 
@@ -313,7 +313,7 @@ function filterPlatters(p) {
 	for (i=0; i<=3; i++) {
 		el2 = document.getElementById("list_" + i);
 		if (i==p) {
-			setClass(el2, "active"); 
+			setClass(el2, "active");
 		} else {
 			setClass(el2, "");
 		}
@@ -325,9 +325,9 @@ function filterPlatters(p) {
 //		for (k=0; k<el.length ;k++ )
 //		{
 //			if (!p || p == i) {
-//				el[k].style.display = 'block'; 
+//				el[k].style.display = 'block';
 //			} else {
-//				el[k].style.display = 'none'; 
+//				el[k].style.display = 'none';
 //			}
 //		}
 //	}
@@ -337,9 +337,9 @@ function filterPlatters(p) {
 		el = document.getElementById("orderItem_" + platters[i]);
 		tmp = el.getAttribute("name").split("_");
 		if (tmp[2] == p || !p) {
-			el.style.display = 'block'; 
+			el.style.display = 'block';
 		} else {
-			el.style.display = 'none'; 
+			el.style.display = 'none';
 		}
 	}
 
@@ -348,7 +348,7 @@ function filterPlatters(p) {
 function submitOrder() {
 //	if (plCart.length == 0) plLoadCart();
 	if (plCart.length == 0)
-	{ 
+	{
 		txt = "Your cart is empty";
 		message(txt);
 	} else {
@@ -427,7 +427,7 @@ function initOrderForm() {
 		if (el2.value == "Number of items") {
 			el.innerHTML = "";
 			el3.selectedIndex = 0;
-		} 
+		}
 	}
 
 }
@@ -451,13 +451,13 @@ function filterStore(id) {
 function showVideo() {
 
 	var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-	if(hasRightVersion) {  
+	if(hasRightVersion) {
 		txt = '<embed width="480" height="320" align="middle" type="application/x-shockwave-flash" salign="" allowfullscreen="false" allowscriptaccess="sameDomain" menu="true" name="swf/mikevideos" bgcolor="#ffffff" devicefont="false" flashvars="theSection=slogan" scale="showall" loop="true" play="true" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="swf/hfTour.swf"/>';
-	} else {  
+	} else {
 		var alternateContent = 'Sorry your current browser does not support scripting or it has been disabled.Please either update your browser or enable scripting support.'
 			+ 'This content requires the Adobe Flash Player.'
 			+ '<a href=http://www.macromedia.com/go/getflash/>Get Flash</a>';
-		txt = alternateContent;  
+		txt = alternateContent;
 	}
 	txt = "<div style='width: 480px;'><div style='float: right;'><a href='#self' onclick='closeWait();'><img border=0 src='images/bttn_x.gif' onmouseover='this.src=/images/bttn_x_over.gif'></a></div>" + txt + "</div>";
 	showWait(txt);

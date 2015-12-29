@@ -1,0 +1,24 @@
+{
+  "name": "highland-farms",
+  "version": "1.0.0",
+  "description": "gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stjosephcontent/highland-farms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stjosephcontent/highland-farms/issues"
+  },
+  "homepage": "https://github.com/stjosephcontent/highland-farms",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cache-bust": "^1.0.2",
+    "gulp-rev-append": "^0.1.6"
+  }
+}
