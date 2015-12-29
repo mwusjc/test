@@ -1,6 +1,3 @@
-
-<?php //echo(json_encode($recipes)); die(); ?>
-
 <div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/media/recipes/rec_linguine_with_pesto.jpg); background-size:cover">
 	<div class="caption col-xs-12">
 		<div class="wrapper">
@@ -33,9 +30,7 @@
 	<div class="row">
 		<div class="col-xs-12 col-sm-3">
 			<ul role="tablist">
-			<?php //foreach($recipes_categories AS $key=>$item) : ?>
-				<!-- <li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id='<?=$item->ID?>'><?=$item->Name?></a></li> -->
-				<?php //endforeach; ?>
+
 
 
 				<!-- <li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="8">Desserts</a></li>
@@ -53,7 +48,7 @@
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="pasta">Pasta</a></li>
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="poultry">Poultry</a></li>
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="seafood">Seafood</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="soups">Soups &amp; Salads</a></li>
+				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="soups-salads">Soups &amp; Salads</a></li>
 				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="vegetarian">Vegetarian</a></li>
 
 			</ul>
@@ -71,19 +66,29 @@
 
 
 <script type="text/html" id="tpl-recipe-listing">
-	<div class="col-xs-6 col-sm-4 recipe"><a href='<?=site_url()?>recipes/_ID_/_SEO_'>
-		<div class='img'><img data-original="<?=site_url()?>assets/_IMAGE_" alt='_TITLE_' class='lazy' /></div>
-		<div class="img_copy">_TITLE_</div>
+	<div class="col-xs-6 col-sm-4 recipe">
+		<a href='<?=site_url()?>recipes/_SLUG_'>
+			<div class='img'><img data-original="<?=site_url()?>assets/_IMAGE_" alt='_TITLE_' class='lazy' /></div>
+			<div class="img_copy">_TITLE_</div>
 		</a>
 	</div>
 </script>
 <script type='text/javascript'>
-	// console.log(<?=json_encode($recipes)?>);
-	hlf.data.recipes = <?=json_encode($recipes)?>;
-	hlf.data.recipes_categories = <?=json_encode($recipes_categories)?>;
 
 	jQuery(document).ready(function($) {
-		hlf.recipes.init(hlf.data.recipes);
-	})
+		var url = "../assets/data/recipes/recipes-v2.json";
+
+		var xmlhttp = new XMLHttpRequest();
+
+		xmlhttp.open("GET", url, true);
+		xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4) {
+				var data = JSON.parse(xmlhttp.responseText);
+				hlf.data.recipes = data;
+				hlf.recipes.init(hlf.data.recipes);
+			}
+		}
+		xmlhttp.send();
+	});
 
 </script>

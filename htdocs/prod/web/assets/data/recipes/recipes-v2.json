@@ -14,17 +14,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+        "image": "media/recipes/rec_pancetta_pork_roast.jpg",
         "url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
         "title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_onepot_itl_sausage.jpg",
+        "image": "media/recipes/rec_onepot_itl_sausage.jpg",
         "url": "recipes/386/One-Pot-Italian-Sausages-with-Potatoes",
         "title": "One-Pot Italian Sausages with Potatoes"
       }
     ],
-    "image":"assets/media/recipes/rec_baked_sweet_potatoes.jpg"
+    "image":"media/recipes/rec_baked_sweet_potatoes.jpg"
   },
   {
     "title":"Basil Rice Soup",
@@ -41,22 +41,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_cream_corn_chow.jpg",
+        "image": "media/recipes/rec_cream_corn_chow.jpg",
         "url": "recipes/409/Cream-Corn-Chowder",
         "title": "Cream Corn Chowder"
       },
       {
-        "image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+        "image": "media/recipes/rec_newstyle_chicken_salad.jpg",
         "url": "recipes/412/New-Style-Chicken-Salad",
         "title": "New-Style Chicken Salad"
       },
       {
-        "image": "assets/media/recipes/rec_spring_vegetable_salad.jpg",
+        "image": "media/recipes/rec_spring_vegetable_salad.jpg",
         "url": "recipes/413/New-Spring-Vegetable-Salad",
         "title": "New Spring Vegetable Salad"
       }
     ],
-    "image":"assets/media/recipes/rec_basil_rice_soup.jpg"
+    "image":"media/recipes/rec_basil_rice_soup.jpg"
   },
   {
     "title":"Beef Stroganoff",
@@ -73,52 +73,52 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_grilled_mustarddill_bugers.jpg",
+        "image": "media/recipes/rec_grilled_mustarddill_bugers.jpg",
         "url": "recipes/383/Grilled-Mustard-Dill-Burgers",
         "title": "Grilled Mustard-Dill Burgers"
       },
       {
-        "image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+        "image": "media/recipes/rec_srng_styl_beef-stir.jpg",
         "url": "recipes/380/Spring-Style-Beef-Stir-Fry",
         "title": "Spring Style Beef Stir-Fry"
       },
       {
-        "image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+        "image": "media/recipes/rec_cantonese_pork_chops.jpg",
         "url": "recipes/382/Cantonese-Pork-Chops",
         "title": "Cantonese Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+        "image": "media/recipes/rec_grilled_honey_garlic_pork.jpg",
         "url": "recipes/384/Grilled-Honey-Garlic-Pork-Chops",
         "title": "Grilled Honey Garlic Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+        "image": "media/recipes/rec_lemon_pork_chops.jpg",
         "url": "recipes/385/Lemon-Pork-Chops",
         "title": "Lemon Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_onepot_itl_sausage.jpg",
+        "image": "media/recipes/rec_onepot_itl_sausage.jpg",
         "url": "recipes/386/One-Pot-Italian-Sausages-with-Potatoes",
         "title": "One-Pot Italian Sausages with Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+        "image": "media/recipes/rec_pancetta_pork_roast.jpg",
         "url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
         "title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+        "image": "media/recipes/rec_rib_steak_beer.jpg",
         "url": "recipes/388/Rib-Steaks-with-Beer",
         "title": "Rib Steaks with Beer"
       },
       {
-        "image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+        "image": "media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
         "url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
         "title": "Sirloin Steak with Wine & Shallot Sauce"
       }
     ],
-    "image":"assets/media/recipes/rec_beef_stroganoff.jpg"
+    "image":"media/recipes/rec_beef_stroganoff.jpg"
   },
   {
     "title":"Berries & Cream",
@@ -135,52 +135,52 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+        "image": "media/recipes/rec_mixed_berry_crisp.jpg",
         "url": "recipes/369/Mixed-Berry-Crisp",
         "title": "Mixed Berry Crisp"
       },
       {
-        "image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+        "image": "media/recipes/rec_pastry_fruit_tarts.jpg",
         "url": "recipes/372/Pastry-Fruit-Tarts",
         "title": "Pastry Fruit Tarts"
       },
       {
-        "image": "assets/media/recipes/rec_creme_brulee.jpg",
+        "image": "media/recipes/rec_creme_brulee.jpg",
         "url": "recipes/362/Creme-Brulee",
         "title": "Creme Brulee"
       },
       {
-        "image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
+        "image": "media/recipes/rec_orig_choc_chip_cook.jpg",
         "url": "recipes/371/Original-Chocolate-Chip-Cookies",
         "title": "Original Chocolate Chip Cookies"
       },
       {
-        "image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+        "image": "media/recipes/rec_strwbrry_cream_cake.jpg",
         "url": "recipes/374/Strawberries-Cream-Cake",
         "title": "Strawberries & Cream Cake"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+        "image": "media/recipes/rec_ginger_brry_cant_sherbert.jpg",
         "url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
         "title": "Ginger, Berry & Cantaloupe Sherbert"
       },
       {
-        "image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
+        "image": "media/recipes/rec_berry_good_lemondade.jpg",
         "url": "recipes/360/Berry-Good-Lemonade",
         "title": "Berry Good Lemonade"
       }
     ],
-    "image":"assets/media/recipes/rec_berries_cream.jpg"
+    "image":"media/recipes/rec_berries_cream.jpg"
   },
   {
     "title":"Berry Good Lemonade",
@@ -197,52 +197,52 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+        "image": "media/recipes/rec_ginger_brry_cant_sherbert.jpg",
         "url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
         "title": "Ginger, Berry & Cantaloupe Sherbert"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+        "image": "media/recipes/rec_strwbrry_cream_cake.jpg",
         "url": "recipes/374/Strawberries-Cream-Cake",
         "title": "Strawberries & Cream Cake"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+        "image": "media/recipes/rec_pastry_fruit_tarts.jpg",
         "url": "recipes/372/Pastry-Fruit-Tarts",
         "title": "Pastry Fruit Tarts"
       },
       {
-        "image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+        "image": "media/recipes/rec_mixed_berry_crisp.jpg",
         "url": "recipes/369/Mixed-Berry-Crisp",
         "title": "Mixed Berry Crisp"
       },
       {
-        "image": "assets/media/recipes/rec_creme_brulee.jpg",
+        "image": "media/recipes/rec_creme_brulee.jpg",
         "url": "recipes/362/Creme-Brulee",
         "title": "Creme Brulee"
       },
       {
-        "image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
+        "image": "media/recipes/rec_orig_choc_chip_cook.jpg",
         "url": "recipes/371/Original-Chocolate-Chip-Cookies",
         "title": "Original Chocolate Chip Cookies"
       }
     ],
-    "image":"assets/media/recipes/rec_berry_good_lemonade.jpg"
+    "image":"media/recipes/rec_berry_good_lemonade.jpg"
   },
   {
     "title":"Cantonese Pork Chops",
@@ -259,47 +259,47 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+        "image": "media/recipes/rec_grilled_honey_garlic_pork.jpg",
         "url": "recipes/384/Grilled-Honey-Garlic-Pork-Chops",
         "title": "Grilled Honey Garlic Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+        "image": "media/recipes/rec_lemon_pork_chops.jpg",
         "url": "recipes/385/Lemon-Pork-Chops",
         "title": "Lemon Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+        "image": "media/recipes/rec_pancetta_pork_roast.jpg",
         "url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
         "title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+        "image": "media/recipes/rec_rib_steak_beer.jpg",
         "url": "recipes/388/Rib-Steaks-with-Beer",
         "title": "Rib Steaks with Beer"
       },
       {
-        "image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+        "image": "media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
         "url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
         "title": "Sirloin Steak with Wine & Shallot Sauce"
       },
       {
-        "image": "assets/media/recipes/rec_grilled_mustarddill_bugers.jpg",
+        "image": "media/recipes/rec_grilled_mustarddill_bugers.jpg",
         "url": "recipes/383/Grilled-Mustard-Dill-Burgers",
         "title": "Grilled Mustard-Dill Burgers"
       },
       {
-        "image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+        "image": "media/recipes/rec_srng_styl_beef-stir.jpg",
         "url": "recipes/380/Spring-Style-Beef-Stir-Fry",
         "title": "Spring Style Beef Stir-Fry"
       },
       {
-        "image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+        "image": "media/recipes/rec_beef_stroganoff.jpg",
         "url": "recipes/381/Beef-Stroganoff",
         "title": "Beef Stroganoff"
       }
     ],
-    "image":"assets/media/recipes/rec_cantonese_pork_chops.jpg"
+    "image":"media/recipes/rec_cantonese_pork_chops.jpg"
   },
   {
     "title":"Caramel Apples",
@@ -316,62 +316,62 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+        "image": "media/recipes/rec_orange_driz_slices.jpg",
         "url": "recipes/370/Orange-Drizzled-Cake-Slices",
         "title": "Orange Drizzled Cake Slices"
       },
       {
-        "image": "assets/media/recipes/rec_peach_amaretto_sundaes.jpg",
+        "image": "media/recipes/rec_peach_amaretto_sundaes.jpg",
         "url": "recipes/373/Peach-Amaretto-Sundaes",
         "title": "Peach Amaretto Sundaes"
       },
       {
-        "image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+        "image": "media/recipes/rec_pastry_fruit_tarts.jpg",
         "url": "recipes/372/Pastry-Fruit-Tarts",
         "title": "Pastry Fruit Tarts"
       },
       {
-        "image": "assets/media/recipes/rec_creme_brulee.jpg",
+        "image": "media/recipes/rec_creme_brulee.jpg",
         "url": "recipes/362/Creme-Brulee",
         "title": "Creme Brulee"
       },
       {
-        "image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
+        "image": "media/recipes/rec_orig_choc_chip_cook.jpg",
         "url": "recipes/371/Original-Chocolate-Chip-Cookies",
         "title": "Original Chocolate Chip Cookies"
       },
       {
-        "image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+        "image": "media/recipes/rec_mixed_berry_crisp.jpg",
         "url": "recipes/369/Mixed-Berry-Crisp",
         "title": "Mixed Berry Crisp"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+        "image": "media/recipes/rec_strwbrry_cream_cake.jpg",
         "url": "recipes/374/Strawberries-Cream-Cake",
         "title": "Strawberries & Cream Cake"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+        "image": "media/recipes/rec_ginger_brry_cant_sherbert.jpg",
         "url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
         "title": "Ginger, Berry & Cantaloupe Sherbert"
       }
     ],
-    "image":"assets/media/recipes/rec_caramel_apples.jpg"
+    "image":"media/recipes/rec_caramel_apples.jpg"
   },
   {
     "title":"Chicken Kabobs",
@@ -388,32 +388,32 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_stirfry_chicken_fajitas.jpg",
+        "image": "media/recipes/rec_stirfry_chicken_fajitas.jpg",
         "url": "recipes/404/Stir-Fry-Chicken-Fajitas",
         "title": "Stir-Fry Chicken Fajitas"
       },
       {
-        "image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+        "image": "media/recipes/rec_indian_style_chicken_breast.jpg",
         "url": "recipes/378/Indian-Style-Chicken-Breast",
         "title": "Indian-Style Chicken Breast"
       },
       {
-        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "image": "media/recipes/rec_ital_chick_rice.jpg",
         "url": "recipes/379/Italian-Chicken-Rice-Risotto",
         "title": "Italian Chicken & Rice (Risotto)"
       },
       {
-        "image": "assets/media/recipes/rec_fiesta_chicken_lasagna.jpg",
+        "image": "media/recipes/rec_fiesta_chicken_lasagna.jpg",
         "url": "recipes/394/Fiesta-Chicken-Lasagna",
         "title": "Fiesta Chicken Lasagna"
       },
       {
-        "image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+        "image": "media/recipes/rec_newstyle_chicken_salad.jpg",
         "url": "recipes/412/New-Style-Chicken-Salad",
         "title": "New-Style Chicken Salad"
       }
     ],
-    "image":"assets/media/recipes/rec_steak_kabob.jpg"
+    "image":"media/recipes/rec_steak_kabob.jpg"
   },
   {
     "title":"Chickpea Falafel with Cilantro Dip",
@@ -430,17 +430,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_baked_sweet_potatoes.jpg",
+        "image": "media/recipes/rec_baked_sweet_potatoes.jpg",
         "url": "recipes/414/Baked-Sweet-Potatoes",
         "title": "Baked Sweet Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_stuffed_mushrooms.jpg",
+        "image": "media/recipes/rec_stuffed_mushrooms.jpg",
         "url": "recipes/423/Stuffed-Mushrooms",
         "title": "Stuffed Mushrooms"
       }
     ],
-    "image":"assets/media/recipes/rec_chickpea_falafel.jpg"
+    "image":"media/recipes/rec_chickpea_falafel.jpg"
   },
   {
     "title":"Cream Corn Chowder",
@@ -457,12 +457,12 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_basil_rice_soup.jpg",
+        "image": "media/recipes/rec_basil_rice_soup.jpg",
         "url": "recipes/408/Basil-Rice-Soup",
         "title": "Basil Rice Soup"
       }
     ],
-    "image":"assets/media/recipes/rec_cream_corn_chow.jpg"
+    "image":"media/recipes/rec_cream_corn_chow.jpg"
   },
   {
     "title":"Creme Brulee",
@@ -479,57 +479,57 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
+        "image": "media/recipes/rec_orig_choc_chip_cook.jpg",
         "url": "recipes/371/Original-Chocolate-Chip-Cookies",
         "title": "Original Chocolate Chip Cookies"
       },
       {
-        "image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+        "image": "media/recipes/rec_pastry_fruit_tarts.jpg",
         "url": "recipes/372/Pastry-Fruit-Tarts",
         "title": "Pastry Fruit Tarts"
       },
       {
-        "image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+        "image": "media/recipes/rec_mixed_berry_crisp.jpg",
         "url": "recipes/369/Mixed-Berry-Crisp",
         "title": "Mixed Berry Crisp"
       },
       {
-        "image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+        "image": "media/recipes/rec_orange_driz_slices.jpg",
         "url": "recipes/370/Orange-Drizzled-Cake-Slices",
         "title": "Orange Drizzled Cake Slices"
       },
       {
-        "image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+        "image": "media/recipes/rec_strwbrry_cream_cake.jpg",
         "url": "recipes/374/Strawberries-Cream-Cake",
         "title": "Strawberries & Cream Cake"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+        "image": "media/recipes/rec_ginger_brry_cant_sherbert.jpg",
         "url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
         "title": "Ginger, Berry & Cantaloupe Sherbert"
       },
       {
-        "image": "assets/media/recipes/rec_peach_amaretto_sundaes.jpg",
+        "image": "media/recipes/rec_peach_amaretto_sundaes.jpg",
         "url": "recipes/373/Peach-Amaretto-Sundaes",
         "title": "Peach Amaretto Sundaes"
       }
     ],
-    "image":"assets/media/recipes/rec_creme_brulee.jpg"
+    "image":"media/recipes/rec_creme_brulee.jpg"
   },
   {
     "title":"Eggplant Salad Caprese",
@@ -546,17 +546,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+        "image": "media/recipes/rec_newstyle_chicken_salad.jpg",
         "url": "recipes/412/New-Style-Chicken-Salad",
         "title": "New-Style Chicken Salad"
       },
       {
-        "image": "assets/media/recipes/rec_spring_vegetable_salad.jpg",
+        "image": "media/recipes/rec_spring_vegetable_salad.jpg",
         "url": "recipes/413/New-Spring-Vegetable-Salad",
         "title": "New Spring Vegetable Salad"
       }
     ],
-    "image":"assets/media/recipes/rec_eggplant_salad_caprese.jpg"
+    "image":"media/recipes/rec_eggplant_salad_caprese.jpg"
   },
   {
     "title":"Fiesta Chicken Lasagna",
@@ -573,32 +573,32 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "image": "media/recipes/rec_ital_chick_rice.jpg",
         "url": "recipes/379/Italian-Chicken-Rice-Risotto",
         "title": "Italian Chicken & Rice (Risotto)"
       },
       {
-        "image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+        "image": "media/recipes/rec_indian_style_chicken_breast.jpg",
         "url": "recipes/378/Indian-Style-Chicken-Breast",
         "title": "Indian-Style Chicken Breast"
       },
       {
-        "image": "assets/media/recipes/rec_steak_kabob.jpg",
+        "image": "media/recipes/rec_steak_kabob.jpg",
         "url": "recipes/391/Chicken-Kabobs",
         "title": "Chicken Kabobs"
       },
       {
-        "image": "assets/media/recipes/rec_stirfry_chicken_fajitas.jpg",
+        "image": "media/recipes/rec_stirfry_chicken_fajitas.jpg",
         "url": "recipes/404/Stir-Fry-Chicken-Fajitas",
         "title": "Stir-Fry Chicken Fajitas"
       },
       {
-        "image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+        "image": "media/recipes/rec_newstyle_chicken_salad.jpg",
         "url": "recipes/412/New-Style-Chicken-Salad",
         "title": "New-Style Chicken Salad"
       }
     ],
-    "image":"assets/media/recipes/rec_fiesta_chicken_lasagna.jpg"
+    "image":"media/recipes/rec_fiesta_chicken_lasagna.jpg"
   },
   {
     "title":"Ginger, Berry & Cantaloupe Sherbert",
@@ -615,32 +615,32 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_peach_amaretto_sundaes.jpg",
+        "image": "media/recipes/rec_peach_amaretto_sundaes.jpg",
         "url": "recipes/373/Peach-Amaretto-Sundaes",
         "title": "Peach Amaretto Sundaes"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
+        "image": "media/recipes/rec_berry_good_lemondade.jpg",
         "url": "recipes/360/Berry-Good-Lemonade",
         "title": "Berry Good Lemonade"
       }
     ],
-    "image":"assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg"
+    "image":"media/recipes/rec_ginger_brry_cant_sherbert.jpg"
   },
   {
     "title":"Grilled Honey Garlic Pork Chops",
@@ -657,47 +657,47 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+        "image": "media/recipes/rec_lemon_pork_chops.jpg",
         "url": "recipes/385/Lemon-Pork-Chops",
         "title": "Lemon Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+        "image": "media/recipes/rec_cantonese_pork_chops.jpg",
         "url": "recipes/382/Cantonese-Pork-Chops",
         "title": "Cantonese Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+        "image": "media/recipes/rec_pancetta_pork_roast.jpg",
         "url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
         "title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+        "image": "media/recipes/rec_rib_steak_beer.jpg",
         "url": "recipes/388/Rib-Steaks-with-Beer",
         "title": "Rib Steaks with Beer"
       },
       {
-        "image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+        "image": "media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
         "url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
         "title": "Sirloin Steak with Wine & Shallot Sauce"
       },
       {
-        "image": "assets/media/recipes/rec_grilled_mustarddill_bugers.jpg",
+        "image": "media/recipes/rec_grilled_mustarddill_bugers.jpg",
         "url": "recipes/383/Grilled-Mustard-Dill-Burgers",
         "title": "Grilled Mustard-Dill Burgers"
       },
       {
-        "image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+        "image": "media/recipes/rec_srng_styl_beef-stir.jpg",
         "url": "recipes/380/Spring-Style-Beef-Stir-Fry",
         "title": "Spring Style Beef Stir-Fry"
       },
       {
-        "image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+        "image": "media/recipes/rec_beef_stroganoff.jpg",
         "url": "recipes/381/Beef-Stroganoff",
         "title": "Beef Stroganoff"
       }
     ],
-    "image":"assets/media/recipes/rec_grilled_honey_garlic_pork.jpg"
+    "image":"media/recipes/rec_grilled_honey_garlic_pork.jpg"
   },
   {
     "title":"Grilled Italian Swordfish",
@@ -714,22 +714,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "image": "media/recipes/rec_ital_chick_rice.jpg",
         "url": "recipes/379/Italian-Chicken-Rice-Risotto",
         "title": "Italian Chicken & Rice (Risotto)"
       },
       {
-        "image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+        "image": "media/recipes/rec_indian_style_chicken_breast.jpg",
         "url": "recipes/378/Indian-Style-Chicken-Breast",
         "title": "Indian-Style Chicken Breast"
       },
       {
-        "image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+        "image": "media/recipes/rec_srng_styl_beef-stir.jpg",
         "url": "recipes/380/Spring-Style-Beef-Stir-Fry",
         "title": "Spring Style Beef Stir-Fry"
       }
     ],
-    "image":"assets/media/recipes/rec_grlld_ital_swordfish.jpg"
+    "image":"media/recipes/rec_grlld_ital_swordfish.jpg"
   },
   {
     "title":"Grilled Mustard-Dill Burgers",
@@ -746,52 +746,52 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+        "image": "media/recipes/rec_srng_styl_beef-stir.jpg",
         "url": "recipes/380/Spring-Style-Beef-Stir-Fry",
         "title": "Spring Style Beef Stir-Fry"
       },
       {
-        "image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+        "image": "media/recipes/rec_cantonese_pork_chops.jpg",
         "url": "recipes/382/Cantonese-Pork-Chops",
         "title": "Cantonese Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+        "image": "media/recipes/rec_grilled_honey_garlic_pork.jpg",
         "url": "recipes/384/Grilled-Honey-Garlic-Pork-Chops",
         "title": "Grilled Honey Garlic Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+        "image": "media/recipes/rec_lemon_pork_chops.jpg",
         "url": "recipes/385/Lemon-Pork-Chops",
         "title": "Lemon Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_onepot_itl_sausage.jpg",
+        "image": "media/recipes/rec_onepot_itl_sausage.jpg",
         "url": "recipes/386/One-Pot-Italian-Sausages-with-Potatoes",
         "title": "One-Pot Italian Sausages with Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+        "image": "media/recipes/rec_pancetta_pork_roast.jpg",
         "url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
         "title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+        "image": "media/recipes/rec_rib_steak_beer.jpg",
         "url": "recipes/388/Rib-Steaks-with-Beer",
         "title": "Rib Steaks with Beer"
       },
       {
-        "image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+        "image": "media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
         "url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
         "title": "Sirloin Steak with Wine & Shallot Sauce"
       },
       {
-        "image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+        "image": "media/recipes/rec_beef_stroganoff.jpg",
         "url": "recipes/381/Beef-Stroganoff",
         "title": "Beef Stroganoff"
-      } 
+      }
     ],
-    "image":"assets/media/recipes/rec_grilled_mustarddill_bugers.jpg"
+    "image":"media/recipes/rec_grilled_mustarddill_bugers.jpg"
   },
   {
     "title":"Herbed Rice Pilaf",
@@ -808,27 +808,27 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_spicy_rice_pilaf.jpg",
+        "image": "media/recipes/rec_spicy_rice_pilaf.jpg",
         "url": "recipes/422/Spicy-Rice-Pilaf",
         "title": "Spicy Rice Pilaf"
       },
       {
-        "image": "assets/media/recipes/rec_orng_rice_red_lentil.jpg",
+        "image": "media/recipes/rec_orng_rice_red_lentil.jpg",
         "url": "recipes/419/Orange-Rice-Red-Lentil-Pilaf",
         "title": "Orange Rice & Red Lentil Pilaf"
       },
       {
-        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "image": "media/recipes/rec_ital_chick_rice.jpg",
         "url": "recipes/379/Italian-Chicken-Rice-Risotto",
         "title": "Italian Chicken & Rice (Risotto)"
       },
       {
-        "image": "assets/media/recipes/rec_basil_rice_soup.jpg",
+        "image": "media/recipes/rec_basil_rice_soup.jpg",
         "url": "recipes/408/Basil-Rice-Soup",
         "title": "Basil Rice Soup"
       }
     ],
-    "image":"assets/media/recipes/rec_herbed_rice_pilaf.jpg"
+    "image":"media/recipes/rec_herbed_rice_pilaf.jpg"
   },
   {
     "title":"Indian-Style Chicken Breast",
@@ -845,22 +845,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "image": "media/recipes/rec_ital_chick_rice.jpg",
         "url": "recipes/379/Italian-Chicken-Rice-Risotto",
         "title": "Italian Chicken & Rice (Risotto)"
       },
       {
-        "image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+        "image": "media/recipes/rec_srng_styl_beef-stir.jpg",
         "url": "recipes/380/Spring-Style-Beef-Stir-Fry",
         "title": "Spring Style Beef Stir-Fry"
       },
       {
-        "image": "assets/media/recipes/rec_grlld_ital_swordfish.jpg",
+        "image": "media/recipes/rec_grlld_ital_swordfish.jpg",
         "url": "recipes/377/Grilled-Italian-Swordfish",
         "title": "Grilled Italian Swordfish"
       }
     ],
-    "image":"assets/media/recipes/rec_indian_style_chicken_breast.jpg"
+    "image":"media/recipes/rec_indian_style_chicken_breast.jpg"
   },
   {
     "title":"Italian Chicken & Rice (Risotto)",
@@ -877,22 +877,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_grlld_ital_swordfish.jpg",
+        "image": "media/recipes/rec_grlld_ital_swordfish.jpg",
         "url": "recipes/377/Grilled-Italian-Swordfish",
         "title": "Grilled Italian Swordfish"
       },
       {
-        "image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+        "image": "media/recipes/rec_indian_style_chicken_breast.jpg",
         "url": "recipes/378/Indian-Style-Chicken-Breast",
         "title": "Indian-Style Chicken Breast"
       },
       {
-        "image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+        "image": "media/recipes/rec_srng_styl_beef-stir.jpg",
         "url": "recipes/380/Spring-Style-Beef-Stir-Fry",
         "title": "Spring Style Beef Stir-Fry"
       }
     ],
-    "image":"assets/media/recipes/rec_ital_chick_rice.jpg"
+    "image":"media/recipes/rec_ital_chick_rice.jpg"
   },
   {
     "title":"Leek, Mushroom & Lemon Risotto",
@@ -909,22 +909,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "image": "media/recipes/rec_ital_chick_rice.jpg",
         "url": "recipes/379/Italian-Chicken-Rice-Risotto",
         "title": "Italian Chicken & Rice (Risotto)"
       },
       {
-        "image": "assets/media/recipes/rec_stuffed_mushrooms.jpg",
+        "image": "media/recipes/rec_stuffed_mushrooms.jpg",
         "url": "recipes/423/Stuffed-Mushrooms",
         "title": "Stuffed Mushrooms"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+        "image": "media/recipes/rec_lemon_pork_chops.jpg",
         "url": "recipes/385/Lemon-Pork-Chops",
         "title": "Lemon Pork Chops"
       }
     ],
-    "image":"assets/media/recipes/rec_leek_mush_lem_risott.jpg"
+    "image":"media/recipes/rec_leek_mush_lem_risott.jpg"
   },
   {
     "title":"Lemon Fool with Fresh Berries",
@@ -941,32 +941,32 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+        "image": "media/recipes/rec_pastry_fruit_tarts.jpg",
         "url": "recipes/372/Pastry-Fruit-Tarts",
         "title": "Pastry Fruit Tarts"
       },
       {
-        "image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+        "image": "media/recipes/rec_strwbrry_cream_cake.jpg",
         "url": "recipes/374/Strawberries-Cream-Cake",
         "title": "Strawberries & Cream Cake"
       },
       {
-        "image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+        "image": "media/recipes/rec_orange_driz_slices.jpg",
         "url": "recipes/370/Orange-Drizzled-Cake-Slices",
         "title": "Orange Drizzled Cake Slices"
       }
     ],
-    "image":"assets/media/recipes/rec_lemon_fool_berries.jpg"
+    "image":"media/recipes/rec_lemon_fool_berries.jpg"
   },
   {
     "title":"Lemon Mousse with Fresh Berries",
@@ -983,32 +983,32 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+        "image": "media/recipes/rec_pastry_fruit_tarts.jpg",
         "url": "recipes/372/Pastry-Fruit-Tarts",
         "title": "Pastry Fruit Tarts"
       },
       {
-        "image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+        "image": "media/recipes/rec_strwbrry_cream_cake.jpg",
         "url": "recipes/374/Strawberries-Cream-Cake",
         "title": "Strawberries & Cream Cake"
       },
       {
-        "image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+        "image": "media/recipes/rec_orange_driz_slices.jpg",
         "url": "recipes/370/Orange-Drizzled-Cake-Slices",
         "title": "Orange Drizzled Cake Slices"
       }
     ],
-    "image":"assets/media/recipes/rec_lemon_mousse_berries.jpg"
+    "image":"media/recipes/rec_lemon_mousse_berries.jpg"
   },
   {
     "title":"Lemon Pork Chops",
@@ -1025,52 +1025,52 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+        "image": "media/recipes/rec_grilled_honey_garlic_pork.jpg",
         "url": "recipes/384/Grilled-Honey-Garlic-Pork-Chops",
         "title": "Grilled Honey Garlic Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+        "image": "media/recipes/rec_cantonese_pork_chops.jpg",
         "url": "recipes/382/Cantonese-Pork-Chops",
         "title": "Cantonese Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+        "image": "media/recipes/rec_pancetta_pork_roast.jpg",
         "url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
         "title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+        "image": "media/recipes/rec_rib_steak_beer.jpg",
         "url": "recipes/388/Rib-Steaks-with-Beer",
         "title": "Rib Steaks with Beer"
       },
       {
-        "image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+        "image": "media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
         "url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
         "title": "Sirloin Steak with Wine & Shallot Sauce"
       },
       {
-        "image": "assets/media/recipes/rec_grilled_mustarddill_bugers.jpg",
+        "image": "media/recipes/rec_grilled_mustarddill_bugers.jpg",
         "url": "recipes/383/Grilled-Mustard-Dill-Burgers",
         "title": "Grilled Mustard-Dill Burgers"
       },
       {
-        "image": "assets/media/recipes/rec_srng_styl_beef-stir.jpg",
+        "image": "media/recipes/rec_srng_styl_beef-stir.jpg",
         "url": "recipes/380/Spring-Style-Beef-Stir-Fry",
         "title": "Spring Style Beef Stir-Fry"
       },
       {
-        "image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+        "image": "media/recipes/rec_beef_stroganoff.jpg",
         "url": "recipes/381/Beef-Stroganoff",
         "title": "Beef Stroganoff"
       },
       {
-        "image": "assets/media/recipes/rec_leek_mush_lem_risott.jpg",
+        "image": "media/recipes/rec_leek_mush_lem_risott.jpg",
         "url": "recipes/418/Leek-Mushroom-Lemon-Risotto",
         "title": "Leek, Mushroom & Lemon Risotto"
       }
     ],
-    "image":"assets/media/recipes/rec_lemon_pork_chops.jpg"
+    "image":"media/recipes/rec_lemon_pork_chops.jpg"
   },
   {
     "title":"Linguine with Gorgonzola Cream Sauce",
@@ -1087,22 +1087,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_linguine_with_pesto.jpg",
+        "image": "media/recipes/rec_linguine_with_pesto.jpg",
         "url": "recipes/395/Linguine-with-Pesto",
         "title": "Linguine with Pesto"
       },
       {
-        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "image": "media/recipes/rec_medit_tuna_linguine.jpg",
         "url": "recipes/397/Mediterranean-Tuna-Linguine",
         "title": "Mediterranean Tuna Linguine"
       },
       {
-        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "image": "media/recipes/rec_tomato_linguine_salmon.jpg",
         "url": "recipes/401/Tomato-Linguine-with-Salmon",
         "title": "Tomato Linguine with Salmon"
       }
     ],
-    "image":"assets/media/recipes/rec_linguine_gorgo.jpg"
+    "image":"media/recipes/rec_linguine_gorgo.jpg"
   },
   {
     "title":"Linguine with Pesto",
@@ -1119,22 +1119,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_linguine_gorgo.jpg",
+        "image": "media/recipes/rec_linguine_gorgo.jpg",
         "url": "recipes/396/Linguine-with-Gorgonzola-Cream-Sauce",
         "title": "Linguine with Gorgonzola Cream Sauce"
       },
       {
-        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "image": "media/recipes/rec_medit_tuna_linguine.jpg",
         "url": "recipes/397/Mediterranean-Tuna-Linguine",
         "title": "Mediterranean Tuna Linguine"
       },
       {
-        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "image": "media/recipes/rec_tomato_linguine_salmon.jpg",
         "url": "recipes/401/Tomato-Linguine-with-Salmon",
         "title": "Tomato Linguine with Salmon"
       }
     ],
-    "image":"assets/media/recipes/rec_linguine_with_pesto.jpg"
+    "image":"media/recipes/rec_linguine_with_pesto.jpg"
   },
   {
     "title":"Mediterranean Tuna Linguine",
@@ -1151,22 +1151,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_linguine_gorgo.jpg",
+        "image": "media/recipes/rec_linguine_gorgo.jpg",
         "url": "recipes/396/Linguine-with-Gorgonzola-Cream-Sauce",
         "title": "Linguine with Gorgonzola Cream Sauce"
       },
       {
-        "image": "assets/media/recipes/rec_linguine_with_pesto.jpg",
+        "image": "media/recipes/rec_linguine_with_pesto.jpg",
         "url": "recipes/395/Linguine-with-Pesto",
         "title": "Linguine with Pesto"
       },
       {
-        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "image": "media/recipes/rec_tomato_linguine_salmon.jpg",
         "url": "recipes/401/Tomato-Linguine-with-Salmon",
         "title": "Tomato Linguine with Salmon"
       }
     ],
-    "image":"assets/media/recipes/rec_medit_tuna_linguine.jpg"
+    "image":"media/recipes/rec_medit_tuna_linguine.jpg"
   },
   {
     "title":"Mixed Berry Crisp",
@@ -1183,57 +1183,57 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+        "image": "media/recipes/rec_pastry_fruit_tarts.jpg",
         "url": "recipes/372/Pastry-Fruit-Tarts",
         "title": "Pastry Fruit Tarts"
       },
       {
-        "image": "assets/media/recipes/rec_creme_brulee.jpg",
+        "image": "media/recipes/rec_creme_brulee.jpg",
         "url": "recipes/362/Creme-Brulee",
         "title": "Creme Brulee"
       },
       {
-        "image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
+        "image": "media/recipes/rec_orig_choc_chip_cook.jpg",
         "url": "recipes/371/Original-Chocolate-Chip-Cookies",
         "title": "Original Chocolate Chip Cookies"
       },
       {
-        "image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+        "image": "media/recipes/rec_orange_driz_slices.jpg",
         "url": "recipes/370/Orange-Drizzled-Cake-Slices",
         "title": "Orange Drizzled Cake Slices"
       },
       {
-        "image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+        "image": "media/recipes/rec_strwbrry_cream_cake.jpg",
         "url": "recipes/374/Strawberries-Cream-Cake",
         "title": "Strawberries & Cream Cake"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+        "image": "media/recipes/rec_ginger_brry_cant_sherbert.jpg",
         "url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
         "title": "Ginger, Berry & Cantaloupe Sherbert"
       },
       {
-        "image": "assets/media/recipes/rec_peach_amaretto_sundaes.jpg",
+        "image": "media/recipes/rec_peach_amaretto_sundaes.jpg",
         "url": "recipes/373/Peach-Amaretto-Sundaes",
         "title": "Peach Amaretto Sundaes"
       }
     ],
-    "image":"assets/media/recipes/rec_mixed_berry_crisp.jpg"
+    "image":"media/recipes/rec_mixed_berry_crisp.jpg"
   },
   {
     "title":"New Spring Vegetable Salad",
@@ -1250,17 +1250,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+        "image": "media/recipes/rec_newstyle_chicken_salad.jpg",
         "url": "recipes/412/New-Style-Chicken-Salad",
         "title": "New-Style Chicken Salad"
       },
       {
-        "image": "assets/media/recipes/rec_vegetables_provencal.jpg",
+        "image": "media/recipes/rec_vegetables_provencal.jpg",
         "url": "recipes/426/Vegetables-Provencal",
         "title": "Vegetables Provencal"
       }
     ],
-    "image":"assets/media/recipes/rec_spring_vegetable_salad.jpg"
+    "image":"media/recipes/rec_spring_vegetable_salad.jpg"
   },
   {
     "title":"New-Style Chicken Salad",
@@ -1277,17 +1277,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_spring_vegetable_salad.jpg",
+        "image": "media/recipes/rec_spring_vegetable_salad.jpg",
         "url": "recipes/413/New-Spring-Vegetable-Salad",
         "title": "New Spring Vegetable Salad"
       },
       {
-        "image": "assets/media/recipes/rec_stirfry_chicken_fajitas.jpg",
+        "image": "media/recipes/rec_stirfry_chicken_fajitas.jpg",
         "url": "recipes/404/Stir-Fry-Chicken-Fajitas",
         "title": "Stir-Fry Chicken Fajitas"
       }
     ],
-    "image":"assets/media/recipes/rec_newstyle_chicken_salad.jpg"
+    "image":"media/recipes/rec_newstyle_chicken_salad.jpg"
   },
   {
     "title":"One-Pot Italian Sausages with Potatoes",
@@ -1304,27 +1304,27 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_pancetta_pork_roast.jpg",
+        "image": "media/recipes/rec_pancetta_pork_roast.jpg",
         "url": "recipes/387/Pancetta-Wrapped-Pork-Roast-with-Roasted-Potatoes",
         "title": "Pancetta-Wrapped Pork Roast with Roasted Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_baked_sweet_potatoes.jpg",
+        "image": "media/recipes/rec_baked_sweet_potatoes.jpg",
         "url": "recipes/414/Baked-Sweet-Potatoes",
         "title": "Baked Sweet Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "image": "media/recipes/rec_ital_chick_rice.jpg",
         "url": "recipes/379/Italian-Chicken-Rice-Risotto",
-        "title": "Italian Chicken & Rice (Risotto)" 
+        "title": "Italian Chicken & Rice (Risotto)"
       },
       {
-        "image": "assets/media/recipes/rec_grlld_ital_swordfish.jpg",
+        "image": "media/recipes/rec_grlld_ital_swordfish.jpg",
         "url": "recipes/377/Grilled-Italian-Swordfish",
         "title": "Grilled Italian Swordfish"
       }
     ],
-    "image":"assets/media/recipes/rec_onepot_itl_sausage.jpg"
+    "image":"media/recipes/rec_onepot_itl_sausage.jpg"
   },
   {
     "title":"Orange Drizzled Cake Slices",
@@ -1341,37 +1341,37 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+        "image": "media/recipes/rec_strwbrry_cream_cake.jpg",
         "url": "recipes/374/Strawberries-Cream-Cake",
         "title": "Strawberries & Cream Cake"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+        "image": "media/recipes/rec_mixed_berry_crisp.jpg",
         "url": "recipes/369/Mixed-Berry-Crisp",
         "title": "Mixed Berry Crisp"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+        "image": "media/recipes/rec_pastry_fruit_tarts.jpg",
         "url": "recipes/372/Pastry-Fruit-Tarts",
         "title": "Pastry Fruit Tarts"
       }
     ],
-    "image":"assets/media/recipes/rec_orange_driz_slices.jpg"
+    "image":"media/recipes/rec_orange_driz_slices.jpg"
   },
   {
     "title":"Orange Rice & Red Lentil Pilaf",
@@ -1388,22 +1388,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_herbed_rice_pilaf.jpg",
+        "image": "media/recipes/rec_herbed_rice_pilaf.jpg",
         "url": "recipes/417/Herbed-Rice-Pilaf",
         "title": "Herbed Rice Pilaf"
       },
       {
-        "image": "assets/media/recipes/rec_spicy_rice_pilaf.jpg",
+        "image": "media/recipes/rec_spicy_rice_pilaf.jpg",
         "url": "recipes/422/Spicy-Rice-Pilaf",
         "title": "Spicy Rice Pilaf"
       },
       {
-        "image": "assets/media/recipes/rec_rice_stuffing.jpg",
+        "image": "media/recipes/rec_rice_stuffing.jpg",
         "url": "recipes/420/Rice-Stuffing",
         "title": "Rice Stuffing"
       }
     ],
-    "image":"assets/media/recipes/rec_orng_rice_red_lentil.jpg"
+    "image":"media/recipes/rec_orng_rice_red_lentil.jpg"
   },
   {
     "title":"Original Chocolate Chip Cookies",
@@ -1420,17 +1420,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_pastry_fruit_tarts.jpg",
+        "image": "media/recipes/rec_pastry_fruit_tarts.jpg",
         "url": "recipes/372/Pastry-Fruit-Tarts",
         "title": "Pastry Fruit Tarts"
       },
       {
-        "image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+        "image": "media/recipes/rec_mixed_berry_crisp.jpg",
         "url": "recipes/369/Mixed-Berry-Crisp",
         "title": "Mixed Berry Crisp"
       }
     ],
-    "image":"assets/media/recipes/rec_orig_choc_chip_cook.jpg"
+    "image":"media/recipes/rec_orig_choc_chip_cook.jpg"
   },
   {
     "title":"Pancetta-Wrapped Pork Roast with Roasted Potatoes",
@@ -1447,27 +1447,27 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_onepot_itl_sausage.jpg",
+        "image": "media/recipes/rec_onepot_itl_sausage.jpg",
         "url": "recipes/386/One-Pot-Italian-Sausages-with-Potatoes",
         "title": "One-Pot Italian Sausages with Potatoes"
       },
       {
-        "image": "assets/media/recipes/rec_cantonese_pork_chops.jpg",
+        "image": "media/recipes/rec_cantonese_pork_chops.jpg",
         "url": "recipes/382/Cantonese-Pork-Chops",
         "title": "Cantonese Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_grilled_honey_garlic_pork.jpg",
+        "image": "media/recipes/rec_grilled_honey_garlic_pork.jpg",
         "url": "recipes/384/Grilled-Honey-Garlic-Pork-Chops",
         "title": "Grilled Honey Garlic Pork Chops"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_pork_chops.jpg",
+        "image": "media/recipes/rec_lemon_pork_chops.jpg",
         "url": "recipes/385/Lemon-Pork-Chops",
         "title": "Lemon Pork Chops"
-      } 
+      }
     ],
-    "image":"assets/media/recipes/rec_pancetta_pork_roast.jpg"
+    "image":"media/recipes/rec_pancetta_pork_roast.jpg"
   },
   {
     "title":"Pasta Primavera",
@@ -1484,27 +1484,27 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_pasta_sauce_with_calamar.jpg",
+        "image": "media/recipes/rec_pasta_sauce_with_calamar.jpg",
         "url": "recipes/399/Pasta-Sauce-with-Calamari",
         "title": "Pasta Sauce with Calamari"
       },
       {
-        "image": "assets/media/recipes/rec_linguine_with_pesto.jpg",
+        "image": "media/recipes/rec_linguine_with_pesto.jpg",
         "url": "recipes/395/Linguine-with-Pesto",
         "title": "Linguine with Pesto"
       },
       {
-        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "image": "media/recipes/rec_medit_tuna_linguine.jpg",
         "url": "recipes/397/Mediterranean-Tuna-Linguine",
         "title": "Mediterranean Tuna Linguine"
       },
       {
-        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "image": "media/recipes/rec_tomato_linguine_salmon.jpg",
         "url": "recipes/401/Tomato-Linguine-with-Salmon",
         "title": "Tomato Linguine with Salmon"
       }
     ],
-    "image":"assets/media/recipes/rec_pasta_primavera.jpg"
+    "image":"media/recipes/rec_pasta_primavera.jpg"
   },
   {
     "title":"Pasta Sauce with Calamari",
@@ -1521,27 +1521,27 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "image": "media/recipes/rec_tomato_linguine_salmon.jpg",
         "url": "recipes/401/Tomato-Linguine-with-Salmon",
         "title": "Tomato Linguine with Salmon"
       },
       {
-        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "image": "media/recipes/rec_medit_tuna_linguine.jpg",
         "url": "recipes/397/Mediterranean-Tuna-Linguine",
         "title": "Mediterranean Tuna Linguine"
       },
       {
-        "image": "assets/media/recipes/rec_pasta_primavera.jpg",
+        "image": "media/recipes/rec_pasta_primavera.jpg",
         "url": "recipes/398/Pasta-Primavera",
         "title": "Pasta Primavera"
       },
       {
-        "image": "assets/media/recipes/rec_linguine_with_pesto.jpg",
+        "image": "media/recipes/rec_linguine_with_pesto.jpg",
         "url": "recipes/395/Linguine-with-Pesto",
         "title": "Linguine with Pesto"
       }
     ],
-    "image":"assets/media/recipes/rec_pasta_sauce_with_calamar.jpg"
+    "image":"media/recipes/rec_pasta_sauce_with_calamar.jpg"
   },
   {
     "title":"Pastry Fruit Tarts",
@@ -1558,27 +1558,27 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_creme_brulee.jpg",
+        "image": "media/recipes/rec_creme_brulee.jpg",
         "url": "recipes/362/Creme-Brulee",
         "title": "Creme Brulee"
       },
       {
-        "image": "assets/media/recipes/rec_mixed_berry_crisp.jpg",
+        "image": "media/recipes/rec_mixed_berry_crisp.jpg",
         "url": "recipes/369/Mixed-Berry-Crisp",
         "title": "Mixed Berry Crisp"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_orig_choc_chip_cook.jpg",
+        "image": "media/recipes/rec_orig_choc_chip_cook.jpg",
         "url": "recipes/371/Original-Chocolate-Chip-Cookies",
         "title": "Original Chocolate Chip Cookies"
       }
     ],
-    "image":"assets/media/recipes/rec_pastry_fruit_tarts.jpg"
+    "image":"media/recipes/rec_pastry_fruit_tarts.jpg"
   },
   {
     "title":"Peach Amaretto Sundaes",
@@ -1595,42 +1595,42 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_caramel_apples.jpg",
+        "image": "media/recipes/rec_caramel_apples.jpg",
         "url": "recipes/361/Caramel-Apples",
         "title": "Caramel Apples"
       },
       {
-        "image": "assets/media/recipes/rec_ginger_brry_cant_sherbert.jpg",
+        "image": "media/recipes/rec_ginger_brry_cant_sherbert.jpg",
         "url": "recipes/365/Ginger-Berry-Cantaloupe-Sherbert",
         "title": "Ginger, Berry & Cantaloupe Sherbert"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_strwbrry_cream_cake.jpg",
+        "image": "media/recipes/rec_strwbrry_cream_cake.jpg",
         "url": "recipes/374/Strawberries-Cream-Cake",
         "title": "Strawberries & Cream Cake"
       },
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_berry_good_lemondade.jpg",
+        "image": "media/recipes/rec_berry_good_lemondade.jpg",
         "url": "recipes/360/Berry-Good-Lemonade",
         "title": "Berry Good Lemonade"
       }
     ],
-    "image":"assets/media/recipes/rec_peach_amaretto_sundaes.jpg"
+    "image":"media/recipes/rec_peach_amaretto_sundaes.jpg"
   },
   {
     "title":"Polenta with Turkey & Mushroom Sauce",
@@ -1647,22 +1647,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_turkey_stuffing.jpg",
+        "image": "media/recipes/rec_turkey_stuffing.jpg",
         "url": "recipes/405/Traditional-Turkey-Stuffing",
         "title": "Traditional Turkey Stuffing"
       },
       {
-        "image": "assets/media/recipes/rec_leek_mush_lem_risott.jpg",
+        "image": "media/recipes/rec_leek_mush_lem_risott.jpg",
         "url": "recipes/418/Leek-Mushroom-Lemon-Risotto",
         "title": "Leek, Mushroom & Lemon Risotto"
       },
       {
-        "image": "assets/media/recipes/rec_stuffed_mushrooms.jpg",
+        "image": "media/recipes/rec_stuffed_mushrooms.jpg",
         "url": "recipes/423/Stuffed-Mushrooms",
         "title": "Stuffed Mushrooms"
       }
     ],
-    "image":"assets/media/recipes/rec_polenta_turk_mush.jpg"
+    "image":"media/recipes/rec_polenta_turk_mush.jpg"
   },
   {
     "title":"Rib Steaks with Beer",
@@ -1679,17 +1679,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
+        "image": "media/recipes/rec_sirloin_steak_shallot_sauce.jpg",
         "url": "recipes/390/Sirloin-Steak-with-Wine-Shallot-Sauce",
         "title": "Sirloin Steak with Wine & Shallot Sauce"
       },
       {
-        "image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+        "image": "media/recipes/rec_beef_stroganoff.jpg",
         "url": "recipes/381/Beef-Stroganoff",
         "title": "Beef Stroganoff"
       }
     ],
-    "image":"assets/media/recipes/rec_rib_steak_beer.jpg"
+    "image":"media/recipes/rec_rib_steak_beer.jpg"
   },
   {
     "title":"Rice Stuffing",
@@ -1706,27 +1706,27 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_spicy_rice_pilaf.jpg",
+        "image": "media/recipes/rec_spicy_rice_pilaf.jpg",
         "url": "recipes/422/Spicy-Rice-Pilaf",
         "title": "Spicy Rice Pilaf"
       },
       {
-        "image": "assets/media/recipes/rec_orng_rice_red_lentil.jpg",
+        "image": "media/recipes/rec_orng_rice_red_lentil.jpg",
         "url": "recipes/419/Orange-Rice-Red-Lentil-Pilaf",
         "title": "Orange Rice & Red Lentil Pilaf"
       },
       {
-        "image": "assets/media/recipes/rec_herbed_rice_pilaf.jpg",
+        "image": "media/recipes/rec_herbed_rice_pilaf.jpg",
         "url": "recipes/417/Herbed-Rice-Pilaf",
         "title": "Herbed Rice Pilaf"
       },
       {
-        "image": "assets/media/recipes/rec_stuffed_mushrooms.jpg",
+        "image": "media/recipes/rec_stuffed_mushrooms.jpg",
         "url": "recipes/423/Stuffed-Mushrooms",
         "title": "Stuffed Mushrooms"
       }
     ],
-    "image":"assets/media/recipes/rec_rice_stuffing.jpg"
+    "image":"media/recipes/rec_rice_stuffing.jpg"
   },
   {
     "title":"Roasted Asparagus",
@@ -1743,17 +1743,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_vegetables_provencal.jpg",
+        "image": "media/recipes/rec_vegetables_provencal.jpg",
         "url": "recipes/426/Vegetables-Provencal",
         "title": "Vegetables Provencal"
       },
       {
-        "image": "assets/media/recipes/rec_baked_sweet_potatoes.jpg",
+        "image": "media/recipes/rec_baked_sweet_potatoes.jpg",
         "url": "recipes/414/Baked-Sweet-Potatoes",
         "title": "Baked Sweet Potatoes"
       }
     ],
-    "image":"assets/media/recipes/rec_roasted_asparagus.jpg"
+    "image":"media/recipes/rec_roasted_asparagus.jpg"
   },
   {
     "title":"Sirloin Steak with Wine & Shallot Sauce",
@@ -1770,17 +1770,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_rib_steak_beer.jpg",
+        "image": "media/recipes/rec_rib_steak_beer.jpg",
         "url": "recipes/388/Rib-Steaks-with-Beer",
         "title": "Rib Steaks with Beer"
       },
       {
-        "image": "assets/media/recipes/rec_beef_stroganoff.jpg",
+        "image": "media/recipes/rec_beef_stroganoff.jpg",
         "url": "recipes/381/Beef-Stroganoff",
         "title": "Beef Stroganoff"
       }
     ],
-    "image":"assets/media/recipes/rec_sirloin_steak_shallot_sauce.jpg"
+    "image":"media/recipes/rec_sirloin_steak_shallot_sauce.jpg"
   },
   {
     "title":"Spicy Rice Pilaf",
@@ -1797,22 +1797,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_herbed_rice_pilaf.jpg",
+        "image": "media/recipes/rec_herbed_rice_pilaf.jpg",
         "url": "recipes/417/Herbed-Rice-Pilaf",
         "title": "Herbed Rice Pilaf"
       },
       {
-        "image": "assets/media/recipes/rec_orng_rice_red_lentil.jpg",
+        "image": "media/recipes/rec_orng_rice_red_lentil.jpg",
         "url": "recipes/419/Orange-Rice-Red-Lentil-Pilaf",
         "title": "Orange Rice & Red Lentil Pilaf"
       },
       {
-        "image": "assets/media/recipes/rec_rice_stuffing.jpg",
+        "image": "media/recipes/rec_rice_stuffing.jpg",
         "url": "recipes/420/Rice-Stuffing",
         "title": "Rice Stuffing"
       }
     ],
-    "image":"assets/media/recipes/rec_spicy_rice_pilaf.jpg"
+    "image":"media/recipes/rec_spicy_rice_pilaf.jpg"
   },
   {
     "title":"Spring Style Beef Stir-Fry",
@@ -1829,22 +1829,22 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+        "image": "media/recipes/rec_indian_style_chicken_breast.jpg",
         "url": "recipes/378/Indian-Style-Chicken-Breast",
         "title": "Indian-Style Chicken Breast"
       },
       {
-        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "image": "media/recipes/rec_ital_chick_rice.jpg",
         "url": "recipes/379/Italian-Chicken-Rice-Risotto",
         "title": "Italian Chicken & Rice (Risotto)"
       },
       {
-        "image": "assets/media/recipes/rec_grlld_ital_swordfish.jpg",
+        "image": "media/recipes/rec_grlld_ital_swordfish.jpg",
         "url": "recipes/377/Grilled-Italian-Swordfish",
         "title": "Grilled Italian Swordfish"
       }
     ],
-    "image":"assets/media/recipes/rec_srng_styl_beef-stir.jpg"
+    "image":"media/recipes/rec_srng_styl_beef-stir.jpg"
   },
   {
     "title":"Stir-Fry Chicken Fajitas",
@@ -1861,32 +1861,32 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_indian_style_chicken_breast.jpg",
+        "image": "media/recipes/rec_indian_style_chicken_breast.jpg",
         "url": "recipes/378/Indian-Style-Chicken-Breast",
         "title": "Indian-Style Chicken Breast"
       },
       {
-        "image": "assets/media/recipes/rec_ital_chick_rice.jpg",
+        "image": "media/recipes/rec_ital_chick_rice.jpg",
         "url": "recipes/379/Italian-Chicken-Rice-Risotto",
         "title": "Italian Chicken & Rice (Risotto)"
       },
       {
-        "image": "assets/media/recipes/rec_steak_kabob.jpg",
+        "image": "media/recipes/rec_steak_kabob.jpg",
         "url": "recipes/391/Chicken-Kabobs",
         "title": "Chicken Kabobs"
       },
       {
-        "image": "assets/media/recipes/rec_fiesta_chicken_lasagna.jpg",
+        "image": "media/recipes/rec_fiesta_chicken_lasagna.jpg",
         "url": "recipes/394/Fiesta-Chicken-Lasagna",
         "title": "Fiesta Chicken Lasagna"
       },
       {
-        "image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+        "image": "media/recipes/rec_newstyle_chicken_salad.jpg",
         "url": "recipes/412/New-Style-Chicken-Salad",
         "title": "New-Style Chicken Salad"
       }
     ],
-    "image":"assets/media/recipes/rec_stirfry_chicken_fajitas.jpg"
+    "image":"media/recipes/rec_stirfry_chicken_fajitas.jpg"
   },
   {
     "title":"Strawberries & Cream Cake",
@@ -1903,27 +1903,27 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_berries_cream.jpg",
+        "image": "media/recipes/rec_berries_cream.jpg",
         "url": "recipes/359/Berries-Cream",
         "title": "Berries & Cream"
       },
       {
-        "image": "assets/media/recipes/rec_orange_driz_slices.jpg",
+        "image": "media/recipes/rec_orange_driz_slices.jpg",
         "url": "recipes/370/Orange-Drizzled-Cake-Slices",
         "title": "Orange Drizzled Cake Slices"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_fool_berries.jpg",
+        "image": "media/recipes/rec_lemon_fool_berries.jpg",
         "url": "recipes/367/Lemon-Fool-with-Fresh-Berries",
         "title": "Lemon Fool with Fresh Berries"
       },
       {
-        "image": "assets/media/recipes/rec_lemon_mousse_berries.jpg",
+        "image": "media/recipes/rec_lemon_mousse_berries.jpg",
         "url": "recipes/368/Lemon-Mousse-with-Fresh-Berries",
         "title": "Lemon Mousse with Fresh Berries"
       }
     ],
-    "image":"assets/media/recipes/rec_strwbrry_cream_cake.jpg"
+    "image":"media/recipes/rec_strwbrry_cream_cake.jpg"
   },
   {
     "title":"Stuffed Mushrooms",
@@ -1940,17 +1940,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_leek_mush_lem_risott.jpg",
+        "image": "media/recipes/rec_leek_mush_lem_risott.jpg",
         "url": "recipes/418/Leek-Mushroom-Lemon-Risotto",
         "title": "Leek, Mushroom & Lemon Risotto"
       },
       {
-        "image": "assets/media/recipes/rec_polenta_turk_mush.jpg",
+        "image": "media/recipes/rec_polenta_turk_mush.jpg",
         "url": "recipes/402/Polenta-with-Turkey-Mushroom-Sauce",
         "title": "Polenta with Turkey & Mushroom Sauce"
       }
     ],
-    "image":"assets/media/recipes/rec_stuffed_mushrooms.jpg"
+    "image":"media/recipes/rec_stuffed_mushrooms.jpg"
   },
   {
     "title":"Sweet & Spicy Shrimp",
@@ -1967,17 +1967,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "image": "media/recipes/rec_medit_tuna_linguine.jpg",
         "url": "recipes/397/Mediterranean-Tuna-Linguine",
         "title": "Mediterranean Tuna Linguine"
       },
       {
-        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "image": "media/recipes/rec_tomato_linguine_salmon.jpg",
         "url": "recipes/401/Tomato-Linguine-with-Salmon",
         "title": "Tomato Linguine with Salmon"
       }
     ],
-    "image":"assets/media/recipes/rec_sweet_spicy_shrimp.jpg"
+    "image":"media/recipes/rec_sweet_spicy_shrimp.jpg"
   },
   {
     "title":"Tomato Crostini",
@@ -1994,17 +1994,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_eggplant_salad_caprese.jpg",
+        "image": "media/recipes/rec_eggplant_salad_caprese.jpg",
         "url": "recipes/416/Eggplant-Salad-Capres",
         "title": "Eggplant Salad Capres"
       },
       {
-        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "image": "media/recipes/rec_tomato_linguine_salmon.jpg",
         "url": "recipes/401/Tomato-Linguine-with-Salmon",
         "title": "Tomato Linguine with Salmon"
       }
     ],
-    "image":"assets/media/recipes/rec_tomato_crostini.jpg"
+    "image":"media/recipes/rec_tomato_crostini.jpg"
   },
   {
     "title":"Tomato Linguine with Salmon",
@@ -2021,17 +2021,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "image": "media/recipes/rec_medit_tuna_linguine.jpg",
         "url": "recipes/397/Mediterranean-Tuna-Linguine",
         "title": "Mediterranean Tuna Linguine"
       },
       {
-        "image": "assets/media/recipes/rec_sweet_spicy_shrimp.jpg",
+        "image": "media/recipes/rec_sweet_spicy_shrimp.jpg",
         "url": "recipes/407/Sweet-Spicy-Shrimp",
         "title": "Sweet & Spicy Shrimp"
       }
     ],
-    "image":"assets/media/recipes/rec_tomato_linguine_salmon.jpg"
+    "image":"media/recipes/rec_tomato_linguine_salmon.jpg"
   },
   {
     "title":"Traditional Turkey Stuffing",
@@ -2048,17 +2048,17 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_polenta_turk_mush.jpg",
+        "image": "media/recipes/rec_polenta_turk_mush.jpg",
         "url": "recipes/402/Polenta-with-Turkey-Mushroom-Sauce",
         "title": "Polenta with Turkey & Mushroom Sauce"
       },
       {
-        "image": "assets/media/recipes/rec_rice_stuffing.jpg",
+        "image": "media/recipes/rec_rice_stuffing.jpg",
         "url": "recipes/420/Rice-Stuffing",
         "title": "Rice Stuffing"
       }
     ],
-    "image":"assets/media/recipes/rec_turkey_stuffing.jpg"
+    "image":"media/recipes/rec_turkey_stuffing.jpg"
   },
   {
     "title":"Turtle Shells",
@@ -2075,27 +2075,27 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_pasta_sauce_with_calamar.jpg",
+        "image": "media/recipes/rec_pasta_sauce_with_calamar.jpg",
         "url": "recipes/399/Pasta-Sauce-with-Calamari",
         "title": "Pasta Sauce with Calamari"
       },
       {
-        "image": "assets/media/recipes/rec_linguine_with_pesto.jpg",
+        "image": "media/recipes/rec_linguine_with_pesto.jpg",
         "url": "recipes/395/Linguine-with-Pesto",
         "title": "Linguine with Pesto"
       },
       {
-        "image": "assets/media/recipes/rec_medit_tuna_linguine.jpg",
+        "image": "media/recipes/rec_medit_tuna_linguine.jpg",
         "url": "recipes/397/Mediterranean-Tuna-Linguine",
         "title": "Mediterranean Tuna Linguine"
       },
       {
-        "image": "assets/media/recipes/rec_tomato_linguine_salmon.jpg",
+        "image": "media/recipes/rec_tomato_linguine_salmon.jpg",
         "url": "recipes/401/Tomato-Linguine-with-Salmon",
         "title": "Tomato Linguine with Salmon"
       }
     ],
-    "image":"assets/media/recipes/rec_turtle_shells.jpg"
+    "image":"media/recipes/rec_turtle_shells.jpg"
   },
   {
     "title":"Vegetables Provencal",
@@ -2112,21 +2112,21 @@
     "publish": true,
     "related": [
       {
-        "image": "assets/media/recipes/rec_spring_vegetable_salad.jpg",
+        "image": "media/recipes/rec_spring_vegetable_salad.jpg",
         "url": "recipes/413/New-Spring-Vegetable-Salad",
         "title": "New Spring Vegetable Salad"
       },
       {
-        "image": "assets/media/recipes/rec_newstyle_chicken_salad.jpg",
+        "image": "media/recipes/rec_newstyle_chicken_salad.jpg",
         "url": "recipes/412/New-Style-Chicken-Salad",
         "title": "New-Style Chicken Salad"
       },
       {
-        "image": "assets/media/recipes/rec_eggplant_salad_caprese.jpg",
+        "image": "media/recipes/rec_eggplant_salad_caprese.jpg",
         "url": "recipes/416/Eggplant-Salad-Capres",
         "title": "Eggplant Salad Capres"
       }
     ],
-    "image":"assets/media/recipes/rec_vegetables_provencal.jpg"
+    "image":"media/recipes/rec_vegetables_provencal.jpg"
   }
 ]
