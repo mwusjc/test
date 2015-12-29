@@ -5488,6 +5488,7 @@ button.close {
   font-family: "HelveticaNeueLTStd-MdCn", "HelveticaNeueLT-Roman", "Helvetica", Arial, sans-serif;
   line-height: initial;
   margin: 0;
+  font-weight: initial;
   /*This is a specific fix made on a per week basis*/
   margin-top: -25px;
 }

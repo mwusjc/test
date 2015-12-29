@@ -20,12 +20,11 @@ var carousel = {
 		// iterate through carousels, if current time is greater than start-time of current carousel,
 		// use that carousel
 		$.each(data, function(key,item) {
-
 			var d1 = new Date(carousel.currentTime);
 			var d2 = new Date(item.startDate);
 
 			// found the current carousel we should be rendering
-			if (d1.getTime() > d2.getTime()) {
+			if (d1 > d2) {
 
 				// iterate through the slides of the current carousel
 				$.each(item.slides, function(key2,slide) {

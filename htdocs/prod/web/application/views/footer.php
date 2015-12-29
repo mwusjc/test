@@ -45,8 +45,7 @@
     $("body").on("click", ".menu-toggle", function(){
       $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
     });
-    <?php $currentDate = new DateTime('now'); ?>
-    carousel.currentTime = "<?php echo $currentDate->format('Y/m/d H:i:s'); ?>";
+    carousel.currentTime = new Date();
     carousel.init(carousel.currentTime);
   });
 </script>
