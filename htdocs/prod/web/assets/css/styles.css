@@ -5493,6 +5493,7 @@ button.close {
   font-family: "HelveticaNeueLTStd-MdCn", "HelveticaNeueLT-Roman", "Helvetica", Arial, sans-serif;
   line-height: initial;
   margin: 0;
+  font-weight: initial;
   /*This is a specific fix made on a per week basis*/
   margin-top: -25px;
 }
@@ -6539,7 +6540,6 @@ a#flyerModal {
   max-width: initial; }
 
 .item-1-slide {
-	background-image: url('../../assets/images/home_carousel-1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

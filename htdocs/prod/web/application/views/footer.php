@@ -44,6 +44,8 @@
     $("body").on("click", ".menu-toggle", function(){
       $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
     });
+    carousel.currentTime = new Date();
+    carousel.init(carousel.currentTime);
   });
 </script>
 <script>
