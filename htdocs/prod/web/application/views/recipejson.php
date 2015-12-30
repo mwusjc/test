@@ -29,7 +29,7 @@
 
 <script type="text/html" id="tpl-recipe-listing">
 	<div class="col-xs-12 col-sm-3 recipe text-center">
-		<a href='<?=site_url()?>recipes/_ID_/_SEO_'>
+		<a href='<?=site_url()?>recipes/_SLUG_'>
 		<div class='img'><img src="<?=site_url()?>assets/_IMAGE_" /></div>
 		_TITLE_
 		</a>
@@ -48,7 +48,7 @@
 			if (xmlhttp.readyState == 4) {
 				var data = JSON.parse(xmlhttp.responseText);
 				hlf.data.recipes = data;
-				hlf.recipes.testing(hlf.data.recipes);
+				hlf.recipes.renderSingleRecipe(hlf.data.recipes);
 
 			}
 		}

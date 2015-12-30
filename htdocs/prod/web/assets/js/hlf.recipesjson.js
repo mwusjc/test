@@ -5,12 +5,56 @@
 			this.drawList(data);
 		},
 
-		testing: function(data) {
-			mapping = { "_IMAGE_" : data[0].image, "_TITLE_" : data[0].title, "_INGREDIENTS_" : data[0].ingredients, "_INSTRUCTIONS_" : data[0].instructions };
+		renderSingleRecipe: function(data) {
+
+			var currentRecipe = data[0];
+			console.log('hi');
+			console.log(window.location.pathname);
+			var pathArray = window.location.pathname.split( '/' );
+			var slug = pathArray.pop();
+
+			mapping = {
+				"_IMAGE_" : currentRecipe.image,
+				"_TITLE_" : currentRecipe.title,
+				"_INGREDIENTS_" : hlf.recipes.nl2br(currentRecipe.ingredients),
+				"_INSTRUCTIONS_" : hlf.recipes.nl2br(currentRecipe.instructions)
+			};
 
 			html = hlf.drawTemplate("#tpl-recipe", mapping);
 
 			$('.blah').append(html);
+
+			// render the recommended recipes
+			// shuffle and slice functions are used to pick 4 random items if there are more than 4 related
+			// recipes defined in the JSON
+			hlf.recipes.drawRecommended(hlf.recipes.shuffle(currentRecipe.related).slice(0,4), '.recommended');
+		},
+
+		// slightly modified version of: http://phpjs.org/functions/nl2br/
+		nl2br: function(str) {
+			var breakTag = '<br>';
+
+		  return (str + '')
+		    .replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+		},
+
+		// http://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+		shuffle: function(array) {
+			var currentIndex = array.length, temporaryValue, randomIndex;
+
+		  // While there remain elements to shuffle...
+		  while (0 !== currentIndex) {
+
+		    // Pick a remaining element...
+		    randomIndex = Math.floor(Math.random() * currentIndex);
+		    currentIndex -= 1;
+
+		    // And swap it with the current element.
+		    temporaryValue = array[currentIndex];
+		    array[currentIndex] = array[randomIndex];
+		    array[randomIndex] = temporaryValue;
+		  }
+		  return array;
 		},
 
 		filterListener: function() {
@@ -61,7 +105,11 @@
 		drawList: function(data) {
 			$('.recipes-container').html(' ');
 			$.each(data, function(key,item) {
-				mapping = { "_IMAGE_" : item.image, "_TITLE_" : item.title, "_SLUG_" : item.slug, "_SEO_" : item.seotitle, "_ID_" : item.ID };
+				mapping = {
+					"_IMAGE_" : item.image,
+					"_TITLE_" : item.title,
+					"_SLUG_" : item.slug
+				};
 				html = hlf.drawTemplate("#tpl-recipe-listing", mapping);
 				$('.recipes-container').append(html);
 			});
@@ -87,7 +135,11 @@
 		drawRecommended: function(data,container) {
 		  $(container).html(' ');
 			$.each(data, function(key,item) {
-				mapping = { "_IMAGE_" : item.image, "_TITLE_" : item.title, "_SEO_" : item.seotitle, "_ID_" : item.ID };
+				mapping = {
+					"_IMAGE_" : item.image,
+					"_TITLE_" : item.title,
+					"_SLUG_" : item.slug
+				};
 				html = hlf.drawTemplate("#tpl-recipe-listing", mapping);
 				$(container).append(html);
 			});
