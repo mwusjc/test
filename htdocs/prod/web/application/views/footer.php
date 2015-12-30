@@ -1,4 +1,4 @@
-<footer>
+﻿<footer>
   <div class="wrapper">
     <div class="row">
 
@@ -39,6 +39,7 @@
 <script src="/assets/js/sizeify.js"></script>
 <script src="/assets/js/validate.js"></script>
 <script src="/assets/js/hlf.carousel.js"></script>
+
 <script type='text/javascript'>
   jQuery(document).ready(function($) {
     sl.init();
