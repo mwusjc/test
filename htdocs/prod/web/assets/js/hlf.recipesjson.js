@@ -5,29 +5,83 @@
 			this.drawList(data);
 		},
 
+		getFeaturedRecipe: function(data) {
+
+			var currentDate = new Date();
+
+			// try using array map
+			$.each(data, function(key,item) {
+
+				if (currentDate > new Date(item.featuredStartDate)) {
+					console.log(new Date(item.featuredStartDate));
+				}
+			});
+		},
+
+		getCategories: function(data) {
+
+			var categories = [];
+
+			//iterate over each recipe
+			$.each(data, function(key,item) {
+
+				//iterate over each category in the recipe
+				$.each(item.categories, function(key2,category) {
+
+					if (!(hlf.recipes.searchCategories(category.slug, categories))) {
+						categories.push(category);
+						mapping = {
+							"_TITLE_" : category.title,
+							"_SLUG_" : category.slug
+						};
+						html = hlf.drawTemplate("#tpl-category", mapping);
+						$('.categories-list').append(html);
+					}
+				});
+			});
+
+		},
+
+		sortCategories: function(selector) {
+			var mylist = $(selector);
+			var listitems = mylist.children('li').get();
+			listitems.sort(function(a, b) {
+			   return $(a).text().toUpperCase().localeCompare($(b).text().toUpperCase());
+			})
+			$.each(listitems, function(index, item) { mylist.append(item); });
+		},
+
 		renderSingleRecipe: function(data) {
 
-			var currentRecipe = data[0];
-			console.log('hi');
-			console.log(window.location.pathname);
 			var pathArray = window.location.pathname.split( '/' );
 			var slug = pathArray.pop();
 
+			var index = hlf.recipes.getRecipeIndex(data, slug);
+
 			mapping = {
-				"_IMAGE_" : currentRecipe.image,
-				"_TITLE_" : currentRecipe.title,
-				"_INGREDIENTS_" : hlf.recipes.nl2br(currentRecipe.ingredients),
-				"_INSTRUCTIONS_" : hlf.recipes.nl2br(currentRecipe.instructions)
+				"_IMAGE_" : data[index].image,
+				"_TITLE_" : data[index].title,
+				"_INGREDIENTS_" : hlf.recipes.nl2br(data[index].ingredients),
+				"_INSTRUCTIONS_" : hlf.recipes.nl2br(data[index].instructions)
 			};
 
 			html = hlf.drawTemplate("#tpl-recipe", mapping);
 
-			$('.blah').append(html);
+			$('.recipe').append(html);
 
 			// render the recommended recipes
 			// shuffle and slice functions are used to pick 4 random items if there are more than 4 related
 			// recipes defined in the JSON
-			hlf.recipes.drawRecommended(hlf.recipes.shuffle(currentRecipe.related).slice(0,4), '.recommended');
+			hlf.recipes.drawRecommended(hlf.recipes.shuffle(data[index].related).slice(0,4), '.recommended');
+		},
+
+		getRecipeIndex: function(data, searchTerm) {
+			for (var i=0; i < data.length; i++) {
+        if (data[i].slug === searchTerm) {
+            return i;
+        }
+    	}
+    	return -1;
 		},
 
 		// slightly modified version of: http://phpjs.org/functions/nl2br/

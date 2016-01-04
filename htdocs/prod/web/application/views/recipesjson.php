@@ -2,7 +2,7 @@
 	<div class="caption col-xs-12">
 		<div class="wrapper">
 			<div class="row">
-				<a href="/recipes/395/Linguine-with-Pesto" class="feature-title col-xs-10 col-sm-6">
+				<a href="/recipes/linguine-with-pesto" class="feature-title col-xs-10 col-sm-6">
 					<h1>Recipe of the Week</h1>
 					<h2>Linguine with Pesto</h2>
 				</a>
@@ -29,28 +29,7 @@
 		  <div class='spacer-20'></div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-3">
-			<ul role="tablist">
-
-
-
-				<!-- <li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="8">Desserts</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="7">International Dishes</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="2">Meat</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="5">Pasta</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="3">Poultry</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="4">Seafood</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="1">Soups &amp; Salads</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="6">Vegetarian</a></li> -->
-
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="desserts">Desserts</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="international">International Dishes</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="meat">Meat</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="pasta">Pasta</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="poultry">Poultry</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="seafood">Seafood</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="soups-salads">Soups &amp; Salads</a></li>
-				<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="vegetarian">Vegetarian</a></li>
-
+			<ul role="tablist" class="categories-list">
 			</ul>
 		</div>
 		<div class="col-xs-12 col-sm-9">
@@ -73,6 +52,11 @@
 		</a>
 	</div>
 </script>
+
+<script type="text/html" id="tpl-category">
+<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="_SLUG_">_TITLE_</a></li>
+</script>
+
 <script type='text/javascript'>
 
 	jQuery(document).ready(function($) {
@@ -85,6 +69,9 @@
 			if (xmlhttp.readyState == 4) {
 				var data = JSON.parse(xmlhttp.responseText);
 				hlf.data.recipes = data;
+				hlf.recipes.getFeaturedRecipe(hlf.data.recipes);
+				hlf.recipes.getCategories(hlf.data.recipes);
+				hlf.recipes.sortCategories('.categories-list');
 				hlf.recipes.init(hlf.data.recipes);
 			}
 		}

@@ -16,15 +16,6 @@ class Recipes extends CI_Controller {
     }
 
     public function details($slug) {
-    		// echo $slug; die();
-      //   (int) $slug;
-      //   if(empty($slug)) redirect("/recipes/");
-
-      //   $this->data->recipe = $this->recipes_model->get($slug,null,"long")->{$slug};
-
-      //   $recipe = $this->recipes_model->get($slug)->{$slug};
-      //   $currentCategory = $recipe->CategoryID;
-      //   $this->data->recommended = $this->recipes_model->get_related($slug, $currentCategory);
 
         $this->load->view("header");
         $this->load->view("recipejson");

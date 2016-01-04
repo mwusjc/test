@@ -1,5 +1,5 @@
 </header>
-<div class="blah"></div>
+<div class="recipe"></div>
 
 <script type="text/html" id="tpl-recipe">
 	<main class='recipes'>
