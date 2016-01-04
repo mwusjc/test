@@ -9,13 +9,27 @@
 
 			var currentDate = new Date();
 
-			// try using array map
-			$.each(data, function(key,item) {
-
-				if (currentDate > new Date(item.featuredStartDate)) {
-					console.log(new Date(item.featuredStartDate));
-				}
+			// all the recipes in which the currentDate is greater than the recipe featuredStartTime.
+			var previousDates = data.filter(function(item) {
+				return currentDate >= new Date(item.featuredStartDate);
 			});
+
+			// sort the dates in ascending order
+			var sorted = previousDates.sort(function(a,b) {
+				return new Date(a.featuredStartDate).getTime() - new Date(b.featuredStartDate).getTime();
+			});
+
+			// the featured recipe is the last element of the array
+			var featuredRecipe = sorted.pop();
+
+			mapping = {
+				"_TITLE_" : featuredRecipe.title,
+				"_SLUG_" : featuredRecipe.slug,
+				"_IMAGE_" : featuredRecipe.image
+			};
+			html = hlf.drawTemplate("#tpl-featured-recipe", mapping);
+			$('.featured-recipe').append(html);
+
 		},
 
 		getCategories: function(data) {

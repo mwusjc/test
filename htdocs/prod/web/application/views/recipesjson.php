@@ -1,15 +1,5 @@
-<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/media/recipes/rec_linguine_with_pesto.jpg); background-size:cover">
-	<div class="caption col-xs-12">
-		<div class="wrapper">
-			<div class="row">
-				<a href="/recipes/linguine-with-pesto" class="feature-title col-xs-10 col-sm-6">
-					<h1>Recipe of the Week</h1>
-					<h2>Linguine with Pesto</h2>
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
+<div class="featured-recipe"></div>
+
 </header>
 <main class='recipes'>
 	<div class="row">
@@ -55,6 +45,22 @@
 
 <script type="text/html" id="tpl-category">
 <li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="_SLUG_">_TITLE_</a></li>
+</script>
+
+<script type="text/html" id="tpl-featured-recipe">
+<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/_IMAGE_); background-size:cover">
+	<div class="caption col-xs-12">
+		<div class="wrapper">
+			<div class="row">
+				<a href="recipes/_SLUG_" class="feature-title col-xs-10 col-sm-6">
+					<h1>Recipe of the Week</h1>
+					<h2>_TITLE_</h2>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 </script>
 
 <script type='text/javascript'>
