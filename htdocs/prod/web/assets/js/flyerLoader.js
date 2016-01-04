@@ -42,11 +42,11 @@ var fl = {
 		nextWednesday.setDate(nextWednesday.getDate()+6);
 		var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
 		//Check current Flyer range, and adjust duration shown on screen
-		if(range == "Fri Dec 18 2015 - Thu Dec 24 2015") {
-			range = "Fri Dec 11 2015 - Thu Dec 24 2015";
-		}
-		else if (range == "Fri Dec 25 2015 - Thu Dec 31 2015") {
+		if(range == "Fri Dec 25 2015 - Thu Dec 31 2015") {
 			range = "Sun Dec 27 2015 - Thu Dec 31 2015";
+		}
+		else if (range == "Fri Jan 01 2016 - Thu Jan 07 2016") {
+			range = "Sat Jan 02 2016 - Thu Jan 07 2016";
 		}
 		return range;
 	},
@@ -143,11 +143,11 @@ var fl = {
 		$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
 
 		//Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
-		if(nextWeek == "20151224" && currentWeek == "20151217") {
-			$("#thisWeekDates").html("Sun Dec 27 2015 - Thu Dec 31 2015");
-			//Specify flyer for current week due to 2 week exception period
-			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20151210/mobile/page1.jpg");
-			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
+		if(nextWeek == "20151231" && currentWeek == "20151224") {
+			$("#thisWeekDates").html("Sat Jan 02 2016 - Thu Jan 07 2016");
+			//Specify flyer for current week and next week due to start date exception on  upcoming flyer from current pattern
+			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20151224/mobile/page1.jpg");
+			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160102/mobile/page1.jpg");
 		}
 		
 		window.setTimeout('$("#chooseFlyer").modal("show");',1000);
@@ -167,12 +167,13 @@ var fl = {
 	loadData: function(week,type){
 		var url = "/assets/flyers/"+week+"/"+type+"/data.json"; 
 		//Check week for current flyer, and modify data URL accordingly
-		if(week == "20151217") {
-			url = "/assets/flyers/20151210/"+type+"/data.json";
+		if(week == "20151224") {
+			url = "/assets/flyers/20151224/"+type+"/data.json";
 		}
-		else if (week == "20151224") {
-			url = "/assets/flyers/20151224/"+type+"/data.json";	
+		else if (week == "20151231") {
+			url = "/assets/flyers/20160102/"+type+"/data.json";	
 		}
+
 
 		var xmlhttp = new XMLHttpRequest(); 
 

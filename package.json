@@ -18,6 +18,7 @@
   "homepage": "https://github.com/stjosephcontent/highland-farms",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-cache-bust": "^1.0.2"
+    "gulp-cache-bust": "^1.0.2",
+    "gulp-rev-append": "^0.1.6"
   }
 }
