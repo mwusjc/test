@@ -30,7 +30,7 @@
 
 <script src="../../assets/js/bootstrap.js?rev=a455a998d98c7ee364bd00bf6853d40e"></script>
 <script src="../../assets/js/main.js?rev=bda417a6dfdec98b1fb0d034a4b63f29"></script>
-<script src="../../assets/js/flyerLoader.js?rev=0731e64db67106d5717b39e4a7e6f61d"></script>
+<script src="../../assets/js/flyerLoader.js?rev=9d38154a4f54455bd751b31a6a7f82a0"></script>
 <script src="../../assets/js/shoppingList.js?rev=c70a077489931af66dd3794cc0fa6bf6"></script>
 <script src="../../assets/js/jquery.pajinate.min.js?rev=fdcae8fb7ff4daa34ad497e010fcea97"></script>
 <script src="../../assets/js/jquery.lazyload.min.js?rev=5c01d7aff077b4ed0804b71c2e3ab4a1"></script>
