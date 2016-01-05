@@ -35,11 +35,11 @@
 		</a>
 	</div>
 </script>
-<script type='text/javascript'>
+<script>
 
 	jQuery(document).ready(function($) {
 
-		var url = "../assets/data/recipes/recipes-v2.json";
+		var url = "../assets/data/recipes/recipes.json";
 
 		var xmlhttp = new XMLHttpRequest();
 
