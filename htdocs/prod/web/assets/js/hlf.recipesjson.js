@@ -132,7 +132,7 @@
 			});
 
 			$('[data-filter-search]').on("change keyup", function() {
-			   that.filterSearch( eval($(this).data('filter-search') ), $(this).val() );
+			   that.filterSearch( hlf.data.recipes, $(this).val() );
 			});
 
 		},
