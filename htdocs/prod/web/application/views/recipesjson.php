@@ -66,22 +66,13 @@
 <script>
 
 	jQuery(document).ready(function($) {
-		var url = "../assets/data/recipes/recipes.json";
 
-		var xmlhttp = new XMLHttpRequest();
+    hlf.data.recipes = JSON.parse(<?php echo $recipes ?>);
+    hlf.recipes.getFeaturedRecipe(hlf.data.recipes);
+    hlf.recipes.getCategories(hlf.data.recipes);
+    hlf.recipes.sortCategories('.categories-list');
+    hlf.recipes.init(hlf.data.recipes);
 
-		xmlhttp.open("GET", url, true);
-		xmlhttp.onreadystatechange = function() {
-			if (xmlhttp.readyState == 4) {
-				var data = JSON.parse(xmlhttp.responseText);
-				hlf.data.recipes = data;
-				hlf.recipes.getFeaturedRecipe(hlf.data.recipes);
-				hlf.recipes.getCategories(hlf.data.recipes);
-				hlf.recipes.sortCategories('.categories-list');
-				hlf.recipes.init(hlf.data.recipes);
-			}
-		}
-		xmlhttp.send();
 	});
 
 </script>

@@ -35,24 +35,14 @@
 		</a>
 	</div>
 </script>
+
 <script>
 
 	jQuery(document).ready(function($) {
 
-		var url = "../assets/data/recipes/recipes.json";
+    hlf.data.recipes = JSON.parse(<?php echo $recipes ?>);
+    hlf.recipes.renderSingleRecipe(hlf.data.recipes);
 
-		var xmlhttp = new XMLHttpRequest();
-
-		xmlhttp.open("GET", url, true);
-		xmlhttp.onreadystatechange = function() {
-			if (xmlhttp.readyState == 4) {
-				var data = JSON.parse(xmlhttp.responseText);
-				hlf.data.recipes = data;
-				hlf.recipes.renderSingleRecipe(hlf.data.recipes);
-
-			}
-		}
-		xmlhttp.send();
-	})
+	});
 
 </script>

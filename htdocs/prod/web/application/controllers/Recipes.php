@@ -10,15 +10,19 @@ class Recipes extends CI_Controller {
 
     public function index()
     {
+        $recipesFile = file_get_contents("assets/data/recipes/recipes.json");
+        $this->data->recipes = json_encode($recipesFile);
         $this->load->view("header");
-        $this->load->view("recipesjson");
+        $this->load->view("recipesjson", $this->data);
         $this->load->view("footer");
     }
 
-    public function details($slug) {
-
+    public function details($slug)
+    {
+        $recipesFile = file_get_contents("assets/data/recipes/recipes.json");
+        $this->data->recipes = json_encode($recipesFile);
         $this->load->view("header");
-        $this->load->view("recipejson");
+        $this->load->view("recipejson", $this->data);
         $this->load->view("footer");
     }
 }
