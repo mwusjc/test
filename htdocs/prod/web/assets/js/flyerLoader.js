@@ -19,7 +19,7 @@ var fl = {
 			var thursday = this.getNextThursday(new Date());
 		}
 		var yyyy = thursday.getFullYear().toString();
-		var mm = (thursday.getMonth()+1).toString(); 
+		var mm = (thursday.getMonth()+1).toString();
 		var dd  = thursday.getDate().toString();
 		return yyyy + (mm[1]?mm:"0"+mm[0]) + (dd[1]?dd:"0"+dd[0]);
 	},
@@ -42,18 +42,18 @@ var fl = {
 		nextWednesday.setDate(nextWednesday.getDate()+6);
 		var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
 		//Check current Flyer range, and adjust duration shown on screen
-		if(range == "Fri Dec 25 2015 - Thu Dec 31 2015") {
-			range = "Sun Dec 27 2015 - Thu Dec 31 2015";
-		}
-		else if (range == "Fri Jan 01 2016 - Thu Jan 07 2016") {
-			range = "Sat Jan 02 2016 - Thu Jan 07 2016";
-		}
+		if (range == "Fri Jan 01 2016 - Thu Jan 07 2016") {
+      range = "Sat Jan 02 2016 - Thu Jan 07 2016";
+    }
+    else if (range == "Fri Jan 08 2016 - Thu Jan 14 2016") {
+      range = "Fri Jan 08 2016 - Thu Jan 14 2016";
+    }
 		return range;
 	},
 	getThursday: function(d) {
 		d = new Date(d);
 		var day = d.getDay(),
-			diff = d.getDate() - day + (day <= 4 ? -3:4); 
+			diff = d.getDate() - day + (day <= 4 ? -3:4);
 		return new Date(d.setDate(diff));
 	},
 	getNextThursday: function(d) {
@@ -71,7 +71,7 @@ var fl = {
                 } else {
                     $(".carousel-inner-mobile").html(html);
                 }
-		
+
 		this.generateImageMaps(data, type);
 		this.generatePopups(data, type);
         if (type == "desktop") {
@@ -79,7 +79,7 @@ var fl = {
         } else {
             $(".flyer.mobile .item").first().addClass("active");
         }
-		
+
 		$("#flyerPDF").attr("href","/assets/flyers/"+data.week+"/download.pdf");
 
 	},
@@ -117,7 +117,7 @@ var fl = {
 				html += 	'					</div>'
 				html += 	'					<div class="col-xs-12 col-sm-6">'
 				html += 	'						'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
-				html += 	'						<h2 class="title">'+prod.name+'</h2>'     
+				html += 	'						<h2 class="title">'+prod.name+'</h2>'
 				html += 	'						<div class="pricing">'+prod.pricing+'</div>'
 				html += 	'						<div class="packaging">'+prod.packaging+'</div>'
 				html += 	'						<a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a>'
@@ -143,13 +143,13 @@ var fl = {
 		$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
 
 		//Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
-		if(nextWeek == "20151231" && currentWeek == "20151224") {
-			$("#thisWeekDates").html("Sat Jan 02 2016 - Thu Jan 07 2016");
+		if(nextWeek == "20160107" && currentWeek == "20151231") {
+			$("#thisWeekDates").html("Fri Jan 08 2016 - Thu Jan 14 2016");
 			//Specify flyer for current week and next week due to start date exception on  upcoming flyer from current pattern
-			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20151224/mobile/page1.jpg");
-			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160102/mobile/page1.jpg");
+			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160102/mobile/page1.jpg");
+			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160107/mobile/page1.jpg");
 		}
-		
+
 		window.setTimeout('$("#chooseFlyer").modal("show");',1000);
 	},
 	checkOverlapDay: function(){
@@ -165,17 +165,17 @@ var fl = {
 		}
 	},
 	loadData: function(week,type){
-		var url = "/assets/flyers/"+week+"/"+type+"/data.json"; 
+		var url = "/assets/flyers/"+week+"/"+type+"/data.json";
 		//Check week for current flyer, and modify data URL accordingly
-		if(week == "20151224") {
-			url = "/assets/flyers/20151224/"+type+"/data.json";
+		if(week == "20151231") {
+			url = "/assets/flyers/20160102/"+type+"/data.json";
 		}
-		else if (week == "20151231") {
-			url = "/assets/flyers/20160102/"+type+"/data.json";	
+		else if (week == "20160107") {
+			url = "/assets/flyers/20160107/"+type+"/data.json";
 		}
 
 
-		var xmlhttp = new XMLHttpRequest(); 
+		var xmlhttp = new XMLHttpRequest();
 
 		xmlhttp.open("GET", url, true);
 		xmlhttp
@@ -265,12 +265,12 @@ var fl = {
 				html+=	    '	</div>'
 				html+=	    '	<div class="col-xs-12 col-sm-9">'
 				html+=	    '		'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
-				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
+				html+=	    '		<h2 class="title">'+prod.name+'</h2>'
 				html+=	    '		<span class="pricing">'+prod.pricing+'</span>'
 				html+=	    '		<span class="packaging">'+prod.packaging+'</span>'
 				html+=	    '		<div><a href="#" data-add-cart="id" class="btn green addToCartListView">Add to Shopping List</a></div>'
 				html+=	    '	</div>'
-				html+=		'</div>'   
+				html+=		'</div>'
 			}
 		}
 		$(".listViewWrapper")[0].innerHTML = html;
