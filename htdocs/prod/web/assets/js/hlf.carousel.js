@@ -29,46 +29,69 @@ var carousel = {
 				// iterate through the slides of the current carousel
 				$.each(item.slides, function(key2,slide) {
 
-					// render the correct template based on the slide number.
-					if (slide.order === 0) {
-						mapping = {
-							"_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
-							"_desktopSideImage_" : item.slides[slide.order].desktopSideImage,
-							"_featuredDescription_" : item.slides[slide.order].featuredDescription,
-							"_link_" : item.slides[slide.order].link,
-							"_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
-							"_desktopSideImageStyles_" : item.slides[slide.order].desktopSideImageStyles
-						};
-						html = hlf.drawTemplate("#slide-feature", mapping);
-						$('.carousel-inner').append(html);
+          mapping = {
+            "_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
+            "_link_" : item.slides[slide.order].link,
+            "_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
+            "_description_" : item.slides[slide.order].description,
+            "_descriptionSubtext_" : item.slides[slide.order].descriptionSubtext,
+            "_desktopPriceImage_" : item.slides[slide.order].desktopPriceImage,
+           };
 
-						// don't show image if there is none!
-				  	if(item.slides[slide.order].desktopSideImage == null ||
-				  		item.slides[slide.order].desktopSideImage.trim() == "") {
-	        		$('.item-1-img').remove();
-	        	}
+          if (slide.order === 0) {
+            html = hlf.drawTemplate("#slide-dow-inline", mapping);
+          } else {
+            html = hlf.drawTemplate("#slide-dow-inline-2", mapping);
+          }
 
-					} else if (slide.order === 1 || slide.order === 2) {
-							mapping = {
-								"_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
-								"_link_" : item.slides[slide.order].link,
-								"_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
-								"_description_" : item.slides[slide.order].description,
-								"_descriptionSubtext_" : item.slides[slide.order].descriptionSubtext,
-								"_desktopPriceImage_" : item.slides[slide.order].desktopPriceImage,
-						};
-						html = hlf.drawTemplate("#slide-dow-inline", mapping);
-						$('.carousel-inner').append(html);
-					} else if (slide.order >= 3) {
-							mapping = {
-								"_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
-								"_link_" : item.slides[slide.order].link,
-								"_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
-								"_desktopPriceImage_" : item.slides[slide.order].desktopPriceImage
-							};
-							html = hlf.drawTemplate("#slide-dow", mapping);
-							$('.carousel-inner').append(html);
-					}
+          if(item.slides[slide.order].desktopSideImage == null ||
+             item.slides[slide.order].desktopSideImage.trim() == "") {
+             $('.item-1-img').remove();
+         }
+
+          $('.carousel-inner').append(html);
+
+
+					// // render the correct template based on the slide number.
+					// if (slide.order === 0) {
+					// 	mapping = {
+					// 		"_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
+					// 		"_desktopSideImage_" : item.slides[slide.order].desktopSideImage,
+					// 		"_featuredDescription_" : item.slides[slide.order].featuredDescription,
+					// 		"_link_" : item.slides[slide.order].link,
+					// 		"_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
+					// 		"_desktopSideImageStyles_" : item.slides[slide.order].desktopSideImageStyles
+					// 	};
+					// 	html = hlf.drawTemplate("#slide-feature", mapping);
+					// 	$('.carousel-inner').append(html);
+
+					// 	// don't show image if there is none!
+				 //  	if(item.slides[slide.order].desktopSideImage == null ||
+				 //  		item.slides[slide.order].desktopSideImage.trim() == "") {
+	    //     		$('.item-1-img').remove();
+	    //     	}
+
+					// } else if (slide.order === 1 || slide.order === 2) {
+					// 		mapping = {
+					// 			"_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
+					// 			"_link_" : item.slides[slide.order].link,
+					// 			"_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
+					// 			"_description_" : item.slides[slide.order].description,
+					// 			"_descriptionSubtext_" : item.slides[slide.order].descriptionSubtext,
+					// 			"_desktopPriceImage_" : item.slides[slide.order].desktopPriceImage,
+					// 	};
+					// 	html = hlf.drawTemplate("#slide-dow-inline", mapping);
+					// 	$('.carousel-inner').append(html);
+					// } else if (slide.order >= 3) {
+					// 		mapping = {
+					// 			"_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
+					// 			"_link_" : item.slides[slide.order].link,
+					// 			"_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
+					// 			"_desktopPriceImage_" : item.slides[slide.order].desktopPriceImage
+					// 		};
+					// 		html = hlf.drawTemplate("#slide-dow", mapping);
+					// 		$('.carousel-inner').append(html);
+					// }
 
 					// add carousel dots dynamically
 					if (slide.order === 0) {

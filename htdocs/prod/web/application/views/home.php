@@ -1,4 +1,4 @@
-<div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="6000" >
+<div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="600000" >
 	<ol class="carousel-indicators">
 	</ol>
 	<div class="carousel-inner" role="listbox">
@@ -31,8 +31,22 @@
   </a>
 </script>
 
+<script type="text/html" id="slide-dow-inline-orig">
+  <a href="_link_" class="item active responsive">
+    <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
+    <div class="row dow-product-desc-container">
+    <p class="pull-left desktop dow-product-desc">_description_<h5 class="dow-product-details">_descriptionSubtext_</h5></p>
+    </div>
+      <img class="desktop" src="<?=site_url()?>_desktopPriceImage_">
+    </div>
+
+    <img class="desktop" src="<?=site_url()?>_desktopSlideBackground_">
+    <img class="mobile" src="<?=site_url()?>_mobileSlideBackground_">
+  </a>
+</script>
+
 <script type="text/html" id="slide-dow-inline">
-	<a  href="_link_" class="item responsive">
+	<a href="_link_" class="item active responsive">
 	  <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
 	  <div class="row dow-product-desc-container">
 		<p class="pull-left desktop dow-product-desc">_description_<h5 class="dow-product-details">_descriptionSubtext_</h5></p>
@@ -43,6 +57,22 @@
 		<img class="desktop" src="<?=site_url()?>_desktopSlideBackground_">
 		<img class="mobile" src="<?=site_url()?>_mobileSlideBackground_">
 	</a>
+</script>
+
+<script type="text/html" id="slide-dow-inline-2">
+  <a href="_link_" class="item responsive">
+    <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
+    <p style="position: absolute; left: 0; top: -230px; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; padding: 20px; font-weight: initial; line-height: initial; text-align: left; background: white">_description_</p>
+    <div class="row dow-product-desc-container">
+
+      <p class="pull-left desktop dow-product-desc">_description_<h5 class="dow-product-details">_descriptionSubtext_</h5></p>
+    </div>
+      <img class="desktop" src="<?=site_url()?>_desktopPriceImage_">
+    </div>
+
+    <img class="desktop" src="<?=site_url()?>_desktopSlideBackground_">
+    <img class="mobile" src="<?=site_url()?>_mobileSlideBackground_">
+  </a>
 </script>
 
 <script type="text/html" id="slide-dow">
