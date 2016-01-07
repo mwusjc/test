@@ -9,7 +9,7 @@
                 </a>
             </div>
         </div>
-    </div>    
+    </div>
 </div>
 </header>
 <main class='recipes'>
@@ -40,7 +40,7 @@
              <div class='pajinate'>
              <div class='no-results-found hidden'><h1>Sorry! Nothing to be found here.</h1></div>
             <div class="row recipes-container content">
-            </div> 
+            </div>
             <div class="page_navigation"></div>
             </div>
         </div>
@@ -58,7 +58,7 @@
 <script type='text/javascript'>
     hlf.data.recipes = <?=json_encode($recipes)?>;
     hlf.data.recipes_categories = <?=json_encode($recipes_categories)?>;
-    
+
     jQuery(document).ready(function($) {
         hlf.recipes.init(hlf.data.recipes);
     })
