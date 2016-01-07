@@ -35,10 +35,11 @@
 <script src="../../assets/js/jquery.pajinate.min.js?rev=fdcae8fb7ff4daa34ad497e010fcea97"></script>
 <script src="../../assets/js/jquery.lazyload.min.js?rev=5c01d7aff077b4ed0804b71c2e3ab4a1"></script>
 <script src="../../assets/js/hlf.js?rev=4e592819b4ed4753b1aaa9d68f60cda5"></script>
-<script src="../../assets/js/hlf.recipes.js?rev=2bbe18fd09efbccda8369cc84f7391a4"></script>
+<script src="../../assets/js/hlf.recipesjson.js?rev=2bbe18fd09efbccda8369cc84f7391a4"></script>
 <script src="../../assets/js/sizeify.js?rev=0a69844d8c7f95148c11eaceacd8171c"></script>
 <script src="../../assets/js/validate.js?rev=0ba12861d4b921c8a3506b29a96fe106"></script>
 <script src="../../assets/js/hlf.carousel.js?rev=b92dddcb103a4b1bc0cceb0766d0431a"></script>
+
 <script type='text/javascript'>
   jQuery(document).ready(function($) {
     sl.init();
