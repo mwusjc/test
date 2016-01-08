@@ -7,27 +7,22 @@ class Recipes extends CI_Controller {
         $this->data = new stdClass();
         $this->load->model("Recipes_model","recipes_model");
     }
+
     public function index()
     {
-        $this->data->recipes_categories = $this->recipes_model->get_categories();
-        $this->data->recipes = $this->recipes_model->get(null,null,'short');
+        $recipesFile = @file_get_contents("assets/data/recipes/recipes.json");
+        $this->data->recipes = json_encode($recipesFile);
         $this->load->view("header");
-        $this->load->view("recipes", $this->data);
+        $this->load->view("recipesjson", $this->data);
         $this->load->view("footer");
     }
 
-    public function details($slug) {
-        (int) $slug;
-        if(empty($slug)) redirect("/recipes/");
-
-        $this->data->recipe = $this->recipes_model->get($slug,null,"long")->{$slug};
-        
-        $recipe = $this->recipes_model->get($slug)->{$slug};
-        $currentCategory = $recipe->CategoryID;
-        $this->data->recommended = $this->recipes_model->get_related($slug, $currentCategory);
-
+    public function details($slug)
+    {
+        $recipesFile = @file_get_contents("assets/data/recipes/recipes.json");
+        $this->data->recipes = json_encode($recipesFile);
         $this->load->view("header");
-        $this->load->view("recipe", $this->data);
-        $this->load->view("footer"); 
+        $this->load->view("recipejson", $this->data);
+        $this->load->view("footer");
     }
 }
