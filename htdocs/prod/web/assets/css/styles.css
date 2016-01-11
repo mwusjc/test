@@ -5473,7 +5473,7 @@ button.close {
     left: -100%; }
   .carousel-inner > .active.right {
     left: 100%; }
-    
+
 .dow-product-desc-container {
   color: #000;
   font-size: 18px;
@@ -5561,6 +5561,14 @@ button.close {
 
   .carousel-indicators {
     bottom: -7px !important;
+  }
+
+  .price-image {
+    width: 150px;
+  }
+
+  #carousel-slide1, #carousel-slide2, #carousel-slide3, #carousel-slide4,#carousel-slide5, #carousel-slide6 {
+    background-size: cover !important;
   }
 }
 /* End copy overlay on homepage carousel image */

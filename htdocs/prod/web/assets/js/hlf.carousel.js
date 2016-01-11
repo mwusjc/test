@@ -29,55 +29,45 @@ var carousel = {
         // iterate through the slides of the current carousel
         $.each(item.slides, function(key2,slide) {
 
-          // render the correct template based on the slide number.
-          if (slide.order === 0) {
+            console.log(item.slides[slide.order].badges[1]);
+            // render the template
             mapping = {
-              "_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
-              "_desktopSideImage_" : item.slides[slide.order].desktopSideImage,
-              "_featuredDescription_" : item.slides[slide.order].featuredDescription,
               "_link_" : item.slides[slide.order].link,
+              "_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
               "_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
-              "_desktopSideImageStyles_" : item.slides[slide.order].desktopSideImageStyles,
-              "_desktopSideImageStylesImg_" : item.slides[slide.order].desktopSideImageStylesImg
+              "_active_" : item.slides[slide.order].active ? "active" : "",
+              "_containerCSS_" : item.slides[slide.order].containerCSS != null ? item.slides[slide.order].containerCSS : "display:none",
+              "_headingContainerCSS_" : item.slides[slide.order].headingContainerCSS != null ? item.slides[slide.order].headingContainerCSS : "display:none",
+              "_heading_" : item.slides[slide.order].heading != null ? item.slides[slide.order].heading : "",
+              "_headingCSS_" : item.slides[slide.order].headingCSS != null ? item.slides[slide.order].headingCSS : "display:none",
+              "_subheading_" : item.slides[slide.order].subheading != null ? item.slides[slide.order].subheading : "",
+              "_subheadingCSS_" : item.slides[slide.order].subheadingCSS != null ? item.slides[slide.order].subheadingCSS : "display:none",
+              "_imageOverlay_" : item.slides[slide.order].imageOverlay != null ? item.slides[slide.order].imageOverlay : "",
+              "_imageOverlayCSS_" : item.slides[slide.order].imageOverlayCSS != null ? item.slides[slide.order].imageOverlayCSS : "display:none",
+              "_textOverlay_" : item.slides[slide.order].textOverlay != null ? item.slides[slide.order].textOverlay : "",
+              "_textOverlayCSS_" : item.slides[slide.order].textOverlayCSS != null ? item.slides[slide.order].textOverlayCSS : "display:none",
+              "_priceImage_" : item.slides[slide.order].priceImage != null ? item.slides[slide.order].priceImage : "",
+              "_priceImageCSS_" : item.slides[slide.order].priceImageCSS != null ? item.slides[slide.order].priceImageCSS : "display:none",
+              "_badge1_" : item.slides[slide.order].badges[0] != undefined ? item.slides[slide.order].badges[0].image : "",
+              "_badge1CSS_" : item.slides[slide.order].badges[0] != undefined ? item.slides[slide.order].badges[0].css : "display:none",
+              "_badge2_" : item.slides[slide.order].badges[1] != undefined ? item.slides[slide.order].badges[1].image : "",
+              "_badge2CSS_" : item.slides[slide.order].badges[1] != undefined ? item.slides[slide.order].badges[1].css : "display:none",
+              "_descriptionLeftText_" : item.slides[slide.order].descriptionLeftText != null ? item.slides[slide.order].descriptionLeftText : "",
+              "_descriptionLeftTextCSS_" : item.slides[slide.order].descriptionLeftTextCSS != null ? item.slides[slide.order].descriptionLeftTextCSS : "display:none",
+              "_descriptionRightText_" : item.slides[slide.order].descriptionRightText != null ? item.slides[slide.order].descriptionRightText : "",
+              "_descriptionRightTextCSS_" : item.slides[slide.order].descriptionRightTextCSS != null ? item.slides[slide.order].descriptionRightTextCSS : "display:none",
             };
-            html = hlf.drawTemplate("#inject-style", mapping);
-            // $('.carousel-inner').append(html);
-            $(document.body).prepend(html);
 
-            // don't show image if there is none!
-            if(item.slides[slide.order].desktopSideImage == null ||
-              item.slides[slide.order].desktopSideImage.trim() == "") {
-              $('.item-1-img').remove();
-            }
-
-          } else if (slide.order === 1 || slide.order === 2) {
-              mapping = {
-                "_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
-                "_link_" : item.slides[slide.order].link,
-                "_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
-                "_description_" : item.slides[slide.order].description,
-                "_descriptionSubtext_" : item.slides[slide.order].descriptionSubtext,
-                "_desktopPriceImage_" : item.slides[slide.order].desktopPriceImage,
-            };
-            html = hlf.drawTemplate("#slide-dow-inline", mapping);
-            //$('.carousel-inner').append(html);
-          } else if (slide.order >= 3) {
-              mapping = {
-                "_desktopSlideBackground_" : item.slides[slide.order].desktopSlideBackground,
-                "_link_" : item.slides[slide.order].link,
-                "_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
-                "_desktopPriceImage_" : item.slides[slide.order].desktopPriceImage
-              };
-              html = hlf.drawTemplate("#slide-dow", mapping);
-              //$('.carousel-inner').append(html);
-          }
+            html = hlf.drawTemplate("#slide-template", mapping);
+            $('.carousel-inner').append(html);
+            // $(document.body).prepend(html);
 
           // add carousel dots dynamically
-          // if (slide.order === 0) {
-          //   $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + slide.order + '" class="active" style="margin-left: 4px"></li>');
-          // } else {
-          //   $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + slide.order + '" style="margin-left: 4px"></li>');
-          // }
+          if (slide.order === 0) {
+            $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + slide.order + '" class="active" style="margin-left: 4px"></li>');
+          } else {
+            $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + slide.order + '" style="margin-left: 4px"></li>');
+          }
         });
 
         // do not continue iterating through list
