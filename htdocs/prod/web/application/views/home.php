@@ -21,7 +21,7 @@
 <script type="text/html" id="slide-template">
   <a href="_link_" class="item _active_">
 
-    <div class="desktop" style="background: url(_desktopSlideBackground_) no-repeat center center; background-size: cover; height: 375px;">
+    <div class="desktop _slideID_" style="background: url(_desktopSlideBackground_) no-repeat center center; background-size: cover; height: 375px; ">
 
           <div class="container" style="_containerCSS_">
 
@@ -54,7 +54,7 @@
 
     </div> <!-- end desktop -->
 
-    <div class="mobile" style="background: url(_mobileSlideBackground_) no-repeat center center; background-size: cover; height: 375px;">
+    <div class="mobile _slideID_" style="background: url(_mobileSlideBackground_) no-repeat center center; background-size: cover; height: 375px;">
 
           <div class="container" style="_containerCSS_">
 

@@ -5567,9 +5567,6 @@ button.close {
     width: 150px;
   }
 
-  #carousel-slide1, #carousel-slide2, #carousel-slide3, #carousel-slide4,#carousel-slide5, #carousel-slide6 {
-    background-size: cover !important;
-  }
 }
 /* End copy overlay on homepage carousel image */
 
@@ -7073,6 +7070,18 @@ h2{
     background: #DFF0D8;
 	}
 }}
+
+.carousel-slide1 {
+  -moz-border-image: url('../images/burlap.png') 0 0 10 repeat;
+  -webkit-border-image: url('../images/burlap.png') 0 0 10 repeat;
+  -o-border-image: url('../images/burlap.png') 0 0 10 repeat;
+  border-image: url('../images/burlap.png') 0 0 10 repeat;
+  border-width: 0px 0px 10px;
+  border-style:solid;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+}
 
 @media print {
   html,
