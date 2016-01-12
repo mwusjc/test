@@ -1,6 +1,6 @@
 [
   {
-    "startDate": "2016-01-10T03:00:00Z",
+    "startDate": "2016-01-20T03:00:00Z",
     "slides": [
       {
         "order": 0,
@@ -250,9 +250,9 @@
             "css": "float:right; position: absolute; top: 60px; right: 0"
           }
         ],
-        "descriptionLeftText": "<p>Fresh Beef<br>Sirloin Tip Roast<br>Product of Canada</p>",
-        "descriptionLeftTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 20px; left: 5px",
-        "descriptionLeftTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 20px; left: 5px; bottom: -10px",
+        "descriptionLeftText": "Fresh Beef<br>Sirloin Tip Roast<br>Product of Canada",
+        "descriptionLeftTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: 22px; position: absolute; display: inline-block; bottom: 20px; left: 5px",
+        "descriptionLeftTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 16px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; left: 5px; bottom: 15px",
         "descriptionRightText": null,
         "descriptionRightTextCSS": null,
         "descriptionRightTextMobileCSS": null
@@ -279,9 +279,9 @@
         "priceImage": "assets/images/test-new-carousel/home_price-3.png",
         "priceImageCSS": "float:right; position: absolute; bottom: 0; right: 0",
         "badges": [],
-        "descriptionLeftText": "<p>Broccoli<br>Product of U.S.A.<br>Large Size</p>",
+        "descriptionLeftText": "Broccoli<br>Product of U.S.A.<br>Large Size",
         "descriptionLeftTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 20px; left: 5px",
-        "descriptionLeftTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 20px; left: 5px; bottom: -10px",
+        "descriptionLeftTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 16px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; left: 5px; bottom: 15px",
         "descriptionRightText": null,
         "descriptionRightTextCSS": null,
         "descriptionRightTextMobileCSS": null
@@ -311,9 +311,9 @@
         "descriptionLeftText": null,
         "descriptionLeftTextCSS": null,
         "descriptionLeftTextMobileCSS": null,
-        "descriptionRightText": "<p>Kellogg's<br>Corn Flakes Cereal</p>",
-        "descriptionRightTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 20px; right: 250px; background: white; padding-left: 20px; padding-right: 20px",
-        "descriptionRightTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 16px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 0px; right: 155px; background: white; padding-left: 20px; padding-right: 20px"
+        "descriptionRightText": "Kellogg's<br>Corn Flakes Cereal",
+        "descriptionRightTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: 22px; position: absolute; display: inline-block; bottom: 86px; right: 250px; background: white; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 20px",
+        "descriptionRightTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 16px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 20px; right: 155px; background: white; padding: 20px; padding-right: 20px"
       },
       {
         "order": 4,
@@ -340,9 +340,9 @@
         "descriptionLeftText": null,
         "descriptionLeftTextCSS": null,
         "descriptionLeftTextMobileCSS": null,
-        "descriptionRightText": "<p>Nature Valley Granola Bars<br>130-230g or Betty Crocker<br>Snacks 120-226g<br>Selected Varieties</p>",
-        "descriptionRightTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 20px; right: 250px; background: white; padding-left: 20px; padding-right: 20px",
-        "descriptionRightTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 16px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 0px; right: 155px; background: white; padding-left: 20px; padding-right: 20px"
+        "descriptionRightText": "Nature Valley Granola Bars<br>130-230g or Betty Crocker<br>Snacks 120-226g<br>Selected Varieties",
+        "descriptionRightTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 58px; right: 250px; background: white; padding-left: 20px; padding-right: 20px;padding-top:10px; padding-bottom:10px",
+        "descriptionRightTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 16px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 12px; right: 155px; background: white; padding-left: 20px; padding-right: 20px; padding-top:10px; padding-bottom:10px"
       },
       {
         "order": 5,
@@ -369,9 +369,9 @@
         "descriptionLeftText": null,
         "descriptionLeftTextCSS": null,
         "descriptionLeftTextMobileCSS": null,
-        "descriptionRightText": "<p>Oasis Premium Orange,<br>Apple Juice, Health Break<br>Blends or Smoothies<br>Selected Varieties</p>",
-        "descriptionRightTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 20px; right: 250px; background: white; padding-left: 20px; padding-right: 20px",
-        "descriptionRightTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 16px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 0px; right: 155px; background: white; padding-left: 20px; padding-right: 20px"
+        "descriptionRightText": "Oasis Premium Orange,<br>Apple Juice, Health Break<br>Blends or Smoothies<br>Selected Varieties",
+        "descriptionRightTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 58px; right: 250px; background: white; padding-left: 20px; padding-right: 20px; padding-top:10px; padding-bottom:10px",
+        "descriptionRightTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 16px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 10px; right: 155px; background: white; padding-left: 20px; padding-right: 20px; padding-top:10px; padding-bottom:10px"
       }
     ]
   },
