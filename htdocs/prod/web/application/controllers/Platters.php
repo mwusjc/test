@@ -12,7 +12,7 @@ class Platters extends CI_Controller {
     {
         $this->data->platters_categories = $this->platters_model->get_categories();
         $this->data->platters = $this->platters_model->get(null,null,'short');
-        $this->load->view("header");
+        $this->load->view("header", ['title'=>'Platters & Gifts For Your Next Event | Highland Farms']);
         $this->load->view("platters", $this->data);
         $this->load->view("footer");
     }

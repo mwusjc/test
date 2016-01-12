@@ -6,7 +6,7 @@ class Visit extends CI_Controller {
     public function index()
     {
 	    $this->load->helper('email');
-        $this->load->view("header");
+        $this->load->view("header", ['title'=>'Store Locations & Hours | Contact Us | Highland Farms']);
         $this->load->view("visit-us");
         $this->load->view("footer");
         

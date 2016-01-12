@@ -5,23 +5,23 @@ class About extends CI_Controller {
 
     public function index()
     {
-        $this->load->view("header");
+        $this->load->view("header", ['title'=> 'About Us | It Starts With Freshness | Highland Farms']);
         $this->load->view("about");
         $this->load->view("footer");
     }
 
     public function privacy_policy() {
-        $this->load->view("header");
+        $this->load->view("header", ['title'=>'Privacy Policy | Highland Farms']);
         $this->load->view("privacy-policy");
         $this->load->view("footer");
     }
     public function disclaimer() {
-        $this->load->view("header");
+        $this->load->view("header", ['title'=>'Disclaimer | Highland Farms']);
         $this->load->view("disclaimer");
         $this->load->view("footer");
     }
     public function accessibility() {
-        $this->load->view("header");
+        $this->load->view("header", ['title'=>'Accessible Customer Service Policy | Highland Farms']);
         $this->load->view("accessibility");
         $this->load->view("footer");
     }
