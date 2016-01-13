@@ -12,7 +12,7 @@ class Recipes extends CI_Controller {
     {
         $recipesFile = @file_get_contents("assets/data/recipes/recipes.json");
         $this->data->recipes = json_encode($recipesFile);
-        $this->load->view("header", ['title' => "Get Fresh Recipe Ideas Every Week | Highland Farms"]);
+        $this->load->view("header", array('title' => "Get Fresh Recipe Ideas Every Week | Highland Farms"));
         $this->load->view("recipesjson", $this->data);
         $this->load->view("footer");
     }
