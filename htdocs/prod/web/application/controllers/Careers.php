@@ -14,7 +14,7 @@ class Careers extends CI_Controller {
         $json = json_decode($str, true);
 		
 	   	$this->data['joblistings'] = $json;
-        $this->load->view("header");
+        $this->load->view("header", ['title'=>'Join Us | Start Fresh With a Career at Highland Farms']);
         $this->load->view("careers", $this->data);
         $this->load->view("footer");
     }
