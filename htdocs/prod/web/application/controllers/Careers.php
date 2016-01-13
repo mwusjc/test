@@ -2,19 +2,19 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Careers extends CI_Controller {
-    
+
     public function __construct() {
         parent::__construct();
     }
 
     public function index()
-    {	
-    	
+    {
+
     	$str = file_get_contents('./assets/data/jobs/listing.json');
         $json = json_decode($str, true);
-		
+
 	   	$this->data['joblistings'] = $json;
-        $this->load->view("header", ['title'=>'Join Us | Start Fresh With a Career at Highland Farms']);
+        $this->load->view("header", array('title'=>'Join Us | Start Fresh With a Career at Highland Farms'));
         $this->load->view("careers", $this->data);
         $this->load->view("footer");
     }
@@ -30,13 +30,13 @@ class Careers extends CI_Controller {
         if ($json && isset($json[$slug])) {
         	$data = $json[$slug];
         }
-        
+
         $this->data['details'] = $data;
 
 		$this->load->helper('email');
         $this->load->view("header");
         $this->load->view("job", $this->data);
-        $this->load->view("footer"); 
+        $this->load->view("footer");
     }
 
 }
