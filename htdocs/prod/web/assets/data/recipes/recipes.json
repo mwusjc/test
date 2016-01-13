@@ -1995,8 +1995,8 @@
     "related": [
       {
         "image": "media/recipes/rec_eggplant_salad_caprese.jpg",
-        "slug": "eggplant-salad-capres",
-        "title": "Eggplant Salad Capres"
+        "slug": "eggplant-salad-caprese",
+        "title": "Eggplant Salad Caprese"
       },
       {
         "image": "media/recipes/rec_tomato_linguine_salmon.jpg",
@@ -2123,8 +2123,8 @@
       },
       {
         "image": "media/recipes/rec_eggplant_salad_caprese.jpg",
-        "slug": "eggplant-salad-capres",
-        "title": "Eggplant Salad Capres"
+        "slug": "eggplant-salad-caprese",
+        "title": "Eggplant Salad Caprese"
       }
     ],
     "image":"media/recipes/rec_vegetables_provencal.jpg"
