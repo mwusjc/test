@@ -268,7 +268,7 @@
           "summary": "",
           "packaging":"each",
           "pricing":"$19.99",
-          "comments":""
+          "comments":"save"
         },
         {
           "image":"OrangeJuiceCombined.jpg",
@@ -367,7 +367,7 @@
         {
           "image":"LavazzaCombined.jpg",
           "coords":[160,112,150,85],
-          "name": "Lavazza Espresso Ground Coffee Qualitˆ Rossa & Crema E Gusto",
+          "name": "Lavazza Espresso Ground Coffee Qualita Rossa & Crema E Gusto",
           "brands": ["Lavazza"],
           "category": "grocery",
           "summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
@@ -378,7 +378,7 @@
         {
           "image":"UncleBensCombined.jpg",
           "coords":[9,200,74,85],
-          "name": "Uncle Ben's RiceLong Grain Converted 2kg or Whole Grain Brown 1.6kg",
+          "name": "Uncle Ben's Rice Long Grain Converted 2kg or Whole Grain Brown 1.6kg",
           "brands": ["Uncle Ben's"],
           "category": "grocery",
           "summary": "",
@@ -387,7 +387,7 @@
           "comments":""
         },
         {
-          "image":"BsitroCombined",
+          "image":"BsitroCombined.jpg",
           "coords":[85,200,73,85],
           "name": "Uncle Ben's Bistro Express Rice & Risotto Side Dish Assorted Varieties",
           "brands": ["Uncle Ben's"],
@@ -525,7 +525,7 @@
           "comments":""
         },
         {
-          "image":"SwifferCombined",
+          "image":"SwifferCombined.jpg",
           "coords":[161,200,73,85],
           "name": "each Refills Wet 24s, Dry 32s or Dusters 10s",
           "brands": ["each"],
@@ -536,7 +536,7 @@
           "comments":""
         },
         {
-          "image":"BritaCombined",
+          "image":"BritaCombined.jpg",
           "coords":[237,200,73,85],
           "name": "Brita Space Saver Pour Through Water System or 3pk Water Filters",
           "brands": ["Brita"],
@@ -558,7 +558,7 @@
           "comments":""
         },
         {
-          "image":"ThaiCombined",
+          "image":"ThaiCombined.jpg",
           "coords":[85,288,73,85],
           "name": "Thai Kitchen Premium Coconut Milk Regular or Lite",
           "brands": ["Thai Kitchen"],
@@ -759,7 +759,7 @@
         {
           "image":"MapleLeaf1.jpg",
           "coords":[202,85,34,112],
-          "name": "Maple Leaf¨  Natural Selections¨ Deli Sliced Black Forest Ham",
+          "name": "Maple Leaf  Natural Selections Deli Sliced Black Forest Ham",
           "brands": ["Maple Leaf"],
           "category": "deli",
           "summary": "",
@@ -994,7 +994,7 @@
           "comments":""
         },
         {
-          "image":"GroundMeatCombined",
+          "image":"GroundMeatCombined.jpg",
           "coords":[237,200,73,85],
           "name": "Maple Leaf Prime Naturally Extra Lean Ground Chicken or Turkey",
           "brands": ["Maple Leaf"],
