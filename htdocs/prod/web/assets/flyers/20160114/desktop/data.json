@@ -323,7 +323,7 @@
           "image":"iogoCombined.jpg",
           "coords":[768,397,101,117],
           "name": "iogo Smoothie or Protein Drinks Assorted Varieties",
-          "brands": ["iogo"],
+          "brands": ["Iogo"],
           "category": "dairy",
           "summary": "",
           "packaging":"1L",
@@ -381,7 +381,7 @@
           "comments":""
         },
         {
-          "image":"BsitroCombined",
+          "image":"BsitroCombined.jpg",
           "coords":[116,275,101,117],
           "name": "Uncle Ben's Bistro Express Rice & Risotto Side Dish Assorted Varieties",
           "brands": ["Uncle Ben's"],
@@ -515,8 +515,8 @@
         {
           "image":"SwifferCombined.jpg",
           "coords":[664,275,101,117],
-          "name": "each Refills Wet 24s, Dry 32s or Dusters 10s",
-          "brands": ["each"],
+          "name": "Swiffer Refills Wet 24s, Dry 32s or Dusters 10s",
+          "brands": ["Swiffer"],
           "category": "grocery",
           "summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
           "packaging":"each",
@@ -741,7 +741,7 @@
         {
           "image":"MapleLeaf1.jpg",
           "coords":[719,118,47,154],
-          "name": "Maple Leaf¨  Natural Selections¨ Deli Sliced Black Forest Ham",
+          "name": "Maple Leaf Natural Selections Deli Sliced Black Forest Ham",
           "brands": ["Maple Leaf"],
           "category": "deli",
           "summary": "",
@@ -752,7 +752,7 @@
         {
           "image":"SchneidersHam.jpg",
           "coords":[766,118,50,154],
-          "name": "Schneiders¨ Fat Free¨ Deli Sliced Ham ",
+          "name": "Schneiders Fat Free Deli Sliced Ham ",
           "brands": ["Schneiders"],
           "category": "deli",
           "summary": "",
@@ -763,7 +763,7 @@
         {
           "image":"SchneidersTurkey.jpg",
           "coords":[816,118,54,154],
-          "name": "Schneiders¨ Fat Free¨ Deli Sliced Turkey or Chicken",
+          "name": "Schneiders Fat Free Deli Sliced Turkey or Chicken",
           "brands": ["Schneiders"],
           "category": "deli",
           "summary": "",
