@@ -12,23 +12,23 @@ class Visit extends CI_Controller {
 
 		$config = array(
 					   array(
-							 'field'   => 'first', 
-							 'label'   => 'First Name', 
+							 'field'   => 'first',
+							 'label'   => 'First Name',
 							 'rules'   => 'required'
 						  ),
 					   array(
-							 'field'   => 'last', 
-							 'label'   => 'Last Name', 
+							 'field'   => 'last',
+							 'label'   => 'Last Name',
 							 'rules'   => 'required'
 						  ),
 					  array(
-							 'field'   => 'email', 
-							 'label'   => 'Email', 
+							 'field'   => 'email',
+							 'label'   => 'Email',
 							 'rules'   => 'required|valid_email'
-						  ),   
+						  ),
 					   array(
-							 'field'   => 'message', 
-							 'label'   => 'Message', 
+							 'field'   => 'message',
+							 'label'   => 'Message',
 							 'rules'   => 'required'
 						  )
 					);
@@ -53,11 +53,11 @@ class Visit extends CI_Controller {
 							Message: " . nl2br($message);
 
 			send_ses_email($to, "VISIT US: Submission", $email);
-			
+
 			$this->load->view("visit-success");
 		}
         $this->load->view("visit-us");
-		$this->load->view("footer"); 
-        
+		$this->load->view("footer");
+
     }
 }
