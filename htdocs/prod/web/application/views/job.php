@@ -1,39 +1,11 @@
-<?php
-if(isset($_POST['submit'])) {
-    $to = "jobs@highlandfarms.on.ca";
-    $from = $_POST['email'];
-    $first = $_POST['first'];
-    $last = $_POST['last'];
-    $phone = $_POST['phone'];
-    $location = $_POST['location'];
-    $title = $_POST['title'];
-    $id = $_POST['id'];
-    $resume = isset($_POST['file_resume_val']) ? $_POST['file_resume_val'] : "";
-    $coverletter = isset($_POST['file_coverletter_val']) ? $_POST['file_coverletter_val'] : "";
-
-    $email = "Job application submission:<br/><br/>
-                    Job: $id - $title - $location<br/>
-                    Name: $first $last<br/>
-                    Email: $from<br/>
-                    Phone: $phone<br/><br/>
-                    Resume/Coverletter attached.
-
-    ";
-    send_ses_email($to, "JOB APPLICATION: Submission", $email, $_FILES);
-    ?>
-    <script type='text/javascript'>
-        $(function() {
-            $('body').append($("#tpl-product-modal").html());
-            $('#detailModal').modal('show');
-        });
-    </script>
-    <?php
-}
-?>
-
 </header>
 
 <main class='job'>
+    <div class="row">
+        <div class='col-sm-12 text-danger'>
+            <?php echo validation_errors(); ?>
+        </div>
+    </div>
     <div class='row'>
         <div class='col-sm-12'>
             <p id="backto">
@@ -69,12 +41,12 @@ if(isset($_POST['submit'])) {
 	            <input type="hidden" name="location" value="<?=$details['location']?>" />
 	            <input type="hidden" name="title" value="<?=$details['title']?>"/>
 	            <input type="hidden" name="id" value="<?=$details['id']?>"/>
-                <div class="col-xs-12 col-sm-6"><input name="first" type="text" value="" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/></div>
-                <div class="col-xs-12 col-sm-6"><input name="last" type="text" value="" placeholder="Last Name*" title="Last Name should not be left blank." x-moz-errormessage="Last Name should not be left blank." required/></div>
+                <div class="col-xs-12 col-sm-6"><input name="first" type="text" value="<?=set_value('first')?>" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/></div>
+                <div class="col-xs-12 col-sm-6"><input name="last" type="text" value="<?=set_value('last')?>" placeholder="Last Name*" title="Last Name should not be left blank." x-moz-errormessage="Last Name should not be left blank." required/></div>
               </div>
               <div class="row">
-                <div class="col-xs-12 col-sm-6"><input name="email" type="email" value="" placeholder="Email*" required/></div>
-                <div class="col-xs-12 col-sm-6"><input name="phone" type="text" value="" placeholder="Phone Number*" title="Phone Number should not be left blank." x-moz-errormessage="Phone Number should not be left blank." required/></div>
+                <div class="col-xs-12 col-sm-6"><input name="email" type="email" value="<?=set_value('email')?>" placeholder="Email*" required/></div>
+                <div class="col-xs-12 col-sm-6"><input name="phone" type="text" value="<?=set_value('phone')?>" placeholder="Phone Number*" title="Phone Number should not be left blank." x-moz-errormessage="Phone Number should not be left blank." required/></div>
               </div>
               <div class="row">
                 <div class="col-xs-12 col-sm-6">
