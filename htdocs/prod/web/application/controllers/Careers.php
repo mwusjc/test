@@ -27,28 +27,28 @@ class Careers extends CI_Controller {
 
 		$config = array(
 					   array(
-							 'field'   => 'first', 
-							 'label'   => 'First Name', 
+							 'field'   => 'first',
+							 'label'   => 'First Name',
 							 'rules'   => 'required'
 						  ),
 					   array(
-							 'field'   => 'last', 
-							 'label'   => 'Last Name', 
+							 'field'   => 'last',
+							 'label'   => 'Last Name',
 							 'rules'   => 'required'
 						  ),
 					  array(
-							 'field'   => 'email', 
-							 'label'   => 'Email', 
+							 'field'   => 'email',
+							 'label'   => 'Email',
 							 'rules'   => 'required|valid_email'
 						  ),
 					   array(
-							 'field'   => 'phone', 
-							 'label'   => 'Phone Number', 
+							 'field'   => 'phone',
+							 'label'   => 'Phone Number',
 							 'rules'   => 'required'
-						  ),   
+						  ),
 					   array(
-							 'field'   => 'file_resume_val', 
-							 'label'   => 'Resume', 
+							 'field'   => 'file_resume_val',
+							 'label'   => 'Resume',
 							 'rules'   => 'required'
 						  )
 					);
@@ -94,12 +94,12 @@ class Careers extends CI_Controller {
 
 			";
 			send_ses_email($to, "JOB APPLICATION: Submission", $email, $_FILES);
-			
+
 			$this->load->view("job-success", $this->data);
 		}
 		$this->load->view("job", $this->data);
 
-		$this->load->view("footer"); 
+		$this->load->view("footer");
 
 
     }
