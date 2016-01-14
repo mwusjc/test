@@ -36,11 +36,11 @@ class Visit extends CI_Controller {
 		$this->form_validation->set_rules($config);
 
 
-        $this->load->view("header", ['title'=>'Store Locations & Hours | Contact Us | Highland Farms']);
+        $this->load->view("header", array('title'=>'Store Locations & Hours | Contact Us | Highland Farms'));
 
 		if ($this->form_validation->run())	{
 
-			$to = "adam.clarke@stjoseph.com";//customerservice@highlandfarms.on.ca";
+			$to = "customerservice@highlandfarms.on.ca";
 			$from = $_POST['email'];
 			$first = $_POST['first'];
 			$last = $_POST['last'];
