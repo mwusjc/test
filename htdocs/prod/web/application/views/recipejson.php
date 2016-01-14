@@ -30,8 +30,8 @@
 <script type="text/html" id="tpl-recipe-listing">
 	<div class="col-xs-12 col-sm-3 recipe text-center">
 		<a href='<?=site_url()?>recipes/_SLUG_'>
-		<div class='img'><img src="<?=site_url()?>assets/_IMAGE_" /></div>
-		_TITLE_
+		<div class='img'><img src="<?=site_url()?>assets/_THUMBNAIL_" /></div>
+		<div class='related-recipe-title'>_TITLE_</div>
 		</a>
 	</div>
 </script>

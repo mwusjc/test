@@ -61,19 +61,18 @@
 	<div class="row home-categories">
 		<div class="col-xs-12 col-sm-4">
 			<a href='/flyer'>
-				<h4 class="box top">Flyers</h1>
+				<h4 class="box top">Flyers</h4>
 				<div class='img'><img src="<?=site_url()?>/assets/images/hf_flyer.jpg" alt="Flyers" style="width: 100%;"/></div>
 			</a>
 		</div>
 		<div class="col-xs-12 col-sm-4">
-			<a href='<?=site_url()?>recipes'>
-				<h4 class="box top">Recipes</h1>
-				<div class='img'><img src="<?=site_url()?>/assets/images/home_recipes.jpg" alt="Recipes"/></div>
+			<a href='<?=site_url()?>recipes' id="homepage-recipe">
+				<h4 class="box top">Recipes</h4>
 			</a>
 		</div>
 		<div class="col-xs-12 col-sm-4">
 			<a href='<?=site_url()?>country-kitchen'>
-				<h4 class="box top">Country Kitchen</h1>
+				<h4 class="box top">Country Kitchen</h4>
 				<div class='img'><img src="<?=site_url()?>/assets/images/home_ck.jpg" alt="Country Kitchen"/></div>
 			</a>
 		</div>
@@ -108,5 +107,20 @@
 		</div>
 	</div>
 </main>
+
+<script type="text/html" id="tpl-featured-recipe-thumb">
+  <div class='img'><img src="<?=site_url()?>/assets/_THUMBNAIL_" alt="Recipes"/></div>
+</script>
+
+<script>
+
+  jQuery(document).ready(function($) {
+
+    hlf.data.recipes = JSON.parse(<?php echo $recipes ?>);
+    hlf.recipes.getFeaturedRecipeHomepage(hlf.data.recipes);
+
+  });
+
+</script>
 
 
