@@ -1,31 +1,10 @@
-<?php
-if(isset($_POST['submit'])) {
-    $to = "customerservice@highlandfarms.on.ca";
-    $from = $_POST['email'];
-    $first = $_POST['first'];
-    $last = $_POST['last'];
-    $phone = $_POST['phone'];
-    $message = $_POST['message'];
-
-    $email = "From: $first $last<br/>
-                    Email: $from<br/>
-                    Phone: $phone<br/>
-                    Message: " . nl2br($message)
-    ;
-
-    send_ses_email($to, "VISIT US: Submission", $email);
-    ?>
-    <script type='text/javascript'>
-        $(function() {
-            $('body').append($("#tpl-product-modal").html());
-            $('#detailModal').modal('show');
-        });
-    </script>
-    <?php
-}
-?>
   </header>
 <main>
+    <div class="row">
+        <div class='col-sm-12 text-danger'>
+            <?php echo validation_errors(); ?>
+        </div>
+    </div>
 <div class="row">
   <div class="col-xs-12 col-sm-3">
     <h2>Scarborough</h2>
@@ -70,18 +49,18 @@ Or have a fresh idea that could make your Highland Farms experience even more en
     <form method="post" action="" id="form">
       <div class="row">
         <div class="col-xs-12 col-sm-6 visit-us-form-field">
-        	<input name="first" class="visit-us-half-width" type="text" value="" aria-required="true" aria-label="First Name" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/>
+        	<input name="first" class="visit-us-half-width" type="text" value="<?php echo set_value('first'); ?>" aria-required="true" aria-label="First Name" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/>
         </div>
-      	<div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
+      	<div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="<?php echo set_value('last'); ?>" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" class="visit-us-half-width" type="email" value="" aria-required="true" aria-label="Email" placeholder="Email*" required/></div>
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" class="visit-us-half-width" type="email" value="<?php echo set_value('email'); ?>" aria-required="true" aria-label="Email" placeholder="Email*" required/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" class="visit-us-half-width" type="text" value="<?php echo set_value('phone'); ?>" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="" aria-required="true" aria-label="Your Message" placeholder="Your Message*" title="Message should not be left blank." x-moz-errormessage="Message should not be left blank." required></textarea></div>
+        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="<?php echo set_value('message'); ?>" aria-required="true" aria-label="Your Message" placeholder="Your Message*" title="Message should not be left blank." x-moz-errormessage="Message should not be left blank." required></textarea></div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 visit-us-form-field"><input name="submit" type="submit" aria-label="Submit" value="Submit" class="green" /></div>

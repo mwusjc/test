@@ -5475,7 +5475,7 @@ button.close {
     left: -100%; }
   .carousel-inner > .active.right {
     left: 100%; }
-    
+
 .dow-product-desc-container {
   color: #000;
   font-size: 18px;
@@ -7092,6 +7092,29 @@ h2{
     background: #DFF0D8;
 	}
 }}
+
+/* Firefox only */
+@-moz-document url-prefix() {
+  #upload-resume-file {
+     opacity: 1 !important;
+     text-indent: -9999px;
+     border-radius: 10px;
+  }
+}
+
+/* IE only */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  input:required:invalid {
+    outline: none;
+  }
+}
+
+/* Edge only */
+@supports (-ms-accelerator:true) {
+  input:required:invalid {
+    outline: none;
+  }
+}
 
 @media print {
   html,
