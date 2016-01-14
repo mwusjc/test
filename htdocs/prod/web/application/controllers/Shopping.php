@@ -9,7 +9,7 @@ class Shopping extends CI_Controller {
     public function index()
     {
         $this->data->items = $this->cart->contents();
-        $this->load->view("header", array('title'=>'Shopping List | Add. Download. Print | Highland Farms'));
+        $this->load->view("header", array('title'=>'Shopping List | Add. Download. Print | Highland Farms', "desc" => "Add from our extensive range of fresh produce, meat, seafood, baked goods, prepared foods, party platters and more. Print before visiting one of our stores!"));
         $this->load->view("shopping/cart",$this->data);
         $this->load->view("footer");
     }
