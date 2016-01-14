@@ -179,6 +179,14 @@
     }
 
     form input[type="text"], form input[type="email"] {
-      width: 97%; 
+      width: 97%;
+    }
+
+    .related-recipe-title {
+      text-align: center;
+    }
+
+    .recommended .img img {
+      width: auto;
     }
 }

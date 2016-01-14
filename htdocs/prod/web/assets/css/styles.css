@@ -7033,7 +7033,10 @@ height: 210px;
   font-size: inherit;
 }
 
-
+.related-recipe-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 .recipes-container .img_copy,
 .platters-container .img_copy {
