@@ -21,7 +21,7 @@
 		<!-- Add inline text here to replace copy within current image asset -->
 	  _featuredDescription_
 	  <div class="item-1-img" style="_desktopSideImageStyles_">
-		<img src="<?=site_url()?>_desktopSideImage_" alt="holidays">
+		  <img src="<?=site_url()?>_desktopSideImage_" alt="image" style="_desktopSideImageStylesImg_">
 	  </div>
 	</div>
 

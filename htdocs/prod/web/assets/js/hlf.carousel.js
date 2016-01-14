@@ -37,7 +37,8 @@ var carousel = {
 							"_featuredDescription_" : item.slides[slide.order].featuredDescription,
 							"_link_" : item.slides[slide.order].link,
 							"_mobileSlideBackground_" : item.slides[slide.order].mobileSlideBackground,
-							"_desktopSideImageStyles_" : item.slides[slide.order].desktopSideImageStyles
+							"_desktopSideImageStyles_" : item.slides[slide.order].desktopSideImageStyles,
+              "_desktopSideImageStylesImg_" : item.slides[slide.order].desktopSideImageStylesImg
 						};
 						html = hlf.drawTemplate("#slide-feature", mapping);
 						$('.carousel-inner').append(html);

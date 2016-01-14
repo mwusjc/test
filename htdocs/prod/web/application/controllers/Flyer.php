@@ -5,7 +5,7 @@ class Flyer extends CI_Controller {
 
     public function index()
     {
-        $this->load->view("header");
+        $this->load->view("header", array('title' => "Highland Farms Flyer | Read. Download. Subscribe Online"));
         $this->load->view("flyer");
         $this->load->view("footer");
     }

@@ -1,4 +1,336 @@
 [
+  {
+    "startDate": "2016-01-15T03:00:00Z",
+    "slides": [
+      {
+        "order": 0,
+        "link": "#",
+        "featuredDescription": "",
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160113-carousel/home_carousel-1.jpg",
+        "desktopSideImage": "assets/images/20160113-carousel/healthy-eating-starts-here.png",
+        "desktopSideImageStyles": "left:-25px; padding: 10px 40px 120px 40px; position: absolute; top: -302px",
+        "desktopSideImageStylesImg": "height: 100%",
+        "desktopPriceImage": null,
+        "mobileSlideBackground": "assets/images/20160113-carousel/home_banner_mobile_1.jpg"
+      },
+      {
+        "order": 1,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Fresh Ontario<br>Pork Rib & Sirloin Chops",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-2.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-2.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_2.jpg"
+      },
+      {
+        "order": 2,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Fresh<br>Andy Boy Rapini<br>Product of U.S.A.",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-3.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-3.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_3.jpg"
+      },
+      {
+        "order": 3,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-4.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-4.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_4.jpg"
+      },
+      {
+        "order": 4,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-5.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-5.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_5.jpg"
+      },
+      {
+        "order": 5,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-6.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-6.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_6.jpg"
+      }
+    ]
+  },
+  {
+    "startDate": "2016-01-14T03:00:00Z",
+    "slides": [
+      {
+        "order": 0,
+        "link": "#",
+        "featuredDescription": "",
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160113-carousel/home_carousel-1.jpg",
+        "desktopSideImage": "assets/images/20160113-carousel/healthy-eating-starts-here.png",
+        "desktopSideImageStyles": "left:-25px; padding: 10px 40px 120px 40px; position: absolute; top: -302px",
+        "desktopSideImageStylesImg": "height: 100%",
+        "desktopPriceImage": null,
+        "mobileSlideBackground": "assets/images/20160113-carousel/home_banner_mobile_1.jpg"
+      },
+      {
+        "order": 1,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Fresh Beef<br>Sirloin Tip Roast<br>Product of Canada",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-2.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-2.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_2.jpg"
+      },
+      {
+        "order": 2,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Broccoli<br>Product of U.S.A.<br>Large Size",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-3.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-3.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_3.jpg"
+      },
+      {
+        "order": 3,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-4.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-4.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_4.jpg"
+      },
+      {
+        "order": 4,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-5.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-5.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_5.jpg"
+      },
+      {
+        "order": 5,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-6.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-6.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_6.jpg"
+      }
+    ]
+  },
+  {
+    "startDate": "2016-01-08T03:00:00Z",
+    "slides": [
+      {
+        "order": 0,
+        "link": "#",
+        "featuredDescription": "",
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-1.jpg",
+        "desktopSideImage": "assets/images/20160107-carousel/happy_healthy_new_year.png",
+        "desktopSideImageStyles": "left:-10px; padding: 10px 40px 120px 40px; position: absolute; top: -302px",
+        "desktopSideImageStylesImg": "height: 100%",
+        "desktopPriceImage": null,
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_1.jpg"
+      },
+      {
+        "order": 1,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Fresh Beef<br>Sirloin Tip Roast<br>Product of Canada",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-2.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-2.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_2.jpg"
+      },
+      {
+        "order": 2,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Broccoli<br>Product of U.S.A.<br>Large Size",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-3.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-3.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_3.jpg"
+      },
+      {
+        "order": 3,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-4.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-4.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_4.jpg"
+      },
+      {
+        "order": 4,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-5.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-5.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_5.jpg"
+      },
+      {
+        "order": 5,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-6.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-6.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_6.jpg"
+      }
+    ]
+  },
+  {
+    "startDate": "2016-01-07T03:00:00Z",
+    "slides": [
+      {
+        "order": 0,
+        "link": "#",
+        "featuredDescription": "",
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160106-carousel/home_carousel-1.jpg",
+        "desktopSideImage": "assets/images/20160106-carousel/happy_healthy_new_year.png",
+        "desktopSideImageStyles": "left:-10px; padding: 10px 40px 120px 40px; position: absolute; top: -302px",
+        "desktopSideImageStylesImg": "height: 100%",
+        "desktopPriceImage": null,
+        "mobileSlideBackground": "assets/images/20160106-carousel/home_banner_mobile_1.jpg"
+      },
+      {
+        "order": 1,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Fresh Ontario <br> Milk-Fed Veal Shoulder Blade",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-2.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160102-carousel/home_price-2.png",
+        "mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_2.jpg"
+      },
+      {
+        "order": 2,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Apples <br> Red or Golden Delicious <br> Fancy Grade",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-3.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160102-carousel/home_price-3.png",
+        "mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_3.jpg"
+      },
+      {
+        "order": 3,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-4.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160102-carousel/home_price-4.png",
+        "mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_4.jpg"
+      },
+      {
+        "order": 4,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-5.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160102-carousel/home_price-5.png",
+        "mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_5.jpg"
+      },
+      {
+        "order": 5,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-6.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160102-carousel/home_price-6.png",
+        "mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_6.jpg"
+      }
+    ]
+  },
 	{
 		"startDate": "2016-01-01T03:00:00Z",
 		"slides": [
@@ -11,6 +343,7 @@
 				"desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-1.jpg",
 				"desktopSideImage": "assets/images/20160102-carousel/home_float_left.png",
 				"desktopSideImageStyles": "left:-53px; padding: 10px 40px 120px 40px; position: absolute; top: -368px",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": null,
 				"mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_1.jpg"
 			},
@@ -23,6 +356,7 @@
 				"desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-2.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/20160102-carousel/home_price-2.png",
 				"mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_2.jpg"
 			},
@@ -35,6 +369,7 @@
 				"desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-3.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/20160102-carousel/home_price-3.png",
 				"mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_3.jpg"
 			},
@@ -47,6 +382,7 @@
 				"desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-4.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/20160102-carousel/home_price-4.png",
 				"mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_4.jpg"
 			},
@@ -59,6 +395,7 @@
 				"desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-5.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/20160102-carousel/home_price-5.png",
 				"mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_5.jpg"
 			},
@@ -71,6 +408,7 @@
 				"desktopSlideBackground": "assets/images/20160102-carousel/home_carousel-6.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/20160102-carousel/home_price-6.png",
 				"mobileSlideBackground": "assets/images/20160102-carousel/home_banner_mobile_6.jpg"
 			}
@@ -88,6 +426,7 @@
 				"desktopSlideBackground": "assets/images/20151223-carousel/home_carousel-1.jpg",
 				"desktopSideImage": "assets/images/20151223-carousel/home_float_left.png",
 				"desktopSideImageStyles": "left:-53px; padding: 10px 40px 120px 40px; position: absolute; top: -368px",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": null,
 				"mobileSlideBackground": "assets/images/20151223-carousel/home_banner_mobile_1.jpg"
 			},
@@ -100,6 +439,7 @@
 				"desktopSlideBackground": "assets/images/20151224-carousel/home_carousel-2.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/20151224-carousel/home_price-2.png",
 				"mobileSlideBackground": "assets/images/20151224-carousel/home_banner_mobile_2.jpg"
 			},
@@ -112,6 +452,7 @@
 				"desktopSlideBackground": "assets/images/20151224-carousel/home_carousel-3.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/20151224-carousel/home_price-3.png",
 				"mobileSlideBackground": "assets/images/20151224-carousel/home_banner_mobile_3.jpg"
 			},
@@ -136,6 +477,7 @@
 				"desktopSlideBackground": "assets/images/20151224-carousel/home_carousel-5.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/20151224-carousel/home_price-5.png",
 				"mobileSlideBackground": "assets/images/20151224-carousel/home_banner_mobile_5.jpg"
 			},
@@ -148,6 +490,7 @@
 				"desktopSlideBackground": "assets/images/20151224-carousel/home_carousel-6.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/20151224-carousel/home_price-6.png",
 				"mobileSlideBackground": "assets/images/20151224-carousel/home_banner_mobile_6.jpg"
 			}
@@ -165,6 +508,7 @@
 				"desktopSlideBackground": "assets/images/20151223-carousel/home_carousel-1.jpg",
 				"desktopSideImage": "assets/images/20151223-carousel/home_float_left.png",
 				"desktopSideImageStyles": "left:-53px; padding: 10px 40px 120px 40px; position: absolute; top: -368px",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": null,
 				"mobileSlideBackground": "assets/images/20151223-carousel/home_banner_mobile_1.jpg"
 			},
@@ -177,6 +521,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-2.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-2.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_2.jpg"
 			},
@@ -189,6 +534,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-3.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-3.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_3.jpg"
 			},
@@ -201,6 +547,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-4.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-4.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_4.jpg"
 			},
@@ -213,6 +560,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-5.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-5.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_5.jpg"
 			},
@@ -225,6 +573,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-6.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-6.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_6.jpg"
 			}
@@ -242,6 +591,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-1.jpg",
 				"desktopSideImage": "assets/images/home_float_left.png",
 				"desktopSideImageStyles": "left:-53px; padding: 10px 40px 120px 40px; position: absolute; top: -368px",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": null,
 				"mobileSlideBackground": "assets/images/home_banner_mobile_1.jpg"
 			},
@@ -254,6 +604,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-2.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-2.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_2.jpg"
 			},
@@ -266,6 +617,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-3.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-3.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_3.jpg"
 			},
@@ -278,6 +630,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-4.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-4.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_4.jpg"
 			},
@@ -290,6 +643,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-5.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-5.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_5.jpg"
 			},
@@ -302,6 +656,7 @@
 				"desktopSlideBackground": "assets/images/home_carousel-6.jpg",
 				"desktopSideImage": null,
 				"desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
 				"desktopPriceImage": "assets/images/home_price-6.png",
 				"mobileSlideBackground": "assets/images/home_banner_mobile_6.jpg"
 			}
