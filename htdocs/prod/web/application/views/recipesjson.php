@@ -37,7 +37,7 @@
 <script type="text/html" id="tpl-recipe-listing">
 	<div class="col-xs-6 col-sm-4 recipe">
 		<a href='<?=site_url()?>recipes/_SLUG_'>
-			<div class='img'><img data-original="<?=site_url()?>assets/_IMAGE_" alt='_TITLE_' class='lazy' /></div>
+			<div class='img'><img data-original="<?=site_url()?>assets/_THUMBNAIL_" alt='_TITLE_' class='lazy' /></div>
 			<div class="img_copy">_TITLE_</div>
 		</a>
 	</div>
