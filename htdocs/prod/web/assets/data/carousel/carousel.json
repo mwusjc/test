@@ -1,6 +1,6 @@
 [
   {
-    "startDate": "2016-01-09T03:00:00Z",
+    "startDate": "2016-01-15T04:00:00Z",
     "slides": [
       {
         "order": 0,
@@ -184,6 +184,172 @@
         "descriptionRightText": "Oasis Premium Orange,<br>Apple Juice, Health Break<br>Blends or Smoothies<br>Selected Varieties",
         "descriptionRightTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 58px; right: 250px; background: white; padding-left: 20px; padding-right: 20px; padding-top:10px; padding-bottom:10px",
         "descriptionRightTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 16px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 10px; right: 155px; background: white; padding-left: 10px; padding-right: 10px; padding-top:10px; padding-bottom:10px"
+      }
+    ]
+  },
+  {
+    "startDate": "2016-01-15T03:00:00Z",
+    "slides": [
+      {
+        "order": 0,
+        "link": "#",
+        "featuredDescription": "",
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160113-carousel/home_carousel-1.jpg",
+        "desktopSideImage": "assets/images/20160113-carousel/healthy-eating-starts-here.png",
+        "desktopSideImageStyles": "left:-25px; padding: 10px 40px 120px 40px; position: absolute; top: -302px",
+        "desktopSideImageStylesImg": "height: 100%",
+        "desktopPriceImage": null,
+        "mobileSlideBackground": "assets/images/20160113-carousel/home_banner_mobile_1.jpg"
+      },
+      {
+        "order": 1,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Fresh Ontario<br>Pork Rib & Sirloin Chops",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-2.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-2.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_2.jpg"
+      },
+      {
+        "order": 2,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Fresh<br>Andy Boy Rapini<br>Product of U.S.A.",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-3.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-3.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_3.jpg"
+      },
+      {
+        "order": 3,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-4.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-4.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_4.jpg"
+      },
+      {
+        "order": 4,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-5.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-5.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_5.jpg"
+      },
+      {
+        "order": 5,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160114-carousel/home_carousel-6.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160114-carousel/home_price-6.png",
+        "mobileSlideBackground": "assets/images/20160114-carousel/home_banner_mobile_6.jpg"
+      }
+    ]
+  },
+  {
+    "startDate": "2016-01-14T03:00:00Z",
+    "slides": [
+      {
+        "order": 0,
+        "link": "#",
+        "featuredDescription": "",
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160113-carousel/home_carousel-1.jpg",
+        "desktopSideImage": "assets/images/20160113-carousel/healthy-eating-starts-here.png",
+        "desktopSideImageStyles": "left:-25px; padding: 10px 40px 120px 40px; position: absolute; top: -302px",
+        "desktopSideImageStylesImg": "height: 100%",
+        "desktopPriceImage": null,
+        "mobileSlideBackground": "assets/images/20160113-carousel/home_banner_mobile_1.jpg"
+      },
+      {
+        "order": 1,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Fresh Beef<br>Sirloin Tip Roast<br>Product of Canada",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-2.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-2.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_2.jpg"
+      },
+      {
+        "order": 2,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": "Broccoli<br>Product of U.S.A.<br>Large Size",
+        "descriptionSubtext": "",
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-3.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-3.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_3.jpg"
+      },
+      {
+        "order": 3,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-4.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-4.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_4.jpg"
+      },
+      {
+        "order": 4,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-5.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-5.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_5.jpg"
+      },
+      {
+        "order": 5,
+        "link": "/flyer",
+        "featuredDescription": null,
+        "description": null,
+        "descriptionSubtext": null,
+        "desktopSlideBackground": "assets/images/20160107-carousel/home_carousel-6.jpg",
+        "desktopSideImage": null,
+        "desktopSideImageStyles": "",
+        "desktopSideImageStylesImg": "",
+        "desktopPriceImage": "assets/images/20160107-carousel/home_price-6.png",
+        "mobileSlideBackground": "assets/images/20160107-carousel/home_banner_mobile_6.jpg"
       }
     ]
   },

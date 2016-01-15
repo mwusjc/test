@@ -5,6 +5,31 @@
 			this.drawList(data);
 		},
 
+    getFeaturedRecipeHomepage: function(data) {
+
+      var currentDate = new Date();
+
+      // all the recipes in which the currentDate is greater than the recipe featuredStartTime.
+      var previousDates = data.filter(function(item) {
+        return currentDate >= new Date(item.featuredStartDate);
+      });
+
+      // sort the dates in ascending order
+      var sorted = previousDates.sort(function(a,b) {
+        return new Date(a.featuredStartDate).getTime() - new Date(b.featuredStartDate).getTime();
+      });
+
+      // the featured recipe is the last element of the array
+      var featuredRecipe = sorted.pop();
+
+      mapping = {
+        "_THUMBNAIL_" : featuredRecipe.thumbnail != null ? featuredRecipe.thumbnail : "images/home_recipes.jpg"
+      };
+      html = hlf.drawTemplate("#tpl-featured-recipe-thumb", mapping);
+      $('#homepage-recipe').append(html);
+
+    },
+
 		getFeaturedRecipe: function(data) {
 
 			var currentDate = new Date();
@@ -174,7 +199,7 @@
 			$('.recipes-container').html(' ');
 			$.each(data, function(key,item) {
 				mapping = {
-					"_IMAGE_" : item.image,
+					"_THUMBNAIL_" : item.thumbnail,
 					"_TITLE_" : item.title,
 					"_SLUG_" : item.slug
 				};
@@ -204,7 +229,7 @@
 		  $(container).html(' ');
 			$.each(data, function(key,item) {
 				mapping = {
-					"_IMAGE_" : item.image,
+					"_THUMBNAIL_" : item.thumbnail,
 					"_TITLE_" : item.title,
 					"_SLUG_" : item.slug
 				};

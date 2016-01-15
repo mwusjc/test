@@ -140,10 +140,9 @@
         height: auto;
     }
     .platter .image img{
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 135px;
         text-align: center;
-        height: 200px;
+        height: 135px;
     }
 
     #chooseFlyer .modal-dialog .col-sm-3 {
@@ -180,6 +179,14 @@
     }
 
     form input[type="text"], form input[type="email"] {
-      width: 97%; 
+      width: 97%;
+    }
+
+    .related-recipe-title {
+      text-align: center;
+    }
+
+    .recommended .img img {
+      width: auto;
     }
 }
