@@ -15,10 +15,10 @@
         "headingContainerMobileCSS": "position: absolute; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); text-align:left; left:13%; right:13%",
         "heading": "Healthy Eating<br>Starts Here",
         "headingCSS": "font-family: 'HelveticaNeueLT-Bold'; font-size: 50px; line-height: 1em; letter-spacing: -1px; color: #00A84E",
-        "headingMobileCSS": "font-family: 'HelveticaNeueLT-Bold'; color: #00A84E; font-size: 40px; line-height: 1em;",
+        "headingMobileCSS": "font-family: 'HelveticaNeueLT-Bold'; color: #00A84E; font-size: 36px; line-height: 1em;",
         "subheading": "Stock up on<br>nutritious options",
         "subheadingCSS": "font-family: 'SerifaBT-Light'; font-size: 30px; font-weight: 200; line-height: 1em; color: black",
-        "subheadingMobileCSS": "font-family: 'SerifaBT-Light'; font-size: 24px; line-height: 1em; font-weight: 200; color: black;",
+        "subheadingMobileCSS": "font-family: 'SerifaBT-Light'; font-size: 20px; line-height: 1em; font-weight: 200; color: black;",
         "imageOverlay": null,
         "imageOverlayCSS": null,
         "textOverlay": null,
@@ -161,7 +161,7 @@
         "descriptionLeftTextMobileCSS": null,
         "descriptionRightText": "Allen's<br>100% Pure Apple Juice",
         "descriptionRightTextCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 18px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 100px; right: 250px; background: white; padding-left: 20px; padding-right: 20px;padding-top:10px; padding-bottom:10px",
-        "descriptionRightTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 15px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 31px; right: 129px; background: white; padding: 10px 20px 20px 10px;"
+        "descriptionRightTextMobileCSS": "text-align: left; font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif; font-size: 15px; font-weight: initial; line-height: initial; position: absolute; display: inline-block; bottom: 32px; right: 129px; background: white; padding: 10px 20px 20px 10px;"
       },
       {
         "order": 5,
