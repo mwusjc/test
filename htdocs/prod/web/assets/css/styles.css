@@ -5566,7 +5566,7 @@ button.close {
   }
 
   .price-image {
-    width: 150px;
+    width: 140px;
   }
 
 }
@@ -7111,6 +7111,10 @@ h2{
   border-top:0;
   border-left:0;
   border-right:0;
+}
+
+.carousel-slide2, .carousel-slide3, .carousel-slide4, .carousel-slide5, .carousel-slide6 {
+  border-bottom: 8.75px solid white;
 }
 /* Firefox only */
 @-moz-document url-prefix() {

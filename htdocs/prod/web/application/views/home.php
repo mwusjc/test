@@ -21,7 +21,7 @@
 <script type="text/html" id="slide-template">
   <a href="_link_" class="item _active_">
 
-    <div class="desktop _slideID_" style="background: url(_desktopSlideBackground_) no-repeat center center; background-size: cover; height: 375px; ">
+    <div class="desktop _slideID_" style="background: url(_desktopSlideBackground_) no-repeat center center; background-size: _backgroundSize_; height: 375px">
 
           <div class="container" style="_containerCSS_">
 
@@ -54,14 +54,20 @@
 
     </div> <!-- end desktop -->
 
-    <div class="mobile _slideID_" style="background: url(_mobileSlideBackground_) no-repeat center center; background-size: cover; height: 375px;">
+    <div class="mobile _slideID_">
+
+          <img class="mobile" src="_mobileSlideBackground_" style="max-width: 100%; min-width: 100%">
+
+          <p class="heading-container" style="_headingContainerMobileCSS_">
+            <span class="heading-text" style="_headingMobileCSS_">_heading_</span> <br>
+            <span class="subheading-text" style="_subheadingMobileCSS_">_subheading_</span>
+          </p>
+
+          <img class="badge1" src="_badge1_" alt="badge" style="_badge1MobileCSS_">
+
+          <img class="badge2" src="_badge2_" alt="badge" style="_badge2MobileCSS_">
 
           <div class="container" style="_containerCSS_">
-
-              <p class="heading-container" style="_headingContainerCSS_">
-                <span class="heading-text" style="_headingMobileCSS_">_heading_</span> <br>
-                <span class="subheading-text" style="_subheadingMobileCSS_">_subheading_</span>
-              </p>
 
               <img class="carousel-image-overlay" src="_imageOverlay_" alt="image" style="_imageOverlayCSS_">
 
@@ -70,10 +76,6 @@
               </p>
 
               <img class="price-image" src="_priceImage_" alt="price" style="_priceImageCSS_">
-
-              <img class="badge1" src="_badge1_" alt="badge" style="_badge1CSS_">
-
-              <img class="badge2" src="_badge2_" alt="badge" style="_badge2CSS_">
 
               <div class="carousel-description-left" style="_descriptionLeftTextMobileCSS_">
                 _descriptionLeftText_
