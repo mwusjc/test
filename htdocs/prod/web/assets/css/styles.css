@@ -5565,10 +5565,6 @@ button.close {
     bottom: -7px !important;
   }
 
-  .price-image {
-    width: 140px;
-  }
-
 }
 /* End copy overlay on homepage carousel image */
 
@@ -7086,6 +7082,12 @@ h2{
     background: #DFF0D8;
 }
 
+.container-carousel {
+  height:100%;
+  position: relative;
+  max-width: 930px;
+}
+
 /* Safari only */
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media
 {
@@ -7116,6 +7118,42 @@ h2{
 .carousel-slide2, .carousel-slide3, .carousel-slide4, .carousel-slide5, .carousel-slide6 {
   border-bottom: 8.75px solid white;
 }
+
+span.heading-text {
+  font-family: 'HelveticaNeueLT-Bold';
+}
+
+span.subheading-text {
+  font-family: 'SerifaBT-Light';
+}
+
+.price-image {
+  float:right;
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.badge1, .badge2 {
+  float:right;
+  position: absolute;
+}
+
+.carousel-description-left, .carousel-description-right {
+  text-align: left;
+  font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif;
+  font-weight: initial;
+  line-height: initial;
+  position: absolute;
+  display: inline-block;
+}
+
+.carousel-description-right {
+  background: white;
+  padding: 10px 20px 20px 10px;
+}
+
 /* Firefox only */
 @-moz-document url-prefix() {
   #upload-resume-file {
