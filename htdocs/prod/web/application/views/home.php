@@ -1,61 +1,97 @@
 <div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="6000" >
-	<ol class="carousel-indicators">
-	</ol>
-	<div class="carousel-inner" role="listbox">
-	</div>
-	<a class="left carousel-control" href="#carousel" role="button" data-slide="prev" onclick="$('#carousel').carousel('pause');">
-	  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	  <span class="sr-only">Previous</span>
-	</a>
-	<a class="right carousel-control" href="#carousel" role="button" data-slide="next" onclick="$('#carousel').carousel('pause');">
-	  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	  <span class="sr-only">Next</span>
-	</a>
+    <ol class="carousel-indicators">
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+    </div> <!-- end carousel-inner -->
+
+
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev" onclick="$('#carousel').carousel('pause');">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next" onclick="$('#carousel').carousel('pause');">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
 </div>
 
 </header>
 
-<script type="text/html" id="slide-feature">
-  <a href="_link_"  class="item active responsive">
-	<div class="carousel-item-container desktop col-xs-12">
-		<!-- Add inline text here to replace copy within current image asset -->
-	  _featuredDescription_
-	  <div class="item-1-img" style="_desktopSideImageStyles_">
-		  <img src="<?=site_url()?>_desktopSideImage_" alt="image" style="_desktopSideImageStylesImg_">
-	  </div>
-	</div>
+<script type="text/html" id="slide-template">
+  <a href="_link_" class="item _active_">
 
-	<div class="desktop item-1-slide" style="background-image: url('_desktopSlideBackground_');"></div>
+    <div class="desktop _slideID_" style="background: url(_desktopSlideBackground_) no-repeat center center; background-size: _backgroundSize_; height: 375px">
 
-	<img class="mobile" src="<?=site_url()?>_mobileSlideBackground_">
-  </a>
+          <div class="container" style="_containerCSS_">
+
+              <p class="heading-container" style="_headingContainerCSS_">
+                <span class="heading-text" style="_headingCSS_">_heading_</span> <br>
+                <span class="subheading-text" style="_subheadingCSS_">_subheading_</span>
+              </p>
+
+              <img class="carousel-image-overlay" src="_imageOverlay_" alt="image" style="_imageOverlayCSS_">
+
+              <p class="carousel-text-overlay" style="_textOverlayCSS_">
+              _textOverlay_
+              </p>
+
+              <img class="price-image" src="_priceImage_" alt="price" style="_priceImageCSS_">
+
+              <img class="badge1" src="_badge1_" alt="badge" style="_badge1CSS_">
+
+              <img class="badge2" src="_badge2_" alt="badge" style="_badge2CSS_">
+
+              <div class="carousel-description-left" style="_descriptionLeftTextCSS_">
+                _descriptionLeftText_
+              </div>
+
+              <div class="carousel-description-right" style="_descriptionRightTextCSS_">
+                _descriptionRightText_
+              </div>
+
+          </div> <!-- end container -->
+
+    </div> <!-- end desktop -->
+
+    <div class="mobile _slideID_">
+
+          <img class="mobile" src="_mobileSlideBackground_" style="max-width: 100%; min-width: 100%">
+
+          <p class="heading-container" style="_headingContainerMobileCSS_">
+            <span class="heading-text" style="_headingMobileCSS_">_heading_</span> <br>
+            <span class="subheading-text" style="_subheadingMobileCSS_">_subheading_</span>
+          </p>
+
+          <img class="badge1" src="_badge1_" alt="badge" style="_badge1MobileCSS_">
+
+          <img class="badge2" src="_badge2_" alt="badge" style="_badge2MobileCSS_">
+
+          <div class="container" style="_containerCSS_">
+
+              <img class="carousel-image-overlay" src="_imageOverlay_" alt="image" style="_imageOverlayCSS_">
+
+              <p class="carousel-text-overlay" style="_textOverlayCSS_">
+              _textOverlay_
+              </p>
+
+              <img class="price-image" src="_priceImage_" alt="price" style="_priceImageCSS_">
+
+              <div class="carousel-description-left" style="_descriptionLeftTextMobileCSS_">
+                _descriptionLeftText_
+              </div>
+
+              <div class="carousel-description-right" style="_descriptionRightTextMobileCSS_">
+                _descriptionRightText_
+              </div>
+
+          </div> <!-- end container -->
+
+    </div> <!-- end mobile -->
+
+  </a> <!-- end item -->
 </script>
 
-<script type="text/html" id="slide-dow-inline">
-	<a  href="_link_" class="item responsive">
-	  <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-	  <div class="row dow-product-desc-container">
-		<p class="pull-left desktop dow-product-desc">_description_<h5 class="dow-product-details">_descriptionSubtext_</h5></p>
-		</div>
-		  <img class="desktop" src="<?=site_url()?>_desktopPriceImage_">
-		</div>
-
-		<img class="desktop" src="<?=site_url()?>_desktopSlideBackground_">
-		<img class="mobile" src="<?=site_url()?>_mobileSlideBackground_">
-	</a>
-</script>
-
-<script type="text/html" id="slide-dow">
-	<a href="_link_" class="item responsive">
-	<div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-		<img class="desktop" src="<?=site_url()?>_desktopPriceImage_">
-	</div>
-
-	<img class="desktop" src="<?=site_url()?>_desktopSlideBackground_">
-	<img class="mobile" src="<?=site_url()?>_mobileSlideBackground_">
-
-  </a>
-</script>
 
 <main class='home'>
 	<div class="row home-categories">
@@ -122,5 +158,3 @@
   });
 
 </script>
-
-

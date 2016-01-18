@@ -5042,7 +5042,7 @@ button.list-group-item-danger {
   color: #000;
   text-shadow: 0 1px 0 #fff;
   opacity: 0.2;
-  filter: alpha(opacity=20); 
+  filter: alpha(opacity=20);
   right: 10px !important;
 }
   .close:hover, .close:focus {
@@ -5564,6 +5564,11 @@ button.close {
   .carousel-indicators {
     bottom: -7px !important;
   }
+
+  .price-image {
+    width: 140px;
+  }
+
 }
 /* End copy overlay on homepage carousel image */
 
@@ -7096,6 +7101,21 @@ h2{
 	}
 }}
 
+.carousel-slide1 {
+  -moz-border-image: url('../images/burlap.png') 0 0 10 repeat;
+  -webkit-border-image: url('../images/burlap.png') 0 0 10 repeat;
+  -o-border-image: url('../images/burlap.png') 0 0 10 repeat;
+  border-image: url('../images/burlap.png') 0 0 10 repeat;
+  border-width: 0px 0px 10px;
+  border-style:solid;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+}
+
+.carousel-slide2, .carousel-slide3, .carousel-slide4, .carousel-slide5, .carousel-slide6 {
+  border-bottom: 8.75px solid white;
+}
 /* Firefox only */
 @-moz-document url-prefix() {
   #upload-resume-file {
