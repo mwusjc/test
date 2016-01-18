@@ -79,14 +79,14 @@ var carousel = {
             $('.item').addClass('active');
           }
 
-          i++;
-
           // add carousel dots dynamically
           if (i === 0) {
             $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + i + '" class="active" style="margin-left: 4px"></li>');
           } else {
             $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + i + '" style="margin-left: 4px"></li>');
           }
+
+          i++;
         });
 
         // do not continue iterating through list
