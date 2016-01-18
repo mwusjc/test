@@ -19,11 +19,11 @@
 </header>
 
 <script type="text/html" id="slide-template">
-  <a href="_link_" class="item _active_">
+  <a href="_link_" class="item">
 
     <div class="desktop _slideID_" style="background: url(_desktopSlideBackground_) no-repeat center center; background-size: _backgroundSize_; height: 375px">
 
-          <div class="container" style="_containerCSS_">
+          <div class="container container-carousel" style="_containerCSS_">
 
               <p class="heading-container" style="_headingContainerCSS_">
                 <span class="heading-text" style="_headingCSS_">_heading_</span> <br>
@@ -36,7 +36,7 @@
               _textOverlay_
               </p>
 
-              <img class="price-image" src="_priceImage_" alt="price" style="_priceImageCSS_">
+              <img class="price-image" src="_priceImage_" alt="price">
 
               <img class="badge1" src="_badge1_" alt="badge" style="_badge1CSS_">
 
@@ -67,7 +67,7 @@
 
           <img class="badge2" src="_badge2_" alt="badge" style="_badge2MobileCSS_">
 
-          <div class="container" style="_containerCSS_">
+          <div class="container container-carousel" style="_containerCSS_">
 
               <img class="carousel-image-overlay" src="_imageOverlay_" alt="image" style="_imageOverlayCSS_">
 
@@ -75,7 +75,7 @@
               _textOverlay_
               </p>
 
-              <img class="price-image" src="_priceImage_" alt="price" style="_priceImageCSS_">
+              <img class="price-image" src="_priceImage_" alt="price">
 
               <div class="carousel-description-left" style="_descriptionLeftTextMobileCSS_">
                 _descriptionLeftText_

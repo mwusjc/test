@@ -189,4 +189,8 @@
     .recommended .img img {
       width: auto;
     }
+
+    .price-image {
+      width: 140px;
+    }
 }
