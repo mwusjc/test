@@ -1,4 +1,4 @@
-<div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="60000" >
+<div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="6000" >
     <ol class="carousel-indicators">
     </ol>
 
