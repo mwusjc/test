@@ -132,57 +132,11 @@ $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to
             $('.inside-store-container').on("click", 'span.close', function() {
                 $('#details').slideUp();
                 $('.inside-store-item-container').css('opacity',1);
-                //Check if a fragment identifier exists on section close and remove it from the URL if present
-                if(document.URL.substr(document.URL.indexOf('#') > 0)) {
-                    var resetURL = document.URL.substr(0, document.URL.indexOf('#'));
-                    window.location = resetURL;
-                }
             });
         }
     }
         
     jQuery(document).ready(function() { 
-        //Check if fragment exists in URL
-        if(window.location.hash) {
-            //If a fragment exists, store it in a variable
-            var fragment = window.location.hash;
-            //Find matching DOM element to current fragment (without the preceding hash that is returned from using window.location.hash)
-            // var fragmentElement = $("#details[data-category-name='" + fragment.substr(1) + "']");
-            // console.log(fragmentElement);
-
-            //NEED TO SPEAK WITH TROY REGARDING THIS PAGE, DATA-DRIVEN DOM IS A BLOCK HERE
-
-            //If matching fragment is found in DOM, render the specified category as expanded on page load
-            if(fragmentElement !== null) {
-                if(fragmentElement.hasClass("top-slide")) { 
-                    console.log("top-slide class is present");
-                }
-                else {
-                    console.log("top-slide class does not exist");
-                }
-            }
-            else {
-                //Do nothing if fragment returns null
-            }
-        }
-        else {
-            //Do nothing if no page fragment identifier exists in URL
-        }
-
         hlf.istore.init(hlf.data.istore);
-
-        $(".inside-store-container").click(function(e){
-            //Check if details slide area is visible on page (using jQuery object here, :visible is not part of native CSS spec)
-            var numDetails = $(".inside-store-container > #details:visible").length;
-            if (numDetails > 0){
-            //Use HTML5 History API to change page state based on current fragment identifier
-                var data = $(".inside-store-container > #details:visible").attr("data-category-name"),
-                    url = "#" + encodeURIComponent(data).toLowerCase();
-                    history.replaceState(url, null, url);
-            }
-            else{
-              //Do nothing if no category area has been selected
-            }
-        });
     });
 </script>

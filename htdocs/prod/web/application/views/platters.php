@@ -116,20 +116,6 @@
     
     jQuery(document).ready(function($) {
         hlf.platters.init(hlf.data.platters);
-
-        $(".platters-container .platter").click(function(e){
-            //Check if product modal is visible on page (using jQuery object here, :visible is not part of native CSS spec)
-            var numDetails = $("#myModal").length;
-            if (numDetails > 0){
-                //Use HTML5 History API to change page state based on current fragment identifier
-                var data = e.currentTarget.getAttribute("data-platter-name"),
-                    url = "#" + encodeURIComponent(data).toLowerCase();
-                    history.replaceState(url, null, url);
-            }
-            else{
-              //Do nothing if no product has been selected
-            }
-        });
     });
        
           
@@ -171,7 +157,6 @@
                 "{SUBTITLE}": (item.Subtitle ? item.Subtitle : ''), 
                 "{DESCRIPTION}": item.Description, 
                 "{ID}": item.id,
-                //"{PRICE}": "$" + item.Price,
                 "{PRICE}": (item.Price ? "$" + item.Price : ''),
                 "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
                 "{PRICE3}": (item.Price3 ? "$" + item.Price3 : '')
@@ -187,15 +172,6 @@
             $(document).on('click', '[data-toggle-details]', function(e) {
                 e.preventDefault();
                 that.togglePopup( $(this).data("toggle-details") ); 
-            });
-
-            //Listen on body element for close event as modal is not accessible on initial page load
-            $('body').on("click", 'span.close', function() {
-                //Check if a fragment identifier exists on section close and remove it from the URL if present
-                if(document.URL.substr(document.URL.indexOf('#') > 0)) {
-                    var resetURL = document.URL.substr(0, document.URL.indexOf('#'));
-                    window.location = resetURL;
-                }
             });
             
             $('body').on("click", '[data-add-cart]', function(e) {
