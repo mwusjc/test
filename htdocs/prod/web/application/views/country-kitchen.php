@@ -23,13 +23,13 @@
     <div class='row'>
 
         <div class='col-sm-6'>
-            <div class="ck-item" data-id="1" data-slidedown='.ck-products[data-id="1"]'>
+            <div class="ck-item" data-id="1" data-slidedown='.ck-products[data-id="1"]' data-category-name='frozen-entrees'>
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_frozen.png')?>" alt="Frozen Entr&eacute;es"/></div>
                 <h2 class="box bottom">Frozen Entrées</h2>  
             </div>
         </div>
         <div class='col-sm-6'>
-            <div class="ck-item" data-id="2" data-slidedown='.ck-products[data-id="2"]'>                
+            <div class="ck-item" data-id="2" data-slidedown='.ck-products[data-id="2"]' data-category-name='breads'>                
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_bread.png')?>" alt="Bread &amp; Artisan Breads"/></div>
                 <h2 class="box bottom">Bread & Artisan Breads</h2>
             </div>
@@ -38,7 +38,7 @@
     </div>
     <div class='row'>
         <div class='col-sm-12 ck-details'>
-            <div class='ck-products' data-id='1'>
+            <div class='ck-products bottom-slide' data-id='1' data-category-name='frozen-entrees'>
                 <h1>Frozen Entrées</h1>
                 <h2>Made from the freshest and finest ingredients, our selection of entrées is an easy way to serve your family's favourites.</h2>
                  <div class='row'>
@@ -59,7 +59,7 @@
     </div>
     <div class='row'>
         <div class='col-sm-12 ck-details'>
-            <div class='ck-products' data-id='2'>
+            <div class='ck-products bottom-slide' data-id='2' data-category-name='breads'>
                 <h1>Bread & Artisan Breads</h1>
                 <h2>Our hearty and wholesome breads are freshly baked with natural, quality ingredients.</h2>
                 <div class='row'>
@@ -83,13 +83,13 @@
 
     <div class='row'>
         <div class='col-sm-6'>
-            <div class="ck-item" data-id="3" data-slidedown='.ck-products[data-id="3"]'>  
+            <div class="ck-item" data-id="3" data-slidedown='.ck-products[data-id="3"]' data-category-name='all-natural-sauces'>  
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_sauces.png')?>" alt="All Natural Sauces"/></div>
                 <h2 class="box bottom">All Natural Sauces</h2>
             </div>
         </div>
         <div class='col-sm-6'>
-            <div class="ck-item" data-id="4" data-slidedown='.ck-products[data-id="4"]'>            
+            <div class="ck-item" data-id="4" data-slidedown='.ck-products[data-id="4"]' data-category-name='sweet-savoury-snacks'>            
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_snacks.png')?>" alt="Sweet &amp; Savoury Snacks"/></div>
                 <h2 class="box bottom">Sweet & Savoury Snacks</h2>
             </div>
@@ -98,7 +98,7 @@
 
     <div class='row'>
         <div class='col-sm-12 ck-details'>
-            <div class='ck-products' data-id='3' >
+            <div class='ck-products bottom-slide' data-id='3' data-category-name='all-natural-sauces'>
                 <h1>All Natural Sauces</h1>
                 <h2>Enhance the flavour of your dishes with our flavourful sauces, seasoned to perfection.</h2>
                 <div class='row'>
@@ -119,7 +119,7 @@
     </div>
     <div class='row'>
         <div class='col-sm-12 ck-details'>
-            <div class='ck-products' data-id='4'>
+            <div class='ck-products bottom-slide' data-id='4' data-category-name='sweet-savoury-snacks'>
                 <h1>Sweet & Savoury Snacks</h1>
                 <h2>Satisfy your cravings with an array of nuts and dried fruit.</h2>
                 <div class='row'>
@@ -145,13 +145,13 @@
     <div class='row'>
 
         <div class='col-sm-6'>
-            <div class="ck-item" data-id="5" data-slidedown='.ck-products[data-id="5"]'>            
+            <div class="ck-item" data-id="5" data-slidedown='.ck-products[data-id="5"]' data-category-name='baked-goods'>            
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_baked-goods.png')?>" alt="Baked Goods"/></div>
                 <h2 class="box bottom">Baked Goods</h2>
             </div>
         </div>
         <div class='col-sm-6'>                                                
-            <div class="ck-item" data-id="6" data-slidedown='.ck-products[data-id="6"]'>              
+            <div class="ck-item" data-id="6" data-slidedown='.ck-products[data-id="6"]' data-category-name='prepped-ready-meals'>              
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_readymeals.png')?>" alt="Prepped &amp; Ready Meals"/></div>
                 <h2 class="box bottom">Prepped & Ready Meals</h2>
             </div>
@@ -160,7 +160,7 @@
 
     <div class='row'>
         <div class='col-sm-12 ck-details'>
-            <div class='ck-products' data-id='5' >
+            <div class='ck-products bottom-slide' data-id='5' data-category-name='baked-goods'>
                 <h1>Baked Goods</h1>
                 <h2>Freshly made and ready to be devoured, we have something for every sweet tooth.</h2>
                 <div class='row'>
@@ -181,7 +181,7 @@
     </div>
     <div class='row'>
         <div class='col-sm-12 ck-details'>
-            <div class='ck-products' data-id='6'>
+            <div class='ck-products bottom-slide' data-id='6' data-category-name='prepped-ready-meals'>
                 <h1>Prepped & Ready Meals</h1>
                 <h2>Our chefs have prepped the freshest ingredients of your favourite dishes. Everything's ready to be enjoyed in minutes.</h2>
                 <div class='row'>
@@ -279,6 +279,11 @@
             $('[data-slideup]').on("click", function() {
                 var obj = $(this)[0].getAttribute("data-slideup"); 
                 $(obj).slideUp();
+                //Check if a fragment identifier exists on section close and remove it from the URL if present
+                if(document.URL.substr(document.URL.indexOf('#') > 0)) {
+                    var resetURL = document.URL.substr(0, document.URL.indexOf('#'));
+                    window.location = resetURL;
+                }
             });
             
             $('body').on("click", '[data-add-cart]', function(e) {
@@ -296,7 +301,41 @@
     };
 
     jQuery(document).ready(function($) {
+        //Check if fragment exists in URL
+        if(window.location.hash) {
+            //If a fragment exists, store it in a variable
+            var fragment = window.location.hash;
+            //Find matching DOM element to current fragment (without the preceding hash that is returned from using window.location.hash)
+            var fragmentElement = $(".ck-products[data-category-name='" + fragment.substr(1) + "']");
+            //If matching fragment is found in DOM, render the specified category as expanded on page load
+            if(fragmentElement !== null) {
+                if(fragmentElement.hasClass("bottom-slide")) { 
+                    $(fragmentElement).slideDown(); 
+                }
+            }
+            else {
+                //Do nothing if fragment returns null
+            }
+        }
+        else {
+            //Do nothing if no page fragment identifier exists in URL
+        }
+
         hlf.countrykitchen.init();
+
+        $(".ck-item, .ck-products").click(function(e){
+            //Check if details slide-down is visible on page (using jQuery object here, :visible is not part of native CSS spec)
+            var numDetails = $(".ck-products:visible").length;
+            if (numDetails > 0){
+                //Use HTML5 History API to change page state based on current fragment identifier
+                var data = e.currentTarget.getAttribute("data-category-name"),
+                    url = "#" + data;
+                    history.replaceState(url, null, url);
+            }
+            else{
+              //Do nothing if no category area has been selected
+            }
+        });
     });
 
 </script>

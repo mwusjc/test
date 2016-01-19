@@ -81,7 +81,7 @@
 </main>
 
 <script type="text/html" id="tpl-platter-listing">
-    <div class="col-xs-6 col-sm-4 platter"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
+    <div class="col-xs-6 col-sm-4 platter" data-platter-name="_TITLE_"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
         <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" alt='_TITLE_' class='lazy' /></div>
         <div class="img_copy">_TITLE_</div>
         </a>
@@ -116,7 +116,7 @@
     
     jQuery(document).ready(function($) {
         hlf.platters.init(hlf.data.platters);
-    })
+    });
        
           
     hlf.platters = {
@@ -157,7 +157,6 @@
                 "{SUBTITLE}": (item.Subtitle ? item.Subtitle : ''), 
                 "{DESCRIPTION}": item.Description, 
                 "{ID}": item.id,
-                //"{PRICE}": "$" + item.Price,
                 "{PRICE}": (item.Price ? "$" + item.Price : ''),
                 "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
                 "{PRICE3}": (item.Price3 ? "$" + item.Price3 : '')
@@ -173,16 +172,6 @@
             $(document).on('click', '[data-toggle-details]', function(e) {
                 e.preventDefault();
                 that.togglePopup( $(this).data("toggle-details") ); 
-            });
-
-            $('[data-slidedown]').on("click", function() {
-                var obj = $(this).data("slidedown"); 
-                $('.ck-products').slideUp();
-                $(obj).slideDown(); 
-            });
-            $('[data-slideup]').on("click", function() {
-                var obj = $(this).data("slideup"); 
-                $(obj).slideUp();
             });
             
             $('body').on("click", '[data-add-cart]', function(e) {

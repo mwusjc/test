@@ -88,7 +88,7 @@ var fl = {
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
-				html += "<a href='#' data-target='#"+type+"productPopup"+j+"_"+i+"' class='imageMap' data-toggle='modal' style='left:"+prod.coords[0]+"px;top:"+prod.coords[1]+"px;width:"+prod.coords[2]+"px;height:"+prod.coords[3]+"px;' id='productImageMap"+j+"_"+i+"'></a>";
+				html += "<a href='#' data-target='#"+type+"productPopup"+j+"_"+i+"' data-item-name='" + prod.name + "' class='imageMap' data-toggle='modal' style='left:"+prod.coords[0]+"px;top:"+prod.coords[1]+"px;width:"+prod.coords[2]+"px;height:"+prod.coords[3]+"px;' id='productImageMap"+j+"_"+i+"'></a>";
 			}
 			if (type=="desktop"){
 				$(".desktop.flyer .item .flyerWrap")[j].innerHTML += html;
@@ -109,7 +109,7 @@ var fl = {
 				html += 	"<div class='modal fade out "+type+" productPopup' id='"+type+"productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
 				html += 	'	<div class="modal-dialog" role="document">'
 				html += 	'		<div class="modal-content">'
-				html += 	'			<div class="modal-body" data-category="'+ prod.category +'" >'
+				html += 	'			<div class="modal-body" data-category="'+ prod.category +'" data-item-name="' + prod.name + '">'
 				html += 	'				<div class="row">'
 				html += 	'					<div class="col-xs-12 col-sm-6 text-center">'
 				//Pull in current week as folder name for Flyers

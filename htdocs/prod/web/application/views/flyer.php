@@ -131,6 +131,6 @@
           $(".productPopup").modal("hide");
         }
       });
-      });
+    });
 
 </script>
