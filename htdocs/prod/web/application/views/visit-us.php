@@ -1,37 +1,16 @@
-<?php
-if(isset($_POST['submit'])) {
-    $to = "customerservice@highlandfarms.on.ca";
-    $from = $_POST['email'];
-    $first = $_POST['first'];
-    $last = $_POST['last'];
-    $phone = $_POST['phone'];
-    $message = $_POST['message'];
-
-    $email = "From: $first $last<br/>
-                    Email: $from<br/>
-                    Phone: $phone<br/>
-                    Message: " . nl2br($message)
-    ;
-
-    send_ses_email($to, "VISIT US: Submission", $email);
-    ?>
-    <script type='text/javascript'>
-        $(function() {
-            $('body').append($("#tpl-product-modal").html());
-            $('#detailModal').modal('show');
-        });
-    </script>
-    <?php
-}
-?>
   </header>
 <main>
+    <div class="row">
+        <div class='col-sm-12 text-danger'>
+            <?php echo validation_errors(); ?>
+        </div>
+    </div>
 <div class="row">
   <div class="col-xs-12 col-sm-3">
     <h2>Scarborough</h2>
     <p>850 Ellesmere Road </br/>
       Scarborough, ON, M1P 2W5 </br/>
-      <a href="https://www.google.ca/maps/dir//830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4/@43.7651696,-79.2837722,17z/data=!4m13!1m4!3m3!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2s830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4!3b1!4m7!1m0!1m5!1m1!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2m2!1d-79.2837722!2d43.7651696" target="_blank" class="green">Get Directions</a></p>
+      <a href="https://www.google.ca/maps/dir//830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4/@43.7651696,-79.2837722,17z/data=!4m13!1m4!3m3!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2s830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4!3b1!4m7!1m0!1m5!1m1!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2m2!1d-79.2837722!2d43.7651696" target="_blank" class="scarborough direction green">Get Directions</a></p>
     <p><strong>Store Hours</strong> </br/>
     Mon-Sat: 7:00AM-10:00PM </br/>
     Sun: 8:00AM-8:00PM</p>
@@ -40,7 +19,7 @@ if(isset($_POST['submit'])) {
     <h2 style="margin-top: 50px;">Mississauga</h2>
     <p>50 Matheson Blvd. East </br/>
     Mississauga, ON, L4Z 1N5 </br/>
-    <a href="https://www.google.ca/maps/dir/Highland+Farms,+Matheson+Boulevard+East,+Mississauga,+ON//@43.6180221,-79.6594865,15z/data=!4m8!4m7!1m5!1m1!1s0x882b40a400000000:0x9671955aa8a955ae!2m2!1d-79.670644!2d43.620964!1m0" target="_blank" class="green">Get Directions</a></p>
+    <a href="https://www.google.ca/maps/dir/Highland+Farms,+Matheson+Boulevard+East,+Mississauga,+ON//@43.6180221,-79.6594865,15z/data=!4m8!4m7!1m5!1m1!1s0x882b40a400000000:0x9671955aa8a955ae!2m2!1d-79.670644!2d43.620964!1m0" target="_blank" class="mississauga direction green">Get Directions</a></p>
 
     <p><strong>Store Hours</strong> </br/>
     Mon-Sat: 7:00AM-10:00PM </br/>
@@ -66,21 +45,27 @@ Or have a fresh idea that could make your Highland Farms experience even more en
   <div class="col-xs-12 col-sm-1">
   </div>
   <div class="col-xs-12 col-sm-8">
+  	<div class="required-fields">* Required Fields</div>
     <form method="post" action="" id="form">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="first" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="First Name" placeholder="First Name"/></div>
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field">
+        	<input name="first" class="visit-us-half-width" type="text" value="<?php echo set_value('first'); ?>" aria-required="true" aria-label="First Name" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/>
+        </div>
+      	<div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="<?php echo set_value('last'); ?>" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
       </div>
+
       <div class="row">
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="Email" placeholder="Email"/></div>
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" class="visit-us-half-width" type="text" value="" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" class="visit-us-half-width" type="email" value="<?php echo set_value('email'); ?>" aria-required="true" aria-label="Email" placeholder="Email*" required/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" class="visit-us-half-width" type="text" value="<?php echo set_value('phone'); ?>" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
       </div>
+
       <div class="row">
-        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="" aria-required="false" aria-label="Your Message" placeholder="Your Message"></textarea></div>
+        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="<?php echo set_value('message'); ?>" aria-required="true" aria-label="Your Message" placeholder="Your Message*" title="Message should not be left blank." x-moz-errormessage="Message should not be left blank." required></textarea></div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 visit-us-form-field"><input name="submit" type="submit" aria-label="Submit" value="Submit" class="green" /></div>
       </div>
+      <span class="error" id="form-status"></span>
     </form>
   </div>
 </div>

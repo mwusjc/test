@@ -1,138 +1,160 @@
 <div id="carousel" class="carousel slide home" data-ride="carousel" data-interval="6000" >
     <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
     </ol>
+
     <div class="carousel-inner" role="listbox">
-        <a href="#"  class="item active responsive">
-            <!-- Add inline text here to replace copy within current image asset -->
-            <div class="carousel-item-container desktop col-xs-12">
-                <div class="item-1-img">
-                    <img src="<?=site_url()?>/assets/images/home_float_left.png" alt="holidays">
-                </div>
-            </div>
-
-            <div class="desktop item-1-slide"></div>
+    </div> <!-- end carousel-inner -->
 
 
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_1.jpg">
-
-        </a>
-        <a  href="/flyer"class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc">Grade A Butterball Frozen Turkeys<br/>All Sizes<br/><h5 class="dow-product-details">Limit of 1 per family</h5></p>
-                </div>
-                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-2.png">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-2.jpg">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_2.jpg">
-        </a>
-        <a href="/flyer" class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <div class="row dow-product-desc-container">
-                    <p class="pull-left desktop dow-product-desc">Fresh Clementines<br/>Product of Morocco</p>
-                </div>
-                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-3.png">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-3.jpg">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_3.jpg">
-
-        </a>
-        <a href="/flyer" class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-4.png">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-4.jpg">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_4.jpg">
-
-        </a>
-        <a href="/flyer" class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-5.png">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-5.jpg">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_5.jpg">
-
-        </a>
-        <a href="/flyer" class="item responsive">
-            <div class="carousel-item-container desktop col-xs-12 home-carousel-caption">
-                <img class="desktop" src="<?=site_url()?>/assets/images/home_price-6.png">
-            </div>
-
-            <img class="desktop" src="<?=site_url()?>/assets/images/home_carousel-6.jpg">
-            <img class="mobile" src="<?=site_url()?>/assets/images/home_banner_mobile_6.jpg">
-        </a>
-    </div>
     <a class="left carousel-control" href="#carousel" role="button" data-slide="prev" onclick="$('#carousel').carousel('pause');">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#carousel" role="button" data-slide="next" onclick="$('#carousel').carousel('pause');">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
     </a>
 </div>
 
 </header>
+
+<script type="text/html" id="slide-template">
+  <a href="_link_" class="item">
+
+    <div class="desktop _slideID_" style="background: url(_desktopSlideBackground_) no-repeat center center; background-size: _backgroundSize_; height: 375px">
+
+          <div class="container container-carousel" style="_containerCSS_">
+
+              <p class="heading-container" style="_headingContainerCSS_">
+                <span class="heading-text" style="_headingCSS_">_heading_</span> <br>
+                <span class="subheading-text" style="_subheadingCSS_">_subheading_</span>
+              </p>
+
+              <img class="carousel-image-overlay" src="_imageOverlay_" alt="image" style="_imageOverlayCSS_">
+
+              <p class="carousel-text-overlay" style="_textOverlayCSS_">
+              _textOverlay_
+              </p>
+
+              <img class="price-image" src="_priceImage_" alt="price">
+
+              <img class="badge1" src="_badge1_" alt="badge" style="_badge1CSS_">
+
+              <img class="badge2" src="_badge2_" alt="badge" style="_badge2CSS_">
+
+              <div class="carousel-description-left" style="_descriptionLeftTextCSS_">
+                _descriptionLeftText_
+              </div>
+
+              <div class="carousel-description-right" style="_descriptionRightTextCSS_">
+                _descriptionRightText_
+              </div>
+
+          </div> <!-- end container -->
+
+    </div> <!-- end desktop -->
+
+    <div class="mobile _slideID_">
+
+          <img class="mobile" src="_mobileSlideBackground_" style="max-width: 100%; min-width: 100%">
+
+          <p class="heading-container" style="_headingContainerMobileCSS_">
+            <span class="heading-text" style="_headingMobileCSS_">_heading_</span> <br>
+            <span class="subheading-text" style="_subheadingMobileCSS_">_subheading_</span>
+          </p>
+
+          <img class="badge1" src="_badge1_" alt="badge" style="_badge1MobileCSS_">
+
+          <img class="badge2" src="_badge2_" alt="badge" style="_badge2MobileCSS_">
+
+          <div class="container container-carousel" style="_containerCSS_">
+
+              <img class="carousel-image-overlay" src="_imageOverlay_" alt="image" style="_imageOverlayCSS_">
+
+              <p class="carousel-text-overlay" style="_textOverlayCSS_">
+              _textOverlay_
+              </p>
+
+              <img class="price-image" src="_priceImage_" alt="price">
+
+              <div class="carousel-description-left" style="_descriptionLeftTextMobileCSS_">
+                _descriptionLeftText_
+              </div>
+
+              <div class="carousel-description-right" style="_descriptionRightTextMobileCSS_">
+                _descriptionRightText_
+              </div>
+
+          </div> <!-- end container -->
+
+    </div> <!-- end mobile -->
+
+  </a> <!-- end item -->
+</script>
+
+
 <main class='home'>
-    <div class="row home-categories">
-        <div class="col-xs-12 col-sm-4">
-            <a href='/flyer'>
-                <h4 class="box top">Flyers</h1>
-                <div class='img'><img src="<?=site_url()?>/assets/images/hf_flyer.jpg" alt="Flyers" style="width: 100%;"/></div>
-            </a>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <a href='<?=site_url()?>recipes'>
-                <h4 class="box top">Recipes</h1>
-                <div class='img'><img src="<?=site_url()?>/assets/images/home_recipes.jpg" alt="Recipes"/></div>
-            </a>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-            <a href='<?=site_url()?>country-kitchen'>
-                <h4 class="box top">Country Kitchen</h1>
-                <div class='img'><img src="<?=site_url()?>/assets/images/home_ck.jpg" alt="Country Kitchen"/></div>
-            </a>
-        </div>
-    </div>
+	<div class="row home-categories">
+		<div class="col-xs-12 col-sm-4">
+			<a href='/flyer'>
+				<h4 class="box top">Flyers</h4>
+				<div class='img'><img src="<?=site_url()?>/assets/images/hf_flyer.jpg" alt="Flyers" style="width: 100%;"/></div>
+			</a>
+		</div>
+		<div class="col-xs-12 col-sm-4">
+			<a href='<?=site_url()?>recipes' id="homepage-recipe">
+				<h4 class="box top">Recipes</h4>
+			</a>
+		</div>
+		<div class="col-xs-12 col-sm-4">
+			<a href='<?=site_url()?>country-kitchen'>
+				<h4 class="box top">Country Kitchen</h4>
+				<div class='img'><img src="<?=site_url()?>/assets/images/home_ck.jpg" alt="Country Kitchen"/></div>
+			</a>
+		</div>
+	</div>
 
-    <hr class='extra-space'>
+	<hr class='extra-space'>
 
-    <div class="row">
-        <div class="col-xs-6 col-sm-3 home-thumbnail-grid">
-            <a href='<?=site_url()?>visit-us'>
-                <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_visit.jpg" alt="Visit Us"/>
-                <p class="col-xs-12 home-thumbnail-desc">Visit Us</p>
-            </a>
-        </div>
-        <div class="col-xs-6 col-sm-3 home-thumbnail-grid">
-            <a href='<?=site_url()?>party-platters'>
-                <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_pp.jpg" alt="Party Platters And More"/>
-                <p class="col-xs-12 home-thumbnail-desc">Party Platters And More</p>
-            </a>
-        </div>
-        <div class="col-xs-6 col-sm-3 home-thumbnail-grid">
-            <a href='<?=site_url()?>about/highland-farms-originals'>
-                <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_originals.jpg" alt="Highland Farms Originals"/>
-                <p class="col-xs-12 home-thumbnail-desc">Highland Farms Originals</p>
-            </a>
-        </div>
-        <div class="col-xs-6 col-sm-3 home-thumbnail-grid">
-            <a href='<?=site_url()?>inside-store'>
-                <img class="col-xs-12" src="<?=site_url()?>/assets/images/home_inside-store.jpg" alt="Inside The Store"/>
-                <p class="col-xs-12 home-thumbnail-desc">Inside The Store</p>
-            </a>
-        </div>
-    </div>
+	<div class="row">
+		<div class="col-xs-6 col-sm-3 home-thumbnail-grid">
+			<a href='<?=site_url()?>visit-us'>
+				<img class="col-xs-12" src="<?=site_url()?>/assets/images/home_visit.jpg" alt="Visit Us"/>
+				<p class="col-xs-12 home-thumbnail-desc">Visit Us</p>
+			</a>
+		</div>
+		<div class="col-xs-6 col-sm-3 home-thumbnail-grid">
+			<a href='<?=site_url()?>party-platters'>
+				<img class="col-xs-12" src="<?=site_url()?>/assets/images/home_pp.jpg" alt="Party Platters And More"/>
+				<p class="col-xs-12 home-thumbnail-desc">Party Platters And More</p>
+			</a>
+		</div>
+		<div class="col-xs-6 col-sm-3 home-thumbnail-grid">
+			<a href='<?=site_url()?>about/highland-farms-originals'>
+				<img class="col-xs-12" src="<?=site_url()?>/assets/images/home_originals.jpg" alt="Highland Farms Originals"/>
+				<p class="col-xs-12 home-thumbnail-desc">Highland Farms Originals</p>
+			</a>
+		</div>
+		<div class="col-xs-6 col-sm-3 home-thumbnail-grid">
+			<a href='<?=site_url()?>inside-store'>
+				<img class="col-xs-12" src="<?=site_url()?>/assets/images/home_inside-store.jpg" alt="Inside The Store"/>
+				<p class="col-xs-12 home-thumbnail-desc">Inside The Store</p>
+			</a>
+		</div>
+	</div>
 </main>
 
+<script type="text/html" id="tpl-featured-recipe-thumb">
+  <div class='img'><img src="<?=site_url()?>/assets/_THUMBNAIL_" alt="Recipes"/></div>
+</script>
 
+<script>
+
+  jQuery(document).ready(function($) {
+
+    hlf.data.recipes = JSON.parse(<?php echo $recipes ?>);
+    hlf.recipes.getFeaturedRecipeHomepage(hlf.data.recipes);
+
+  });
+
+</script>

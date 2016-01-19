@@ -48,6 +48,27 @@
 
             if($sql) return $sql; 
         }
+
+        /**
+        * Selects $limit number of random recipes from the database
+        * 
+        * @param mixed $id
+        * @param mixed $limit
+        * @param mixed $categoryID
+        */
+        public function get_related($id = null, $categoryID, $limit = 4) {
+            $this->db->select("recipes.*"); 
+            $this->db->order_by("RAND()");  
+            $this->db->where('recipes.Status','enabled');
+            $this->db->where('recipes.CategoryID',$categoryID);
+            
+            //This block prevents the current recipe from appearing in the related recipes section
+            if(!empty($id)) $this->db->where_not_in('recipes.ID', array($id));
+            $sql = $this->db->get('recipes',$limit,0)->result_object();
+            $sql = $this->map_recipes($sql);
+
+            if($sql) return $sql; 
+        }
         
         /**
         * Map recipes - currently changing array keys to match IDs

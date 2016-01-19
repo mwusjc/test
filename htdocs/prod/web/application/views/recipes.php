@@ -1,15 +1,15 @@
 
-<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/media/recipes/rec_creme_brulee.jpg); background-size:cover">
+<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/media/recipes/rec_linguine_with_pesto.jpg); background-size:cover">
     <div class="caption col-xs-12">
         <div class="wrapper">
             <div class="row">
-                <a href="/recipes/362/Creme-Brulee" class="feature-title col-xs-10 col-sm-6">
+                <a href="/recipes/395/Linguine-with-Pesto" class="feature-title col-xs-10 col-sm-6">
                     <h1>Recipe of the Week</h1>
-                    <h2>Creme Brulee</h2>
+                    <h2>Linguine with Pesto</h2>
                 </a>
             </div>
         </div>
-    </div>    
+    </div>
 </div>
 </header>
 <main class='recipes'>
@@ -40,7 +40,7 @@
              <div class='pajinate'>
              <div class='no-results-found hidden'><h1>Sorry! Nothing to be found here.</h1></div>
             <div class="row recipes-container content">
-            </div> 
+            </div>
             <div class="page_navigation"></div>
             </div>
         </div>
@@ -58,7 +58,7 @@
 <script type='text/javascript'>
     hlf.data.recipes = <?=json_encode($recipes)?>;
     hlf.data.recipes_categories = <?=json_encode($recipes_categories)?>;
-    
+
     jQuery(document).ready(function($) {
         hlf.recipes.init(hlf.data.recipes);
     })

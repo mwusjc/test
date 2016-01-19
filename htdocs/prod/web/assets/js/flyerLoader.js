@@ -19,7 +19,7 @@ var fl = {
 			var thursday = this.getNextThursday(new Date());
 		}
 		var yyyy = thursday.getFullYear().toString();
-		var mm = (thursday.getMonth()+1).toString(); 
+		var mm = (thursday.getMonth()+1).toString();
 		var dd  = thursday.getDate().toString();
 		return yyyy + (mm[1]?mm:"0"+mm[0]) + (dd[1]?dd:"0"+dd[0]);
 	},
@@ -41,16 +41,19 @@ var fl = {
 		nextWednesday = t;
 		nextWednesday.setDate(nextWednesday.getDate()+6);
 		var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
-		//Check if current Flyer range is either of the "normal" weeks during 2 week exception period and adjust duration shown on screen
-		if(range == "Fri Dec 11 2015 - Thu Dec 17 2015" || range == "Fri Dec 18 2015 - Thu Dec 24 2015") {
-			range = "Fri Dec 11 2015 - Thu Dec 24 2015";
-		}
+		//Check current Flyer range, and adjust duration shown on screen
+		if (range == "Fri Jan 15 2016 - Thu Jan 21 2016") {
+      range = "Fri Jan 15 2016 - Thu Jan 21 2016";
+    }
+    else if (range == "Fri Jan 22 2016 - Thu Jan 28 2016") {
+      range = "Fri Jan 22 2016 - Thu Jan 28 2016";
+    }
 		return range;
 	},
 	getThursday: function(d) {
 		d = new Date(d);
 		var day = d.getDay(),
-			diff = d.getDate() - day + (day <= 4 ? -3:4); 
+			diff = d.getDate() - day + (day <= 4 ? -3:4);
 		return new Date(d.setDate(diff));
 	},
 	getNextThursday: function(d) {
@@ -68,7 +71,7 @@ var fl = {
                 } else {
                     $(".carousel-inner-mobile").html(html);
                 }
-		
+
 		this.generateImageMaps(data, type);
 		this.generatePopups(data, type);
         if (type == "desktop") {
@@ -76,7 +79,7 @@ var fl = {
         } else {
             $(".flyer.mobile .item").first().addClass("active");
         }
-		
+
 		$("#flyerPDF").attr("href","/assets/flyers/"+data.week+"/download.pdf");
 
 	},
@@ -103,9 +106,6 @@ var fl = {
 		for (var j = 0; j < data.pages.length; j++){
 			for (var i=0; i < data.pages[j].products.length; i++){
 				var prod = data.pages[j].products[i];
-				if (prod.pricing.indexOf("$")<0){
-					prod.pricing = "$"+prod.pricing;
-				}
 				html += 	"<div class='modal fade out "+type+" productPopup' id='"+type+"productPopup"+j+"_"+i+"' tabindex='-1' role='dialog' >";
 				html += 	'	<div class="modal-dialog" role="document">'
 				html += 	'		<div class="modal-content">'
@@ -117,7 +117,7 @@ var fl = {
 				html += 	'					</div>'
 				html += 	'					<div class="col-xs-12 col-sm-6">'
 				html += 	'						'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
-				html += 	'						<h2 class="title">'+prod.name+'</h2>'      
+				html += 	'						<h2 class="title">'+prod.name+'</h2>'
 				html += 	'						<div class="pricing">'+prod.pricing+'</div>'
 				html += 	'						<div class="packaging">'+prod.packaging+'</div>'
 				html += 	'						<a href="#" data-add-cart="id" class="btn green addToCart">Add to Shopping List</a>'
@@ -135,53 +135,53 @@ var fl = {
 	},
 	previewFlyers: function() {
 		var currentWeek = fl.getWeek("current");
-		console.log("Current week: " + currentWeek);
 		var nextWeek = fl.getWeek("next");
-		console.log("Next week: " + nextWeek);
 
 		$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
 		$("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
 		$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
 		$("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
-		//Check if Flyer has entered what would normally be overlap period for 2 week exception, adjust duration dates and hide what would normally be "Next Weeks Flyer"
-		if(nextWeek == "20151217" || currentWeek == "20151217") {
-			$("#thisWeekDates").html("Fri Dec 11 2015 - Thu Dec 24 2015");
-			document.querySelector(".modal-backdrop").remove();
-			$("#chooseFlyer").addClass("hide");
-			$("#nextFlyer .flyerDateRange").html("");
+
+		//Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
+		if(nextWeek == "20160121" && currentWeek == "20160114") {
+			$("#thisWeekDates").html("Fri Jan 22 2016 - Thu Jan 28 2016");
+			//Specify flyer for current week and next week due to start date exception on  upcoming flyer from current pattern
+			$("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160114/mobile/page1.jpg");
+			$("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160121/mobile/page1.jpg");
 		}
+
 		window.setTimeout('$("#chooseFlyer").modal("show");',1000);
 	},
 	checkOverlapDay: function(){
 		var today = new Date();
 		var test = location.search;
 		//Assuming overlap day is Thursday
-		// console.log("today",today);
 		if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true"))){
-			// console.log("overlap!");
 			this.previewFlyers();
 		}
 		else{
-			// console.log("no overlap!")
 			$("#chooseFlyer").modal("hide");
 			$("#flyerModal").hide();
 		}
 	},
 	loadData: function(week,type){
-		var url = "/assets/flyers/"+week+"/"+type+"/data.json"; 
-		//Check if week for current flyer is second week of 2 week exception period and modify data URL accordingly
-		if(week == "20151217") {
-			url = "/assets/flyers/20151210/"+type+"/data.json";
+		var url = "/assets/flyers/"+week+"/"+type+"/data.json";
+		//Check week for current flyer, and modify data URL accordingly
+		if(week == "20160114") {
+			url = "/assets/flyers/20160114/"+type+"/data.json";
+		}
+		else if (week == "20160121") {
+			url = "/assets/flyers/20160121/"+type+"/data.json";
 		}
 
-		var xmlhttp = new XMLHttpRequest(); 
+
+		var xmlhttp = new XMLHttpRequest();
 
 		xmlhttp.open("GET", url, true);
 		xmlhttp
 		xmlhttp.onreadystatechange = function() {
 			if (xmlhttp.readyState == 4) {
 			var data = JSON.parse(xmlhttp.responseText);
-			//console.log("data",data);
 			fl.populateFlyer(data,type);
 			fl.populateListView(data,type);
 			fl.populateCategories(data);
@@ -258,9 +258,6 @@ var fl = {
 				for (var b = 0; b < prod.brands.length; b++){
 					brandstring+= prod.brands[b] + "|";
 				}
-				if (prod.pricing.indexOf("$")<0){
-					prod.pricing = "$"+prod.pricing;
-				}
 				html+=  	'<div class="row" data-category="'+prod.category+'" data-brand="'+brandstring+'">'
 				html+=	    '	<div class="col-xs-12 col-sm-3 text-center">'
 				//Pull in current week as folder name for Flyers
@@ -268,12 +265,12 @@ var fl = {
 				html+=	    '	</div>'
 				html+=	    '	<div class="col-xs-12 col-sm-9">'
 				html+=	    '		'+(prod.comments=='save'?'<h3 class="comment">save more!</h3>':"");
-				html+=	    '		<h2 class="title">'+prod.name+'</h2>' 
+				html+=	    '		<h2 class="title">'+prod.name+'</h2>'
 				html+=	    '		<span class="pricing">'+prod.pricing+'</span>'
 				html+=	    '		<span class="packaging">'+prod.packaging+'</span>'
 				html+=	    '		<div><a href="#" data-add-cart="id" class="btn green addToCartListView">Add to Shopping List</a></div>'
 				html+=	    '	</div>'
-				html+=		'</div>'   
+				html+=		'</div>'
 			}
 		}
 		$(".listViewWrapper")[0].innerHTML = html;

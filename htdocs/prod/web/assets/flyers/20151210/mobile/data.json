@@ -11,7 +11,7 @@
 					"name": "Grade A Butterball Frozen Turkeys All Sizes Limit of 1 per family",
 					"brands": [""],
 					"category": "poultry",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$4.39/kg",
 					"pricing":"$1.99/lb",
 					"comments":"save"
@@ -33,7 +33,7 @@
 					"name": "Pepsi or Coke Soft Drinks Assorted Varieties",
 					"brands": ["Pepsi","Coca-Cola"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"case of 12x355ml",
 					"pricing":"$3.49",
 					"comments":""
@@ -44,7 +44,7 @@
 					"name": "Green Giant Frozen Vegetables 750g or Valley Selections 300-500g Assorted Varieties",
 					"brands": ["Green Giant", "Valley Selections"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"each",
 					"pricing":"$1.99",
 					"comments":""
@@ -55,7 +55,7 @@
 					"name": "Italpasta Pasta Assorted Regular Cuts",
 					"brands": ["Italpasta"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"900g",
 					"pricing":"4/$5.00",
 					"comments":""
@@ -116,7 +116,7 @@
 					"name": "Strawberries Product of U.S.A. Florida No. 1 Grade",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"1lb tray",
 					"pricing":"$3.99",
 					"comments":""
@@ -127,7 +127,7 @@
 					"name": "Extra Sweet Pineapples Product of Costa Rica",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"each",
 					"pricing":"$3.99",
 					"comments":""
@@ -138,7 +138,7 @@
 					"name": "Sweet Green Peppers Product of U.S.A. No. 1 Grade Extra Large Size",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"$3.28/kg",
 					"pricing":"$1.49/lb",
 					"comments":""
@@ -149,7 +149,7 @@
 					"name": "Field Tomatoes Product of U.S.A. No. 1 Grade Large Size",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging": "$3.28/kg",
 					"pricing":"$1.49/lb",
 					"comments":""
@@ -160,7 +160,7 @@
 					"name": "Abate Pears Product of Italy Extra Fancy Grade Large Size",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"$4.39/kg",
 					"pricing":"$1.99/lb",
 					"comments":""
@@ -171,7 +171,7 @@
 					"name": "Chestnuts Product of Italty Jumbo Size",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"$8.80/kg",
 					"pricing":"$3.99/lb",
 					"comments":""
@@ -182,7 +182,7 @@
 					"name": "Eggplants Product of U.S.A. Large Size",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"$2.18/kg",
 					"pricing":"$0.99/lb",
 					"comments":""
@@ -193,7 +193,7 @@
 					"name": "Yellow Fleshed Potatoes Product of P.E.I. No. 1 Grade",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"10lb poly bag",
 					"pricing":"$2.99",
 					"comments":""
@@ -204,7 +204,7 @@
 					"name": "Royal Gala Apples Product of B.C. Canada Extra Fancy Grade",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"$4.39/kg",
 					"pricing":"$1.99/lb",
 					"comments":""
@@ -215,7 +215,7 @@
 					"name": "Mini Peeled Carrots Product of U.S.A.",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"1lb cello bag",
 					"pricing":"$1.99",
 					"comments":""
@@ -226,7 +226,7 @@
 					"name": "Sweet Potatoes Product of U.S.A.",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"3lb bag",
 					"pricing":"$4.99",
 					"comments":""
@@ -237,7 +237,7 @@
 					"name": "Poinsettia Product of Ontario",
 					"brands": [""],
 					"category": "produce",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"6in pot",
 					"pricing":"$5.99",
 					"comments":""
@@ -254,7 +254,7 @@
 					"name": "Villaggio Sliced Bread 675g loaf, Crustini Buns pkg of 8 or Sausage Buns pkg of 6",
 					"brands": ["Villaggio"],
 					"category": "bakery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"",
 					"pricing":"2/$5.00",
 					"comments":""
@@ -265,7 +265,7 @@
 					"name": "Fresh Store-Baked 8in Apple Pie",
 					"brands": ["Country Kitchen"],
 					"category": "bakery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"600g",
 					"pricing":"$3.99",
 					"comments":""
@@ -287,7 +287,7 @@
 					"name": "Oakrun Farms English Muffins or Crumpets",
 					"brands": ["Oakrun Farms"],
 					"category": "bakery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"284-340g",
 					"pricing":"3/$5.00",
 					"comments":""
@@ -469,7 +469,7 @@
 					"name": "Lay's Potato Chips 255g or Kettle Cooked Chips 220g Assorted Varieties",
 					"brands": ["Lay's"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"",
 					"pricing":"3/$8.00",
 					"comments":""
@@ -502,7 +502,7 @@
 					"name": "Emma Italian Peeled Tomatoes Product of Italy",
 					"brands": ["Emma"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"796ml",
 					"pricing":"4/$5.00",
 					"comments":""
@@ -513,7 +513,7 @@
 					"name": "Uncle Ben's Rice Long Grain Converted 2kg or Whole Grain Brown 1.6kg",
 					"brands": ["Uncle Ben's"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"each",
 					"pricing":"$5.99",
 					"comments":""
@@ -524,7 +524,7 @@
 					"name": "Antipasto Platter",
 					"brands": ["Country Kitchen"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"14in",
 					"pricing":"$49.99",
 					"comments":""
@@ -535,7 +535,7 @@
 					"name": "Gift Basket",
 					"brands": ["Country Kitchen"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"",
 					"pricing":"$59.99 (S), $79.99 (M), $99.99 (L)",
 					"comments":""
@@ -546,7 +546,7 @@
 					"name": "Gourmet Cheese Platter",
 					"brands": ["Country Kitchen"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"14in",
 					"pricing":"$49.99",
 					"comments":""
@@ -557,9 +557,9 @@
 					"name": "Highland Farms Gift Card",
 					"brands": ["Country Kitchen"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"",
-					"pricing":"Another Fresh Idea from Highland Farms.",
+					"summary": "",
+					"packaging":"Another Fresh Idea from Highland Farms.",
+					"pricing":"",
 					"comments":""
 				},
 				{
@@ -568,7 +568,7 @@
 					"name": "International Olives Platter",
 					"brands": ["Country Kitchen"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"16in",
 					"pricing":"$39.99",
 					"comments":""
@@ -579,7 +579,7 @@
 					"name": "Christie Snack Crackers Assorted Varieties",
 					"brands": ["Christie"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"175-250g",
 					"pricing":"2/$5.00",
 					"comments":""
@@ -590,7 +590,7 @@
 					"name": "Twinings Tea or Traditional Medicinals Organic Herbal Tea Assorted Varieties",
 					"brands": ["Twinings","Traditional Medicinals"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"pkg of 20",
 					"pricing":"$3.99",
 					"comments":""
@@ -601,7 +601,7 @@
 					"name": "Five Roses or Robin Hood All Purpose Flour Selected Varieties",
 					"brands": ["Five Roses","Robin Hood"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"1.8-2.5kg",
 					"pricing":"$4.99",
 					"comments":""
@@ -612,7 +612,7 @@
 					"name": "Trophy Kettle Cooked Peanuts",
 					"brands": ["Trophy"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"275g",
 					"pricing":"$1.99",
 					"comments":""
@@ -629,7 +629,7 @@
 					"name": "San Pellegrino Sparkling Fruit Beverage Assorted Varieties",
 					"brands": ["San Pellegrino"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"6x330ml",
 					"pricing":"$3.99",
 					"comments":""
@@ -640,7 +640,7 @@
 					"name": "Perrier or San Pellegrino Spring Water 750ml-1L bottles 3/$5.00",
 					"brands": ["Perrier","San Pellegrino"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"case of 12x750ml-1L",
 					"pricing":"$14.97",
 					"comments":""
@@ -651,7 +651,7 @@
 					"name": "Mott's Garden Cocktail Regular & Low Sodium 1.89L or Orangina 1.75L",
 					"brands": ["Mott's"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"each",
 					"pricing":"$2.69",
 					"comments":""
@@ -662,7 +662,7 @@
 					"name": "Ocean Spray Cranberry Cocktail Selected Varieties",
 					"brands": ["Ocean Spray"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"1.89L",
 					"pricing":"$2.99",
 					"comments":""
@@ -855,7 +855,7 @@
 					"name": "Norwegian Fjord Frozen Smoked Steelhead Salmon",
 					"brands": ["Norwegian Fjord"],
 					"category": "seafood",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"400g",
 					"pricing":"$15.99",
 					"comments":""
@@ -866,7 +866,7 @@
 					"name": "Large, Premium Canadian Salted Boneless Cod (Baccala)",
 					"brands": [""],
 					"category": "seafood",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"$22.02/kg",
 					"pricing":"$9.99/lb",
 					"comments":""
@@ -877,7 +877,7 @@
 					"name": "Toppits Jumbo Cooked Shrimp Platter with Cocktail Sauce",
 					"brands": ["Toppits"],
 					"category": "seafood",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"425g",
 					"pricing":"$15.99",
 					"comments":""
@@ -888,7 +888,7 @@
 					"name": "Ocean Jewel Breaded Popcorn Shrimp",
 					"brands": ["Ocean Jewel"],
 					"category": "seafood",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"340g",
 					"pricing":"$6.99",
 					"comments":""
@@ -899,7 +899,7 @@
 					"name": "Ocean Prime Frozen Raw Pacific White Shrimp 21/25ct",
 					"brands": ["Ocean Prime"],
 					"category": "seafood",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"454g",
 					"pricing":"$8.99",
 					"comments":""
@@ -910,7 +910,7 @@
 					"name": "Ocean Prime Frozen Cooked White Shrimp 31-40ct",
 					"brands": ["Ocean Prime"],
 					"category": "seafood",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"454g",
 					"pricing":"$10.99",
 					"comments":""
@@ -921,7 +921,7 @@
 					"name": "Stouffer's & Lean Cuisine Frozen Entrees Assorted Varieties",
 					"brands": ["Stouffer's","Lean Cuisine"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"196-340g",
 					"pricing":"2/$5.00",
 					"comments":""
@@ -932,7 +932,7 @@
 					"name": "Tenderflake Frozen Shells Assorted Varieties",
 					"brands": ["Tenderflake"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"255-397g",
 					"pricing":"$3.49",
 					"comments":""
@@ -943,7 +943,7 @@
 					"name": "Chapman's Premium Ice Cream 2L, Slice Crea 1.5L or Super Novelties 8-18pk Selected Varieties",
 					"brands": ["Chapman's"],
 					"category": "grocery",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"each",
 					"pricing":"$3.99",
 					"comments":""
@@ -960,7 +960,7 @@
 					"name": "Saputo Bocconcini Regular, Cocktail At the Deli",
 					"brands": ["Saputo"],
 					"category": "deli",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"$17.61/kg",
 					"pricing":"$7.99/lb",
 					"comments":""
@@ -1004,7 +1004,7 @@
 					"name": "Silani Mascarpone Cheese",
 					"brands": ["Silani"],
 					"category": "deli",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
+					"summary": "",
 					"packaging":"475g",
 					"pricing":"$6.99",
 					"comments":""
@@ -1131,7 +1131,7 @@
 					"name": "Fresh Beef Capless Prime Rib Roast Product of Canada",
 					"brands": [""],
 					"category": "meat",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$19.82/kg",
 					"pricing":"$8.99/lb",
 					"comments":""
@@ -1142,7 +1142,7 @@
 					"name": "Fresh Ontario Boneless Pork Loin Roast",
 					"brands": [""],
 					"category": "meat",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$8.80/kg",
 					"pricing":"$3.99/lb",
 					"comments":""
@@ -1153,7 +1153,7 @@
 					"name": "Fresh Ontario Rack of Pork Roast",
 					"brands": [""],
 					"category": "meat",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$11.00/kg",
 					"pricing":"$4.99/lb",
 					"comments":""
@@ -1164,7 +1164,7 @@
 					"name": "Fresh Beef Eye of Round Roast Product of Canada",
 					"brands": [""],
 					"category": "meat",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$13.21/kg",
 					"pricing":"$5.99/lb",
 					"comments":""
@@ -1175,7 +1175,7 @@
 					"name": "Fresh Ontario Inside Round Veal Scallopini",
 					"brands": [""],
 					"category": "meat",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$26.43/kg",
 					"pricing":"$11.99/lb",
 					"comments":""
@@ -1186,7 +1186,7 @@
 					"name": "Fresh Ontario Lamb Loin & Rib Chops",
 					"brands": [""],
 					"category": "meat",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$28.64/kg",
 					"pricing":"$12.99/lb",
 					"comments":""
@@ -1197,7 +1197,7 @@
 					"name": "King Cole Frozen Grade A Ducks Fresh Ducks 3.99/lb-8.80/kg",
 					"brands": ["King Cole"],
 					"category": "poultry",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$6.59/kg",
 					"pricing":"$2.99/lb",
 					"comments":""
@@ -1208,7 +1208,7 @@
 					"name": "Frozen Grade A Cornish Hens Fresh Cornish Hens 5.99/lb-13.21/kg",
 					"brands": [""],
 					"category": "poultry",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$11.00/kg",
 					"pricing":"$4.99/lb",
 					"comments":""
@@ -1219,7 +1219,7 @@
 					"name": "Maple Leaf Bacon Selected Varieties",
 					"brands": ["Maple Leaf"],
 					"category": "meat",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"375g",
 					"pricing":"$3.99",
 					"comments":""
@@ -1230,7 +1230,7 @@
 					"name": "Springer's Whole Smoked Bone-In Pork Picnic Shoulder",
 					"brands": ["Springer's"],
 					"category": "meat",
-					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
+					"summary": "",
 					"packaging":"$4.39/kg",
 					"pricing":"$1.99/lb",
 					"comments":""
