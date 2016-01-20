@@ -111,7 +111,7 @@
         "imageOverlayCSS": null,
         "textOverlay": null,
         "textOverlayCSS": null,
-        "priceImage": "assets/images/20160114-carousel-new/home_price-4.png",
+        "priceImage": "assets/images/20160121-carousel/home_price-4.png",
         "badges": [],
         "descriptionLeftText": null,
         "descriptionLeftTextCSS": null,
@@ -139,7 +139,7 @@
         "imageOverlayCSS": null,
         "textOverlay": null,
         "textOverlayCSS": null,
-        "priceImage": "assets/images/20160114-carousel-new/home_price-5.png",
+        "priceImage": "assets/images/20160121-carousel/home_price-5.png",
         "badges": [],
         "descriptionLeftText": null,
         "descriptionLeftTextCSS": null,
@@ -167,14 +167,14 @@
         "imageOverlayCSS": null,
         "textOverlay": null,
         "textOverlayCSS": null,
-        "priceImage": "assets/images/20160114-carousel-new/home_price-6.png",
+        "priceImage": "assets/images/20160121-carousel/home_price-6.png",
         "badges": [],
         "descriptionLeftText": null,
         "descriptionLeftTextCSS": null,
         "descriptionLeftTextMobileCSS": null,
         "descriptionRightText": "Xtra<br>Liquid Laundry Detergent<br>Assorted Varieties",
         "descriptionRightTextCSS": "font-size: 18px;bottom: 71px; right: 250px",
-        "descriptionRightTextMobileCSS": "font-size: 15px; bottom: 18px; right: 130px"
+        "descriptionRightTextMobileCSS": "font-size: 15px; bottom: 17px; right: 130px"
       }
     ]
   },
