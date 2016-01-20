@@ -24,7 +24,7 @@
 					"category": "produce",
 					"summary": "",
 					"packaging":"$6.59/kg",
-					"pricing":"$1.99/lb",
+					"pricing":"$2.99/lb",
 					"comments":"save"
 				},
 				{
@@ -166,7 +166,7 @@
 					"comments":""
 				},
 				{
-					"image":"449095__White_Potatoes_10lbs",
+					"image":"449095__White_Potatoes_10lbs.jpg",
 					"coords":[327,276,101,117],
 					"name": "White Potatoes Product of P.E.I. Canada No. 1 Grade",
 					"brands": [""],
@@ -247,7 +247,7 @@
 					"coords":[558,154,101,117],
 					"name": "Store-Baked Cookies Assorted Varieties",
 					"brands": ["Country Kitchen"],
-					"category": "bakery",
+					"category": "Country Kitchen",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"pkg of 12",
 					"pricing":"$2.99",
@@ -418,7 +418,7 @@
 					"coords":[327,275,101,117],
 					"name": "Fruit Cake Panettone",
 					"brands": ["Country Kitchen"],
-					"category": "grocery",
+					"category": "Country Kitchen",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"800g",
 					"pricing":"$3.99",
@@ -481,7 +481,7 @@
 				},
 				{
 					"image":"213831_PalmoliveDishSoap_combined.jpg",
-					"coords":[664,12,206,261],
+					"coords":[664,32,206,261],
 					"name": "Palmolive Liquid Dish Soap Assorted Varieties",
 					"brands": ["Palmolive"],
 					"category": "grocery",
@@ -571,7 +571,7 @@
 					"image":"209836_GimMe Organic Roast Seaweed Snacks_combined.jpg",
 					"coords":[663,396,101,117],
 					"name": "gimMe Organic Roasted Seaweed Snacks Assorted Varieties",
-					"brands": ["gimMe"],
+					"brands": ["GimMe"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"10g",
@@ -729,14 +729,14 @@
 				},
 				{
 					"image":"912050_Mortadella_FT_alt.jpg",
-					"coords":[664,12,206,261],
+					"coords":[664,32,206,261],
 					"name": "San Daniele Mortadella Regular, Light or Hot Freshly Sliced at the Deli",
 					"brands": ["San Daniele"],
 					"category": "deli",
 					"summary": "",
 					"packaging":"$11.00/kg",
 					"pricing":"$4.99/lb",
-					"comments":""
+					"comments":"save"
 				},
 				{
 					"image":"C6573.jpg",
@@ -745,7 +745,7 @@
 					"brands": ["Santa Lucia"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"$17.51/kg",
+					"packaging":"$17.61/kg",
 					"pricing":"$7.99/lb",
 					"comments":""
 				},
