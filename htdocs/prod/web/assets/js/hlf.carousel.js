@@ -20,68 +20,68 @@ var carousel = {
     // iterate through carousels, if current time is greater than start-time of current carousel,
     // use that carousel
     $.each(data, function(key,item) {
-      var d1 = new Date(carousel.currentTime);
-      var d2 = new Date(item.startDate);
+      var theCurrentTime = new Date(carousel.currentTime);
+      var carouselStartDate = new Date(item.startDate);
 
       // found the current carousel we should be rendering
-      if (d1 > d2) {
+      if (theCurrentTime > carouselStartDate) {
 
         // iterate through the slides of the current carousel
-        $.each(item.slides, function(key2,slide) {
+        $.each(item.slides, function(slideKey,slide) {
 
           // render the template
           mapping = {
-            "_slideID_" : item.slides[key2].slideID,
-            "_link_" : item.slides[key2].link,
-            "_desktopSlideBackground_" : item.slides[key2].desktopSlideBackground,
-            "_mobileSlideBackground_" : item.slides[key2].mobileSlideBackground,
-            "_backgroundSize_" : item.slides[key2].backgroundSize,
-            "_containerCSS_" : item.slides[key2].containerCSS != null ? item.slides[key2].containerCSS : "",
-            "_headingContainerCSS_" : item.slides[key2].headingContainerCSS != null ? item.slides[key2].headingContainerCSS : "display:none",
-            "_headingContainerMobileCSS_" : item.slides[key2].headingContainerMobileCSS != null ? item.slides[key2].headingContainerMobileCSS : "display:none",
-            "_heading_" : item.slides[key2].heading != null ? item.slides[key2].heading : "",
-            "_headingCSS_" : item.slides[key2].headingCSS != null ? item.slides[key2].headingCSS : "display:none",
-            "_headingMobileCSS_" : item.slides[key2].headingMobileCSS != null ? item.slides[key2].headingMobileCSS : "display:none",
-            "_subheading_" : item.slides[key2].subheading != null ? item.slides[key2].subheading : "",
-            "_subheadingCSS_" : item.slides[key2].subheadingCSS != null ? item.slides[key2].subheadingCSS : "display:none",
-            "_subheadingMobileCSS_" : item.slides[key2].subheadingMobileCSS != null ? item.slides[key2].subheadingMobileCSS : "display:none",
-            "_imageOverlay_" : item.slides[key2].imageOverlay != null ? item.slides[key2].imageOverlay : "",
-            "_imageOverlayCSS_" : item.slides[key2].imageOverlayCSS != null ? item.slides[key2].imageOverlayCSS : "display:none",
-            "_textOverlay_" : item.slides[key2].textOverlay != null ? item.slides[key2].textOverlay : "",
-            "_textOverlayCSS_" : item.slides[key2].textOverlayCSS != null ? item.slides[key2].textOverlayCSS : "display:none",
-            "_priceImage_" : item.slides[key2].priceImage != null ? item.slides[key2].priceImage : "",
-            "_badge1_" : item.slides[key2].badges[0] != undefined ? item.slides[key2].badges[0].image : "",
-            "_badge1CSS_" : item.slides[key2].badges[0] != undefined ? item.slides[key2].badges[0].css : "display:none",
-            "_badge1MobileCSS_" : item.slides[key2].badges[0] != undefined ? item.slides[key2].badges[0].mobileCSS : "display:none",
-            "_badge2_" : item.slides[key2].badges[1] != undefined ? item.slides[key2].badges[1].image : "",
-            "_badge2CSS_" : item.slides[key2].badges[1] != undefined ? item.slides[key2].badges[1].css : "display:none",
-            "_badge2MobileCSS_" : item.slides[key2].badges[1] != undefined ? item.slides[key2].badges[1].mobileCSS : "display:none",
-            "_descriptionLeftText_" : item.slides[key2].descriptionLeftText != null ? item.slides[key2].descriptionLeftText : "",
-            "_descriptionLeftTextCSS_" : item.slides[key2].descriptionLeftTextCSS != null ? item.slides[key2].descriptionLeftTextCSS : "display:none",
-            "_descriptionLeftTextMobileCSS_" : item.slides[key2].descriptionLeftTextMobileCSS != null ? item.slides[key2].descriptionLeftTextMobileCSS : "display:none",
-            "_descriptionRightText_" : item.slides[key2].descriptionRightText != null ? item.slides[key2].descriptionRightText : "",
-            "_descriptionRightTextCSS_" : item.slides[key2].descriptionRightTextCSS != null ? item.slides[key2].descriptionRightTextCSS : "display:none",
-            "_descriptionRightTextMobileCSS_" : item.slides[key2].descriptionRightTextMobileCSS != null ? item.slides[key2].descriptionRightTextMobileCSS : "display:none"
+            "_slideID_" : item.slides[slideKey].slideID,
+            "_link_" : item.slides[slideKey].link,
+            "_desktopSlideBackground_" : item.slides[slideKey].desktopSlideBackground,
+            "_mobileSlideBackground_" : item.slides[slideKey].mobileSlideBackground,
+            "_backgroundSize_" : item.slides[slideKey].backgroundSize,
+            "_containerCSS_" : item.slides[slideKey].containerCSS != null ? item.slides[slideKey].containerCSS : "",
+            "_headingContainerCSS_" : item.slides[slideKey].headingContainerCSS != null ? item.slides[slideKey].headingContainerCSS : "display:none",
+            "_headingContainerMobileCSS_" : item.slides[slideKey].headingContainerMobileCSS != null ? item.slides[slideKey].headingContainerMobileCSS : "display:none",
+            "_heading_" : item.slides[slideKey].heading != null ? item.slides[slideKey].heading : "",
+            "_headingCSS_" : item.slides[slideKey].headingCSS != null ? item.slides[slideKey].headingCSS : "display:none",
+            "_headingMobileCSS_" : item.slides[slideKey].headingMobileCSS != null ? item.slides[slideKey].headingMobileCSS : "display:none",
+            "_subheading_" : item.slides[slideKey].subheading != null ? item.slides[slideKey].subheading : "",
+            "_subheadingCSS_" : item.slides[slideKey].subheadingCSS != null ? item.slides[slideKey].subheadingCSS : "display:none",
+            "_subheadingMobileCSS_" : item.slides[slideKey].subheadingMobileCSS != null ? item.slides[slideKey].subheadingMobileCSS : "display:none",
+            "_imageOverlay_" : item.slides[slideKey].imageOverlay != null ? item.slides[slideKey].imageOverlay : "",
+            "_imageOverlayCSS_" : item.slides[slideKey].imageOverlayCSS != null ? item.slides[slideKey].imageOverlayCSS : "display:none",
+            "_textOverlay_" : item.slides[slideKey].textOverlay != null ? item.slides[slideKey].textOverlay : "",
+            "_textOverlayCSS_" : item.slides[slideKey].textOverlayCSS != null ? item.slides[slideKey].textOverlayCSS : "display:none",
+            "_priceImage_" : item.slides[slideKey].priceImage != null ? item.slides[slideKey].priceImage : "",
+            "_badge1_" : item.slides[slideKey].badges[0] != undefined ? item.slides[slideKey].badges[0].image : "",
+            "_badge1CSS_" : item.slides[slideKey].badges[0] != undefined ? item.slides[slideKey].badges[0].css : "display:none",
+            "_badge1MobileCSS_" : item.slides[slideKey].badges[0] != undefined ? item.slides[slideKey].badges[0].mobileCSS : "display:none",
+            "_badge2_" : item.slides[slideKey].badges[1] != undefined ? item.slides[slideKey].badges[1].image : "",
+            "_badge2CSS_" : item.slides[slideKey].badges[1] != undefined ? item.slides[slideKey].badges[1].css : "display:none",
+            "_badge2MobileCSS_" : item.slides[slideKey].badges[1] != undefined ? item.slides[slideKey].badges[1].mobileCSS : "display:none",
+            "_descriptionLeftText_" : item.slides[slideKey].descriptionLeftText != null ? item.slides[slideKey].descriptionLeftText : "",
+            "_descriptionLeftTextCSS_" : item.slides[slideKey].descriptionLeftTextCSS != null ? item.slides[slideKey].descriptionLeftTextCSS : "display:none",
+            "_descriptionLeftTextMobileCSS_" : item.slides[slideKey].descriptionLeftTextMobileCSS != null ? item.slides[slideKey].descriptionLeftTextMobileCSS : "display:none",
+            "_descriptionRightText_" : item.slides[slideKey].descriptionRightText != null ? item.slides[slideKey].descriptionRightText : "",
+            "_descriptionRightTextCSS_" : item.slides[slideKey].descriptionRightTextCSS != null ? item.slides[slideKey].descriptionRightTextCSS : "display:none",
+            "_descriptionRightTextMobileCSS_" : item.slides[slideKey].descriptionRightTextMobileCSS != null ? item.slides[slideKey].descriptionRightTextMobileCSS : "display:none"
           };
 
           html = hlf.drawTemplate("#slide-template", mapping);
           $('.carousel-inner').append(html);
 
           // remove price image if there is none
-          if (item.slides[key2].priceImage == null ) {
+          if (item.slides[slideKey].priceImage == null ) {
             $('.price-image').remove();
           }
 
           // make the first slide active
-          if (key2 === 0) {
+          if (slideKey === 0) {
             $('.item').addClass('active');
           }
 
           // add carousel dots dynamically
-          if (key2 === 0) {
-            $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + key2 + '" class="active" style="margin-left: 4px"></li>');
+          if (slideKey === 0) {
+            $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + slideKey + '" class="active" style="margin-left: 4px"></li>');
           } else {
-            $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + key2 + '" style="margin-left: 4px"></li>');
+            $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + slideKey + '" style="margin-left: 4px"></li>');
           }
         });
 
