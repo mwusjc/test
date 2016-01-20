@@ -24,7 +24,7 @@
 					"category": "produce",
 					"summary": "",
 					"packaging":"$6.59/kg",
-					"pricing":"$1.99/lb",
+					"pricing":"$2.99/lb",
 					"comments":"save"
 				},
 				{
@@ -166,7 +166,7 @@
 					"comments":""
 				},
 				{
-					"image":"449095__White_Potatoes_10lbs",
+					"image":"449095__White_Potatoes_10lbs.jpg",
 					"coords":[236,200,73,85],
 					"name": "White Potatoes Product of P.E.I. Canada No. 1 Grade",
 					"brands": [""],
@@ -424,7 +424,7 @@
 					"coords":[237,200,73,85],
 					"name": "Fruit Cake Panettone",
 					"brands": ["Country Kitchen"],
-					"category": "grocery",
+					"category": "Country Kitchen",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"800g",
 					"pricing":"$3.99",
@@ -583,7 +583,7 @@
 					"image":"209836_GimMe Organic Roast Seaweed Snacks_combined.jpg",
 					"coords":[161,288,73,85],
 					"name": "gimMe Organic Roasted Seaweed Snacks Assorted Varieties",
-					"brands": ["gimMe"],
+					"brands": ["GimMe"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"10g",
@@ -754,7 +754,7 @@
 					"summary": "",
 					"packaging":"$11.00/kg",
 					"pricing":"$4.99/lb",
-					"comments":""
+					"comments":"save"
 				},
 				{
 					"image":"C6573.jpg",
@@ -763,7 +763,7 @@
 					"brands": ["Santa Lucia"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"$17.51/kg",
+					"packaging":"$17.61/kg",
 					"pricing":"$7.99/lb",
 					"comments":""
 				},
@@ -792,12 +792,12 @@
 				{
 					"image":"203308_Silani_CheeseWedge_combined.jpg",
 					"coords":[85,200,73,85],
-					"name": "Stella Asiago Cheese At the Deli",
-					"brands": ["Stella"],
+					"name": "Silani Reserved Asiago or Parmesan Cheese Wedge",
+					"brands": ["Silani"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"500g",
-					"pricing":"$12.99",
+					"packaging":"150g",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
