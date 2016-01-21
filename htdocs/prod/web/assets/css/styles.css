@@ -6442,6 +6442,13 @@ a#flyerModal {
 #chooseFlyer img{
   width: 100%;
 }
+.flyerThumb:hover,
+#currentFlyer .title,
+#currentFlyer .flyerDateRange,
+#nextFlyer .title,
+#nextFlyer .flyerDateRange {
+  cursor: pointer;
+}
 .carousel .carousel-inner .item{
   text-align: center;
 }
