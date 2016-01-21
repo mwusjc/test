@@ -112,6 +112,13 @@
 			// shuffle and slice functions are used to pick 4 random items if there are more than 4 related
 			// recipes defined in the JSON
 			hlf.recipes.drawRecommended(hlf.recipes.shuffle(data[index].related).slice(0,4), '.recommended');
+
+      // update the title
+      document.title = data[index].title + ' | Recipes | Highland Farms';
+
+      // update the meta description tag
+      var first160Characters = data[index].instructions.substring(0,160);
+      $('meta[name=description]').attr('content', first160Characters);
 		},
 
 		getRecipeIndex: function(data, searchTerm) {
