@@ -36,7 +36,7 @@
                         <div class="col-xs-12 col-sm-3 text-center">
                             <img class="image flyerThumb" src="">
                         </div>
-                        <div class="col-xs-12 col-sm-6">
+                        <div class="col-xs-12 col-sm-7">
                             <h2 class="title">This Week's Flyer</h2>
                             <h3 class="flyerDateRange">Friday, Nov 13 - Thursday, Nov 19</h3>
                         </div>
@@ -45,7 +45,7 @@
                         <div class="col-xs-12 col-sm-3 text-center">
                             <img class="image flyerThumb" src="">
                         </div>
-                        <div class="col-xs-12 col-sm-6">
+                        <div class="col-xs-12 col-sm-7">
                             <h2 class="title">Next Week's Flyer</h2>
                             <h3 class="flyerDateRange">Friday, Nov 20 - Thursday, Nov 26</h3>
                         </div>
