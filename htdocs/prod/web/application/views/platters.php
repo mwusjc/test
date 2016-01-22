@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-12">
+          <div class="col-xs-12 col-sm-12 margin-bottom-zero">
             <a href="/assets/order-form.pdf" class="btn green" target="_blank">Download order form</a>
           </div>
         </div>
