@@ -10,7 +10,7 @@
         <div class='col-sm-12'>
             <p id="backto">
                 <a href="/careers" class="backtolist"><span class='backtolist-arrow'>&lt; </span><span class='backtolist-copy'>Back to Listings</span></a>
-                <h1><?=$details['title']?> - <?=$details['location']?></h1>
+                <h1 id="job-title-and-location"></h1>
             </p>
         </div>
     </div>
@@ -18,16 +18,14 @@
         <div class='col-xs-12 col-sm-3'>
             <h3>Job Duties:</h3>
         </div>
-        <div class='col-xs-12 col-sm-9'>
-            <?=$details['details']['duties']?>
+        <div class='col-xs-12 col-sm-9' id='job-duties'>
         </div>
     </div>
     <div class='row' style="margin-top: 50px;">
         <div class='col-xs-12 col-sm-3'>
             <h3>Job Requirements:</h3>
         </div>
-        <div class='col-xs-12 col-sm-9'>
-            <?=$details['details']['requirements']?>
+        <div class='col-xs-12 col-sm-9' id='job-requirements'>
         </div>
     </div>
     <div class='row' style="margin-top: 50px;">
@@ -38,9 +36,9 @@
         		<div class="required-fields">* Required Fields</div>
             <form method="post" action="" enctype="multipart/form-data" id="job-application">
               <div class="row">
-	            <input type="hidden" name="location" value="<?=$details['location']?>" />
-	            <input type="hidden" name="title" value="<?=$details['title']?>"/>
-	            <input type="hidden" name="id" value="<?=$details['id']?>"/>
+	            <input type="hidden" name="location" />
+	            <input type="hidden" name="title" />
+	            <input type="hidden" name="id" />
                 <div class="col-xs-12 col-sm-6"><input name="first" type="text" value="<?=set_value('first')?>" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/></div>
                 <div class="col-xs-12 col-sm-6"><input name="last" type="text" value="<?=set_value('last')?>" placeholder="Last Name*" title="Last Name should not be left blank." x-moz-errormessage="Last Name should not be left blank." required/></div>
               </div>
@@ -93,4 +91,13 @@
       </div>
   </div>
 </div>
+</script>
+
+<script>
+  jQuery(document).ready(function($) {
+
+      hlf.data.careers = JSON.parse(<?php echo $details ?>);
+      hlf.careers.renderSingleCareer(hlf.data.careers);
+
+  });
 </script>
