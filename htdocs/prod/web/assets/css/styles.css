@@ -6308,6 +6308,11 @@ form input[type="text"], form input[type="email"] {
 .visit-us-half-width {
   width: 97% !important;
 }
+
+.contact-link {
+  font-weight: normal;
+}
+
 form .row {
   margin-bottom: 0px; }
 iframe {
