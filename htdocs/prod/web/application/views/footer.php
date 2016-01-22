@@ -38,6 +38,8 @@
 <script src="../../assets/js/hlf.recipesjson.js?rev=2bbe18fd09efbccda8369cc84f7391a4"></script>
 <script src="../../assets/js/validate.js?rev=0ba12861d4b921c8a3506b29a96fe106"></script>
 <script src="../../assets/js/hlf.carousel.js?rev=b92dddcb103a4b1bc0cceb0766d0431a"></script>
+<script src="../../assets/js/hlf.careers.js?rev=b92dddcb103a4b1bc0cceb0766d0431a"></script>
+<script src="../../assets/js/markdown.min.js?rev=b92dddcb103a4b1bc0cceb0766d0431a"></script>
 
 <script type='text/javascript'>
   jQuery(document).ready(function($) {
