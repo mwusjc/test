@@ -5562,7 +5562,7 @@ button.close {
   }
 
   .carousel-indicators {
-    bottom: -7px !important;
+    bottom: -27px !important;
   }
 
 }
@@ -7125,6 +7125,8 @@ h2{
   border-top:0;
   border-left:0;
   border-right:0;
+  position: relative;
+  top: -10px;
 }
 
 .carousel-slide2, .carousel-slide3, .carousel-slide4, .carousel-slide5, .carousel-slide6 {
@@ -7141,7 +7143,7 @@ span.subheading-text {
 
 .price-image {
   float:right;
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   bottom: 0;
   right: 0;
