@@ -7143,7 +7143,7 @@ span.subheading-text {
 
 .price-image {
   float:right;
-  z-index: 0;
+  z-index: 1;
   position: absolute;
   bottom: 0;
   right: 0;
