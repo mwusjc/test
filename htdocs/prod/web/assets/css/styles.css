@@ -6581,7 +6581,8 @@ a#flyerModal {
   background-image: none;
   background-image: none;
   background-image: none;
-  filter: none; }
+  filter: none;
+  z-index: 1; }
 
 .carousel-caption {
   display: none;
