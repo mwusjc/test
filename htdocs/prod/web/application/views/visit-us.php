@@ -50,12 +50,16 @@
         <div class="col-xs-12 col-sm-6 visit-us-form-field">
         	<input name="first" class="visit-us-half-width" type="text" value="<?php echo set_value('first'); ?>" aria-required="true" aria-label="First Name" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/>
         </div>
-      	<div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="<?php echo set_value('last'); ?>" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
+      	<div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="<?php echo set_value('last'); ?>" aria-required="false" aria-label="Last Name" placeholder="Last Name*" x-moz-errormessage="Last Name should not be left blank." required/></div>
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" class="visit-us-half-width" type="email" value="<?php echo set_value('email'); ?>" aria-required="true" aria-label="Email" placeholder="Email*" required/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" class="visit-us-half-width" type="email" value="<?php echo set_value('email'); ?>" aria-required="true" aria-label="Email" placeholder="Email*" x-moz-errormessage="Email should not be left blank." required/></div>
         <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" class="visit-us-half-width" type="text" value="<?php echo set_value('phone'); ?>" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="subject" class="visit-us-half-width" type="text" maxlength="150" value="<?php echo set_value('subject'); ?>" aria-required="true" aria-label="Subject Line" placeholder="Subject Line*" x-moz-errormessage="Subject line should not be left blank." required /></div>
       </div>
 
       <div class="row">
