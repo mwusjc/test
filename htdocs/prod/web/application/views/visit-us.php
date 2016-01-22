@@ -39,8 +39,7 @@
   <div class="col-xs-12 col-sm-3">
     <h2>We're here to help.</h2>
 
-    <p>Trying to locate a difficult-to-find product?
-Or have a fresh idea that could make your Highland Farms experience even more enjoyable? We'd love to hear from you.</p>
+    <p>Trying to locate a difficult-to-find product? Or have a fresh idea that could make your Highland Farms experience even more enjoyable? We'd love to hear from you. Send us an email at <a href="mailto:customerservice@highlandfarms.on.ca" class="contact-link">customerservice@highlandfarms.on.ca</a> or if you prefer, use the form to the right.</p>
   </div>
   <div class="col-xs-12 col-sm-1">
   </div>
