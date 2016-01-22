@@ -7166,6 +7166,10 @@ span.subheading-text {
   padding: 10px 20px 20px 10px;
 }
 
+#job-duties ul, #job-requirements ul {
+  padding-left: 15px;
+}
+
 /* Firefox only */
 @-moz-document url-prefix() {
   #upload-resume-file {
