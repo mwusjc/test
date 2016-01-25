@@ -45,8 +45,7 @@ class Visit extends CI_Controller {
 
     if ($this->form_validation->run())  {
 
-      // $to = "customerservice@highlandfarms.on.ca";
-      $to = "brian.inacio@stjoseph.com";
+      $to = "customerservice@highlandfarms.on.ca";
       $from = $_POST['email'];
       $first = htmlspecialchars($_POST['first']);
       $last = htmlspecialchars($_POST['last']);
