@@ -43,10 +43,16 @@ class Visit extends CI_Controller {
 
         $this->load->view("header", array('title'=>'Store Locations & Hours | Contact Us | Highland Farms', "desc" => "Directions, maps and contact details for Highland Farms stores in Scarborough and Mississauga." ));
 
+        // Parse config.json file from root of project to retrieve recipient email address from config.json file
+        // $config = file_get_contents('../../../config.json');
+        // The true parameter represents whether to use an associative array when decoding JSON
+        // $json = json_decode($config, true);
+
     if ($this->form_validation->run())  {
 
+      // $to = $json[0]['email-recipient'];
       $to = "customerservice@highlandfarms.on.ca";
-      $from = $_POST['email'];
+      $from = htmlspecialchars($_POST['email']);
       $first = htmlspecialchars($_POST['first']);
       $last = htmlspecialchars($_POST['last']);
       $subject = htmlspecialchars($_POST['subject']);
