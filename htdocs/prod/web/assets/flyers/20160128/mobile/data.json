@@ -13,7 +13,7 @@
 					"category": "meat",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$2.84/kg",
-					"pricing":"$1.29/lb",
+					"pricing":"$1.29",
 					"comments":"save"
 				},
 				{
@@ -34,7 +34,7 @@
 					"brands": ["Fleecy"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"1L",
+					"packaging":"3L",
 					"pricing":"$5.99",
 					"comments":""
 				},
@@ -78,7 +78,7 @@
 					"comments":""
 				},
 				{
-					"image":"C7528.jpg",
+					"image":"404080_Fresh_Asparagus_Traffic_v2.jpg",
 					"coords":[161,9,149,102],
 					"name": "Asparagus Product of Mexico No. 1 Grade",
 					"brands": [""],
@@ -107,7 +107,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"each",
-					"pricing":"$3.99/lb",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -296,7 +296,7 @@
 					"image":"IogoYogurt_Combined.jpg",
 					"coords":[161,200,73,85],
 					"name": "iogo Yogurt Greko or Moment Assorted Varieties",
-					"brands": ["iogo"],
+					"brands": ["Iogo"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"4x100g",
@@ -409,7 +409,7 @@
 					"comments":""
 				},
 				{
-					"image":"PepsiCoBeverages_Bottles_Combined.jpg",
+					"image":"Pepsi_Bottles_combined.jpg",
 					"coords":[237,119,74,34],
 					"name": "PepsiCo Beverages Any Flavour",
 					"brands": ["PepsiCo"],
@@ -797,7 +797,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"$17.61/kg",
-					"pricing":"$7.99",
+					"pricing":"$7.99/lb",
 					"comments":""
 				},
 				{
@@ -814,7 +814,7 @@
 				{
 					"image":"TreStelle_Slices_Combined.jpg",
 					"coords":[85,200,73,85],
-					"name": "Tre Stelle Cheese Slices  Assorted Varieties",
+					"name": "Tre Stelle Cheese Slices Assorted Varieties",
 					"brands": ["Tre Stelle"],
 					"category": "deli",
 					"summary": "",
@@ -845,8 +845,19 @@
 					"comments":""
 				},
 				{
+					"image":"310247_Pillers_European Weiners_450g.jpg",
+					"coords":[9,288,73,85],
+					"name": "Piller's European Wieners",
+					"brands": ["Piller's"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"450g",
+					"pricing":"$6.99",
+					"comments":""
+				},
+				{
 					"image":"MarcAngelo_SlicedMeat_Combined.jpg",
-					"coords":[9,288,149,85],
+					"coords":[85,288,73,85],
 					"name": "Marc Angelo Imported Sliced Meats Assorted Varieties",
 					"brands": ["Marc Angelo"],
 					"category": "deli",
@@ -862,8 +873,8 @@
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
 					"summary": "",
-					"packaging":"100g",
-					"pricing":"$1.99",
+					"packaging":"",
+					"pricing":"$1.99/100g",
 					"comments":""
 				}
 			]
@@ -909,8 +920,8 @@
 					"image":"NorthOf90_Combined.jpg",
 					"coords":[161,113,73,85],
 					"name": "North of 90 Fresh Extra Lean Ground Chicken or Turkey Product of Canada",
-					"brands": [""],
-					"category": "meat",
+					"brands": ["North of 90"],
+					"category": "poultry",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$11.00/kg",
 					"pricing":"$4.99/lb",
@@ -920,8 +931,8 @@
 					"image":"300705 North of 90 Turkey Breast Scallopini.jpg",
 					"coords":[237,113,73,85],
 					"name": "North of 90 Turkey Breast Scaloppine",
-					"brands": [""],
-					"category": "meat",
+					"brands": ["North of 90"],
+					"category": "poultry",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$22.02/kg",
 					"pricing":"$9.99/lb",
