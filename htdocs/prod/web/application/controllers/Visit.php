@@ -47,16 +47,16 @@ class Visit extends CI_Controller {
 
       $to = "customerservice@highlandfarms.on.ca";
       $from = $_POST['email'];
-      $first = $_POST['first'];
-      $last = $_POST['last'];
-      $subject = $_POST['subject'];
-      $phone = $_POST['phone'];
-      $message = $_POST['message'];
+      $first = htmlspecialchars($_POST['first']);
+      $last = htmlspecialchars($_POST['last']);
+      $subject = htmlspecialchars($_POST['subject']);
+      $phone = htmlspecialchars($_POST['phone']);
+      $message = htmlspecialchars($_POST['message']);
 
       $email = "From: $first $last<br/>
               Email: $from<br/>
               Phone: $phone<br/>
-              Message: " . nl2br($message);
+              Message: " . nl2br(htmlspecialchars($message));
 
       send_ses_email($to, $subject, $email);
 
