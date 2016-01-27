@@ -10,10 +10,10 @@
 					"coords":[12,160,204,208],
 					"name": "Fresh Ontario Chicken Leg Quarters Backs Attached",
 					"brands": [""],
-					"category": "meat",
+					"category": "poultry",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$2.84/kg",
-					"pricing":"$1.29",
+					"pricing":"$1.29/lb",
 					"comments":"save"
 				},
 				{
@@ -24,7 +24,7 @@
 					"category": "produce",
 					"summary": "",
 					"packaging":"bunch",
-					"pricing":"$1.49/lb",
+					"pricing":"$1.49",
 					"comments":"save"
 				},
 				{
@@ -403,7 +403,7 @@
 					"comments":""
 				},
 				{
-					"image":"Pepsi_Bottles_combined.jpg",
+					"image":"PepsiCoBeverages_Bottles_Combined.jpg",
 					"coords":[326,162,103,48],
 					"name": "PepsiCo Beverages Any Flavour",
 					"brands": ["PepsiCo"],
