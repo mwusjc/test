@@ -311,12 +311,12 @@
 				{
 					"image":"Natrel_Combined.jpg",
 					"coords":[453,397,101,117],
-					"name": "Natrel Fine-Filtered Organic Milk 2% or 1% 3.8% 4L - $8.99",
+					"name": "Natrel Fine-Filtered Organic Milk 2% or 1% 4L - $8.49",
 					"brands": ["Natrel"],
 					"category": "dairy",
 					"summary": "",
-					"packaging":"4L",
-					"pricing":"$8.49",
+					"packaging":"",
+					"pricing":"3.8% 4L - $8.99",
 					"comments":""
 				},
 				{
@@ -686,7 +686,7 @@
 				{
 					"image":"CountryKitchen_Combined.jpg",
 					"coords":[222,276,205,117],
-					"name": "Frozen Lasagna, Cannelloni Meat or Cheese or Cabbage Rolls",
+					"name": "Country Kitchen Frozen Lasagna, Cannelloni Meat or Cheese or Cabbage Rolls",
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
