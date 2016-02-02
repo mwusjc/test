@@ -228,7 +228,7 @@
 			"products":[
 				{
 					"image":"Wonder_bread_combined.jpg",
-					"coords":[9,24,150,87],
+					"coords":[9,9,150,102],
 					"name": "Wonder Classic or +Fibre Sliced Bread White or 100% Whole Wheat",
 					"brands": ["Wonder"],
 					"category": "bakery",
@@ -253,7 +253,7 @@
 					"coords":[85,113,74,83],
 					"name": "Ace Bakery White Baguette Non GMO",
 					"brands": ["Ace Bakery"],
-					"category": "grocery",
+					"category": "bakery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"350g",
 					"pricing":"$2.79",
@@ -295,7 +295,7 @@
 				{
 					"image":"147772_Astro_Kik_Drinkable_Yogurt_Tropical_Twist_200ml_combined.jpg",
 					"coords":[161,200,73,85],
-					"name": "Astro Ki Yogourt Drinks Assorted Varieties",
+					"name": "Astro Kik Yogourt Drinks Assorted Varieties",
 					"brands": ["Astro"],
 					"category": "dairy",
 					"summary": "",
@@ -377,7 +377,7 @@
 				},
 				{
 					"image":"Tostitos_combined.jpg",
-					"coords":[161,24,150,85],
+					"coords":[161,9,150,102],
 					"name": "Tostitos Tortilla Chips Assorted Varieties",
 					"brands": ["Tostitos"],
 					"category": "grocery",
@@ -478,7 +478,7 @@
 					"image":"Nescafe_Tasters_Choice_combined.jpg",
 					"coords":[236,288,73,85],
 					"name": "Nescafe Rich & Taster's Choice Instant Coffee Assorted Varieties",
-					"brands": ["Nescafe"],
+					"brands": ["Nescafe","Taster's Choice"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"100-150g",
@@ -566,17 +566,6 @@
 					"summary": "",
 					"packaging":"6x1L",
 					"pricing":"$9.99",
-					"comments":""
-				},
-				{
-					"image":"toonies_for_tummies.jpg",
-					"coords":[9,288,301,85],
-					"name": "",
-					"brands": [""],
-					"category": "",
-					"summary": "",
-					"packaging":"",
-					"pricing":"",
 					"comments":""
 				}
 			]
@@ -793,7 +782,7 @@
 					"image":"Fontaine_Sante_Hummus_227g_combined.jpg",
 					"coords":[161,200,73,85],
 					"name": "Fontaine Sante Humm! Hummus Cocktail Assorted Varieties",
-					"brands": ["Fontaine"],
+					"brands": ["Fontaine Sante"],
 					"category": "deli",
 					"summary": "",
 					"packaging":"227g",
@@ -874,7 +863,7 @@
 				},
 				{
 					"image":"C1088.jpg",
-					"coords":[161,24,73,87],
+					"coords":[161,9,73,102],
 					"name": "Fresh Lean Ground Beef",
 					"brands": [""],
 					"category": "meat",
@@ -885,7 +874,7 @@
 				},
 				{
 					"image":"C7595.jpg",
-					"coords":[237,24,73,87],
+					"coords":[237,9,73,102],
 					"name": "Fresh Stewing Beef Product of Canada",
 					"brands": [""],
 					"category": "meat",
