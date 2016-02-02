@@ -68,7 +68,7 @@
 			"products":[
 				{
 					"image":"430769_Carrousel_SeedlessClementine_2lb_Bag.jpg",
-					"coords":[12,33,206,140],
+					"coords":[12,33,206,120],
 					"name": "Clementines Product of Morocco",
 					"brands": [""],
 					"category": "produce",
@@ -79,7 +79,7 @@
 				},
 				{
 					"image":"C6.jpg",
-					"coords":[222,12,206,120],
+					"coords":[222,12,206,140],
 					"name": "Head Lettuce Product of U.S.A. No. 1 Grade",
 					"brands": [""],
 					"category": "produce",
@@ -247,7 +247,7 @@
 					"coords":[558,154,101,117],
 					"name": "Ace Bakery White Baguette Non GMO",
 					"brands": ["Ace Bakery"],
-					"category": "grocery",
+					"category": "bakery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"350g",
 					"pricing":"$2.79",
@@ -289,7 +289,7 @@
 				{
 					"image":"147772_Astro_Kik_Drinkable_Yogurt_Tropical_Twist_200ml_combined.jpg",
 					"coords":[663,276,101,117],
-					"name": "Astro Ki Yogourt Drinks Assorted Varieties",
+					"name": "Astro KiK Yogourt Drinks Assorted Varieties",
 					"brands": ["Astro"],
 					"category": "dairy",
 					"summary": "",
@@ -472,7 +472,7 @@
 					"image":"Nescafe_Tasters_Choice_combined.jpg",
 					"coords":[327,397,101,117],
 					"name": "Nescafe Rich & Taster's Choice Instant Coffee Assorted Varieties",
-					"brands": ["Nescafe"],
+					"brands": ["Nescafe","Taster's Choice"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"100-150g",
@@ -554,17 +554,6 @@
 					"summary": "",
 					"packaging":"6x1L",
 					"pricing":"$9.99",
-					"comments":""	
-				},
-				{
-					"image":"toonies_for_tummies.jpg",
-					"coords":[453,397,416,117],
-					"name": "",
-					"brands": [""],
-					"category": "",
-					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"",
-					"pricing":"",
 					"comments":""			
 				}
 			]
@@ -652,7 +641,7 @@
 				},
 				{
 					"image":"Schneiders_Juicy_Jumbo_Wieners.jpg",
-					"coords":[12,401,205,113],
+					"coords":[160,401,59,113],
 					"name": "Schneiders Juicy Jumbos Wieners Selected Varieties",
 					"brands": ["Schneiders"],
 					"category": "grocery",
@@ -775,7 +764,7 @@
 					"image":"Fontaine_Sante_Hummus_227g_combined.jpg",
 					"coords":[663,276,101,117],
 					"name": "Fontaine Sante Humm! Hummus Cocktail Assorted Varieties",
-					"brands": ["Fontaine"],
+					"brands": ["Fontaine Sante"],
 					"category": "deli",
 					"summary": "",
 					"packaging":"227g",
@@ -828,7 +817,7 @@
 				},
 				{
 					"image":"19345_HLF_CK_Cheddar and Bacon Potato Salad.jpg",
-					"coords":[768,397,205,117],
+					"coords":[768,397,101,117],
 					"name": "Cheddar & Bacon Potato Salad",
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
