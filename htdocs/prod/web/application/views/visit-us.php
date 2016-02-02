@@ -46,6 +46,7 @@
   <div class="col-xs-12 col-sm-8">
   	<div class="required-fields">* Required Fields</div>
     <?php 
+      $first = filter_input(INPUT_POST, 'first', FILTER_SANITIZE_SPECIAL_CHARS); 
       $last = filter_input(INPUT_POST, 'last', FILTER_SANITIZE_SPECIAL_CHARS);
       $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_SPECIAL_CHARS);
       $phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_SPECIAL_CHARS);
@@ -55,7 +56,7 @@
     <form method="post" action="" id="form">
       <div class="row">
         <div class="col-xs-12 col-sm-6 visit-us-form-field">
-        	<input name="first" class="visit-us-half-width" type="text" value="<?php echo set_value('first'); ?>" aria-required="true" aria-label="First Name" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/>
+        	<input name="first" class="visit-us-half-width" type="text" value="<?php echo $first; ?>" aria-required="true" aria-label="First Name" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/>
         </div>
       	<div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="<?php echo $last; ?>" aria-required="false" aria-label="Last Name" placeholder="Last Name*" x-moz-errormessage="Last Name should not be left blank." required/></div>
       </div>
