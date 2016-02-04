@@ -6949,6 +6949,7 @@ height: 210px;
     width: 100%; }
 
 .ck-products {
+  background: #fff;
   border: 1px solid #cccccc;
   padding: 30px 25px;
   border-radius: 10px;
@@ -6967,6 +6968,19 @@ height: 210px;
   .ck-products .img-block p {
 	  text-align: left;
   }
+
+/*This block is for details positioning on desktop environments*/
+@media (min-width: 768px) {
+  .ck-details {
+    padding: 0;
+    width: calc(100% * 2 + 30px);
+  }
+
+  .row > .col-sm-6:nth-of-type(2) .ck-details {
+    margin-left: calc(-100% + -30px);
+  }
+}
+
 #detailModal .image {
   max-height: 300px;
   max-width: 200px;
