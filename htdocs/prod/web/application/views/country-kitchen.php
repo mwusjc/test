@@ -276,14 +276,13 @@
                 $('.ck-products').slideUp();
                 $(obj).slideDown(); 
             });
-            $('[data-slideup]').on("click", function() {
+            $('[data-slideup]').on("click", function(e) {
                 var obj = $(this)[0].getAttribute("data-slideup"); 
                 $(obj).slideUp();
                 //Check if a fragment identifier exists on section close and remove it from the URL if present
-                if(document.URL.substr(document.URL.indexOf('#') > 0)) {
-                    var resetURL = document.URL.substr(0, document.URL.indexOf('#'));
-                    window.location = resetURL;
-                }
+                history.pushState({page: "Country Kitchen"}, "", "/country-kitchen");
+                //This prevents the browser from a flash reset of the URL without actually changing it
+                return false;
             });
             
             $('body').on("click", '[data-add-cart]', function(e) {
