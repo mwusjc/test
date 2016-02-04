@@ -27,17 +27,7 @@
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_frozen.png')?>" alt="Frozen Entr&eacute;es"/></div>
                 <h2 class="box bottom">Frozen Entrées</h2>  
             </div>
-        </div>
-        <div class='col-sm-6'>
-            <div class="ck-item" data-id="2" data-slidedown='.ck-products[data-id="2"]' data-category-name='breads'>                
-                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_bread.png')?>" alt="Bread &amp; Artisan Breads"/></div>
-                <h2 class="box bottom">Bread & Artisan Breads</h2>
-            </div>
-        </div>
-
-    </div>
-    <div class='row'>
-        <div class='col-sm-12 ck-details'>
+            <div class='col-sm-12 ck-details'>
             <div class='ck-products bottom-slide' data-id='1' data-category-name='frozen-entrees'>
                 <h1>Frozen Entrées</h1>
                 <h2>Made from the freshest and finest ingredients, our selection of entrées is an easy way to serve your family's favourites.</h2>
@@ -56,9 +46,13 @@
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
         </div>
-    </div>
-    <div class='row'>
-        <div class='col-sm-12 ck-details'>
+        </div>
+        <div class='col-sm-6'>
+            <div class="ck-item" data-id="2" data-slidedown='.ck-products[data-id="2"]' data-category-name='breads'>                
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_bread.png')?>" alt="Bread &amp; Artisan Breads"/></div>
+                <h2 class="box bottom">Bread & Artisan Breads</h2>
+            </div>
+            <div class='col-sm-12 ck-details'>
             <div class='ck-products bottom-slide' data-id='2' data-category-name='breads'>
                 <h1>Bread & Artisan Breads</h1>
                 <h2>Our hearty and wholesome breads are freshly baked with natural, quality ingredients.</h2>
@@ -78,6 +72,7 @@
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>  
         </div>
+        </div>
 
     </div>
 
@@ -87,17 +82,7 @@
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_sauces.png')?>" alt="All Natural Sauces"/></div>
                 <h2 class="box bottom">All Natural Sauces</h2>
             </div>
-        </div>
-        <div class='col-sm-6'>
-            <div class="ck-item" data-id="4" data-slidedown='.ck-products[data-id="4"]' data-category-name='sweet-savoury-snacks'>            
-                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_snacks.png')?>" alt="Sweet &amp; Savoury Snacks"/></div>
-                <h2 class="box bottom">Sweet & Savoury Snacks</h2>
-            </div>
-        </div>
-    </div>
-
-    <div class='row'>
-        <div class='col-sm-12 ck-details'>
+            <div class='col-sm-12 ck-details'>
             <div class='ck-products bottom-slide' data-id='3' data-category-name='all-natural-sauces'>
                 <h1>All Natural Sauces</h1>
                 <h2>Enhance the flavour of your dishes with our flavourful sauces, seasoned to perfection.</h2>
@@ -116,9 +101,13 @@
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
         </div>
-    </div>
-    <div class='row'>
-        <div class='col-sm-12 ck-details'>
+        </div>
+        <div class='col-sm-6'>
+            <div class="ck-item" data-id="4" data-slidedown='.ck-products[data-id="4"]' data-category-name='sweet-savoury-snacks'>            
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_snacks.png')?>" alt="Sweet &amp; Savoury Snacks"/></div>
+                <h2 class="box bottom">Sweet & Savoury Snacks</h2>
+            </div>
+            <div class='col-sm-12 ck-details'>
             <div class='ck-products bottom-slide' data-id='4' data-category-name='sweet-savoury-snacks'>
                 <h1>Sweet & Savoury Snacks</h1>
                 <h2>Satisfy your cravings with an array of nuts and dried fruit.</h2>
@@ -140,6 +129,7 @@
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
         </div>
+        </div>
     </div>
 
     <div class='row'>
@@ -149,17 +139,7 @@
                 <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_baked-goods.png')?>" alt="Baked Goods"/></div>
                 <h2 class="box bottom">Baked Goods</h2>
             </div>
-        </div>
-        <div class='col-sm-6'>                                                
-            <div class="ck-item" data-id="6" data-slidedown='.ck-products[data-id="6"]' data-category-name='prepped-ready-meals'>              
-                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_readymeals.png')?>" alt="Prepped &amp; Ready Meals"/></div>
-                <h2 class="box bottom">Prepped & Ready Meals</h2>
-            </div>
-        </div>
-    </div>
-
-    <div class='row'>
-        <div class='col-sm-12 ck-details'>
+            <div class='col-sm-12 ck-details'>
             <div class='ck-products bottom-slide' data-id='5' data-category-name='baked-goods'>
                 <h1>Baked Goods</h1>
                 <h2>Freshly made and ready to be devoured, we have something for every sweet tooth.</h2>
@@ -178,9 +158,13 @@
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
         </div>
-    </div>
-    <div class='row'>
-        <div class='col-sm-12 ck-details'>
+        </div>
+        <div class='col-sm-6'>                                                
+            <div class="ck-item" data-id="6" data-slidedown='.ck-products[data-id="6"]' data-category-name='prepped-ready-meals'>              
+                <div class='image'><img src="<?=site_url('/assets/images/country-kitchen/ck_category_readymeals.png')?>" alt="Prepped &amp; Ready Meals"/></div>
+                <h2 class="box bottom">Prepped & Ready Meals</h2>
+            </div>
+            <div class='col-sm-12 ck-details'>
             <div class='ck-products bottom-slide' data-id='6' data-category-name='prepped-ready-meals'>
                 <h1>Prepped & Ready Meals</h1>
                 <h2>Our chefs have prepped the freshest ingredients of your favourite dishes. Everything's ready to be enjoyed in minutes.</h2>
@@ -198,6 +182,7 @@
                 </div>
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
             </div>
+        </div>
         </div>
     </div>
 
