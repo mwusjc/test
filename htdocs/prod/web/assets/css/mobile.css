@@ -116,6 +116,10 @@
       padding: 0;
     }
 
+    .ck-details:not(.open) {
+      display: none;
+    }
+
     .originals-feature {
       margin-bottom: 0 !important;
       /*padding-left: 0;*/

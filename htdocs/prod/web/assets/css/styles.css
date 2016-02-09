@@ -6951,29 +6951,41 @@ height: 210px;
 .ck-products {
   background: #fff;
   border: 1px solid #cccccc;
+  top:1px;
   padding: 30px 25px;
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
-  display: none; }
-  .ck-products a {
-    text-align: left; }
-  .ck-products img {
-    max-width: 200px;
-    max-height: 200px; }
-  .ck-products .img-block {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto; }
-  .ck-products .img-block p {
-	  text-align: left;
-  }
+  display: none; 
+}
+.ck-products a {
+  text-align: left; 
+}
+.ck-products img {
+  max-width: 200px;
+  max-height: 200px; 
+}
+.ck-products .img-block {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto; 
+}
+.ck-products .img-block p {
+  text-align: left;
+}
+
+.open {
+  max-height: 100% !important;
+}
 
 /*This block is for details positioning on desktop environments*/
 @media (min-width: 768px) {
   .ck-details {
     padding: 0;
     width: calc(100% * 2 + 30px);
+    transition: max-height 0.5s;
+    max-height: 0px;
+    overflow:hidden;
   }
 
   .row > .col-sm-6:nth-of-type(2) .ck-details {
