@@ -263,7 +263,8 @@
                 if ($('.ck-item#' + target + ' ~ .ck-details.open').length > 0) {
                     $('.ck-item#' + target + ' ~ .ck-details.open').removeClass('open');
                     // Take expando out of view
-                    $('.ck-item#' + target + ' ~ .ck-details > .ck-products.' + target + '').removeClass('open');
+                    $('.ck-item#' + target + ' ~ .ck-details > .ck-products.' + target + '').removeClass('open').slideUp();
+                    checkHash();
                 }
                 else {
                     // Target category is currently closed, need to close any other expandos that are currently open
@@ -272,9 +273,26 @@
                     // Open the expando that has been clicked
                     $('.ck-item#' + target + ' ~ .ck-details').addClass('open');
                     // Bring current expando into view
-                    $('.ck-item#' + target + ' ~ .ck-details.open > .ck-products.' + target + '');   
+                    $('.ck-item#' + target + ' ~ .ck-details.open > .ck-products.' + target + '').slideDown();   
                 }
             });
+
+            function checkHash(baseURL) {
+                //Check if a fragment identifier exists on section close and remove it from the URL if present
+                var currentURL = document.URL.split('/');
+                // Get current page name
+                var baseURL = currentURL[currentURL.length - 1];
+                // Remove fragment identifier from URL
+                baseURL = "/"+baseURL.replace(/\#.*/,'');
+
+                $.ajax({
+                    url: baseURL,
+                    type:"GET",
+                }).done(function() {
+                    // Replace URL containg fragment identifier with base URL
+                    history.pushState({}, "", baseURL);
+                });
+            }
 
             // This function is for close button click within expandos (top right corner)
             $('[data-slideup]').on("click", function(e) {

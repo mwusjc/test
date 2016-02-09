@@ -6956,7 +6956,7 @@ height: 210px;
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
-  /*display: none; */
+  display: none; 
 }
 .ck-products a {
   text-align: left; 
