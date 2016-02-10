@@ -125,7 +125,7 @@
 					"image":"C1980.jpg",
 					"coords":[327,156,101,117],
 					"name": "Fresh Andy Boy Romaine Hearts Product of U.S.A.",
-					"brands": [""],
+					"brands": ["Andy Boy"],
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging": "pkg of 3",
@@ -144,7 +144,7 @@
 					"comments":""
 				},
 				{
-					"image":"pineapple_combined.jpg",
+					"image":"Pineapple_combined.jpg",
 					"coords":[117,276,101,117],
 					"name": "Extra Sweet Pineapples Product of Costa Rica",
 					"brands": [""],
@@ -177,7 +177,7 @@
 					"comments":""
 				},
 				{
-					"image":"C1089.jpg",
+					"image":"Avacado_combined.jpg",
 					"coords":[12,397,101,117],
 					"name": "Avocados Product of Mexico",
 					"brands": [""],
@@ -199,7 +199,7 @@
 					"comments":""
 				},
 				{
-					"image":"C307.jpg",
+					"image":"Celery_combined.jpg",
 					"coords":[222,397,101,117],
 					"name": "Celery Product of U.S.A. No. 1 Grade Large Stalk",
 					"brands": [""],
@@ -335,7 +335,7 @@
 					"coords":[558,397,101,117],
 					"name": "Butter Salted or Unsalted",
 					"brands": ["Country Kitchen"],
-					"category": "country kitchen",
+					"category": ["country kitchen","dairy"],
 					"summary": "",
 					"packaging":"454g",
 					"pricing":"$3.99",
@@ -395,7 +395,7 @@
 					"image":"Fruite_Juice_Tetley_Iced_Tea_2L_vdr_combined.jpg",
 					"coords":[222,155,206,117],
 					"name": "Fruite Fruit Drinks or Tetley Lemon Iced Tea",
-					"brands": ["Fruite"],
+					"brands": ["Fruite","Tetley"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"2L",
@@ -473,7 +473,7 @@
 					"coords":[222,397,101,117],
 					"name": "S&F Cream Crackers",
 					"brands": ["S&F"],
-					"category": "country kitchen",
+					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"200g",
 					"pricing":"$0.99",
