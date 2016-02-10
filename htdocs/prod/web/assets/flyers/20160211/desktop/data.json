@@ -144,7 +144,7 @@
 					"comments":""
 				},
 				{
-					"image":"Pineapple_combined.jpg",
+					"image":"pineapple_combined.jpg",
 					"coords":[117,276,101,117],
 					"name": "Extra Sweet Pineapples Product of Costa Rica",
 					"brands": [""],
@@ -335,7 +335,7 @@
 					"coords":[558,397,101,117],
 					"name": "Butter Salted or Unsalted",
 					"brands": ["Country Kitchen"],
-					"category": ["country kitchen","dairy"],
+					"category": "country kitchen",
 					"summary": "",
 					"packaging":"454g",
 					"pricing":"$3.99",
@@ -609,7 +609,7 @@
 					"summary": "",
 					"packaging":"",
 					"pricing":"30% OFF",
-					"comments":""			
+					"comments":""
 				}
 			]
 		},
