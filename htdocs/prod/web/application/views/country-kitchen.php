@@ -58,15 +58,17 @@
                 <h2>Our hearty and wholesome breads are freshly baked with natural, quality ingredients.</h2>
                 <div class='row'>
                 <?php
+                    // Specify which item id's are not to be shown as per ticket #138
+                    $removedBreads = array("33", "30", "31", "34", "7", "32");
                     foreach($products AS $key=>$item) {
-                        if($item->category == "2") : ?>
+                        if($item->category == "2" && !(in_array($item->id, $removedBreads))) : ?>
                             <div class='col-sm-3'>
                                 <a href='' data-toggle-details='<?=$item->id?>' data-category='<?=$item->bread_type?>'>
                                     <div class='img-block'><img src="<?=site_url($item->image)?>" alt="<?=$item->name?>"/></div>
                                     <p class='title'><?=$item->name?></p> 
                                 </a>
                             </div>
-                <?PHP endif; } ?>                            
+                <?PHP endif; } ?>                          
                                  
                 </div>
                 <span class="glyphicon glyphicon-remove close" data-slideup='.ck-products'></span>
