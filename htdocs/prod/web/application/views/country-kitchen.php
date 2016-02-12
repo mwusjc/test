@@ -59,7 +59,7 @@
                 <div class='row'>
                 <?php
                     // Specify which item id's are not to be shown as per ticket #138
-                    $removedBreads = array("33", "30", "31", "34", "7", "32");
+                    $removedBreads = array("33", "30", "31", "34", "32");
                     foreach($products AS $key=>$item) {
                         if($item->category == "2" && !(in_array($item->id, $removedBreads))) : ?>
                             <div class='col-sm-3'>
