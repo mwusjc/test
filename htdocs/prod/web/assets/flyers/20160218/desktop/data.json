@@ -232,7 +232,7 @@
 					"comments":""
 				},
 				{
-					"image":"600892_Dimpflmeier_Organic-100%-Rye_454g_combined.jpg",
+					"image":"600892_Dimpflmeier_Organic-100-percent-Rye_454g_combined.jpg",
 					"coords":[453,154,101,117],
 					"name": "Dimpflmeier Organic 100% Rye Bread with Sunflower Seeds or Whole Grain",
 					"brands": ["Dimpflmeier"],
@@ -247,7 +247,7 @@
 					"coords":[558,154,101,117],
 					"name": "Fresh Scones Assorted Varieties",
 					"brands": ["Country Kitchen"],
-					"category": "bakery",
+					"category": "country kitchen",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"pkg of 6",
 					"pricing":"$4.99",
@@ -279,7 +279,7 @@
 					"image":"Iogo_yogurt_combined.jpg",
 					"coords":[453,276,205,117],
 					"name": "iogo Yogurt Probio Lactose Free 12x100g or Original, 0% 16x100g Assorted Varieties",
-					"brands": ["iogo"],
+					"brands": ["Iogo"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"each",
@@ -287,7 +287,7 @@
 					"comments":""
 				},
 				{			
-					"image":"Liberte_yogurt_Greek_500g_vdr_combined.jpg",
+					"image":"Liberte_Western_yogurt_750g_combined.jpg",
 					"coords":[663,276,101,117],
 					"name": "Liberte Classique or Western Yogurt Selected Varieties",
 					"brands": ["Liberte","Western"],

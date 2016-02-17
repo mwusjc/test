@@ -238,7 +238,7 @@
 					"comments":""
 				},
 				{
-					"image":"600892_Dimpflmeier_Organic-100%-Rye_454g_combined.jpg",
+					"image":"600892_Dimpflmeier_Organic-100-percent-Rye_454g_combined.jpg",
 					"coords":[9,113,74,83],
 					"name": "Dimpflmeier Organic 100% Rye Bread with Sunflower Seeds or Whole Grain",
 					"brands": ["Dimpflmeier"],
@@ -253,7 +253,7 @@
 					"coords":[85,113,74,83],
 					"name": "Fresh Scones Assorted Varieties",
 					"brands": ["Country Kitchen"],
-					"category": "bakery",
+					"category": "country kitchen",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"pkg of 6",
 					"pricing":"$4.99",
@@ -285,7 +285,7 @@
 					"image":"Iogo_yogurt_combined.jpg",
 					"coords":[9,201,150,85],
 					"name": "iogo Yogurt Probio Lactose Free 12x100g or Original, 0% 16x100g Assorted Varieties",
-					"brands": ["iogo"],
+					"brands": ["Iogo"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"each",
@@ -293,7 +293,7 @@
 					"comments":""
 				},
 				{
-					"image":"Liberte_yogurt_Greek_500g_vdr_combined.jpg",
+					"image":"Liberte_Western_yogurt_750g_combined.jpg",
 					"coords":[161,201,73,85],
 					"name": "Liberte Classique or Western Yogurt Selected Varieties",
 					"brands": ["Liberte","Western"],
@@ -686,7 +686,7 @@
 				},
 				{
 					"image":"C2700.jpg",
-					"coords":[161,288,73,85],
+					"coords":[9,288,73,85],
 					"name": "Riviera Frozen Meat Lasagna pkg of 2x1.81kg",
 					"brands": ["Riviera"],
 					"category": "grocery",
@@ -696,7 +696,7 @@
 					"comments":""
 				},
 				{
-					"image":"VH_Healthy_Choice_steamers_combined.jpg",
+					"image":"Rudis_GF_Bread_Tortilla_combined.jpg",
 					"coords":[85,288,73,85],
 					"name": "Rudi's Gluten-Free Bread 510g or Tortillas 256g Selected Products",
 					"brands": ["Rudi's"],
@@ -846,7 +846,7 @@
 				},
 				{
 					"image":"HLF_CK_Roasted_Chicken_combined.jpg",
-					"coords":[161,288,149,85],
+					"coords":[161,288,73,85],
 					"name": "Roasted Barbeque Chicken Min. Weight 800g",
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
@@ -857,7 +857,7 @@
 				},
 				{
 					"image":"19345_HLF_CK_Homestyle_Coleslaw.jpg",
-					"coords":[237,288,149,85],
+					"coords":[237,288,73,85],
 					"name": "Homestyle Coleslaw with Yogurt Dressing",
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
@@ -929,7 +929,7 @@
 				},
 				{
 					"image":"302239_YorkshireValley_whole_chicken.jpg",
-					"coords":[9,200,149,85],
+					"coords":[9,200,73,85],
 					"name": "Fresh, Organic Whole Chickens Grade A",
 					"brands": ["Yorkshire Valley Farms"],
 					"category": "poultry",
@@ -940,7 +940,7 @@
 				},
 				{
 					"image":"YVF_chicken_drumsticks.jpg",
-					"coords":[85,200,149,85],
+					"coords":[85,200,73,85],
 					"name": "Fresh, Organic Chicken Drumsticks",
 					"brands": ["Yorkshire Valley Farms"],
 					"category": "poultry",
@@ -951,7 +951,7 @@
 				},
 				{
 					"image":"302241_Yorkshire_Org_Chicken_Breast.jpg",
-					"coords":[161,200,149,85],
+					"coords":[161,200,73,85],
 					"name": "Fresh, Organic Boneless & Skinless Chicken Breast",
 					"brands": ["Yorkshire Valley Farms"],
 					"category": "poultry",
@@ -962,7 +962,7 @@
 				},
 				{
 					"image":"309413_Yorkshire_Valley_Farms_Organic_Chicken_Ground_vdr.jpg",
-					"coords":[237,200,149,85],
+					"coords":[237,200,73,85],
 					"name": "Fresh, Organic Ground Chicken",
 					"brands": ["Yorkshire Valley Farms"],
 					"category": "poultry",
