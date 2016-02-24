@@ -268,7 +268,7 @@
 					"summary": "",
 					"packaging":"each",
 					"pricing":"$15.99",
-					"comments":""
+					"comments":"save"
 				},
 				{
 					"image":"122692_Beatrice_Yogurt_FruitBottom_175g_vdr_combined.jpg",
@@ -299,7 +299,7 @@
 					"brands": ["Armstrong"],
 					"category": "dairy",
 					"summary": "",
-					"packaging":"900g",
+					"packaging":"300g",
 					"pricing":"$4.29",
 					"comments":""
 				},
@@ -341,7 +341,7 @@
 					"coords":[237,288,73,85],
 					"name": "L'Ancetre Organic Cheese Selected Varieties",
 					"brands": ["L'Ancetre"],
-					"category": "grocery",
+					"category": "dairy",
 					"summary": "",
 					"packaging":"200g",
 					"pricing":"$5.49",
@@ -819,7 +819,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"500g",
-					"pricing":"$3.99/lb",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
