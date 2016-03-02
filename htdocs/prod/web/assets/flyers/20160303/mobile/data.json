@@ -100,7 +100,7 @@
 					"comments":""
 				},
 				{
-					"image":"316.jpg",
+					"image":"430769_Carrousel_SeedlessClementine_2lb_Bag.jpg",
 					"coords":[85,113,73,85],
 					"name": "Seedless Clementines Product of Morocco",
 					"brands": [""],
@@ -797,7 +797,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"$26.43/kg",
-					"pricing":"$11.99",
+					"pricing":"$11.99/lb",
 					"comments":""
 				},
 				{
@@ -857,7 +857,7 @@
 				},
 				{
 					"image":"19102_HLF_CK-Panko-Chicken-with-Sweet-Chili-Sauce.jpg",
-					"coords":[161,288,149,85],
+					"coords":[161,288,73,85],
 					"name": "Panko Chicken Breast with Sweet Chili Sauce",
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
@@ -868,7 +868,7 @@
 				},
 				{
 					"image":"HLF_rice_carrots.jpg",
-					"coords":[237,288,149,85],
+					"coords":[237,288,73,85],
 					"name": "Glazed Baby Carrots or Rice Pilaf",
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
