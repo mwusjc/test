@@ -5562,7 +5562,7 @@ button.close {
   }
 
   .carousel-indicators {
-    bottom: -7px !important;
+    bottom: -27px !important;
   }
 
 }
@@ -6110,7 +6110,12 @@ h2.box {
 .modal .modal-body {
   padding: 60px 20px 40px 20px; }
 .modal .modal-body.padding {
-  padding: 80px 100px 40px 100px; }
+  margin: 8px;
+  padding: 20px; 
+}
+.margin-bottom-zero {
+  margin-bottom: 0 !important;
+}
 .modal .row {
   margin: 15px 0 20px 0; }
 .modal h2 {
@@ -6308,6 +6313,7 @@ form input[type="text"], form input[type="email"] {
 .visit-us-half-width {
   width: 97% !important;
 }
+
 form .row {
   margin-bottom: 0px; }
 iframe {
@@ -6442,6 +6448,13 @@ a#flyerModal {
 #chooseFlyer img{
   width: 100%;
 }
+.flyerThumb:hover,
+#currentFlyer .title,
+#currentFlyer .flyerDateRange,
+#nextFlyer .title,
+#nextFlyer .flyerDateRange {
+  cursor: pointer;
+}
 .carousel .carousel-inner .item{
   text-align: center;
 }
@@ -6573,7 +6586,8 @@ a#flyerModal {
   background-image: none;
   background-image: none;
   background-image: none;
-  filter: none; }
+  filter: none;
+  z-index: 1; }
 
 .carousel-caption {
   display: none;
@@ -6935,24 +6949,50 @@ height: 210px;
     width: 100%; }
 
 .ck-products {
+  background: #fff;
   border: 1px solid #cccccc;
+  top:1px;
   padding: 30px 25px;
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
-  display: none; }
-  .ck-products a {
-    text-align: left; }
-  .ck-products img {
-    max-width: 200px;
-    max-height: 200px; }
-  .ck-products .img-block {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto; }
-  .ck-products .img-block p {
-	  text-align: left;
+  display: none; 
+}
+.ck-products a {
+  text-align: left; 
+}
+.ck-products img {
+  max-width: 200px;
+  max-height: 200px; 
+}
+.ck-products .img-block {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto; 
+}
+.ck-products .img-block p {
+  text-align: left;
+}
+
+.open {
+  max-height: 100% !important;
+}
+
+/*This block is for details positioning on desktop environments*/
+@media (min-width: 768px) {
+  .ck-details {
+    padding: 0;
+    width: calc(100% * 2 + 30px);
+    transition: max-height 0.5s;
+    max-height: 0px;
+    overflow:hidden;
   }
+
+  .row > .col-sm-6:nth-of-type(2) .ck-details {
+    margin-left: calc(-100% + -30px);
+  }
+}
+
 #detailModal .image {
   max-height: 300px;
   max-width: 200px;
@@ -7113,6 +7153,8 @@ h2{
   border-top:0;
   border-left:0;
   border-right:0;
+  position: relative;
+  top: -10px;
 }
 
 .carousel-slide2, .carousel-slide3, .carousel-slide4, .carousel-slide5, .carousel-slide6 {
@@ -7152,6 +7194,10 @@ span.subheading-text {
 .carousel-description-right {
   background: white;
   padding: 10px 20px 20px 10px;
+}
+
+#job-duties ul, #job-requirements ul {
+  padding-left: 15px;
 }
 
 /* Firefox only */

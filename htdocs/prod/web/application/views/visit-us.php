@@ -39,28 +39,39 @@
   <div class="col-xs-12 col-sm-3">
     <h2>We're here to help.</h2>
 
-    <p>Trying to locate a difficult-to-find product?
-Or have a fresh idea that could make your Highland Farms experience even more enjoyable? We'd love to hear from you.</p>
+    <p>Trying to locate a difficult-to-find product? Or have a fresh idea that could make your Highland Farms experience even more enjoyable? We'd love to hear from you. Send us an email at <a href="mailto:customerservice@highlandfarms.on.ca" class="green">customerservice@highlandfarms.on.ca</a> or if you prefer, use the form to the right.</p>
   </div>
   <div class="col-xs-12 col-sm-1">
   </div>
   <div class="col-xs-12 col-sm-8">
   	<div class="required-fields">* Required Fields</div>
+    <?php 
+      $first = filter_input(INPUT_POST, 'first', FILTER_SANITIZE_SPECIAL_CHARS); 
+      $last = filter_input(INPUT_POST, 'last', FILTER_SANITIZE_SPECIAL_CHARS);
+      $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_SPECIAL_CHARS);
+      $phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_SPECIAL_CHARS);
+      $subject = filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_SPECIAL_CHARS);
+      $message = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_SPECIAL_CHARS);
+    ?>
     <form method="post" action="" id="form">
       <div class="row">
         <div class="col-xs-12 col-sm-6 visit-us-form-field">
-        	<input name="first" class="visit-us-half-width" type="text" value="<?php echo set_value('first'); ?>" aria-required="true" aria-label="First Name" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/>
+        	<input name="first" class="visit-us-half-width" type="text" value="<?php echo $first; ?>" aria-required="true" aria-label="First Name" placeholder="First Name*" title="First Name should not be left blank." x-moz-errormessage="First Name should not be left blank." required/>
         </div>
-      	<div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="<?php echo set_value('last'); ?>" aria-required="false" aria-label="Last Name" placeholder="Last Name"/></div>
+      	<div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="last" class="visit-us-half-width" type="text" value="<?php echo $last; ?>" aria-required="false" aria-label="Last Name" placeholder="Last Name*" x-moz-errormessage="Last Name should not be left blank." required/></div>
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" class="visit-us-half-width" type="email" value="<?php echo set_value('email'); ?>" aria-required="true" aria-label="Email" placeholder="Email*" required/></div>
-        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" class="visit-us-half-width" type="text" value="<?php echo set_value('phone'); ?>" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="email" class="visit-us-half-width" type="email" value="<?php echo $email; ?>" aria-required="true" aria-label="Email" placeholder="Email*" x-moz-errormessage="Email should not be left blank." required/></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="phone" class="visit-us-half-width" type="text" value="<?php echo $phone; ?>" aria-required="false" aria-label="Phone Number" placeholder="Phone Number"/></div>
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="<?php echo set_value('message'); ?>" aria-required="true" aria-label="Your Message" placeholder="Your Message*" title="Message should not be left blank." x-moz-errormessage="Message should not be left blank." required></textarea></div>
+        <div class="col-xs-12 col-sm-6 visit-us-form-field"><input name="subject" class="visit-us-half-width" type="text" maxlength="150" value="<?php echo $subject; ?>" aria-required="true" aria-label="Subject Line" placeholder="Subject Line*" x-moz-errormessage="Subject line should not be left blank." required /></div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 visit-us-form-field"><textarea name="message" value="<?php echo $message; ?>" aria-required="true" aria-label="Your Message" placeholder="Your Message*" title="Message should not be left blank." x-moz-errormessage="Message should not be left blank." required></textarea></div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-12 visit-us-form-field"><input name="submit" type="submit" aria-label="Submit" value="Submit" class="green" /></div>

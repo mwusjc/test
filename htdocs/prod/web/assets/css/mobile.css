@@ -113,6 +113,11 @@
     /*Country Kitchen*/
     .ck-details {
       margin-bottom: 0 !important;
+      padding: 0;
+    }
+
+    .ck-details:not(.open) {
+      display: none;
     }
 
     .originals-feature {
