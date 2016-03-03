@@ -10,7 +10,6 @@ htdocs/prod/web/media/flyers/*
 !htdocs/prod/web/media/flyers/resizer.php
 
 #	dumps
-db/*
 /nbproject/private/
 nbproject/
 
