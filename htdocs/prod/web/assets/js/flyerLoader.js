@@ -45,8 +45,8 @@ var fl = {
     if (range == "Fri Mar 11 2016 - Thu Mar 17 2016") {
       range = "Fri Mar 11 2016 - Thu Mar 17 2016";
     }
-    else if (range == "Fri Mar 18 2016 - Thu Mar 24 2016") {
-      range = "Fri Mar 18 2016 - Thu Mar 24 2016";
+    else if (range == "Fri Mar 18 2016 - Thu Mar 24 2016" || range == "Fri Mar 25 2016 - Thu Mar 31 2016") {
+      range = "Fri Mar 18 2016 - Thu Mar 31 2016";
     }
 
     return range;
@@ -145,7 +145,7 @@ var fl = {
 
     //Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
     if(nextWeek == "20160317" && currentWeek == "20160310") {
-      $("#thisWeekDates").html("Fri Mar 18 2016 - Thu Mar 24 2016");
+      $("#thisWeekDates").html("Fri Mar 18 2016 - Thu Mar 31 2016");
       //Specify flyer for current week and next week due to start date exception on  upcoming flyer from current pattern
       $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160310/mobile/page1.jpg");
       $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160317/mobile/page1.jpg");
