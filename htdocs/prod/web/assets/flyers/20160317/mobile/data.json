@@ -32,7 +32,7 @@
 					"coords":[9,275,97,106],
 					"name": "Fresh Ontario Whole Baby Spring Lamb 30-35lb Average",
 					"brands": [""],
-					"category": "grocery",
+					"category": "meat",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$17.61/kg",
 					"pricing":"$7.99/lb",
@@ -267,7 +267,7 @@
 					"category": "bakery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"450-490g",
-					"pricing":"$2.19",
+					"pricing":"$4.99",
 					"comments":""
 				},
 				{					
@@ -362,7 +362,7 @@
 					"image":"Tropicana_Tropic_Juice_combined.jpg",
 					"coords":[9,287,150,85],
 					"name": "Tropicana Pure Premium Orange Juice & Blends or Pure Leaf Iced Tea Assorted Varieties",
-					"brands": ["Tropicana"],
+					"brands": ["Tropicana","Pure Leaf"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"1.75L",
@@ -405,12 +405,12 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"375-500g",
-					"pricing":"$9.99",
+					"pricing":"$1.69",
 					"comments":""
 				},
 				{
 					"image":"C3242.jpg",
-					"coords":[161,9,150,102],
+					"coords":[161,9,73,102],
 					"name": "Italpasta Pasta Assorted Regular Cuts",
 					"brands": ["Italpasta"],
 					"category": "grocery",
@@ -421,7 +421,7 @@
 				},
 				{
 					"image":"141790_HLF-CK---Sauce_1L_combined.jpg",
-					"coords":[237,9,150,102],
+					"coords":[237,9,73,102],
 					"name": "Pasta Sauce Assorted Varieties 1L - $5.99",
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
@@ -434,7 +434,7 @@
 					"image":"Kelloggs_cereal_combined.jpg",
 					"coords":[9,113,150,85],
 					"name": "Kellogg's Cereal Muslix 450g, Just Right 475g or General Mills Cereal Oatmeal Crisp 460-505g, Fibre 1 425-450g",
-					"brands": ["Kellogg's"],
+					"brands": ["Kellogg's","General Mills"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"each",
@@ -459,8 +459,8 @@
 					"brands": ["Melitta"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"341-398ml",
-					"pricing":"$0.99",
+					"packaging":"930g",
+					"pricing":"$11.99",
 					"comments":""
 				},
 				{
@@ -489,7 +489,7 @@
 					"image":"Unico_FrancoAmerican_combined.jpg",
 					"coords":[161,200,73,85],
 					"name": "Unico Tomatoes 796ml or Franco American Gravy 284ml Assorted Varieties",
-					"brands": ["Unico","Franco"],
+					"brands": ["Unico","Franco American"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"each",
@@ -544,7 +544,7 @@
 					"image":"Vinta_Breton_crackers_combined.jpg",
 					"coords":[236,288,73,85],
 					"name": "Dare Crackers Breton or Vinta Assorted Varieties",
-					"brands": ["Dare","Vinta"],
+					"brands": ["Dare"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"100-250g",
@@ -940,7 +940,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"350g",
-					"pricing":"$3.49",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{

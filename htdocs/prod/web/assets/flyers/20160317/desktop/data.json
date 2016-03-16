@@ -261,7 +261,7 @@
 					"category": "bakery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"450-490g",
-					"pricing":"$2.19",
+					"pricing":"$4.99",
 					"comments":""
 				},
 				{					
@@ -356,7 +356,7 @@
 					"image":"Tropicana_Tropic_Juice_combined.jpg",
 					"coords":[453,397,205,117],
 					"name": "Tropicana Pure Premium Orange Juice & Blends or Pure Leaf Iced Tea Assorted Varieties",
-					"brands": ["Tropicana"],
+					"brands": ["Tropicana","Pure Leaf"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"1.75L",
@@ -399,7 +399,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"375-500g",
-					"pricing":"$9.99",
+					"pricing":"$1.69",
 					"comments":""
 				},
 				{
@@ -428,7 +428,7 @@
 					"image":"Kelloggs_cereal_combined.jpg",
 					"coords":[12,155,206,117],
 					"name": "Kellogg's Cereal Muslix 450g, Just Right 475g or General Mills Cereal Oatmeal Crisp 460-505g, Fibre 1 425-450g",
-					"brands": ["Kellogg's"],
+					"brands": ["Kellogg's","General Mills"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"each",
@@ -453,8 +453,8 @@
 					"brands": ["Melitta"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"341-398ml",
-					"pricing":"$0.99",
+					"packaging":"930g",
+					"pricing":"$11.99",
 					"comments":""
 				},
 				{
@@ -483,7 +483,7 @@
 					"image":"Unico_FrancoAmerican_combined.jpg",
 					"coords":[222,275,101,117],
 					"name": "Unico Tomatoes 796ml or Franco American Gravy 284ml Assorted Varieties",
-					"brands": ["Unico","Franco"],
+					"brands": ["Unico","Franco American"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"each",
@@ -538,7 +538,7 @@
 					"image":"Vinta_Breton_crackers_combined.jpg",
 					"coords":[327,397,101,117],
 					"name": "Dare Crackers Breton or Vinta Assorted Varieties",
-					"brands": ["Dare","Vinta"],
+					"brands": ["Dare"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"100-250g",
@@ -922,7 +922,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"350g",
-					"pricing":"$3.49",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
