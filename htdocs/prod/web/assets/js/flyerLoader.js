@@ -150,6 +150,10 @@ var fl = {
       $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160310/mobile/page1.jpg");
       $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160317/mobile/page1.jpg");
     }
+    // Need to remove this code after upcoming duration period has ended
+    else if (currentWeek == "20160317") {
+      $("#nextFlyer").addClass("hidden");
+    }
 
     window.setTimeout('$("#chooseFlyer").modal("show");',1000);
   },
@@ -171,7 +175,7 @@ var fl = {
     if(week == "20160310") {
       url = "/assets/flyers/20160310/"+type+"/data.json";
     }
-    else if (week == "20160317") {
+    else if (week == "20160317" || week == "20160324") {
       url = "/assets/flyers/20160317/"+type+"/data.json";
     }
 
