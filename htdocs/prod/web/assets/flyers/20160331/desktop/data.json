@@ -54,7 +54,7 @@
 					"coords":[294,380,134,146],
 					"name": "Astro Yogourt Original, Fat Free Zero or Smooth 'n Fruity",
 					"brands": ["Astro"],
-					"category": "grocery",
+					"category": "dairy",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"12x100g",
 					"pricing":"$2.99",
@@ -527,7 +527,7 @@
 					"image":"Old_El_Paso_combined.jpg",
 					"coords":[559,275,101,117],
 					"name": "Old El Paso Dinner Kits Selected Varieties 250-400g - $3.99",
-					"brands": ["Excelsior"],
+					"brands": ["Old El Paso"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
@@ -657,7 +657,7 @@
 					"brands": ["Ocean Prime"],
 					"category": "seafood",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"113kg",
+					"packaging":"1.13kg",
 					"pricing":"$11.99",
 					"comments":""
 				},
@@ -867,7 +867,7 @@
 			"products":[
 				{
 					"image":"C19761.jpg",
-					"coords":[12,33,206,240],
+					"coords":[12,33,206,234],
 					"name": "Fresh Beef Striploin Steaks Product of Canada",
 					"brands": [""],
 					"category": "meat",
@@ -878,7 +878,7 @@
 				},
 				{
 					"image":"C1088.jpg",
-					"coords":[223,12,101,140],
+					"coords":[223,12,101,134],
 					"name": "Fresh Extra Lean Ground Beef",
 					"brands": [""],
 					"category": "meat",
@@ -889,7 +889,7 @@
 				},
 				{
 					"image":"C7595.jpg",
-					"coords":[327,12,101,140],
+					"coords":[327,12,101,134],
 					"name": "Fresh Stewing Beef Product of Canada",
 					"brands": [""],
 					"category": "meat",
@@ -900,7 +900,7 @@
 				},
 				{
 					"image":"308936_PorkLoin_CentreSteaks_Merge1.jpg",
-					"coords":[223,156,101,117],
+					"coords":[223,150,101,117],
 					"name": "Fresh Ontario Boneless Pork Loin Centre Steaks",
 					"brands": [""],
 					"category": "meat",
@@ -911,7 +911,7 @@
 				},
 				{
 					"image":"308941_Fresh_Pork_Loin_Cutlets_MT.jpg",
-					"coords":[327,156,101,117],
+					"coords":[327,150,101,117],
 					"name": "Fresh Ontario Pork Loin Cutlets",
 					"brands": [""],
 					"category": "meat",
@@ -922,7 +922,7 @@
 				},
 				{
 					"image":"302345_Marc_Angelo_Sausage_500g_combined.jpg",
-					"coords":[12,276,205,110],
+					"coords":[12,270,205,117],
 					"name": "Marc Angelo Fresh Pork Sausages Selected Varieties",
 					"brands": ["Marc Angelo"],
 					"category": "meat",
@@ -933,7 +933,7 @@
 				},
 				{
 					"image":"310487_FreshStoreMade-Seasoned_Chicken-Breasts_combined.jpg",
-					"coords":[223,276,101,110],
+					"coords":[223,270,101,117],
 					"name": "Freshly Seasoned In-Store Chicken Breast Boneless, Skinless, Mango & Chili, Mediterranean or Avignon",
 					"brands": [""],
 					"category": "poultry",
@@ -944,7 +944,7 @@
 				},
 				{
 					"image":"300099_Fresh_Ontario_Boneless_Chicken.jpg",
-					"coords":[327,276,101,110],
+					"coords":[327,270,101,117],
 					"name": "Fresh Ontario Boneless Chicken Breast Cutlets",
 					"brands": [""],
 					"category": "poultry",
