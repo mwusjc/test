@@ -54,7 +54,7 @@
 					"coords":[213,275,97,106],
 					"name": "Chapman's Original Ice Cream 2L or Super Lolly 18x75ml Selected Varieties",
 					"brands": ["Chapman's"],
-					"category": "dairy",
+					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"each",
 					"pricing":"$2.99",
@@ -241,7 +241,7 @@
 					"image":"611463_LaRocca_Napolean_8inch.jpg",
 					"coords":[161,24,149,174],
 					"name": "La Rocca Fresh 8-inch Dulce Napoleon Cake",
-					"brands": [""],
+					"brands": ["La Rocca"],
 					"category": "bakery",
 					"summary": "",
 					"packaging":"each",
@@ -350,7 +350,7 @@
 				{
 					"image":"130841_Liberte-Kefir-Org_454mL_combined.jpg",
 					"coords":[237,288,73,85],
-					"name": "Liberte Organic Kéfir Assorted Varieties",
+					"name": "Liberte Organic Kefir Assorted Varieties",
 					"brands": ["Liberte"],
 					"category": "dairy",
 					"summary": "",
@@ -528,7 +528,7 @@
 					"image":"Nestle_Carnation_combined.jpg",
 					"coords":[85,200,73,85],
 					"name": "Nestle Coffee-mate 425-450g or Carnation Hot Chocolate 130-280g Assorted Varieties",
-					"brands": ["Nestle","Carnation"],
+					"brands": ["Nestle"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"each",
@@ -582,8 +582,8 @@
 				{
 					"image":"178974_Annies_mac_cheese_170g_combined.jpg",
 					"coords":[161,288,73,85],
-					"name": "Annie's Macaroni and Cheese Selected Varieties",
-					"brands": ["Annie's"],
+					"name": "Annie’s Macaroni and Cheese Selected Varieties",
+					"brands": ["Annie’s"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"170g",
@@ -681,7 +681,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"128-284g",
-					"pricing":"2/$5.00",
+					"pricing":"$0.99",
 					"comments":""
 				},
 				{
@@ -858,7 +858,7 @@
 				{
 					"image":"HLF_Salads_combined.jpg",
 					"coords":[161,288,150,85],
-					"name": "Saladds Tossed Fresh Daily Selected Varieties",
+					"name": "Salads Tossed Fresh Daily Selected Varieties",
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
 					"summary": "",
@@ -874,7 +874,7 @@
 			"products":[
 				{
 					"image":"C1154.jpg",
-					"coords":[9,24,149,169],
+					"coords":[9,24,149,173],
 					"name": "Fresh Beef Boneless Outside Round Roast Product of Canada",
 					"brands": [""],
 					"category": "meat",
@@ -885,7 +885,7 @@
 				},
 				{
 					"image":"C1088.jpg",
-					"coords":[161,9,73,97],
+					"coords":[161,9,73,102],
 					"name": "Fresh Extra Lean Ground Beef",
 					"brands": [""],
 					"category": "meat",
@@ -896,7 +896,7 @@
 				},
 				{
 					"image":"C7595.jpg",
-					"coords":[237,9,73,97],
+					"coords":[237,9,73,102],
 					"name": "Fresh Stewing Beef Product of Canada",
 					"brands": [""],
 					"category": "meat",
@@ -907,7 +907,7 @@
 				},
 				{
 					"image":"C1753.jpg",
-					"coords":[161,110,73,83],
+					"coords":[161,113,73,85],
 					"name": "Fresh Ontario Boneless Pork Sirloin Chops",
 					"brands": [""],
 					"category": "meat",
@@ -918,7 +918,7 @@
 				},
 				{
 					"image":"C6714.jpg",
-					"coords":[237,110,73,83],
+					"coords":[237,113,73,85],
 					"name": "Fresh Ontario Boneless Pork Sirloin Roast",
 					"brands": [""],
 					"category": "meat",
@@ -929,7 +929,7 @@
 				},
 				{
 					"image":"310455_Marc-Angelo_Chicken_Sausage_375g_combined.jpg",
-					"coords":[9,197,73,83],
+					"coords":[9,200,73,80],
 					"name": "Marc Angelo Chicken Sausages Assorted Varieties",
 					"brands": ["Marc Angelo"],
 					"category": "poultry",
@@ -940,7 +940,7 @@
 				},
 				{
 					"image":"310465_Marc-Angelo-Seasoned-Drumsticks_450g_combined.jpg",
-					"coords":[85,197,73,83],
+					"coords":[85,200,73,80],
 					"name": "Marc Angelo Seasoned Chicken Drumsticks Sweet BBQ or Piri-Piri",
 					"brands": ["Marc Angelo"],
 					"category": "poultry",
@@ -951,7 +951,7 @@
 				},
 				{
 					"image":"C1029.jpg",
-					"coords":[161,197,73,83],
+					"coords":[161,200,73,80],
 					"name": "Fresh Ontario Veal Stew",
 					"brands": [""],
 					"category": "meat",
@@ -962,7 +962,7 @@
 				},
 				{
 					"image":"300309_FRESH_GROUND_VEAL.jpg",
-					"coords":[237,197,73,83],
+					"coords":[237,200,73,80],
 					"name": "Fresh Ontario Extra Lean Ground Veal",
 					"brands": [""],
 					"category": "meat",
