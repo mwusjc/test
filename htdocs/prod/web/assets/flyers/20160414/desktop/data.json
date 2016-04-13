@@ -32,7 +32,7 @@
 					"coords":[12,380,134,146],
 					"name": "Elite Dairy Natural Yogurt Assorted Varieties",
 					"brands": ["Elite Dairy"],
-					"category": "grocery",
+					"category": "dairy",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"750g",
 					"pricing":"$1.49",
@@ -851,7 +851,7 @@
 				{
 					"image":"19615_CK_Empanada_Chicken_85g_Open.jpg",
 					"coords":[663,397,101,117],
-					"name": "Empanada Beef, Chicken or Spinach & Feta Min Weight 85g",
+					"name": "Empanada Beef, Chicken or Spinach & Feta Min. Weight 85g",
 					"brands": ["Country Kitchen"],
 					"category": "country kitchen",
 					"summary": "",
