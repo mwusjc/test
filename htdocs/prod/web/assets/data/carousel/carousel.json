@@ -79,12 +79,12 @@
             "textOverlayCSS": null,
             "priceImage": "assets/images/20160414-carousel/home_price-3.png",
             "badges": [],
-            "descriptionLeftText": "Ontario Homegrown<br>Greenhouse Grown<br>Tomatoes on the Vine<br>No. 1 Grade",
-            "descriptionLeftTextCSS": "font-size: 18px;left: 5px; bottom: 20px",
-            "descriptionLeftTextMobileCSS": "font-size: 16px;left: 17px; bottom: 15px",
-            "descriptionRightText": null,
-            "descriptionRightTextCSS": null,
-            "descriptionRightTextMobileCSS": null
+            "descriptionLeftText": null,
+            "descriptionLeftTextCSS": null,
+            "descriptionLeftTextMobileCSS": null,
+            "descriptionRightText": "Ontario Homegrown<br>Greenhouse Grown<br>Tomatoes on the Vine<br>No. 1 Grade",
+            "descriptionRightTextCSS": "font-size: 16px; right: 235px; bottom: 90px",
+            "descriptionRightTextMobileCSS": "font-size: 15px;bottom: 33px; right: 127px; padding-bottom:20px"
           },
           {
             "slideID": "carousel-slide4",
