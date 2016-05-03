@@ -42,11 +42,11 @@ var fl = {
     nextWednesday.setDate(nextWednesday.getDate()+6);
     var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
     //Check current Flyer range, and adjust duration shown on screen
-    if (range == "Fri Apr 22 2016 - Thu Apr 28 2016") {
-      range = "Fri Apr 22 2016 - Thu Apr 28 2016";
-    }
-    else if (range == "Fri Apr 29 2016 - Thu May 05 2016") {
+    if (range == "Fri Apr 29 2016 - Thu May 05 2016") {
       range = "Fri Apr 29 2016 - Thu May 05 2016";
+    }
+    else if (range == "Fri May 06 2016 - Thu May 12 2016") {
+      range = "Fri May 06 2016 - Thu May 12 2016";
     }
 
     return range;
@@ -144,11 +144,11 @@ var fl = {
     $("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
 
     //Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
-    if(nextWeek == "20160428" && currentWeek == "20160421") {
-      $("#thisWeekDates").html("Fri Apr 29 2016 - Thu May 05 2016");
+    if(nextWeek == "20160505" && currentWeek == "20160428") {
+      $("#thisWeekDates").html("Fri May 06 2016 - Thu May 12 2016");
       //Specify flyer for current week and next week due to start date exception on  upcoming flyer from current pattern
-      $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160421/mobile/page1.jpg");
-      $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160428/mobile/page1.jpg");
+      $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160428/mobile/page1.jpg");
+      $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160505/mobile/page1.jpg");
     }
 
     window.setTimeout('$("#chooseFlyer").modal("show");',1000);
@@ -168,11 +168,11 @@ var fl = {
   loadData: function(week,type){
     var url = "/assets/flyers/"+week+"/"+type+"/data.json";
     //Check week for current flyer, and modify data URL accordingly
-    if(week == "20160421") {
-      url = "/assets/flyers/20160421/"+type+"/data.json";
-    }
-    else if (week == "20160428") {
+    if(week == "20160428") {
       url = "/assets/flyers/20160428/"+type+"/data.json";
+    }
+    else if (week == "20160505") {
+      url = "/assets/flyers/20160505/"+type+"/data.json";
     }
 
 
