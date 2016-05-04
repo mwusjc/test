@@ -54,7 +54,7 @@
 					"coords":[213,275,97,106],
 					"name": "Tropicana Tropics, Lemonade or Pure Leaf Iced Tea Selected Varieties",
 					"brands": ["Tropicana"],
-					"category": "dairy",
+					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"1.75L",
 					"pricing":"$2.99",
@@ -459,7 +459,7 @@
 					"brands": ["Skippy"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"500g-2kg",
+					"packaging":"500g-1kg",
 					"pricing":"$4.99",
 					"comments":""
 				},
@@ -785,8 +785,8 @@
 					"brands": ["Cuddy"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"$7.99/kg",
-					"pricing":"$17.61/lb",
+					"packaging":"$17.61/kg",
+					"pricing":"$7.99/lb",
 					"comments":""
 				},
 				{

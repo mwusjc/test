@@ -54,7 +54,7 @@
 					"coords":[294,380,134,146],
 					"name": "Tropicana Tropics, Lemonade or Pure Leaf Iced Tea Selected Varieties",
 					"brands": ["Tropicana"],
-					"category": "dairy",
+					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"1.75L",
 					"pricing":"$2.99",
@@ -453,7 +453,7 @@
 					"brands": ["Skippy"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"500g-2kg",
+					"packaging":"500g-1kg",
 					"pricing":"$4.99",
 					"comments":""
 				},
@@ -767,8 +767,8 @@
 					"brands": ["Cuddy"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"$7.99/kg",
-					"pricing":"$17.61/lb",
+					"packaging":"$17.61/kg",
+					"pricing":"$7.99/lb",
 					"comments":""
 				},
 				{
@@ -922,7 +922,7 @@
 				},
 				{
 					"image":"300365_FRESH_SOUVLAKI_MT.jpg",
-					"coords":[327,156,205,117],
+					"coords":[327,156,101,117],
 					"name": "Fresh Store-Made Pork or Chicken Souvlaki",
 					"brands": [""],
 					"category": "meat",
@@ -933,7 +933,7 @@
 				},
 				{
 					"image":"310232_Fresh-Gourmet-Pork-Italian_Sausage.jpg",
-					"coords":[12,277,101,112],
+					"coords":[12,277,205,112],
 					"name": "Fresh Gourmet Pork Sausages Provolone, Sundried Tomato, Garlic & Wine or Rapini & Cheese",
 					"brands": [""],
 					"category": "meat",
