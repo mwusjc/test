@@ -69,7 +69,7 @@
         * 
         */
         public function get_categories() {
-            $sql = $this->db->query("SELECT * FROM platters_categories ORDER BY Name asc");
+            $sql = $this->db->query("SELECT * FROM platters_categories ORDER BY OrderID asc");
             $results = $sql->result_object();
             return $results;
         }
