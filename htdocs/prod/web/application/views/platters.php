@@ -10,51 +10,13 @@
   </div>
 </header>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body padding">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6">
-            <h2>Scarborough</h2>
-            <p><a href="tel:+14162981999">(416)-298-1999</a></p>
-
-            <p>850 Ellesmere Road </br>
-            Scarborough, M1P 2W5</p>
-
-            <p>Mon-Sat: 7:00am-10:00pm </br>
-            Sun: 9:00am-8:00pm</p>
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <h2>Mississauga</h2>
-            <p><a href="tel:+19055019910">(905)-501-9910</a></p>
-
-            <p>50 Matheson Blvd. East </br>
-            Mississauga, L4Z 1N5</p>
-
-            <p>Mon-Sat: 7:00am-10:00pm </br>
-            Sun: 9:00am-8:00pm</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 margin-bottom-zero">
-            <a href="/assets/order-form.pdf" class="btn green" target="_blank">Download order form</a>
-          </div>
-        </div>
-        <span class="glyphicon glyphicon-remove close" data-dismiss="modal"></span>
-      </div>
-    </div>
-  </div>
-</div>
-
 <main>
 <div class="row">
   <div class="col-xs-12 col-sm-12 platters-heading">
      <h1>Fresh Ideas For Your Next Event </h1>
      <h2>You have enough to worry about with your upcoming party. Leave the finger food to us. Ask in store for details.</h2>
   </div>
-  <span data-toggle="modal" data-target="#myModal" class="order-platter btn green">Place an order</span>
+  <a href="/assets/order-form.pdf" class="btn green" target="_blank">Download order form</a>
 </div>
 <div class="row divider spacer"></div>
 &nbsp;
