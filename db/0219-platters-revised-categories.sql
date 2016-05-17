@@ -23,3 +23,7 @@ UPDATE platters SET platters.CategoryID=REPLACE(CategoryID, '3', '8') WHERE plat
 UPDATE platters SET platters.CategoryID=REPLACE(CategoryID, '2', '9') WHERE platters.id=4;
 UPDATE platters SET platters.CategoryID=REPLACE(CategoryID, '4', '10') WHERE platters.id=29;
 UPDATE platters SET platters.CategoryID=REPLACE(CategoryID, '4', '10') WHERE platters.id=30;
+UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=20;
+UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=23;
+UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=26;
+UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=10;
