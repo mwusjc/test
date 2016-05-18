@@ -53,8 +53,10 @@
         * Map platters - currently changing array keys to match IDs
         * 
         * @param mixed $array
+        * @param mixed $id
+        * @param mixed $category
         */
-        private function map_platters($array) {
+        private function map_platters($array, $id = null, $category = null) {
             $new = new stdClass();
             foreach($array AS $item) {
                 $item->seotitle = url_title($item->Name);
@@ -73,5 +75,15 @@
             $results = $sql->result_object();
             return $results;
         }
+
+        /**
+        * Return Platters
+        * 
+        */
+        // public function get_platters() {
+        //     $sql = $this->db->query("SELECT * FROM platters ORDER BY VisualOrder asc WHERE Status='enabled'");
+        //     $results = $sql->result_object();
+        //     return $results;
+        // }
     }
 ?>
