@@ -39,3 +39,8 @@ UPDATE platters SET platters.Price2=REPLACE(Price2, '39.99', '') WHERE platters.
 UPDATE platters SET platters.Price3=REPLACE(Price3, '49.99', '') WHERE platters.id=8;
 UPDATE platters SET platters.Quantity2=REPLACE(Quantity2, '16"', NULL) WHERE platters.id=8;
 UPDATE platters SET platters.Quantity3=REPLACE(Quantity3, '18"', NULL) WHERE platters.id=8;
+UPDATE platters SET platters.Description=REPLACE(Description, 'Made with fresh buns from our bakery, these mini sandwiches stuffed with black forest ham, turkey breast and havarti cheese will satisfy your hungry crowd.', 'Serve up our hearty subs filled with freshly sliced turkey, Black Forest ham and havarti cheese.') WHERE platters.id=9;
+UPDATE platters SET platters.Price=REPLACE(Price, '49.99', '59.99') WHERE platters.id=9;
+UPDATE platters SET platters.Quantity=REPLACE(Quantity, '14"', '14” Serves 8 - 12') WHERE platters.id=9;
+UPDATE platters SET platters.Price2=REPLACE(Price2, '59.99', '') WHERE platters.id=9;
+UPDATE platters SET platters.Quantity2=REPLACE(Quantity2, '16"', NULL) WHERE platters.id=9;
