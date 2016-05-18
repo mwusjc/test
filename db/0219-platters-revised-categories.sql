@@ -84,3 +84,5 @@ UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 2) WHERE platte
 UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=27;
 UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=29;
 UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 2) WHERE platters.id=30;
+UPDATE platters SET platters.Name=REPLACE(Name, 'Deli Lover\'s Paradise', 'Deli Lovers\' Paradise') WHERE platters.id=1;
+UPDATE platters SET platters.Description=REPLACE(Description, 'A meat lover’s dream come true! Freshly sliced roast beef, smoked turkey, corned beef, Black Forest ham and cooked chicken are accented with olives and cherry tomatoes', 'A meat lover’s dream come true! Freshly sliced roast beef, smoked turkey, corned beef, Black Forest ham and cooked chicken are accented with olives and cherry tomatoes.') WHERE platters.id=11;
