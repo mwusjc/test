@@ -27,3 +27,4 @@ UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE
 UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=23;
 UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=26;
 UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=10;
+UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=28;
