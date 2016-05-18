@@ -54,10 +54,33 @@ UPDATE platters SET platters.Description=REPLACE(Description, 'Give a gift that 
 UPDATE platters SET platters.Name=REPLACE(Name, 'Gift-giving Made Easy', 'Gift Giving Made Easy') WHERE platters.id=29;
 UPDATE platters SET platters.Description=REPLACE(Description, 'Make your party extra special with a selection of freshly picked, pre-arranged bouquets. Customized floral arrangements are available exclusively at our Mississauga location.', 'Make your celebration extra special with our freshly picked, pre-arranged bouquets, or brighten up your home or office with a potted plant. Custom floral arrangements are also available exclusively at our Mississauga store.') WHERE platters.id=30;
 UPDATE platters SET platters.Name=REPLACE(Name, 'Beautiful Bouquets', 'Blooming with Ideas') WHERE platters.id=30;
-
-
-
-
-
-
-
+ALTER TABLE platters ADD VisualOrder INT DEFAULT 0;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=21;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 2) WHERE platters.id=22;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=35;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 2) WHERE platters.id=32;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 3) WHERE platters.id=33;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 4) WHERE platters.id=36;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 5) WHERE platters.id=16;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 6) WHERE platters.id=37;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 7) WHERE platters.id=38;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 8) WHERE platters.id=39;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=1;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 2) WHERE platters.id=3;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 3) WHERE platters.id=15;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 4) WHERE platters.id=2;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 5) WHERE platters.id=17;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 6) WHERE platters.id=18;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 7) WHERE platters.id=7;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 8) WHERE platters.id=19;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 9) WHERE platters.id=40;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=11;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 2) WHERE platters.id=8;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 3) WHERE platters.id=9;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 4) WHERE platters.id=24;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=4;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=5;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 2) WHERE platters.id=6;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=27;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platters.id=29;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 2) WHERE platters.id=30;
