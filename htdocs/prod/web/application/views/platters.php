@@ -77,9 +77,27 @@
     hlf.data.platters_categories = <?=json_encode($platters_categories)?>;
     
     jQuery(document).ready(function($) {
+        var p = hlf.data.platters;
+        var newArray = [];
+        for(var x in p) { 
+            newArray.push(p[x]); 
+        }
+        // Mapping revised object collection of platters
+        newArray.map(function(x) {
+            return x.VisualOrder = parseInt(x.VisualOrder);
+        });
+        
+        // Sorting platters from result set based on value of VisualOrder column from platters table in DB
+        newArray = newArray.sort(function(a, b) {
+            a = a.VisualOrder;
+            b = b.VisualOrder;
+            return (a > b) ? 1 : ((b > a) ? -1 : 0);
+        });
+
+        // Make dataset match expected results
+        hlf.data.platters = newArray;
         hlf.platters.init(hlf.data.platters);
     });
-       
           
     hlf.platters = {
         init: function(data) {
@@ -121,7 +139,8 @@
                 "{ID}": item.id,
                 "{PRICE}": (item.Price ? "$" + item.Price : ''),
                 "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
-                "{PRICE3}": (item.Price3 ? "$" + item.Price3 : '')
+                "{PRICE3}": (item.Price3 ? "$" + item.Price3 : ''),
+                "{VISUALORDER}": (item.VisualOrder ? item.VisualOrder : '')
             };
             html = hlf.drawTemplate("#tpl-product-modal", mapping);
 
@@ -152,8 +171,9 @@
 
         drawList: function(data) { 
             $('.platters-container').html(' ');
+            console.log("test data", data);
             $.each(data, function(key,item) {
-                mapping = { "_IMAGE_" : item.Image, "_TITLE_" : item.Name, "_ID_" : item.ID, "_PRICE_" : item.Price, "_DESCRIPTION_": item.Description };
+                mapping = { "_IMAGE_" : item.Image, "_TITLE_" : item.Name, "_ID_" : key, "_PRICE_" : item.Price, "_DESCRIPTION_": item.Description, "_VISUALORDER_": item.VisualOrder };
                 html = hlf.drawTemplate("#tpl-platter-listing", mapping);
                 $('.platters-container').append(html);
             });

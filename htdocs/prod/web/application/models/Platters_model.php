@@ -11,8 +11,8 @@
         * @param mixed $category - category id, null for all
         * @param mixed $form - short/long (Name,id,image) vs (All details)
         */
-        public function get($id = null, $category = null, $form = "short") {
-            if($form == "short") $this->db->select("platters.ID, platters.Name, Image, CategoryID, Price, Quantity, Price2, Quantity2, Price3, Quantity3, Description");
+        public function get($id = null, $category = null, $VisualOrder = null, $form = "short") {
+            if($form == "short") $this->db->select("platters.ID, platters.Name, platters.Image, platters.CategoryID, platters.Price, platters.Status, platters.Quantity, platters.Price2, platters.Quantity2, platters.Price3, platters.Quantity3, platters.Description, platters.VisualOrder");
             else $this->db->select("platters.*");
             
             $this->db->select("platters_categories.Name AS CategoryName");
@@ -22,12 +22,12 @@
             } 
             if($category != null) $this->db->where('category', $category);
             $this->db->join("platters_categories",'platters.CategoryID = platters_categories.ID');
-            $this->db->order_by("platters.Name", "asc");  
+            $this->db->order_by("platters.Name", "asc");
             $this->db->where('platters.Status','enabled');
             
             $sql = $this->db->get('platters')->result_object();
             $sql = $this->map_platters($sql);
-
+            
             if($sql) return $sql;  
         }
         
@@ -61,6 +61,7 @@
             foreach($array AS $item) {
                 $item->seotitle = url_title($item->Name);
                 $new->{$item->ID} = $item;
+                $VisualOrder = (int)($item->VisualOrder);
             }
             return $new;
         }
@@ -75,15 +76,5 @@
             $results = $sql->result_object();
             return $results;
         }
-
-        /**
-        * Return Platters
-        * 
-        */
-        // public function get_platters() {
-        //     $sql = $this->db->query("SELECT * FROM platters ORDER BY VisualOrder asc WHERE Status='enabled'");
-        //     $results = $sql->result_object();
-        //     return $results;
-        // }
     }
 ?>
