@@ -86,3 +86,10 @@ UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 1) WHERE platte
 UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, 0, 2) WHERE platters.id=30;
 UPDATE platters SET platters.Name=REPLACE(Name, 'Deli Lover\'s Paradise', 'Deli Lovers\' Paradise') WHERE platters.id=1;
 UPDATE platters SET platters.Description=REPLACE(Description, 'A meat lover’s dream come true! Freshly sliced roast beef, smoked turkey, corned beef, Black Forest ham and cooked chicken are accented with olives and cherry tomatoes', 'A meat lover’s dream come true! Freshly sliced roast beef, smoked turkey, corned beef, Black Forest ham and cooked chicken are accented with olives and cherry tomatoes.') WHERE platters.id=11;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, '0', '2') WHERE platters.id=31;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, '0', '4') WHERE platters.id=34;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, '1', '6') WHERE platters.id=35;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, '2', '3') WHERE platters.id=32;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, '3', '1') WHERE platters.id=33;
+UPDATE platters SET platters.VisualOrder=REPLACE(VisualOrder, '4', '7') WHERE platters.id=36;
+UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=37;
