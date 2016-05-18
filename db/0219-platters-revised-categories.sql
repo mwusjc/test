@@ -51,3 +51,13 @@ UPDATE platters SET platters.Quantity=REPLACE(Quantity, '24 pcs', '40 pcs. Jumbo
 UPDATE platters SET platters.Quantity2=REPLACE(Quantity2, '50 pcs', NULL) WHERE platters.id=24;
 UPDATE platters SET platters.Name=REPLACE(Name, 'Wing Party', 'Jumbo Wings & Dip') WHERE platters.id=24;
 UPDATE platters SET platters.Description=REPLACE(Description, 'Give a gift that overflows with kindheartedness. We design each Gift & Fruit Basket to be thoughtful, personal and unforgettable, filled with only the highest quality items and gourmet treats. We also offer Country Kitchen gift baskets and custom-made baskets. See store for details.', 'Give a gift that overflows with kindheartedness. Our gift and fruit baskets are designed to be thoughtful, personal and unforgettable and are filled with only the highest quality items and gourmet treats. We also offer Country Kitchen gift baskets and custom-made baskets. Visit our store for details.') WHERE platters.id=29;
+UPDATE platters SET platters.Name=REPLACE(Name, 'Gift-giving Made Easy', 'Gift Giving Made Easy') WHERE platters.id=29;
+UPDATE platters SET platters.Description=REPLACE(Description, 'Make your party extra special with a selection of freshly picked, pre-arranged bouquets. Customized floral arrangements are available exclusively at our Mississauga location.', 'Make your celebration extra special with our freshly picked, pre-arranged bouquets, or brighten up your home or office with a potted plant. Custom floral arrangements are also available exclusively at our Mississauga store.') WHERE platters.id=30;
+UPDATE platters SET platters.Name=REPLACE(Name, 'Beautiful Bouquets', 'Blooming with Ideas') WHERE platters.id=30;
+
+
+
+
+
+
+
