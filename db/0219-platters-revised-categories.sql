@@ -30,3 +30,12 @@ UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE
 UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=28;
 UPDATE platters SET platters.Description=REPLACE(Description, 'A healthy and delicious option for your guests. We pile on the fresh veggies and add a flavourful dip. It makes a fresh, colourful centrepiece.', 'A healthy and delicious option that makes a colourful centrepiece. We pile on the fresh veggies and add a flavour dip. We recommend Classic Ranch.') WHERE platters.id=7;
 UPDATE platters SET platters.Quantity=REPLACE(Quantity, '16"', '14” Serves 8 - 12') WHERE platters.id=7;
+UPDATE platters SET platters.Description=REPLACE(Description, 'This platter has deliciousness all rolled up. We\'ve taken our pitas and filled them with deli meats and cheeses, and rolled everything up for a colouful display.', 'A meat lover\’s dream come true! Freshly sliced roast beef, smoked turkey, corned beef, Black Forest ham and cooked chicken are accented with olives and cherry tomatoes') WHERE platters.id=11;
+UPDATE platters SET platters.Quantity=REPLACE(Quantity, '14"', '14” Serves 8 - 12') WHERE platters.id=11;
+UPDATE platters SET platters.Description=REPLACE(Description, 'The perfect bite-sized snack filled with corned beef, Black Forest ham, turkey breast and Havarti cheese.', 'A feast for your senses! Specially selected roast beef, Black Forest ham, and smoked chicken are paired with the finest havarti and marble/mild cheddar.') WHERE platters.id=8;
+UPDATE platters SET platters.Quantity=REPLACE(Quantity, '14"', '14” Serves 8 - 12') WHERE platters.id=8;
+UPDATE platters SET platters.Price=REPLACE(Price, '29.99', '39.99') WHERE platters.id=8;
+UPDATE platters SET platters.Price2=REPLACE(Price2, '39.99', '') WHERE platters.id=8;
+UPDATE platters SET platters.Price3=REPLACE(Price3, '49.99', '') WHERE platters.id=8;
+UPDATE platters SET platters.Quantity2=REPLACE(Quantity2, '16"', NULL) WHERE platters.id=8;
+UPDATE platters SET platters.Quantity3=REPLACE(Quantity3, '18"', NULL) WHERE platters.id=8;
