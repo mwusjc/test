@@ -44,3 +44,9 @@ UPDATE platters SET platters.Price=REPLACE(Price, '49.99', '59.99') WHERE platte
 UPDATE platters SET platters.Quantity=REPLACE(Quantity, '14"', '14” Serves 8 - 12') WHERE platters.id=9;
 UPDATE platters SET platters.Price2=REPLACE(Price2, '59.99', '') WHERE platters.id=9;
 UPDATE platters SET platters.Quantity2=REPLACE(Quantity2, '16"', NULL) WHERE platters.id=9;
+UPDATE platters SET platters.Description=REPLACE(Description, 'This saucy dish of juicy wings is the MVP of every game night. Choose between hot, medium or mild. And of course, it wouldn\'t be complete without the classic Blue Cheese dip.', 'These juicy wings, with a classic Blue Cheese dip, are the MVP of every game night. Choose your style of spice: mild, medium or hot. If you\’re game, try another dip flavour: Roasted Red, Pepper, Artichoke & Asiago or Avocado Hummus.') WHERE platters.id=24;
+UPDATE platters SET platters.Price=REPLACE(Price, '34.99', '39.99') WHERE platters.id=24;
+UPDATE platters SET platters.Price2=REPLACE(Price2, '59.99', '') WHERE platters.id=24;
+UPDATE platters SET platters.Quantity=REPLACE(Quantity, '24 pcs', '40 pcs. Jumbo wings & dip. (Mild, Medium or Hot) \n Serves 8 - 12') WHERE platters.id=24;
+UPDATE platters SET platters.Quantity2=REPLACE(Quantity2, '50 pcs', NULL) WHERE platters.id=24;
+UPDATE platters SET platters.Name=REPLACE(Name, 'Wing Party', 'Jumbo Wings & Dip') WHERE platters.id=24;
