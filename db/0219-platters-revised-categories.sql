@@ -28,3 +28,5 @@ UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE
 UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=26;
 UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=10;
 UPDATE platters SET platters.Status=REPLACE(Status, 'enabled', 'disabled') WHERE platters.id=28;
+UPDATE platters SET platters.Description=REPLACE(Description, 'A healthy and delicious option for your guests. We pile on the fresh veggies and add a flavourful dip. It makes a fresh, colourful centrepiece.', 'A healthy and delicious option that makes a colourful centrepiece. We pile on the fresh veggies and add a flavour dip. We recommend Classic Ranch.') WHERE platters.id=7;
+UPDATE platters SET platters.Quantity=REPLACE(Quantity, '16"', '14” Serves 8 - 12') WHERE platters.id=7;
