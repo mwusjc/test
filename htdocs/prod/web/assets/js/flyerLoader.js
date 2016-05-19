@@ -24,6 +24,7 @@ var fl = {
     return yyyy + (mm[1]?mm:"0"+mm[0]) + (dd[1]?dd:"0"+dd[0]);
   },
   getWeekRange: function(week){
+    //Check current Flyer range, and adjust duration shown on screen
     if (week == "current"){
       var thursday = this.getThursday(new Date());
     }
@@ -40,16 +41,7 @@ var fl = {
     t.setDate(t.getDate()+1);
     nextWednesday = t;
     nextWednesday.setDate(nextWednesday.getDate()+6);
-    var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
-    //Check current Flyer range, and adjust duration shown on screen
-    if (range == "Fri May 13 2016 - Thu May 19 2016") {
-      range = "Fri May 13 2016 - Thu May 19 2016";
-    }
-    else if (range == "Fri May 20 2016 - Thu May 26 2016") {
-      range = "Fri May 20 2016 - Thu May 26 2016";
-    }
-
-    return range;
+    return thursday.toDateString() +" - "+ nextWednesday.toDateString();
   },
   getThursday: function(d) {
     d = new Date(d);
@@ -137,19 +129,11 @@ var fl = {
   previewFlyers: function() {
     var currentWeek = fl.getWeek("current");
     var nextWeek = fl.getWeek("next");
-
+    //Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
     $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
     $("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
     $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
     $("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
-
-    //Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
-    if(nextWeek == "20160519" && currentWeek == "20160512") {
-      $("#thisWeekDates").html("Fri May 20 2016 - Thu May 26 2016");
-      //Specify flyer for current week and next week due to start date exception on  upcoming flyer from current pattern
-      $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160512/mobile/page1.jpg");
-      $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160519/mobile/page1.jpg");
-    }
 
     window.setTimeout('$("#chooseFlyer").modal("show");',1000);
   },
@@ -166,15 +150,8 @@ var fl = {
     }
   },
   loadData: function(week,type){
-    var url = "/assets/flyers/"+week+"/"+type+"/data.json";
     //Check week for current flyer, and modify data URL accordingly
-    if(week == "20160512") {
-      url = "/assets/flyers/20160512/"+type+"/data.json";
-    }
-    else if (week == "20160519") {
-      url = "/assets/flyers/20160519/"+type+"/data.json";
-    }
-
+    var url = "/assets/flyers/"+week+"/"+type+"/data.json";
 
     var xmlhttp = new XMLHttpRequest();
 
