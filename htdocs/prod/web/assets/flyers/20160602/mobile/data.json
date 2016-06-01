@@ -641,7 +641,7 @@
 					"comments":""
 				},
 				{
-					"image":"Fresh_Wild_Haddock_Fillets",
+					"image":"Fresh_Wild_Haddock_Fillets.jpg",
 					"coords":[237,9,73,102],
 					"name": "Fresh Wild Haddock Fillets",
 					"brands": [""],
@@ -943,7 +943,7 @@
 					"coords":[237,200,73,80],
 					"name": "Fresh Store-Made Shish-Ka-Bob Chicken or Pork",
 					"brands": [""],
-					"category": "poultry",
+					"category": “meat”,
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
 					"packaging":"$15.41/kg",
 					"pricing":"$6.99/lb",
