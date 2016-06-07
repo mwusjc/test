@@ -10,11 +10,17 @@ class Careers extends CI_Controller {
         parent::__construct();
         $this->jsonFile = @file_get_contents('./assets/data/jobs/careers.json');
         $this->jsonFileEncoded = json_encode($this->jsonFile);
+        
+        
+        $this->jsonData = @file_get_contents('http://localhost:10010/v1/jobs');
+        $this->jsonDataEncoded = json_encode($this->jsonData);
+
     }
 
     public function index()
     {
-	   	$this->data['joblistings'] = $this->jsonFileEncoded;
+    	//$this->data['joblistingsOLD'] = $this->jsonFileEncoded;
+	   	$this->data['joblistings'] = $this->jsonDataEncoded;
       $this->load->view("header", array('title'=>'Join Us | Start Fresh With a Career at Highland Farms', "desc" => "We are always looking for driven individuals to join our team. Working at one of our stores is more than a job. It's an opportunity to learn and grow."));
       $this->load->view("careers", $this->data);
       $this->load->view("footer");

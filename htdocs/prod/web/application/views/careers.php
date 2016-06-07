@@ -51,12 +51,8 @@
 </script>
 
 <script>
-
-  jQuery(document).ready(function($) {
-
-    hlf.data.careers = JSON.parse(<?php echo $joblistings ?>);
-    hlf.careers.renderCareers(hlf.data.careers);
-
-  });
-
+window.addEventListener('load', function () {
+  hlf.data.careers = JSON.parse(<?php echo $joblistings ?>);
+  hlf.careers.renderCareers(hlf.data.careers);
+}, false);
 </script>
