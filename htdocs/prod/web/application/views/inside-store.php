@@ -33,7 +33,7 @@ $inside[] = array(     "title" => "Seafood",     "subtitle" => "Fish for Flavour
 "class" => "teal" );
 
 $inside[] = array(     "title" => "Flowers",     "subtitle" => "In Full Bloom",     "description" => "Stop by our flower shop for potted plants and beautiful blooms. Ask our specially trained assistants to put together a customized bouquet.",     "image" =>
-"assets/images/store_flowers_web_crop.jpg",     "class" => "lightgreen" );
+"assets/images/store_flowers_web_crop.jpg",     "class" => "lightpurple" );
 
 $inside[] = array(     "title" => "Groceries",     "subtitle" => "Selection To Suit Every Taste",     "description" => "As the innovator of the ultimate one-stop supermarket, we are committed to bringing you the widest range of groceries, all while saving you money every day.",     "image" => "assets/images/93472004.jpg",     "class" =>
 "green" );

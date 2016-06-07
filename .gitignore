@@ -3,15 +3,9 @@ sync.sh
 
 logz/
 
-#	don't track anything in the media dir except source code
-htdocs/prod/web/media/*
-!htdocs/prod/web/media/flyers
-htdocs/prod/web/media/flyers/*
-!htdocs/prod/web/media/flyers/resizer.php
+# Contains sensitive connection info
+htdocs/prod/web/application/config/database.php
 
-#	dumps
-/nbproject/private/
-nbproject/
 
 #	editor
 *.sublime-*
@@ -298,22 +292,11 @@ node_modules
 !*/cache/index.html
 !*/cache/.htaccess
 
-.DS_Store
+htdocs/prod/web/application/cache
+htdocs/prod/web/application/logs
 
-application/cache/*
-!application/cache/index.html
-!application/cache/.htaccess
 
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
 /vendor/
-.sass-cache
 *.map
 # IDE Files
 #-------------------------
@@ -327,4 +310,11 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-workspace
 *.sublime-project
 
+#from https://github.com/github/gitignore/blob/master/CodeIgniter.gitignore
 
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess

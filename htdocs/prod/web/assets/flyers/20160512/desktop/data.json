@@ -34,8 +34,8 @@
 					"brands": ["Mazola"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"each",
-					"pricing":"$0.99",
+					"packaging":"2.84L",
+					"pricing":"$5.99",
 					"comments":""
 				},
 				{
@@ -345,7 +345,7 @@
 					"image":"Danone-Yogurt-combined.jpg",
 					"coords":[768,397,101,117],
 					"name": "Danone DanActive Drinkable Yogurt 8x93ml or Activia 12x100g Selected Varieties",
-					"brands": ["Danone","Activia"],
+					"brands": ["Danone"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"each",
@@ -564,7 +564,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"",
-					"pricing":"Happy Water 6x500ml $6.99",
+					"pricing":"Happy Water 6x500ml - $6.99",
 					"comments":""
 				},
 				{
