@@ -121,8 +121,8 @@
     }
 
     .originals-feature {
-      margin-bottom: 0 !important;
-      /*padding-left: 0;*/
+      /** TO-DO: adjust this to not use negative margins **/
+      margin-bottom: -55px !important;
       width: calc(100% - 15px);
     }
 

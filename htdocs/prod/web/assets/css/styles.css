@@ -6247,6 +6247,10 @@ h4.box.gingham {
 .country-kitchen:after {
   margin-top: 40px; }
 
+.originals-feature img {
+    max-width: 100%;
+}
+
 p.title {
   text-align: center;
 }
