@@ -36,7 +36,7 @@
 
 </main>
 
-<script type="text/html" id="tpl-career-listing"> 
+<script type="text/html" id="tpl-career-listing">
   <a href="/careers/_JOBID_">
     <div class='job-row'>
       <div class='job-row-title'>
@@ -51,8 +51,12 @@
 </script>
 
 <script>
-window.addEventListener('load', function () {
-  hlf.data.careers = JSON.parse(<?php echo $joblistings ?>);
-  hlf.careers.renderCareers(hlf.data.careers);
-}, false);
+
+  jQuery(document).ready(function($) {
+
+    hlf.data.careers = JSON.parse(<?php echo $joblistings ?>);
+    hlf.careers.renderCareers(hlf.data.careers);
+
+  });
+
 </script>

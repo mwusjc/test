@@ -8,24 +8,20 @@ class Careers extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-        //$this->jsonFile = @file_get_contents('./assets/data/jobs/careers.json');
-        //$this->jsonFileEncoded = json_encode($this->jsonFile);
-        
-        
-        $this->jsonData = @file_get_contents('http://localhost:10010/v1/jobs');
-        $this->jsonDataEncoded = json_encode($this->jsonData);
-
+        $this->jsonFile = @file_get_contents('./assets/data/jobs/careers.json');
+        $this->jsonFileEncoded = json_encode($this->jsonFile);
     }
 
     public function index()
     {
-	   	$this->data['joblistings'] = $this->jsonDataEncoded;
+	   	$this->data['joblistings'] = $this->jsonFileEncoded;
       $this->load->view("header", array('title'=>'Join Us | Start Fresh With a Career at Highland Farms', "desc" => "We are always looking for driven individuals to join our team. Working at one of our stores is more than a job. It's an opportunity to learn and grow."));
       $this->load->view("careers", $this->data);
       $this->load->view("footer");
     }
 
     public function details($slug) {
+
   		$this->load->helper(array('form', 'url'));
 
   		$this->load->library('form_validation');
@@ -59,12 +55,13 @@ class Careers extends CI_Controller {
   					);
 
   		$this->form_validation->set_rules($config);
+
       (int) $slug;
       if(empty($slug)) redirect("/careers/");
 
       $data = array();
 
-      $this->data['details'] = $this->jsonDataEncoded;
+      $this->data['details'] = $this->jsonFileEncoded;;
 
   		$this->load->helper('email');
   		$this->load->view("header");
