@@ -184,7 +184,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$11.00/kg",
-					"pricing":"$4.99",
+					"pricing":"$4.99/lb",
 					"comments":""
 				},
 				{
@@ -456,7 +456,7 @@
 					"image":"CK-Pasta-Sauce.jpg",
 					"coords":[236,288,73,85],
 					"name": "Pasta Sauce Assorted Varieties",
-					"brands": [""],
+					"brands": ["Country Kitchen"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"473ml-1L",
@@ -637,7 +637,7 @@
 					"category": "seafood",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"480g",
-					"pricing":"$12.99/lb",
+					"pricing":"$12.99",
 					"comments":""
 				},
 				{	
@@ -686,7 +686,7 @@
 				},
 				{
 					"image":"Breyers-or-Fruttare-assorted-frozen-desserts.jpg",
-					"coords":[117,288,73,85],
+					"coords":[85,288,73,85],
 					"name": "Breyers Klondike Frozen Novelties Bars, Sandwiches or Cones, pkg of 4 or Fruttare Frozen Fruit & Dessert Bars, pkg of 4-6",
 					"brands": ["Breyers","Fruttare"],
 					"category": "frozen foods",
@@ -775,7 +775,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"$26.43/kg",
-					"pricing":"$11.99",
+					"pricing":"$11.99/lb",
 					"comments":""
 				},
 				{

@@ -29,7 +29,7 @@
 				},
 				{
 					"image":"Kelloggs-ad.jpg",
-					"coords":[12,380,286,146],
+					"coords":[12,380,278,146],
 					"name": "Buy 3 Kellogg's cereals (320-670g) and get one 4L Natrel Fine-filtered Milk - FREE",
 					"brands": ["Kellogg's","Natrel"],
 					"category": "grocery",
@@ -184,7 +184,7 @@
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"$11.00/kg",
-					"pricing":"$4.99",
+					"pricing":"$4.99/lb",
 					"comments":""
 				},
 				{
@@ -450,7 +450,7 @@
 					"image":"CK-Pasta-Sauce.jpg",
 					"coords":[327,397,101,117],
 					"name": "Pasta Sauce Assorted Varieties",
-					"brands": [""],
+					"brands": ["Country Kitchen"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"473ml-1L",
@@ -625,7 +625,7 @@
 					"category": "seafood",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"480g",
-					"pricing":"$12.99/lb",
+					"pricing":"$12.99",
 					"comments":""
 				},
 				{	
@@ -757,7 +757,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"$26.43/kg",
-					"pricing":"$11.99",
+					"pricing":"$11.99/lb",
 					"comments":""
 				},
 				{
