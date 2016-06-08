@@ -94,10 +94,8 @@
 </script>
 
 <script>
-  jQuery(document).ready(function($) {
-
+window.addEventListener('load', function () {
       hlf.data.careers = JSON.parse(<?php echo $details ?>);
       hlf.careers.renderSingleCareer(hlf.data.careers);
-
-  });
+});
 </script>

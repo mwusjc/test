@@ -12,8 +12,8 @@
       }
 
       var currentDate = new Date();
-      var publishStartDate = new Date(data[index].datePublishFrom);
-      var publishEndDate = new Date(data[index].datePublishTo);
+      var publishStartDate = new Date(data[index].datePublishTo.slice(0, -2));
+      var publishEndDate = new Date(data[index].datePublishFrom.slice(0, -2));
 
       if (hlf.careers.shouldBeDisplayed(data[index], currentDate, publishStartDate, publishEndDate)) {
 
@@ -23,7 +23,7 @@
 
         $('input[name=location]').attr('value', data[index].location);
         $('input[name=title]').attr('value', data[index].title);
-        $('input[name=id]').attr('value', data[index]);
+        $('input[name=id]').attr('value', data[index].slug);
 
 
       } else {
@@ -57,14 +57,12 @@
       $.each(data, function(key,item) {
         var publishStartDate = new Date(item.datePublishTo.slice(0, -2));
         var publishEndDate = new Date(item.datePublishFrom.slice(0, -2));
-
         mapping = {
           "_JOBID_" : item.slug,
           "_JOBTITLE_" : item.title,
           "_POSTED_" : monthNames[publishStartDate.getMonth()] + ' ' + publishStartDate.getDate() + ', ' + publishStartDate.getFullYear()
         };
         html = hlf.drawTemplate("#tpl-career-listing", mapping);
-console.log(html);
         if (hlf.careers.shouldBeDisplayed(item, currentDate, publishStartDate, publishEndDate)) {
           if (item.location === 'scarborough') {
             $('#scarborough-careers').append(html);

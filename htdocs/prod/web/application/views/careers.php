@@ -36,7 +36,7 @@
 
 </main>
 
-<script type="text/html" id="tpl-career-listing">
+<script type="text/html" id="tpl-career-listing"> 
   <a href="/careers/_JOBID_">
     <div class='job-row'>
       <div class='job-row-title'>
