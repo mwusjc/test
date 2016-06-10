@@ -8,7 +8,7 @@
                 We are always looking for driven individuals to join our team. Working at one of our stores is more than a job. It's an opportunity to learn and grow, both personally and professionally, and be a part of the Highland Farms' family.
             </p>
             <p>
-                We have two full service supermarkets, so click on the store that is closest to you and start a fresh career with us!
+                We are always Hiring. Please send resume to <a href="mailto:jobs@highlandfarms.on.ca">jobs@highlandfarms.on.ca</a>
             </p>
         </div>
     </div>
