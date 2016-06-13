@@ -7,11 +7,7 @@ class Careers extends CI_Controller {
     protected $jsonFileEncoded;
 
     public function __construct() {
-        parent::__construct();
-        //$this->jsonFile = @file_get_contents('./assets/data/jobs/careers.json');
-        //$this->jsonFileEncoded = json_encode($this->jsonFile);
-        
-        
+        parent::__construct();        
         $this->jsonData = @file_get_contents('http://localhost:10010/v1/jobs');
         $this->jsonDataEncoded = json_encode($this->jsonData);
 

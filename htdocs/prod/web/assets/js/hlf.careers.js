@@ -34,7 +34,7 @@
 
     getCareerIndex: function(data, searchTerm) {
       for (var i=0; i < data.length; i++) {
-        if (data[i].slug == searchTerm) {
+        if (data[i].slug === searchTerm) {
             return i;
         }
       }
@@ -66,7 +66,8 @@
         if (hlf.careers.shouldBeDisplayed(item, currentDate, publishStartDate, publishEndDate)) {
           if (item.location === 'scarborough') {
             $('#scarborough-careers').append(html);
-          } else if (item.location === 'mississauga') {
+          } 
+          else if (item.location === 'mississauga') {
             $('#mississauga-careers').append(html);
           }
         }
