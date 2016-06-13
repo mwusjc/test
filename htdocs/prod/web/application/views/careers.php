@@ -8,7 +8,7 @@
                 We are always looking for driven individuals to join our team. Working at one of our stores is more than a job. It's an opportunity to learn and grow, both personally and professionally, and be a part of the Highland Farms' family.
             </p>
             <p>
-                We are always Hiring. Please send resume to <a href="mailto:jobs@highlandfarms.on.ca">jobs@highlandfarms.on.ca</a>
+                We are always hiring. Please send your resume to <a href="mailto:jobs@highlandfarms.on.ca?subject=Resume from {your name here}" _target="blank">jobs@highlandfarms.on.ca</a>
             </p>
         </div>
     </div>
