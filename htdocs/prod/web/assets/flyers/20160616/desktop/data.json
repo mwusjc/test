@@ -50,7 +50,7 @@
 					"comments":""
 				},
 				{
-					"image":"173096_Fleecy-Fresh_Air_3_alt.jpg",
+					"image":"fleecy-liquid-concentrated-fabric-softener.jpg",
 					"coords":[294,380,134,146],
 					"name": "Fleecy Liquid Concentrated Fabric Softener",
 					"brands": ["Fleecy"],
@@ -199,7 +199,7 @@
 					"comments":""
 				},
 				{
-					"image":"cantaloupes.jpg",
+					"image":"Celery.jpg",
 					"coords":[222,397,101,117],
 					"name": "Celery Product of U.S.A. No. 1 Grade Large Stalk",
 					"brands": [""],
@@ -311,7 +311,7 @@
 				{
 					"image":"nathans-pickles.jpg",
 					"coords":[768,276,101,117],
-					"name": "Nathan's New York Style Pickles",
+					"name": "Nathan&apos;s New York Style Pickles",
 					"brands": ["Nathan's"],
 					"category": "dairy",
 					"summary": "",
@@ -355,12 +355,12 @@
 				{
 					"image":"Yoplait_Yop_Yogurt_Drink_6x200ml.jpg",
 					"coords":[768,397,101,117],
-					"name": "Liberté Organic Kéfir Assorted Varieties",
-					"brands": ["Liberté"],
+					"name": "Yoplait Yop Drinkable Yogourt Assorted Varieties",
+					"brands": ["Yoplait"],
 					"category": "dairy",
 					"summary": "",
-					"packaging":"454ml",
-					"pricing":"$2.99",
+					"packaging":"6x200ml",
+					"pricing":"$3.99",
 					"comments":""
 				}
 			]
