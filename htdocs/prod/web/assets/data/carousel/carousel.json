@@ -53,13 +53,13 @@
             "badges": [
                   {
                         "image": "assets/images/badge-canada-aaa.png",
-                        "css": "width: 70px; top: 60px; right: 400px",
-                        "mobileCSS": "width: 40px; top: 20px; right: 40%"
+                        "css": "width: 70px; top: 10px; right: 100px",
+                        "mobileCSS": "width: 40px; top: 10px; right: 100px"
                   },
                   {
                         "image": "assets/images/badge-aged-21-days.png",
-                        "css": "width: 70px; top: 60px; right: 300px",
-                        "mobileCSS": "width: 40px; top: 20px; right: 25%"
+                        "css": "width: 70px; top: 10px; right: 7px",
+                        "mobileCSS": "width: 40px; top: 10px; right: 7px"
                   }
             ],
             "descriptionLeftText": "Fresh Beef<br>Capless Rib Steaks<br>Product of Canada",
@@ -127,7 +127,7 @@
             "descriptionLeftText": null,
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
-            "descriptionRightText": "BUY 1 Country Kitchen 8in Apple Pie<br>at $4.99 each and GET 1 Chapman's<br>Original Ice Cream 2L FREE",
+            "descriptionRightText": "<span style='color: #00a64f'>BUY 1</span> Country Kitchen 8in Apple Pie<br>at <span style='color: #CC0000'>$4.99</span> each and <span style='color: #00a64f'>GET 1</span> Chapman's<br>Original Ice Cream 2L <span style='color: #00a64f'>FREE</span>",
             "descriptionRightTextCSS": "font-size: 18px; bottom: 90px; right: 250px;",
             "descriptionRightTextMobileCSS": "font-size: 15px;bottom: 33px; right: 127px; padding-bottom:20px"
           },
