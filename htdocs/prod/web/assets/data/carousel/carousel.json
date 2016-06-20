@@ -53,13 +53,13 @@
             "badges": [
                   {
                         "image": "assets/images/badge-canada-aaa.png",
-                        "css": "width: 70px; top: 10px; right: 100px",
-                        "mobileCSS": "width: 40px; top: 10px; right: 100px"
+                        "css": "width: 70px; top: 10px; right: 600px",
+                        "mobileCSS": "width: 40px; top: 10px; right: 50%"
                   },
                   {
                         "image": "assets/images/badge-aged-21-days.png",
-                        "css": "width: 70px; top: 10px; right: 7px",
-                        "mobileCSS": "width: 40px; top: 10px; right: 7px"
+                        "css": "width: 70px; top: 10px; right: 500px",
+                        "mobileCSS": "width: 40px; top: 10px; right: 30%"
                   }
             ],
             "descriptionLeftText": "Fresh Beef<br>Capless Rib Steaks<br>Product of Canada",
@@ -92,8 +92,8 @@
             "badges": [
                   {
                         "image": "assets/images/badge-foodland-ontario.png",
-                        "css": "width: 70px; top: 10px; right: 7px",
-                        "mobileCSS": "width: 40px; top: 10px; right: 7px"
+                        "css": "width: 70px; top: 10px; right: 400px",
+                        "mobileCSS": "width: 40px; top: 10px; right: 20%"
                   }
             ],
             "descriptionLeftText": null,
