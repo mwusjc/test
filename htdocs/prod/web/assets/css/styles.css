@@ -7196,7 +7196,7 @@ span.subheading-text {
   right: 0;
 }
 
-.badge1, .badge2 {
+.badge1, .badge2, .badge3 {
   float:right;
   position: absolute;
 }
