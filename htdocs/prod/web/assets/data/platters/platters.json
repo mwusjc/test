@@ -1,0 +1,20 @@
+[
+  {
+    "name": "",
+    "categoryID": 1,
+    "container": "",
+    "quantity": 1,
+    "image": "",
+    "status": "",
+    "visualOrder": 1,
+    "sizes": [
+      {
+        "size": 10,
+        "unit": "inches",
+        "price": 9.99,
+        "serves": "",
+        "description": ""
+      }
+    ]
+  }
+]
