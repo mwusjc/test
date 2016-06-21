@@ -84,7 +84,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
-					"packaging":"2.18/kg",
+					"packaging":"$2.18/kg",
 					"pricing":"$0.99/lb",
 					"comments":""
 				},
@@ -95,7 +95,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"3.28/kg",
+					"packaging":"$3.28/kg",
 					"pricing":"$1.49/lb",
 					"comments":""
 				},
@@ -128,8 +128,8 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"pkg of 5",
-					"pricing":"$2.99",
+					"packaging":"each",
+					"pricing":"$1.29",
 					"comments":""
 				},
 				{
@@ -609,7 +609,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"1.89L",
-					"pricing":"$2.99",
+					"pricing":"$2.99 each",
 					"comments":""
 				},
 				{
