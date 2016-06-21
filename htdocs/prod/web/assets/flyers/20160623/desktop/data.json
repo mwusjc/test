@@ -84,7 +84,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
-					"packaging":"2.18/kg",
+					"packaging":"$2.18/kg",
 					"pricing":"$0.99/lb",
 					"comments":""
 				},
@@ -95,7 +95,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"3.28/kg",
+					"packaging":"$3.28/kg",
 					"pricing":"$1.49/lb",
 					"comments":""
 				},
@@ -128,8 +128,8 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"pkg of 5",
-					"pricing":"$2.99",
+					"packaging":"each",
+					"pricing":"$1.29",
 					"comments":""
 				},
 				{
@@ -393,7 +393,7 @@
 				},
 				{
 					"image":"Beef-Striploin-steaks.jpg",
-					"coords":[222,12,260,260],
+					"coords":[222,12,438,260],
 					"name": "Fresh Beef Striploin Steaks Product of Canada",
 					"brands": [""],
 					"category": "meat",
@@ -547,7 +547,7 @@
 				},
 				{
 					"image":"Pillars-sausages.jpg",
-					"coords":[768,155,206,117],
+					"coords":[768,155,101,117],
 					"name": "Piller's Smoked Sausages  Knackwurst or Grillwurst",
 					"brands": ["Piller's"],
 					"category": "meat",
@@ -586,7 +586,7 @@
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"1.89L",
-					"pricing":"$2.99",
+					"pricing":"$2.99 each",
 					"comments":""
 				},
 				{
