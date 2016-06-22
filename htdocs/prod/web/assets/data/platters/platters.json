@@ -1,20 +1,199 @@
 [
   {
-    "name": "",
-    "category": "",
+    "name": "Deli Lovers' Paradise",
+    "category": "Deli, Cheese & Vegetables",
     "quantity": 1,
-    "image": "",
-    "status": "",
+    "image": "images/pp_pop_deli_meat_banquet.jpg",
+    "status": "enabled",
     "sortOrder": 1,
+    "description": "A meat lover’s dream come true! Freshly sliced roast beef, smoked turkey, corned beef, Black Forest ham and cooked chicken are accented with olives and cherry tomatoes.",
     "sizes": [
       {
-        "size": 10,
-        "container": "",
+        "size": 14,
+        "container": "platter",
         "unit": "inches",
-        "price": 9.99,
-        "serves": "",
-        "description": ""
+        "price": 49.99,
+        "serves": ""
+      },
+      {
+        "size": 16,
+        "container": "platter",
+        "unit": "inches",
+        "price": 59.99,
+        "serves": ""
       }
     ]
-  }
+  },
+  {
+    "name": "Cheese Pleasers",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "images/pp_pop_gourmet_cheese.jpg",
+    "status": "enabled",
+    "sortOrder": 4,
+    "description": "Is your gathering calling out for 'cheese, please'? This platter has a slice of happiness for everyone. Indulge your guests with a selection of havarti, cheddar and edam cheeses.",
+    "sizes": [
+      {
+        "size": 12,
+        "container": "platter",
+        "unit": "inches",
+        "price": 39.99,
+        "serves": ""
+      },
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 49.99,
+        "serves": ""
+      },
+      {
+        "size": 18,
+        "container": "platter",
+        "unit": "inches",
+        "price": 69.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Savoury Delights",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "images/pp_pop_deli_meat_cheese_fiesta.jpg",
+    "status": "enabled",
+    "sortOrder": 2,
+    "description": "A true crowd pleaser, this meat and cheese selection has something for everyone. Specially selected roast beef, Black Forest ham and smoked chicken are paired beautifully with Havarti and marble or mild cheddar cheese.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 39.99,
+        "serves": ""
+      },
+      {
+        "size": 16,
+        "container": "",
+        "unit": "inches",
+        "price": 49.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Fruit Celebration",
+    "category": "Fabulous Fruits",
+    "quantity": 1,
+    "image": "images/pp_pop_fruit_fantasy.jpg",
+    "status": "enabled",
+    "sortOrder": 1,
+    "description": "A seasonal selection of premium fresh fruits that'll sweeten any gathering.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 39.99,
+        "serves": ""
+      },
+      {
+        "size": 16,
+        "container": "",
+        "unit": "inches",
+        "price": 49.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Cookie Craze",
+    "category": "Divine Desserts",
+    "quantity": 1,
+    "image": "images/cookie_craze.jpg",
+    "status": "enabled",
+    "sortOrder": 1,
+    "description": "Any cookie monsters in your crowd? These freshly made cookies are mouthwatering and will disappear in no time!",
+    "sizes": [
+      {
+        "size": 12,
+        "container": "platter",
+        "unit": "inches",
+        "price": 29.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Sweet Surprises",
+    "category": "Divine Desserts",
+    "quantity": 1,
+    "image": "images/pp_pop_dessert_pastry.jpg",
+    "status": "enabled",
+    "sortOrder": 2,
+    "description": "A little touch of sweetness will go far for any type of occasion. Tempt your guests with our selection of fresh pastries.",
+    "sizes": [
+      {
+        "size": 25,
+        "container": "platter",
+        "unit": "pieces",
+        "price": 49.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Veggies & Dip",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "images/pp_pop_vegetable_magic.jpg",
+    "status": "enabled",
+    "sortOrder": 7,
+    "description": "A healthy and delicious option that makes a colourful centrepiece. We pile on the fresh veggies and add a flavour dip. We recommend Classic Ranch.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 39.99,
+        "serves": "Serves 8 - 12"
+      }
+    ]
+  },
+  {
+    "name": "Party Perfect Sandwiches",
+    "category": "Party Platters",
+    "quantity": 1,
+    "image": "images/pp_pop_party_sandwich.jpg",
+    "status": "enabled",
+    "sortOrder": 2,
+    "description": "A feast for your senses! Specially selected roast beef, Black Forest ham, and smoked chicken are paired with the finest havarti and marble/mild cheddar.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 39.99,
+        "serves": "Serves 8 - 12"
+      }
+    ]
+  },
+  {
+    "name": "Gourmet Submarines",
+    "category": "Party Platters",
+    "quantity": 1,
+    "image": "images/pp_pop_assorted_submarine.jpg",
+    "status": "enabled",
+    "sortOrder": 3,
+    "description": "Serve up our hearty subs filled with freshly sliced turkey, Black Forest ham and havarti cheese.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 59.99,
+        "serves": "Serves 8 - 12"
+      }
+    ]
+  },
 ]
