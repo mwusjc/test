@@ -1,15 +1,15 @@
 [
   {
     "name": "",
-    "categoryID": 1,
-    "container": "",
+    "categoryID": "",
     "quantity": 1,
     "image": "",
     "status": "",
-    "visualOrder": 1,
+    "sortOrder": 1,
     "sizes": [
       {
         "size": 10,
+        "container": "",
         "unit": "inches",
         "price": 9.99,
         "serves": "",
