@@ -562,5 +562,77 @@
         "serves": "Serves 8 - 12"
       }
     ]
+  },
+  {
+    "name": "Flavours of the World",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "images/pp_pop_flavours_of_the_world.jpg",
+    "status": "enabled",
+    "sortOrder": 4,
+    "description": "Travel the globe with our international-inspired cheese platter, featuring grana padano, beemster, auricchio and manchego.",
+    "sizes": [
+      {
+        "size": null,
+        "container": "platter",
+        "unit": "each",
+        "price": 39.99,
+        "serves": "Serves 8 - 10"
+      }
+    ]
+  },
+  {
+    "name": "Flavours of Italy",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "images/pp_pop_flavours_of_italy.jpg",
+    "status": "enabled",
+    "sortOrder": 6,
+    "description": "Feast on a traditional platter of Italian cold cuts, Genoa salami, pancetta, parma prosciutto, culatello, auricchio, dry olives and dry figs.",
+    "sizes": [
+      {
+        "size": null,
+        "container": "platter",
+        "unit": "each",
+        "price": 39.99,
+        "serves": "Serves 8 - 10"
+      }
+    ]
+  },
+  {
+    "name": "Flavours of Spain",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "images/pp_pop_flavours_of_spain.jpg",
+    "status": "enabled",
+    "sortOrder": 7,
+    "description": "Take your guests on a Spanish flavour adventure. Enjoy our platter of manchego cheese, serrano ham, chorizo sausage, almond stuffed olives, grilled eggplant and stuffed cherry peppers",
+    "sizes": [
+      {
+        "size": null,
+        "container": "platter",
+        "unit": "each",
+        "price": 39.99,
+        "serves": "Serves 8 - 10"
+      }
+    ]
+  },
+  {
+    "name": "Flavours of Paris",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "images/pp_pop_flavours_of_paris.jpg",
+    "status": "disabled",
+    "sortOrder": 6,
+    "description": "A unique and delicious assortment of French And local cheeses, including double crème brie, chèvre noir and sauvagine.",
+    "sizes": [
+      {
+        "size": null,
+        "container": "platter",
+        "unit": "each",
+        "price": 39.99,
+        "serves": "Serves 8 - 10"
+      }
+    ]
   }
 ]
