@@ -622,8 +622,8 @@
     "category": "Appetizers",
     "quantity": 1,
     "image": "images/pp_pop_flavours_of_paris.jpg",
-    "status": "disabled",
-    "sortOrder": 6,
+    "status": "enabled",
+    "sortOrder": 8,
     "description": "A unique and delicious assortment of French And local cheeses, including double crème brie, chèvre noir and sauvagine.",
     "sizes": [
       {
@@ -632,6 +632,24 @@
         "unit": "each",
         "price": 39.99,
         "serves": "Serves 8 - 10"
+      }
+    ]
+  },
+  {
+    "name": "Deli Delight",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "images/pp_pop_deli_delight.jpg",
+    "status": "enabled",
+    "sortOrder": 7,
+    "description": "Enjoy a selection of your favourite deli sandwiches on rye bread and filled with smoked meats. Of course, it wouldn’t be complete without a side of pickles!",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 49.99,
+        "serves": "Serves 8 - 12"
       }
     ]
   }
