@@ -196,4 +196,65 @@
       }
     ]
   },
+  {
+    "name": "Pita Perfect",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "images/pp_pop_mini_pita_pocket.jpg",
+    "status": "enabled",
+    "sortOrder": 0,
+    "description": "Our fresh pita pockets are available in your choice of white or whole wheats. Get them stuffed with tuna or egg salad. It's delicious food for thought for you next lunch meeting.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 49.99,
+        "serves": ""
+      },
+      {
+        "size": 16,
+        "container": "platter",
+        "unit": "inches",
+        "price": 59.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Party Pinwheels",
+    "category": "Party Platters",
+    "quantity": 1,
+    "image": "images/pp_pop_pita_pin_wheels.jpg",
+    "status": "enabled",
+    "sortOrder": 1,
+    "description": "A meat lover’s dream come true! Freshly sliced roast beef, smoked turkey, corned beef, Black Forest ham and cooked chicken are accented with olives and cherry tomatoes.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 49.99,
+        "serves": "Serves 8 - 12"
+      }
+    ]
+  },
+  {
+    "name": "European Flavour",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "images/european_meat.jpg",
+    "status": "enabled",
+    "sortOrder": 3,
+    "description": "Old world meets new with this selection of traditional European flavours. Your guests will devour this mouth-watering selection of Genoa salami, capicola, sopressata, cacciatore, mortadella and prosciutto.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 49.99,
+        "serves": ""
+      }
+    ]
+  }
 ]
