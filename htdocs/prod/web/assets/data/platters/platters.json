@@ -449,9 +449,117 @@
       {
         "size": null,
         "container": "",
-        "unit": "",
+        "unit": "each",
         "price": null,
         "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Fresh Gift Idea",
+    "category": "Flowers & Gift Baskets",
+    "quantity": 1,
+    "image": "images/pp_gift-card.png",
+    "status": "enabled",
+    "sortOrder": 3,
+    "description": "The Highland Farm Gift Card is the perfect gift for any occasion. Pick one up at the checkout on your next visit.",
+    "sizes": [
+      {
+        "size": null,
+        "container": "",
+        "unit": "each",
+        "price": null,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Gift Giving Made Easy",
+    "category": "Flowers & Gift Baskets",
+    "quantity": 1,
+    "image": "media/platters/product_image_201310181852.jpg",
+    "status": "enabled",
+    "sortOrder": 1,
+    "description": "Give a gift that overflows with kindheartedness. Our gift and fruit baskets are designed to be thoughtful, personal and unforgettable and are filled with only the highest quality items and gourmet treats. We also offer Country Kitchen gift baskets and custom-made baskets. Visit our store for details.",
+    "sizes": [
+      {
+        "size": "regular",
+        "container": "",
+        "unit": "each",
+        "price": null,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Blooming with Ideas",
+    "category": "Flowers & Gift Baskets",
+    "quantity": 1,
+    "image": "media/platters/product_image_201310181849.jpg",
+    "status": "enabled",
+    "sortOrder": 2,
+    "description": "Make your celebration extra special with our freshly picked, pre-arranged bouquets, or brighten up your home or office with a potted plant. Custom floral arrangements are also available exclusively at our Mississauga store.",
+    "sizes": [
+      {
+        "size": "regular",
+        "container": "",
+        "unit": "each",
+        "price": null,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Mini Samosas & Dip",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "images/pp_pop_samosas.jpg",
+    "status": "enabled",
+    "sortOrder": 2,
+    "description": "Savour our potato-filled samosas with your choice of dip: Chunky Blue Cheese, Roasted Red Pepper, Avocado Hummus or our favourite, Artichoke & Asiago.",
+    "sizes": [
+      {
+        "size": 40,
+        "container": "platter",
+        "unit": "pieces",
+        "price": 39.99,
+        "serves": "Serves 8 - 12"
+      }
+    ]
+  },
+  {
+    "name": "Mini Empanadas & Dip",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "images/pp_pop_empanadas.jpg",
+    "status": "enabled",
+    "sortOrder": 3,
+    "description": "Our Latin-American style turnovers, stuffed with chicken, beef or spinach & feta, are perfect with our dips: Chunky Blue Cheese, Roasted Red Pepper, Artichoke & Asiago or our recommended flavour, Avocado Hummus.",
+    "sizes": [
+      {
+        "size": 32,
+        "container": "platter",
+        "unit": "pieces",
+        "price": 39.99,
+        "serves": "(Chicken, Beef or Spinach & Feta). Serves 8 - 12"
+      }
+    ]
+  },
+  {
+    "name": "Perogies & Dip",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "images/pp_pop_perogies.jpg",
+    "status": "enabled",
+    "sortOrder": 1,
+    "description": "Golden brown and crispy on the outside, each perogi is stuffed with potato and cheese goodness. Serve it with your favourite dip: Chunky Blue Cheese, Roasted Red Pepper, Artichoke & Asiago or Avocado Hummus.",
+    "sizes": [
+      {
+        "size": 40,
+        "container": "platter",
+        "unit": "pieces",
+        "price": 34.99,
+        "serves": "Serves 8 - 12"
       }
     ]
   }
