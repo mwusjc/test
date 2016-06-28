@@ -201,7 +201,7 @@
     "category": "Appetizers",
     "quantity": 1,
     "image": "images/pp_pop_mini_pita_pocket.jpg",
-    "status": "enabled",
+    "status": "disabled",
     "sortOrder": 0,
     "description": "Our fresh pita pockets are available in your choice of white or whole wheats. Get them stuffed with tuna or egg salad. It's delicious food for thought for you next lunch meeting.",
     "sizes": [
@@ -253,6 +253,204 @@
         "container": "platter",
         "unit": "inches",
         "price": 49.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Antipasto Perfecto",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "images/antipasto.jpg",
+    "status": "enabled",
+    "sortOrder": 5,
+    "description": "All your favourite Mediterranean flavours are here. Your guests will delight over Genoa salami, sopressata and imported cheeses, plus cherry bocconcini, roasted red peppers and assorted olives. It's all perfectly arranged to create a feast for the eyes!",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 49.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Mediterranean Mix",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "images/mediterranean_medley.jpg",
+    "status": "enabled",
+    "sortOrder": 5,
+    "description": "A colourful mix of Mediterranean-inspired flavours are served in this healthy platter of roasted red peppers, mixed olives, pita triangles and, of course, hummus dip.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 29.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Grilled Veggie Medley",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "images/grilled_vegetables.jpg",
+    "status": "enabled",
+    "sortOrder": 6,
+    "description": "Hello sunshine! Add a touch of summer with this gourmet spread of perfectly grilled eggplant, zucchini, roasted red peppers, asparagus and mushrooms. It's all lightly dressed for an extra hit of flavour.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 29.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Olive the Best",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "images/international_olives.jpg",
+    "status": "enabled",
+    "sortOrder": 8,
+    "description": "Explore the flavours of olives from around the globe. Discover spiced green, jumbo pitted, pimento stuff, dry-cured and kalamata olives. A tasty way to complement your menu.",
+    "sizes": [
+      {
+        "size": 16,
+        "container": "platter",
+        "unit": "inches",
+        "price": 39.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Seafood Medley",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "media/platters/product_image_201310212016.jpg",
+    "status": "disabled",
+    "sortOrder": 0,
+    "description": "Seafood lovers will be in heaven with this delectable assortment. Smoked salmon is surrounded by fresh black tiger shrimps and delicious crab sticks.",
+    "sizes": [
+      {
+        "size": 16,
+        "container": "platter",
+        "unit": "inches",
+        "price": 49.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Bagel Delight",
+    "category": "Breakfast Bites",
+    "quantity": 1,
+    "image": "images/BagelBonanza.jpg",
+    "status": "enabled",
+    "sortOrder": 1,
+    "description": "Good mornings are made great by our freshly baked assortment of New York style bagels. Spread the love of a creamy cheese, and start the day deliciously.",
+    "sizes": [
+      {
+        "size": 2,
+        "container": "",
+        "unit": "dozen",
+        "price": 29.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Rise & Shine!",
+    "category": "Breakfast Bites",
+    "quantity": 1,
+    "image": "images/SunshineBreakfast.jpg",
+    "status": "enabled",
+    "sortOrder": 2,
+    "description": "Bring in a delectable selection of freshly baked muffins, melt-in-your-mouth croissants and yummy danishes. This platter contains the secret ingredients to happier morning meetings.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 34.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Shrimp 'n' Dip",
+    "category": "Deli, Cheese & Vegetables",
+    "quantity": 1,
+    "image": "images/ShrimpFeast.jpg",
+    "status": "disabled",
+    "sortOrder": 0,
+    "description": "It's never a party until this shrimp cocktail platter shows up. Your guests will love dipping our freshly cooked black tiger shrimp into the tangy seafood cocktail sauce.",
+    "sizes": [
+      {
+        "size": 16,
+        "container": "platter",
+        "unit": "inches",
+        "price": 39.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Jumbo Wings & Dip",
+    "category": "Party Platters",
+    "quantity": 1,
+    "image": "images/WingingIt.jpg",
+    "status": "enabled",
+    "sortOrder": 4,
+    "description": "These juicy wings, with a classic Blue Cheese dip, are the MVP of every game night. Choose your style of spice: mild, medium or hot. If you’re game, try another dip flavour: Roasted Red, Pepper, Artichoke & Asiago or Avocado Hummus.",
+    "sizes": [
+      {
+        "size": 40,
+        "container": "platter",
+        "unit": "pieces",
+        "price": 39.99,
+        "serves": "Jumbo wings & dip. (Mild, Medium or Hot). Serves 8 - 12"
+      }
+    ]
+  },
+  {
+    "name": "Fresh Spinach Dip",
+    "category": "Appetizers",
+    "quantity": 1,
+    "image": "media/platters/product_image_201310181851.jpg",
+    "status": "disabled",
+    "sortOrder": 0,
+    "description": "Put the fun into eating your greens by serving up this classic favourite – Spinach and Pumpernickel dip.",
+    "sizes": [
+      {
+        "size": 14,
+        "container": "platter",
+        "unit": "inches",
+        "price": 19.99,
+        "serves": ""
+      }
+    ]
+  },
+  {
+    "name": "Cakes for All Occasions",
+    "category": "Special Order Cakes",
+    "quantity": 1,
+    "image": "media/platters/product_image_201310181850.jpg",
+    "status": "enabled",
+    "sortOrder": 1,
+    "description": "A sweet way to mark your special event, our freshly baked cakes are made with the finest ingredients. With so many flavours and designs to choose from, it's easy to find the perfect cake for the occasion.",
+    "sizes": [
+      {
+        "size": null,
+        "container": "",
+        "unit": "",
+        "price": null,
         "serves": ""
       }
     ]
