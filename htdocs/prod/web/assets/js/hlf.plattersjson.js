@@ -32,11 +32,10 @@
       }
       console.log('unique categories', categories);
 
-      mapping = {
-        "_CATEGORY_" : categories
-      };
-      html = hlf.drawTemplate("#tpl-category", mapping);
-      $('.categories-list').append(html);
+      // Populate the categories list based on unique array
+      for(var j=0; j < categories.length; j++) {
+        $('ul[role="tablist"]').append('<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="">' + categories[j] + '</a></li>');
+      }
     },
 
     filterCategory : function(data,filter) {    

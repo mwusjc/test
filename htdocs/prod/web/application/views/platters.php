@@ -23,7 +23,7 @@
 
     <div class="row">
         <div class="col-xs-12 col-sm-3">
-            <ul role="tablist" class="categories-list">
+            <ul role="tablist">
             </ul>
         </div>
         <div class="col-xs-12 col-sm-9">
@@ -38,10 +38,6 @@
     </div>
 </main>
 
-<script type="text/html" id="tpl-category">
-<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab">_CATEGORY_</a></li>
-</script>
-
 <script type="text/html" id="tpl-platter-listing">
     <div class="col-xs-6 col-sm-4 platter" data-platter-name="_TITLE_"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
         <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" alt='_TITLE_' class='lazy' /></div>
@@ -49,7 +45,6 @@
         </a>
     </div>
 </script>
-
 <script type='text/html' id='tpl-product-modal'>
   <div class="modal fade otu productPopup" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
