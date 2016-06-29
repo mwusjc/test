@@ -34,7 +34,7 @@
 
       // Populate the categories list based on unique array
       for(var j=0; j < categories.length; j++) {
-        $('ul[role="tablist"]').append('<li role="presentation"><a href="#" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="">' + categories[j] + '</a></li>');
+        $('ul[role="tablist"]').append('<li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="">' + categories[j] + '</a></li>');
       }
     },
 
