@@ -73,10 +73,10 @@
 </div>
 </script>
 <script type='text/javascript'>
-    hlf.data.platters = <?=json_encode($platters)?>;
-    hlf.data.platters_categories = <?=json_encode($platters_categories)?>;
+    hlf.data.platters = JSON.parse(<?php echo $platters ?>);
     
     jQuery(document).ready(function($) {
+        console.log('platters JSON data', hlf.data.platters);
         var p = hlf.data.platters;
         var newArray = [];
         for(var x in p) { 
