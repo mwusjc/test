@@ -71,7 +71,7 @@
     drawList: function(data) { 
       $('.platters-container').html(' ');
       $.each(data, function(key,item) {
-          mapping = { "_IMAGE_" : item.Image, "_TITLE_" : item.Name, "_ID_" : key, "_PRICE_" : item.Price, "_DESCRIPTION_": item.Description, "_VISUALORDER_": item.VisualOrder };
+          mapping = { "_IMAGE_" : item.image, "_TITLE_" : item.Name, "_ID_" : key, "_PRICE_" : item.Price, "_DESCRIPTION_": item.Description, "_VISUALORDER_": item.VisualOrder };
           html = hlf.drawTemplate("#tpl-platter-listing", mapping);
           $('.platters-container').append(html);
       });

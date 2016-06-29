@@ -80,14 +80,16 @@
         var p = hlf.data.platters;
         var newArray = [];
         for(var x in p) { 
-            newArray.push(p[x]); 
+            if(p[x].status == "enabled") {
+                newArray.push(p[x]); 
+            }
         }
         // Mapping revised object collection of platters
         newArray.map(function(x) {
             return x.sortOrder = parseInt(x.sortOrder);
         });
         
-        // Sorting platters from result set based on value of VisualOrder column from platters table in DB
+        // Sorting platters from result set based on value of sortOrder attribute from platters JSON data file
         newArray = newArray.sort(function(a, b) {
             a = a.sortOrder;
             b = b.sortOrder;
