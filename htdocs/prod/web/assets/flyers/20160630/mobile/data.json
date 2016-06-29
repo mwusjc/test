@@ -246,7 +246,7 @@
 					"summary": "",
 					"packaging":"each",
 					"pricing":"$19.99",
-					"comments":""
+					"comments":"save"
 				},
 				{
 					"image":"Oakrun-Farm-English-Muffins.jpg",
@@ -685,7 +685,7 @@
 					"comments":""
 				},
 				{
-					"image":"kelloggs-frozen-eggo-waffles.jpg",
+					"image":"Chapmans-IceCream.jpg",
 					"coords":[161,200,149,85],
 					"name": "Chapman's Premium Ice Cream 2L, Slice Cream 1.5L or Super Novelties 8-18pk Selected Varieties",
 					"brands": ["Chapman's"],
@@ -849,7 +849,7 @@
 					"coords":[9,288,149,85],
 					"name": "Janes Frozen Chicken Wings Barbeque, Buffalo or Sea Salt & Pepper",
 					"brands": ["Janes"],
-					"category": "deli",
+					"category": "frozen foods",
 					"summary": "",
 					"packaging":"900g",
 					"pricing":"$11.99",
