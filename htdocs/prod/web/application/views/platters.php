@@ -84,13 +84,13 @@
         }
         // Mapping revised object collection of platters
         newArray.map(function(x) {
-            return x.VisualOrder = parseInt(x.VisualOrder);
+            return x.sortOrder = parseInt(x.sortOrder);
         });
         
         // Sorting platters from result set based on value of VisualOrder column from platters table in DB
         newArray = newArray.sort(function(a, b) {
-            a = a.VisualOrder;
-            b = b.VisualOrder;
+            a = a.sortOrder;
+            b = b.sortOrder;
             return (a > b) ? 1 : ((b > a) ? -1 : 0);
         });
 
