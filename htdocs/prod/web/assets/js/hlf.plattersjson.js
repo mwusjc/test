@@ -36,6 +36,32 @@
       for(var j=0; j < categories.length; j++) {
         $('ul[role="tablist"]').append('<li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="">' + categories[j] + '</a></li>');
       }
+
+      // Reorder the categories list to match current visual order
+      this.orderCategories(categories, 1, 1);
+    },
+
+    // Try to visually order categories by modifying array
+    orderCategories: function(categoriesArray, value, changeAmount) {
+      var oldIndex = categoriesArray.indexOf(value);
+      if(oldIndex > -1) {
+        var newIndex = (oldIndex + changeAmount);
+
+        if(newIndex < 0) {
+          newIndex = 0;
+        }
+        else if(newIndex >= categoriesArray.length) {
+          newIndex = categoriesArray.length;
+        }
+
+        var categoriesClone = categoriesArray.slice();
+        categoriesClone.splice(oldIndex, 1);
+        categoriesClone.splice(newIndex, 0, value);
+
+        return categoriesClone;
+      }
+
+      return categoriesArray;
     },
 
     filterCategory : function(data,filter) {    
