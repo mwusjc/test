@@ -38,30 +38,30 @@
       }
 
       // Reorder the categories list to match current visual order
-      this.orderCategories(categories, 1, 1);
+      this.orderCategories(categories, 1, 2);
     },
 
     // Try to visually order categories by modifying array
-    orderCategories: function(categoriesArray, value, changeAmount) {
-      var oldIndex = categoriesArray.indexOf(value);
+    orderCategories: function(categories, value, changeAmount) {
+      var oldIndex = categories.indexOf(value);
       if(oldIndex > -1) {
         var newIndex = (oldIndex + changeAmount);
 
         if(newIndex < 0) {
           newIndex = 0;
         }
-        else if(newIndex >= categoriesArray.length) {
-          newIndex = categoriesArray.length;
+        else if(newIndex >= categories.length) {
+          newIndex = categories.length;
         }
 
-        var categoriesClone = categoriesArray.slice();
+        var categoriesClone = categories.slice();
         categoriesClone.splice(oldIndex, 1);
         categoriesClone.splice(newIndex, 0, value);
 
         return categoriesClone;
       }
 
-      return categoriesArray;
+      return categories;
     },
 
     filterCategory : function(data,filter) {    
