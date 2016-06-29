@@ -31,6 +31,12 @@
         }).reverse();
       }
       console.log('unique categories', categories);
+
+      mapping = {
+        "_CATEGORY_" : categories
+      };
+      html = hlf.drawTemplate("#tpl-category", mapping);
+      $('.categories-list').append(html);
     },
 
     filterCategory : function(data,filter) {    
