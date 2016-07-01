@@ -13,6 +13,26 @@
       });
     },
 
+    getCategories: function(data) {
+      var plattersLength = hlf.data.platters.length;
+      var categories = [];
+
+      // Loop through all platters and retrieve unique category values
+      for(var i=0; i < plattersLength; i++) {
+        if(categories.indexOf(hlf.data.platters[i].category === -1)) {
+          // We have a unique value
+          categories.push(hlf.data.platters[i].category);
+        }
+
+        // Not sure why yet, but this logic appears to work when looking to only return unique values in comparison to the if block above
+        // Solution derived from http://stackoverflow.com/questions/13486479/how-to-get-an-array-of-unique-values-from-an-array-containing-duplicates-in-java
+        categories = categories.reverse().filter(function (element, index, categories) {
+            return categories.indexOf(element, index+1) === -1;
+        }).reverse();
+      }
+      console.log('unique categories', categories);
+    },
+
     filterCategory : function(data,filter) {    
       var filtered = {};
       $.each(data, function(key,item) {
@@ -28,19 +48,19 @@
       $('#detailModal.otu').remove();  // remove all modal instances (one time use)
       var item = hlf.data.platters[id];
       mapping = { 
-          "{IMG}" : "<?=site_url() ?>"+"assets/"+item.Image,
+          "{IMG}" : "<?=site_url() ?>"+"assets/"+item.image,
           "{QTY}" : (item.Quantity ? item.Quantity : ''), 
           "{QTY2}" : (item.Quantity2 ? item.Quantity2 : ''), 
           "{QTY3}" : (item.Quantity3 ? item.Quantity3 : ''), 
           "{QTY_TYPE}" : (item.Qty_type ? item.Qty_type : ''), 
-          "{TITLE}": item.Name, 
+          "{TITLE}": item.name, 
           "{SUBTITLE}": (item.Subtitle ? item.Subtitle : ''), 
-          "{DESCRIPTION}": item.Description, 
+          "{DESCRIPTION}": item.description, 
           "{ID}": item.id,
           "{PRICE}": (item.Price ? "$" + item.Price : ''),
           "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
           "{PRICE3}": (item.Price3 ? "$" + item.Price3 : ''),
-          "{VISUALORDER}": (item.VisualOrder ? item.VisualOrder : '')
+          "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
       };
       html = hlf.drawTemplate("#tpl-product-modal", mapping);
 
@@ -71,7 +91,7 @@
     drawList: function(data) { 
       $('.platters-container').html(' ');
       $.each(data, function(key,item) {
-          mapping = { "_IMAGE_" : item.image, "_TITLE_" : item.Name, "_ID_" : key, "_PRICE_" : item.Price, "_DESCRIPTION_": item.Description, "_VISUALORDER_": item.VisualOrder };
+          mapping = { "_IMAGE_" : item.image, "_TITLE_" : item.name, "_PRICE_" : item.Price, "_DESCRIPTION_": item.description, "_SORTORDER_": item.sortOrder };
           html = hlf.drawTemplate("#tpl-platter-listing", mapping);
           $('.platters-container').append(html);
       });

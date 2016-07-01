@@ -98,6 +98,7 @@
 
         // Make dataset match expected results
         hlf.data.platters = newArray;
+        hlf.platters.getCategories(hlf.data.platters);
         hlf.platters.init(hlf.data.platters);
     });
 </script>
