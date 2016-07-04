@@ -81,6 +81,7 @@
   .carousel-description-right {
     bottom: 0px;
     right: 125px;
+    height: 100px;
   }
 
   .price-image {
