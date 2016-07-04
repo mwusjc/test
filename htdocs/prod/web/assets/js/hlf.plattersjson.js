@@ -85,7 +85,7 @@
       //   }
       // }
 
-
+    
       // Filter displayed platters based on whether they match selected category filter id
       for (var i=0; i < hlf.data.platters.length; i++) {
         var currentPlatterCategory = hlf.data.platters[i].category.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
