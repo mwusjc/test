@@ -5,13 +5,6 @@
       this.drawList(data);
       this.setListeners();  
     },
-    
-    filterListener: function() {  
-      var that = this; 
-      $('[data-filter-id]').on("click", function() {
-         that.filterCategory( hlf.data.platters, $(this).data('filter-id') );
-      });
-    },
 
     getCategories: function(data) {
       var plattersLength = hlf.data.platters.length;
@@ -64,16 +57,32 @@
       }
     },
 
+    filterListener: function() {  
+      var that = this; 
+      $('[data-filter-id]').on("click", function() {
+        that.filterCategory( hlf.data.platters, $(this).data('filter-id') );
+      });
+    },
+
     filterCategory : function(data,filter) {    
       var filtered = {};
-      $.each(data, function(key,item) {
-         if(item.CategoryID == filter) {
-          filtered[key] = item;   
-         } 
+
+      $.each(data, function(key, item) {
+        if(hlf.platters.searchCategories(filter, item.category)) {
+          filtered[key] = item;
+        }
       });
       this.drawList(filtered);
-      $('input.search').val(null);
     }, 
+
+    searchCategories: function(nameKey, myArray) {
+      for (var i=0; i < myArray.length; i++) {
+        if (myArray[i] === nameKey) {
+            return true;
+        }
+      }
+      return false;
+    },
 
     togglePopup: function(id) {
       $('#detailModal.otu').remove();  // remove all modal instances (one time use)
