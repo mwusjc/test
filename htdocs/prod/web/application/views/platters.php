@@ -16,7 +16,14 @@
      <h1>Fresh Ideas For Your Next Event </h1>
      <h2>You have enough to worry about with your upcoming party. Leave the finger food to us. Ask in store for details.</h2>
   </div>
-  <a href="/assets/order-form.pdf" class="btn green" target="_blank">Download order form</a>
+  
+  <!-- Two PDF download buttons -->
+  <div class="col-xs-12 col-sm-12 col-md-3 margin-bottom-zero">
+    <a href="/assets/order-form.pdf" class="btn green" target="_blank">Download Order Form</a>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-3 margin-bottom-zero">
+    <a href="/assets/highland-farms-platters-catering-brochure.pdf" class="btn green" target="_blank">Download Catering Brochure</a>
+  </div>
 </div>
 <div class="row divider spacer"></div>
 &nbsp;
