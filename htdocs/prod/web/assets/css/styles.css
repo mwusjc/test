@@ -6247,6 +6247,10 @@ h4.box.gingham {
 .country-kitchen:after {
   margin-top: 40px; }
 
+.originals-feature img {
+    max-width: 100%;
+}
+
 p.title {
   text-align: center;
 }
@@ -7192,7 +7196,7 @@ span.subheading-text {
   right: 0;
 }
 
-.badge1, .badge2 {
+.badge1, .badge2, .badge3 {
   float:right;
   position: absolute;
 }

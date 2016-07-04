@@ -42,6 +42,8 @@
 
               <img class="badge2" src="_badge2_" alt="badge" style="_badge2CSS_">
 
+              <img class="badge3" src="_badge3_" alt="badge" style="_badge3CSS_">
+
               <div class="carousel-description-left" style="_descriptionLeftTextCSS_">
                 _descriptionLeftText_
               </div>
@@ -66,6 +68,8 @@
           <img class="badge1" src="_badge1_" alt="badge" style="_badge1MobileCSS_">
 
           <img class="badge2" src="_badge2_" alt="badge" style="_badge2MobileCSS_">
+
+          <img class="badge3" src="_badge3_" alt="badge" style="_badge3MobileCSS_">
 
           <div class="container container-carousel" style="_containerCSS_">
 

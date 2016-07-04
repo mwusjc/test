@@ -15,7 +15,7 @@
         <div class='col-sm-7'>
             <h2>Fresh Gift Idea</h2>
             <p>
-                The Highland Farm Gift Card is the perfect gift for any occasion. Available in denominations from $25 to $100, they are sure to please friends and relatives who love to entertain. Pick one up at the checkout on your next visit.
+                The Highland Farm Gift Card is the perfect gift for any occasion. Minimum value starts at $25, they are sure to please friends and relatives who love to entertain. Pick one up at the checkout on your next visit.
             </p>
         </div>
     </div>
