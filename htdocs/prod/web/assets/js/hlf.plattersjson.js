@@ -66,19 +66,30 @@
 
     filterCategory : function(data,filter) {    
       var filtered = {};
-
+      // Loop though platters data and match categories to individual platters when filtering
       $.each(data, function(key, item) {
         if(hlf.platters.searchCategories(filter, item.category)) {
           filtered[key] = item;
         }
       });
+      // Re-render visual list of platters based on selected category
       this.drawList(filtered);
     }, 
 
-    searchCategories: function(nameKey, myArray) {
-      for (var i=0; i < myArray.length; i++) {
-        var currentPlatter = myArray.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
-        if (currentPlatter === nameKey) {
+    searchCategories: function(categorySlug, categoryName) {
+      // ORIGINAL ITERATION OF MODIFIED LOGIC WHICH WORKED (original function parameters were inherited as nameKey, myArray)
+      // for (var i=0; i < myArray.length; i++) {
+      //   var currentPlatter = myArray.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
+      //   if (currentPlatter === nameKey) {
+      //       return true;
+      //   }
+      // }
+
+
+      // Filter displayed platters based on whether they match selected category filter id
+      for (var i=0; i < hlf.data.platters.length; i++) {
+        var currentPlatterCategory = hlf.data.platters[i].category.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
+        if (currentPlatterCategory === categorySlug) {
             return true;
         }
       }
