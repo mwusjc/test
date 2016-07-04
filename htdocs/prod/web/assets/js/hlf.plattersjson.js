@@ -77,7 +77,8 @@
 
     searchCategories: function(nameKey, myArray) {
       for (var i=0; i < myArray.length; i++) {
-        if (myArray[i] === nameKey) {
+        var currentPlatter = myArray.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
+        if (currentPlatter === nameKey) {
             return true;
         }
       }
