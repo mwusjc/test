@@ -96,7 +96,7 @@
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "Ontario Homegrown<br>Greenhouse Grown<br>Tomatoes on the Vine<br>No. 1 Grade",
             "descriptionRightTextCSS": "font-size: 16px; right: 235px; bottom: 90px",
-            "descriptionRightTextMobileCSS": "font-size: 15px;bottom: 33px; right: 127px; padding-bottom:20px"
+            "descriptionRightTextMobileCSS": "font-size: 15px; padding-bottom:20px"
           },
           {
             "slideID": "carousel-slide4",
@@ -124,7 +124,7 @@
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "Unico<br>Sunflower Oil",
             "descriptionRightTextCSS": "font-size: 18px; bottom: 90px; right: 250px;",
-            "descriptionRightTextMobileCSS": "font-size: 15px;bottom: 33px; right: 127px; padding-bottom:20px"
+            "descriptionRightTextMobileCSS": "font-size: 15px; padding-bottom:20px"
           },
           {
             "slideID": "carousel-slide5",
@@ -152,7 +152,7 @@
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "Nature Valley<br>Granola Bars 130-230g or<br>Betty Crocker Snacks<br>120-226g<br>Selected Varieties",
             "descriptionRightTextCSS": "font-size: 18px;bottom: 65px;right:250px;",
-            "descriptionRightTextMobileCSS": "font-size: 15px;bottom: 14px; right: 129px;"
+            "descriptionRightTextMobileCSS": "font-size: 15px;"
           },
           {
             "slideID": "carousel-slide6",
@@ -180,7 +180,7 @@
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "Del Monte<br>Refrigerated Fruit Juice<br>& Cocktails<br>Assorted Varieties",
             "descriptionRightTextCSS": "font-size: 18px;bottom: 65px;right:250px;",
-            "descriptionRightTextMobileCSS": "font-size: 15px;bottom: 14px; right: 129px;"
+            "descriptionRightTextMobileCSS": "font-size: 15px;"
           }
         ]
       },

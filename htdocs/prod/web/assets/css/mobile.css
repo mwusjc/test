@@ -18,184 +18,202 @@
   .desktop{
     display: none !important;
   }
+
   .carousel-inner-mobile .flyerWrap>img{
-        width: 320px !important;
+    width: 320px !important;
     height: 395px !important;
   }
+
   .carousel.home {
-    /*height: 376px;*/
     height: inherit;
     width: 100%;
     border-top: 2px solid rgba(195,195,195,0.9);
-    }
-    header .shopcart {
-        position: absolute;
-        top: 35px;
-        right: 30px;
-    }
-    header .logo {
-        max-width: 140px;
-        margin: 10px auto;
-    }
-    img.menu-toggle {
-        cursor: pointer;
-        position: absolute;
-        padding: 22px;
-    }
-    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
-      color: black;
-      font-size: 30px;
-    }
-    .main-nav{
-      transition: all 200ms linear;
-    }
-    .main-nav.closed{
-      margin-left: -100%;
-    }
-    .main-menu li {
-        display: block;
-        margin: 0;
-        padding: 10px;
-        font-size: 20px;
-      }
-    .main-menu li a {
-        text-align: center;
-      }
+  }
 
-    nav.mobile {
-        margin-top: 92px;
-        position: absolute;
-        width: 100%;
-        z-index: 100;
-    }
+  header .shopcart {
+    position: absolute;
+    top: 35px;
+    right: 30px;
+  }
 
-    nav ul {
-      min-height: 100vh;
-    }
+  header .logo {
+    max-width: 140px;
+    margin: 10px auto;
+  }
 
-    .home-categories > div:last-of-type {
-      margin-bottom: 0px;
-    }
+  img.menu-toggle {
+    cursor: pointer;
+    position: absolute;
+    padding: 22px;
+  }
 
-    .home-thumbnail-grid {
-      padding-left: 0;
-      padding-right: 0;
-    }
+  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+    color: black;
+    font-size: 30px;
+  }
+  
+  .main-nav{
+    transition: all 200ms linear;
+  }
+  
+  .main-nav.closed{
+    margin-left: -100%;
+  }
 
-    .home-thumbnail-desc {
-      margin-bottom: 10px;
-    }
+  .main-menu li {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+  }
 
-    /*Flyer*/
-    .currentFlyerHeadingsContainer {
-      margin-left: 0px;
-    }
+  .main-menu li a {
+    text-align: center;
+  }
 
-    /*Inside Store*/
-    .inside-store-container .inside-store-item-container {
-      margin-bottom: 30px !important;
-    }
+  nav.mobile {
+    margin-top: 92px;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+  }
 
-    .inside-store-container .inside-store-item-container .inside-store-item {
-      margin-top: 0;
-    }
+  .carousel-description-right {
+    bottom: 0px;
+    right: 125px;
+  }
 
+  .price-image {
+    width: 290px;
+  }
+
+  nav ul {
+    min-height: 100vh;
+  }
+
+  .home-categories > div:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .home-thumbnail-grid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .home-thumbnail-desc {
+    margin-bottom: 10px;
+  }
+
+  /*Flyer*/
+  .currentFlyerHeadingsContainer {
+    margin-left: 0px;
+  }
+
+  /*Inside Store*/
+  .inside-store-container .inside-store-item-container {
+    margin-bottom: 30px !important;
+  }
+
+  .inside-store-container .inside-store-item-container .inside-store-item {
+    margin-top: 0;
+  }
+
+  .details-thumbnail {
+    max-width: 100%;
+  }
+
+  @-moz-document url-prefix() {
     .details-thumbnail {
-      max-width: 100%;
+      max-width: calc(100vw - 58px);
     }
+  }
 
-    @-moz-document url-prefix() {
-      .details-thumbnail {
-        max-width: calc(100vw - 58px);
-      }
-    }
+  /*Country Kitchen*/
+  .ck-details {
+    margin-bottom: 0 !important;
+    padding: 0;
+  }
 
-    /*Country Kitchen*/
-    .ck-details {
-      margin-bottom: 0 !important;
-      padding: 0;
-    }
+  .ck-details:not(.open) {
+    display: none;
+  }
 
-    .ck-details:not(.open) {
-      display: none;
-    }
+  .originals-feature {
+    /** TO-DO: adjust this to not use negative margins **/
+    margin-bottom: -55px !important;
+    width: calc(100% - 15px);
+  }
 
-    .originals-feature {
-      /** TO-DO: adjust this to not use negative margins **/
-      margin-bottom: -55px !important;
-      width: calc(100% - 15px);
-    }
+  .bottom-box {
+    border-radius: 0 0 10px 10px;
+    height: 140px !important;
+    margin-left: 15px;
+    width: calc(100% - 30px);
+  }
 
-    .bottom-box {
-      border-radius: 0 0 10px 10px;
-      height: 140px !important;
-      margin-left: 15px;
-      width: calc(100% - 30px);
-    }
+  /*Platter*/
+  .platters-heading {
+    margin-bottom: 0px !important;
+  }
 
-    /*Platter*/
-    .platters-heading {
-      margin-bottom: 0px !important;
-    }
+  .platter .image {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    height: auto;
+  }
 
-    .platter .image {
-        max-width: 100%;
-        max-height: 100%;
-        text-align: center;
-        height: auto;
-    }
-    .platter .image img{
-        max-width: 135px;
-        text-align: center;
-        height: 135px;
-    }
+  .platter .image img{
+    max-width: 135px;
+    text-align: center;
+    height: 135px;
+  }
 
-    #chooseFlyer .modal-dialog .col-sm-3 {
-        width: 20%;
-    }
-    #chooseFlyer .modal-dialog .col-sm-9 {
-        width: 80%;
-    }
+  #chooseFlyer .modal-dialog .col-sm-3 {
+    width: 20%;
+  }
 
-    /*Visit Us*/
-    .visit-us-form-field {
-      margin-bottom: 10px !important;
-    }
+  #chooseFlyer .modal-dialog .col-sm-9 {
+    width: 80%;
+  }
+
+  /*Visit Us*/
+  .visit-us-form-field {
+    margin-bottom: 10px !important;
+  }
+
   .responsive > img {
     max-width: 100%;
-    }
-    /*Footer*/
-    footer {
-      margin-top: 40px;
-    }
+  }
 
-    footer ul li {
-      float: none;
-      margin-right: 0;
-      padding: 10px 0 10px 0;
-    }
+  /*Footer*/
+  footer {
+    margin-top: 40px;
+  }
 
-    footer ul li a {
-      text-align: center;
-    }
+  footer ul li {
+    float: none;
+    margin-right: 0;
+    padding: 10px 0 10px 0;
+  }
 
-    footer p {
-      text-align: center;
-    }
+  footer ul li a {
+    text-align: center;
+  }
 
-    form input[type="text"], form input[type="email"] {
-      width: 97%;
-    }
+  footer p {
+    text-align: center;
+  }
 
-    .related-recipe-title {
-      text-align: center;
-    }
+  form input[type="text"], form input[type="email"] {
+    width: 97%;
+  }
 
-    .recommended .img img {
-      width: auto;
-    }
+  .related-recipe-title {
+    text-align: center;
+  }
 
-    .price-image {
-      width: 140px;
-    }
+  .recommended .img img {
+    width: auto;
+  }
 }
