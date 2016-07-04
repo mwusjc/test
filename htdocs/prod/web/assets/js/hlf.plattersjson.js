@@ -30,9 +30,34 @@
             return categories.indexOf(element, index+1) === -1;
         }).reverse();
       }
-      console.log('unique categories', categories);
 
-      // Populate the categories list based on unique array
+      // Reorder the elements of the categories list to match required visual order
+      // Required visual order is as follows: 
+      /* 
+        Breakfast Bites
+        Appetizers
+        Deli, Cheese & Vegetables
+        Party Platters
+        Fabulous Fruits
+        Divine Desserts
+        Special Order Cakes
+        Flowers & Gift Baskets
+      */
+
+      // Derived from recommended solution at http://stackoverflow.com/questions/2440700/reordering-arrays for how to reorder elements of array
+      // TO-DO: Preferably move away from using classname.prototype for custom functionality in future
+      Array.prototype.move = function(fromIndex, toIndex) {
+        this.splice(toIndex, 0, this.splice(fromIndex, 1)[0]);
+      };
+
+      // Adjusting necessary indices
+      categories.move(1, 2);
+      categories.move(7, 3);
+      categories.move(3, 5);
+      categories.move(5, 3);
+      categories.move(6, 7);
+
+      // Populate categories list based on reordered array
       for(var j=0; j < categories.length; j++) {
         $('ul[role="tablist"]').append('<li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="">' + categories[j] + '</a></li>');
       }
