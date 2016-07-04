@@ -59,7 +59,8 @@
 
       // Populate categories list based on reordered array
       for(var j=0; j < categories.length; j++) {
-        $('ul[role="tablist"]').append('<li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id="">' + categories[j] + '</a></li>');
+        // TO-DO: Optimize the string manipulation done for data-filter-id so that multiple functions are not chained for lowercasing, replacement of spaces with dashes, removal of commas, and removal of ampersands (matches the order of operations below)
+        $('ul[role="tablist"]').append('<li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id=' + categories[j].toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '') + '>' + categories[j] + '</a></li>');
       }
     },
 
