@@ -22,7 +22,7 @@
     <a href="/assets/order-form.pdf" class="btn green" target="_blank">Download Order Form</a>
   </div>
   <div class="col-xs-12 col-sm-12 col-md-3 margin-bottom-zero">
-    <a href="/assets/catering-brochure.pdf" class="btn green" target="_blank">View Catalogue</a>
+    <a href="/assets/highland-farms-platters-catering-brochure.pdf" class="btn green" target="_blank">Download Catering Brochure</a>
   </div>
 </div>
 <div class="row divider spacer"></div>
