@@ -99,7 +99,7 @@
       // Loop through platters and find one which matches the name of the one clicked
       for(var i=0; i < plattersLength; i++) {
         item = hlf.data.platters[i];
-        if(hlf.data.platters[i].name === item.name) {
+        if(item.name === name) {
           return true;
         }
         else {
@@ -109,12 +109,8 @@
 
       mapping = { 
           "{IMG}" : window.location.host + "/assets/" + item.image,
-          "{QTY}" : (item.Quantity ? item.Quantity : ''), 
-          "{QTY2}" : (item.Quantity2 ? item.Quantity2 : ''), 
-          "{QTY3}" : (item.Quantity3 ? item.Quantity3 : ''), 
-          "{QTY_TYPE}" : (item.Qty_type ? item.Qty_type : ''), 
+          "{QTY}" : (item.quantity ? item.quantity : ''), 
           "{TITLE}": (item.name ? item.name : ''), 
-          "{SUBTITLE}": (item.Subtitle ? item.Subtitle : ''), 
           "{DESCRIPTION}": (item.description ? item.description : ''), 
           "{PRICE}": (item.Price ? "$" + item.Price : ''),
           "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
