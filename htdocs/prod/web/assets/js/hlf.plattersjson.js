@@ -91,8 +91,22 @@
     },
 
     togglePopup: function(name) {
-      $('#detailModal.otu').remove();  // remove all modal instances (one time use)
-      var item = hlf.data.platters.indexOf(name);
+      // remove all modal instances (one time use)
+      $('#detailModal.otu').remove();
+
+      var item;
+      var plattersLength = hlf.data.platters.length;
+      // Loop through platters and find one which matches the name of the one clicked
+      for(var i=0; i < plattersLength; i++) {
+        item = hlf.data.platters[i];
+        if(hlf.data.platters[i].name === item.name) {
+          return true;
+        }
+        else {
+          return false;
+        }
+      }
+
       mapping = { 
           "{IMG}" : window.location.host + "/assets/" + item.image,
           "{QTY}" : (item.Quantity ? item.Quantity : ''), 
