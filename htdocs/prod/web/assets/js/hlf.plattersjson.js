@@ -80,24 +80,14 @@
     }, 
 
     searchCategories: function(categorySlug, categoryName) {
-      // ORIGINAL ITERATION OF MODIFIED LOGIC WHICH WORKED (original function parameters were inherited as nameKey, myArray)
-      // for (var i=0; i < myArray.length; i++) {
-      //   var currentPlatter = myArray.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
-      //   if (currentPlatter === nameKey) {
-      //       return true;
-      //   }
-      // }
-
-
-      // Most recent iteration from July 4th, 2016 
-      // Filter displayed platters based on whether they match selected category filter id
-      for (var i=0; i < this.categories.length; i++) {
-        var currentPlatterCategory = this.categories[i].toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
+      // Loop though platters and match currently selected category to relevant platters
+      for (var i=0; i < categoryName.length; i++) {
+        // Create category slug from plain English name (Eg. breakfast-bites from Breakfast Bites)
+        var currentPlatterCategory = categoryName.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
         if (currentPlatterCategory === categorySlug) {
           return true;
         }
       }
-      return false;
     },
 
     togglePopup: function(id) {
@@ -116,8 +106,7 @@
           "{PRICE}": (item.Price ? "$" + item.Price : ''),
           "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
           "{PRICE3}": (item.Price3 ? "$" + item.Price3 : ''),
-          "{SORTORDER}": (item.sortOrder ? item.sortOrder : ''),
-          "{CATEGORY}": (item.category ? item.category : '')
+          "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
       };
       html = hlf.drawTemplate("#tpl-product-modal", mapping);
 
@@ -148,7 +137,7 @@
     drawList: function(data) { 
       $('.platters-container').html(' ');
       $.each(data, function(key,item) {
-          mapping = { "_IMAGE_" : item.image, "_TITLE_" : item.name, "_PRICE_" : item.Price, "_DESCRIPTION_": item.description, "_SORTORDER_": item.sortOrder,  "_CATEGORY_" : item.category.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '')};
+          mapping = { "_IMAGE_" : item.image, "_TITLE_" : item.name, "_PRICE_" : item.Price, "_DESCRIPTION_": item.description, "_SORTORDER_": item.sortOrder};
           html = hlf.drawTemplate("#tpl-platter-listing", mapping);
           $('.platters-container').append(html);
       });

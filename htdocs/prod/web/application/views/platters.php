@@ -46,7 +46,7 @@
 </main>
 
 <script type="text/html" id="tpl-platter-listing">
-    <div class="col-xs-6 col-sm-4 platter _CATEGORY_" data-platter-name="_TITLE_"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
+    <div class="col-xs-6 col-sm-4 platter" data-platter-name="_TITLE_"><a href='#' data-obj-id='_ID_' data-toggle-details='_ID_'>
         <div class='image'><img data-original="<?=site_url()?>assets/_IMAGE_" alt='_TITLE_' class='lazy' /></div>
         <div class="img_copy">_TITLE_</div>
         </a>
