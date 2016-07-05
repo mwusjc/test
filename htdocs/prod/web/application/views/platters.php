@@ -79,7 +79,6 @@
     hlf.data.platters = JSON.parse(<?php echo $platters ?>);
     
     jQuery(document).ready(function($) {
-        console.log('platters JSON data', hlf.data.platters);
         var platters = hlf.data.platters;
         var sortedPlatters = [];
         for(var x in platters) { 
@@ -101,7 +100,6 @@
 
         // Make dataset match expected results
         hlf.data.platters = sortedPlatters;
-        console.log('resorted platters data', hlf.data.platters);
         hlf.platters.getCategories(hlf.data.platters);
         hlf.platters.init(hlf.data.platters);
     });
