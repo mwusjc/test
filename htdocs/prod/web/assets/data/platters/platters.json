@@ -605,7 +605,7 @@
     "quantity": 1,
     "image": "images/pp_pop_flavours_of_spain.jpg",
     "status": "enabled",
-    "sortOrder": 7,
+    "sortOrder": 8,
     "description": "Take your guests on a Spanish flavour adventure. Enjoy our platter of manchego cheese, serrano ham, chorizo sausage, almond stuffed olives, grilled eggplant and stuffed cherry peppers",
     "sizes": [
       {
@@ -621,9 +621,9 @@
     "name": "Flavours of Paris",
     "category": "Appetizers",
     "quantity": 1,
-    "image": "images/pp_pop_flavours_of_paris.jpg",
+    "image": "images/platter-french-selection.jpg",
     "status": "enabled",
-    "sortOrder": 8,
+    "sortOrder": 7,
     "description": "A unique and delicious assortment of French And local cheeses, including double crème brie, chèvre noir and sauvagine.",
     "sizes": [
       {
