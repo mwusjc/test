@@ -1,5 +1,8 @@
 
   hlf.platters = {
+    // Make categories global
+    categories: [],
+
     init: function(data) {
       this.filterListener();
       this.drawList(data);
@@ -8,19 +11,19 @@
 
     getCategories: function(data) {
       var plattersLength = hlf.data.platters.length;
-      var categories = [];
+      // var categories = [];
 
       // Loop through all platters and retrieve unique category values
       for(var i=0; i < plattersLength; i++) {
-        if(categories.indexOf(hlf.data.platters[i].category === -1)) {
+        if(this.categories.indexOf(hlf.data.platters[i].category === -1)) {
           // We have a unique value
-          categories.push(hlf.data.platters[i].category);
+          this.categories.push(hlf.data.platters[i].category);
         }
 
         // Not sure why yet, but this logic appears to work when looking to only return unique values in comparison to the if block above
         // Solution derived from http://stackoverflow.com/questions/13486479/how-to-get-an-array-of-unique-values-from-an-array-containing-duplicates-in-java
-        categories = categories.reverse().filter(function (element, index, categories) {
-            return categories.indexOf(element, index+1) === -1;
+        this.categories = this.categories.reverse().filter(function (element, index, categories) {
+          return categories.indexOf(element, index+1) === -1;
         }).reverse();
       }
 
@@ -44,16 +47,16 @@
       };
 
       // Adjusting necessary indices
-      categories.move(1, 2);
-      categories.move(7, 3);
-      categories.move(3, 5);
-      categories.move(5, 3);
-      categories.move(6, 7);
+      this.categories.move(1, 2);
+      this.categories.move(7, 3);
+      this.categories.move(3, 5);
+      this.categories.move(5, 3);
+      this.categories.move(6, 7);
 
       // Populate categories list based on reordered array
-      for(var j=0; j < categories.length; j++) {
+      for(var j=0; j < this.categories.length; j++) {
         // TO-DO: Optimize the string manipulation done for data-filter-id so that multiple functions are not chained for lowercasing, replacement of spaces with dashes, removal of commas, and removal of ampersands (matches the order of operations below)
-        $('ul[role="tablist"]').append('<li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id=' + categories[j].toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '') + '>' + categories[j] + '</a></li>');
+        $('ul[role="tablist"]').append('<li role="presentation"><a href="#dessert" aria-controls="home" role="tab" data-toggle="tab" data-filter-id=' + this.categories[j].toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '') + '>' + this.categories[j] + '</a></li>');
       }
     },
 
@@ -85,12 +88,13 @@
       //   }
       // }
 
-    
+
+      // Most recent iteration from July 4th, 2016 
       // Filter displayed platters based on whether they match selected category filter id
-      for (var i=0; i < hlf.data.platters.length; i++) {
-        var currentPlatterCategory = hlf.data.platters[i].category.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
+      for (var i=0; i < this.categories.length; i++) {
+        var currentPlatterCategory = this.categories[i].toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '');
         if (currentPlatterCategory === categorySlug) {
-            return true;
+          return true;
         }
       }
       return false;
@@ -112,7 +116,8 @@
           "{PRICE}": (item.Price ? "$" + item.Price : ''),
           "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
           "{PRICE3}": (item.Price3 ? "$" + item.Price3 : ''),
-          "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
+          "{SORTORDER}": (item.sortOrder ? item.sortOrder : ''),
+          "{CATEGORY}": (item.category ? item.category : '')
       };
       html = hlf.drawTemplate("#tpl-product-modal", mapping);
 
@@ -143,7 +148,7 @@
     drawList: function(data) { 
       $('.platters-container').html(' ');
       $.each(data, function(key,item) {
-          mapping = { "_IMAGE_" : item.image, "_TITLE_" : item.name, "_PRICE_" : item.Price, "_DESCRIPTION_": item.description, "_SORTORDER_": item.sortOrder };
+          mapping = { "_IMAGE_" : item.image, "_TITLE_" : item.name, "_PRICE_" : item.Price, "_DESCRIPTION_": item.description, "_SORTORDER_": item.sortOrder,  "_CATEGORY_" : item.category.toLowerCase().replace(/\s+/g, "-").replace(/,/g,'').replace(/\&-/g, '')};
           html = hlf.drawTemplate("#tpl-platter-listing", mapping);
           $('.platters-container').append(html);
       });
