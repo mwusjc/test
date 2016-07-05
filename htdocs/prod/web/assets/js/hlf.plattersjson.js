@@ -90,19 +90,18 @@
       }
     },
 
-    togglePopup: function(id) {
+    togglePopup: function(name) {
       $('#detailModal.otu').remove();  // remove all modal instances (one time use)
-      var item = hlf.data.platters[id];
+      var item = hlf.data.platters.indexOf(name);
       mapping = { 
-          "{IMG}" : "<?=site_url() ?>"+"assets/"+item.image,
+          "{IMG}" : window.location.host + "/assets/" + item.image,
           "{QTY}" : (item.Quantity ? item.Quantity : ''), 
           "{QTY2}" : (item.Quantity2 ? item.Quantity2 : ''), 
           "{QTY3}" : (item.Quantity3 ? item.Quantity3 : ''), 
           "{QTY_TYPE}" : (item.Qty_type ? item.Qty_type : ''), 
-          "{TITLE}": item.name, 
+          "{TITLE}": (item.name ? item.name : ''), 
           "{SUBTITLE}": (item.Subtitle ? item.Subtitle : ''), 
-          "{DESCRIPTION}": item.description, 
-          "{ID}": item.id,
+          "{DESCRIPTION}": (item.description ? item.description : ''), 
           "{PRICE}": (item.Price ? "$" + item.Price : ''),
           "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
           "{PRICE3}": (item.Price3 ? "$" + item.Price3 : ''),
@@ -116,9 +115,9 @@
 
     setListeners: function() {
       var that = this;
-      $(document).on('click', '[data-toggle-details]', function(e) {
+      $(document).on('click', '[data-platter-name]', function(e) {
           e.preventDefault();
-          that.togglePopup( $(this).data("toggle-details") ); 
+          that.togglePopup( $(this).data("platter-name") ); 
       });
             
       $('body').on("click", '[data-add-cart]', function(e) {
