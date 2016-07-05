@@ -80,27 +80,28 @@
     
     jQuery(document).ready(function($) {
         console.log('platters JSON data', hlf.data.platters);
-        var p = hlf.data.platters;
-        var newArray = [];
-        for(var x in p) { 
-            if(p[x].status == "enabled") {
-                newArray.push(p[x]); 
+        var platters = hlf.data.platters;
+        var sortedPlatters = [];
+        for(var x in platters) { 
+            if(platters[x].status == "enabled") {
+                sortedPlatters.push(platters[x]); 
             }
         }
         // Mapping revised object collection of platters
-        newArray.map(function(x) {
+        sortedPlatters.map(function(x) {
             return x.sortOrder = parseInt(x.sortOrder);
         });
         
         // Sorting platters from result set based on value of sortOrder attribute from platters JSON data file
-        newArray = newArray.sort(function(a, b) {
+        sortedPlatters = sortedPlatters.sort(function(a, b) {
             a = a.sortOrder;
             b = b.sortOrder;
             return (a > b) ? 1 : ((b > a) ? -1 : 0);
         });
 
         // Make dataset match expected results
-        hlf.data.platters = newArray;
+        hlf.data.platters = sortedPlatters;
+        console.log('resorted platters data', hlf.data.platters);
         hlf.platters.getCategories(hlf.data.platters);
         hlf.platters.init(hlf.data.platters);
     });
