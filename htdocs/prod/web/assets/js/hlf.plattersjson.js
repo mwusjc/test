@@ -99,41 +99,38 @@
       // Loop through platters and find one which matches the name of the one clicked
       for(var i=0; i < plattersLength; i++) {
         item = hlf.data.platters[i];
-        // When matching platter data is found from that which was clicked, draw template with corresponding data and add to DOM
+        
+        // When matching platter name is found from that which was clicked, draw template with corresponding data and add to DOM
         if(item.name === name) {
-          mapping = { 
-            "{IMG}" : "assets/" + item.image,
-            "{QTY}" : (item.quantity ? item.quantity : ''), 
-            "{TITLE}": (item.name ? item.name : ''), 
-            "{DESCRIPTION}": (item.description ? item.description : ''), 
-            "{PRICE}": (item.Price ? "$" + item.Price : ''),
-            "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
-            "{PRICE3}": (item.Price3 ? "$" + item.Price3 : ''),
-            "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
-          };
-
-          // Loop through all properties for each platter
+          // Loop through all properties
           for(var property in item) {
             if(item.hasOwnProperty(property)) {
               console.log('platter ' + property + ' is ' + item[property]);
 
               // Check for sizes array when looping through platter properties and gather info including price, size and serving capacity
               if(property === 'sizes') {
-                console.log('hit sizes array');
-
-                // Loop through entries in sizes array
+                // Loop through entries in sizes array and populate platter template mapping accordingly
                 for(var j=0; j < item['sizes'].length; j++) {
                   console.log('platter sizes property size is ' + item['sizes'][j]['size']);
                   console.log('platter sizes property container is ' + item['sizes'][j]['container']);
                   console.log('platter sizes property unit is ' + item['sizes'][j]['unit']);
                   console.log('platter sizes property price is ' + item['sizes'][j]['price']);
+                  item.price = item['sizes'][j]['price'];
                   console.log('platter sizes property serves is ' + item['sizes'][j]['serves']);
                 }
               }
             }
           }
 
-
+          // Populate and draw modal template
+          mapping = { 
+            "{IMG}" : "assets/" + item.image,
+            "{QTY}" : (item.quantity ? item.quantity : ''), 
+            "{TITLE}": (item.name ? item.name : ''), 
+            "{DESCRIPTION}": (item.description ? item.description : ''), 
+            "{PRICE}": (item.price ? "$" + item.price : ''),
+            "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
+          };
           html = hlf.drawTemplate("#tpl-product-modal", mapping);
 
           $('body').append(html);
@@ -143,7 +140,7 @@
         }
         else {
           // Using continue here so that data for any platter can be retrieved for modal by continuing to iterate through platters data until match is found, 
-          // rather than return false which would stop execution and unexpected behaviour from user perspective
+          // rather than return false which would stop execution and cause unexpected behaviour from user perspective
           continue;
         }
       }
