@@ -65,8 +65,7 @@
                         <img class='image' src="{IMG}" alt="{TITLE}">
                     </div>
                     <div class="col-xs-12 col-sm-6">
-                        <h2 class='title'>{TITLE} {QTY_TYPE}</h2>
-                        <h3>{SUBTITLE}</h3> 
+                        <h2 class='title'>{TITLE}</h2>
                         <div class='pricing'>{QTY} {PRICE} <br/> {QTY2} {PRICE2} <br/> {QTY3} {PRICE3} </div>       
                         <p class='description'>{DESCRIPTION}</p>
                         <a href='#' data-add-cart='{ID}' class='btn green addToCart'>Add to Shopping List</a>

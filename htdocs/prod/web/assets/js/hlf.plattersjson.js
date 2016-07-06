@@ -100,27 +100,29 @@
       for(var i=0; i < plattersLength; i++) {
         item = hlf.data.platters[i];
         if(item.name === name) {
+          mapping = { 
+            "{IMG}" : "assets/" + item.image,
+            "{QTY}" : (item.quantity ? item.quantity : ''), 
+            "{TITLE}": (item.name ? item.name : ''), 
+            "{DESCRIPTION}": (item.description ? item.description : ''), 
+            "{PRICE}": (item.Price ? "$" + item.Price : ''),
+            "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
+            "{PRICE3}": (item.Price3 ? "$" + item.Price3 : ''),
+            "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
+          };
+          html = hlf.drawTemplate("#tpl-product-modal", mapping);
+
+          $('body').append(html);
+          $('#detailModal').modal('show');
+
           return true;
         }
         else {
-          return false;
+          continue;
         }
       }
 
-      mapping = { 
-          "{IMG}" : window.location.host + "/assets/" + item.image,
-          "{QTY}" : (item.quantity ? item.quantity : ''), 
-          "{TITLE}": (item.name ? item.name : ''), 
-          "{DESCRIPTION}": (item.description ? item.description : ''), 
-          "{PRICE}": (item.Price ? "$" + item.Price : ''),
-          "{PRICE2}": (item.Price2 ? "$" + item.Price2 : ''),
-          "{PRICE3}": (item.Price3 ? "$" + item.Price3 : ''),
-          "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
-      };
-      html = hlf.drawTemplate("#tpl-product-modal", mapping);
-
-      $('body').append(html);
-      $('#detailModal').modal('show');  
+        
     },
 
     setListeners: function() {
