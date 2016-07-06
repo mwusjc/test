@@ -111,6 +111,29 @@
             "{PRICE3}": (item.Price3 ? "$" + item.Price3 : ''),
             "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
           };
+
+          // Loop through all properties for each platter
+          for(var property in item) {
+            if(item.hasOwnProperty(property)) {
+              console.log('platter ' + property + ' is ' + item[property]);
+
+              // Check for sizes array when looping through platter properties and gather info including price, size and serving capacity
+              if(property === 'sizes') {
+                console.log('hit sizes array');
+
+                // Loop through entries in sizes array
+                for(var j=0; j < item['sizes'].length; j++) {
+                  console.log('platter sizes property size is ' + item['sizes'][j]['size']);
+                  console.log('platter sizes property container is ' + item['sizes'][j]['container']);
+                  console.log('platter sizes property unit is ' + item['sizes'][j]['unit']);
+                  console.log('platter sizes property price is ' + item['sizes'][j]['price']);
+                  console.log('platter sizes property serves is ' + item['sizes'][j]['serves']);
+                }
+              }
+            }
+          }
+
+
           html = hlf.drawTemplate("#tpl-product-modal", mapping);
 
           $('body').append(html);
