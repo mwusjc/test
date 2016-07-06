@@ -99,6 +99,7 @@
       // Loop through platters and find one which matches the name of the one clicked
       for(var i=0; i < plattersLength; i++) {
         item = hlf.data.platters[i];
+        // When matching platter data is found from that which was clicked, draw template with corresponding data and add to DOM
         if(item.name === name) {
           mapping = { 
             "{IMG}" : "assets/" + item.image,
@@ -118,6 +119,8 @@
           return true;
         }
         else {
+          // Using continue here so that data for any platter can be retrieved for modal by continuing to iterate through platters data until match is found, 
+          // rather than return false which would stop execution and unexpected behaviour from user perspective
           continue;
         }
       }
