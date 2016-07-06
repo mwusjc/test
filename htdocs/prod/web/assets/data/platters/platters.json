@@ -11,14 +11,14 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
         "serves": ""
       },
       {
         "size": 16,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 59.99,
         "serves": ""
       }
@@ -36,21 +36,21 @@
       {
         "size": 12,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 39.99,
         "serves": ""
       },
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
         "serves": ""
       },
       {
         "size": 18,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 69.99,
         "serves": ""
       }
@@ -68,14 +68,14 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 39.99,
         "serves": ""
       },
       {
         "size": 16,
         "container": "",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
         "serves": ""
       }
@@ -93,14 +93,14 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 39.99,
         "serves": ""
       },
       {
         "size": 16,
         "container": "",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
         "serves": ""
       }
@@ -118,7 +118,7 @@
       {
         "size": 12,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 29.99,
         "serves": ""
       }
@@ -136,7 +136,7 @@
       {
         "size": 25,
         "container": "platter",
-        "unit": "pieces",
+        "unit": "pcs",
         "price": 49.99,
         "serves": ""
       }
@@ -154,9 +154,9 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 39.99,
-        "serves": "Serves 8 - 12"
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -172,9 +172,9 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 39.99,
-        "serves": "Serves 8 - 12"
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -190,9 +190,9 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 59.99,
-        "serves": "Serves 8 - 12"
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -208,14 +208,14 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
         "serves": ""
       },
       {
         "size": 16,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 59.99,
         "serves": ""
       }
@@ -233,9 +233,9 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
-        "serves": "Serves 8 - 12"
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -251,7 +251,7 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
         "serves": ""
       }
@@ -269,7 +269,7 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
         "serves": ""
       }
@@ -287,7 +287,7 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 29.99,
         "serves": ""
       }
@@ -305,7 +305,7 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 29.99,
         "serves": ""
       }
@@ -323,7 +323,7 @@
       {
         "size": 16,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 39.99,
         "serves": ""
       }
@@ -341,7 +341,7 @@
       {
         "size": 16,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
         "serves": ""
       }
@@ -377,7 +377,7 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 34.99,
         "serves": ""
       }
@@ -395,7 +395,7 @@
       {
         "size": 16,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 39.99,
         "serves": ""
       }
@@ -413,9 +413,9 @@
       {
         "size": 40,
         "container": "platter",
-        "unit": "pieces",
+        "unit": "pcs",
         "price": 39.99,
-        "serves": "Jumbo wings & dip. (Mild, Medium or Hot). Serves 8 - 12"
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -431,7 +431,7 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 19.99,
         "serves": ""
       }
@@ -521,9 +521,9 @@
       {
         "size": 40,
         "container": "platter",
-        "unit": "pieces",
+        "unit": "pcs",
         "price": 39.99,
-        "serves": "Serves 8 - 12"
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -539,9 +539,9 @@
       {
         "size": 32,
         "container": "platter",
-        "unit": "pieces",
+        "unit": "pcs",
         "price": 39.99,
-        "serves": "(Chicken, Beef or Spinach & Feta). Serves 8 - 12"
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -557,9 +557,9 @@
       {
         "size": 40,
         "container": "platter",
-        "unit": "pieces",
+        "unit": "pcs",
         "price": 34.99,
-        "serves": "Serves 8 - 12"
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -577,7 +577,7 @@
         "container": "platter",
         "unit": "each",
         "price": 39.99,
-        "serves": "Serves 8 - 10"
+        "serves": "Serves 8-10"
       }
     ]
   },
@@ -595,7 +595,7 @@
         "container": "platter",
         "unit": "each",
         "price": 39.99,
-        "serves": "Serves 8 - 10"
+        "serves": "Serves 8-10"
       }
     ]
   },
@@ -613,7 +613,7 @@
         "container": "platter",
         "unit": "each",
         "price": 39.99,
-        "serves": "Serves 8 - 10"
+        "serves": "Serves 8-10"
       }
     ]
   },
@@ -631,7 +631,7 @@
         "container": "platter",
         "unit": "each",
         "price": 39.99,
-        "serves": "Serves 8 - 10"
+        "serves": "Serves 8-10"
       }
     ]
   },
@@ -647,9 +647,9 @@
       {
         "size": 14,
         "container": "platter",
-        "unit": "inches",
+        "unit": "&rdquo;",
         "price": 49.99,
-        "serves": "Serves 8 - 12"
+        "serves": "Serves 8-12"
       }
     ]
   }

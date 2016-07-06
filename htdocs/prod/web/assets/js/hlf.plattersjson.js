@@ -100,47 +100,42 @@
       for(var i=0; i < plattersLength; i++) {
         item = hlf.data.platters[i];
         
-        // When matching platter name is found from that which was clicked, draw template with corresponding data and add to DOM
+        // When matching platter name is found from that which was clicked, populate modal template with corresponding data and add to DOM
         if(item.name === name) {
           // Loop through all properties
           for(var property in item) {
             if(item.hasOwnProperty(property)) {
-              console.log('platter ' + property + ' is ' + item[property]);
-
-              // Check for sizes array when looping through platter properties and gather info including price, size and serving capacity
+              // Check for sizes array when looping through platter properties and gather info including price and serving capacity
               if(property === 'sizes') {
                 // Loop through entries in sizes array and populate platter template mapping accordingly
                 for(var j=0; j < item['sizes'].length; j++) {
-
                   // Populate and draw modal template
                   mapping = { 
                     "{IMG}" : "assets/" + item.image,
                     "{QTY}" : (item.quantity ? item.quantity : ''), 
                     "{TITLE}": (item.name ? item.name : ''), 
                     "{DESCRIPTION}": (item.description ? item.description : ''), 
-                    // "{PRICE}": (item.price ? "$" + item.price : ''),
                     "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
                   };
 
                   // Map nested object data to item
-                  console.log('platter sizes property size is ' + item['sizes'][j]['size']);
-                  console.log('platter sizes property container is ' + item['sizes'][j]['container']);
-                  console.log('platter sizes property unit is ' + item['sizes'][j]['unit']);
-                  console.log('platter sizes property price is ' + item['sizes'][j]['price']);
+                  item.size = item['sizes'][j]['size'];
+                  item.container = item['sizes'][j]['container'];
+                  item.unit = item['sizes'][j]['unit'];
                   item.price = item['sizes'][j]['price'];
-                  console.log('platter sizes property serves is ' + item['sizes'][j]['serves']);
+                  item.serves = item['sizes'][j]['serves'];
                 }
               }
             }
           }
           html = hlf.drawTemplate("#tpl-product-modal", mapping);
-
           // Add modal template to DOM
           $('body').append(html);
           
           // Populate modal pricing section based on available data
-          var detailModalPricing = document.querySelector('#detailModal .pricing');
-          detailModalPricing.innerHTML = item.quantity + '&nbsp;';
+          var detailModalPricing = document.querySelector('#detailModal .platter-chart');
+          var spaceChar = '&nbsp;'
+
           // TO-DO: Clean this up to avoid mostly repated logic from above for accessing price data
           for(var property in item) {
             if(item.hasOwnProperty(property)) {
@@ -149,11 +144,15 @@
                 for(var j=0; j < item['sizes'].length; j++) {
                   // Check for items that do not have a set price (Eg. Gift Card)
                   if(item['sizes'][j]['price'] === null || (item['sizes'][j]['price'] === undefined)) {
-                    detailModalPricing.innerHTML += '';
+                    detailModalPricing.innerHTML = detailModalPricing.innerHTML;
                   }
                   else {
                     // Continue with displaying all available price data for chosen item
-                    detailModalPricing.innerHTML += '$' + item['sizes'][j]['price'] + '<br/>';  
+                    // Ternary operators are used here to determine whether or not to add a table data cell based on available info
+                    var itemSize = item['sizes'][j]['size'] ? '<td>' + item['sizes'][j]['size'] + spaceChar + item['sizes'][j]['unit'] + '</td>': '';
+                    var itemServes = item['sizes'][j]['serves'] ? '<td>' + item['sizes'][j]['serves'] + '</td>': '';
+                    var itemPrices = item['sizes'][j]['price'] ? '<td>' + '$' + item['sizes'][j]['price'] + '</td>': '';
+                    detailModalPricing.innerHTML += '<tr>' + itemSize + itemServes + itemPrices + '</tr>'; 
                   }
                 }
               }
