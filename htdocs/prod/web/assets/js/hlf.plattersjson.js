@@ -108,7 +108,9 @@
               // Check for sizes array when looping through platter properties and gather info including price and serving capacity
               if(property === 'sizes') {
                 // Loop through entries in sizes array and populate platter template mapping accordingly
-                for(var j=0; j < item['sizes'].length; j++) {
+                // Currently limiting platter iteration to first size available (if multiple exist) - to retrieve all available sizes change the 
+                // for loop statement to read as follows: for(var j=0; j < item['sizes'].length; j++)
+                for(var j=0; j <= 0; j++) {
                   // Populate and draw modal template
                   mapping = { 
                     "{IMG}" : "assets/" + item.image,
@@ -140,8 +142,9 @@
           for(var property in item) {
             if(item.hasOwnProperty(property)) {
               if(property === 'sizes') {
-                // Loop through entries in sizes array and populate pricing section based on different sizes available
-                for(var j=0; j < item['sizes'].length; j++) {
+                // Currently limiting platter iteration to first size available (if multiple exist) - to retrieve all available sizes change the 
+                // for loop statement to read as follows: for(var j=0; j < item['sizes'].length; j++)
+                for(var j=0; j <= 0; j++) {
                   // Check for items that do not have a set price (Eg. Gift Card)
                   if(item['sizes'][j]['price'] === null || (item['sizes'][j]['price'] === undefined)) {
                     detailModalPricing.innerHTML = detailModalPricing.innerHTML;
