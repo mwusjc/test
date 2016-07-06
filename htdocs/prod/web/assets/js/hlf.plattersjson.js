@@ -122,6 +122,7 @@
                     "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
                   };
 
+                  // Map nested object data to item
                   console.log('platter sizes property size is ' + item['sizes'][j]['size']);
                   console.log('platter sizes property container is ' + item['sizes'][j]['container']);
                   console.log('platter sizes property unit is ' + item['sizes'][j]['unit']);
@@ -132,15 +133,34 @@
               }
             }
           }
-
-          
           html = hlf.drawTemplate("#tpl-product-modal", mapping);
 
+          // Add modal template to DOM
           $('body').append(html);
-          // Populate the pricing section based on available data
-          document.querySelector('#detailModal .pricing').innerHTML = item.quantity + '&nbsp;' + '$' + item.price + '<br/>';
-          $('#detailModal').modal('show');
+          
+          // Populate modal pricing section based on available data
+          var detailModalPricing = document.querySelector('#detailModal .pricing');
+          detailModalPricing.innerHTML = item.quantity + '&nbsp;';
+          // TO-DO: Clean this up to avoid mostly repated logic from above for accessing price data
+          for(var property in item) {
+            if(item.hasOwnProperty(property)) {
+              if(property === 'sizes') {
+                // Loop through entries in sizes array and populate pricing section based on different sizes available
+                for(var j=0; j < item['sizes'].length; j++) {
+                  // Check for items that do not have a set price (Eg. Gift Card)
+                  if(item['sizes'][j]['price'] === null || (item['sizes'][j]['price'] === undefined)) {
+                    detailModalPricing.innerHTML += '';
+                  }
+                  else {
+                    // Continue with displaying all available price data for chosen item
+                    detailModalPricing.innerHTML += '$' + item['sizes'][j]['price'] + '<br/>';  
+                  }
+                }
+              }
+            }
+          }
 
+          $('#detailModal').modal('show');
           return true;
         }
         else {
