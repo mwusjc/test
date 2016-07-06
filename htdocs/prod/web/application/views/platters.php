@@ -66,7 +66,8 @@
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <h2 class='title'>{TITLE}</h2>
-                        <div class='pricing'>{QTY} {PRICE} <br/> {QTY2} {PRICE2} <br/> {QTY3} {PRICE3} </div>       
+                        <!-- <div class='pricing'>{QTY} {PRICE} <br/> {QTY2} {PRICE2} <br/> {QTY3} {PRICE3} </div> -->      
+                        <div class='pricing'></div>      
                         <p class='description'>{DESCRIPTION}</p>
                         <a href='#' data-add-cart='{ID}' class='btn green addToCart'>Add to Shopping List</a>
                     </div>

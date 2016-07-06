@@ -111,6 +111,17 @@
               if(property === 'sizes') {
                 // Loop through entries in sizes array and populate platter template mapping accordingly
                 for(var j=0; j < item['sizes'].length; j++) {
+
+                  // Populate and draw modal template
+                  mapping = { 
+                    "{IMG}" : "assets/" + item.image,
+                    "{QTY}" : (item.quantity ? item.quantity : ''), 
+                    "{TITLE}": (item.name ? item.name : ''), 
+                    "{DESCRIPTION}": (item.description ? item.description : ''), 
+                    // "{PRICE}": (item.price ? "$" + item.price : ''),
+                    "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
+                  };
+
                   console.log('platter sizes property size is ' + item['sizes'][j]['size']);
                   console.log('platter sizes property container is ' + item['sizes'][j]['container']);
                   console.log('platter sizes property unit is ' + item['sizes'][j]['unit']);
@@ -122,18 +133,12 @@
             }
           }
 
-          // Populate and draw modal template
-          mapping = { 
-            "{IMG}" : "assets/" + item.image,
-            "{QTY}" : (item.quantity ? item.quantity : ''), 
-            "{TITLE}": (item.name ? item.name : ''), 
-            "{DESCRIPTION}": (item.description ? item.description : ''), 
-            "{PRICE}": (item.price ? "$" + item.price : ''),
-            "{SORTORDER}": (item.sortOrder ? item.sortOrder : '')
-          };
+          
           html = hlf.drawTemplate("#tpl-product-modal", mapping);
 
           $('body').append(html);
+          // Populate the pricing section based on available data
+          document.querySelector('#detailModal .pricing').innerHTML = item.quantity + '&nbsp;' + '$' + item.price + '<br/>';
           $('#detailModal').modal('show');
 
           return true;
