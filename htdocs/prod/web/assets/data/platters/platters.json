@@ -13,7 +13,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 49.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       },
       {
         "size": 16,
@@ -38,7 +38,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 39.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       },
       {
         "size": 14,
@@ -70,7 +70,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 39.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       },
       {
         "size": 16,
@@ -95,7 +95,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 39.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       },
       {
         "size": 16,
@@ -120,7 +120,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 29.99,
-        "serves": ""
+        "serves": "Serves 8-10"
       }
     ]
   },
@@ -138,7 +138,7 @@
         "container": "platter",
         "unit": "pcs",
         "price": 49.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -253,7 +253,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 49.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -271,7 +271,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 49.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -289,7 +289,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 29.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -307,7 +307,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 29.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -325,7 +325,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 39.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -361,7 +361,7 @@
         "container": "",
         "unit": "dozen",
         "price": 29.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       }
     ]
   },
@@ -379,7 +379,7 @@
         "container": "platter",
         "unit": "&rdquo;",
         "price": 34.99,
-        "serves": ""
+        "serves": "Serves 8-12"
       }
     ]
   },
