@@ -43,7 +43,7 @@
 					"coords":[111,275,97,106],
 					"name": "Nestlé Drumstick Selected Varieties",
 					"brands": ["Nestlé"],
-					"category": "grocery",
+					"category": "frozen foods",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"pkg of 4",
 					"pricing":"$2.99",
@@ -306,7 +306,7 @@
 				{
 					"image":"CK-cookies.jpg",
 					"coords":[85,113,73,85],
-					"name": "Goldminer California Sourdough Bread Large Boule",
+					"name": "Store-Baked All Butter Cookies Chocolate Chunk, Triple Chocolate, Macadamia or Oatmeal Cranberry Lemon",
 					"brands": ["Country Kitchen"],
 					"category": "bakery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
@@ -459,8 +459,8 @@
 					"brands": ["Unico"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"398ml",
-					"pricing":"$0.99",
+					"packaging":"99g",
+					"pricing":"$0.69",
 					"comments":""
 				},
 				{
@@ -564,8 +564,8 @@
 					"brands": ["Pepsi"],
 					"category": "grocery",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
-					"packaging":"12x355ml",
-					"pricing":"$4.99",
+					"packaging":"case of 12x355ml",
+					"pricing":"3/$11.00",
 					"comments":""
 				},
 				{
