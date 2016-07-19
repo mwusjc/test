@@ -731,7 +731,7 @@
 					"image":"Magnum-Fruttare-ice-cream-bars.jpg",
 					"coords":[327,396,101,117],
 					"name": "Magnum Ice Cream Bars pkg of 3 or Fruttare Frozen Fruit & Dessert Bars pkg of 4-6",
-					"brands": ["Breyers","Popsicle"],
+					"brands": ["Magnum","Fruttare"],
 					"category": "frozen foods",
 					"summary": "Test summary 2 Test summary Test summary Test summary , Test summary , Test summary Test summary Test summary Test summary 2, Test summary 2",
 					"packaging":"each",
@@ -923,7 +923,7 @@
 				{
 					"image":"Burgers-Store-Made.jpg",
 					"coords":[223,12,205,140],
-					"name": "Fresh Gourmet Store-Made Burgers Smoked Jalapen~o & Tequila, Coffee & Black Pepper, Montreal Steak or Pork & Veal with Feta & Peppers",
+					"name": "Fresh Gourmet Store-Made Burgers Smoked Jalapeño & Tequila, Coffee & Black Pepper, Montreal Steak or Pork & Veal with Feta & Peppers",
 					"brands": [""],
 					"category": "meat",
 					"summary": "Test summary 1 Test summary 1Test summary 1Test summary 1, Test summary 1 , Test summary 1Test summary 1Test summary 1Test summary 1, Test summary 1",
