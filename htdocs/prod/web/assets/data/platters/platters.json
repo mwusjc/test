@@ -12,7 +12,7 @@
         "size": 14,
         "container": "platter",
         "unit": "&rdquo;",
-        "price": 49.99,
+        "price": 59.99,
         "serves": "Serves 8-12"
       },
       {
@@ -34,18 +34,11 @@
     "description": "Is your gathering calling out for 'cheese, please'? This platter has a slice of happiness for everyone. Indulge your guests with a selection of havarti, cheddar and edam cheeses.",
     "sizes": [
       {
-        "size": 12,
-        "container": "platter",
-        "unit": "&rdquo;",
-        "price": 39.99,
-        "serves": "Serves 8-12"
-      },
-      {
         "size": 14,
         "container": "platter",
         "unit": "&rdquo;",
-        "price": 49.99,
-        "serves": ""
+        "price": 59.99,
+        "serves": "8 - 12"
       },
       {
         "size": 18,
@@ -69,7 +62,7 @@
         "size": 14,
         "container": "platter",
         "unit": "&rdquo;",
-        "price": 39.99,
+        "price": 49.99,
         "serves": "Serves 8-12"
       },
       {
@@ -94,7 +87,7 @@
         "size": 14,
         "container": "platter",
         "unit": "&rdquo;",
-        "price": 39.99,
+        "price": 49.99,
         "serves": "Serves 8-12"
       },
       {
@@ -252,7 +245,7 @@
         "size": 14,
         "container": "platter",
         "unit": "&rdquo;",
-        "price": 49.99,
+        "price": 59.99,
         "serves": "Serves 8-12"
       }
     ]
@@ -288,7 +281,7 @@
         "size": 14,
         "container": "platter",
         "unit": "&rdquo;",
-        "price": 29.99,
+        "price": 34.99,
         "serves": "Serves 8-12"
       }
     ]
@@ -306,7 +299,7 @@
         "size": 14,
         "container": "platter",
         "unit": "&rdquo;",
-        "price": 29.99,
+        "price": 34.99,
         "serves": "Serves 8-12"
       }
     ]
@@ -360,7 +353,7 @@
         "size": 2,
         "container": "",
         "unit": "dozen",
-        "price": 29.99,
+        "price": 39.99,
         "serves": "Serves 8-12"
       }
     ]
