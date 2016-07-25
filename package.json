@@ -20,5 +20,9 @@
     "gulp": "^3.9.0",
     "gulp-cache-bust": "^1.0.2",
     "gulp-rev-append": "^0.1.6"
+  },
+  "dependencies": {
+    "es6-promise": "^3.2.1",
+    "whatwg-fetch": "^1.0.0"
   }
 }

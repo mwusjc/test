@@ -1,4 +1,4 @@
-﻿<footer>
+<footer>
   <div class="wrapper">
     <div class="row">
 
@@ -30,16 +30,18 @@
 
 <script src="../../assets/js/bootstrap.js?rev=a455a998d98c7ee364bd00bf6853d40e"></script>
 <script src="../../assets/js/main.js?rev=bda417a6dfdec98b1fb0d034a4b63f29"></script>
-<script src="../../assets/js/flyerLoader.js?rev=9d38154a4f54455bd751b31a6a7f82a0"></script>
+<script src="../../assets/js/flyerLoader.js?rev=849f8a696adda5b7f8ea660df71ce33e"></script>
 <script src="../../assets/js/shoppingList.js?rev=c70a077489931af66dd3794cc0fa6bf6"></script>
 <script src="../../assets/js/jquery.pajinate.min.js?rev=fdcae8fb7ff4daa34ad497e010fcea97"></script>
 <script src="../../assets/js/jquery.lazyload.min.js?rev=5c01d7aff077b4ed0804b71c2e3ab4a1"></script>
 <script src="../../assets/js/hlf.js?rev=4e592819b4ed4753b1aaa9d68f60cda5"></script>
-<script src="../../assets/js/hlf.recipesjson.js?rev=2bbe18fd09efbccda8369cc84f7391a4"></script>
-<script src="../../assets/js/validate.js?rev=0ba12861d4b921c8a3506b29a96fe106"></script>
-<script src="../../assets/js/hlf.carousel.js?rev=b92dddcb103a4b1bc0cceb0766d0431a"></script>
-<script src="../../assets/js/hlf.careers.js?rev=b92dddcb103a4b1bc0cceb0766d0431a"></script>
-<script src="../../assets/js/markdown.min.js?rev=b92dddcb103a4b1bc0cceb0766d0431a"></script>
+<script src="../../assets/js/hlf.recipesjson.js?rev=97f3be97a9afad0d68df8deeb9dfe53f"></script>
+<script src="../../assets/js/validate.js?rev=66c338402475f385fcf6acdf50953b55"></script>
+<script src="../../assets/js/hlf.carousel.js?rev=303b9d9a10579f96147fd2d258555d7e"></script>
+<script src="../../assets/js/hlf.careers.js?rev=0d7937e3fdcc58cee5a7d3e283e8ce9a"></script>
+<script src="../../assets/js/markdown.min.js?rev=e96d24cf1ba1e3f43912cbe7a6ffbc7f"></script>
+<script src="/bower_components/es6-promise/es6-promise.min.js?rev=e96d24cf1ba1e3f43912cbe7a6ffbc7f"></script>
+<script src="/bower_components/fetch/fetch.js?rev=e96d24cf1ba1e3f43912cbe7a6ffbc7f"></script>
 
 <script type='text/javascript'>
   jQuery(document).ready(function($) {

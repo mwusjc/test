@@ -3,8 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Careers extends CI_Controller {
 
-    protected $jsonFile;
-    protected $jsonFileEncoded;
+    protected $jsonData;
+    protected $jsonDataEncoded;
 
     public function __construct() {
         parent::__construct();        
@@ -16,9 +16,9 @@ class Careers extends CI_Controller {
     public function index()
     {
 	   	$this->data['joblistings'] = $this->jsonDataEncoded;
-      $this->load->view("header", array('title'=>'Join Us | Start Fresh With a Career at Highland Farms', "desc" => "We are always looking for driven individuals to join our team. Working at one of our stores is more than a job. It's an opportunity to learn and grow."));
-      $this->load->view("careers", $this->data);
-      $this->load->view("footer");
+      	$this->load->view("header", array('title'=>'Join Us | Start Fresh With a Career at Highland Farms', "desc" => "We are always looking for driven individuals to join our team. Working at one of our stores is more than a job. It's an opportunity to learn and grow."));
+      	$this->load->view("careers", $this->data);
+      	$this->load->view("footer");
     }
 
     public function details($slug) {
