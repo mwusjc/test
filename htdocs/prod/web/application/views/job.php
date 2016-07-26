@@ -34,7 +34,8 @@
         </div>
         <div class="col-xs-12 col-sm-9">
         		<div class="required-fields">* Required Fields</div>
-            <form method="post" action="" enctype="multipart/form-data" id="job-application">
+            <form method="post" action="" enctype="multipart/form-data" id="job-application" style="position: relative">
+              <div class="errors" style="color: red"></div>
               <div class="row">
 	            <input type="hidden" name="location" />
 	            <input type="hidden" name="title" />
@@ -70,7 +71,11 @@
                 <div class="col-xs-12 col-sm-12"><input name="submit" type="submit" value="Submit Application" class="green" style="margin-top: 15px" /></div>
               </div>
               <span class="error" id="form-status"></span>
+              <div class="appcover" style="position: absolute; display: none; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255,255,255,0.8);"><img src="/assets/images/loading.gif" height="64" width="64" style="margin: 40px auto 0; display: block;"></div>
             </form>
+            <div id="appthankyou" style="display: none;">
+              <p>Thank you for your application.</p>
+            </div>
         </div>
     </div>
 

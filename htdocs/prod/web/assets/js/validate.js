@@ -4,6 +4,8 @@ var ApplicationProcess = ApplicationProcess || {};
 
 // Init & initial AJAX call to API
 ApplicationProcess.init = function (jobslug, resumeInput, coverLetterInput, formData, apiBase) {
+  $('#job-application .appcover').fadeIn();
+  
   this.resumeInput = resumeInput;
   this.coverLetterInput = coverLetterInput;
   this.jobslug = jobslug;
@@ -51,7 +53,7 @@ ApplicationProcess.init = function (jobslug, resumeInput, coverLetterInput, form
     url: ApplicationProcess.apibaseURL + '/jobs/' + ApplicationProcess.jobslug + '/applications'
   };
 
-  $.ajax(ajaxopts).done(ApplicationProcess.getResumeSignedUrl());
+  $.ajax(ajaxopts).done(ApplicationProcess.getResumeSignedUrl).fail(ApplicationProcess.error);
 };
 
 // Generic get signed URL method
@@ -72,41 +74,39 @@ ApplicationProcess.getSignedURL = function (type) {
     + "&contentType=" + filedata.contentType
     + "&contentLength=" + filedata.size
     + "&action=putObject";
-
-  console.log(ajaxopts.data);
+  
   return $.ajax(ajaxopts);
 };
 
 // Calls get signed URL for resume and calls resume upload method
 ApplicationProcess.getResumeSignedUrl = function () {
-  ApplicationProcess.getSignedURL('resume').done(ApplicationProcess.uploadResume);
+  ApplicationProcess.getSignedURL('resume').done(ApplicationProcess.uploadResume).fail(ApplicationProcess.error);
 };
 
 // Calls get signed URL for cover letter and calls cover letter upload method
 ApplicationProcess.getCoverSignedUrl = function () {
-  ApplicationProcess.getSignedURL('cover-letter').done(ApplicationProcess.uploadCoverLetter);
+  ApplicationProcess.getSignedURL('cover-letter').done(ApplicationProcess.uploadCoverLetter).fail(ApplicationProcess.error);
 };
 
 
 ApplicationProcess.uploadResume = function (response) {
   var signed = ApplicationProcess.upload('resume', response.signedUrl);
   if (ApplicationProcess.coverdata !== null) {
-    signed.done(ApplicationProcess.getCoverSignedUrl);
+    signed.done(ApplicationProcess.getCoverSignedUrl).fail(ApplicationProcess.error);
   } else {
-    signed.done(ApplicationProcess.postFileData);
+    signed.done(ApplicationProcess.postFileData).fail(ApplicationProcess.error);
   }
 };
 
 ApplicationProcess.uploadCoverLetter = function (response) {
   var signed = ApplicationProcess.upload('cover-letter', response.signedUrl);
-  signed.done(ApplicationProcess.postFileData);
+  signed.done(ApplicationProcess.postFileData).fail(ApplicationProcess.error);
 };
 
   // Generic upload file method
 ApplicationProcess.upload = function (type, url) {
   var filedata = new FormData();
   var thefile = (type === 'cover-letter') ? ApplicationProcess.coverLetterInput : ApplicationProcess.resumeInput;
-  console.log(filedata);
   filedata.append(thefile.name, thefile);
 
   return $.ajax({
@@ -125,29 +125,30 @@ ApplicationProcess.postFileData = function () {
   var pushdata = {
     url: ApplicationProcess.apibaseURL + '/applications/' + ApplicationProcess.jobslug + '/' + email + '/assets',
     method: 'POST',
-    data: JSON.stringify(ApplicationProcess.resumedata),
     contentType: 'application/json',
     crossDomain: true,
     dataType: 'json',
     headers: {"Access-Control-Allow-Origin": "*"}
   };
-  var resumepush = $.ajax(pushdata);
 
+  data = [ApplicationProcess.resumedata];
   if (typeof ApplicationProcess.coverLetterInput !== 'undefined') {
-    pushdata.data = JSON.stringify(ApplicationProcess.coverdata);
-    resumepush.done(function () {
-      $.ajax(pushdata);
-    });
+    data.push(ApplicationProcess.coverdata);
   }
+
+  pushdata.data = JSON.stringify(data);
+  var assetpush = $.ajax(pushdata).done(ApplicationProcess.complete).fail(ApplicationProcess.error);
 };
 
-ApplicationProcess.error = function (err) {
-
+ApplicationProcess.error = function (xhr, textStatus, error) {
+  $('#job-application .appcover').fadeOut();
+  $('#job-application .errors').html("There was an error. Please try again later.");
 };
 
-ApplicationProcess.complete = function() {
-  
-}
+ApplicationProcess.complete = function(data, status, xhr) {
+  $('#job-application').fadeOut();
+  $('#appthankyou').fadeIn();
+};
 
 ApplicationProcess.serialize = function (obj) {
     var str = [];
