@@ -106,9 +106,8 @@ ApplicationProcess.uploadCoverLetter = function (response) {
 ApplicationProcess.upload = function (type, url) {
   var filedata = new FormData();
   var thefile = (type === 'cover-letter') ? ApplicationProcess.coverLetterInput : ApplicationProcess.resumeInput;
-  thefile.name = (type === 'cover-letter') ? ApplicationProcess.coverdata.name : ApplicationProcess.resumedata.name;
-  console.log(thefile);
-  filedata.append('file', thefile);
+  console.log(filedata);
+  filedata.append(thefile.name, thefile);
 
   return $.ajax({
     url: url,
@@ -116,8 +115,8 @@ ApplicationProcess.upload = function (type, url) {
     data: filedata,
     crossDomain: true,
     processData: false,
-    contentType: filedata.type,
-    headers: {'Access-Control-Allow-Origin': '*'}
+    contentType: thefile.type,
+    headers: {"Access-Control-Allow-Origin": "*"}
   });
 };
 
@@ -126,16 +125,16 @@ ApplicationProcess.postFileData = function () {
   var pushdata = {
     url: ApplicationProcess.apibaseURL + '/applications/' + ApplicationProcess.jobslug + '/' + email + '/assets',
     method: 'POST',
-    data: ApplicationProcess.resumedata,
+    data: JSON.stringify(ApplicationProcess.resumedata),
     contentType: 'application/json',
     crossDomain: true,
     dataType: 'json',
-    jsonp: false
+    headers: {"Access-Control-Allow-Origin": "*"}
   };
   var resumepush = $.ajax(pushdata);
 
   if (typeof ApplicationProcess.coverLetterInput !== 'undefined') {
-    pushdata.data = ApplicationProcess.coverdata;
+    pushdata.data = JSON.stringify(ApplicationProcess.coverdata);
     resumepush.done(function () {
       $.ajax(pushdata);
     });
