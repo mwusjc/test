@@ -34,7 +34,7 @@
 
     getCareerIndex: function(data, searchTerm) {
       for (var i=0; i < data.length; i++) {
-        if (data[i].id == searchTerm) {
+        if (data[i].slug === searchTerm) {
             return i;
         }
       }
@@ -56,22 +56,16 @@
 
       $.each(data, function(key,item) {
 
-        var publishStartDate = new Date(item.publishFrom);
-        var publishEndDate = new Date(item.publishTo);
-
-        mapping = {
-          "_JOBID_" : item.id,
-          "_JOBTITLE_" : item.title,
-          "_POSTED_" : monthNames[publishStartDate.getMonth()] + ' ' + publishStartDate.getDate() + ', ' + publishStartDate.getFullYear()
-        };
-        html = hlf.drawTemplate("#tpl-career-listing", mapping);
-
+        var publishStartDate = new Date(item.datePublishTo.slice(0, -2));
+        var publishEndDate = new Date(item.datePublishFrom.slice(0, -2));
         if (hlf.careers.shouldBeDisplayed(item, currentDate, publishStartDate, publishEndDate)) {
-          if (item.location === 'Scarborough') {
-            $('#scarborough-careers').append(html);
-          } else if (item.location === 'Mississauga') {
-            $('#mississauga-careers').append(html);
-          }
+          mapping = {
+            "_JOBID_" : item.slug,
+            "_JOBTITLE_" : item.title,
+            "_POSTED_" : monthNames[publishStartDate.getMonth()] + ' ' + publishStartDate.getDate() + ', ' + publishStartDate.getFullYear()
+          };
+          html = hlf.drawTemplate("#tpl-career-listing", mapping);
+          $('#' + item.location + '-careers').append(html);
         }
       });
     }
