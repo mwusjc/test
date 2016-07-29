@@ -75,29 +75,29 @@ $query_builder = TRUE;
 
 
 //	RDS
-//$db['default'] = array(
-//	'dsn'	=> '',
-//	'hostname' => 'valhalla-prod.cb1qb4plxjpf.us-east-1.rds.amazonaws.com',
-//	'username' => 'highland',
-//	'password' => '1mn9alXLS65zYbK3pHxRgjC',
-//	'database' => 'webdev_hlf',
-//	'dbdriver' => 'mysqli',
-//	'dbprefix' => '',
-//	'pconnect' => FALSE,
-//	'db_debug' => (ENVIRONMENT !== 'production'),
-//	'cache_on' => FALSE,
-//	'cachedir' => '',
-//	'char_set' => 'utf8',
-//	'dbcollat' => 'utf8_general_ci',
-//	'swap_pre' => '',
-//	'encrypt' => FALSE,
-//	'compress' => FALSE,
-//	'stricton' => FALSE,
-//	'failover' => array(),
-//	'save_queries' => TRUE
-//);
+$db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'valhalla-prod.cb1qb4plxjpf.us-east-1.rds.amazonaws.com',
+	'username' => 'highland',
+	'password' => '1mn9alXLS65zYbK3pHxRgjC',
+	'database' => 'webdev_hlf',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
 
-// stinson server
+/* stinson server
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => '167.88.112.253',
@@ -118,4 +118,4 @@ $db['default'] = array(
 	'stricton' => FALSE,
 	'failover' => array(),
 	'save_queries' => TRUE
-);
+);*/
