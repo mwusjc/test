@@ -790,7 +790,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"$17.61/kg",
-					"pricing":"$87.99/lb",
+					"pricing":"$7.99/lb",
 					"comments":""
 				},
 				{
@@ -839,7 +839,7 @@
 				},
 				{
 					"image":"Schneiders-Frozen-chichen.jpg",
-					"coords":[453,397,101,117],
+					"coords":[453,397,205,117],
 					"name": "Schneiders Chicken Wings, Nuggets, Strips or Burgers Frozen",
 					"brands": ["Schneiders"],
 					"category": "frozen foods",
@@ -969,7 +969,7 @@
 					"coords":[327,277,101,112],
 					"name": "Freshly Seasoned In-Store Chicken Breast Boneless, Skinless Mango & Chili, Mediterranean or Avignon",
 					"brands": [""],
-					"category": "meat",
+					"category": "poultry",
 					"summary": "",
 					"packaging":"$15.41/kg",
 					"pricing":"$6.99",

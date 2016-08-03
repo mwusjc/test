@@ -808,7 +808,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"$17.61/kg",
-					"pricing":"$87.99/lb",
+					"pricing":"$7.99/lb",
 					"comments":""
 				},
 				{
@@ -987,7 +987,7 @@
 					"coords":[236,200,73,80],
 					"name": "Freshly Seasoned In-Store Chicken Breast Boneless, Skinless Mango & Chili, Mediterranean or Avignon",
 					"brands": [""],
-					"category": "meat",
+					"category": "poultry",
 					"summary": "",
 					"packaging":"$15.41/kg",
 					"pricing":"$6.99",
