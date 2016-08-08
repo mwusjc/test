@@ -100,7 +100,7 @@
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "Ontario Homegrown<br>Fresh Broccoli",
-            "descriptionRightTextCSS": "font-size: 16px;",
+            "descriptionRightTextCSS": "font-size: 18px;",
             "descriptionRightTextMobileCSS": "font-size: 15px; padding-bottom:20px"
           },
           {
