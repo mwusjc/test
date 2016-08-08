@@ -7245,6 +7245,9 @@ span.subheading-text {
 .carousel-description-right {
   background: white;
   padding: 10px 20px 20px 10px;
+  height: 160px;
+  right: 235px;
+  bottom: 0;
 }
 
 #job-duties ul, #job-requirements ul {

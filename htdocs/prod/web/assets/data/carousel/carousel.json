@@ -64,7 +64,7 @@
             ],
             "descriptionLeftText": "Fresh Ontario<br>Store-Made Pork Sausages<br>Hot or Mild<br>Assorted Varieties",
             "descriptionLeftTextCSS": "font-size: 18px; left: 5px; bottom: 20px;",
-            "descriptionLeftTextMobileCSS": "font-size: 16px; left: 17px; bottom: 15px",
+            "descriptionLeftTextMobileCSS": "font-size: 14px; left: 17px; bottom: 15px",
             "descriptionRightText": null,
             "descriptionRightTextCSS": null,
             "descriptionRightTextMobileCSS": null
@@ -100,7 +100,7 @@
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "Ontario Homegrown<br>Fresh Broccoli",
-            "descriptionRightTextCSS": "font-size: 16px; right: 235px; bottom: 90px",
+            "descriptionRightTextCSS": "font-size: 16px;",
             "descriptionRightTextMobileCSS": "font-size: 15px; padding-bottom:20px"
           },
           {
@@ -128,7 +128,7 @@
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "Breyers Family Classic<br>Rich & Creamy<br>Frozen Dessert<br>Assorted Varieties",
-            "descriptionRightTextCSS": "font-size: 18px; bottom: 90px; right: 250px;",
+            "descriptionRightTextCSS": "font-size: 18px;",
             "descriptionRightTextMobileCSS": "font-size: 15px; padding-bottom:20px"
           },
           {
@@ -156,7 +156,7 @@
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "Astro Yogourt<br>Original, Fat Free Zero or<br>Smooth 'n Fruity",
-            "descriptionRightTextCSS": "font-size: 18px;bottom: 65px;right:250px;",
+            "descriptionRightTextCSS": "font-size: 18px;",
             "descriptionRightTextMobileCSS": "font-size: 15px;"
           },
           {
@@ -184,7 +184,7 @@
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "San Benedetto<br>Spring Water<br>Natural & Carbonated",
-            "descriptionRightTextCSS": "font-size: 18px;bottom: 65px;right:250px;",
+            "descriptionRightTextCSS": "font-size: 18px;",
             "descriptionRightTextMobileCSS": "font-size: 15px;"
           }
         ]
