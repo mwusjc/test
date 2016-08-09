@@ -1,0 +1,970 @@
+{
+	"week":20160811,
+	"pages":[
+		{
+			"id":"page1",
+			"image":"page1.jpg",
+			"products":[
+				{
+					"image":"pork-tenderloin.jpg",
+					"coords":[12,160,204,208],
+					"name": "Fresh Ontario Pork Tenderloin",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$11.00/kg",
+					"pricing":"$4.99/lb",
+					"comments":"save"
+				},
+				{
+					"image":"lettuce.jpg",
+					"coords":[224,160,204,208],
+					"name": "Fresh Head Lettuce No. 1 Grade Product of Canada",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$0.99",
+					"comments":"save"
+				},
+				{
+					"image":"cashmere-scotties.jpg",
+					"coords":[12,380,134,146],
+					"name": "Cashmere Bathroom Tissue Double 12's, Sponge Towels Ultra Paper Towels 6's or Scotties Facial Tissue 6pk",
+					"brands": ["Cashmere","Sponge Towels","Scotties"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$5.99",
+					"comments":""
+				},
+				{
+					"image":"BD-cheese-slices.jpg",
+					"coords":[154,380,134,146],
+					"name": "Black Diamond Cheese Slices Assorted Varieties",
+					"brands": ["Black Diamond"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"450g",
+					"pricing":"$2.49",
+					"comments":""
+				},
+				{
+					"image":"five-alive.jpg",
+					"coords":[294,380,134,146],
+					"name": "Five Alive or Fruitopia Fruit Beverages or Nestea Iced Tea Assorted Varieties",
+					"brands": ["Five Alive","Fruitopia","Nestea"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1.75L",
+					"pricing":"$1.29",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page2",
+			"image":"page2.jpg",
+			"products":[
+				{
+					"image":"Sugarbaby-melon.jpg",
+					"coords":[12,33,206,120],
+					"name": "Ontario Homegrown Fresh Sugar Babe Melon",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"tomatoes.jpg",
+					"coords":[222,12,206,140],
+					"name": "Ontario Homegrown Fresh Roma Tomatoes No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"$1.74/kg",
+					"pricing":"$0.79/lb",
+					"comments":""
+				},
+				{
+					"image":"peaches.jpg",
+					"coords":[12,156,101,117],
+					"name": "Ontario Homegrown Fresh Freestone Peaches No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"3.28/kg",
+					"pricing":"$1.49/lb",
+					"comments":""
+				},
+				{
+					"image":"plums.jpg",
+					"coords":[117,156,101,117],
+					"name": "Fresh Freestone Italian Prune Plums Product of U.S.A. No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"4.39/kg",
+					"pricing":"$1.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Dill-pickles.jpg",
+					"coords":[222,156,101,117],
+					"name": "Ontario Homegrown Fresh Dill Pickles Large or Small Size",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"1.74/kg",
+					"pricing":"$0.79/lb",
+					"comments":""
+				},
+				{
+					"image":"Zucchini.jpg",
+					"coords":[327,156,101,117],
+					"name": "Ontario Homegrown Zucchini Green or Yellow",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"2.18/kg",
+					"pricing":"$0.99/lb",
+					"comments":""
+				},
+				{
+					"image":"tangerines.jpg",
+					"coords":[12,276,101,117],
+					"name": "Fresh Honey Tangerines Product of Argentina",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"3.28/kg",
+					"pricing":"$1.49/lb",
+					"comments":""
+				},
+				{
+					"image":"figs.jpg",
+					"coords":[117,276,101,117],
+					"name": "Fresh Black Figs Product of U.S.A.",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"1lb",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"sweet-peppers.jpg",
+					"coords":[222,276,101,117],
+					"name": "Ontario Homegrown Fresh Sweet Cubanelle Peppers No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"$3.28/kg",
+					"pricing":"$1.49/lb",
+					"comments":""
+				},
+				{
+					"image":"cabbage.jpg",
+					"coords":[327,276,101,117],
+					"name": "Ontario Homegrown Fresh Green Cabbage No. 1 Grade Jumbo Size",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$1.49",
+					"comments":""
+				},
+				{
+					"image":"grapes.jpg",
+					"coords":[12,397,101,117],
+					"name": "Red Seedless Grapes Product of U.S.A. No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"$8.80/kg",
+					"pricing":"$3.99/lb",
+					"comments":""
+				},
+				{
+					"image":"celery.jpg",
+					"coords":[117,397,101,117],
+					"name": "Celery Product of U.S.A. No. 1 Grade Large Stalk",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"Broccoli.jpg",
+					"coords":[222,397,101,117],
+					"name": "Broccoli Product of Canada",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"bunch",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"Jumbo-bouquet.jpg",
+					"coords":[327,397,101,117],
+					"name": "Premium Jumbo Bouquets",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$18.99",
+					"comments":""
+				},
+				{
+					"image":"CK-sliced-bread.jpg",
+					"coords":[453,12,101,140],
+					"name": "Sliced Bread White or Whole Wheat",
+					"brands": ["Country Kitchen"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"675g",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"CK-buns.jpg",
+					"coords":[558,12,101,140],
+					"name": "Hot Dog or Hamburger Buns",
+					"brands": ["Country Kitchen"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"pkg of 12",
+					"pricing":"$2.49",
+					"comments":""
+				},
+				{
+					"image":"Baker-Street-8-in-cake.jpg",
+					"coords":[663,33,206,240],
+					"name": "Baker Street Fresh 8-inch Red Velvet Cheesecake or 8-inch Black Forest Cake",
+					"brands": ["Baker Street"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$22.99",
+					"comments":"save"
+				},
+				{
+					"image":"CK-strudel.jpg",
+					"coords":[453,154,101,117],
+					"name": "Fresh Baked In-Store Strudel Assorted Varieties",
+					"brands": ["Country Kitchen"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"425g",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Ace-Bakery-crutons.jpg",
+					"coords":[558,154,101,117],
+					"name": "Ace Bakery Crostino Croutons Parmesan or Roasted Garlic",
+					"brands": ["Ace Bakery"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"125g",
+					"pricing":"$3.49",
+					"comments":""
+				},
+				{
+					"image":"Hersheys-milk-shakes.jpg",
+					"coords":[453,276,101,117],
+					"name": "Natrel Hershey's Milk Shakes Assorted Varieties",
+					"brands": ["Natrel","Hershey's"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"350ml",
+					"pricing":"3/$4.00",
+					"comments":""
+				},
+				{
+					"image":"Western-cream-cheese.jpg",
+					"coords":[558,276,101,117],
+					"name": "Western Cream Cheese Assorted Varieties",
+					"brands": ["Western"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"250g",
+					"pricing":"$2.49",
+					"comments":""
+				},
+				{
+					"image":"Gay-Lea-yogurt.jpg",
+					"coords":[663,276,101,117],
+					"name": "Gay Lea Nordica Smooth Cottage Cheese Assorted Varieties",
+					"brands": ["Gay Lea"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"4x100g",
+					"pricing":"$2.99",
+					"comments":""
+				},
+				{
+					"image":"CK-butter.jpg",
+					"coords":[768,276,101,117],
+					"name": "Butter Salted or Unsalted",
+					"brands": ["Country Kitchen"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"454g",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Danone-Danino-yogurt.jpg",
+					"coords":[453,397,101,117],
+					"name": "Danone Activia Yogurt 8x100g or Danino Drinkable Yogurt 8x93ml Assorted Varieties",
+					"brands": ["Danone"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Yoplait-yogurt.jpg",
+					"coords":[558,397,101,117],
+					"name": "Yoplait Yogourt Source 16x100g, Yoptimal 12x100g or Source Greek 8x100g Assorted Varieties",
+					"brands": ["Yoplait"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"Tropicana-lemonade.jpg",
+					"coords":[663,397,101,117],
+					"name": "Tropicana Lemonade Original, With Tangerine or Watermelon Fruit Beverage",
+					"brands": ["Tropicana"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"1.75L",
+					"pricing":"$3.49",
+					"comments":""
+				},
+				{
+					"image":"Liberte-yogurt.jpg",
+					"coords":[768,397,101,117],
+					"name": "Liberte Organic Greek Yogourt Assorted Varieties",
+					"brands": ["Liberte"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"500g",
+					"pricing":"$3.99",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page3",
+			"image":"page3.jpg",
+			"products":[
+				{
+					"image":"Italpasta-pasta.jpg",
+					"coords":[12,33,206,240],
+					"name": "Italpasta Pasta Assorted Regular Cuts",
+					"brands": ["Italpasta"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"900g",
+					"pricing":"4/$5.00",
+					"comments":"save"
+				},
+				{
+					"image":"Christie-snack-crackers.jpg",
+					"coords":[222,12,206,140],
+					"name": "Christie Snacking Crackers 175-225g, Bits & Bites 175-200g or Crispers 175g Assorted Varieties",
+					"brands": ["Christie"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"",
+					"pricing":"2/$5.00",
+					"comments":""
+				},
+				{
+					"image":"Kettle-brand-chips.jpg",
+					"coords":[222,155,206,117],
+					"name": "Kettle Brand Potato Chips Selected Varieties",
+					"brands": ["Kettle"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"220g",
+					"pricing":"3/$8.00",
+					"comments":""
+				},
+				{
+					"image":"Primo-ketchup.jpg",
+					"coords":[12,275,103,117],
+					"name": "Primo Tomato Ketchup",
+					"brands": ["Primo"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1L",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"LaGrille-seasonings.jpg",
+					"coords":[116,275,101,117],
+					"name": "La Grille Wet Rub Marinade 200ml or Seasonings 120-203g Selected Varieties",
+					"brands": ["La Grille"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"CK-fruitcake.jpg",
+					"coords":[222,275,101,117],
+					"name": "Fruit Cake Panettone",
+					"brands": ["Country Kitchen"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"800g",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Kelloggs-cereals.jpg",
+					"coords":[327,275,101,117],
+					"name": "Kellogg's Cereal Müslix 450g Assorted Varieties or Just Right 475g",
+					"brands": ["Kellogg's"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Gloria-roasted-peppers.jpg",
+					"coords":[12,397,101,117],
+					"name": "Gloria Roasted Peppers",
+					"brands": ["Gloria"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1.5L",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"Martelli-apple-cider-vinigar.jpg",
+					"coords":[117,397,101,117],
+					"name": "Martelli Organic Apple Cider Vinegar",
+					"brands": ["Martelli"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"500ml",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Gimme-organic-snack.jpg",
+					"coords":[222,397,101,117],
+					"name": "GimMe Organic Roasted Seaweed Snacks Assorted Varieties",
+					"brands": ["GimMe"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"10g",
+					"pricing":"2/$5.00",
+					"comments":""
+				},
+				{
+					"image":"GTs-kombucha.jpg",
+					"coords":[327,397,101,117],
+					"name": "GT'S Organic Raw Kombucha Drink Assorted Varieties",
+					"brands": ["GT'S"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"480ml",
+					"pricing":"$3.49",
+					"comments":""
+				},
+				{
+					"image":"Monteray-white-viniger.jpg",
+					"coords":[453,12,206,140],
+					"name": "Monterey Pure White Vinegar",
+					"brands": ["Monterey"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"4L",
+					"pricing":"$1.97",
+					"comments":""
+				},
+				{
+					"image":"Persil-laundry-detergent.jpg",
+					"coords":[664,32,206,240],
+					"name": "Persil Laundry Detergent Cold Water or Original 2.21L or Power Pearls 1.26L",
+					"brands": ["Persil"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$10.99",
+					"comments":"save"
+				},
+				{
+					"image":"Unico-tomatoe-or-beans.jpg",
+					"coords":[453,156,206,117],
+					"name": "Unico Tomatoes 796ml or Beans 540ml Selected Varieties",
+					"brands": ["Unico"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$0.97",
+					"comments":""
+				},
+				{
+					"image":"Sardo-pickled-mixed-veg.jpg",
+					"coords":[453,276,101,117],
+					"name": "Sardo Cucina Pickled Mixed Vegetables, Hot Pepper Rings or Peperoncini",
+					"brands": ["Sardo"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"750ml",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"Unico-vegetable-oil.jpg",
+					"coords":[558,275,101,117],
+					"name": "Unico Vegetable Oil",
+					"brands": ["Unico"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"3L",
+					"pricing":"$4.49",
+					"comments":""
+				},
+				{
+					"image":"Clorox-cleaner.jpg",
+					"coords":[664,275,101,117],
+					"name": "Clorox Toilet Bowl Cleaner",
+					"brands": ["Clorox"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"709ml",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"Dawn-Ivory-dish-soap.jpg",
+					"coords":[768,275,101,117],
+					"name": "Dawn or Ivory Liquid Dish Soap Assorted Varieties",
+					"brands": ["Dawn","Ivory"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"532-709ml",
+					"pricing":"$2.49",
+					"comments":""
+				},
+				{
+					"image":"SanPellagreno-fruit-beverage.jpg",
+					"coords":[453,397,101,117],
+					"name": "San Pellegrino Sparkling Fruit Beverage Assorted Varieties",
+					"brands": ["San Pellegrino"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"6x330ml",
+					"pricing":"$4.49",
+					"comments":""
+				},
+				{
+					"image":"Clover-Leaf-salmon.jpg",
+					"coords":[558,397,101,117],
+					"name": "Clover Leaf Wild Red Pacific Sockeye Salmon Regular or Low Sodium",
+					"brands": ["Clover Leaf"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"213g",
+					"pricing":"$3.49",
+					"comments":""
+				},
+				{
+					"image":"Special-K-bars.jpg",
+					"coords":[664,397,101,117],
+					"name": "Kellogg's Special K Granola Bars or Fruit Crisps Assorted Varieties",
+					"brands": ["Kellogg's"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"125-138g",
+					"pricing":"2/$5.00",
+					"comments":""
+				},
+				{
+					"image":"Basso-olive-oil.jpg",
+					"coords":[768,397,101,117],
+					"name": "Basso Extra Virgin Olive Oil",
+					"brands": ["Basso"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1L",
+					"pricing":"$7.99",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page4",
+			"image":"page4.jpg",
+			"products":[
+				{
+					"image":"Steelhead-trout-fillets.jpg",
+					"coords":[12,33,206,240],
+					"name": "Fresh Steelhead Trout Fillets",
+					"brands": [""],
+					"category": "seafood",
+					"summary": "",
+					"packaging":"$22.02/kg",
+					"pricing":"$9.99/lb",
+					"comments":"save"
+				},
+				{
+					"image":"PEI-mussels.jpg",
+					"coords":[222,12,101,140],
+					"name": "Fresh P.E.I. Cultivated Mussels",
+					"brands": [""],
+					"category": "seafood",
+					"summary": "",
+					"packaging":"2lb bag",
+					"pricing":"$4.49",
+					"comments":""
+				},
+				{
+					"image":"Swordfish-steak.jpg",
+					"coords":[327,12,101,140],
+					"name": "Fresh Swordfish Steaks",
+					"brands": [""],
+					"category": "seafood",
+					"summary": "",
+					"packaging":"$30.84/kg",
+					"pricing":"$13.99/lb",
+					"comments":""
+				},
+				{
+					"image":"HighLiner-frozen-fish.jpg",
+					"coords":[222,156,101,117],
+					"name": "High Liner Frozen Fish Family Pack Fish Sticks, Fish Fries or Fish in Tempura",
+					"brands": ["High Liner"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"700g",
+					"pricing":"$6.99",
+					"comments":""
+				},
+				{
+					"image":"Waterview-Market-frozen-shrimp.jpg",
+					"coords":[327,156,101,117],
+					"name": "Waterview Market Frozen Raw White Shrimp Caribbean or Lemon & Garlic",
+					"brands": ["Waterview Market"],
+					"category": "seafood",
+					"summary": "",
+					"packaging":"480g",
+					"pricing":"$9.99",
+					"comments":""
+				},
+				{	
+					"image":"Belmont-Meats-frozen-burgers.jpg",
+					"coords":[12,276,205,117],
+					"name": "Belmont Meats Frozen Home Style Beef Burgers Selected Varieties",
+					"brands": ["Belmont Meats"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"852g",
+					"pricing":"$10.99",
+					"comments":""
+				},
+				{
+					"image":"Chapmans-Canadian-collection.jpg",
+					"coords":[222,276,205,117],
+					"name": "Chapman’s Canadian Collection Novelties Stickwich, Bars or Cones",
+					"brands": ["Chapman’s"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"4-8 pack",
+					"pricing":"$2.99",
+					"comments":""
+				},
+				{
+					"image":"Krinos-Filo-twisters.jpg",
+					"coords":[12,396,101,117],
+					"name": "Krinos Fillo Twisters Assorted Varieties",
+					"brands": ["Krinos"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"840g",
+					"pricing":"$6.99",
+					"comments":""
+				},
+				{
+					"image":"MinuteMaid-frozen-juice.jpg",
+					"coords":[117,396,101,117],
+					"name": "Minute Maid Frozen Lemonade, Nestea, Five Alive or Fruitopia",
+					"brands": ["Minute Maid","Nestea","Five Alive","Fruitopia"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"295ml",
+					"pricing":"4/$5.00",
+					"comments":""
+				},
+				{
+					"image":"Kawartha-Dairy-Ice-Cream.jpg",
+					"coords":[222,396,205,117],
+					"name": "Kawartha Dairy Ice Cream Assorted Varieties",
+					"brands": ["Kawartha Dairy"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"1.5L",
+					"pricing":"$5.99",
+					"comments":""
+				},
+				{
+					"image":"Brandt-Corned-Beef.jpg",
+					"coords":[453,12,101,141],
+					"name": "Brandt Corned Beef or Pastrami Freshly Sliced at the Deli",
+					"brands": ["Brandt"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$17.61/kg",
+					"pricing":"$7.99/lb",
+					"comments":""
+				},
+				{
+					"image":"San-Daniele-Boneless-Prosciutto.jpg",
+					"coords":[559,12,101,141],
+					"name": "San Daniele Boneless Prosciutto Freshly Sliced at the Deli",
+					"brands": ["San Daniele"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$22.02/kg",
+					"pricing":"$9.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Pillars-black-forest-ham.jpg",
+					"coords":[663,32,206,240],
+					"name": "Piller's Black Forest Ham Freshly Sliced at the Deli",
+					"brands": ["Piller's"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$11.00/kg",
+					"pricing":"$4.99/lb",
+					"comments":"save"
+				},
+				{
+					"image":"Agropur-Havarti-Cheese.jpg",
+					"coords":[453,155,101,117],
+					"name": "Agropur Havarti Cheese Regular Freshly Sliced at the Deli",
+					"brands": ["Agropur"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$17.61/kg",
+					"pricing":"$7.99/lb",
+					"comments":""
+				},
+				{
+					"image":"TreStella-provolone-cheese.jpg",
+					"coords":[559,155,101,117],
+					"name": "Tre Stelle Provolone Cheese Regular or Light Freshly Sliced at the Deli",
+					"brands": ["Tre Stelle"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$19.82/kg",
+					"pricing":"$8.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Agropur-Vaudreuil-Double-Creme-Brie.jpg",
+					"coords":[453,276,101,117],
+					"name": "Agropur Vaudreuil Double Crème Brie or Camembert Freshly Cut at the Deli",
+					"brands": ["Agropur"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"26.43/kg",
+					"pricing":"$11.99/lb",
+					"comments":""
+				},
+				{
+					"image":"TreStella-cheese-slices.jpg",
+					"coords":[559,276,101,117],
+					"name": "Tre Stelle Cheese Slices Assorted Varieties",
+					"brands": ["Tre Stelle"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"145-175g",
+					"pricing":"$3.49",
+					"comments":""
+				},
+				{
+					"image":"Castello-Blue-Cheese.jpg",
+					"coords":[663,276,101,117],
+					"name": "Castello Blue Cheese Traditional or Extra Creamy",
+					"brands": ["Castello"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"125g",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Santa-Lucia-Bocconcini-Cheese.jpg",
+					"coords":[768,276,101,117],
+					"name": "Santa Lucia Bocconcini Cheese Assorted Varieties",
+					"brands": ["Santa Lucia"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"200g",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Maple-Leaf-Prime-chicken-wings.jpg",
+					"coords":[453,397,101,117],
+					"name": "Maple Leaf Prime Naturally Chicken Wings Assorted Varieties",
+					"brands": ["Schneiders"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"800g",
+					"pricing":"$7.99",
+					"comments":""
+				},
+				{
+					"image":"Schneider-Red-Hots.jpg",
+					"coords":[559,397,101,117],
+					"name": "Schneiders Red Hots Original Style Wieners",
+					"brands": ["Schneiders"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"450g",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"CK-fresh-salads.jpg",
+					"coords":[663,397,206,117],
+					"name": "Fresh Summer Salads Macaroni, Potato, Coleslaw, Potato & Egg or Creamy Coleslaw Min. Weight 680g",
+					"brands": ["Country Kitchen"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$3.99",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page5",
+			"image":"page5.jpg",
+			"products":[
+				{
+					"image":"Fresh-Beef-capless-steaks.jpg",
+					"coords":[12,33,206,238],
+					"name": "Fresh Beef Capless Rib Steaks Product of Canada",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$26.43/kg",
+					"pricing":"$11.99/lb",
+					"comments":"save"
+				},
+				{
+					"image":"ground-beef.jpg",
+					"coords":[222,33,101,120],
+					"name": "Fresh Extra Lean Ground Beef",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$11.00/kg",
+					"pricing":"$4.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Store-made-beef-burgers.jpg",
+					"coords":[327,33,101,120],
+					"name": "Fresh Store-Made Lean Beef Burgers",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$13.21/kg",
+					"pricing":"$5.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Pork-back-ribs.jpg",
+					"coords":[222,154,101,117],
+					"name": "Fresh Ontario Pork Back Ribs",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$11.00/kg",
+					"pricing":"$4.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Boneless-pork-cubes.jpg",
+					"coords":[327,154,101,117],
+					"name": "Fresh Ontario Boneless Pork Sirloin Cubes",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$6.59/kg",
+					"pricing":"$2.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Yorkshire-Valley-whole-chicken.jpg",
+					"coords":[12,274,101,116],
+					"name": "Fresh, Organic Whole Chickens Grade A",
+					"brands": ["Yorkshire Valley Farms"],
+					"category": "poultry",
+					"summary": "",
+					"packaging":"$11.00/kg",
+					"pricing":"$4.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Yorkshire-Valley-chicken-breasts.jpg",
+					"coords":[117,274,101,116],
+					"name": "Fresh, Organic Boneless & Skinless Chicken Breast",
+					"brands": ["Yorkshire Valley Farms"],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$28.64/kg",
+					"pricing":"$12.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Yorkshire-Valley-chicken-thighs.jpg",
+					"coords":[222,274,101,116],
+					"name": "Fresh, Organic Chicken Thighs Bone-in",
+					"brands": ["Yorkshire Valley Farms"],
+					"category": "poultry",
+					"summary": "",
+					"packaging":"$11.00/kg",
+					"pricing":"$4.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Yorkshire-Valley-chicken-drumsticks.jpg",
+					"coords":[327,274,101,116],
+					"name": "Fresh, Organic Chicken Drumsticks",
+					"brands": ["Yorkshire Valley Farms"],
+					"category": "poultry",
+					"summary": "",
+					"packaging":"$13.21/kg",
+					"pricing":"$5.99/lb",
+					"comments":""
+				}
+			]
+		}
+	]
+}
