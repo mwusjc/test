@@ -41,12 +41,11 @@
       return -1;
     },
 
-    // only render the listing if publish is set to true
     // current date is ahead of publish start date
     // current date is before publish end date
-    // publish end date is not set
-    shouldBeDisplayed: function(career, currentDate, publishStartDate, publishEndDate) {
-      return career.publish === true && currentDate > publishStartDate && (currentDate < publishEndDate || !career.publishTo);
+    shouldBeDisplayed: function(currentDate, publishStartDate, publishEndDate) {
+      var currentDate = new Date();
+      return currentDate > publishStartDate && currentDate < publishEndDate;
     },
 
     renderCareers: function(data) {
@@ -62,7 +61,7 @@
           mapping = {
             "_JOBID_" : item.slug,
             "_JOBTITLE_" : item.title,
-            "_POSTED_" : monthNames[publishStartDate.getMonth()] + ' ' + publishStartDate.getDate() + ', ' + publishStartDate.getFullYear()
+            "_POSTED_" : monthNames[publishEndDate.getMonth()] + ' ' + publishEndDate.getDate() + ', ' + publishStartDate.getFullYear()
           };
           html = hlf.drawTemplate("#tpl-career-listing", mapping);
           $('#' + item.location + '-careers').append(html);
