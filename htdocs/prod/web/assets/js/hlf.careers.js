@@ -16,7 +16,7 @@ hlf.careers = {
 
       if (hlf.careers.shouldBeDisplayed(publishStartDate, publishEndDate)) {
 
-        $('#job-title-and-location').append(data[index].title + ' - ' + data[index].location.titleCase);
+        $('#job-title-and-location').append(data[index].title + ' - ' + data[index].location);
         $('#job-duties').append(nl2br(data[index].duties));
         $('#job-requirements').append(nl2br(data[index].requirements));
 
@@ -72,8 +72,4 @@ hlf.careers = {
   var nl2br = function (str) {
     var breakTag = '<br>';
     return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1'+ breakTag + breakTag + '$2');
-  };
-
-  var titleCase = function(string) { 
-    return string.charAt(0).toUpperCase() + string.slice(1); 
   };
