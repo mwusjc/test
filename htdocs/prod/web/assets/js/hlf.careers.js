@@ -16,11 +16,10 @@
       var publishStartDate = new Date(data[index].datePublishTo.slice(0, -2));
       var publishEndDate = new Date(data[index].datePublishFrom.slice(0, -2));
 
-      if (hlf.careers.shouldBeDisplayed(data[index], currentDate, publishStartDate, publishEndDate)) {
-
+      if (hlf.careers.shouldBeDisplayed(publishStartDate, publishEndDate)) {
         $('#job-title-and-location').append(data[index].title + ' - ' + data[index].location);
-        $('#job-duties').append(markdown.toHTML(data[index].duties));
-        $('#job-requirements').append(markdown.toHTML(data[index].requirements));
+        $('#job-duties').append(nl2br(data[index].duties));
+        $('#job-requirements').append(nl2br(data[index].requirements));
 
         $('input[name=location]').attr('value', data[index].location);
         $('input[name=title]').attr('value', data[index].title);
@@ -44,21 +43,20 @@
 
     // current date is ahead of publish start date
     // current date is before publish end date
-    shouldBeDisplayed: function(currentDate, publishStartDate, publishEndDate) {
+    shouldBeDisplayed: function(publishStartDate, publishEndDate) {
       var currentDate = new Date();
       return currentDate > publishStartDate && currentDate < publishEndDate;
     },
 
     renderCareers: function(data) {
-      var monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"
-      ];
-      var currentDate = new Date();
+      var monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"];
+
 
       $.each(data, function(key,item) {
 
-        var publishStartDate = new Date(item.datePublishTo.slice(0, -2));
-        var publishEndDate = new Date(item.datePublishFrom.slice(0, -2));
-        if (hlf.careers.shouldBeDisplayed(item, currentDate, publishStartDate, publishEndDate)) {
+        var publishStartDate = new Date(item.datePublishFrom.slice(0, -2));
+        var publishEndDate = new Date(item.datePublishTo.slice(0, -2));
+        if (hlf.careers.shouldBeDisplayed(publishStartDate, publishEndDate)) {
           mapping = {
             "_JOBID_" : item.slug,
             "_JOBTITLE_" : item.title,
@@ -70,4 +68,9 @@
       });
     }
 
+  };
+
+  var nl2br = function (str) {
+    var breakTag = '<br>';
+    return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1'+ breakTag + breakTag + '$2');
   };
