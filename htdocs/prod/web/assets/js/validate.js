@@ -1,5 +1,5 @@
 var process;
-// var apibaseURL = "http://localhost:10010/v1";
+
 var apibaseURL = '';
 if(window.location.hostname == 'localhost') {
   apibaseURL = "http://localhost:10010/v1";

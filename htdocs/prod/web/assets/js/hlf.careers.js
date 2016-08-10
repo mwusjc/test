@@ -22,7 +22,7 @@ hlf.careers = {
 
         $('input[name=location]').attr('value', data[index].location);
         $('input[name=title]').attr('value', data[index].title);
-        $('input[name=id]').attr('value', data[index].id);
+        $('input[name=id]').attr('value', data[index].slug);
 
 
       } else {
