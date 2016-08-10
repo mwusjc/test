@@ -12,14 +12,15 @@
       }
 
       var currentDate = new Date();
-      var publishStartDate = new Date(data[index].publishFrom);
-      var publishEndDate = new Date(data[index].publishTo);
+
+      var publishStartDate = new Date(data[index].datePublishTo.slice(0, -2));
+      var publishEndDate = new Date(data[index].datePublishFrom.slice(0, -2));
 
       if (hlf.careers.shouldBeDisplayed(data[index], currentDate, publishStartDate, publishEndDate)) {
 
         $('#job-title-and-location').append(data[index].title + ' - ' + data[index].location);
-        $('#job-duties').append(markdown.toHTML(data[index].details.duties));
-        $('#job-requirements').append(markdown.toHTML(data[index].details.requirements));
+        $('#job-duties').append(markdown.toHTML(data[index].duties));
+        $('#job-requirements').append(markdown.toHTML(data[index].requirements));
 
         $('input[name=location]').attr('value', data[index].location);
         $('input[name=title]').attr('value', data[index].title);

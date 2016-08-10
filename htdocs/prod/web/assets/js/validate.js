@@ -1,5 +1,16 @@
 var process;
-var apibaseURL = "http://localhost:10010/v1";
+// var apibaseURL = "http://localhost:10010/v1";
+var apibaseURL = '';
+if(window.location.hostname == 'localhost') {
+  apibaseURL = "http://localhost:10010/v1";
+}
+else if(window.location.hostname == 'hlf-stage.kermit.sjc.io') {
+  apibaseURL = "https://api.highlandfarms.ca.stage.sjc.io/v1";
+}
+else if(window.location.hostname == 'www.highlandfarms.ca') {
+  apibaseURL = "https://api.highlandfarms.ca.sjc.io/v1";
+}
+
 var ApplicationProcess = ApplicationProcess || {};
 
 // Init & initial AJAX call to API
