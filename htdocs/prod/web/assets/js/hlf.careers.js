@@ -16,7 +16,7 @@ hlf.careers = {
 
       if (hlf.careers.shouldBeDisplayed(publishStartDate, publishEndDate)) {
 
-        $('#job-title-and-location').append(data[index].title + ' - ' + data[index].location);
+        $('#job-title-and-location').append(data[index].title + ' - ' + '<span class="city">' + data[index].location + '</span>');
         $('#job-duties').append(nl2br(data[index].duties));
         $('#job-requirements').append(nl2br(data[index].requirements));
 

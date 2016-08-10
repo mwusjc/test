@@ -7087,6 +7087,10 @@ height: 210px;
   letter-spacing: normal;
 }
 
+.job .city {
+  text-transform: capitalize;
+}
+
 .btn-file {
   width: 97%;
   padding-left: 3%;
