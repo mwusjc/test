@@ -29,7 +29,7 @@
         <div class='col-xs-12 col-sm-9' id='mississauga-careers'>
         </div>
     </div>
-    <span id="test"></span>
+    
 </main>
 
 <script type="text/html" id="tpl-career-listing">
@@ -52,7 +52,7 @@
 
     hlf.data.careers = JSON.parse(<?php echo $joblistings ?>);
     hlf.careers.renderCareers(hlf.data.careers);
-
+    console.log('server', <?php echo $_SERVER['SERVER_NAME'] ?>);
   });
 
 </script>
