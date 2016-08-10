@@ -9,7 +9,7 @@ class Careers extends CI_Controller {
     public function __construct()
     {
         parent::__construct();        
-        $this->jsonData = "[]"; //@file_get_contents('http://localhost:10010/v1/jobs');
+        $this->jsonData = @file_get_contents('http://localhost:10010/v1/jobs');
         $this->jsonDataEncoded = json_encode($this->jsonData);
     }
 
@@ -29,7 +29,7 @@ class Careers extends CI_Controller {
       (int) $slug;
       if(empty($slug)) redirect("/careers/");
 
-      $this->data['details'] = $this->jsonFileEncoded;
+      $this->data['details'] = $this->jsonDataEncoded;
 
   		$this->load->view("header");
   		$this->load->view("job", $this->data);
