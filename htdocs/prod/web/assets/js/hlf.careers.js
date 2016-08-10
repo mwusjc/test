@@ -1,4 +1,4 @@
-  hlf.careers = {
+hlf.careers = {
     renderSingleCareer: function(data) {
 
       var pathArray = window.location.pathname.split( '/' );
@@ -11,12 +11,11 @@
         window.location.href = '/careers';
       }
 
-      var currentDate = new Date();
-
-      var publishStartDate = new Date(data[index].datePublishTo.slice(0, -2));
-      var publishEndDate = new Date(data[index].datePublishFrom.slice(0, -2));
+      var publishStartDate = new Date(data[index].datePublishFrom.slice(0, -2));
+      var publishEndDate = new Date(data[index].datePublishTo.slice(0, -2));
 
       if (hlf.careers.shouldBeDisplayed(publishStartDate, publishEndDate)) {
+
         $('#job-title-and-location').append(data[index].title + ' - ' + data[index].location);
         $('#job-duties').append(nl2br(data[index].duties));
         $('#job-requirements').append(nl2br(data[index].requirements));
