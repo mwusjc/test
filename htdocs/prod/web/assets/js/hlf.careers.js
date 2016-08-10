@@ -60,7 +60,7 @@
           mapping = {
             "_JOBID_" : item.slug,
             "_JOBTITLE_" : item.title,
-            "_POSTED_" : monthNames[publishEndDate.getMonth()] + ' ' + publishEndDate.getDate() + ', ' + publishStartDate.getFullYear()
+            "_POSTED_" : monthNames[publishStartDate.getMonth()] + ' ' + publishStartDate.getDate() + ', ' + publishStartDate.getFullYear()
           };
           html = hlf.drawTemplate("#tpl-career-listing", mapping);
           $('#' + item.location + '-careers').append(html);

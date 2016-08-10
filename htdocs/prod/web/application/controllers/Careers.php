@@ -8,9 +8,7 @@ class Careers extends CI_Controller {
 
     public function __construct()
     {
-        parent::__construct();        
-        // $this->jsonData = "[]"; //@file_get_contents('http://localhost:10010/v1/jobs');
-        // $this->jsonData = @file_get_contents('http://localhost:10010/v1/jobs');
+        parent::__construct();
 
         $apiSource = '';
         if($_SERVER['SERVER_NAME'] == 'localhost') {
@@ -40,73 +38,12 @@ class Careers extends CI_Controller {
 
   		$this->load->helper(array('form', 'url'));
 
-      // $this->load->library('form_validation');
-
-      //     $config = array(
-      //                    array(
-      //                          'field'   => 'first',
-      //                          'label'   => 'First Name',
-      //                          'rules'   => 'required'
-      //                       ),
-      //                    array(
-      //                          'field'   => 'last',
-      //                          'label'   => 'Last Name',  
-      //                          'rules'   => 'required'
-
-      //                       ),
-      //                   array(
-      //                          'field'   => 'email',
-      //                          'label'   => 'Email',
-      //                          'rules'   => 'required|valid_email'
-      //                       ),
-      //                    array(
-      //                          'field'   => 'phone',
-      //                          'label'   => 'Phone Number',
-      //                          'rules'   => 'required'
-      //                       ),
-      //                    array(
-      //                          'field'   => 'file_resume_val',
-      //                          'label'   => 'Resume',  
-      //                          'rules'   => 'required' 
-      //                       ) 
-      //                 );
-
-          // $this->form_validation->set_rules($config);
-
       (int) $slug;
       if(empty($slug)) redirect("/careers/");
 
-      // $data = array();
-
       $this->data['details'] = $this->jsonDataEncoded;
 
-      // $this->load->helper('email');
   		$this->load->view("header");
-
-      // if ($this->form_validation->run())    {
-
-      //         $to = "jobs@highlandfarms.on.ca"; 
-      //         $from = $_POST['email'];
-      //         $first = $_POST['first'];
-      //         $last = $_POST['last'];
-      //         $phone = $_POST['phone'];
-      //         $location = $_POST['location'];
-      //         $title = $_POST['title'];
-      //         $id = $_POST['id'];
-      //         $resume = isset($_POST['file_resume_val']) ? $_POST['file_resume_val'] : "";
-      //         $coverletter = isset($_POST['file_coverletter_val']) ? $_POST['file_coverletter_val'] : "";
-  
-      //         $email = "Job application submission:<br/><br/>  
-      //                         Job: $id - $title - $location<br/>
-      //                         Name: $first $last<br/>
-      //                         Email: $from<br/>
-      //                         Phone: $phone<br/><br/>
-      //                         Resume/Coverletter attached.
-      //         ";
-      //         send_ses_email($to, "JOB APPLICATION: Submission", $email, $_FILES);
-      //         $this->load->view("job-success", $this->data);
-      //     }
-
   		$this->load->view("job", $this->data);
   		$this->load->view("footer");
 
