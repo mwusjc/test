@@ -14,7 +14,7 @@ class Careers extends CI_Controller {
         if($_SERVER['SERVER_NAME'] == 'localhost') {
           $apiSource = 'http://localhost:10010/v1/jobs';
         }
-        elseif($_SERVER['SERVER_NAME'] == 'hlf-stage.kermit.sjc.io/') {
+        elseif($_SERVER['SERVER_NAME'] == 'hlf-stage.kermit.sjc.io') {
           $apiSource = 'https://api.highlandfarms.ca.stage.sjc.io/v1/jobs';
         }
         elseif($_SERVER['SERVER_NAME'] == 'www.highlandfarms.ca') {
