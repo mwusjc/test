@@ -52,7 +52,6 @@
 
     hlf.data.careers = JSON.parse(<?php echo $joblistings ?>);
     hlf.careers.renderCareers(hlf.data.careers);
-    console.log('server', '<?php echo $_SERVER['SERVER_NAME'] ?>');
   });
 
 </script>
