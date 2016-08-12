@@ -29,6 +29,11 @@
         </div>
     </div>
     <div class='row' style="margin-top: 50px;">
+      <div class='col-xs-12'>
+        <p>Accommodation will be provided in all parts of the hiring process as required under Highland Farm's Employment Accommodation policy. Applicants need to make their needs known in advance</p>
+      </div>
+    </div>
+    <div class='row' style="margin-top: 50px;">
         <div class='col-xs-12 col-sm-3'>
             <h3>Application:</h3>
         </div>
