@@ -95,7 +95,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
-					"packaging":"3.28/kg",
+					"packaging":"$3.28/kg",
 					"pricing":"$1.49/lb",
 					"comments":""
 				},
@@ -106,7 +106,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
-					"packaging":"4.39/kg",
+					"packaging":"$4.39/kg",
 					"pricing":"$1.99/lb",
 					"comments":""
 				},
@@ -117,7 +117,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
-					"packaging":"1.74/kg",
+					"packaging":"$1.74/kg",
 					"pricing":"$0.79/lb",
 					"comments":""
 				},
@@ -128,7 +128,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
-					"packaging":"2.18/kg",
+					"packaging":"$2.18/kg",
 					"pricing":"$0.99/lb",
 					"comments":""
 				},
@@ -139,7 +139,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
-					"packaging":"3.28/kg",
+					"packaging":"$3.28/kg",
 					"pricing":"$1.49/lb",
 					"comments":""
 				},
@@ -789,7 +789,7 @@
 					"brands": ["Agropur"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"26.43/kg",
+					"packaging":"$26.43/kg",
 					"pricing":"$11.99/lb",
 					"comments":""
 				},
