@@ -106,7 +106,7 @@
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
-					"packaging":"quart",
+					"packaging":"1 quart",
 					"pricing":"$4.99",
 					"comments":""
 				},
@@ -240,7 +240,7 @@
 				{
 					"image":"Dempsters-tortillas.jpg",
 					"coords":[86,9,74,102],
-					"name": "Dempster's 7in Tortillas Selected Varieties",
+					"name": "Dempster's 7-inch Tortillas Selected Varieties",
 					"brands": ["Dempter's"],
 					"category": "bakery",
 					"summary": "",
@@ -251,7 +251,7 @@
 				{
 					"image":"LaRocca-Neopolitan-cake.jpg",
 					"coords":[161,24,149,174],
-					"name": "La Rocca Fresh 8in Neapolitan Cake",
+					"name": "La Rocca Fresh 8-inch Neapolitan Cake",
 					"brands": ["La Rocca"],
 					"category": "bakery",
 					"summary": "",
@@ -273,7 +273,7 @@
 				{
 					"image":"Dufflet-pasteries.jpg",
 					"coords":[85,113,74,85],
-					"name": "Dufflet Pastries Fresh 2.5in Mini Cakes Selected Varieties",
+					"name": "Dufflet Pastries Fresh 2.5-inch Mini Cakes Selected Varieties",
 					"brands": ["Dufflet Pastries"],
 					"category": "bakery",
 					"summary": "",
@@ -597,7 +597,7 @@
 					"brands": ["Clover Leaf"],
 					"category": "grocery",
 					"summary": "",
-					"packaging":"523ml",
+					"packaging":"532ml",
 					"pricing":"2/$5.00",
 					"comments":""
 				},
@@ -928,7 +928,7 @@
 					"comments":""
 				},
 				{
-					"image":"Pork-side-ribs.jpg",
+					"image":"Fresh-Ontario-Pork-Side-Ribs.jpg",
 					"coords":[237,112,74,84],
 					"name": "Fresh Ontario Pork Side Ribs",
 					"brands": [""],
