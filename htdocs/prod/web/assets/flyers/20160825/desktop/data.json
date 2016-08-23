@@ -398,7 +398,7 @@
 					"brands": ["Ocean Spray"],
 					"category": "grocery",
 					"summary": "",
-					"packaging":"1.77L-1.89L",
+					"packaging":"1.77-1.89L",
 					"pricing":"$3.49",
 					"comments":""
 				},
@@ -685,7 +685,7 @@
 				},
 				{
 					"image":"Luna-and-Larrys-frozen-desert.jpg",
-					"coords":[12,396,205,117],
+					"coords":[12,396,158,117],
 					"name": "Luna & Larry's Coconut Bliss Non-Dairy Frozen Dessert Assorted Varieties",
 					"brands": ["Luna & Larry's"],
 					"category": "frozen foods",
@@ -695,7 +695,7 @@
 					"comments":""
 				},
 				{
-					"image":"Luna-and-Larrys-frozen-desert.jpg",
+					"image":"Luna-and-Larrys-frozen-desert-bars.jpg",
 					"coords":[174,434,42,42],
 					"name": "Luna & Larry's Coconut Bliss Non-Dairy Frozen Dessert Bars",
 					"brands": ["Luna & Larry's"],
@@ -831,7 +831,7 @@
 					"coords":[453,397,101,117],
 					"name": "Schneiders All Beef Wieners Regular",
 					"brands": ["Schneiders"],
-					"category": "frozen foods",
+					"category": "deli",
 					"summary": "",
 					"packaging":"375g",
 					"pricing":"$4.99",
@@ -861,7 +861,7 @@
 				},
 				{
 					"image":"CK-fresh-salad.jpg",
-					"coords":[663,397,101,117],
+					"coords":[768,397,101,117],
 					"name": "Family Size Fresh Salad Garden Min. Weight 600g or Caesar Min. Weight 570g",
 					"brands": ["Country Kitchen"],
 					"category": "deli",

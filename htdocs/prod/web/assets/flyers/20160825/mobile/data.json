@@ -404,7 +404,7 @@
 					"brands": ["Ocean Spray"],
 					"category": "grocery",
 					"summary": "",
-					"packaging":"1.77L-1.89L",
+					"packaging":"1.77-1.89L",
 					"pricing":"$3.49",
 					"comments":""
 				},
@@ -697,7 +697,7 @@
 				},
 				{
 					"image":"Luna-and-Larrys-frozen-desert.jpg",
-					"coords":[9,288,150,85],
+					"coords":[9,288,116,85],
 					"name": "Luna & Larry's Coconut Bliss Non-Dairy Frozen Dessert Assorted Varieties",
 					"brands": ["Luna & Larry's"],
 					"category": "frozen foods",
@@ -707,7 +707,7 @@
 					"comments":""
 				},
 				{
-					"image":"Luna-and-Larrys-frozen-desert.jpg",
+					"image":"Luna-and-Larrys-frozen-desert-bars.jpg",
 					"coords":[127,316,30,27],
 					"name": "Luna & Larry's Coconut Bliss Non-Dairy Frozen Dessert Bars",
 					"brands": ["Luna & Larry's"],
@@ -849,7 +849,7 @@
 					"coords":[9,287,74,85],
 					"name": "Schneiders All Beef Wieners Regular",
 					"brands": ["Schneiders"],
-					"category": "frozen foods",
+					"category": "deli",
 					"summary": "",
 					"packaging":"375g",
 					"pricing":"$4.99",
