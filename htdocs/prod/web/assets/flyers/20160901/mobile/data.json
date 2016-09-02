@@ -249,7 +249,7 @@
 					"comments":"save"
 				},
 				{
-					"image":"",
+					"image":"Stonemill-Bakehouse-sliced-bread.jpg",
 					"coords":[9,113,74,85],
 					"name": "Stonemill Bakehouse Sliced Grain Bread Selected Varieties",
 					"brands": ["Stonemill Bakehouse"],
@@ -260,7 +260,7 @@
 					"comments":""
 				},
 				{
-					"image":"",
+					"image":"CK-Store-baked-cookies.jpg",
 					"coords":[85,113,74,85],
 					"name": "Store-Baked Cookies Assorted Varieties",
 					"brands": ["Country Kitchen"],
@@ -875,7 +875,7 @@
 				{
 					"image":"Marc-Angelo-Italian-deli-meats.jpg",
 					"coords":[161,112,150,91],
-					"name": "Imported Italian Deli Meats Selected Varieties - 100g or 125g",
+					"name": "Marc Angelo<br>Imported Italian Deli Meats Selected Varieties - 100g or 125g",
 					"brands": ["Marc Angelo"],
 					"category": "meat",
 					"summary": "",
@@ -888,7 +888,7 @@
 					"coords":[9,198,74,84],
 					"name": "Fresh Ontario Pork Shoulder Blade Steaks",
 					"brands": [""],
-					"category": "poultry",
+					"category": "meat",
 					"summary": "",
 					"packaging":"$6.59/kg",
 					"pricing":"$2.99/lb",
@@ -908,7 +908,7 @@
 				{
 					"image":"Marc-Angelo-Pork-dinner-sausages.jpg",
 					"coords":[161,214,52,58],
-					"name": "Pork Dinner Sausages Selected Varieties - 500g",
+					"name": "Marc Angelo<br>Pork Dinner Sausages Selected Varieties - 500g",
 					"brands": ["Marc Angelo"],
 					"category": "meat",
 					"summary": "",
@@ -919,7 +919,7 @@
 				{
 					"image":"Marc-Angelo-frozen-lamb-Spiedini 30 skewers.jpg",
 					"coords":[215,214,45,58],
-					"name": "Frozen Lamb Spiedini 30 Skewers",
+					"name": "Marc Angelo<br>Frozen Lamb Spiedini 30 Skewers",
 					"brands": ["Marc Angelo"],
 					"category": "meat",
 					"summary": "",
@@ -930,7 +930,7 @@
 				{
 					"image":"Marc-Angelo-frozen-lamb-Spiedini-100-skewers.jpg",
 					"coords":[262,214,45,58],
-					"name": "Frozen Lamb Spiedini 100 Skewers",
+					"name": "Marc Angelo<br>Frozen Lamb Spiedini 100 Skewers",
 					"brands": ["Marc Angelo"],
 					"category": "meat",
 					"summary": "",
