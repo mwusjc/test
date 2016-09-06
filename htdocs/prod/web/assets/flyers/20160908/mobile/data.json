@@ -41,7 +41,7 @@
 				{
 					"image":"General-Mills-cereal.jpg",
 					"coords":[112,275,96,106],
-					"name": "General Mills Cheerios 260-500g, Presweet Cereal 330-380g or Fibre 1 425-450g Selected Varieties",
+					"name": "General Mills Cheerios 260-500g, Presweet Cereal 330-380g or Fibre 1 425-450g, Selected Varieties",
 					"brands": ["General Mills"],
 					"category": "grocery",
 					"summary": "",
@@ -52,7 +52,7 @@
 				{
 					"image":"Palmolive-dish-soap.jpg",
 					"coords":[213,275,96,106],
-					"name": "Palmolive Liquid Dish Soap Assorted Varieties",
+					"name": "Palmolive Liquid Dish Soap, Assorted Varieties",
 					"brands": ["Palmolive"],
 					"category": "grocery",
 					"summary": "",
@@ -146,7 +146,7 @@
 				{
 					"image":"Honey-Tangerines.jpg",
 					"coords":[85,200,74,85],
-					"name": "Honey Murcott Tangerines Product of Argentina",
+					"name": "Honey Tangerines Product of Argentina",
 					"brands": [""],
 					"category": "produce",
 					"summary": "",
@@ -240,7 +240,7 @@
 				{
 					"image":"D-Italiano-buns.jpg",
 					"coords":[86,9,74,100],
-					"name": "D'Italiano Buns Sausage or Crustini Assorted Varieties",
+					"name": "D'Italiano Buns Sausage or Crustini, Assorted Varieties",
 					"brands": ["D'Italiano"],
 					"category": "bakery",
 					"summary": "",
@@ -356,7 +356,7 @@
 					"summary": "",
 					"packaging":"1.89L",
 					"pricing":"$3.99",
-					"comments":"save"
+					"comments":""
 				}
 			]
 		},
@@ -582,7 +582,7 @@
 				{
 					"image":"Annies-cookies-and-crackers.jpg",
 					"coords":[86,287,74,85],
-					"name": "Annie's Cookies and Crackers Selected Varieties",
+					"name": "Annie's Cookies and Crackers, Selected Varieties",
 					"brands": ["Annie's"],
 					"category": "grocery",
 					"summary": "",
@@ -608,7 +608,7 @@
 					"brands": ["Vita Coco"],
 					"category": "grocery",
 					"summary": "",
-					"packaging":"case of 12x330ml",
+					"packaging":"case of 12x330ml, or 330ml $1.49 each",
 					"pricing":"$15.99",
 					"comments":""
 				}
@@ -625,7 +625,7 @@
 					"brands": [""],
 					"category": "seafood",
 					"summary": "",
-					"packaging":"15.41/kg",
+					"packaging":"$15.41/kg",
 					"pricing":"$6.99/lb",
 					"comments":"save"
 				},
@@ -818,7 +818,7 @@
 					"brands": ["Tre Stelle"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"$475g",
+					"packaging":"475g",
 					"pricing":"$4.49",
 					"comments":""
 				},
@@ -862,7 +862,7 @@
 					"brands": ["Country Kitchen"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"100g",
+					"packaging":"/100g",
 					"pricing":"$2.89",
 					"comments":""
 				},
@@ -873,8 +873,8 @@
 					"brands": ["Country Kitchen"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"$100g",
-					"pricing":"$$1.89",
+					"packaging":"/100g",
+					"pricing":"$1.89",
 					"comments":""
 				}
 			]
@@ -912,14 +912,14 @@
 					"brands": [""],
 					"category": "meat",
 					"summary": "",
-					"packaging":"15.41/kg",
+					"packaging":"$15.41/kg",
 					"pricing":"$6.99/lb",
 					"comments":""
 				},
 				{
 					"image":"Beef-eye-of-round-roast.jpg",
 					"coords":[161,112,73,84],
-					"name": "Fresh Beef Eye or Round Roast, Product of Canada",
+					"name": "Fresh Beef Eye of Round Roast, Product of Canada",
 					"brands": [""],
 					"category": "meat",
 					"summary": "",
@@ -946,7 +946,7 @@
 					"category": "meat",
 					"summary": "",
 					"packaging":"$11.00/kg",
-					"pricing":"$4.99",
+					"pricing":"$4.99/lb",
 					"comments":""
 				},
 				{
