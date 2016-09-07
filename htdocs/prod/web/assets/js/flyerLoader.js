@@ -1,12 +1,13 @@
 var fl = {
   init: function(){
     if (window.innerWidth > 677){
+      // Determine which version of flyer should be displayed when page loaded
       this.loadData(fl.getWeek("current"),"desktop");
       $(".flyer.desktop .item").first().addClass("active");
     }
     else{
-          this.loadData(fl.getWeek("current"),"mobile");
-          $(".flyer.mobile .item").first().addClass("active");
+      this.loadData(fl.getWeek("current"),"mobile");
+      $(".flyer.mobile .item").first().addClass("active");
     }
 
     this.checkOverlapDay();
@@ -59,22 +60,21 @@ var fl = {
     for (var i = 0; i < data.pages.length; i++){
       html +='<div class="item"><div class="flyerWrap"><img src="/assets/flyers/'+data.week+'/'+type+'/'+data.pages[i].image+'"></div></div>';
     }
-                if (type == "desktop") {
-                    $(".carousel-inner").html(html);
-                } else {
-                    $(".carousel-inner-mobile").html(html);
-                }
+    if (type == "desktop") {
+        $(".carousel-inner").html(html);
+    } else {
+        $(".carousel-inner-mobile").html(html);
+    }
 
     this.generateImageMaps(data, type);
     this.generatePopups(data, type);
-        if (type == "desktop") {
-            $(".flyer.desktop .item").first().addClass("active");
-        } else {
-            $(".flyer.mobile .item").first().addClass("active");
-        }
+    if (type == "desktop") {
+        $(".flyer.desktop .item").first().addClass("active");
+    } else {
+        $(".flyer.mobile .item").first().addClass("active");
+    }
 
     $("#flyerPDF").attr("href","/assets/flyers/"+data.week+"/download.pdf");
-
   },
   generateImageMaps: function(data, type){
     var html = "";
@@ -168,6 +168,18 @@ var fl = {
       }
     }
     xmlhttp.send();
+  },
+  toggleVersion: function(week, type) {
+    // Call loadData function on page resize so that users are never left with a blank flyer after resizing their browsers from desktop to mobile or vice-versa
+    // We are aware this is likely an edge case, though this is for optimal user experience
+    if (window.innerWidth >= 760) {
+      // we are on larger tablet/desktop view
+      fl.loadData(fl.getWeek('current'), 'desktop');
+    }
+    else {
+      // mobile view
+      fl.loadData(fl.getWeek('current'), 'mobile');
+    }
   },
   populateBrands: function(data){
     var brands = [];
@@ -266,6 +278,7 @@ var fl = {
       $("#dropdownMenu1")[0].innerHTML = "Categories <span class='caret'></span>";
       $("#dropdownMenu2")[0].innerHTML = "Brands <span class='caret'></span>";
     }
-
   }
 }
+// Listen for browser resizes to ensure flyer contents are always visible
+window.addEventListener('resize', fl.toggleVersion);
