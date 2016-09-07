@@ -111,12 +111,14 @@
         fl.loadData(fl.getWeek("current"),"mobile");
         $(".currentFlyerDateRange").html(fl.getWeekRange("current"));
         $(".currentFlyerDateRangeTitle").html("Current Flyer");
+        upcomingFlyerChosen = false;
       });
       $("body").on('click','#nextFlyer', function() {
         fl.loadData(fl.getWeek("next"),"desktop");
         fl.loadData(fl.getWeek("next"),"mobile");
         $(".currentFlyerDateRange").html(fl.getWeekRange("next"));
         $(".currentFlyerDateRangeTitle").html("Next Week's Flyer");
+        upcomingFlyerChosen = true;
       });
 
       $("body").on('click','#backToFlyerView', function(){
