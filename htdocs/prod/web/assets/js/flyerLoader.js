@@ -1,4 +1,3 @@
-var upcomingFlyerChosen = false;
 var fl = {
   init: function(){
     if (window.innerWidth > 677){
@@ -170,47 +169,6 @@ var fl = {
     }
     xmlhttp.send();
   },
-  toggleVersion: function(week, type) {
-    // Call loadData function on page resize so that users are never left with a blank flyer after resizing their browsers from desktop to mobile or vice-versa
-    // We are aware this is likely an edge case, though this is for optimal user experience
-    if (window.innerWidth >= 760) {
-      var today = new Date();
-      var test = location.search;
-      //Assuming overlap day is Thursday
-      if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true"))){
-        // In an overlap scenario, adjust which set of data is loaded based on user selection
-        if(upcomingFlyerChosen == true) {
-          fl.loadData(fl.getWeek('next'), 'desktop');
-        }
-        else {
-          fl.loadData(fl.getWeek('current'), 'desktop');
-        }
-      }
-      else {
-        // we are on larger tablet/desktop view
-        fl.loadData(fl.getWeek('current'), 'desktop');
-      }
-    }
-    else {
-
-      var today = new Date();
-      var test = location.search;
-      //Assuming overlap day is Thursday
-      if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true"))){
-        // In an overlap scenario, adjust which set of data is loaded based on user selection
-        if(upcomingFlyerChosen == true) {
-          fl.loadData(fl.getWeek('next'), 'mobile');
-        }
-        else {
-          fl.loadData(fl.getWeek('current'), 'mobile');
-        }
-      }
-      else {
-        // mobile view
-        fl.loadData(fl.getWeek('current'), 'mobile');
-      }
-    }
-  },
   populateBrands: function(data){
     var brands = [];
     var html = "";
@@ -310,5 +268,3 @@ var fl = {
     }
   }
 }
-// Listen for browser resizes to ensure flyer contents are always visible
-window.addEventListener('resize', fl.toggleVersion);
