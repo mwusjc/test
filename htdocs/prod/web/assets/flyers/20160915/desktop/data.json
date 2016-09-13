@@ -482,11 +482,11 @@
 				{
 					"image":"Fiji-spring-water.jpg",
 					"coords":[327,397,101,117],
-					"name": "Fiji Natural Spring Water Case of 12x1.5L $24.99",
+					"name": "Fiji Natural Spring Water",
 					"brands": ["Fiji"],
 					"category": "grocery",
 					"summary": "",
-					"packaging":"1.5L",
+					"packaging":"1.5L, or Case of 12x1.5L $24.99",
 					"pricing":"4/$5.00",
 					"comments":""
 				},
