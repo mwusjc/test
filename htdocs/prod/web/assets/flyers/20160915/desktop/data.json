@@ -271,7 +271,7 @@
 					"brands": ["Natrel"],
 					"category": "dairy",
 					"summary": "",
-					"packaging":"1",
+					"packaging":"1L",
 					"pricing":"$1.99",
 					"comments":""
 				},
@@ -361,11 +361,11 @@
 				{
 					"image":"Organic-Meadow-milk-4L.jpg",
 					"coords":[12,33,206,240],
-					"name": "Organic Meadow Milk 1%, 2% or Skim Homogenized 4L bag $8.99",
+					"name": "Organic Meadow Milk 1%, 2% or Skim",
 					"brands": ["Organic Meadow"],
 					"category": "grocery",
 					"summary": "",
-					"packaging":"4L",
+					"packaging":"4L, or Homogenized 4L bag $8.99",
 					"pricing":"$7.99",
 					"comments":"save"
 				},
@@ -428,7 +428,7 @@
 					"image":"Paese-Mio-Potato-Gnocchi.jpg",
 					"coords":[222,275,101,117],
 					"name": "Paese Mio Potato Gnocchi",
-					"brands": ["Nutella"],
+					"brands": ["Paese Mio"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"1kg",
@@ -519,7 +519,7 @@
 					"brands": ["Pepsi"],
 					"category": "grocery",
 					"summary": "",
-					"packaging":"case mof 12x355ml",
+					"packaging":"case of 12x355ml",
 					"pricing":"$3.99",
 					"comments":""
 				},
@@ -657,8 +657,8 @@
 					"brands": [""],
 					"category": "seafood",
 					"summary": "",
-					"packaging":"500-540g",
-					"pricing":"$11.99/lb",
+					"packaging":"$17.61/kg",
+					"pricing":"$7.99/lb",
 					"comments":""
 				},
 				{
@@ -701,7 +701,7 @@
 					"brands": ["Breyers"],
 					"category": "frozen foods",
 					"summary": "",
-					"packaging":"166L",
+					"packaging":"1.66L",
 					"pricing":"$3.99",
 					"comments":""
 				},
@@ -879,11 +879,11 @@
 				{
 					"image":"Loin-of-pork.jpg",
 					"coords":[12,33,206,238],
-					"name": "Fresh Ontario Loin of Pork Rib or Sirloin Half Sliced 2.29/lb-5.05/kg",
+					"name": "Fresh Ontario Loin of Pork Rib or Sirloin Half",
 					"brands": [""],
 					"category": "meat",
 					"summary": "",
-					"packaging":"$4.39/kg",
+					"packaging":"$4.39/kg, or Sliced 2.29/lb-5.05/kg",
 					"pricing":"$1.99/lb",
 					"comments":"save"
 				},
