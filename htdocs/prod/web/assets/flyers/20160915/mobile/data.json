@@ -1,0 +1,988 @@
+{
+	"week":20160915,
+	"pages":[
+		{
+			"id":"page1",
+			"image":"page1.jpg",
+			"products":[
+				{
+					"image":"boneless-top-serloin-steak.jpg",
+					"coords":[9,116,148,150],
+					"name": "Fresh Beef Boneless Top Sirloin Steaks or Roast Product of Canada",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$15.41/kg",
+					"pricing":"$6.99/lb",
+					"comments":"save"
+				},
+				{
+					"image":"Cauliflower.jpg",
+					"coords":[163,116,148,150],
+					"name": "Ontario Homegrown Fresh White Cauliflower No. 1 Grade, Jumbo Size",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$1.49",
+					"comments":"save"
+				},
+				{
+					"image":"McCain-fries.jpg",
+					"coords":[9,275,97,106],
+					"name": "McCain Frozen Fries Straight, Crinkle, Shoestring or Steak Cut",
+					"brands": ["McCain"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"900g",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"Allens-Apple-juice.jpg",
+					"coords":[112,275,96,106],
+					"name": "Allen's 100% Pure Apple Juice",
+					"brands": ["Allen's"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1.05L",
+					"pricing":"$0.99",
+					"comments":""
+				},
+				{
+					"image":"Fleecy-fabric-softener.jpg",
+					"coords":[213,275,96,106],
+					"name": "Fleecy Liquid Concentrated Fabric Softener",
+					"brands": ["Fleecy"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"3L",
+					"pricing":"$5.99",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page2",
+			"image":"page2.jpg",
+			"products":[
+				{
+					"image":"Cantaloupes.jpg",
+					"coords":[9,23,149,86],
+					"name": "Ontario Homegrown Cantaloupes No. 1 Grade Jumbo Size",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"",
+					"pricing":"2/$5.00",
+					"comments":""
+				},
+				{
+					"image":"Lettuce.jpg",
+					"coords":[161,8,149,101],
+					"name": "Head Lettuce No. 1 Grade Product of Canada",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$0.99",
+					"comments":""
+				},
+				{
+					"image":"Prune-plums.jpg",
+					"coords":[9,112,74,85],
+					"name": "Ontario Homegrown Prune Plums No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"$4.39/kg",
+					"pricing":"$1.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Peaches.jpg",
+					"coords":[85,112,74,85],
+					"name": "Prima Peaches No. 1 Grade Product of U.S.A.",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"$4.39/kg",
+					"pricing":"$1.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Tomatoes.jpg",
+					"coords":[161,112,74,85],
+					"name": "Ontario Homegrown Field Tomatoes No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"$2.18/kg",
+					"pricing":"$0.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Celery.jpg",
+					"coords":[236,112,74,85],
+					"name": "Ontario Homegrown Celery No. 1 Grade Large Stalk",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$1.49",
+					"comments":""
+				},
+				{
+					"image":"Blue-grapes.jpg",
+					"coords":[9,200,74,85],
+					"name": "Ontario Homegrown Seedless Blue Grapes No. 1 Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"1.5L clam shell",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Cactus-pears.jpg",
+					"coords":[85,200,74,85],
+					"name": "Cactus Pears Product of Mexico",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"case",
+					"pricing":"$9.99",
+					"comments":""
+				},
+				{
+					"image":"Zucchini.jpg",
+					"coords":[161,200,74,85],
+					"name": "Ontario Homegrown Zucchini",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"$2.18/kg",
+					"pricing":"$0.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Collards-and-kale.jpg",
+					"coords":[236,200,74,85],
+					"name": "Ontario Homegrown Collards, Dandelion, Kale or Swiss Chard Red or Green",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"",
+					"pricing":"2/$4.00",
+					"comments":""
+				},
+				{
+					"image":"Bartlett-pears.jpg",
+					"coords":[9,288,74,85],
+					"name": "Bartlett Pears Product of U.S.A. Extra Fancy Grade",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"2lb bag",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Broccoli.jpg",
+					"coords":[85,288,74,85],
+					"name": "Broccoli Product of U.S.A.",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"bunch",
+					"pricing":"$2.99",
+					"comments":""
+				},
+				{
+					"image":"Sweet-potatoes.jpg",
+					"coords":[161,288,74,85],
+					"name": "Sweet Potatoes Product of U.S.A.",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"3lb bag",
+					"pricing":"$5.99",
+					"comments":""
+				},
+				{
+					"image":"Premium-jumbo-bouquet.jpg",
+					"coords":[236,288,74,85],
+					"name": "Premium Jumbo Bouquets",
+					"brands": [""],
+					"category": "produce",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$18.99",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page3",
+			"image":"page3.jpg",
+			"products":[
+				{
+					"image":"Villagio-sliced-bread.jpg",
+					"coords":[9,9,150,100],
+					"name": "Villaggio Sliced Bread 675g loaf, Crustini Buns pkg of 8 or Sausage Buns pkg of 6",
+					"brands": ["Villagio"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"",
+					"pricing":"2/$5.00",
+					"comments":""
+				},
+				{
+					"image":"Dufflet-Pasteries-cakelets.jpg",
+					"coords":[161,24,150,174],
+					"name": "Dufflet Pastries Fresh Cakelets Assorted Varieties",
+					"brands": ["Dufflet"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"5.5in x 4in each",
+					"pricing":"$13.99",
+					"comments":"save"
+				},
+				{
+					"image":"Otis-Spunkmeyer-mini-cakes.jpg",
+					"coords":[9,112,74,85],
+					"name": "Otis Spunkmeyer Mini Loaf Cakes 340g or Crème Cakes 397g",
+					"brands": ["Otis Spunkmeyer"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$2.99",
+					"comments":""
+				},
+				{
+					"image":"Oakrun-Farm-waffles.jpg",
+					"coords":[85,112,74,85],
+					"name": "Oakrun Farm Belgian Waffles",
+					"brands": ["Oakrun Farm"],
+					"category": "bakery",
+					"summary": "",
+					"packaging":"420g",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"Natrel-Milk-1L.jpg",
+					"coords":[9,201,74,85],
+					"name": "Natrel Fine-Filtered Milk 3.25%, 2%, 1% or Skim",
+					"brands": ["Natrel"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"1",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"Natrel-Chocolate-milk-1L.jpg",
+					"coords":[85,201,74,85],
+					"name": "Natrel Milk Dark Chocolate, Milk Chocolate or Caramel Latte",
+					"brands": ["Natrel"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"1L",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"Danone-Activa-yogurt-12x100g.jpg",
+					"coords":[161,201,74,85],
+					"name": "Danone Activia Yogourt Assorted Varieties",
+					"brands": ["Danone"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"12x100g",
+					"pricing":"$4.49",
+					"comments":""
+				},
+				{
+					"image":"Danone-Activa-yogurt-650g.jpg",
+					"coords":[237,201,74,85],
+					"name": "Danone Activia Yogurt 650g or Drinkable 4x93ml Selected Varieties",
+					"brands": ["Danone"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$2.49",
+					"comments":""
+				},
+				{
+					"image":"Alphonso-or-AlJuice-juice.jpg",
+					"coords":[9,288,74,85],
+					"name": "Alphonso or AlJuice Premium Juice Assorted Varieties or St. Maarten Calamansi Fruit Beverage",
+					"brands": ["Alphonso", "AlJuice"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"1.75L",
+					"pricing":"$2.69",
+					"comments":""
+				},
+				{
+					"image":"Liberte-organic-yogurt.jpg",
+					"coords":[86,288,74,85],
+					"name": "Liberté Organic Yogourt Selected Varieties",
+					"brands": ["Liberté"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"650-750g",
+					"pricing":"$3.49",
+					"comments":""
+				},
+				{
+					"image":"Liberte-Organic-Kefir-Plain-1L.jpg",
+					"coords":[161,288,74,85],
+					"name": "Liberté Organic Kéfir Selected Varieties",
+					"brands": ["Liberté"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"1L",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Naturegg-eggs.jpg",
+					"coords":[237,288,74,85],
+					"name": "Naturegg Organic Large Eggs",
+					"brands": ["Naturegg"],
+					"category": "dairy",
+					"summary": "",
+					"packaging":"dozen",
+					"pricing":"$5.99",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page4",
+			"image":"page4.jpg",
+			"products":[
+				{
+					"image":"Organic-Meadow-milk-4L.jpg",
+					"coords":[9,24,150,174],
+					"name": "Organic Meadow Milk 1%, 2% or Skim Homogenized 4L bag $8.99",
+					"brands": ["Organic Meadow"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"4L",
+					"pricing":"$7.99",
+					"comments":"save"
+				},
+				{
+					"image":"Primo-pasta-and-sauce.jpg",
+					"coords":[161,9,115,101],
+					"name": "Primo Pasta Regular Cuts 900g, Thick & Zesty Pasta Sauce, Tomato Sauce Assorted Varieties or Passata di Pomodoro 680ml",
+					"brands": ["Primo"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"",
+					"pricing":"4/$5.00",
+					"comments":""
+				},
+				{
+					"image":"Primo-beans-or-tomatoes.jpg",
+					"coords":[228,26,34,51],
+					"name": "Primo Tomatoes 796ml or Beans 540ml",
+					"brands": ["Primo"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$0.99",
+					"comments":""
+				},
+				{
+					"image":"Quaker-granola-bars.jpg",
+					"coords":[161,113,150,85],
+					"name": "Quaker Granola Bars Chewy or Dipps Selected Varieties",
+					"brands": ["Quaker"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"150-156g",
+					"pricing":"3/$5.00",
+					"comments":""
+				},
+				{
+					"image":"All-Bran-cereal.jpg",
+					"coords":[9,200,74,85],
+					"name": "Kellogg's All-Bran Cereal Original 525g, Strawberry Bites 465g or Bran Flakes 670g",
+					"brands": ["Kellogg's"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Kelloggs-Special-K-cereal.jpg",
+					"coords":[86,200,74,85],
+					"name": "Kellogg's Special K Cereal Selected Varieties",
+					"brands": ["Kellogg's"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"320-435g",
+					"pricing":"$2.99",
+					"comments":""
+				},
+				{
+					"image":"Paese-Mio-Potato-Gnocchi.jpg",
+					"coords":[161,200,74,85],
+					"name": "Paese Mio Potato Gnocchi",
+					"brands": ["Nutella"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1kg",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"CK-snacks.jpg",
+					"coords":[236,200,74,85],
+					"name": "Snacks, Cranberry Harvest Mix 390g, Youth Mix 400g, Tropical Island Mix 390g or Cajun 315g",
+					"brands": ["Country Kitchen"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"Knorr-Lipton-soup-mix.jpg",
+					"coords":[9,287,74,85],
+					"name": "Knorr Lipton Soup Mix Chicken Noodle or Recipe Onion",
+					"brands": ["Knorr"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"pkg of 4",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"Colussi-Biscolussi-Biscuits.jpg",
+					"coords":[86,287,74,85],
+					"name": "Colussi Biscolussi Biscuits",
+					"brands": ["Colussi"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"250g",
+					"pricing":"$0.99",
+					"comments":""
+				},
+				{
+					"image":"Lavazza-espresso-coffee.jpg",
+					"coords":[161,287,74,85],
+					"name": "Lavazza Qualità Rossa Espresso Coffee Beans",
+					"brands": ["Lavazza"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1kg",
+					"pricing":"$12.99",
+					"comments":""
+				},
+				{
+					"image":"Fiji-spring-water.jpg",
+					"coords":[236,287,74,85],
+					"name": "Fiji Natural Spring Water Case of 12x1.5L $24.99",
+					"brands": ["Fiji"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1.5L",
+					"pricing":"4/$5.00",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page5",
+			"image":"page5.jpg",
+			"products":[
+				{
+					"image":"Berrtolli-olive-oil-1L.jpg",
+					"coords":[9,15,150,95],
+					"name": "Bertolli Olive Oil Classico, Extra Virgin or Extra Light",
+					"brands": ["Bertolli"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1L",
+					"pricing":"$9.99",
+					"comments":""
+				},
+				{
+					"image":"Tropical-Grove-Fruit-cocktails.jpg",
+					"coords":[160,24,150,174],
+					"name": "Tropical Grove Fruit Cocktails Assorted Varieties",
+					"brands": ["Tropical Grove"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"9x300ml",
+					"pricing":"$1.99",
+					"comments":"save"
+				},
+				{
+					"image":"Pepsi-12x355ml.jpg",
+					"coords":[9,113,113,55],
+					"name": "Pepsi Soft Drinks Assorted Varieties",
+					"brands": ["Pepsi"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"case mof 12x355ml",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Pepsi-2L-bottle.jpg",
+					"coords":[126,113,33,52],
+					"name": "Pepsi 2L bottles",
+					"brands": ["Pepsi"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"",
+					"pricing":"2/$4.00",
+					"comments":""
+				},
+				{
+					"image":"Pepsi-473ml-limited-edition.jpg",
+					"coords":[9,200,74,85],
+					"name": "Pepsi Soft Drinks Limited Edition Cans",
+					"brands": ["Pepsi"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"473ml",
+					"pricing":"$1.00",
+					"comments":""
+				},
+				{
+					"image":"Gatorade-950ml.jpg",
+					"coords":[86,200,74,85],
+					"name": "Gatorade Thirst Quencher Beverages Assorted Varieties",
+					"brands": ["Gatorade"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"950ml",
+					"pricing":"2/$4.00",
+					"comments":""
+				},
+				{
+					"image":"Clover-Leaf-tuna.jpg",
+					"coords":[161,200,74,85],
+					"name": "Clover Leaf Flavoured Light Tuna Assorted Varieties",
+					"brands": ["Clover Leaf"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"85g",
+					"pricing":"3/$4.00",
+					"comments":""
+				},
+				{
+					"image":"Ziploc-storage-bags.jpg",
+					"coords":[237,200,74,85],
+					"name": "Ziploc Storage or Freezer Bags Selected Varieties",
+					"brands": ["Ziploc"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"pkg of 10-30",
+					"pricing":"$3.49",
+					"comments":""
+				},
+				{
+					"image":"Larabar-energy-bars.jpg",
+					"coords":[9,287,74,85],
+					"name": "Lärabar Energy Bars Assorted Varieties",
+					"brands": ["Lärabar"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"45-48g",
+					"pricing":"$0.99",
+					"comments":""
+				},
+				{
+					"image":"Jordans-Morning-Crisp.jpg",
+					"coords":[86,287,74,85],
+					"name": "Jordans Morning Crisp Cereal Selected Varieties",
+					"brands": ["Jordans"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"450-500g",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"Shady-Maple-Farms-syrup.jpg",
+					"coords":[161,287,74,85],
+					"name": "Shady Maple Farms Organic Medium Pure Maple Syrup",
+					"brands": ["Shady Maple Farms"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"500ml",
+					"pricing":"$14.99",
+					"comments":""
+				},
+				{
+					"image":"Grace-coconut-oil.jpg",
+					"coords":[237,287,74,85],
+					"name": "Grace Organic Virgin Coconut Oil",
+					"brands": ["Grace"],
+					"category": "grocery",
+					"summary": "",
+					"packaging":"1L",
+					"pricing":"$14.99",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page6",
+			"image":"page6.jpg",
+			"products":[
+				{
+					"image":"Wild-Sole-fillets.jpg",
+					"coords":[9,24,150,174],
+					"name": "Fresh Wild Sole Fillets",
+					"brands": [""],
+					"category": "seafood",
+					"summary": "",
+					"packaging":"$19.82/kg",
+					"pricing":"$8.99/lb",
+					"comments":"save"
+				},
+				{
+					"image":"European-Sea-Bream.jpg",
+					"coords":[161,9,73,102],
+					"name": "Fresh Whole Dressed European Sea Bream (Orata)",
+					"brands": [""],
+					"category": "seafood",
+					"summary": "",
+					"packaging":"$17.61/kg",
+					"pricing":"$7.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Wild-ocean-perch-fillets.jpg",
+					"coords":[238,9,73,102],
+					"name": "Fresh Wild Ocean Perch Fillets",
+					"brands": [""],
+					"category": "seafood",
+					"summary": "",
+					"packaging":"500-540g",
+					"pricing":"$11.99/lb",
+					"comments":""
+				},
+				{
+					"image":"HighLiner-frozen-fish.jpg",
+					"coords":[161,113,150,85],
+					"name": "High Liner Frozen Pan-Sear Selects Assorted Varieties",
+					"brands": ["High Liner"],
+					"category": "seafood",
+					"summary": "",
+					"packaging":"500-540g",
+					"pricing":"$11.99",
+					"comments":""
+				},
+				{	
+					"image":"The-Keg-Burgers.jpg",
+					"coords":[9,200,150,85],
+					"name": "The Keg Frozen Prime Rib Beef Burgers, Regular 1.02kg, with Horseradish 908g or Sliders 852g",
+					"brands": ["The Keg"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$11.99",
+					"comments":""
+				},
+				{
+					"image":"Krinos-Filo-Twisters.jpg",
+					"coords":[160,200,150,85],
+					"name": "Krinos Fillo Twisters Assorted Varieties",
+					"brands": ["Krinos"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"1kg",
+					"pricing":"$6.99",
+					"comments":""
+				},
+				{
+					"image":"Breyers-Frozen-dessert.jpg",
+					"coords":[9,288,150,85],
+					"name": "Breyers Family Classic Rich & Creamy Frozen Dessert Assorted Varieties",
+					"brands": ["Breyers"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"166L",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Magnum-Frutttare-deserts.jpg",
+					"coords":[160,288,74,85],
+					"name": "Magnum Ice Cream Bars pkg of 3 or Fruttare Frozen Fruit & Dessert Bars pkg of 4-6",
+					"brands": ["Magnum"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"Toffuti-frozen-novelties.jpg",
+					"coords":[236,288,74,85],
+					"name": "Tofutti Frozen Milk Free Novelties Selected Varieties",
+					"brands": ["Tofutti"],
+					"category": "frozen foods",
+					"summary": "",
+					"packaging":"pkg of 12x52ml",
+					"pricing":"$6.49",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page7",
+			"image":"page7.jpg",
+			"products":[
+				{
+					"image":"Mastro-Calabrese-Sopressata-Salami.jpg",
+					"coords":[9,15,74,95],
+					"name": "Mastro Calabrese Sopressata Salami Sweet or Hot Freshly Sliced at the Deli",
+					"brands": ["Mastro Calabrese"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$22.02/kg",
+					"pricing":"$9.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Casa-Italia-Boneless-Prosciutto.jpg",
+					"coords":[85,15,74,95],
+					"name": "Casa Italia Boneless Prosciutto Freshly Sliced at the Deli",
+					"brands": ["Casa Italia"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$22.02/kg",
+					"pricing":"$9.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Cuddy-turkey-breast.jpg",
+					"coords":[161,24,150,174],
+					"name": "Cuddy Oven Roasted Turkey Breast Freshly Sliced at the Deli",
+					"brands": ["Cuddy"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$19.82/kg",
+					"pricing":"$8.99/lb",
+					"comments":"save"
+				},
+				{
+					"image":"Santa-Lucia-provolone-cheese.jpg",
+					"coords":[9,113,74,85],
+					"name": "Santa Lucia Provolone Cheese, Freshly Sliced at the Deli",
+					"brands": ["Santa Lucia"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$19.82/kg",
+					"pricing":"$8.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Agropur-havarti-cheese.jpg",
+					"coords":[85,113,74,85],
+					"name": "Agropur Havarti Cheese Regular Freshly Sliced at the Deli",
+					"brands": ["Agropur"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"$17.61/kg",
+					"pricing":"$7.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Silani-Ricotta-cheese.jpg",
+					"coords":[9,200,74,85],
+					"name": "Silani Fresh Ricotta Cheese Regular or Light",
+					"brands": ["Silani"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"300g",
+					"pricing":"$1.99",
+					"comments":""
+				},
+				{
+					"image":"Silani-Mozzarella-cheese.jpg",
+					"coords":[85,200,74,85],
+					"name": "Silani Mozzarella Cheese",
+					"brands": ["Silani"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"260g",
+					"pricing":"$2.49",
+					"comments":""
+				},
+				{
+					"image":"Silani-Mascarpone-Cheese.jpg",
+					"coords":[161,200,74,85],
+					"name": "Silani Mascarpone Cheese",
+					"brands": ["Silani"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"475g",
+					"pricing":"$7.49",
+					"comments":""
+				},
+				{
+					"image":"Santa-Lucia-Bocconcini-Cheese.jpg",
+					"coords":[237,200,74,85],
+					"name": "Santa Lucia Bocconcini Cheese Assorted Varieties",
+					"brands": ["Santa Lucia"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"200g",
+					"pricing":"$3.99",
+					"comments":""
+				},
+				{
+					"image":"Maple-Leaf-sliced-deli-meats.jpg",
+					"coords":[9,287,74,85],
+					"name": "Maple Leaf Natural Selections Sliced Deli Meats, Oven Roasted Turkey or Chicken Breast",
+					"brands": ["Maple Leaf"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"175g",
+					"pricing":"$4.49",
+					"comments":""
+				},
+				{
+					"image":"Maple-Leaf-bacon.jpg",
+					"coords":[85,287,74,85],
+					"name": "Maple Leaf Bacon Selected Varieties",
+					"brands": ["Maple Leaf"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"375g",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"CK-stuffed-peppers.jpg",
+					"coords":[161,287,74,85],
+					"name": "Stuffed Peppers with Meat in Tomato Sauce Min. Weight 300g",
+					"brands": ["Country Kitchen"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"each",
+					"pricing":"$3.49",
+					"comments":""
+				},
+				{
+					"image":"CK-roasted-potatoes.jpg",
+					"coords":[237,287,74,85],
+					"name": "Parmesan Roasted Potatoes",
+					"brands": ["Country Kitchen"],
+					"category": "deli",
+					"summary": "",
+					"packaging":"/100g",
+					"pricing":"$1.89",
+					"comments":""
+				}
+			]
+		},
+		{
+			"id":"page8",
+			"image":"page8.jpg",
+			"products":[
+				{
+					"image":"Loin-of-pork.jpg",
+					"coords":[9,24,150,172],
+					"name": "Fresh Ontario Loin of Pork Rib or Sirloin Half Sliced 2.29/lb-5.05/kg",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$4.39/kg",
+					"pricing":"$1.99/lb",
+					"comments":"save"
+				},
+				{
+					"image":"ground-beef.jpg",
+					"coords":[161,9,74,101],
+					"name": "Fresh Extra Lean Ground Sirloin Beef",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$13.21/kg",
+					"pricing":"$5.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Top-Serloin-medallion-steaks.jpg",
+					"coords":[237,9,74,101],
+					"name": "Fresh Beef Boneless Top Sirloin Medallion Steaks Product of Canada",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$22.02/kg",
+					"pricing":"$9.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Pork-Side-ribs.jpg",
+					"coords":[161,112,73,84],
+					"name": "Fresh Ontario Pork Side Ribs",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$6.59/kg",
+					"pricing":"$2.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Pork-Side-ribs-for-sweet-and-sour.jpg",
+					"coords":[237,112,73,84],
+					"name": "Fresh Ontario Pork Side Ribs for Sweet & Sour",
+					"brands": [""],
+					"category": "meat",
+					"summary": "",
+					"packaging":"$9.90/kg",
+					"pricing":"$4.49/lb",
+					"comments":""
+				},
+				{
+					"image":"Marc-Angelo-pork-sausages.jpg",
+					"coords":[9,198,150,85],
+					"name": "Marc Angelo Fresh Pork Sausages Selected Varieties",
+					"brands": ["Marc Angelo"],
+					"category": "meat",
+					"summary": "",
+					"packaging":"500g",
+					"pricing":"$4.99",
+					"comments":""
+				},
+				{
+					"image":"Chicken-drumsticks-seasoned.jpg",
+					"coords":[161,198,74,85],
+					"name": "Freshly Seasoned In-Store Chicken Drumsticks Piri Piri",
+					"brands": [""],
+					"category": "poultry",
+					"summary": "",
+					"packaging":"$13.21/kg",
+					"pricing":"$5.99/lb",
+					"comments":""
+				},
+				{
+					"image":"Chicken-thighs-seasoned.jpg",
+					"coords":[237,198,74,85],
+					"name": "Freshly Seasoned In-Store Chicken Thighs Boneless, Skinless Sweet & Spicy",
+					"brands": [""],
+					"category": "poultry",
+					"summary": "",
+					"packaging":"$9.90/kg",
+					"pricing":"$4.49/lb",
+					"comments":""
+				}
+			]
+		}
+	]
+}
