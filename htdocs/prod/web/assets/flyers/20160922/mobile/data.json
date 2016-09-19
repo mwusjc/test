@@ -306,7 +306,7 @@
 				{
 					"image":"Babybel-Cheez-dippers.jpg",
 					"coords":[116,201,42,84],
-					"name": "Mini Babybel 120x129g or The Laughing Cow Cheez Dippers 140g",
+					"name": "Mini Babybel 120-129g or The Laughing Cow Cheez Dippers 140g",
 					"brands": ["Babybel", "The Laughing Cow"],
 					"category": "dairy",
 					"summary": "",
@@ -383,8 +383,8 @@
 				{
 					"image":"Liberte-yogurt.jpg",
 					"coords":[237,287,73,84],
-					"name": "Liberté Greek Yogurt Museli or Seeds & Fruit Assorted Varieties",
-					"brands": ["Liberte"],
+					"name": "Liberté Greek Yogurt Museli or Seeds & Fruit, Assorted Varieties",
+					"brands": ["Liberté"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"2x150g",
@@ -466,7 +466,7 @@
 				{
 					"image":"Raincoast-crisps.jpg",
 					"coords":[9,200,73,84],
-					"name": "Raincoast Crisps or Veggie Flats Assorted Varieties",
+					"name": "Raincoast Crisps or Veggie Flats, Assorted Varieties",
 					"brands": ["Raincoast"],
 					"category": "grocery",
 					"summary": "",
@@ -476,7 +476,7 @@
 				},
 				{
 					"image":"Wasa-crispbread.jpg",
-					"coords":[85,275,73,84],
+					"coords":[85,200,73,84],
 					"name": "Wasa Crispbread, Assorted Varieties",
 					"brands": ["Wasa"],
 					"category": "grocery",
@@ -598,7 +598,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"425-505g",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -692,7 +692,7 @@
 				{
 					"image":"Glutenfreeda-oatmeal.jpg",
 					"coords":[161,287,74,85],
-					"name": "Glutenfreeda Wheat Free Instant Oatmeal Assorted Varieties",
+					"name": "Glutenfreeda Wheat Free Instant Oatmeal, Assorted Varieties",
 					"brands": ["Glutenfreeda"],
 					"category": "grocery",
 					"summary": "",
@@ -848,7 +848,7 @@
 					"image":"Brandt-Premium-Oven-Roasted-Turkey-Breast.jpg",
 					"coords":[9,15,74,95],
 					"name": "Brandt Premium Oven Roasted Turkey Breast, Freshly Sliced at the Deli",
-					"brands": ["Brandy"],
+					"brands": ["Brandt"],
 					"category": "deli",
 					"summary": "",
 					"packaging":"$24.23/kg",
@@ -902,7 +902,7 @@
 				{
 					"image":"Agropur-double-creme-brie.jpg",
 					"coords":[9,200,74,85],
-					"name": "Agropur Vaudreuil Double Crème Brie or Camembert Freshly Cut at the Deli",
+					"name": "Agropur Vaudreuil Double Cr&#232;me Brie or Camembert Freshly Cut at the Deli",
 					"brands": ["Agropur Vaudreuil"],
 					"category": "deli",
 					"summary": "",
@@ -962,7 +962,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"",
-					"pricing":"$2/$12.00",
+					"pricing":"$2/12.00",
 					"comments":""
 				},
 				{
@@ -1000,7 +1000,7 @@
 					"brands": [""],
 					"category": "meat",
 					"summary": "",
-					"packaging":"$11.00",
+					"packaging":"$11.00/kg",
 					"pricing":"$4.99/lb",
 					"comments":""
 				},
@@ -1042,7 +1042,7 @@
 					"coords":[9,198,150,85],
 					"name": "Marc Angelo Chicken Breast Roasts, Selected Varieties",
 					"brands": ["Marc Angelo"],
-					"category": "meat",
+					"category": "poultry",
 					"summary": "",
 					"packaging":"700g",
 					"pricing":"$8.99",

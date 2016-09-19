@@ -300,7 +300,7 @@
 				{
 					"image":"Babybel-Cheez-dippers.jpg",
 					"coords":[601,276,57,117],
-					"name": "Mini Babybel 120x129g or The Laughing Cow Cheez Dippers 140g",
+					"name": "Mini Babybel 120-129g or The Laughing Cow Cheez Dippers 140g",
 					"brands": ["Babybel", "The Laughing Cow"],
 					"category": "dairy",
 					"summary": "",
@@ -377,8 +377,8 @@
 				{
 					"image":"Liberte-yogurt.jpg",
 					"coords":[768,397,101,117],
-					"name": "Liberté Greek Yogurt Museli or Seeds & Fruit Assorted Varieties",
-					"brands": ["Liberte"],
+					"name": "Liberté Greek Yogurt Museli or Seeds & Fruit ę,Assorted Varieties",
+					"brands": ["Liberté"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"2x150g",
@@ -393,7 +393,7 @@
 			"products":[
 				{
 					"image":"Lantic-sugar.jpg",
-					"coords":[12,33,206,240],
+					"coords":[12,33,206,117],
 					"name": "Lantic Sugar Natural Granulated White 2kg, Icing, Brilliant Yellow, Old Fashioned Brown 1kg",
 					"brands": ["Lantic"],
 					"category": "grocery",
@@ -460,7 +460,7 @@
 				{
 					"image":"Raincoast-crisps.jpg",
 					"coords":[12,275,101,117],
-					"name": "Raincoast Crisps or Veggie Flats Assorted Varieties",
+					"name": "Raincoast Crisps or Veggie Flats, Assorted Varieties",
 					"brands": ["Raincoast"],
 					"category": "grocery",
 					"summary": "",
@@ -586,7 +586,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"425-505g",
-					"pricing":"3.99",
+					"pricing":"$3.99",
 					"comments":""
 				},
 				{
@@ -680,7 +680,7 @@
 				{
 					"image":"Glutenfreeda-oatmeal.jpg",
 					"coords":[663,397,101,117],
-					"name": "Glutenfreeda Wheat Free Instant Oatmeal Assorted Varieties",
+					"name": "Glutenfreeda Wheat Free Instant Oatmeal, Assorted Varieties",
 					"brands": ["Glutenfreeda"],
 					"category": "grocery",
 					"summary": "",
@@ -806,7 +806,7 @@
 				},
 				{
 					"image":"Eggo-waffles.jpg",
-					"coords":[222,12,101,141],
+					"coords":[222,397,101,117],
 					"name": "Kellogg's Eggo Waffles, Assorted Varieties",
 					"brands": ["Kellogg's"],
 					"category": "frozen foods",
@@ -817,7 +817,7 @@
 				},
 				{
 					"image":"Chapmans-Canadian-Collection.jpg",
-					"coords":[327,12,101,141],
+					"coords":[327,397,101,117],
 					"name": "Chapman's Canadian Collection Novelties Stickwich, Bars or Cones",
 					"brands": ["Chapman's"],
 					"category": "frozen foods",
@@ -830,7 +830,7 @@
 					"image":"Brandt-Premium-Oven-Roasted-Turkey-Breast.jpg",
 					"coords":[453,12,101,140],
 					"name": "Brandt Premium Oven Roasted Turkey Breast, Freshly Sliced at the Deli",
-					"brands": ["Brandy"],
+					"brands": ["Brandt"],
 					"category": "deli",
 					"summary": "",
 					"packaging":"$24.23/kg",
@@ -884,7 +884,7 @@
 				{
 					"image":"Agropur-double-creme-brie.jpg",
 					"coords":[453,276,101,117],
-					"name": "Agropur Vaudreuil Double Crème Brie or Camembert Freshly Cut at the Deli",
+					"name": "Agropur Vaudreuil Double Cre&#232;me Brie or Camembert, Freshly Cut at the Deli",
 					"brands": ["Agropur Vaudreuil"],
 					"category": "deli",
 					"summary": "",
@@ -944,7 +944,7 @@
 					"category": "deli",
 					"summary": "",
 					"packaging":"",
-					"pricing":"$2/$12.00",
+					"pricing":"2/$12.00",
 					"comments":""
 				},
 				{
@@ -982,7 +982,7 @@
 					"brands": [""],
 					"category": "meat",
 					"summary": "",
-					"packaging":"$11.00",
+					"packaging":"$11.00/kg",
 					"pricing":"$4.99/lb",
 					"comments":""
 				},
@@ -1024,7 +1024,7 @@
 					"coords":[12,274,206,116],
 					"name": "Marc Angelo Chicken Breast Roasts, Selected Varieties",
 					"brands": ["Marc Angelo"],
-					"category": "meat",
+					"category": "poultry",
 					"summary": "",
 					"packaging":"700g",
 					"pricing":"$8.99",
