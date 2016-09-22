@@ -122,11 +122,11 @@ ApplicationProcess.upload = function (type, url) {
 
   return $.ajax({
     url: url,
-    method: "POST",
+    method: "PUT",
     data: filedata,
     crossDomain: true,
     processData: false,
-    contentType: false,
+    contentType: thefile.type,
     headers: {"Access-Control-Allow-Origin": "*"}
   });
 };
