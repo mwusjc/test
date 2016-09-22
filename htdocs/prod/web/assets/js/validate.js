@@ -116,7 +116,7 @@ ApplicationProcess.uploadCoverLetter = function (response) {
 
   // Generic upload file method
 ApplicationProcess.upload = function (type, url) {
-  var filedata = new FormData($('form')[0]);
+  var filedata = new FormData();
   var thefile = (type === 'cover-letter') ? ApplicationProcess.coverLetterInput : ApplicationProcess.resumeInput;
   filedata.append(thefile.name, thefile);
 
