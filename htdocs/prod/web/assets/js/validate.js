@@ -118,7 +118,13 @@ ApplicationProcess.uploadCoverLetter = function (response) {
 ApplicationProcess.upload = function (type, url) {
   var filedata = new FormData();
   var thefile = (type === 'cover-letter') ? ApplicationProcess.coverLetterInput : ApplicationProcess.resumeInput;
-  filedata.append(thefile.name, thefile);
+  filedata.append('name', thefile);
+
+  // Display the key/value pairs
+  for (var pair of filedata.entries())
+  {
+    console.log(pair[0]+ ', '+ pair[1]); 
+  }
 
   return $.ajax({
     url: url,
