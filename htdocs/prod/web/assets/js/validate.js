@@ -24,7 +24,8 @@ ApplicationProcess.init = function (jobslug, resumeInput, coverLetterInput, form
   this.apibaseURL = apiBase;
   this.resumedata = {};
   this.coverdata = null;
-  this.formData = formData;
+  this.formData = new FormData();
+  console.log('test ' + this.formData);
 
   var email = ApplicationProcess.formData.get('emailAddress');
 
