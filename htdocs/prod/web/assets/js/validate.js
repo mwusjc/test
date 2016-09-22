@@ -118,7 +118,7 @@ ApplicationProcess.uploadCoverLetter = function (response) {
 ApplicationProcess.upload = function (type, url) {
   var filedata = new FormData();
   var thefile = (type === 'cover-letter') ? ApplicationProcess.coverLetterInput : ApplicationProcess.resumeInput;
-  filedata.append(thefile.name, thefile);
+  filedata.append('name', document.getElementById('upload-resume-file').files[0]);
 
   return $.ajax({
     url: url,
@@ -126,7 +126,7 @@ ApplicationProcess.upload = function (type, url) {
     data: filedata,
     crossDomain: true,
     processData: false,
-    contentType: thefile.type,
+    contentType: false,
     headers: {"Access-Control-Allow-Origin": "*"}
   });
 };
