@@ -118,7 +118,7 @@ ApplicationProcess.uploadCoverLetter = function (response) {
 ApplicationProcess.upload = function (type, url) {
   var filedata = new FormData();
   var thefile = (type === 'cover-letter') ? ApplicationProcess.coverLetterInput : ApplicationProcess.resumeInput;
-  filedata.append('name', thefile);
+  filedata.append('name', thefile.name);
 
   // Display the key/value pairs
   for (var pair of filedata.entries())
