@@ -13,8 +13,6 @@ else if(window.location.hostname == 'www.highlandfarms.ca') {
 
 var ApplicationProcess = ApplicationProcess || {};
 
-var formData = new FormData($('form')[0]);
-
 // Init & initial AJAX call to API
 ApplicationProcess.init = function (jobslug, resumeInput, coverLetterInput, formData, apiBase) {
   $('#job-application .appcover').fadeIn();
@@ -118,7 +116,7 @@ ApplicationProcess.uploadCoverLetter = function (response) {
 
   // Generic upload file method
 ApplicationProcess.upload = function (type, url) {
-  var filedata = new FormData(formData);
+  var filedata = new FormData();
   var thefile = (type === 'cover-letter') ? ApplicationProcess.coverLetterInput : ApplicationProcess.resumeInput;
   filedata.append(thefile.name, thefile);
 
