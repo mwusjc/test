@@ -251,13 +251,13 @@
 					"summary": "",
 					"packaging":"each",
 					"pricing":"$22.99",
-					"comments":"save"
+					"comments":""
 				},
 				{
 					"image":"Oakrun-Farm-english-muffins.jpg",
 					"coords":[453,156,101,117],
 					"name": "Oakrun Farm English Muffins or Crumpets",
-					"brands": ["Jesse Tree"],
+					"brands": ["Oakrun Farm"],
 					"category": "bakery",
 					"summary": "",
 					"packaging":"284-340g",
@@ -268,7 +268,7 @@
 					"image":"Dufflet-Pasteries-pumpkin-cake.jpg",
 					"coords":[558,156,101,117],
 					"name": "Dufflet Pastries Fresh 6in Pumpkin Velvet Cake",
-					"brands": ["Stonemill Bakehouse"],
+					"brands": ["Dufflet"],
 					"category": "bakery",
 					"summary": "",
 					"packaging":"each",
@@ -279,7 +279,7 @@
 					"image":"CK-store-bakes-pies.jpg",
 					"coords":[663,155,206,117],
 					"name": "Fresh Store-Baked 8in Apple or Pumpkin Pie",
-					"brands": ["Natrel"],
+					"brands": ["Country Kitchen"],
 					"category": "bakery",
 					"summary": "",
 					"packaging":"600g",
@@ -289,19 +289,19 @@
 				{
 					"image":"Sealtest-cream-1L.jpg",
 					"coords":[453,276,60,117],
-					"name": "Sealtest Cream 10% & % or Natrel Lactose Free Coffee Cream 10%",
+					"name": "Sealtest Cream 10% & 5% or Natrel Lactose Free Coffee Cream 10%",
 					"brands": ["Sealtest", "Natrel"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"1L",
-					"pricing":"$2.99",
+					"pricing":"$2.49",
 					"comments":""
 				},
 				{
 					"image":"Sealtest-whipping-cream-473ml.jpg",
 					"coords":[514,276,43,117],
 					"name": "Sealtest 35% or Natrel Lactose Free 35% Whipping Cream",
-					"brands": ["Sealtest"],
+					"brands": ["Sealtest", "Natrel"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"473ml",
@@ -378,7 +378,7 @@
 					"image":"Western-baking-cheese.jpg",
 					"coords":[663,397,101,117],
 					"name": "Western Superior Baking Cheese",
-					"brands": ["Western Superior"],
+					"brands": ["Western"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"1kg, or Pressed Cottage Cheese 10%, 1kg $12.99",
@@ -472,7 +472,7 @@
 					"image":"Ocean-Spray-cranberry.jpg",
 					"coords":[12,275,101,117],
 					"name": "Ocean Spray Cranberry Sauce Whole Berry or Jellied",
-					"brands": ["Raincoast"],
+					"brands": ["Ocean Spray"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"348ml",
@@ -509,7 +509,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"170-250g",
-					"pricing":"$3/$8.00",
+					"pricing":"3/$8.00",
 					"comments":""
 				},
 				{
@@ -641,7 +641,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"500g",
-					"pricing":"$3/$4.00",
+					"pricing":"3/$4.00",
 					"comments":""
 				},
 				{
@@ -659,7 +659,7 @@
 					"image":"Newmans-salad-dressing.jpg",
 					"coords":[664,276,101,117],
 					"name": "Newman's Own Salad Dressing, Assorted Varieties",
-					"brands": ["Newman's"],
+					"brands": ["Newman's Own"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"350ml",
@@ -695,8 +695,8 @@
 					"brands": ["Go-Bio!"],
 					"category": "grocery",
 					"summary": "",
-					"packaging":"453g",
-					"pricing":"$3.49",
+					"packaging":"66g",
+					"pricing":"$2.99",
 					"comments":""
 				},
 				{
@@ -801,7 +801,7 @@
 					"category": "frozen foods",
 					"summary": "",
 					"packaging":"",
-					"pricing":"$2/$5.00",
+					"pricing":"2/$5.00",
 					"comments":""
 				},
 				{
@@ -866,14 +866,14 @@
 					"brands": ["Santa Lucia"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"$each",
+					"packaging":"each",
 					"pricing":"$3.99",
 					"comments":"save"
 				},
 				{
 					"image":"Agropur-L-extra-Brie.jpg",
 					"coords":[453,155,101,117],
-					"name": "Agropur L'Extra Brie At the Deli",
+					"name": "Agropur L'Extra Brie, At the Deli",
 					"brands": ["Agropur"],
 					"category": "deli",
 					"summary": "",
@@ -884,7 +884,7 @@
 				{
 					"image":"Santa-Lucia-Bocconcini.jpg",
 					"coords":[559,155,101,117],
-					"name": "Santa Lucia Bocconcini At the Deli",
+					"name": "Santa Lucia Bocconcini, At the Deli",
 					"brands": ["Santa Lucia"],
 					"category": "deli",
 					"summary": "",
@@ -1048,7 +1048,7 @@
 					"brands": ["King Cole"],
 					"category": "poultry",
 					"summary": "",
-					"packaging":"$6.59/kg, or Fresh Ducks $3.99.lb-$8.6/kg",
+					"packaging":"$6.59/kg, or Fresh Ducks $3.99.lb-$8.80/kg",
 					"pricing":"$2.99/lb",
 					"comments":""
 				},
