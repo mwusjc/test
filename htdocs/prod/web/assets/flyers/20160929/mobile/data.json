@@ -178,7 +178,7 @@
 				},
 				{
 					"image":"Bananas.jpg",
-					"coords":[12,397,101,117],
+					"coords":[9,288,74,85],
 					"name": "Premium Bananas From the Tropics",
 					"brands": [""],
 					"category": "produce",
@@ -189,7 +189,7 @@
 				},
 				{
 					"image":"Celery.jpg",
-					"coords":[117,397,101,117],
+					"coords":[85,288,74,85],
 					"name": "Celery Product of U.S.A. No. 1 Grade Large Stalk",
 					"brands": [""],
 					"category": "produce",
@@ -200,7 +200,7 @@
 				},
 				{
 					"image":"Kale.jpg",
-					"coords":[222,397,101,117],
+					"coords":[161,288,74,85],
 					"name": "Green Kale Product of U.S.A.",
 					"brands": [""],
 					"category": "produce",
@@ -211,7 +211,7 @@
 				},
 				{
 					"image":"Harvest-centre-piece.jpg",
-					"coords":[327,397,101,117],
+					"coords":[237,288,74,85],
 					"name": "Harvest Centrepiece Product of Ontario",
 					"brands": [""],
 					"category": "produce",
@@ -257,13 +257,13 @@
 					"summary": "",
 					"packaging":"each",
 					"pricing":"$22.99",
-					"comments":"save"
+					"comments":""
 				},
 				{
 					"image":"Oakrun-Farm-english-muffins.jpg",
 					"coords":[9,113,74,85],
 					"name": "Oakrun Farm English Muffins or Crumpets",
-					"brands": ["Jesse Tree"],
+					"brands": ["Oakrun Farm"],
 					"category": "bakery",
 					"summary": "",
 					"packaging":"284-340g",
@@ -274,7 +274,7 @@
 					"image":"Dufflet-Pasteries-pumpkin-cake.jpg",
 					"coords":[85,113,74,85],
 					"name": "Dufflet Pastries Fresh 6in Pumpkin Velvet Cake",
-					"brands": ["Stonemill Bakehouse"],
+					"brands": ["Dufflet"],
 					"category": "bakery",
 					"summary": "",
 					"packaging":"each",
@@ -285,7 +285,7 @@
 					"image":"CK-store-bakes-pies.jpg",
 					"coords":[161,112,149,85],
 					"name": "Fresh Store-Baked 8in Apple or Pumpkin Pie",
-					"brands": ["Natrel"],
+					"brands": ["Country Kitchen"],
 					"category": "bakery",
 					"summary": "",
 					"packaging":"600g",
@@ -295,12 +295,12 @@
 				{
 					"image":"Sealtest-cream-1L.jpg",
 					"coords":[9,201,42,85],
-					"name": "Sealtest Cream 10% & % or Natrel Lactose Free Coffee Cream 10%",
+					"name": "Sealtest Cream 10% & 5% or Natrel Lactose Free Coffee Cream 10%",
 					"brands": ["Sealtest", "Natrel"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"1L",
-					"pricing":"$2.99",
+					"pricing":"$2.49",
 					"comments":""
 				},
 				{
@@ -327,7 +327,7 @@
 				},
 				{
 					"image":"Natrel-butter.jpg",
-					"coords":[161,201,34,85],
+					"coords":[125,201,34,85],
 					"name": "Natrel Butter Salted or Unsalted",
 					"brands": ["Natrel"],
 					"category": "dairy",
@@ -384,7 +384,7 @@
 					"image":"Western-baking-cheese.jpg",
 					"coords":[161,288,74,85],
 					"name": "Western Superior Baking Cheese",
-					"brands": ["Western Superior"],
+					"brands": ["Western"],
 					"category": "dairy",
 					"summary": "",
 					"packaging":"1kg, or Pressed Cottage Cheese 10%, 1kg $12.99",
@@ -478,7 +478,7 @@
 					"image":"Ocean-Spray-cranberry.jpg",
 					"coords":[9,200,74,85],
 					"name": "Ocean Spray Cranberry Sauce Whole Berry or Jellied",
-					"brands": ["Raincoast"],
+					"brands": ["Ocean Spray"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"348ml",
@@ -515,7 +515,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"170-250g",
-					"pricing":"$3/$8.00",
+					"pricing":"3/$8.00",
 					"comments":""
 				},
 				{
@@ -653,7 +653,7 @@
 					"category": "grocery",
 					"summary": "",
 					"packaging":"500g",
-					"pricing":"$3/$4.00",
+					"pricing":"3/$4.00",
 					"comments":""
 				},
 				{
@@ -671,7 +671,7 @@
 					"image":"Newmans-salad-dressing.jpg",
 					"coords":[161,200,74,85],
 					"name": "Newman's Own Salad Dressing, Assorted Varieties",
-					"brands": ["Newman's"],
+					"brands": ["Newman's Own"],
 					"category": "grocery",
 					"summary": "",
 					"packaging":"350ml",
@@ -707,8 +707,8 @@
 					"brands": ["Go-Bio!"],
 					"category": "grocery",
 					"summary": "",
-					"packaging":"453g",
-					"pricing":"$3.49",
+					"packaging":"66g",
+					"pricing":"$2.99",
 					"comments":""
 				},
 				{
@@ -813,7 +813,7 @@
 					"category": "frozen foods",
 					"summary": "",
 					"packaging":"",
-					"pricing":"$2/$5.00",
+					"pricing":"2/$5.00",
 					"comments":""
 				},
 				{
@@ -884,14 +884,14 @@
 					"brands": ["Santa Lucia"],
 					"category": "deli",
 					"summary": "",
-					"packaging":"$each",
+					"packaging":"each",
 					"pricing":"$3.99",
 					"comments":"save"
 				},
 				{
 					"image":"Agropur-L-extra-Brie.jpg",
 					"coords":[9,113,74,85],
-					"name": "Agropur L'Extra Brie At the Deli",
+					"name": "Agropur L'Extra Brie, At the Deli",
 					"brands": ["Agropur"],
 					"category": "deli",
 					"summary": "",
@@ -902,7 +902,7 @@
 				{
 					"image":"Santa-Lucia-Bocconcini.jpg",
 					"coords":[85,113,74,85],
-					"name": "Santa Lucia Bocconcini At the Deli",
+					"name": "Santa Lucia Bocconcini, At the Deli",
 					"brands": ["Santa Lucia"],
 					"category": "deli",
 					"summary": "",
@@ -1066,7 +1066,7 @@
 					"brands": ["King Cole"],
 					"category": "poultry",
 					"summary": "",
-					"packaging":"$6.59/kg, or Fresh Ducks $3.99.lb-$8.6/kg",
+					"packaging":"$6.59/kg, or Fresh Ducks $3.99.lb-$8.80/kg",
 					"pricing":"$2.99/lb",
 					"comments":""
 				},
