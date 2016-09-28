@@ -168,6 +168,10 @@ var fl = {
     window.setTimeout(function(e) {
       if(currentWeek == "20160929" && !document.querySelector(".modal-backdrop.in").classList.contains("hidden")) {
         document.querySelector(".modal-backdrop.in").classList.add("hidden");
+        document.querySelector("#flyerModal").classList.add("hidden");
+        if(document.querySelector('body').classList.contains('modal-open')) {
+          document.querySelector('body').classList.remove('modal-open');
+        }
       }
     }, 1000);
     
