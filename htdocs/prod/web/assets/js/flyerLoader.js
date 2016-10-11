@@ -47,11 +47,11 @@ var fl = {
     var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
 
     // Exception period flyer tweaks below
-    if (range == "Fri Sep 23 2016 - Thu Sep 29 2016") {
-      range = "Fri Sep 23 2016 - Thu Sep 29 2016";
-    }
-    else if (range == "Fri Sep 30 2016 - Thu Oct 06 2016" || range == "Fri Oct 07 2016 - Thu Oct 13 2016") {
+    if (range == "Fri Oct 07 2016 - Thu Oct 13 2016") {
       range = "Fri Sep 30 2016 - Thu Oct 13 2016";
+    }
+    else if (range == "Fri Oct 14 2016 - Thu Oct 20 2016") {
+      range = "Fri Oct 14 2016 - Thu Oct 20 2016";
     }
 
     return range;
@@ -150,30 +150,15 @@ var fl = {
 
     // Exception period flyer tweaks below
     //Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
-    if(nextWeek == "20160929" && currentWeek == "20160922") {
+    if(nextWeek == "20161013" && currentWeek == "20161006") {
       $("#thisWeekDates").html("Fri Sep 30 2016 - Thu Oct 13 2016");
       //Specify flyer for current week and next week due to start date exception on  upcoming flyer from current pattern
-      $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160922/mobile/page1.jpg");
-      $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20160929/mobile/page1.jpg");
-    }
-    // Need to remove this code after upcoming duration period has ended
-    else if (currentWeek == "20160929") {
-      $("#chooseFlyer").addClass("hidden");
+      $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160929/mobile/page1.jpg");
+      $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20161013/mobile/page1.jpg");
     }
 
     // NOTE: This line of code stays when standard flyer duration is reinstated
     window.setTimeout('$("#chooseFlyer").modal("show");',1000);
-
-    // Exception period flyer tweaks below - hide modal due to extended flyer duration (no overlap state)
-    window.setTimeout(function(e) {
-      if(currentWeek == "20160929" && !document.querySelector(".modal-backdrop.in").classList.contains("hidden")) {
-        document.querySelector(".modal-backdrop.in").classList.add("hidden");
-        document.querySelector("#flyerModal").classList.add("hidden");
-        if(document.querySelector('body').classList.contains('modal-open')) {
-          document.querySelector('body').classList.remove('modal-open');
-        }
-      }
-    }, 1000);
     
   },
   checkOverlapDay: function(){
@@ -193,11 +178,11 @@ var fl = {
     var url = "/assets/flyers/"+week+"/"+type+"/data.json";
 
     // Exception period flyer tweaks below
-    if(week == "20160922") {
-      url = "/assets/flyers/20160922/"+type+"/data.json";
-    }
-    else if (week == "20160929" || week == "20161006") {
+    if(week == "20161006") {
       url = "/assets/flyers/20160929/"+type+"/data.json";
+    }
+    else if (week == "20161013") {
+      url = "/assets/flyers/20161013/"+type+"/data.json";
     }
 
     var xmlhttp = new XMLHttpRequest();
