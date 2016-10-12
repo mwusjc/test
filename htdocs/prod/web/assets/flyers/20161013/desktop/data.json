@@ -8,9 +8,9 @@
         {
           "image":"sirloin-tip-roast.jpg",
           "coords":[12,160,204,208],
-          "name": "Fresh Beef Sirloin Tip Roast, Product of Canada",
-          "brands": ["Canada AAA"],
-          "category": "Meat",
+          "name": "Fresh Beef Sirloin Tip Roast Product of Canada",
+          "brands": [""],
+          "category": "meat",
           "summary": "",
           "packaging":"$11.00/kg",
           "pricing":"$4.99/lb",
@@ -19,8 +19,8 @@
         {
           "image":"Apples.jpg",
           "coords":[224,160,204,208],
-          "name": "Cortland or Red Delicious Apples, Fancy Grade",
-          "brands": ["Highland Farm Orchards"],
+          "name": "Cortland or Red Delicious Apples Fancy Grade",
+          "brands": [""],
           "category": "produce",
           "summary": "",
           "packaging":"$2.18/kg",
@@ -41,18 +41,18 @@
         {
           "image":"Eggs-Burnbrae-Farms.jpg",
           "coords":[152,380,134,146],
-          "name": "Burnbrae Farms, Natureegg Omega 3, Large White Eggs",
+          "name": "Burnbrae Farms Natureegg Omega 3 Large White Eggs",
           "brands": ["Burnbrae Farms"],
           "category": "dairy",
           "summary": "",
-          "packaging":"Dozen",
+          "packaging":"dozen",
           "pricing":"$2.99",
           "comments":""
         },
         {
           "image":"Mazola-oil.jpg",
           "coords":[294,380,134,146],
-          "name": "Mazola Oil, 100% Pure Corn or Canola",
+          "name": "Mazola Oil 100% Pure Corn or Canola",
           "brands": ["Mazola"],
           "category": "grocery",
           "summary": "",
@@ -69,8 +69,8 @@
         {
           "image":"Pears-Bartlett.jpg",
           "coords":[12,33,206,120],
-          "name": "Ontario Homegrown, Fresh Bartlett Pears, Fancy Grade",
-          "brands": ["Foodland Ontario"],
+          "name": "Ontario Homegrown Fresh Bartlett Pears Fancy Grade",
+          "brands": [""],
           "category": "produce",
           "summary": "",
           "packaging":"$3.28/kg",
@@ -80,8 +80,8 @@
         {
           "image":"Tomatoes.jpg",
           "coords":[222,12,206,140],
-          "name": "Ontario Homegrown, Greenhouse Grown Tomatoes on the Vine, No. 1 Grade ",
-          "brands": ["Foodland Ontario"],
+          "name": "Ontario Homegrown Greenhouse Grown Tomatoes on the Vine No. 1 Grade ",
+          "brands": [""],
           "category": "produce",
           "summary": "",
           "packaging":"$3.28/kg",
@@ -103,18 +103,18 @@
           "image":"Pom-Pomegraate-juice",
           "coords":[117,156,101,117],
           "name": "Pom Wonderful 100% Pomegranate Juice",
-          "brands": ["POM"],
+          "brands": ["Pom Wonderful"],
           "category": "produce",
           "summary": "",
-          "packaging":"",
-          "pricing":"$5.99/710ml",
+          "packaging":"710ml",
+          "pricing":"$5.99",
           "comments":""
         },
         {
           "image":"cucumber.jpg",
           "coords":[222,156,101,117],
           "name": "Ontario Homegrown Greenhouse Grown Seedless Cucumbers No. 1 Grade",
-          "brands": ["Foodland Ontario"],
+          "brands": [""],
           "category": "produce",
           "summary": "",
           "packaging":"each",
@@ -124,12 +124,12 @@
         {
           "image":"classic-salads.jpg",
           "coords":[327,156,101,117],
-          "name": "Classic Salads Spring Mix or Baby Spinach Product of U.S.A.",
-          "brands": [""],
+          "name": "Classic Salads Spring Mix or Baby Spinach, Product of U.S.A.",
+          "brands": ["Classic Salads"],
           "category": "produce",
           "summary": "",
-          "packaging":"",
-          "pricing":"$4.99/283g",
+          "packaging":"283g",
+          "pricing":"$4.99",
           "comments":""
         },
         {
@@ -150,15 +150,15 @@
           "brands": [""],
           "category": "produce",
           "summary": "",
-          "packaging":"",
-          "pricing":"$3.99/2lb bag",
+          "packaging":"2lb bag",
+          "pricing":"$3.99",
           "comments":""
         },
         {
           "image":"cabbage.jpg",
           "coords":[222,276,101,117],
           "name": "Ontario Homegrown Green Cabbage No. 1 Grade Jumbo Size",
-          "brands": ["Foodland Ontario"],
+          "brands": [""],
           "category": "produce",
           "summary": "",
           "packaging":"each",
@@ -169,11 +169,11 @@
           "image":"Spinach-harvest-fresh.jpg",
           "coords":[327,276,101,117],
           "name": "Harvest Fresh Spinach",
-          "brands": [""],
+          "brands": ["Harvest Fresh"],
           "category": "produce",
           "summary": "",
-          "packaging":"",
-          "pricing":"$1.29/227g cello bag",
+          "packaging":"227g cello bag",
+          "pricing":"$1.29",
           "comments":""
         },
         {
@@ -205,8 +205,8 @@
           "brands": [""],
           "category": "produce",
           "summary": "",
-          "packaging":"",
-          "pricing":"$1.99/1lb cello bag",
+          "packaging":"1lb cello bag",
+          "pricing":"$1.99",
           "comments":""
         },
         {
@@ -222,8 +222,8 @@
         },
         {
           "image":"Villagio-sliced-bread.jpg",
-          "coords":[12,33,206,117],
-          "name": "Villaggio Sliced Bread Assorted Varieties",
+          "coords":[453,12,101,140],
+          "name": "Villaggio Sliced Bread, Assorted Varieties",
           "brands": ["Villaggio"],
           "category": "bakery",
           "summary": "",
@@ -233,8 +233,8 @@
         },
         {
           "image":"Villagio-buns.jpg",
-          "coords":[222,12,101,140],
-          "name": "Villaggio Sausage or Crustini Buns Assorted Varieties",
+          "coords":[558,12,101,140],
+          "name": "Villaggio Sausage or Crustini Buns, Assorted Varieties",
           "brands": ["Villaggio"],
           "category": "bakery",
           "summary": "",
@@ -244,8 +244,8 @@
         },
         {
           "image":"LaRocca-torte.jpg",
-          "coords":[327,12,101,140],
-          "name": "La Rocca Fresh 6&#39; Mixed Fruit Torte",
+          "coords":[663,33,206,120],
+          "name": "La Rocca Fresh 6in Mixed Fruit Torte",
           "brands": ["La Rocca"],
           "category": "bakery",
           "summary": "",
@@ -255,18 +255,18 @@
         },
         {
           "image":"Stonemill-Bakehouse-bread.jpg",
-          "coords":[12,156,206,117],
-          "name": "Stonemill Bakehouse Organic Live Sprouts Bread Selected Varieties",
+          "coords":[453,156,101,117],
+          "name": "Stonemill Bakehouse Organic Live Sprouts Bread, Selected Varieties",
           "brands": ["Stonemill Bakehouse"],
           "category": "bakery",
           "summary": "",
-          "packaging":"",
-          "pricing":"$3.99/550g",
+          "packaging":"550g",
+          "pricing":"$3.99",
           "comments":""
         },
         {
           "image":"CK-cookies.jpg",
-          "coords":[222,156,101,117],
+          "coords":[558,156,101,117],
           "name": "Store-Baked All Butter Cookies Chocolate Chunk, Triple Chocolate, Macadamia or Oatmeal Cranberry Lemon",
           "brands": ["Country Kitchen"],
           "category": "bakery",
@@ -277,8 +277,8 @@
         },
         {
           "image":"Dufflet-8in-cheesecake.jpg",
-          "coords":[327,156,101,117],
-          "name": "Dufflet Pastries 8&#39; Pumpkin Spice Cheesecake",
+          "coords":[663,155,206,117],
+          "name": "Dufflet Pastries 8in Pumpkin Spice Cheesecake",
           "brands": ["Dufflet Pastries"],
           "category": "bakery",
           "summary": "",
@@ -289,7 +289,7 @@
         {
           "image":"Danone-Activa-yogurt.jpg",
           "coords":[453,276,101,117],
-          "name": "Danone Activia Yogurt Assorted Varieties",
+          "name": "Danone Activia Yogurt, Assorted Varieties",
           "brands": ["Danone"],
           "category": "dairy",
           "summary": "",
@@ -300,8 +300,8 @@
         {
           "image":"Western-Liberte-yogurt-750g.jpg",
           "coords":[558,276,101,117],
-          "name": "Libert&eacute; Classique or Western Yogourt Selected Varieties",
-          "brands": ["Libert&eacute;"],
+          "name": "Libert&eacute; Classique or Western Yogourt, Selected Varieties",
+          "brands": ["Libert&eacute;", "Western"],
           "category": "dairy",
           "summary": "",
           "packaging":"750g",
@@ -310,8 +310,8 @@
         },
         {
           "image":"Danone-Oikos-Greek-Yogurt.jpg",
-          "coords":[222,275,101,117],
-          "name": "Danone Oikos Greek Yogurt Assorted Varieties",
+          "coords":[663,276,101,117],
+          "name": "Danone Oikos Greek Yogurt, Assorted Varieties",
           "brands": ["Danone"],
           "category": "dairy",
           "summary": "",
@@ -321,8 +321,8 @@
         },
         {
           "image":"Black-Diamond-cheese-sticks.jpg",
-          "coords":[327,275,101,117],
-          "name": "Black Diamond Cheese Sticks Assorted Varieties",
+          "coords":[768,276,101,117],
+          "name": "Black Diamond Cheese Sticks, Assorted Varieties",
           "brands": ["Black Diamond"],
           "category": "dairy",
           "summary": "",
@@ -332,8 +332,8 @@
         },
         {
           "image":"Iogo-protein-smoothie-drinks.jpg",
-          "coords":[12,397,101,117],
-          "name": "iögo Smoothie or Protein Drinks Assorted Varieties",
+          "coords":[453,397,101,117],
+          "name": "iögo Smoothie or Protein Drinks, Assorted Varieties",
           "brands": ["iögo"],
           "category": "dairy",
           "summary": "",
@@ -343,7 +343,7 @@
         },
         {
           "image":"Lactancia-milk-2L.jpg",
-          "coords":[117,397,101,117],
+          "coords":[558,397,101,117],
           "name": "Lactantia Lactaid Lactose Free Milk Homogenized, 2%, 1% or Skim",
           "brands": ["Lactantia"],
           "category": "dairy",
@@ -354,7 +354,7 @@
         },
         {
           "image":"Western-sour-cream.jpg",
-          "coords":[222,397,101,117],
+          "coords":[633,397,101,117],
           "name": "Western Sour Cream Regular or Light",
           "brands": ["Western"],
           "category": "dairy",
@@ -365,7 +365,7 @@
         },
         {
           "image":"Nathans-pickles.jpg",
-          "coords":[327,397,101,117],
+          "coords":[768,397,101,117],
           "name": "Nathan's New York Style Pickles",
           "brands": ["Nathan's"],
           "category": "dairy",
@@ -383,7 +383,7 @@
         {
           "image":"Kashi-cereal.jpg",
           "coords":[12,33,206,240],
-          "name": "Kashi Cereal Selected Varieties",
+          "name": "Kashi Cereal, Selected Varieties",
           "brands": ["Kashi"],
           "category": "grocery",
           "summary": "",
@@ -394,7 +394,7 @@
         {
           "image":"Nescafe-Tasters-Choice.jpg",
           "coords":[222,12,208,140],
-          "name": "Nescaf&eacute; Rich or Taster's Choice Instant Coffee Assorted Varieties",
+          "name": "Nescaf&eacute; Rich or Taster's Choice Instant Coffee, Assorted Varieties",
           "brands": ["Nescaf&eacute;"],
           "category": "grocery",
           "summary": "",
@@ -405,7 +405,7 @@
         {
           "image":"Quaker-oatmeal.jpg",
           "coords":[222,157,208,117],
-          "name": "Quaker Instant Oatmeal Assorted Varieties",
+          "name": "Quaker Instant Oatmeal, Assorted Varieties",
           "brands": ["Quaker"],
           "category": "grocery",
           "summary": "",
@@ -427,7 +427,7 @@
         {
           "image":"Kashi-granola-bars.jpg",
           "coords":[117,276,101,117],
-          "name": "Kashi Granola Bars Assorted Varieties",
+          "name": "Kashi Granola Bars, Assorted Varieties",
           "brands": ["Kashi"],
           "category": "grocery",
           "summary": "",
@@ -438,7 +438,7 @@
         { 
           "image":"Leclerc-Celebration-Cookies.jpg",
           "coords":[222,276,101,117],
-          "name": "Leclerc C&eacute;l&eacute;bration Cookies Selected Varieties",
+          "name": "Leclerc C&eacute;l&eacute;bration Cookies, Selected Varieties",
           "brands": ["Leclerc"],
           "category": "grocery",
           "summary": "",
@@ -449,7 +449,7 @@
         {
           "image":"Rougemont-apple-juice.jpg",
           "coords":[327,276,101,117],
-          "name": "Rougemont Apple Juice Assorted Varieties",
+          "name": "Rougemont Apple Juice, Assorted Varieties",
           "brands": ["Rougemont"],
           "category": "grocery",
           "summary": "",
@@ -515,7 +515,7 @@
         {
           "image":"Ragu-pasta-sauce.jpg",
           "coords":[663,33,206,240],
-          "name": "Ragu Old World Style Pasta Sauce Assorted Varieties",
+          "name": "Ragu Old World Style Pasta Sauce, Assorted Varieties",
           "brands": ["Ragu"],
           "category": "grocery",
           "summary": "",
@@ -526,18 +526,18 @@
         {
           "image":"Garofolo-pasta.jpg",
           "coords":[453,156,206,117],
-          "name": "Garofalo Pasta Selected Varieties",
+          "name": "Garofalo Pasta, Selected Varieties",
           "brands": ["Garofalo"],
           "category": "grocery",
           "summary": "",
           "packaging":"500g",
-          "pricing":"$1.99/lb",
+          "pricing":"$1.99",
           "comments":""
         },
         {
           "image":"daiya-cheese-products.jpg",
           "coords":[453,276,101,117],
-          "name": "Daiya Cheese Style Slices, Shreds or Spreads Assorted Varieties",
+          "name": "Daiya Cheese Style Slices, Shreds or Spreads, Assorted Varieties",
           "brands": ["Daiya"],
           "category": "grocery",
           "summary": "",
@@ -581,7 +581,7 @@
         {
           "image":"Bakery-on-Main-granola.jpg",
           "coords":[453,397,101,117],
-          "name": "Bakery on Main Granola Selected Varieties",
+          "name": "Bakery on Main Granola, Selected Varieties",
           "brands": ["Bakery on Main"],
           "category": "grocery",
           "summary": "",
@@ -592,8 +592,8 @@
         {
           "image":"Lundberg-rice.jpg",
           "coords":[558,397,101,117],
-          "name": "Lundberg Rice Jasmine, Basmati or Brown Selected Varieties",
-          "brands": ["Lundberg Rice"],
+          "name": "Lundberg Rice Jasmine, Basmati or Brown, Selected Varieties",
+          "brands": ["Lundberg"],
           "category": "grocery",
           "summary": "",
           "packaging":"907g",
@@ -615,7 +615,7 @@
           "image":"Lays-Doritos-halloween-treats.jpg",
           "coords":[768,397,101,117],
           "name": "Lay's Classic Potato Chips or Doritos Hallowe'en Treat Bags",
-          "brands": ["Lay's"],
+          "brands": ["Lay's", "Doritos"],
           "category": "grocery",
           "summary": "",
           "packaging":"45x16g",
@@ -630,7 +630,7 @@
       "products":[
         {
           "image":"Steelhead-trout-fillets.jpg",
-          "coords":[12,33,206,224],
+          "coords":[12,33,206,240],
           "name": "Fresh Steelhead Trout Fillets",
           "brands": [""],
           "category": "seafood",
@@ -641,7 +641,7 @@
         },
         {
           "image":"Sea-Smelts.jpg",
-          "coords":[222,33,101,113],
+          "coords":[222,12,101,140],
           "name": "Fresh Wild Sea Smelts",
           "brands": [""],
           "category": "seafood",
@@ -652,7 +652,7 @@
         },
         {
           "image":"Arctic-char.jpg",
-          "coords":[327,33,101,113],
+          "coords":[327,12,101,140],
           "name": "Fresh Arctic Char Fillets",
           "brands": [""],
           "category": "seafood",
@@ -674,7 +674,7 @@
         },
         {
           "image":"Canadian-whitefish-frozen.jpg",
-          "coords":[327,146,101,113],
+          "coords":[12,276,206,117],
           "name": "Canadian Frozen Whitefish Whole Dressed",
           "brands": [""],
           "category": "seafood",
@@ -685,8 +685,8 @@
         },
         {
           "image":"Dr-Oetker--Frozen-Pizza.jpg",
-          "coords":[222,176,206,117],
-          "name": "Dr. Oetker Frozen Pizza Ristorante, Casa di Mama or Panebello Selected Varieties",
+          "coords":[222,276,206,117],
+          "name": "Dr. Oetker Frozen Pizza Ristorante, Casa di Mama or Panebello, Selected Varieties",
           "brands": ["Dr. Oetker"],
           "category": "frozen foods",
           "summary": "",
@@ -697,7 +697,7 @@
         {
           "image":"Chapmans-frozen-yogurt.jpg",
           "coords":[12,397,206,117],
-          "name": "Chapman's Frozen Yogurt Assorted Varieties",
+          "name": "Chapman's Frozen Yogurt, Assorted Varieties",
           "brands": ["Chapman's"],
           "category": "frozen foods",
           "summary": "",
@@ -708,8 +708,8 @@
         {
           "image":"So-Delicious-frozen-dessert.jpg",
           "coords":[222,397,101,117],
-          "name": "So Delicious Lactose Free Frozen Dessert Made with Coconut Milk Assorted Varieties",
-          "brands": [""],
+          "name": "So Delicious Lactose Free Frozen Dessert Made with Coconut Milk, Assorted Varieties",
+          "brands": ["So Delicious"],
           "category": "frozen foods",
           "summary": "",
           "packaging":"500ml",
@@ -719,7 +719,7 @@
         {
           "image":"Kawartha-Dairy-ice-cream.jpg",
           "coords":[327,397,101,117],
-          "name": "Kawartha Dairy Ice Cream Assorted Varieties",
+          "name": "Kawartha Dairy Ice Cream, Assorted Varieties",
           "brands": ["Kawartha Dairy"],
           "category": "frozen foods",
           "summary": "",
@@ -729,8 +729,8 @@
         },
         {
           "image":"Maple-Leaf-deli-ham.jpg",
-          "coords":[327,261,101,110],
-          "name": "Maple Leaf Country Kitchen Deli Ham Freshly Sliced at the Deli",
+          "coords":[453,12,101,140],
+          "name": "Maple Leaf Country Kitchen Deli Ham, Freshly Sliced at the Deli",
           "brands": ["Maple Leaf"],
           "category": "deli",
           "summary": "",
@@ -740,7 +740,7 @@
         },
         {
           "image":"Lilydale-turkey-breast.jpg",
-          "coords":[327,261,101,110],
+          "coords":[558,12,101,140],
           "name": "Lilydale Premium Oven Roasted Turkey Breast Sundried Tomato, Sweet Mesquite or Montreal Style",
           "brands": ["Lilydale"],
           "category": "deli",
@@ -751,8 +751,8 @@
         },
         {
           "image":"San-Daniele-Mortadella.jpg",
-          "coords":[327,261,101,110],
-          "name": "San Daniele Mortadella Regular, Light or Hot Freshly Sliced at the Deli",
+          "coords":[663,33,206,240],
+          "name": "San Daniele Mortadella Regular, Light or Hot, Freshly Sliced at the Deli",
           "brands": ["San Daniele"],
           "category": "deli",
           "summary": "",
@@ -762,8 +762,8 @@
         },
         {
           "image":"Santa-Lucia-havarti-cheese.jpg",
-          "coords":[327,261,101,110],
-          "name": "Santa Lucia Havarti Cheese Freshly Sliced at the Deli",
+          "coords":[453,156,101,117],
+          "name": "Santa Lucia Havarti Cheese, Freshly Sliced at the Deli",
           "brands": ["Santa Lucia"],
           "category": "deli",
           "summary": "",
@@ -773,7 +773,7 @@
         },
         {
           "image":"Ferrante-Provolone-Cheese.jpg",
-          "coords":[327,261,101,110],
+          "coords":[558,156,101,117],
           "name": "Ferrante Provolone Cheese",
           "brands": ["Ferrante"],
           "category": "deli",
@@ -784,7 +784,7 @@
         },
         {
           "image":"Castello-blue-cheese.jpg",
-          "coords":[327,261,101,110],
+          "coords":[453,276,101,117],
           "name": "Castello Blue Cheese Traditional or Extra Creamy",
           "brands": ["Castello"],
           "category": "deli",
@@ -795,8 +795,8 @@
         },
         {
           "image":"TreStella-cheese-slices.jpg",
-          "coords":[327,261,101,110],
-          "name": "Tre Stelle Cheese Slices Assorted Varieties",
+          "coords":[558,276,101,117],
+          "name": "Tre Stelle Cheese Slices, Assorted Varieties",
           "brands": ["Tre Stelle"],
           "category": "deli",
           "summary": "",
@@ -806,7 +806,7 @@
         },
         {
           "image":"Ferrante-mozzarella-cheese.jpg",
-          "coords":[327,261,101,110],
+          "coords":[663,276,101,117],
           "name": "Ferrante Mozzarella Cheese",
           "brands": ["Ferrante"],
           "category": "deli",
@@ -817,7 +817,7 @@
         },
         {
           "image":"Ferrante-Ricotta-Cheese.jpg",
-          "coords":[327,261,101,110],
+          "coords":[768,276,101,117],
           "name": "Ferrante Ricotta Cheese",
           "brands": ["Ferrante"],
           "category": "deli",
@@ -840,7 +840,7 @@
         {
           "image":"Schneiders-bologna.jpg",
           "coords":[558,397,101,117],
-          "name": "Schneiders Bologna Selected Varieties",
+          "name": "Schneiders Bologna, Selected Varieties",
           "brands": ["Schneiders"],
           "category": "deli",
           "summary": "",
@@ -855,8 +855,8 @@
           "brands": ["Country Kitchen"],
           "category": "deli",
           "summary": "",
-          "packaging":"",
-          "pricing":"$1.89/100g",
+          "packaging":"/100g",
+          "pricing":"$1.89",
           "comments":""
         }
       ]
@@ -867,9 +867,9 @@
       "products":[
         {
           "image":"Chicken-drumsticks.jpg",
-          "coords":[327,261,101,110],
+          "coords":[12,33,206,237],
           "name": "Fresh Ontario Chicken Drumsticks",
-          "brands": ["Foodland Ontario"],
+          "brands": [""],
           "category": "meat",
           "summary": "",
           "packaging":"$3.73/kg",
@@ -878,7 +878,7 @@
         },
         {
           "image":"ground beef.jpg",
-          "coords":[327,261,101,110],
+          "coords":[222,33,101,120],
           "name": "Fresh Extra Lean Ground Sirloin Beef",
           "brands": [""],
           "category": "meat",
@@ -889,7 +889,7 @@
         },
         {
           "image":"Stewing-beef.jpg",
-          "coords":[327,261,101,110],
+          "coords":[327,33,101,120],
           "name": "Fresh Stewing Beef Product of Canada",
           "brands": [""],
           "category": "meat",
@@ -900,7 +900,7 @@
         },
         {
           "image":"Beef-sirloin-tip-cutlets.jpg",
-          "coords":[327,261,101,110],
+          "coords":[222,158,101,113],
           "name": "Fresh Beef Sirloin Tip Cutlets Product of Canada",
           "brands": [""],
           "category": "meat",
@@ -911,7 +911,7 @@
         },
         {
           "image":"Bone-in-beef-shank.jpg",
-          "coords":[327,261,101,110],
+          "coords":[327,158,101,113],
           "name": "Fresh Bone-in Beef Shank Cut from Canada AA Grade Beef or Higher Product of Canada",
           "brands": [""],
           "category": "meat",
@@ -922,9 +922,9 @@
         },
         {
           "image":"Boneless-pork-shoulder-blade-roast.jpg",
-          "coords":[327,261,101,110],
+          "coords":[12,277,101,113],
           "name": "Fresh Ontario Boneless Pork Shoulder Blade Roast",
-          "brands": ["Foodland Ontario"],
+          "brands": [""],
           "category": "meat",
           "summary": "",
           "packaging":"$8.80/kg",
@@ -933,9 +933,9 @@
         },
         {
           "image":"Pork-shoulder-blade-steak.jpg",
-          "coords":[327,261,101,110],
+          "coords":[117,277,101,113],
           "name": "Fresh Ontario Pork Shoulder Blade Steaks",
-          "brands": ["Foodland Ontario"],
+          "brands": [""],
           "category": "meat",
           "summary": "",
           "packaging":"$7.69/kg",
@@ -944,9 +944,9 @@
         },
         {
           "image":"Boneless-pork-sirloin-roast.jpg",
-          "coords":[327,261,101,110],
+          "coords":[222,277,101,113],
           "name": "Fresh Ontario Boneless Pork Sirloin Roast",
-          "brands": ["Foodland Ontario"],
+          "brands": [""],
           "category": "meat",
           "summary": "",
           "packaging":"$6.59/kg",
@@ -955,9 +955,9 @@
         },
         {
           "image":"Stewing-pork.jpg",
-          "coords":[327,261,101,110],
+          "coords":[327,277,101,113],
           "name": "Fresh Ontario Boneless Stewing Pork",
-          "brands": ["Foodland Ontario"],
+          "brands": [""],
           "category": "meat",
           "summary": "",
           "packaging":"$8.80/kg",

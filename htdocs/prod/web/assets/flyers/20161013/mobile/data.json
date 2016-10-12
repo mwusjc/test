@@ -389,13 +389,13 @@
         {
           "image":"Kashi-cereal.jpg",
           "coords":[9,24,150,175],
-          "name": "Kasha Cereal, Selected Varieties",
+          "name": "Kashi Cereal, Selected Varieties",
           "brands": ["Kashi"],
           "category": "grocery",
           "summary": "",
           "packaging":"185-460g",
-          "pricing":"3.99",
-          "comments":""
+          "pricing":"$3.99",
+          "comments":"save"
         },
         {
           "image":"Nescafe-Tasters-Choice.jpg",
@@ -449,7 +449,7 @@
           "category": "grocery",
           "summary": "",
           "packaging":"180-350g",
-          "pricing":"$2.9",
+          "pricing":"$2.99",
           "comments":""
         },
         {
@@ -504,7 +504,7 @@
           "category": "grocery",
           "summary": "",
           "packaging":"1L",
-          "pricing":"$3.99",
+          "pricing":"$3.49",
           "comments":""
         }
       ]
@@ -544,7 +544,7 @@
           "summary": "",
           "packaging":"640ml",
           "pricing":"$0.99",
-          "comments":""
+          "comments":"save"
         },
         {
           "image":"daiya-cheese-products.jpg",
@@ -707,7 +707,7 @@
           "comments":""
         },
         {
-          "image":"Chapmans-frozen-yogurt.jpg.jpg",
+          "image":"Chapmans-frozen-yogurt.jpg",
           "coords":[9,288,150,85],
           "name": "Chapman’s Frozen Yogurt, Assorted Varieties",
           "brands": ["Chapman’s"],
@@ -732,7 +732,7 @@
           "image":"Kawartha-Dairy-ice-cream.jpg",
           "coords":[238, 288,74,85],
           "name": "Kawartha Dairy Ice Cream, Assorted Varieties",
-          "brands": ["Kawartha"],
+          "brands": ["Kawartha Dairy"],
           "category": "frozen foods",
           "summary": "",
           "packaging":"1.5L",
