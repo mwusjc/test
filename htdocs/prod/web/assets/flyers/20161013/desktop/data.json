@@ -100,7 +100,7 @@
           "comments":""
         },
         {
-          "image":"Pom-Pomegraate-juice",
+          "image":"Pom-Pomegraate-juice.jpg",
           "coords":[117,156,101,117],
           "name": "Pom Wonderful 100% Pomegranate Juice",
           "brands": ["Pom Wonderful"],
@@ -354,7 +354,7 @@
         },
         {
           "image":"Western-sour-cream.jpg",
-          "coords":[633,397,101,117],
+          "coords":[663,397,101,117],
           "name": "Western Sour Cream Regular or Light",
           "brands": ["Western"],
           "category": "dairy",
@@ -366,8 +366,8 @@
         {
           "image":"Nathans-pickles.jpg",
           "coords":[768,397,101,117],
-          "name": "Nathan's New York Style Pickles",
-          "brands": ["Nathan's"],
+          "name": "Nathan&#39;s New York Style Pickles",
+          "brands": ["Nathan&#39;s"],
           "category": "dairy",
           "summary": "",
           "packaging":"710ml-1L",

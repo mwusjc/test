@@ -372,8 +372,8 @@
         {
           "image":"Nathans-pickles.jpg",
           "coords":[237,288,74,85],
-          "name": "Nathan’s New York Style Pickles",
-          "brands": ["Nathan’s"],
+          "name": "Nathan&#39;s New York Style Pickles",
+          "brands": ["Nathan&#39;s"],
           "category": "dairy",
           "summary": "",
           "packaging":"710ml-1L",
