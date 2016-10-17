@@ -43,18 +43,7 @@ var fl = {
     nextWednesday.setDate(nextWednesday.getDate()+6);
     
     // NOTE: Need to reinstate this version for standard flyer durations
-    // return thursday.toDateString() +" - "+ nextWednesday.toDateString();
-    var range = thursday.toDateString() +" - "+ nextWednesday.toDateString();
-
-    // Exception period flyer tweaks below
-    if (range == "Fri Oct 07 2016 - Thu Oct 13 2016") {
-      range = "Fri Sep 30 2016 - Thu Oct 13 2016";
-    }
-    else if (range == "Fri Oct 14 2016 - Thu Oct 20 2016") {
-      range = "Fri Oct 14 2016 - Thu Oct 20 2016";
-    }
-
-    return range;
+    return thursday.toDateString() +" - "+ nextWednesday.toDateString();
   },
   getThursday: function(d) {
     d = new Date(d);
@@ -148,18 +137,7 @@ var fl = {
     $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
     $("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
 
-    // Exception period flyer tweaks below
-    //Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
-    if(nextWeek == "20161013" && currentWeek == "20161006") {
-      $("#thisWeekDates").html("Fri Sep 30 2016 - Thu Oct 13 2016");
-      //Specify flyer for current week and next week due to start date exception on  upcoming flyer from current pattern
-      $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20160929/mobile/page1.jpg");
-      $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20161013/mobile/page1.jpg");
-    }
-
-    // NOTE: This line of code stays when standard flyer duration is reinstated
-    window.setTimeout('$("#chooseFlyer").modal("show");',1000);
-    
+    window.setTimeout('$("#chooseFlyer").modal("show");',1000);    
   },
   checkOverlapDay: function(){
     var today = new Date();
@@ -176,14 +154,6 @@ var fl = {
   loadData: function(week,type){
     //Check week for current flyer, and modify data URL accordingly
     var url = "/assets/flyers/"+week+"/"+type+"/data.json";
-
-    // Exception period flyer tweaks below
-    if(week == "20161006") {
-      url = "/assets/flyers/20160929/"+type+"/data.json";
-    }
-    else if (week == "20161013") {
-      url = "/assets/flyers/20161013/"+type+"/data.json";
-    }
 
     var xmlhttp = new XMLHttpRequest();
 
