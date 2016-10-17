@@ -845,7 +845,7 @@
           "category": "deli",
           "summary": "",
           "packaging":"$13.21/kg",
-          "pricing":"$5.99lb",
+          "pricing":"$5.99/lb",
           "comments":""
         },
         {
@@ -869,7 +869,7 @@
           "packaging":"each",
           "pricing":"$3.49",
           "comments":""
-        },
+        }
         {
           "image":"CK-sheppards-pie.jpg",
           "coords":[768,397,101,117],
