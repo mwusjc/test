@@ -257,7 +257,7 @@
           "summary": "",
           "packaging":"each",
           "pricing":"$22.99",
-          "comments":""
+          "comments":"save"
         },
         {
           "image":"Stonemill-Bakehouse-Organic-Baguette.jpg",
@@ -288,7 +288,7 @@
           "brands": ["Natrel"],
           "category": "dairy",
           "summary": "",
-          "packaging":"4L or Homeogenized 4L $5.99",
+          "packaging":"4L or Homogenized 4L $5.99",
           "pricing":"$5.29",
           "comments":""
         },
@@ -355,7 +355,7 @@
           "category": "dairy",
           "summary": "",
           "packaging":"454g",
-          "pricing":"$4.99",
+          "pricing":"$2.79",
           "comments":""
         },
         {
@@ -863,7 +863,7 @@
           "category": "deli",
           "summary": "",
           "packaging":"$13.21/kg",
-          "pricing":"$5.99",
+          "pricing":"$5.99/lb",
           "comments":""
         },
         {
@@ -891,7 +891,7 @@
         {
           "image":"CK-sheppards-pie.jpg",
           "coords":[237,287,74,85],
-          "name": "Shepherd's Pie with Peas",
+          "name": "Country Kitchen Shepherd's Pie with Peas",
           "brands": ["Country Kitchen"],
           "category": "deli",
           "summary": "",
