@@ -33,8 +33,8 @@
     <meta name="msapplication-wide310x150logo" content="/assets/images/mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="/assets/images/mstile-310x310.png" />
 
-    <link rel="stylesheet" href="../../assets/css/styles.css?rev=f88543911528ce9cedacbcfaf23c81d3">
-    <link rel="stylesheet" href="../../assets/css/mobile.css?rev=20e21400c701b7697da35c253d33718e">
+    <link rel="stylesheet" href="../../assets/css/styles.css?rev=c1c49fbe4e4180a5c15297f560223305">
+    <link rel="stylesheet" href="../../assets/css/mobile.css?rev=31782873ae78c8eb34dd2d96a830ac25">
 
      <script type='text/javascript'>
         var hlf = {};

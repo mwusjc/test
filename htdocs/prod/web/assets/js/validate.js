@@ -151,7 +151,16 @@ ApplicationProcess.postFileData = function () {
 
 ApplicationProcess.error = function (xhr, textStatus, error) {
   $('#job-application .appcover').fadeOut();
-  $('#job-application .errors').html("There was an error. Please try again later.");
+
+  // Detect whether the error is due to a user submitting to a role they have already applied to or otherwise (applicants identified by email address)
+  if(xhr.status === 409) {
+    // We have a duplicate submission based on email address being used as identifier
+    $('#job-application .errors').html("You have already applied for this position. Please email <a href='mailto:jobs@highlandfarms.on.ca'>jobs@highlandfarms.on.ca</a> if this is in error");
+  }
+  else {
+    // Further error checking as need be
+    $('#job-application .errors').html("There was an error. Please try again later.");
+  }
 };
 
 ApplicationProcess.complete = function(data, status, xhr) {
