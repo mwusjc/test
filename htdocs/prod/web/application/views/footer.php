@@ -38,7 +38,7 @@
 
 <script src="../../assets/js/hlf.recipesjson.js?rev=97f3be97a9afad0d68df8deeb9dfe53f"></script>
 <script src="../../assets/js/hlf.plattersjson.js"></script>
-<script src="../../assets/js/validate.js?rev=13749e51ccdef9709ae1d46e2ba59392"></script>
+<script src="../../assets/js/validate.js?rev=c63b83f8632c00ae3b355732c5eb15a9"></script>
 <script src="../../assets/js/hlf.carousel.js?rev=70a4278bf548de304a6abfaad2b7247c"></script>
 <script src="../../assets/js/hlf.careers.js?rev=cf26fa3ebc546246d5dbcffb68be047f"></script>
 <script src="../../assets/js/markdown.min.js?rev=e96d24cf1ba1e3f43912cbe7a6ffbc7f"></script>

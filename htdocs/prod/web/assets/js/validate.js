@@ -155,7 +155,7 @@ ApplicationProcess.error = function (xhr, textStatus, error) {
   // Detect whether the error is due to a user submitting to a role they have already applied to or otherwise (applicants identified by email address)
   if(xhr.status === 409) {
     // We have a duplicate submission based on email address being used as identifier
-    $('#job-application .errors').html("You have already applied for this position. Please email <a href='mailto:jobs@highlandfarms.on.ca'>jobs@highlandfarms.on.ca</a> if this is in error");
+    $('#job-application .errors').html("You have already applied for this position. Please email <a href='mailto:jobs@highlandfarms.on.ca'>jobs@highlandfarms.on.ca</a> if this is an error");
   }
   else {
     // Further error checking as need be
