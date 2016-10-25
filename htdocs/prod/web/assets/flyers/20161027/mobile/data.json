@@ -30,7 +30,7 @@
         {
           "image":"Oasis-juice.jpg",
           "coords":[9,275,96,106],
-          "name": "Oasis Premium Juice, Health Break Blends or Smoothie, Selected Varieties",
+          "name": "Oasis Premium Juice, Health Break Blends or Smoothies, Selected Varieties",
           "brands": ["Oasis"],
           "category": "grocery",
           "summary": "",
@@ -273,8 +273,8 @@
         {
           "image":"Iogo-yogurt-650g.jpg",
           "coords":[9,201,74,85],
-          "name": "ïogo Yogurt 0%, 1.5% or Probio, Assorted Varieties",
-          "brands": ["ïogo"],
+          "name": "Ã¯ogo Yogurt 0%, 1.5% or Probio, Assorted Varieties",
+          "brands": ["Ã¯ogo"],
           "category": "dairy",
           "summary": "",
           "packaging":"650g",
@@ -284,8 +284,8 @@
         {
           "image":"Iogo-nano-drinkable-yogurt.jpg",
           "coords":[86,201,74,85],
-          "name": "ïogo Nano Drinkable Yogurt, Selected Varieties",
-          "brands": ["ïogo"],
+          "name": "Ã¯ogo Nano Drinkable Yogurt, Selected Varieties",
+          "brands": ["Ã¯ogo"],
           "category": "dairy",
           "summary": "",
           "packaging":"6x93ml",
@@ -720,8 +720,8 @@
         {
           "image":"HaagenDazs-ice-cream.jpg",
           "coords":[238,288,73,85],
-          "name": "Häagen-Dazs Ice Cream 500ml tub or Bars 3-4pk",
-          "brands": ["Häagen-Dazs"],
+          "name": "HÃ¤agen-Dazs Ice Cream 500ml tub or Bars 3-4pk",
+          "brands": ["HÃ¤agen-Dazs"],
           "category": "frozen foods",
           "summary": "",
           "packaging":"each",
