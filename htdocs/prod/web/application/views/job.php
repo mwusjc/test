@@ -32,8 +32,11 @@
       <div class='col-xs-12'>
         <p>Accommodation will be provided in all parts of the hiring process as required under Highland Farm's Employment Accommodation policy. Applicants need to make their needs known in advance.</p>
       </div>
+      <div class='col-xs-12'>
+        <p>Please send your resume to <a href="mailto:jobs@highlandfarms.on.ca?subject=Resume from {your name here}" _target="blank" style="display:inline">jobs@highlandfarms.on.ca</a></p>
+      </div>
     </div>
-    <div class='row' style="margin-top: 50px;">
+    <!-- <div class='row' style="margin-top: 50px;">
         <div class='col-xs-12 col-sm-3'>
             <h3>Application:</h3>
         </div>
@@ -82,7 +85,7 @@
               <p>Thank you for your application.</p>
             </div>
         </div>
-    </div>
+    </div> -->
 
 </main>
 
