@@ -26,7 +26,7 @@ ApplicationProcess.init = function (jobslug, resumeInput, coverLetterInput, form
   this.coverdata = null;
   this.formData = formData;
 
-  var email = $('input#emailAddress').val();
+  var email = $('input[name=emailAddress]').val();
 
   ApplicationProcess.resumedata = {
     name: ApplicationProcess.resumeInput.name,
@@ -47,10 +47,10 @@ ApplicationProcess.init = function (jobslug, resumeInput, coverLetterInput, form
   }
 
   var body = JSON.stringify({
-    "firstName": ApplicationProcess.formData.get('firstName'),
-    "lastName": ApplicationProcess.formData.get('lastName'),
-    "emailAddress": ApplicationProcess.formData.get('emailAddress'),
-    "phoneNumber": ApplicationProcess.formData.get('phoneNumber'),
+    "firstName": $('input[name=firstName]').val(),
+    "lastName": $('input[name=lastName]').val(),
+    "emailAddress": $('input[name=emailAddress]').val(),
+    "phoneNumber": $('input[name=phoneNumber]').val(),
     "assets": [],
     "jobSlug": ApplicationProcess.jobslug
   });
@@ -130,7 +130,7 @@ ApplicationProcess.upload = function (type, url) {
 };
 
 ApplicationProcess.postFileData = function () {
-  var email = ApplicationProcess.formData.get('emailAddress');
+  var email = $('input[name=emailAddress]').val();
   var pushdata = {
     url: ApplicationProcess.apibaseURL + '/applications/' + ApplicationProcess.jobslug + '/' + email + '/assets',
     method: 'POST',
