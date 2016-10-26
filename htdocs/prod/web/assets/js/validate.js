@@ -26,7 +26,7 @@ ApplicationProcess.init = function (jobslug, resumeInput, coverLetterInput, form
   this.coverdata = null;
   this.formData = formData;
 
-  var email = ApplicationProcess.formData.get('emailAddress');
+  var email = $('input#emailAddress').val();
 
   ApplicationProcess.resumedata = {
     name: ApplicationProcess.resumeInput.name,
