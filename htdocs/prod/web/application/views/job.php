@@ -32,11 +32,8 @@
       <div class='col-xs-12'>
         <p>Accommodation will be provided in all parts of the hiring process as required under Highland Farm's Employment Accommodation policy. Applicants need to make their needs known in advance.</p>
       </div>
-      <div class='col-xs-12'>
-        <p>Please send your resume to <a href="mailto:jobs@highlandfarms.on.ca?subject=Resume from {your name here}" _target="blank" style="display:inline">jobs@highlandfarms.on.ca</a></p>
-      </div>
     </div>
-    <!-- <div class='row' style="margin-top: 50px;">
+    <div class='row' style="margin-top: 50px;">
         <div class='col-xs-12 col-sm-3'>
             <h3>Application:</h3>
         </div>
@@ -61,7 +58,7 @@
                             <a class='btn-file' href='javascript:;'>
                                 <span class='label-file' id="upload-resume">Upload Resume*</span>
                                 <input type="hidden" name="file_resume_val" id="upload-resume-val"/>
-                                <input type="file" name="resume" id="upload-resume-file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="attachments[]" size="40" onchange='$("#upload-resume").html($(this).val().replace("C:\\fakepath\\", ""));$("#upload-resume-val").val($(this).val().replace("C:\\fakepath\\", ""));' required>
+                                <input type="file" name="resume" id="upload-resume-file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="attachments[]" size="40" onchange='$("#upload-resume").html($(this).val().replace("C:\\fakepath\\", ""));$("#upload-resume-val").val($(this).val().replace("C:\\fakepath\\", ""));' accept="application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/pdf, text/plain" required>
                             </a>
                     </div>
                 </div>
@@ -70,7 +67,7 @@
                             <a class='btn-file' href='javascript:;'>
                                 <span class='label-file' id="upload-coverletter">Upload Cover Letter</span>
                                 <input type="hidden" name="file_coverletter_val" id="upload-coverletter-val"/>
-                                <input type="file" name="cover" id="upload-coverletter-file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="attachments[]" size="40" onchange='$("#upload-coverletter").html($(this).val().replace("C:\\fakepath\\", ""));$("#upload-coverletter-val").val($(this).val().replace("C:\\fakepath\\", ""));'>
+                                <input type="file" name="cover" id="upload-coverletter-file" style='position:absolute;z-index:2;top:0;left:0;filter: alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";opacity:0;background-color:transparent;color:transparent;' name="attachments[]" size="40" onchange='$("#upload-coverletter").html($(this).val().replace("C:\\fakepath\\", ""));$("#upload-coverletter-val").val($(this).val().replace("C:\\fakepath\\", ""));' accept="application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/pdf, text/plain">
                             </a>
                     </div>
                 </div>
@@ -85,7 +82,7 @@
               <p>Thank you for your application.</p>
             </div>
         </div>
-    </div> -->
+    </div>
 
 </main>
 
