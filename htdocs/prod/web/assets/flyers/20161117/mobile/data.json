@@ -32,7 +32,7 @@
           "coords":[111,275,96,106],
           "name": "Elite Dairy Natural Yogurt, Assorted Varieties",
           "brands": ["Elite Dairy"],
-          "category": "grocery",
+          "category": "dairy",
           "summary": "",
           "packaging":"750g",
           "pricing":"$1.79",
@@ -367,7 +367,7 @@
         {
           "image":"Highland-Farms-Kcups-coffee.jpg",
           "coords":[160,9,150,102],
-          "name": "Highland Farms K-Cup&reg; Pods House Blend, Colombian, Sumatra, Hazelnut",
+          "name": "Highland Farms K-Cup Pods House Blend, Colombian, Sumatra, Hazelnut",
           "brands": ["Country Kitchen"],
           "category": "grocery",
           "summary": "",
