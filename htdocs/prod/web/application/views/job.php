@@ -35,7 +35,7 @@
     </div>
     <div class='row'>
       <div class='col-xs-12'>
-        <p>Please send your resume to <a href="mailto:jobs@highlandfarms.on.ca?subject=Resume from {your name here}" _target="blank" style="display:inline">jobs@highlandfarms.on.ca</a></p>
+        <p>Please send your resume to <a href="mailto:jobs@highlandfarms.on.ca" _target="blank" style="display:inline">jobs@highlandfarms.on.ca</a></p>
       </div>
 
         <!-- <div class='col-xs-12 col-sm-3'>

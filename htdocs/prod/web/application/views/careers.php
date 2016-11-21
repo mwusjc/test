@@ -5,7 +5,7 @@
             <h1>Join Us.</h1>
             <h2>Start fresh with a Career at Highland Farms! </h2>
             <p>We are always looking for driven individuals to join our team. Working at one of our stores is more than a job. It's an opportunity to learn and grow, both personally and professionally, and be a part of the Highland Farms' family.</p>
-            <p>Please send your resume to <a href="mailto:jobs@highlandfarms.on.ca?subject=Resume from {your name here}" _target="blank" style="display:inline">jobs@highlandfarms.on.ca</a></p>
+            <p>Please send your resume to <a href="mailto:jobs@highlandfarms.on.ca" _target="blank" style="display:inline">jobs@highlandfarms.on.ca</a></p>
         </div>
     </div>
     <div class="spacer-20"></div>
