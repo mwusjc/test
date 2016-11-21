@@ -34,10 +34,14 @@
       </div>
     </div>
     <div class='row' style="margin-top: 50px;">
-        <div class='col-xs-12 col-sm-3'>
+      <div class='col-xs-12'>
+        <p>Please send your resume to <a href="mailto:jobs@highlandfarms.on.ca?subject=Resume from {your name here}" _target="blank" style="display:inline">jobs@highlandfarms.on.ca</a></p>
+      </div>
+
+        <!-- <div class='col-xs-12 col-sm-3'>
             <h3>Application:</h3>
-        </div>
-        <div class="col-xs-12 col-sm-9">
+        </div> -->
+        <!-- <div class="col-xs-12 col-sm-9">
         		<div class="required-fields">* Required Fields</div>
             <form method="post" action="" enctype="multipart/form-data" id="job-application" style="position: relative">
               <div class="errors" style="color: red"></div>
@@ -81,7 +85,7 @@
             <div id="appthankyou" style="display: none;">
               <p>Thank you for your application.</p>
             </div>
-        </div>
+        </div> -->
     </div>
 
 </main>
