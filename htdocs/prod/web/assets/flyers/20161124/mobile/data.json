@@ -32,7 +32,7 @@
           "coords":[9,275,96,106],
           "name": "Royale Bathroom Tissue Original or Velour",
           "brands": ["Royale"],
-          "category": "",
+          "category": "grocery",
           "summary": "",
           "packaging":"24 double rolls",
           "pricing":"$9.99",
@@ -365,7 +365,7 @@
       "image":"page4.jpg",
       "products":[
         {
-          "image":"Mantova-olive-oil.jpg.jpg",
+          "image":"Mantova-olive-oil.jpg",
           "coords":[9,24,150,87],
           "name": "Mantova Extra Virgin Olive Oil 1L or Organic Extra Virgin Olive Oil 750ml",
           "brands": ["Mantova"],
@@ -525,7 +525,7 @@
       "image":"page5.jpg",
       "products":[
         {
-          "image":"Doritos-ruffles.jpg.jpg",
+          "image":"Doritos-ruffles.jpg",
           "coords":[9,15,72,95],
           "name": "Doritos Tortilla Chips 225-255g or Ruffles Potato Chips 215-245g, Assorted Varieties",
           "brands": ["Doritos", "Ruffles"],
