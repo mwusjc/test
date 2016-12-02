@@ -2422,5 +2422,41 @@
     ],
     "image":"media/recipes/rec_vegetables_provencal.jpg",
     "thumbnail":"media/recipes/rec_vegetables_provencal-tn.jpg"
+  },
+  {
+    "title":"Cranberry Pear Salad",
+    "slug": "cranberry-pear-salad",
+    "categories": [
+      {
+        "title":"Soups & Salads",
+        "slug":"soups-salads"
+      }
+    ],
+    "ingredients": "1 5-ounce bag mixed baby greens \n2 ripe Bartlett pears \n¾ cup dried cranberries \n⅓ cup very thinly sliced red onion \nBalsamic vinaigrette \n¾ cup Pecans \n¾ cup crumbled goat cheese",
+    "instructions": "Place the mixed baby greens in a large bowl. Peel the pears and cut into thin slices, removing the core and any seeds. Add the pear slices, cranberries and sliced red onion to the bowl with the greens. Toss with enough vinaigrette to lightly coat everything in the bowl. Sprinkle with pecans and goat cheese. Serve immediately. ",
+    "featuredStartDate": "2016-12-06T12:00:00-05:00",
+    "publish": true,
+    "related": [
+      {
+        "image": "media/recipes/rec_steak_kabob.jpg",
+        "thumbnail": "media/recipes/rec_steak_kabob-tn.jpg",
+        "slug": "chicken-kabobs",
+        "title": "Chicken Kabobs"
+      },
+      {
+        "image": "media/recipes/rec_newstyle_chicken_salad.jpg",
+        "thumbnail": "media/recipes/rec_newstyle_chicken_salad-tn.jpg",
+        "slug": "new-style-chicken-salad",
+        "title": "New-Style Chicken Salad"
+      },
+      {
+        "image": "media/recipes/rec_eggplant_salad_caprese.jpg",
+        "thumbnail": "media/recipes/rec_eggplant_salad_caprese-tn.jpg",
+        "slug": "eggplant-salad-caprese",
+        "title": "Eggplant Salad Caprese"
+      }
+    ],
+    "image":"media/recipes/rec_cranberry-pear-salad.jpg",
+    "thumbnail":"media/recipes/rec_cranberry-pear-salad-tn.jpg"
   }
 ]
