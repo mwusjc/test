@@ -30,7 +30,7 @@
 
 <script src="../../assets/js/bootstrap.js?rev=a455a998d98c7ee364bd00bf6853d40e"></script>
 <script src="../../assets/js/main.js?rev=bda417a6dfdec98b1fb0d034a4b63f29"></script>
-<script src="../../assets/js/flyerLoader.js?rev=d8ead8e386d213e1de77e8a263777bd3"></script>
+<script src="../../assets/js/flyerLoader.js?rev=1f286af4e22eec7645a072791db7d704"></script>
 <script src="../../assets/js/shoppingList.js?rev=846e83c06b039eb62ed86df6a297a111"></script>
 <script src="../../assets/js/jquery.pajinate.min.js?rev=fdcae8fb7ff4daa34ad497e010fcea97"></script>
 <script src="../../assets/js/jquery.lazyload.min.js?rev=5c01d7aff077b4ed0804b71c2e3ab4a1"></script>
@@ -38,7 +38,7 @@
 
 <script src="../../assets/js/hlf.recipesjson.js?rev=97f3be97a9afad0d68df8deeb9dfe53f"></script>
 <script src="../../assets/js/hlf.plattersjson.js"></script>
-<script src="../../assets/js/validate.js?rev=c63b83f8632c00ae3b355732c5eb15a9"></script>
+<script src="../../assets/js/validate.js?rev=37aac988798c9fded355b84889b615a5"></script>
 <script src="../../assets/js/hlf.carousel.js?rev=70a4278bf548de304a6abfaad2b7247c"></script>
 <script src="../../assets/js/hlf.careers.js?rev=cf26fa3ebc546246d5dbcffb68be047f"></script>
 <script src="../../assets/js/markdown.min.js?rev=e96d24cf1ba1e3f43912cbe7a6ffbc7f"></script>
