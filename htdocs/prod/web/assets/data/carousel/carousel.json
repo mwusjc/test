@@ -51,7 +51,7 @@
             "textOverlayCSS": null,
             "priceImage": "assets/images/20161208-carousel/home_price-2.png",
             "badges": [],
-            "descriptionLeftText": "Grade A Butterball Frozen Turkeys<br>All Sizes<br>Limit of 1 per Family",
+            "descriptionLeftText": "Grade A Butterball <br class='mobile'>Frozen Turkeys<br>All Sizes<br>Limit of 1 per Family",
             "descriptionLeftTextCSS": "font-size: 18px; left: 5px; bottom: 20px;",
             "descriptionLeftTextMobileCSS": "font-size: 14px; left: 17px; bottom: 15px",
             "descriptionRightText": null,

@@ -1034,7 +1034,7 @@
           "image":"Maple-Leaf-Schneiders-bacon.jpg",
           "coords":[222,147,206,111],
           "name": "Maple Leaf or Schneiders Bacon, Selected Varieties",
-          "brands": ["Maple Leaf"],
+          "brands": ["Maple Leaf", "Schneiders"],
           "category": "meat",
           "summary": "",
           "packaging":"375g",
