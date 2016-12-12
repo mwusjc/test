@@ -179,7 +179,7 @@ var fl = {
     if(week == "20161201") {
         url = "/assets/flyers/20161201/"+type+"/data.json";
     }
-    else if (week == "20161208") {
+    else if (week == "20161208" || week == "20161215") {
         url = "/assets/flyers/20161208/"+type+"/data.json";
     }
 
