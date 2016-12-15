@@ -157,7 +157,8 @@ var fl = {
     }
 
     // need to temporarily disable this line during extended flyer period
-    // window.setTimeout('$("#chooseFlyer").modal("show");',1000);    
+    // window.setTimeout('$("#chooseFlyer").modal("show");',1000);
+    $("#flyerModal").hide();    
   },
   checkOverlapDay: function(){
     var today = new Date();
