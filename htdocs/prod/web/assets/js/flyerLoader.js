@@ -153,7 +153,7 @@ var fl = {
     if(nextWeek == "20161222" && currentWeek == "20161215") {
         $("#thisWeekDates").html("Fri Dec 09 2016 - Sat Dec 24 2016");
         //Specify flyer for current week and next week due to start date exception on upcoming flyer from current pattern
-        $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20161201/mobile/page1.jpg");
+        $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/20161208/mobile/page1.jpg");
         $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/20161222/mobile/page1.jpg");
     }
 
