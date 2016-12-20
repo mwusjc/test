@@ -51,7 +51,7 @@ var fl = {
       range = "Fri Dec 09 2016 - Sat Dec 24 2016";
     }
     else if (range == "Fri Dec 23 2016 - Thu Dec 29 2016") {
-      range = "Fri Dec 23 2016 - Thu Dec 29 2016";
+      range = "Fri Dec 23 2016 - Sat Dec 31 2016";
     }
 
     return range;
