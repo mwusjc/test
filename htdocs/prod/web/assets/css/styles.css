@@ -7301,11 +7301,11 @@ span.subheading-text {
   padding-bottom: 5px;
 }
 
-.job-fair-bold {
+.job-fair-date .job-fair-bold,
+.job-fair-details .job-fair-bold,
+.new-store-info.job-fair-bold {
   font-weight: bold;
 }
-
-
 /* End Job Fair callout styles */
 
 @media print {
