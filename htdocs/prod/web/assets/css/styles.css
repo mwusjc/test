@@ -7297,11 +7297,15 @@ span.subheading-text {
 .job-fair-date {
   font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif;
   font-size: 18px;
+  margin: 0;
+  padding-bottom: 5px;
 }
 
-.job-fair-date .job-fair-bold {
+.job-fair-bold {
   font-weight: bold;
 }
+
+
 /* End Job Fair callout styles */
 
 @media print {

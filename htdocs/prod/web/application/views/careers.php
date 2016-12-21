@@ -20,11 +20,11 @@
               <h2 class='job-fair-subheading-2'>New Store Opening In Vaughan</h2>
 
               <p>
-                <span class='new-store-info'>1490 Major Mackenzie Drive West Unit D5</span>
+                <span class='new-store-info job-fair-bold'>1490 Major Mackenzie Drive West Unit D5</span>
                 <br/>
                 (North East Corner of Major Mackenzie Dr. W. and Dufferin St.) Vaughan, Ontario
                 <br/>
-                <span class='new-store-info'>416-491-5050 Ext 44600</span>
+                <span class='new-store-info job-fair-bold'>416-491-5050 Ext 44600</span>
               </p>
               <img src="/assets/images/seneca-logo.png" alt="Seneca" />
             </div>
