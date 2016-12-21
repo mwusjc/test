@@ -1,5 +1,37 @@
 </header>
 <main class='careers'>
+    <div class='row job-fair-cta'>
+      <div class='col-sm-12'>
+          <h1 class='job-fair-heading'>Highland Farms Job Fair</h1>
+
+          <div class='row'>
+            <div class='col-sm-12 col-md-6'>
+              <h2 class='job-fair-subheading-2'>Now Hiring All Positions</h2>
+
+              <p class='job-fair-date'><span class='job-fair-bold'>Monday, 9th of January</span> - 12:30 pm to 3:00 pm</p>
+              <p class='job-fair-date'><span class='job-fair-bold'>Tuesday, 10th of January</span> - 9:00 am to 12:00 pm</p>
+              <p class='job-fair-date'><span class='job-fair-bold'>Thursday, 12th of January</span> - 5:00 pm to 7:30 pm</p>
+              <p class='job-fair-date'><span class='job-fair-bold'>Monday, 16th of January</span> - 9:00 am to 12:00 pm</p>
+              <p class='job-fair-date'><span class='job-fair-bold'>Tuesday, 17th of January</span> - 12:30 pm to 3:00 pm</p>
+
+              <p class='job-fair-details'><span class='job-fair-bold'>Please do not email resum&eacute;s.</span> Bring your resum&eacute; to the job fair. Interviews will be conducted on site.</p>
+            </div>
+            <div class='col-sm-12 col-md-6 job-fair-details-right'>
+              <h2 class='job-fair-subheading-2'>New Store Opening In Vaughan</h2>
+
+              <p>
+                <span class='new-store-info'>1490 Major Mackenzie Drive West Unit D5</span>
+                <br/>
+                (North East Corner of Major Mackenzie Dr. W. and Dufferin St.) Vaughan, Ontario
+                <br/>
+                <span class='new-store-info'>416-491-5050 Ext 44600</span>
+              </p>
+              <img src="/assets/images/seneca-logo.png" alt="Seneca" />
+            </div>
+          </div>
+
+      </div>
+    </div>
     <div class='row'>
         <div class='col-sm-12'>
             <h1>Join Us.</h1>
