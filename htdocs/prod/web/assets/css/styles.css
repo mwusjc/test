@@ -7281,6 +7281,14 @@ span.subheading-text {
   }
 }
 
+/* Job Fair callout styles */
+.job-fair-heading {
+  font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif;
+  font-size: 38px;
+  border-bottom: 2px solid #00a64f;
+}
+/* End Job Fair callout styles */
+
 @media print {
   html,
   body {
