@@ -7281,6 +7281,52 @@ span.subheading-text {
   }
 }
 
+/* Job Fair callout styles */
+.job-fair-container {
+  padding: 0;
+}
+
+.job-fair-cta,
+.job-fair-heading {
+  border-bottom: 2px solid #00a64f;
+}
+
+.job-fair-cta {
+  margin-bottom: 40px;
+}
+
+.job-fair-heading {
+  font-family: 'HelveticaNeueLT-Bold', 'Helvetica', Arial, sans-serif;
+  font-size: 38px;
+  padding-bottom: 10px;
+}
+
+.job-fair-subheading-2 {
+  font-family: 'HelveticaNeueLT-Bold';
+  font-size: 24px !important;
+  text-transform: uppercase; 
+}
+
+.job-fair-date {
+  font-family: 'HelveticaNeueLT-Medium', 'Helvetica', Arial, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.job-fair-details {
+  font-family: 'HelveticaNeueLT-Medium', 'Helvetica', Arial, sans-serif;
+  font-size: 14px;
+}
+
+.job-fair-date .job-fair-bold,
+.job-fair-details .job-fair-bold,
+.new-store-info.job-fair-bold {
+  font-family: 'HelveticaNeueLT-Medium', 'Helvetica', Arial, sans-serif;
+  font-weight: bold;
+}
+/* End Job Fair callout styles */
+
 @media print {
   html,
   body {
