@@ -8,11 +8,11 @@
             <div class='col-sm-12 col-md-6'>
               <h2 class='job-fair-subheading-2'>Now Hiring All Positions</h2>
 
-              <p class='job-fair-date'><span class='job-fair-bold'>Monday, 9th of January</span> - 12:30 pm to 3:00 pm</p>
-              <p class='job-fair-date'><span class='job-fair-bold'>Tuesday, 10th of January</span> - 9:00 am to 12:00 pm</p>
-              <p class='job-fair-date'><span class='job-fair-bold'>Thursday, 12th of January</span> - 5:00 pm to 7:30 pm</p>
-              <p class='job-fair-date'><span class='job-fair-bold'>Monday, 16th of January</span> - 9:00 am to 12:00 pm</p>
-              <p class='job-fair-date'><span class='job-fair-bold'>Tuesday, 17th of January</span> - 12:30 pm to 3:00 pm</p>
+              <p class='job-fair-date'><span class='job-fair-bold'>Monday, 9th of January</span> - <br class='mobile'/>12:30 pm to 3:00 pm</p>
+              <p class='job-fair-date'><span class='job-fair-bold'>Tuesday, 10th of January</span> - <br class='mobile'/>9:00 am to 12:00 pm</p>
+              <p class='job-fair-date'><span class='job-fair-bold'>Thursday, 12th of January</span> - <br class='mobile'/>5:00 pm to 7:30 pm</p>
+              <p class='job-fair-date'><span class='job-fair-bold'>Monday, 16th of January</span> - <br class='mobile'/>9:00 am to 12:00 pm</p>
+              <p class='job-fair-date'><span class='job-fair-bold'>Tuesday, 17th of January</span> - <br class='mobile'/>12:30 pm to 3:00 pm</p>
 
               <p class='job-fair-details'><span class='job-fair-bold'>Please do not email resum&eacute;s.</span> Bring your resum&eacute; to the job fair. Interviews will be conducted on site.</p>
             </div>
