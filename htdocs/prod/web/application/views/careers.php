@@ -24,7 +24,7 @@
                 <br/>
                 (North East Corner of Major Mackenzie Dr. W. and Dufferin St.) Vaughan, Ontario
                 <br/>
-                <span class='new-store-info job-fair-bold'>416-491-5050 Ext 44600</span>
+                <span class='new-store-info job-fair-bold'>416-491-5050 Ext 44627</span>
               </p>
               <img src="/assets/images/seneca-logo.png" alt="Seneca" />
             </div>
