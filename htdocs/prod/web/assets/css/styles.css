@@ -7292,14 +7292,14 @@ span.subheading-text {
 }
 
 .job-fair-heading {
-  font-family: 'HelveticaNeueLTStd-MdCn', 'HelveticaNeueLT-Roman', 'Helvetica', Arial, sans-serif;
+  font-family: 'HelveticaNeueLT-Bold', 'Helvetica', Arial, sans-serif;
   font-size: 38px;
   padding-bottom: 10px;
 }
 
 .job-fair-subheading-2 {
-  font-family: 'SerifaBT-Light';
-  font-size: 26px !important;
+  font-family: 'HelveticaNeueLT-Bold';
+  font-size: 24px !important;
   text-transform: uppercase; 
 }
 
