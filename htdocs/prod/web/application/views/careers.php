@@ -1,7 +1,7 @@
 </header>
 <main class='careers'>
     <div class='row job-fair-cta'>
-      <div class='col-sm-12'>
+      <div class='col-sm-12 job-fair-container'>
           <h1 class='job-fair-heading'>Highland Farms Job Fair</h1>
 
           <div class='row'>
