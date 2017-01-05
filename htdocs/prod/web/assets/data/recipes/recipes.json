@@ -2458,5 +2458,42 @@
     ],
     "image":"media/recipes/rec_cranberry-pear-salad.jpg",
     "thumbnail":"media/recipes/rec_cranberry-pear-salad-tn.jpg"
+  },
+
+  {
+    "title":"Winter Soup",
+    "slug": "winter-soup",
+    "categories": [
+      {
+        "title":"Soups & Salads",
+        "slug":"soups-salads"
+      }
+    ],
+    "ingredients": "2 tsp extra-virgin olive oil \n1 cup chopped onion \n1 cup sliced leeks \n½ tsp ground coriander \n½ tsp ground cumin \n½ tsp crushed caraway seeds \n1/8 tsp ground red pepper \n1 minced garlic clove \n3 cups vegetable stock, divided \n2 cups cubed and peeled butternut squash \n1 cup sliced carrots \n¾ cup cubed and peeled Yukon gold potato \n1 tbsp harissa \n1 ½ tsps tomato paste \n¾ tsp salt \n1 pound turnips, peeled and cut into 8 wedges \n1 15.5 oz. can chickpeas, drained \n1 ½ tsp honey",
+    "instructions": "Heat oil in a large saucepan over medium-high heat. Add onion and leek. Sauté for 5 minutes. Add coriander, cumin caraway, red pepper, garlic and cook for 1 minute, stirring constantly. Add 3 cups of the stock and squash, carrots, potato, harissa, tomato paste, salt turnip and chickpeas. Bring to a boil. Cover, reduce heat and simmer for 30 minutes. Stir in honey and serve.",
+    "featuredStartDate": "2017-01-05T12:00:00-05:00",
+    "publish": true,
+    "related": [
+      {
+        "image": "media/recipes/rec_turkey_stuffing.jpg",
+        "thumbnail": "media/recipes/rec_turkey_stuffing-tn.jpg",
+        "slug": "traditional-turkey-stuffing",
+        "title": "Traditional Turkey Stuffing"
+      },
+      {
+        "image": "media/recipes/rec_leek_mush_lem_risott.jpg",
+        "thumbnail": "media/recipes/rec_leek_mush_lem_risott-tn.jpg",
+        "slug": "leek-mushroom-and-lemon-risotto",
+        "title": "Leek, Mushroom & Lemon Risotto"
+      },
+      {
+        "image":"media/recipes/rec_chickpea_falafel.jpg",
+        "thumbnail":"media/recipes/rec_chickpea_falafel-tn.jpg",
+        "slug": "chickpea-falafel-with-cilantro-dip",
+        "title":"Chickpea Falafel with Cilantro Dip"
+      }
+    ],
+    "image":"media/recipes/rec_winter-soup.jpg",
+    "thumbnail":"media/recipes/rec_winter-soup-tn.jpg"
   }
 ]
