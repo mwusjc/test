@@ -361,7 +361,7 @@
         {
           "image":"Nestea-MinuteMaid-5Alive-beverages.jpg",
           "coords":[12,33,206,240],
-          "name": "Minute Maid, Five Alive or Nestea Ice Tea 10x200ml or Minute Maid Fruit Punch, Lemonade or Nestea 1.89L, Assorted Varieties",
+          "name": "Minute Maid, Five Alive or Nestea Iced Tea 10x200ml or Minute Maid Fruit Punch, Lemonade or Nestea 1.89L, Assorted Varieties",
           "brands": ["Minute Maid", "Five Alive", "Nestea"],
           "category": "grocery",
           "summary": "",
@@ -416,7 +416,7 @@
         { 
           "image":"PureLife-Starbucks-ONE-beverages.jpg",
           "coords":[222,276,101,117],
-          "name": "Pure Leaf Ice Tea 547ml, Starbucks Ice Coffee & Frappuccino 325-444ml, O.N.E. Coconut Water 500ml or Ocean Spray Pact 473ml",
+          "name": "Pure Leaf Iced Tea 547ml, Starbucks Iced Coffee & Frappuccino 325-444ml, O.N.E. Coconut Water 500ml or Ocean Spray Pact 473ml",
           "brands": ["Pure Leaf", "Starbucks", "O.N.E.", "Ocean Spray"],
           "category": "grocery",
           "summary": "",
@@ -442,8 +442,8 @@
           "brands": ["Manitoba Harvest"],
           "category": "grocery",
           "summary": "",
-          "packaging":"125-300g",
-          "pricing":"$2.99",
+          "packaging":"227g",
+          "pricing":"$6.99",
           "comments":""
         },
         {
@@ -593,7 +593,7 @@
           "image":"Terriyaki-Experience-sauce-Sensasian.jpg",
           "coords":[768,397,101,117],
           "name": "Teriyaki Experience Sauce Sensasian 350ml, Assorted Varieties or Huy Fong Sriracha Hot Chili Sauce 740ml",
-          "brands": ["Teriyak Experience", "Huy Fong"],
+          "brands": ["Teriyaki Experience", "Huy Fong"],
           "category": "grocery",
           "summary": "",
           "packaging":"each",
@@ -883,7 +883,7 @@
           "brands": [""],
           "category": "meat",
           "summary": "",
-          "packaging":"$2.84/kg",
+          "packaging":"$2.84/kg or Minced $1.49lb/$3.28kg",
           "pricing":"$1.29/lb",
           "comments":"save"
         },
@@ -972,7 +972,7 @@
           "category": "meat",
           "summary": "",
           "packaging":"$7.69/kg",
-          "pricing":"$3.49",
+          "pricing":"$3.49/lb",
           "comments":""
         }
       ] 
