@@ -5,8 +5,8 @@
           {
             "slideID": "carousel-slide1",
             "link": "#",
-            "desktopSlideBackground": "assets/images/20170105-carousel/home_banner-1.jpg",
-            "mobileSlideBackground": "assets/images/20170105-carousel/home_banner_mobile-1.jpg",
+            "desktopSlideBackground": "assets/images/20170119-carousel/home_banner-1.jpg",
+            "mobileSlideBackground": "assets/images/20170119-carousel/home_banner_mobile-1.jpg",
             "backgroundSize": "cover",
             "containerCSS": null,
             "headingContainerCSS": "position: absolute; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); text-align:left; right:0",
