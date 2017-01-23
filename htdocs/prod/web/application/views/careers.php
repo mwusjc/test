@@ -11,23 +11,30 @@
     <div class="spacer-20"></div>
 
     <div class='row'>
-        <div class='col-xs-12 col-sm-3'>
-            <h2>Scarborough</h2>
-            <p>850 Ellesmere Road </br/>
-              Scarborough, ON, M1P 2W5 </p>
-        </div>
-        <div class='col-xs-12 col-sm-9' id='scarborough-careers'>
-        </div>
+      <div class='col-xs-12 col-sm-3'>
+        <h2>Scarborough</h2>
+        <p>850 Ellesmere Road </br/>
+        Scarborough, ON, M1P 2W5 </p>
+      </div>
+      <div class='col-xs-12 col-sm-9' id='scarborough-careers'></div>
     </div>
 
     <div class='row' style="margin-top: 20px;">
-        <div class='col-xs-12 col-sm-3'>
-            <h2>Mississauga</h2>
-            <p>50 Matheson Blvd. East </br/>
-            Mississauga, ON, L4Z 1N5 </p>
-        </div>
-        <div class='col-xs-12 col-sm-9' id='mississauga-careers'>
-        </div>
+      <div class='col-xs-12 col-sm-3'>
+          <h2>Mississauga</h2>
+          <p>50 Matheson Blvd. East </br/>
+          Mississauga, ON, L4Z 1N5 </p>
+      </div>
+      <div class='col-xs-12 col-sm-9' id='mississauga-careers'></div>
+    </div>
+
+    <div class='row' style="margin-top: 20px;">
+      <div class='col-xs-12 col-sm-3'>
+          <h2>Vaughan</h2>
+          <p>9940 Dufferin Street </br/>
+          Vaughan, Ontario, L6A 2E6 </p>
+      </div>
+      <div class='col-xs-12 col-sm-9' id='vaughan-careers'></div>
     </div>
     
 </main>
