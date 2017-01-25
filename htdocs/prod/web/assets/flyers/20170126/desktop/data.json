@@ -537,7 +537,7 @@
         {
           "image":"Nestea-Five-Alive-Fruitopia.jpg",
           "coords":[558,276,101,117],
-          "name": "Nestea Ice Tea, Five Alive or Fruitopia Fruit Beverages",
+          "name": "Nestea Iced Tea, Five Alive or Fruitopia Fruit Beverages",
           "brands": ["Nestea", "Five Alive", "Fruitopia"],
           "category": "grocery",
           "summary": "",
@@ -860,7 +860,7 @@
           "comments":""
         },
         {
-          "image":"CK-pizza.jpg",
+          "image":"CK-Family-size-salads.jpg",
           "coords":[767,397,101,117],
           "name": "Highland Farms Country Kitchen Family Size Fresh Salad, Garden Min. Weight 600g or Caesar Min. Weight 570g",
           "brands": ["Highland Farms Country Kitchen"],
@@ -933,7 +933,7 @@
         },
         {
           "image":"Pork-sirloin-roast.jpg",
-          "coords":[12,274,206,116],
+          "coords":[12,274,101,116],
           "name": "Fresh Ontario Boneless Pork Sirloin Roast",
           "brands": [""],
           "category": "meat",
@@ -944,7 +944,7 @@
         },
         {
           "image":"Boneless-pork-stew.jpg",
-          "coords":[12,274,206,116],
+          "coords":[117,274,101,116],
           "name": "Fresh Ontario Boneless Pork Stew",
           "brands": [""],
           "category": "meat",
