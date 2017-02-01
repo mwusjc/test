@@ -67,6 +67,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li><a href='<?=site_url()?>visit-us'>Visit Us</a></li>
         </ul>
     </nav>
+
+    <div class="wrapper desktop">
+        <div class="subscribe col-xs-12 col-sm-4 pull-left" style="padding: 0px; top: 20px">
+        <!-- Begin MailChimp Signup Form -->
+            <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                <p style="margin: 10px 0 10px;">Subscribe to our e-flyer!</p>
+                <input type="email" value="" name="EMAIL" class="col-xs-12 col-sm-12" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
+                <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email sticky right green">
+            </form>
+        </div>
+        <!--End mc_embed_signup-->
+    </div>
+
     <a href="/" class="logo desktop"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png" alt="Highland Farms"/></a>
     <a href="/" class="logo mobile"><img src="<?=site_url()?>/assets/images/Highland-Farms-Logo-NEW.png" alt="Highland Farms"/></a>
     <div class="shopcart">
@@ -76,6 +90,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <i class='items-in-cart'>0</i>
         </a>
     </div>
+
+        <div class="mobile col-xs-12 col-sm-4" style="margin: 10px 0 10px">
+        <!-- Begin MailChimp Signup Form -->
+            <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                <p style="margin: 10px 0 10px; text-align: center">Subscribe to our e-flyer!</p>
+                <input type="email" value="" name="EMAIL" class="col-xs-12 col-sm-12" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
+                <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email sticky right green">
+            </form>
+        </div>
+        <!--End mc_embed_signup-->
+
     <nav class="desktop">
         <ul>
             <li><a id="home" href='<?=site_url()?>'>Home</a></li>

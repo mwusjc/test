@@ -2,17 +2,6 @@
   <div class="wrapper">
     <div class="row">
 
-      <div class="subscribe col-xs-12 col-sm-4 pull-right">
-        <!-- Begin MailChimp Signup Form -->
-            <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                <p>Subscribe to our e-flyer!</p>
-                <input type="email" value="" name="EMAIL" class="col-xs-12 col-sm-12" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
-                <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
-                <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email sticky right green">
-            </form>
-        </div>
-        <!--End mc_embed_signup-->
-
       <div class="col-xs-12 col-sm-8">
         <ul>
           <li><a href="<?=site_url()?>about/privacy_policy">Privacy Policy</a></li>
