@@ -91,7 +91,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </a>
     </div>
 
-        <div class="mobile col-xs-12 col-sm-4" style="margin: 10px 0 10px">
+        <div class="mobile mobile-subscribe col-xs-12 col-sm-4" style="margin: 10px 0 10px">
         <!-- Begin MailChimp Signup Form -->
             <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                 <p style="margin: 10px 0 10px; text-align: center">Subscribe to our e-flyer!</p>

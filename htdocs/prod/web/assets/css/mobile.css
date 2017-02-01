@@ -19,6 +19,10 @@
     display: none !important;
   }
 
+  .mobile-subscribe {
+    z-index: 1;
+  }
+
   .carousel-inner-mobile .flyerWrap>img{
     width: 320px !important;
     height: 395px !important;
