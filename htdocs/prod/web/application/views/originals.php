@@ -6,7 +6,7 @@
 
 <main class='originals'>
 
-    <div class='row'><h1>Highland Farms Originals</h1></div>
+    <div class='row'><h1>Only at Highland Farms</h1></div>
 
     <div class='row'>
         <div class='col-sm-5'>
@@ -15,7 +15,7 @@
         <div class='col-sm-7'>
             <h2>Fresh Gift Idea</h2>
             <p>
-                The Highland Farm <b>Gift Card</b> is the perfect gift for any occasion. Minimum value starts at $25, they are sure to please friends and relatives who love to entertain. Pick one up at the checkout on your next visit.
+                The Highland Farm <b class="bolder">Gift Card</b> is the perfect gift for any occasion. Minimum value starts at $25, they are sure to please friends and relatives who love to entertain. Pick one up at the checkout on your next visit.
             </p>
         </div>
     </div>

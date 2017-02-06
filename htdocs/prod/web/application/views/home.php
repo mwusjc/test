@@ -136,7 +136,7 @@
 		<div class="col-xs-6 col-sm-3 home-thumbnail-grid">
 			<a href='<?=site_url()?>about/highland-farms-originals'>
 				<img class="col-xs-12" src="<?=site_url()?>/assets/images/home_originals.jpg" alt="Highland Farms Originals"/>
-				<p class="col-xs-12 home-thumbnail-desc">Highland Farms Originals</p>
+				<p class="col-xs-12 home-thumbnail-desc">Only at Highland Farms</p>
 			</a>
 		</div>
 		<div class="col-xs-6 col-sm-3 home-thumbnail-grid">
