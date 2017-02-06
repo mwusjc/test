@@ -195,7 +195,7 @@
         <div class='col-xs-12 col-sm-4 green bg-primary border bottom-box' style='height:200px;border:0px;'>
             <div class='bg-primary' style='position:absolute;bottom:0;'>
                 <h1>Highland Farms Originals</h1>
-                <p><a href='/about/highland-farms-originals'>Learn More <span style='font-size:120%;'>></span></a></p>
+                <p><a href='/about/only-at-highland-farms'>Learn More <span style='font-size:120%;'>></span></a></p>
             </div>
         </div>
     </div>
