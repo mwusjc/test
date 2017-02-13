@@ -41,6 +41,15 @@ var fl = {
     t.setDate(t.getDate()+1);
     nextWednesday = t;
     nextWednesday.setDate(nextWednesday.getDate()+6);
+
+    /*
+    * NOTE: Temporary code for flyer week of February 24th 2017 to March 1st 2017 - to be removed when permanent flyer logic changes take effect
+    */
+    if(fl.getWeek("current") == "20170223") {
+      var range = "Fri Feb 24 2017 - Wed Mar 01 2017";
+      return range;
+    }
+
     return thursday.toDateString() +" - "+ nextWednesday.toDateString();
   },
   getThursday: function(d) {
@@ -135,13 +144,35 @@ var fl = {
     $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
     $("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
 
-    window.setTimeout('$("#chooseFlyer").modal("show");',1000);  
+    /*
+    * NOTE: Temporary code added for visual flyer duration tweaks to take effect solely on Wednesday, February 22nd 2017.
+    * Code to be removed when permanent flyer logic changes take effect is only the if..statement below.
+    * The line that reads 'window.setTimeout('$("#chooseFlyer").modal("show");',1000);' is to remain as that is critical to visual treatment of overlap days
+    */
+    if(currentWeek == "20170216") {
+      $("#nextFlyer .flyerDateRange").html("Fri Feb 24 2017 - Wed Mar 01 2017");    
+    }
+
+    window.setTimeout('$("#chooseFlyer").modal("show");',1000);
   },
   checkOverlapDay: function(){
     var today = new Date();
     var test = location.search;
     //Assuming overlap day is Thursday
-    if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true"))){
+    
+    /*
+    * NOTE: Temporary code added as last condition in the following if..statement which reads '|| (currWeek == "20170216" && today.getDay()==3)' is to be removed 
+    *       after February 23rd, 2017 deployment as well as the variable named currWeek and the nested if..statement which reads 
+    *       'if(currWeek == "20170216" && today.getDay()==4)...'
+    */
+    var currWeek = fl.getWeek("current");
+    if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true")) || (currWeek == "20170216" && today.getDay()==3)){
+      if(currWeek == "20170216" && today.getDay()==4) {
+        $("#chooseFlyer").modal("hide");
+        $("#flyerModal").hide();
+        return false;
+      }
+
       this.previewFlyers();
     }
     else{
