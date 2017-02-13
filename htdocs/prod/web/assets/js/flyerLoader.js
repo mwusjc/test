@@ -159,20 +159,7 @@ var fl = {
     var today = new Date();
     var test = location.search;
     //Assuming overlap day is Thursday
-    
-    /*
-    * NOTE: Temporary code added as last condition in the following if..statement which reads '|| (currWeek == "20170216" && today.getDay()==3)' is to be removed 
-    *       after February 23rd, 2017 deployment as well as the variable named currWeek and the nested if..statement which reads 
-    *       'if(currWeek == "20170216" && today.getDay()==4)...'
-    */
-    var currWeek = fl.getWeek("current");
-    if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true")) || (currWeek == "20170216" && today.getDay()==3)){
-      if(currWeek == "20170216" && today.getDay()==4) {
-        $("#chooseFlyer").modal("hide");
-        $("#flyerModal").hide();
-        return false;
-      }
-
+    if (today.getDay() == 4 || (today.getDay()==3 && today.getHours()>=22) || (test.match("overlap=true"))){
       this.previewFlyers();
     }
     else{
