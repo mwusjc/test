@@ -46,7 +46,7 @@ var fl = {
     * NOTE: Temporary code for flyer week of February 24th 2017 to March 1st 2017 - to be removed when permanent flyer logic changes take effect
     */
     if(fl.getWeek("current") == "20170223") {
-      var range = "Fri Feb 24 2017 - Wed Mar 01 2017";
+      var range = "Thu Feb 23 2017 - Wed Mar 01 2017";
       return range;
     }
 
@@ -150,7 +150,7 @@ var fl = {
     * The line that reads 'window.setTimeout('$("#chooseFlyer").modal("show");',1000);' is to remain as that is critical to visual treatment of overlap days
     */
     if(currentWeek == "20170216") {
-      $("#nextFlyer .flyerDateRange").html("Fri Feb 24 2017 - Wed Mar 01 2017");    
+      $("#nextFlyer .flyerDateRange").html("Thu Feb 23 2017 - Wed Mar 01 2017");    
     }
 
     window.setTimeout('$("#chooseFlyer").modal("show");',1000);
