@@ -32,7 +32,7 @@
       <div class='col-xs-12 col-sm-3'>
           <h2>Vaughan</h2>
           <p>9940 Dufferin Street </br/>
-          Vaughan, Ontario, L6A 2E6 </p>
+          Vaughan, Ontario, L6A 4K5 </p>
       </div>
       <div class='col-xs-12 col-sm-9' id='vaughan-careers'></div>
     </div>
