@@ -1,5 +1,5 @@
 {
-  "week":20170223,
+  "week":20170222,
   "pages":[
     {
       "id":"page1",
@@ -246,7 +246,7 @@
           "summary": "",
           "packaging":"each",
           "pricing":"$16.99",
-          "comments":""
+          "comments":"save"
         },
         {
           "image":"Rudolphs-bakeries-bread.jpg",
@@ -665,7 +665,7 @@
         {
           "image":"Riviera-meat-lasagna.jpg",
           "coords":[9,288,149,85],
-          "name": "Riviera Frozen Meat Lasagna",
+          "name": "Riviera Frozen Meat Lasagna pkg of 2x1.81kg",
           "brands": ["Riviera"],
           "category": "frozen foods",
           "summary": "",
@@ -677,7 +677,7 @@
           "image":"Minute-Maid-frozen-juices.jpg",
           "coords":[162,288,72,85],
           "name": "Minute Maid Frozen Lemonade, Nestea, Five Alive or Fruitopia",
-          "brands": ["Minute Maid", "Nestea", "Fruitopia"],
+          "brands": ["Minute Maid", "Nestea", "Five Alive", "Fruitopia"],
           "category": "frozen foods",
           "summary": "",
           "packaging":"295ml",
@@ -864,7 +864,7 @@
         {
           "image":"Sirloin-tip-cutlets.jpg",
           "coords":[237,25,74,86],
-          "name": "Fresh Stewing Beef Product of Canada",
+          "name": "Fresh Beef Sirloin Tip Cutlets Product of Canada",
           "brands": [""],
           "category": "meat",
           "summary": "",
