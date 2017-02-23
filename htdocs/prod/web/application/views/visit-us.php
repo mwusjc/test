@@ -25,6 +25,15 @@
     Mon-Sat: 7:00AM-10:00PM </br/>
     Sun: 8:00AM-8:00PM</p>
     <a  target="_blank" href="tel:+19055019910">(905) 501-9910</a>
+
+    <h2 style="margin-top: 50px;"><strong style="color: #00a64f">Opening Soon:</strong> Vaughan</h2>
+    <p>9940 Dufferin Street </br/>
+      Vaughan, Ontario, L6A 4K5</br/>
+      <a href="https://www.google.ca/maps/dir/9940+Dufferin+St,+Vaughan,+ON+L6A//@43.8593551,-79.4892365,17z/data=!3m1!4b1!4m8!4m7!1m5!1m1!1s0x882b296988ff9a6b:0x746897a2e8081ae5!2m2!1d-79.4870478!2d43.8593513!1m0" target="_blank" class="vaughan direction green">Get Directions</a></p>
+    <p><strong>Store Hours</strong> </br/>
+    Mon-Sat: 7:00AM-10:00PM </br/>
+    Sun: 8:00AM-8:00PM</p>
+	<a target="_blank" href="tel:+19058324481">(905)-832-4481</a>
   </div>
   <div class="col-xs-12 col-sm-1">
   </div>
@@ -32,6 +41,8 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11525.396282766096!2d-79.28310320000003!3d43.76561230000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x9b44a05bb8d40afe!2sHighland+Farms!5e0!3m2!1sen!2sca!4v1443038915026" width="610" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.0333680487756!2d-79.67259422484713!3d43.62160343674393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b40a400000000%3A0x9671955aa8a955ae!2sHighland+Farms+!5e0!3m2!1sen!2sca!4v1443039231471" width="610" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.82985394126!2d-79.48923648449214!3d43.85935514709326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b296988ff9a6b%3A0x746897a2e8081ae5!2s9940+Dufferin+St%2C+Vaughan%2C+ON+L6A%2C+Canada!5e0!3m2!1sen!2sca!4v1487861923043" width="610" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>
 <div class="spacer"></div>
