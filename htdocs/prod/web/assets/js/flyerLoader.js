@@ -142,7 +142,10 @@ var fl = {
     $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
     $("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
     $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
+    $("#nextFlyer .flyerDateRange").html("Thu Feb 23 2017 - Wed Mar 01 2017");
+/*
     $("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
+*/
 
     /*
     * NOTE: Temporary code added for visual flyer duration tweaks to take effect solely on Wednesday, February 22nd 2017.
