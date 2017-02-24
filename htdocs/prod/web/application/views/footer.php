@@ -4,11 +4,11 @@
 
       <div class="col-xs-12 col-sm-8">
         <ul>
-          <li><a href="<?=site_url()?>about/privacy_policy">Privacy Policy</a></li>
-          <li><a href="<?=site_url()?>about/disclaimer">Disclaimer</a></li>
-          <li><a href="<?=site_url()?>about/accessibility">Accessibility</a></li>
-          <li><a href="<?=site_url()?>careers">Careers</a></li>
-          <li><a href="<?=site_url()?>visit-us">Contact Us</a></li>
+          <li><a class="link-footer" href="<?=site_url()?>about/privacy_policy">Privacy Policy</a></li>
+          <li><a class="link-footer" href="<?=site_url()?>about/disclaimer">Disclaimer</a></li>
+          <li><a class="link-footer" href="<?=site_url()?>about/accessibility">Accessibility</a></li>
+          <li><a class="link-footer" href="<?=site_url()?>careers">Careers</a></li>
+          <li><a class="link-footer" href="<?=site_url()?>visit-us">Contact Us</a></li>
         </ul>
         <p class="copyright">© <?php echo date("Y"); ?> Highland Farms</p>
       </div>

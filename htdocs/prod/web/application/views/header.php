@@ -57,14 +57,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <img class="menu-toggle mobile" src="<?=site_url()?>/assets/images/mobile/icon_menu.png" />
     <nav class="main-nav mobile closed">
         <ul class="main-menu">
-            <li><a href='<?=site_url()?>'>Home</a></li>
-            <li><a href='<?=site_url()?>flyer'>Flyer</a></li>
-            <li><a href='<?=site_url()?>recipes'>Recipes</a></li>
-            <li><a href='<?=site_url()?>inside-store'>Inside The Store</a></li>
-            <li><a href='<?=site_url()?>country-kitchen'>Country Kitchen</a></li>
-            <li><a href='<?=site_url()?>party-platters'>Platters & Gifts</a></li>
-            <li><a href='<?=site_url()?>about'>About</a></li>
-            <li><a href='<?=site_url()?>visit-us'>Visit Us</a></li>
+            <li><a class="link-menu" href='<?=site_url()?>'>Home</a></li>
+            <li><a class="link-menu" href='<?=site_url()?>flyer'>Flyer</a></li>
+            <li><a class="link-menu" href='<?=site_url()?>recipes'>Recipes</a></li>
+            <li><a class="link-menu" href='<?=site_url()?>inside-store'>Inside The Store</a></li>
+            <li><a class="link-menu" href='<?=site_url()?>country-kitchen'>Country Kitchen</a></li>
+            <li><a class="link-menu" href='<?=site_url()?>party-platters'>Platters & Gifts</a></li>
+            <li><a class="link-menu" href='<?=site_url()?>about'>About</a></li>
+            <li><a class="link-menu" href='<?=site_url()?>visit-us'>Visit Us</a></li>
         </ul>
     </nav>
 
