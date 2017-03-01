@@ -55,6 +55,7 @@ $route['inside-store'] = 'insideStore';
 $route['country-kitchen'] = 'countryKitchen';
 $route['party-platters'] = 'platters';
 $route['visit-us'] = 'visit';
+$route['vaughan'] = 'vaughan';
 
 $route["about/only-at-highland-farms"] = "about/originals";
 
