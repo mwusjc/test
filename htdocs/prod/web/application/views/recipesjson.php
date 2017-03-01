@@ -1,6 +1,7 @@
-<div class="featured-recipe"></div>
 
 </header>
+<div class="featured-recipe"></div>
+
 <main class='recipes'>
   <div class="row">
     <div class="col-xs-12 col-sm-12">
@@ -48,7 +49,7 @@
 </script>
 
 <script type="text/html" id="tpl-featured-recipe">
-<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/_IMAGE_); background-size:cover">
+<div class="herobanner responsive" style="background-image:url(<?=site_url()?>assets/_IMAGE_); background-size:cover; width: 100%">
   <div class="caption col-xs-12">
     <div class="wrapper">
       <div class="row">
