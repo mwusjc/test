@@ -1,7 +1,7 @@
 </header>
 
 <main class='home'>
-	<div class="row">
+	<div class="row countdown">
 		<div class="col-xs-12 col-sm-12">
       <div style="background:#00a64f; padding:12px 15px; margin:0; border-radius: 30px 30px 0 0; height: 600px;">
         <h4 style="color:white; font-size: 24px; font-family: 'HelveticaNeueLT-Bold'; padding-top: 30px" align="center">Something’s coming just around the corner</h4>
@@ -14,11 +14,11 @@
               padding-top:30px; padding-bottom:20px;
           }
           @media (min-width: 650px) {
-            .countdown {
+            .clocknumber {
             color:#f99d1c; font-size: 90px; font-family: 'HelveticaNeueLT-Bold';}
           }
           @media (max-width: 450px) {
-            .countdown {
+            .clocknumber {
               color:#f99d1c; font-size: 48px; font-family: 'HelveticaNeueLT-Bold';
             }
             .smalltext {
@@ -29,31 +29,31 @@
             }
           }
           @media (max-width: 355px) {
-            .countdown {
+            .clocknumber {
               color:#f99d1c; font-size: 36px; font-family: 'HelveticaNeueLT-Bold';
             }
           }
           @media (min-width: 450px) {
-            .countdown {
+            .clocknumber {
               color:#f99d1c; font-size: 62px; font-family: 'HelveticaNeueLT-Bold';}
             }
           }
         </style>
         <div id="clockdiv" align="center">
             <div style="display:inline-block;">
-              <span class="days countdown">00:</span>
+              <span class="days clocknumber">00:</span>
               <div class="smalltext">Days</div>
             </div>
             <div style="display:inline-block;">
-              <span class="hours countdown">00:</span>
+              <span class="hours clocknumber">00:</span>
               <div class="smalltext">Hours</div>
             </div>
             <div style="display:inline-block;">
-              <span class="minutes countdown">00:</span>
+              <span class="minutes clocknumber">00:</span>
               <div class="smalltext">Minutes</div>
             </div>
             <div style="display:inline-block;">
-              <span class="seconds countdown">00:</span>
+              <span class="seconds clocknumber">00:</span>
               <div class="smalltext">Seconds</div>
             </div>
         </div>
@@ -101,7 +101,6 @@
         initializeClock('clockdiv', deadline);
         </script>
         <div class="subscribe col-xs-12 col-sm-10 desktop" style="padding: 0px; top: 20px; margin: 0 auto; float: none; height:100px" align="center">
-        <!-- Begin MailChimp Signup Form -->
             <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" align="center" style="margin: 0 auto;">
                 <input type="email" value="" name="EMAIL" class="col-xs-12 col-sm-12" id="mce-EMAIL" aria-label="email" placeholder="Enter your email to stay tuned" aria-required="true" required style="width:90%">
                 <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
@@ -109,7 +108,6 @@
             </form>
         </div>
         <div class="subscribe col-xs-12 col-sm-10 mobile" style="padding: 0px; top: 20px; margin: 0 auto; float: none;" align="center">
-        <!-- Begin MailChimp Signup Form -->
             <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" align="center" style="margin: 0 auto;">
                 <input type="email" value="" name="EMAIL" class="col-xs-12 col-sm-12" id="mce-EMAIL" aria-label="email" placeholder="Enter your email to stay tuned" aria-required="true" required style="width:100%">
                 <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
@@ -126,9 +124,9 @@
               display: inline-block;
             }
           </style>
-          <a href="highlandfarms.ca" alt="facebook" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-facebook.png); background-size: cover"></a>
-          <a href="highlandfarms.ca" alt="twitter" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-twitter.png); background-size: cover"></a>
-          <a href="highlandfarms.ca" alt="instagram" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-instagram.png); background-size: cover"></a>
+          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-facebook.png); background-size: cover"></a>
+          <a href="hhttps://twitter.com/highlandfarmson" alt="twitter" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-twitter.png); background-size: cover"></a>
+          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-instagram.png); background-size: cover"></a>
         </div>
       </div>
 		</div>
