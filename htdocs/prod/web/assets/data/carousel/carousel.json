@@ -51,7 +51,7 @@
             "textOverlayCSS": null,
             "priceImage": "assets/images/20170302-carousel/home_price-2.png",
             "badges": [],
-            "descriptionLeftText": "Fresh Beef<br>Sirloin Tip Roast<br>Product of Canada",
+            "descriptionLeftText": "Fresh Ontario<br>Pork Rib or Sirloin Chops",
             "descriptionLeftTextCSS": "font-size: 18px; left: 5px; bottom: 20px;",
             "descriptionLeftTextMobileCSS": "font-size: 14px; left: 17px; bottom: 15px",
             "descriptionRightText": null,
@@ -82,7 +82,7 @@
             "descriptionLeftText": null,
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
-            "descriptionRightText": "Fresh<br>Broccoli<br>Product of U.S.A.",
+            "descriptionRightText": "Ontario Homegrown<br>Greenhouse Tomatoes on the Vine<br>No. 1 Grade",
             "descriptionRightTextCSS": "font-size: 18px;",
             "descriptionRightTextMobileCSS": "font-size: 15px; padding-bottom:20px"
           },
@@ -110,7 +110,7 @@
             "descriptionLeftText": null,
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
-            "descriptionRightText": "Ice River Springs<br>Natural Spring Water",
+            "descriptionRightText": "Mastro<br>Extra Virgin Olive Oil",
             "descriptionRightTextCSS": "font-size: 18px;",
             "descriptionRightTextMobileCSS": "font-size: 15px; padding-bottom:20px"
           },
@@ -138,7 +138,7 @@
             "descriptionLeftText": null,
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
-            "descriptionRightText": "Unico<br>Tomatoes 796ml or<br>Beans 540ml<br>Selected Varieties",
+            "descriptionRightText": "La Molisana<br>Pasta<br>Assorted Regular Cuts",
             "descriptionRightTextCSS": "font-size: 18px;",
             "descriptionRightTextMobileCSS": "font-size: 15px;"
           },
@@ -166,7 +166,7 @@
             "descriptionLeftText": null,
             "descriptionLeftTextCSS": null,
             "descriptionLeftTextMobileCSS": null,
-            "descriptionRightText": "Burnbrae Farms<br>Eggs<br>Large Brown or<br>Super Bon-ee Extra Large",
+            "descriptionRightText": "Elite Dairy<br>Natural Yogurt<br>Assorted Varieties",
             "descriptionRightTextCSS": "font-size: 18px;",
             "descriptionRightTextMobileCSS": "font-size: 15px;"
           }

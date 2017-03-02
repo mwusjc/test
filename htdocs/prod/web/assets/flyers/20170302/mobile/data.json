@@ -1,5 +1,5 @@
 {
-  "week":20170302,
+  "week":20170301,
   "pages":[
     {
       "id":"page1",
@@ -54,7 +54,7 @@
           "coords":[213,275,96,106],
           "name": "Elite Dairy Natural Yogurt, Assorted Varieties",
           "brands": ["Elite Dairy"],
-          "category": "grocery",
+          "category": "dairy",
           "summary": "",
           "packaging":"750g",
           "pricing":"$1.49",
@@ -494,7 +494,7 @@
         {
           "image":"fiji-spring-water.jpg",
           "coords":[9,15,150,95],
-          "name": "Fiji Natural Spring Waters",
+          "name": "Fiji Natural Spring Water",
           "brands": ["Fiji"],
           "category": "grocery",
           "summary": "",
@@ -779,7 +779,7 @@
           "comments":""
         },
         {
-          "image":"Tre-Stella-provolone-cheese.jpg",
+          "image":"santa-lucia-friulano.jpg",
           "coords":[85,113,74,85],
           "name": "Santa Lucia Friulano, Freshly Sliced at the Deli",
           "brands": ["Santa Lucia"],

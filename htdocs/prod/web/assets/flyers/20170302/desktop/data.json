@@ -1,5 +1,5 @@
 {
-  "week":20170302,
+  "week":20170301,
   "pages":[
     {
       "id":"page1",
@@ -54,7 +54,7 @@
           "coords":[294,380,134,146],
           "name": "Elite Dairy Natural Yogurt, Assorted Varieties",
           "brands": ["Elite Dairy"],
-          "category": "grocery",
+          "category": "dairy",
           "summary": "",
           "packaging":"750g",
           "pricing":"$1.49",
@@ -482,7 +482,7 @@
         {
           "image":"fiji-spring-water.jpg",
           "coords":[453,12,206,140],
-          "name": "Fiji Natural Spring Waters",
+          "name": "Fiji Natural Spring Water",
           "brands": ["Fiji"],
           "category": "grocery",
           "summary": "",
@@ -707,7 +707,7 @@
         },
         {
           "image":"chapmans-ice-cream-novelties.jpg",
-          "coords":[22,397,206 ,117],
+          "coords":[222,397,206,117],
           "name": "Chapman's No Sugar Added Ice Cream 1L, Novelties 4-6pk or Frozen Yogurt 2L, Assorted Varieties",
           "brands": ["Chapman's"],
           "category": "frozen foods",
@@ -761,7 +761,7 @@
           "comments":""
         },
         {
-          "image":"Tre-Stella-provolone-cheese.jpg",
+          "image":"santa-lucia-friulano.jpg",
           "coords":[558,156,101,117],
           "name": "Santa Lucia Friulano, Freshly Sliced at the Deli",
           "brands": ["Santa Lucia"],
