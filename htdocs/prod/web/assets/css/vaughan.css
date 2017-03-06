@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px) {
 	.countdown h1 {
-		font-size: 30px;
+		font-size: 28px;
 	}
 	#clockdiv {
 		margin-top: 65px;
@@ -34,10 +34,13 @@
 
 @media screen and (max-width: 720px) {
 	.countdown h1 {
-		font-size: 28px;
+		font-size: 26px;
 	}
 	.clocknumber  {
 		font-size: 100px;
+	}
+	#clockdiv {
+		margin-top: 55px;
 	}
 	.landing .email {
 		width: 540px !important;
@@ -47,7 +50,7 @@
 
 @media screen and (max-width: 670px) {
 	.countdown h1 {
-		font-size: 24px;
+		font-size: 22px;
 	}
 	.clocknumber  {
 		font-size: 85px;
@@ -70,19 +73,22 @@
 
 @media screen and (max-width: 578px) {
 	.countdown h1 {
-		font-size: 22px;
+		font-size: 19px;
 	}
 	.clocknumber  {
-		font-size: 76px;
+		font-size: 72px;
+	}
+	#clockdiv {
+		margin-top: 35px;
 	}
 	.landing .email {
-		width: 410px !important;
+		width: 390px !important;
 	}
 }
 
-@media screen and (max-width: 526px) {
+@media screen and (max-width: 520px) {
 	.countdown h1 {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.clocknumber  {
 		font-size: 68px;
@@ -96,28 +102,25 @@
 	}
 }
 
-@media screen and (max-width: 480px) {
-	.countdown h1 {
-		font-size: 18px;
-	}
+@media screen and (max-width: 477px) {
 	.clocknumber  {
-		font-size: 62px;
+		font-size: 56px;
 	}
 	#clockdiv {
 		margin-top: 30px;
 		margin-bottom: 5px;
 	}
 	.landing .email {
-		width: 340px !important;
+		width: 310px !important;
 	}
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 406px) {
 	.clocknumber  {
 		font-size: 50px;
 	}
 	#clockdiv {
-		margin-top: 20px;
+		margin-top: 25px;
 	}
 	.landing .smalltext {
 		font-size: 12px;
@@ -127,17 +130,7 @@
 	}
 }
 
-@media screen and (max-width: 372px) {
-	.clocknumber  {
-		font-size: 46px;
-	}
-
-	.landing .email {
-		width: 260px !important;
-	}
-}
-
-@media screen and (max-width: 344px) {
+@media screen and (max-width: 370px) {
 	.clocknumber  {
 		font-size: 40px;
 	}
