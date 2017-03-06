@@ -7002,13 +7002,72 @@ height: 210px;
 }
 
 /*Social Icons*/
-footer .social-icons a {
+.social-icons a {
   height: 32px;
   width: 32px;
+  background-size: cover;
+  display: inline-block;
+}
+footer .social-icons a {
   margin-left: 10px;
   float: right;
+}
+
+/*Landing Page Styles*/
+.countdown .bg-primary {
+  padding:12px 15px; 
+  border-radius: 30px 30px 0 0; 
+  height: 450px;
+}
+.countdown h1 {
+  font-size: 36px;
+  padding-top: 30px;
+}
+.orange-text {
+  color: #f99d1c;
+}
+
+.landing .hashtag {
+  font-size: 20px;
+  margin-top:10px;
+}
+
+.landing .social-icons a {
+  margin: 2.5px 2.5px 6px 2.5px;
+}
+
+#clockdiv {
+  margin-top:80px; 
+  margin-bottom:25px;
+}
+
+.numbercontainer {
   display: inline-block;
-  background-size: cover;
+}
+
+.countdown .smalltext {
+  font-size: 18px;
+  padding: 10px 0 0 5px;
+  text-align: left;
+}
+
+.clocknumber {
+  font-size: 132px;
+}
+
+.vaughan-subscribe {
+  width: 720px;
+  height: 70px;
+  padding: 0;
+  margin: 0 auto; 
+  float: none; 
+}
+.vaughan-subscribe .email {
+  width: 90% !important;
+  color: black;
+}
+.vaughan-subscribe .subscribe-email {
+  background-color: #f99d1c !important;
 }
 
 /*This block is for details positioning on desktop environments*/

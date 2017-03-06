@@ -1,0 +1,151 @@
+@media screen and (max-width: 768px) {
+	.countdown h1 {
+		font-size: 30px;
+	}
+	#clockdiv {
+		margin-top: 65px;
+		margin-bottom: 20px;
+	}
+	.clocknumber  {
+		font-size: 108px;
+	}
+	.vaughan-subscribe.mobile {
+		width: 100%;
+		padding: 0;
+		float: none;
+		display: inline-block !important;
+	}
+	.vaughan-subscribe.desktop {
+		display:none;
+	}
+	.landing .email {
+		width: 580px !important;
+		margin: 0 auto;
+		width: 90%;
+	}
+	.landing .subscribe-email {
+		margin-top: 10px;
+		margin-right: 0;
+	}
+	.landing .social-icons {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.countdown h1 {
+		font-size: 28px;
+	}
+	.clocknumber  {
+		font-size: 100px;
+	}
+	.landing .email {
+		width: 540px !important;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.countdown h1 {
+		font-size: 24px;
+	}
+	.clocknumber  {
+		font-size: 85px;
+	}
+	.landing .smalltext {
+		font-size: 14px;
+	}
+	.landing .email {
+		width: 460px !important;
+	}
+	#clockdiv {
+		margin-top: 45px;
+		margin-bottom: 10px;
+	}
+	.landing .social-icons .span {
+		margin-top: 20px;
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 578px) {
+	.countdown h1 {
+		font-size: 22px;
+	}
+	.clocknumber  {
+		font-size: 76px;
+	}
+	.landing .email {
+		width: 410px !important;
+	}
+}
+
+@media screen and (max-width: 526px) {
+	.countdown h1 {
+		font-size: 20px;
+	}
+	.clocknumber  {
+		font-size: 68px;
+	}
+	#clockdiv {
+		margin-top: 40px;
+		margin-bottom: 15px;
+	}
+	.landing .email {
+		width: 370px !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.countdown h1 {
+		font-size: 18px;
+	}
+	.clocknumber  {
+		font-size: 62px;
+	}
+	#clockdiv {
+		margin-top: 30px;
+		margin-bottom: 5px;
+	}
+	.landing .email {
+		width: 340px !important;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.clocknumber  {
+		font-size: 50px;
+	}
+	#clockdiv {
+		margin-top: 20px;
+	}
+	.landing .smalltext {
+		font-size: 12px;
+	}
+	.landing .email {
+		width: 280px !important;
+	}
+}
+
+@media screen and (max-width: 372px) {
+	.clocknumber  {
+		font-size: 46px;
+	}
+
+	.landing .email {
+		width: 260px !important;
+	}
+}
+
+@media screen and (max-width: 344px) {
+	.clocknumber  {
+		font-size: 40px;
+	}
+	.landing .smalltext {
+		font-size: 10px;
+		padding: 0 0 0 5px;
+	}
+	.landing .email {
+		width: 230px !important;
+	}
+}
