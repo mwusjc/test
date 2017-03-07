@@ -256,8 +256,7 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5921,23 +5920,21 @@ button.close {
 @font-face {
   font-family: 'SerifaBT-Light';
   src: url("../fonts/2F04E4_0_0.eot");
-  src: url("../fonts/2F04E4_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E4_0_0.woff2") format("woff2"), url("../fonts/2F04E4_0_0.woff") format("woff"), url("../fonts/2F04E4_0_0.ttf") format("truetype"); }
+  src: url("../fonts/2F04E4_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E4_0_0.woff") format("woff"); }
 @font-face {
   font-family: 'HelveticaNeueLT-Bold';
-  src: url("../fonts/2F04E7_0_0.eot");
-  src: url("../fonts/2F04E7_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_0_0.woff") format("woff"), url("../fonts/2F04E7_0_0.ttf") format("truetype"); }
+  src: url("../fonts/2F04E7_0_0.woff") format("woff"); }
 @font-face {
   font-family: 'HelveticaNeueLT-Roman';
   src: url("../fonts/2F04E7_1_0.eot");
-  src: url("../fonts/2F04E7_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_1_0.woff2") format("woff2"), url("../fonts/2F04E7_1_0.woff") format("woff"), url("../fonts/2F04E7_1_0.ttf") format("truetype"); }
+  src: url("../fonts/2F04E7_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_1_0.woff2") format("woff2"), url("../fonts/2F04E7_1_0.woff") format("woff"); }
 @font-face {
   font-family: 'HelveticaNeueLTStd-MdCn';
   src: url("../fonts/2F04E7_2_0.eot");
-  src: url("../fonts/2F04E7_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_2_0.woff2") format("woff2"), url("../fonts/2F04E7_2_0.woff") format("woff"), url("../fonts/2F04E7_2_0.ttf") format("truetype"); }
+  src: url("../fonts/2F04E7_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_2_0.woff2") format("woff2"), url("../fonts/2F04E7_2_0.woff") format("woff"); }
 @font-face {
   font-family: 'HelveticaNeueLTStd-Hv';
-  src: url("../fonts/2F04E7_3_0.eot");
-  src: url("../fonts/2F04E7_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/2F04E7_3_0.woff2") format("woff2"), url("../fonts/2F04E7_3_0.woff") format("woff"), url("../fonts/2F04E7_3_0.ttf") format("truetype"); }
+  src: url("../fonts/2F04E7_3_0.woff2") format("woff2"), url("../fonts/2F04E7_3_0.ttf") format("truetype"); }
 .carousel-caption, input[type="button"] {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
