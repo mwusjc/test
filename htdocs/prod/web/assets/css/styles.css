@@ -7049,6 +7049,18 @@ footer .social-icons .facebook {
   margin: 2.5px 2.5px 6px 2.5px;
 }
 
+.landing .social-icons .facebook {
+  background-image:url(../media/social/social-icon-facebook-orange.png);
+}
+
+.landing .social-icons .twitter {
+  background-image:url(../media/social/social-icon-twitter-orange.png);
+}
+
+.landing .social-icons .instagram {
+  background-image:url(../media/social/social-icon-instagram-orange.png);
+}
+
 #clockdiv {
   margin-top:80px; 
   margin-bottom:25px;

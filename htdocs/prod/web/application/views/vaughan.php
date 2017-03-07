@@ -41,9 +41,9 @@
             </form>
         </div>
         <div class="col-xs-12 col-sm-12 social-icons">
-          <a href="http://www.facebook.com/sharer.php?s=100&p[url]=http://hfstartfresh.ca" alt="facebook" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-facebook-orange.png);"></a>
-          <a href="http://twitter.com/intent/tweet?text=A+fresh+new+Highland+Farms+is+coming+to+Vaughan&hashtags=hfstartfresh" alt="twitter" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-twitter-orange.png);"></a>
-          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-instagram-orange.png);"></a><br>
+          <a href="http://www.facebook.com/sharer.php?s=100&p[url]=http://hfstartfresh.ca" alt="facebook" class="facebook"></a>
+          <a href="http://twitter.com/intent/tweet?text=A+fresh+new+Highland+Farms+is+coming+to+Vaughan&hashtags=hfstartfresh" alt="twitter" class="twitter"></a>
+          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="instagram"></a><br>
           <span class="orange-text hashtag">#hfstartfresh</h4>
         </div>
       </div>
