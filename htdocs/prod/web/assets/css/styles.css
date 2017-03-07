@@ -7013,15 +7013,15 @@ footer .social-icons a {
   float: right;
 }
 
-footer .social-icons .instagram {
+.instagram-footer {
   background-image:url(../media/social/social-icon-instagram-gray.png);
 }
 
-footer .social-icons .twitter {
+.twitter-footer {
   background-image:url(../media/social/social-icon-twitter-gray.png);
 }
 
-footer .social-icons .facebook {
+.facebook-footer {
   background-image:url(../media/social/social-icon-facebook-gray.png);
 }
 
@@ -7049,15 +7049,15 @@ footer .social-icons .facebook {
   margin: 2.5px 2.5px 6px 2.5px;
 }
 
-.landing .social-icons .facebook {
+.facebook-landing {
   background-image:url(../media/social/social-icon-facebook-orange.png);
 }
 
-.landing .social-icons .twitter {
+.twitter-landing {
   background-image:url(../media/social/social-icon-twitter-orange.png);
 }
 
-.landing .social-icons .instagram {
+.instagram-landing {
   background-image:url(../media/social/social-icon-instagram-orange.png);
 }
 

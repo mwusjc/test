@@ -3,14 +3,14 @@
     <div class="row">
 
       <div class="desktop social-icons col-xs-12 col-sm-4 pull-right">
-          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="instagram right"></a>
-          <a href="https://twitter.com/highlandfarmson" alt="twitter" class="twitter right"></a>
-          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="facebook right"></a>
+          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="instagram-footer"></a>
+          <a href="https://twitter.com/highlandfarmson" alt="twitter" class="twitter-footer"></a>
+          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="facebook-footer"></a>
       </div>
       <div class="mobile social-icons col-xs-12 col-sm-4 pull-right">
-          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="facebook right"></a>
-          <a href="https://twitter.com/highlandfarmson" alt="twitter" class="twitter right" ></a>
-          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="instagram right"></a>
+          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="facebook-footer"></a>
+          <a href="https://twitter.com/highlandfarmson" alt="twitter" class="twitter-footer" ></a>
+          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="instagram-footer"></a>
       </div>
 
       <div class="col-xs-12 col-sm-8">
