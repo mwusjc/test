@@ -3,14 +3,14 @@
     <div class="row">
 
       <div class="desktop social-icons col-xs-12 col-sm-4 pull-right">
-          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="right" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-instagram-gray.png)"></a>
-          <a href="https://twitter.com/highlandfarmson" alt="twitter" class="right" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-twitter-gray.png)"></a>
-          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="right" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-facebook-gray.png)"></a>
+          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="instagram right"></a>
+          <a href="https://twitter.com/highlandfarmson" alt="twitter" class="twitter right"></a>
+          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="facebook right"></a>
       </div>
       <div class="mobile social-icons col-xs-12 col-sm-4 pull-right">
-          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="right" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-facebook-gray.png)"></a>
-          <a href="https://twitter.com/highlandfarmson" alt="twitter" class="right" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-twitter-gray.png)"></a>
-          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="right" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-instagram-gray.png)"></a>
+          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="facebook right"></a>
+          <a href="https://twitter.com/highlandfarmson" alt="twitter" class="twitter right" ></a>
+          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="instagram right"></a>
       </div>
 
       <div class="col-xs-12 col-sm-8">

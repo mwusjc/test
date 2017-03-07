@@ -7013,6 +7013,18 @@ footer .social-icons a {
   float: right;
 }
 
+footer .social-icons .instagram {
+  background-image:url(../media/social/social-icon-instagram-gray.png);
+}
+
+footer .social-icons .twitter {
+  background-image:url(../media/social/social-icon-twitter-gray.png);
+}
+
+footer .social-icons .facebook {
+  background-image:url(../media/social/social-icon-facebook-gray.png);
+}
+
 /*Landing Page Styles*/
 .countdown .bg-primary {
   padding:12px 15px; 
