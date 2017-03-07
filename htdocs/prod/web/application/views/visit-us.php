@@ -46,7 +46,7 @@
   </div>
 </div>
 <div class="spacer"></div>
-<div class="row">
+<div class="row" id="contact">
   <div class="col-xs-12 col-sm-3">
     <h2>We're here to help.</h2>
 
