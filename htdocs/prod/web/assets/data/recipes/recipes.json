@@ -534,6 +534,42 @@
     "thumbnail":"media/recipes/rec_cream_corn_chow-tn.jpg"
   },
   {
+    "title":"Creamy Pea Soup",
+    "slug": "creamy-pea-soup",
+    "categories": [
+      {
+        "title":"Soups & Salads",
+        "slug":"soups-salads"
+      }
+    ],
+    "ingredients": "3 tablespoons unsalted butter \n1 large onion, preferably sweet (such as Vidalia), chopped \n1 tablespoon all-purpose flour \n2 medium red potatoes, peeled and diced \n4 cups low-sodium chicken broth \n1 (16 oz.) bag frozen peas, defrosted and drained \n1/2 cup heavy cream \n3 tablespoons chopped parsley \n2 tablespoons chopped dill \nSalt and pepper",
+    "instructions": "Melt butter in a Dutch oven over medium heat. Add onion and sauté until translucent and softened. Sprinkle in flour and cook, stirring frequently with a wooden spoon or heatproof spatula. Add potatoes and chicken broth and bring to a simmer. Continue to simmer mixture until potatoes are tender. Add peas and simmer for 2 minutes. Puree soup in a blender or food processor; divide into batches if necessary. Return soup to Dutch oven and stir in cream, parsley and dill. Season soup with salt and pepper and serve hot.",
+    "featuredStartDate": "2017-03-06T12:00:00-05:00",
+    "publish": true,
+    "related": [
+      {
+        "image":"media/recipes/rec_cream_corn_chow.jpg",
+        "thumbnail":"media/recipes/rec_cream_corn_chow-tn.jpg",
+        "slug": "cream-corn-chowder",
+        "title": "Cream Corn Chowder"
+      },
+      {
+        "image": "media/recipes/rec_leek_mush_lem_risott.jpg",
+        "thumbnail": "media/recipes/rec_leek_mush_lem_risott-tn.jpg",
+        "slug": "leek-mushroom-and-lemon-risotto",
+        "title": "Leek, Mushroom & Lemon Risotto"
+      },
+      {
+        "image":"media/recipes/rec_vegetables_provencal.jpg",
+        "thumbnail":"media/recipes/rec_vegetables_provencal-tn.jpg",
+        "slug": "vegetables-provencal",
+        "title": "Vegetables Provencal"
+      }
+    ],
+    "image":"media/recipes/rec_creamy_pea_soup.jpg",
+    "thumbnail":"media/recipes/rec_creamy_pea_soup-tn.jpg"
+  },
+  {
     "title":"Creme Brulee",
     "slug": "creme-brulee",
     "categories": [
@@ -2459,7 +2495,6 @@
     "image":"media/recipes/rec_cranberry-pear-salad.jpg",
     "thumbnail":"media/recipes/rec_cranberry-pear-salad-tn.jpg"
   },
-
   {
     "title":"Winter Soup",
     "slug": "winter-soup",
