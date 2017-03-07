@@ -45,12 +45,13 @@ var fl = {
     /*
     * NOTE: Temporary code for flyer week of March 2nd 2017 to March 8th 2017 - to be removed when permanent flyer logic changes take effect    */
 
-    if(fl.getWeek("current") == "20170223") {
-      var range = "Thu Feb 23 2017 - Wed Mar 01 2017";
-      return range;
-    }
     if(fl.getWeek("current") == "20170302") {
       var range = "Thu Mar 02 2017 - Wed Mar 08 2017";
+      return range;
+    }
+
+    if(fl.getWeek("current") == "20170309") {
+      var range = "Thu Mar 09 2017 - Wed Mar 15 2017";
       return range;
     }
 
@@ -144,11 +145,10 @@ var fl = {
     var nextWeek = fl.getWeek("next");
     //Check if Flyer has entered overlap period, and adjust flyers shown as well as duration dates
     $("#currentFlyer .flyerThumb").attr("src","/assets/flyers/"+currentWeek+"/mobile/page1.jpg");
-/*    $("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));*/
+    $("#currentFlyer .flyerDateRange").html(fl.getWeekRange("current"));
     $("#nextFlyer .flyerThumb").attr("src","/assets/flyers/"+nextWeek+"/mobile/page1.jpg");
-    $("#nextFlyer .flyerDateRange").html("Thu Mar 02 2017 - Wed Mar 08 2017");
-
-/*    $("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));*/
+    /* $("#nextFlyer .flyerDateRange").html("Thu Mar 02 2017 - Wed Mar 08 2017");*/
+    $("#nextFlyer .flyerDateRange").html(fl.getWeekRange("next"));
 
 
     /*
@@ -159,9 +159,9 @@ var fl = {
     if(currentWeek == "20170302") {
       $("#nextFlyer .flyerDateRange").html("Thu Mar 09 2017 - Wed Mar 15 2017");    
     } 
-    if(currentWeek == "20170223") {
-      $("#currentFlyer .flyerDateRange").html("Thu Feb 23 2017 - Wed Mar 01 2017");    
-    }
+    if(currentWeek == "20170309") {
+      $("#currentFlyer .flyerDateRange").html("Thu Mar 09 2017 - Wed Mar 15 2017");    
+    } 
 
     
 
