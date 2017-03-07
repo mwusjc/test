@@ -1,5 +1,5 @@
 /**
- *  @description: render templates or <span /> if sanity tests don't pass
+ *  @description: render templates or '<span />' if sanity tests don't pass
  **/
 
 var isArray = jQuery.isArray;
