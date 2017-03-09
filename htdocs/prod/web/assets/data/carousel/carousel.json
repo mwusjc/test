@@ -140,7 +140,7 @@
             "descriptionLeftTextMobileCSS": null,
             "descriptionRightText": "Nature Valley<br>Granola Bars 130-230g,<br>Betty Crocker Fruit Snacks<br>120-226g or Dunkaroos 130g<br>Selected Varieties",
             "descriptionRightTextCSS": "font-size: 18px;",
-            "descriptionRightTextMobileCSS": "font-size: 15px;"
+            "descriptionRightTextMobileCSS": "font-size: 12px;"
           },
           {
             "slideID": "carousel-slide6",
