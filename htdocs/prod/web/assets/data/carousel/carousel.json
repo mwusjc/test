@@ -4,7 +4,7 @@
         "slides": [
           {
             "slideID": "carousel-slide1",
-            "link": "#",
+            "link": "/vaughan",
             "desktopSlideBackground": "",
             "mobileSlideBackground": "assets/images/20170309-carousel/home_carousel_mobile-1.png",
             "backgroundSize": "cover",
@@ -12,7 +12,7 @@
             "headingContainerCSS": "margin-top: 40px; width: 100%; height: 325px; background-color: #00a64f; border-radius: 50px 50px 0 0;",
             "headingContainerMobileCSS": "position: absolute; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); width: 100%; text-align:center;",
             "heading": "how re<span style='color: #f89c1b;''>______</span>ing.",
-            "headingCSS": "position: relative; top: 40%; text-align: center; transform: translateY(-50%); font-size: 60px; line-height: 1em; letter-spacing: 1.6px; color: #ffffff; text-shadow: none;",
+            "headingCSS": "position: relative; top: 35%; text-align: center; transform: translateY(-50%); font-size: 72px; line-height: 1em; letter-spacing: 1.6px; color: #ffffff; text-shadow: none;",
             "headingMobileCSS": "display: none;",
             "subheading": "#hfstartfresh",
             "subheadingCSS": "position: relative; top: 40%; text-align: center; font-size: 24px; font-weight: 200; line-height: 2em; color: #ffffff;text-shadow: none; font-family: 'HelveticaNeueLT-Roman';",
