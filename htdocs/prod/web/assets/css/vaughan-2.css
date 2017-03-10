@@ -1,0 +1,173 @@
+.green {
+	background-color: #00a64f;
+}
+
+.orange {
+	background: #f99d1c;
+}
+
+.circle {
+	text-align: center;
+}
+
+.landing-2 .row {
+	padding: 20px;
+}
+
+.countdown h1 {
+  font-size: 46px;
+  margin-bottom: 0;
+}
+
+.countdown .title {
+	color: #00a64f;
+}
+
+.countdown .numbercontainer {
+	float: right;
+}
+
+.countdown .smalltext {
+  font-size: 12px;
+  text-align: left;
+  color: #00a64f;
+  font-family: 'HelveticaNeueLT-Bold';
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.box.rounded {
+	border-radius: 30px 30px 0 0;
+}
+
+.box.orange {
+	padding-top: 30px;
+	color: white;
+}
+
+.landing-2 .circle.green {
+	height: 300px; 
+	width: 300px; 
+	border-radius: 150px; 
+	margin-left: -80px; 
+	
+}
+
+.circle h4 {
+	color: white;
+	font-family: 'HelveticaNeueLT-Bold';
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-bottom: 0;
+}
+
+.offer .row {
+	padding: 30px 0 0 40px;
+}
+
+.offer h4 {
+	font-size: 90px;
+	font-family: 'HelveticaNeueLT-Bold';
+	margin-bottom: 0;
+}
+
+.offer h3 {
+	font-size: 29px;
+	padding-left: 5px;
+}
+
+.date h3 {
+	font-size: 45px;
+}
+
+.date a {
+	margin-top: 100px; 
+	float: right;
+}
+
+.store h1 {
+	margin-top: 30px;
+	color: #00a64f;
+	font-size: 120px;
+}
+
+.row.store-image {
+	padding: 0; 
+}
+
+.store-image .circle {
+	margin-right: -30px;
+	margin-top: -90%;
+	float: right;
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+}
+
+.store-image .circle h4 {
+	font-size: 36px;
+}
+
+.store-caption {
+	color:white; 
+	margin-left: 20px;
+	margin-top: -160px;
+	font-size: 16px;
+	font-family: 'SerifaBT-Light';
+	line-height: 1; 
+}
+
+.deli h1 {
+	color: #f99d1c;
+	font-size: 100px;
+}
+
+.intro h1 {
+	font-size: 89px;
+	margin-bottom: 30px;
+}
+
+.intro span {
+	font-size: 54px;
+}
+
+.vaughan-subscribe {
+  width: 720px;
+  height: 70px;
+  padding: 0;
+  margin: 0 auto; 
+  float: none; 
+}
+
+.vaughan-subscribe .email {
+  width: 90% !important;
+  color: black;
+}
+
+.vaughan-subscribe .subscribe-email {
+  background-color: #f99d1c !important;
+}
+
+	.vaughan-subscribe.mobile {
+		width: 100%;
+		padding: 0;
+		float: none;
+		display: inline-block !important;
+	}
+	.vaughan-subscribe.desktop {
+		display:none;
+	}
+	.landing .email {
+		width: 580px !important;
+		margin: 0 auto;
+		width: 90%;
+	}
+	.landing .subscribe-email {
+		margin-top: 10px;
+		margin-right: 0;
+	}
+	.landing .social-icons {
+		margin-top: 30px;
+	}
+}
