@@ -7001,6 +7001,16 @@ height: 210px;
   max-height: 100% !important;
 }
 
+/*Social Icons*/
+footer .social-icons a {
+  height: 32px;
+  width: 32px;
+  margin-left: 10px;
+  float: right;
+  display: inline-block;
+  background-size: cover;
+}
+
 /*This block is for details positioning on desktop environments*/
 @media (min-width: 768px) {
   .ck-details {

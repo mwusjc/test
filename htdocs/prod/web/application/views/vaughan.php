@@ -3,26 +3,43 @@
 <main class='home'>
 	<div class="row countdown">
 		<div class="col-xs-12 col-sm-12">
-      <div style="background:#00a64f; padding:12px 15px; margin:0; border-radius: 30px 30px 0 0; height: 600px;">
+      <div style="background:#00a64f; padding:12px 15px; margin:0; border-radius: 30px 30px 0 0; height: 450px;">
         <h4 style="color:white; font-size: 24px; font-family: 'HelveticaNeueLT-Bold'; padding-top: 30px" align="center">Something’s coming just around the corner</h4>
         <h4 style="color:#f99d1c; font-size: 20px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;" align="center">#hfstartfresh</h4>
         <style>
-          .smalltext {
-              color:white; font-size: 18px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: left;
-          }
           #clockdiv {
-              padding-top:30px; padding-bottom:20px;
+            margin-top:30px; margin-bottom:20px;
           }
-          @media (min-width: 650px) {
-            .clocknumber {
-            color:#f99d1c; font-size: 90px; font-family: 'HelveticaNeueLT-Bold';}
+
+          .smalltext {
+            color:white; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: left;
           }
-          @media (max-width: 450px) {
+          
+          .clocknumber {
+            color:#f99d1c; font-family: 'HelveticaNeueLT-Bold';
+          }
+          @media (min-width: 644px) {
             .clocknumber {
-              color:#f99d1c; font-size: 48px; font-family: 'HelveticaNeueLT-Bold';
+              font-size: 95px;
+            }
+            #clockdiv {
+              margin-top:60px; margin-bottom:20px;
             }
             .smalltext {
-              color:white; font-size: 12px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align: left;
+              font-size: 18px; 
+            }
+          }
+          @media (min-width: 451px) and (max-width: 643px) {
+            .clocknumber {
+              font-size: 62px;
+            }
+          }
+          @media (min-width: 356px) and (max-width: 450px) {
+            .clocknumber {
+              font-size: 48px;
+            }
+            .smalltext {
+              font-size: 12px;
             }
             #clockdiv {
               padding-top:15px; padding-bottom:10px;
@@ -30,12 +47,10 @@
           }
           @media (max-width: 355px) {
             .clocknumber {
-              color:#f99d1c; font-size: 36px; font-family: 'HelveticaNeueLT-Bold';
+              font-size: 36px;
             }
-          }
-          @media (min-width: 450px) {
-            .clocknumber {
-              color:#f99d1c; font-size: 62px; font-family: 'HelveticaNeueLT-Bold';}
+            .smalltext {
+              font-size: 11px;
             }
           }
         </style>
@@ -118,21 +133,19 @@
         <div align="center">
           <style>
             .social-icon {
-              height: 36px;
-              width: 36px;
-              margin: 1px;
+              height: 32px;
+              width: 32px;
+              margin: 2.5px;
               display: inline-block;
             }
           </style>
-          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-facebook.png); background-size: cover"></a>
-          <a href="hhttps://twitter.com/highlandfarmson" alt="twitter" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-twitter.png); background-size: cover"></a>
-          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-instagram.png); background-size: cover"></a>
+          <a href="https://www.facebook.com/HighlandFarmsON/" alt="facebook" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-facebook-orange.png); background-size: cover"></a>
+          <a href="https://twitter.com/highlandfarmson" alt="twitter" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-twitter-orange.png); background-size: cover"></a>
+          <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="social-icon" style="background-image:url(<?=site_url()?>/assets/media/social/social-icon-instagram-orange.png); background-size: cover"></a>
         </div>
       </div>
 		</div>
 	</div>
-
-	<hr class='extra-space'>
 
 </main>
 
