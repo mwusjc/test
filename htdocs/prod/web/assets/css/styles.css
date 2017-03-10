@@ -7293,11 +7293,11 @@ h2{
 	}
 }}
 
-.carousel-slide1 {
-  -moz-border-image: url('../images/burlap.png') 0 0 10 repeat;
+/*   .carousel-slide1 {
+-moz-border-image: url('../images/burlap.png') 0 0 10 repeat;
   -webkit-border-image: url('../images/burlap.png') 0 0 10 repeat;
   -o-border-image: url('../images/burlap.png') 0 0 10 repeat;
-  border-image: url('../images/burlap.png') 0 0 10 repeat;
+  border-image: url('../images/burlap.png') 0 0 10 repeat; 
   border-width: 0px 0px 10px;
   border-style:solid;
   border-top:0;
@@ -7305,9 +7305,9 @@ h2{
   border-right:0;
   position: relative;
   top: -10px;
-}
+}*/
 
-.carousel-slide2, .carousel-slide3, .carousel-slide4, .carousel-slide5, .carousel-slide6 {
+.carousel-slide1, .carousel-slide2, .carousel-slide3, .carousel-slide4, .carousel-slide5, .carousel-slide6 {
   border-bottom: 8.75px solid white;
 }
 
