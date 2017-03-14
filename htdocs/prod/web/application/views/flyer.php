@@ -117,7 +117,7 @@
       $("body").on('click','#nextFlyer', function() {
         fl.loadData(fl.getWeek("next"),"desktop");
         fl.loadData(fl.getWeek("next"),"mobile");
-        $(".currentFlyerDateRange").html("Thu Mar 09 2017 - Wed Mar 15 2017");
+        $(".currentFlyerDateRange").html("Thu Mar 16 2017 - Wed Mar 22 2017");
         
        /* $(".currentFlyerDateRange").html(fl.getWeekRange("next"));*/
         
