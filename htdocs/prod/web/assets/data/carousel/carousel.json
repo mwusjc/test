@@ -55,7 +55,7 @@
             "badges":[
 
             ],
-            "descriptionLeftText":"Fresh Beef<br>Boneless Outside Round Roast<br>Product of Canada",
+            "descriptionLeftText":"Fresh Beef<br>Boneless Outside Round <br class='mobile'>Roast <br class='desktop'>Product of Canada",
             "descriptionLeftTextCSS":"font-size: 18px; left: 5px; bottom: 20px;",
             "descriptionLeftTextMobileCSS":"font-size: 14px; left: 17px; bottom: 15px",
             "descriptionRightText":null,
@@ -150,7 +150,7 @@
             "descriptionLeftTextMobileCSS":null,
             "descriptionRightText":"Pillsbury<br>Pizza Pops 400g,<br>Crispy Crust Pizza 278-309g<br>or Toaster Strudel 326g<br>Assorted Varieties",
             "descriptionRightTextCSS":"font-size: 18px;",
-            "descriptionRightTextMobileCSS":"font-size: 13px; padding-bottom:20px"
+            "descriptionRightTextMobileCSS":"font-size: 12px; padding-bottom:20px"
          },
          {
             "slideID":"carousel-slide6",
