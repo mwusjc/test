@@ -150,7 +150,7 @@
             "descriptionLeftTextMobileCSS":null,
             "descriptionRightText":"Pillsbury<br>Pizza Pops 400g,<br>Crispy Crust Pizza 278-309g<br>or Toaster Strudel 326g<br>Assorted Varieties",
             "descriptionRightTextCSS":"font-size: 18px;",
-            "descriptionRightTextMobileCSS":"font-size: 15px; padding-bottom:20px"
+            "descriptionRightTextMobileCSS":"font-size: 13px; padding-bottom:20px"
          },
          {
             "slideID":"carousel-slide6",
