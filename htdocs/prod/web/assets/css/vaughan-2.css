@@ -53,6 +53,30 @@
 	
 }
 
+.landing-3 .circle.green {
+	float: right; 
+	height: 200px;
+	width: 200px;
+	border-radius: 100px; 
+	margin-right: -40px;
+	margin-top: -65%
+}
+
+.landing-3 .circle.green h4 {
+	font-size: 36px;
+	margin-top: 10px;
+}
+
+.landing-3 .circle.green h4 span:first-child {
+	font-size: 42px;
+}
+
+.landing-3 .circle.green h4 span:last-child {
+	font-size: 20px;
+	position: relative;
+	top: -10px;
+}
+
 .circle h4 {
 	color: white;
 	font-family: 'HelveticaNeueLT-Bold';
@@ -63,7 +87,11 @@
 }
 
 .offer .row {
-	padding: 30px 0 0 40px;
+	padding: 40px 0 0 40px;
+}
+
+.offer .row.details {
+	padding: 0px 0 0 40px;
 }
 
 .offer h4 {
@@ -77,19 +105,26 @@
 	padding-left: 5px;
 }
 
-.date h3 {
-	font-size: 45px;
+.calendar h3 {
+	font-size: 40px;
 }
 
-.date a {
+.calendar a {
 	margin-top: 100px; 
-	float: right;
+	float: left;
+	margin-top: 45px;
 }
 
 .store h1 {
 	margin-top: 30px;
 	color: #00a64f;
-	font-size: 120px;
+	font-size: 100px;
+}
+
+.produce h1 {
+	margin-top: 30px;
+	color: #00a64f;
+	font-size: 96px;
 }
 
 .row.store-image {
@@ -111,11 +146,20 @@
 
 .store-caption {
 	color:white; 
-	margin-left: 20px;
-	margin-top: -160px;
-	font-size: 16px;
+	margin-left: 70px;
+	margin-top: -190px;
+	font-size: 32px;
 	font-family: 'SerifaBT-Light';
 	line-height: 1; 
+}
+
+.deli-header {
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+.landing-3 {
+	margin-top: 30px;
 }
 
 .deli h1 {
@@ -123,13 +167,21 @@
 	font-size: 100px;
 }
 
+.deli p, .produce p {
+	color:black;
+	font-size: 20px;
+	font-family: 'SerifaBT-Light';
+}
+
+.landing-3 
+
 .intro h1 {
-	font-size: 89px;
+	font-size: 89px !important; 
 	margin-bottom: 30px;
 }
 
 .intro span {
-	font-size: 54px;
+	font-size: 47px;
 }
 
 .vaughan-subscribe {
