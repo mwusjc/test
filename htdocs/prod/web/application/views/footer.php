@@ -46,14 +46,18 @@
 <script src="/bower_components/fetch/fetch.js?rev=e96d24cf1ba1e3f43912cbe7a6ffbc7f"></script>
 
 <script type='text/javascript'>
+    /*
   jQuery(document).ready(function($) {
     sl.init();
     $("body").on("click", ".menu-toggle", function(){
       $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
     });
+
     carousel.currentTime = new Date();
     carousel.init(carousel.currentTime);
+
   });
+    */
 </script>
 <!-- Google Code for Remarketing Tag -->
 <!--

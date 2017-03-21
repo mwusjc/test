@@ -2,13 +2,12 @@ var fl = {
   init: function(){
     if (window.innerWidth > 677){
       this.loadData(fl.getWeek("current"),"desktop");
-      $(".flyer.desktop .item").first().addClass("active");
+      //$(".flyer.desktop .item").first().addClass("active");
     }
     else{
-          this.loadData(fl.getWeek("current"),"mobile");
-          $(".flyer.mobile .item").first().addClass("active");
+      this.loadData(fl.getWeek("current"),"mobile");
+      $(".flyer.mobile .item").first().addClass("active");
     }
-
     this.checkOverlapDay();
   },
   getWeek: function(week){
