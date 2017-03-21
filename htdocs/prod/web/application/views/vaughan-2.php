@@ -99,10 +99,10 @@
     </div>
     <div class="col-md-6">
       <div class="row">
-      <h1 style="font-size: 100px; font-family: 'HelveticaNeueLT-Bold'">Live and eat well</h1>
+      <h1>Live and eat well</h1>
       </div>
       <div class="row">
-        <p style="color:black; font-size: 20px; font-family: 'SerifaBT-Light';" >We know how important health and wellness is to our customers. That’s why our new store features a huge selection of gluten-free, natural and organic products.</p>
+        <p>We know how important health and wellness is to our customers. That’s why our new store features a huge selection of gluten-free, natural and organic products.</p>
     </div>
   </div>
 </main>
@@ -112,25 +112,21 @@
   </div>
 </div>
 <main class="landing-4">
-  <div class="row">
-    <h1 style="color: #f99d1c; font-size: 100px; font-family: 'HelveticaNeueLT-Bold'">Freshly prepared</h1>
-  </div>
-  <div class="row">
-    <p style="color:black; font-size: 20px; font-family: 'SerifaBT-Light';" >Don’t worry if you’re running a little late. Our talented cooks whip up fresh and delicious meals such as chicken, ribs, pasta and a variety of sides – all ready to serve at a low price 
+  <div class="row prepared">
+    <h1>Freshly prepared</h1><br>
+    <p>Don’t worry if you’re running a little late. Our talented cooks whip up fresh and delicious meals such as chicken, ribs, pasta and a variety of sides – all ready to serve at a low price 
 and great taste. Let us take care of dinner tonight!</p>
   </div>
   <div class="row aisle">
   <img src="<?=site_url()?>/assets/media/vaughan/aisle.jpg" style="width: 100%; height: auto;"><br>
-  <h1 style="color: #00a64f; font-size: 100px; font-family: 'HelveticaNeueLT-Bold'">Great prices in every aisle</h1>    
-  <p style="color:black; font-size: 20px; font-family: 'SerifaBT-Light';" >Get competitive prices on thousands of brand names throughout the store.</p>
+  <h1>Great prices in every aisle</h1>    
+  <p>Get competitive prices on thousands of brand names throughout the store.</p>
     <hr>
   </div>
-  <div class="row">
-    <h1 style="color: #f99d1c; font-size: 54px; font-family: 'HelveticaNeueLT-Bold'">Look for our deals... at your fingertips!</h1>
-  </div>
-  <div class="row">
-    <p style="color:black; font-size: 20px; font-family: 'SerifaBT-Light';" >Great deals and savings every week! Subscribe to our e-flyer.</p>
-  <div class="col-xs-8 col-sm-8 col-md-offset-2">
+  <div class="row flyer-deals">
+    <h1>Look for our deals... at your fingertips!</h1>
+    <p>Great deals and savings every week! Subscribe to our e-flyer.</p>
+  <div class="col-xs-8 col-sm-8 col-md-offset-2 vaughan-subscribe-2 desktop">
         <!-- Begin MailChimp Signup Form -->
             <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                 <input type="email" value="" name="EMAIL" style="width:97%" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
@@ -138,6 +134,16 @@ and great taste. Let us take care of dinner tonight!</p>
                 <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email sticky right green" style="background-color:#f99d1c">
             </form>
         </div>
+    <div class="vaughan-subscribe-2 mobile">
+        <!-- Begin MailChimp Signup Form -->
+            <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                <input type="email" value="" name="EMAIL" style="width:100%" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
+                <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email" style="background-color:#f99d1c">
+            </form>
+        </div>
+  </div>
+
   </div>
   <div class="row">
     <div class="col-xs-12 col-sm-12 social-icons" align="center">

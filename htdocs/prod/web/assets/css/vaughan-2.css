@@ -144,12 +144,12 @@
 	margin-top: 30px;
 }
 
-.deli h1 {
+.deli h1, .prepared h1 {
 	color: #f99d1c;
 	font-size: 100px;
 }
 
-.deli p, .produce p {
+.deli p, .produce p, .prepared p, .aisle p, .flyer-deals p {
 	color:black;
 	font-size: 20px;
 	font-family: 'SerifaBT-Light';
@@ -157,7 +157,7 @@
 
 .produce, .organic, .country-kitchen-header, .aisle {padding-top:70px;}
 
-.produce h1 {
+.produce h1, .aisle h1 {
 	margin-top: 30px;
 	color: #00a64f;
 	font-size: 96px;
@@ -190,6 +190,14 @@
 .organic .col-md-6 .row {
 	padding-left: 30px;
 }
+.organic h1 {
+	font-size: 100px;
+}
+
+.organic p {
+	font-size: 20px;
+	font-family: 'SerifaBT-Light';
+}
 
 .aisle h1 {padding-top: 50px;}
 
@@ -199,6 +207,11 @@
 	border-color: #00a64f;;
 }
 
+.flyer-deals h1 {
+	color: #f99d1c;
+	font-size: 54px;
+	font-family: 'HelveticaNeueLT-Bold'
+}
 .vaughan-subscribe {
   width: 720px;
   height: 70px;
@@ -221,10 +234,6 @@
 	padding: 0;
 	float: none;
 	display: inline-block !important;
-}
-
-.vaughan-subscribe.desktop {
-	display:none;
 }
 
 .landing .email {
@@ -303,7 +312,16 @@
   	.organic .col-md-6:nth-child(2) {
   		padding-top: 50px;
   	}
-
+  	.landing-4 {
+  		margin-top: 30px;
+  		padding-top: 0;
+  	}
+  	.flyer-deals h1 {
+		font-size: 51px;
+	}
+	.vaughan-subscribe-2.desktop {
+	margin-left: 16.66667%;
+	}
 }
 
 @media screen and (max-width: 945px) {
@@ -350,6 +368,9 @@
 	.produce h1 {
 		font-size: 88px;
 	}
+	.flyer-deals h1 {
+		font-size: 50px;
+	}
 }
 
 @media screen and (max-width: 935px) {
@@ -389,6 +410,9 @@
 	.countdown h1 {
   		font-size: 40px;
   	}
+  	.countdown .smalltext {
+  		font-size: 11px;
+  	}
 	.intro h1 {
 		font-size: 76px;
 	}
@@ -410,10 +434,641 @@
 		border-radius: 120px; 
 		margin-left: 0px; 
 	}
+	.offer h4 {
+  		font-size: 76px;
+  	}
+  	.offer h3 {
+  		font-size: 22px;
+  	}
 	.calendar h3 {
   		font-size: 32px;
   	}
 	.store h1 {
 		font-size: 84px;
+	}
+	.prepared h1 {
+		font-size: 90px;
+	}
+}
+
+@media screen and (max-width: 845px) {
+	.offer .circle.green {
+		height: 200px; 
+		width: 200px; 
+		border-radius: 100px; 
+		margin-left: 0px; 
+	}
+	.offer h4 {
+  		font-size: 70px;
+  	}
+  	.offer h3 {
+  		font-size: 20px;
+  	}
+  	.store h1 {
+		font-size: 79px;
+	}
+	.organic h1 {
+		font-size: 90px;
+	}
+}
+
+@media screen and (max-width: 805px) {
+	.intro h1 {
+		font-size: 64px;
+	}
+	.intro span {
+		font-size: 34px;
+	}
+	.offer .col-md-9 {
+		right: 30px;
+	}
+	.offer .row {
+		padding: 20px 0 0 0;
+	}
+	.offer .row.details {
+		padding: 0;
+	}
+	.offer .col-xs-6 {
+  		width: 240px;
+  	}
+  	.calendar .col-md-4 {
+  		right: 10px;
+  	}
+  	.calendar h3 {
+  		font-size: 30px;
+  	}
+  	.store h1 {
+		font-size: 75px;
+	}
+	.prepared h1 {
+		font-size: 82px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.countdown div {
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.intro .col-sm-12 {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#clockdiv {
+		float: right;
+		width: 40%;
+	}
+	.title {
+		top: -15px;
+		width: 60%;
+	}
+	.intro h1 {
+		font-size: 56px;
+		margin-bottom: 0;
+	}
+	.intro div:first-child {
+		margin-bottom: 0;
+	}
+	.intro span {
+		font-size: 29px;
+	}
+	.offer .circle.green {
+		margin-left: -20px; 
+		margin-bottom: 0;
+	}
+	.offer .col-md-9 {
+		right: 0;
+		margin-bottom: 10px;
+	}
+	.offer h4 {
+		font-size: 64px;
+	}
+	.offer h3 {
+		font-size: 18px;
+	}
+	.offer .col-xs-6 {
+  		width: 200px;
+  		margin-bottom: 0;
+  	}
+  	.calendar h3 {
+  		font-size: 24px;
+  	}
+  	.calendar .col-md-8 {
+  		padding-left: 20px;
+  		width: 360px;
+  	}
+  	.calendar .col-md-4 {
+  		right: -5px;
+  		margin-top: -25px;
+  	}
+  	.store .col-md-12, .deli h1, .deli p, .produce h1, .produce p, .landing-4 h1, .landing-4 p {
+  		padding: 0 20px 0 20px;
+  	}
+  	.vaughan-subscribe-2.desktop {
+  		width: 100%;
+  	}
+  	.store h1 {
+		font-size: 64px;
+	}
+	.store-caption {
+		margin-left: 50px;
+		margin-top: -170px;
+		font-size: 28px;
+	}
+	.deli h1 {
+		font-size: 90px;
+	}
+	.landing-3 {
+		margin-top: 0;
+	}
+	.organic h1 {
+		font-size: 76px;
+	}
+	.organic .col-md-6:nth-child(2) {
+		padding-top: 30px;
+	}
+	.country-kitchen-header {
+		padding-top: 30px;
+	}
+	.prepared h1 {
+		font-size: 76px;
+		padding-top: 0;
+	}
+	.organic .col-md-6:first-child {
+		margin-bottom: 0;
+	}
+
+}
+
+@media screen and (max-width: 735px) {
+	.intro h1 {
+		font-size: 54px;
+		margin-bottom: 0;
+	}
+	.intro span {
+		font-size: 26px;
+	}
+	.offer h4 {
+		font-size: 50px;
+	}
+	.offer h3 {
+		font-size: 14px;
+	}
+	.offer .col-xs-6 {
+		width: 180px;
+	}
+	.offer .col-md-9 {
+		top: 30px;
+	}
+	.calendar .col-md-8 {
+		width: 320px;
+	}
+	.calendar h3 {
+		font-size: 20px;
+	}
+	.store h1 {
+		font-size: 60px;
+	}
+	.organic h1 {
+		font-size: 70px;
+	}
+	.prepared h1 {
+		font-size: 70px;
+	}
+	.aisle h1 {
+		font-size: 90px;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.intro h1 {
+		font-size: 50px;
+	}
+	.calendar .col-md-8 {
+		width: 290px;
+	}
+	.calendar h3 {
+		font-size: 18px;
+	}
+	.store h1 {
+		font-size: 55px;
+	}
+	.store-image .circle {
+		margin-top: -95%;
+	}
+	.store-caption {
+		margin-left: 40px;
+		margin-top: -150px;
+		font-size: 24px;
+	}
+	.deli h1 {
+		font-size: 80px;
+	}
+	.organic h1 {
+		font-size: 66px;
+	}
+	.prepared h1 {
+		font-size: 66px;
+	}
+}
+
+@media screen and (max-width: 652px) {
+	.offer .col-md-9 {
+		margin-top: -10px;
+		top: 0px;
+		margin-bottom: 0;
+	}
+	.calendar {
+		margin-top: -100px;
+	}
+	.calendar .col-md-8 {
+		right: 24px;
+		float: right;
+		width: 340px;
+	}
+	.calendar .col-md-4 a{
+		margin-top: 10px;
+	}
+	.aisle h1 {
+		font-size: 82px;
+	}
+}
+
+@media screen and (max-width: 648px) {
+	.title {
+		width: 100%;
+	}
+	#clockdiv {
+		margin-top: 0;
+		width: 100%;
+	}
+	.countdown div.numbercontainer {
+		margin-top: 0;
+	}
+	.offer .circle.green {
+		height: 200px; 
+		width: 200px; 
+		border-radius: 100px; 
+		margin-left: -30px; 
+	}
+	.calendar .col-md-8 {
+		margin-top:-10px;
+	}
+	.offer .col-xs-6 {
+		padding-right: 0;
+	}
+	.offer h4 {
+		font-size: 48px;
+	}
+	.offer h3 {
+		font-size: 12px;
+	}
+	.produce .circle.green {
+		float: right; 
+		height: 180px;
+		width: 180px;
+		border-radius: 90px; 
+	}
+	.produce .circle.green h4 {
+		font-size: 32px;
+		margin-top: 10px;
+	}
+	.produce .circle.green h4 span:first-child {
+		font-size: 37px;
+	}
+	.produce .circle.green h4 span:last-child {
+		font-size: 18px;
+		position: relative;
+	}
+	.organic h1 {
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 635px) {
+	.intro h1 {
+		font-size: 48px;
+		margin-bottom: 0;
+	}
+	.intro span {
+		font-size: 25px;
+	}
+	.offer .col-xs-6 {
+		width: 160px;
+	}
+	.calendar .col-md-8 {
+		width: 300px;
+	}
+	.store h1 {
+		font-size: 52px;
+	}
+	.produce h1 {
+		font-size: 80px;
+	}
+	.prepared h1 {
+		font-size: 60px;
+	}
+}
+
+@media screen and (max-width: 612px) {
+	.intro h1 {
+		font-size: 47px;
+	}
+	.intro span {
+		font-size: 24px;
+	}
+	.store-image .circle {
+		margin-top: -98%;
+	}
+	.deli h1 {
+		font-size: 70px;
+	}
+	.row.produce {
+		padding-top: 30px;
+	}
+	.produce .circle.green {
+		float: right; 
+		height: 140px;
+		width: 140px;
+		border-radius: 70px; 
+	}
+	.produce .circle.green h4 {
+		font-size: 26px;
+		margin-top: 10px;
+	}
+	.produce .circle.green h4 span:first-child {
+		font-size: 30px;
+	}
+	.produce .circle.green h4 span:last-child {
+		font-size: 15px;
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 596px) {
+	.intro div:first-child {
+		padding: 30px 0 0 0;
+	}
+	.intro h1 {
+		font-size: 46px;
+		margin-bottom: 0;
+	}
+	.intro span {
+		font-size: 24px;
+	}
+	.offer .col-md-9 {
+		right: -5px;
+		padding: 0;
+	}
+	.calendar .col-md-8 {
+		right: -15px;
+		padding: 0;
+	}
+
+	.offer .circle.green {
+		margin-left: -50px; 
+	}
+	.store h1 {
+		font-size: 46px;
+	}
+	.store-caption {
+		margin-left: 30px;
+		margin-top: -120px;
+		font-size: 20px;
+	}
+	.produce h1 {
+		font-size: 76px;
+	}
+	.organic h1 {
+		font-size: 54px;
+	}
+	.prepared h1 {
+		font-size: 54px;
+	}
+	.aisle h1 {
+		font-size: 75px;
+	}
+	.flyer-deals h1 {
+		font-size: 48px;
+	}
+}
+
+@media screen and (max-width: 545px) {
+	.intro h1 {
+		font-size: 40px;
+	}
+	.intro span {
+		font-size: 21px;
+	}
+	.offer .circle.green {
+		height: 180px; 
+		width: 180px; 
+		border-radius: 90px; 
+		margin-left: -40px; 
+	}
+	.store h1 {
+		font-size: 44px;
+	}
+	.store-image .circle {
+		margin-top: -102%;
+	}
+	.deli h1 {
+		font-size: 62px;
+	}
+	.produce h1 {
+		font-size: 70px;
+	}
+	.organic {
+		padding-top: 30px;
+	}
+	.organic h1 {
+		font-size: 48px;
+	}
+	.aisle h1 {
+		font-size: 70px;
+	}
+	.flyer-deals h1 {
+		font-size: 46px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.offer .circle.green {
+		height: 160px; 
+		width: 160px; 
+		border-radius: 80px; 
+		margin-left: -50px; 
+	}
+	.offer .col-md-9 {
+		top: -20px;
+	}
+	.store h1 {
+		font-size: 40px;
+	}
+	.store-image .circle {
+		margin-top: -105%;
+	}
+	.produce h1 {
+		font-size: 66px;
+	}
+	.prepared h1 {
+		font-size: 46px;
+	}
+	.aisle h1 {
+		font-size: 66px;
+	}
+	.flyer-deals h1 {
+		font-size: 44px;
+	}
+}
+
+@media screen and (max-width: 486px) {
+	.intro h1 {
+		font-size: 38px;
+		margin-bottom: 0;
+	}
+	.intro span {
+		font-size: 20px;
+	}
+	.offer .circle.green {
+		height: 140px; 
+		width: 140px; 
+		border-radius: 70px; 
+	}
+	.offer .circle.green h4 {
+		font-size: 40px;
+	}
+	.store h1 {
+		font-size: 38px;
+	}
+	.store-image .circle {
+		height: 180px;
+		width: 180px;
+		border-radius: 90px;
+	}
+
+	.store-image .circle h4 {
+		font-size: 32px;
+	}
+	.deli h1 {
+		font-size: 60px;
+	}
+	.produce h1, .aisle h1 {
+		font-size: 60px;
+	}
+	.organic h1 {
+		font-size: 44px;
+	}
+	.flyer-deals h1 {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 463px) {
+	.offer .col-md-9 .row:first-child {
+		margin-top:0px;
+	}
+	.offer .col-xs-6 {
+		width: 140px;
+		right: 20px;
+	}
+	.calendar .col-md-8 {
+		top: 10px;
+		width: 278px;
+	}
+	.store h1 {
+		font-size: 36px;
+	}
+	.store-caption {
+		margin-left: 20px;
+		margin-top: -100px;
+		font-size: 18px;
+	}
+	.deli h1 {
+		font-size: 54px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.intro h1 {
+		font-size: 36px;
+	}
+	.store h1 {
+		font-size: 28px;
+	}
+	.store-caption {
+		margin-left: 10px;
+		margin-top: -90px;
+		font-size: 14px;
+	}
+	.store-image .circle {
+		height: 150px;
+		width: 150px;
+		border-radius: 75px;
+	}
+	.store-image .circle h4 {
+		font-size: 30px;
+	}
+	.deli h1 {
+		font-size: 44px;
+	}
+	.produce h1, .aisle h1 {
+		font-size: 48px;
+	}
+	.organic h1 {
+		font-size: 40px;
+	}
+	.flyer-deals h1 {
+		font-size: 36px;
+	}
+}
+
+
+@media screen and (max-width: 350px) {
+	.intro h1 {
+		font-size: 26px;
+		margin-bottom: 0;
+	}
+	.intro span {
+		font-size: 18px;
+	}
+	.offer .col-xs-6 {
+		width: 120px;
+	}
+	.offer h4 {
+		font-size: 40px;
+	}
+	.offer h3 {
+		font-size: 12px;
+	}
+	.offer .col-md-9 {
+		float: left;
+		left: 20px;
+	}
+	.calendar .col-md-8 {
+		float: left;
+		left: 0px;
+	}
+	.store-caption {
+		margin-left: 0px;
+		margin-top: -70px;
+		font-size: 12px;
+	}
+	.store-image .circle {
+		height: 140px;
+		width: 140px;
+		border-radius: 70px;
+	}
+	.store-image .circle h4 {
+		font-size: 28px;
+	}
+	.deli h1 {
+		font-size: 40px;
+	}
+	.produce h1, .aisle h1 {
+		font-size: 40px;
+	}
+	.flyer-deals h1 {
+		font-size: 28px;
 	}
 }
