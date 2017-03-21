@@ -1,12 +1,54 @@
+.countdown h1 {
+  letter-spacing: 0px;
+  font-size: 34px;
+  padding-top: 30px;
+}
+
+#clockdiv {
+  margin-top:80px; 
+  margin-bottom:25px;
+}
+
+.countdown .smalltext {
+  font-size: 18px;
+  padding: 10px 0 0 5px;
+  text-align: left;
+}
+
+.clocknumber {
+  font-size: 132px;
+}
+
+.numbercontainer {
+  display: inline-block;
+}
+
+.vaughan-subscribe {
+  width: 720px;
+  height: 70px;
+  padding: 0;
+  margin: 0 auto; 
+  float: none; 
+}
+
+.vaughan-subscribe .email {
+  width: 90% !important;
+  color: black;
+}
+
+.vaughan-subscribe .subscribe-email {
+  background-color: #f99d1c !important;
+}
+
 @media screen and (max-width: 768px) {
-	.countdown h1 {
+	.landing .countdown h1 {
 		font-size: 28px;
 	}
-	#clockdiv {
+	.landing #clockdiv {
 		margin-top: 65px;
 		margin-bottom: 20px;
 	}
-	.clocknumber  {
+	.landing .clocknumber  {
 		font-size: 108px;
 	}
 	.vaughan-subscribe.mobile {
@@ -33,13 +75,13 @@
 }
 
 @media screen and (max-width: 720px) {
-	.countdown h1 {
+	.landing .countdown h1 {
 		font-size: 26px;
 	}
-	.clocknumber  {
+	.landing .clocknumber  {
 		font-size: 100px;
 	}
-	#clockdiv {
+	.landing #clockdiv {
 		margin-top: 55px;
 	}
 	.landing .email {
@@ -49,10 +91,10 @@
 }
 
 @media screen and (max-width: 670px) {
-	.countdown h1 {
+	.landing .countdown h1 {
 		font-size: 22px;
 	}
-	.clocknumber  {
+	.landing .clocknumber  {
 		font-size: 85px;
 	}
 	.landing .smalltext {
@@ -61,7 +103,7 @@
 	.landing .email {
 		width: 460px !important;
 	}
-	#clockdiv {
+	.landing #clockdiv {
 		margin-top: 45px;
 		margin-bottom: 10px;
 	}
@@ -72,10 +114,10 @@
 }
 
 @media screen and (max-width: 578px) {
-	.countdown h1 {
+	.landing .countdown h1 {
 		font-size: 19px;
 	}
-	.clocknumber  {
+	.landing .clocknumber  {
 		font-size: 72px;
 	}
 	#clockdiv {
@@ -87,13 +129,13 @@
 }
 
 @media screen and (max-width: 520px) {
-	.countdown h1 {
+	.landing .countdown h1 {
 		font-size: 18px;
 	}
-	.clocknumber  {
+	.landing .clocknumber  {
 		font-size: 68px;
 	}
-	#clockdiv {
+	.landing #clockdiv {
 		margin-top: 40px;
 		margin-bottom: 15px;
 	}
@@ -103,10 +145,10 @@
 }
 
 @media screen and (max-width: 477px) {
-	.clocknumber  {
+	.landing .clocknumber  {
 		font-size: 56px;
 	}
-	#clockdiv {
+	.landing #clockdiv {
 		margin-top: 30px;
 		margin-bottom: 5px;
 	}
@@ -116,10 +158,10 @@
 }
 
 @media screen and (max-width: 406px) {
-	.clocknumber  {
+	.landing .clocknumber  {
 		font-size: 50px;
 	}
-	#clockdiv {
+	.landing #clockdiv {
 		margin-top: 25px;
 	}
 	.landing .smalltext {
@@ -131,7 +173,7 @@
 }
 
 @media screen and (max-width: 370px) {
-	.clocknumber  {
+	.landing .clocknumber  {
 		font-size: 40px;
 	}
 	.landing .smalltext {
@@ -142,3 +184,4 @@
 		width: 230px !important;
 	}
 }
+

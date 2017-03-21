@@ -7028,11 +7028,7 @@ footer .social-icons a {
   border-radius: 30px 30px 0 0; 
   height: 450px;
 }
-.countdown h1 {
-  letter-spacing: 0px;
-  font-size: 34px;
-  padding-top: 30px;
-}
+
 .orange-text {
   color: #f99d1c;
 }
@@ -7056,40 +7052,6 @@ footer .social-icons a {
 
 .instagram-landing {
   background-image:url(../media/social/social-icon-instagram-orange.png);
-}
-
-#clockdiv {
-  margin-top:80px; 
-  margin-bottom:25px;
-}
-
-.numbercontainer {
-  display: inline-block;
-}
-
-.countdown .smalltext {
-  font-size: 18px;
-  padding: 10px 0 0 5px;
-  text-align: left;
-}
-
-.clocknumber {
-  font-size: 132px;
-}
-
-.vaughan-subscribe {
-  width: 720px;
-  height: 70px;
-  padding: 0;
-  margin: 0 auto; 
-  float: none; 
-}
-.vaughan-subscribe .email {
-  width: 90% !important;
-  color: black;
-}
-.vaughan-subscribe .subscribe-email {
-  background-color: #f99d1c !important;
 }
 
 /*This block is for details positioning on desktop environments*/
@@ -7293,11 +7255,11 @@ h2{
 	}
 }}
 
-.carousel-slide1 {
-  -moz-border-image: url('../images/burlap.png') 0 0 10 repeat;
+/*   .carousel-slide1 {
+-moz-border-image: url('../images/burlap.png') 0 0 10 repeat;
   -webkit-border-image: url('../images/burlap.png') 0 0 10 repeat;
   -o-border-image: url('../images/burlap.png') 0 0 10 repeat;
-  border-image: url('../images/burlap.png') 0 0 10 repeat;
+  border-image: url('../images/burlap.png') 0 0 10 repeat; 
   border-width: 0px 0px 10px;
   border-style:solid;
   border-top:0;
@@ -7305,9 +7267,9 @@ h2{
   border-right:0;
   position: relative;
   top: -10px;
-}
+}*/
 
-.carousel-slide2, .carousel-slide3, .carousel-slide4, .carousel-slide5, .carousel-slide6 {
+.carousel-slide1, .carousel-slide2, .carousel-slide3, .carousel-slide4, .carousel-slide5, .carousel-slide6 {
   border-bottom: 8.75px solid white;
 }
 
