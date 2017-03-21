@@ -194,7 +194,7 @@
           "brands": [""],
           "category": "produce",
           "summary": "",
-          "packaging":"bunch",
+          "packaging":"each",
           "pricing":"$1.99",
           "comments":""
         },
@@ -300,8 +300,8 @@
         {
           "image":"Nathans-pickles.jpg",
           "coords":[768,276,101,117],
-          "name": "Nathan's New York Style Pickles",
-          "brands": ["Nathan's"],
+          "name": "Nathan&rsquo;s New York Style Pickles",
+          "brands": ["Nathan&rsquo;s"],
           "category": "dairy",
           "summary": "",
           "packaging":"710ml-1L",
