@@ -110,14 +110,14 @@
         fl.loadData(fl.getWeek("current"),"desktop");
         fl.loadData(fl.getWeek("current"),"mobile");
         /* $(".currentFlyerDateRange").html("Thu Feb 23 2017 - Wed Mar 01 2017");*/
-        $(".currentFlyerDateRange").html(fl.getWeekRange("Thu Mar 09 2017 - Wed Mar 15 2017"));
+        $(".currentFlyerDateRange").html(fl.getWeekRange("Thu Mar 16 2017 - Wed Mar 22 2017"));
       /* $(".currentFlyerDateRange").html(fl.getWeekRange("current")); */
         $(".currentFlyerDateRangeTitle").html("Current Flyer");
       });
       $("body").on('click','#nextFlyer', function() {
         fl.loadData(fl.getWeek("next"),"desktop");
         fl.loadData(fl.getWeek("next"),"mobile");
-        $(".currentFlyerDateRange").html("Thu Mar 16 2017 - Wed Mar 22 2017");
+        $(".currentFlyerDateRange").html("Thu Mar 23 2017 - Wed Mar 29 2017");
         
        /* $(".currentFlyerDateRange").html(fl.getWeekRange("next"));*/
         
