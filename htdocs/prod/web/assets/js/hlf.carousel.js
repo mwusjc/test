@@ -1,5 +1,3 @@
-
-
 var carousel = {
   init: function(currentTime) {
     this.loadData();
@@ -92,16 +90,11 @@ var carousel = {
   }
 }
 
-
-
 jQuery(document).ready(function($) {
     sl.init();
     $("body").on("click", ".menu-toggle", function(){
         $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
     });
-
     carousel.currentTime = new Date();
     carousel.init(carousel.currentTime);
-
 });
-
