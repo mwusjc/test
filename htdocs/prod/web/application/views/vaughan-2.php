@@ -25,10 +25,10 @@
      </div>
   </div>
   <div class="row box orange rounded intro">
-    <div class="col-xs-12 col-sm-12"><h1>Join us Friday,<br>
-    March 31 at 10am for<br>
-    our Grand Opening!</h1></div>
     <div class="col-xs-12 col-sm-12">
+    <h1>Join us Friday,<br>
+    March 31 at 10am for<br>
+    our Grand Opening!</h1><br>
     <span style="font-family: 'SerifaBT-Light';" align="center">9940 Dufferin St. at Major MacKenzie Dr. W.</span>
     </div>
   </div>
@@ -87,34 +87,31 @@
     <h1>Freshly sliced</h1>
     <p>Shop our legendary selection of meats and cheeses inspired by flavours from around the world. Everything is cut-to-order by our friendly staff. You’ll also find a mouth-watering selection of olives, antipastos and fresh deli salads.</p>
   </div>
-  <div class="row">
+  <div class="row produce">
     <img src="<?=site_url()?>/assets/media/vaughan/apples.jpg" style="width: 100%; height: auto;">
     <div class="col-md-3 green circle"><h4><span>FARM</span><br>FRESH<br><span>EVERY DAY</span></h4></div>
-  </div>
-  <div class="row produce">
     <h1>The freshest produce</h1>
     <p>The size, selection and value of our produce is unsurpassed. Everything is hand-selected daily from local and international farmers, bringing you the freshest produce at the best prices.</p>
   </div>
-  <div class="row">
+  <div class="row organic">
     <div class="col-md-6">
       <img src="<?=site_url()?>/assets/media/vaughan/organic-badge.jpg" style="width: 100%; height: auto;">
     </div>
     <div class="col-md-6">
       <div class="row">
-      <h1 style="font-size: 100px; font-family: 'HelveticaNeueLT-Bold'">Live and <br>
-eat well</h1>
+      <h1 style="font-size: 100px; font-family: 'HelveticaNeueLT-Bold'">Live and eat well</h1>
       </div>
       <div class="row">
         <p style="color:black; font-size: 20px; font-family: 'SerifaBT-Light';" >We know how important health and wellness is to our customers. That’s why our new store features a huge selection of gluten-free, natural and organic products.</p>
     </div>
   </div>
 </main>
-<div class="container-fluid">
+<div class="container-fluid country-kitchen-header">
   <div class="row">
   <img src="<?=site_url()?>/assets/media/vaughan/country-kitchen.jpg" style="width: 100%; height: auto;">
   </div>
 </div>
-<main>
+<main class="landing-4">
   <div class="row">
     <h1 style="color: #f99d1c; font-size: 100px; font-family: 'HelveticaNeueLT-Bold'">Freshly prepared</h1>
   </div>
@@ -122,15 +119,10 @@ eat well</h1>
     <p style="color:black; font-size: 20px; font-family: 'SerifaBT-Light';" >Don’t worry if you’re running a little late. Our talented cooks whip up fresh and delicious meals such as chicken, ribs, pasta and a variety of sides – all ready to serve at a low price 
 and great taste. Let us take care of dinner tonight!</p>
   </div>
-  <div class="row">
-  <img src="<?=site_url()?>/assets/media/vaughan/aisle.jpg" style="width: 100%; height: auto;">
-  </div>
-  <div class="row">
-    <h1 style="color: #00a64f; font-size: 100px; font-family: 'HelveticaNeueLT-Bold'">Great prices in
-every aisle</h1>
-  </div>
-  <div class="row">
-    <p style="color:black; font-size: 20px; font-family: 'SerifaBT-Light';" >Get competitive prices on thousands of brand names throughout the store.</p>
+  <div class="row aisle">
+  <img src="<?=site_url()?>/assets/media/vaughan/aisle.jpg" style="width: 100%; height: auto;"><br>
+  <h1 style="color: #00a64f; font-size: 100px; font-family: 'HelveticaNeueLT-Bold'">Great prices in every aisle</h1>    
+  <p style="color:black; font-size: 20px; font-family: 'SerifaBT-Light';" >Get competitive prices on thousands of brand names throughout the store.</p>
     <hr>
   </div>
   <div class="row">

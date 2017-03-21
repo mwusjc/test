@@ -1,3 +1,12 @@
+.box.rounded {
+	border-radius: 30px 30px 0 0;
+}
+
+.box.orange {
+	padding-top: 30px;
+	color: white;
+}
+
 .green {
 	background-color: #00a64f;
 }
@@ -8,6 +17,15 @@
 
 .circle {
 	text-align: center;
+}
+
+.circle h4 {
+	color: white;
+	font-family: 'HelveticaNeueLT-Bold';
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-bottom: 0;
 }
 
 .landing-2 .row {
@@ -36,54 +54,17 @@
   margin-bottom: 10px;
 }
 
-.box.rounded {
-	border-radius: 30px 30px 0 0;
+.intro div:first-child {
+	padding-top: 50px;
 }
 
-.box.orange {
-	padding-top: 30px;
-	color: white;
+.intro h1 {
+	font-size: 89px; 
+	margin-bottom: 30px;
 }
 
-.landing-2 .circle.green {
-	height: 300px; 
-	width: 300px; 
-	border-radius: 150px; 
-	margin-left: -80px; 
-	
-}
-
-.landing-3 .circle.green {
-	float: right; 
-	height: 200px;
-	width: 200px;
-	border-radius: 100px; 
-	margin-right: -40px;
-	margin-top: -65%
-}
-
-.landing-3 .circle.green h4 {
-	font-size: 36px;
-	margin-top: 10px;
-}
-
-.landing-3 .circle.green h4 span:first-child {
-	font-size: 42px;
-}
-
-.landing-3 .circle.green h4 span:last-child {
-	font-size: 20px;
-	position: relative;
-	top: -10px;
-}
-
-.circle h4 {
-	color: white;
-	font-family: 'HelveticaNeueLT-Bold';
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	margin-bottom: 0;
+.intro span {
+	font-size: 47px;
 }
 
 .offer .row {
@@ -105,6 +86,13 @@
 	padding-left: 5px;
 }
 
+.offer .circle.green {
+	height: 300px; 
+	width: 300px; 
+	border-radius: 150px; 
+	margin-left: -80px; 
+}
+
 .calendar h3 {
 	font-size: 40px;
 }
@@ -121,14 +109,17 @@
 	font-size: 100px;
 }
 
-.produce h1 {
-	margin-top: 30px;
-	color: #00a64f;
-	font-size: 96px;
-}
-
 .row.store-image {
 	padding: 0; 
+}
+
+.store-caption {
+	color:white; 
+	margin-left: 70px;
+	margin-top: -190px;
+	font-size: 32px;
+	font-family: 'SerifaBT-Light';
+	line-height: 1; 
 }
 
 .store-image .circle {
@@ -144,18 +135,9 @@
 	font-size: 36px;
 }
 
-.store-caption {
-	color:white; 
-	margin-left: 70px;
-	margin-top: -190px;
-	font-size: 32px;
-	font-family: 'SerifaBT-Light';
-	line-height: 1; 
-}
-
-.deli-header {
-	margin-left: -30px;
-	margin-right: -30px;
+.deli-header .row div {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .landing-3 {
@@ -173,15 +155,48 @@
 	font-family: 'SerifaBT-Light';
 }
 
-.landing-3 
+.produce, .organic, .country-kitchen-header, .aisle {padding-top:70px;}
 
-.intro h1 {
-	font-size: 89px !important; 
-	margin-bottom: 30px;
+.produce h1 {
+	margin-top: 30px;
+	color: #00a64f;
+	font-size: 96px;
 }
 
-.intro span {
-	font-size: 47px;
+.produce .circle.green {
+	float: right; 
+	height: 200px;
+	width: 200px;
+	border-radius: 100px; 
+	margin-right: -40px;
+	margin-top: -65%
+}
+
+.produce .circle.green h4 {
+	font-size: 36px;
+	margin-top: 10px;
+}
+
+.produce .circle.green h4 span:first-child {
+	font-size: 42px;
+}
+
+.produce .circle.green h4 span:last-child {
+	font-size: 20px;
+	position: relative;
+	top: -10px;
+}
+
+.organic .col-md-6 .row {
+	padding-left: 30px;
+}
+
+.aisle h1 {padding-top: 50px;}
+
+.aisle hr {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	border-color: #00a64f;;
 }
 
 .vaughan-subscribe {
@@ -201,25 +216,204 @@
   background-color: #f99d1c !important;
 }
 
-	.vaughan-subscribe.mobile {
-		width: 100%;
-		padding: 0;
-		float: none;
-		display: inline-block !important;
+.vaughan-subscribe.mobile {
+	width: 100%;
+	padding: 0;
+	float: none;
+	display: inline-block !important;
+}
+
+.vaughan-subscribe.desktop {
+	display:none;
+}
+
+.landing .email {
+	width: 580px !important;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.landing .subscribe-email {
+	margin-top: 10px;
+	margin-right: 0;
+}
+
+.landing .social-icons {
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 991px) {
+	.title {
+		width: 66%;
+		display: inline-block;
+		position:relative;
+		top: -35px;
 	}
-	.vaughan-subscribe.desktop {
-		display:none;
+	#clockdiv {
+		width: 33%;
+		display: inline-block;
 	}
-	.landing .email {
-		width: 580px !important;
-		margin: 0 auto;
-		width: 90%;
+	.countdown h1 {
+  		font-size: 42px;
+  	}
+  	.row.countdown {
+  		padding-bottom:0px;
+  	}
+	.offer .circle.green {
+	margin-left: -40px; 
 	}
-	.landing .subscribe-email {
-		margin-top: 10px;
-		margin-right: 0;
+	.offer .col-md-9 {
+		right: 20px;
 	}
-	.landing .social-icons {
-		margin-top: 30px;
+	.store-image .circle {
+		margin-right: 0px;
+	}
+	.produce .circle.green {
+		margin-right: 0px;
+	}
+  	.offer .col-md-2, .offer .col-md-9, .calendar .col-md-4, .calendar .col-md-8 {
+  		display: inline-block;
+  	}
+  	.offer .col-md-9 {
+  		float: right;
+  		right: 30px;
+  	}
+  	.offer .col-xs-6 {
+  		width: 300px;
+  	}
+  	.calendar .col-md-8 {
+  		width: 65%;
+  	}
+  	.calendar .col-md-4 {
+  		float: right;
+  		right: 55px;
+  	}
+  	.deli h1, .deli p, .produce h1, .produce p, .landing-4 h1, .landing-4 p {
+  		padding: 0 30px 0 30px;
+  	}
+  	.aisle h1 {
+  		padding-top: 50px;
+  	}
+  	.produce h1 {
+  		font-size: 90px;
+  	}
+  	.organic h1, .organic p {
+  		padding-right: 30px;
+  	}
+  	.organic .col-md-6:nth-child(2) {
+  		padding-top: 50px;
+  	}
+
+}
+
+@media screen and (max-width: 945px) {
+	.intro .col-sm-12 {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.offer .circle.green {
+		margin-left: -20px;
+	}
+	.offer .col-md-9 {
+  		right: 0px;
+  	}
+	.offer .col-xs-6 {
+  		width: 290px;
+  	}
+	.offer h4 {
+  		font-size: 80px;
+  	}
+  	.offer h3 {
+  		font-size: 24px;
+  	}
+  	.calendar .col-md-8 {
+  		padding-left: 40px;
+  	}
+  	.calendar .col-md-4 {
+  		right: 40px;
+  	}
+  	.calendar h3 {
+  		font-size: 36px;
+  	}
+	.store h1 {
+		font-size: 90px;
+	}
+	.store .col-md-12, .deli h1, .deli p, .produce h1, .produce p, .landing-4 h1, .landing-4 p {
+  		padding: 0 40px 0 40px;
+  	}
+	.intro h1 {
+		font-size: 84px;
+	}
+	.intro span {
+		font-size: 42px;
+	}
+	.produce h1 {
+		font-size: 88px;
+	}
+}
+
+@media screen and (max-width: 935px) {
+	.intro h1 {
+		font-size: 80px;
+	}
+	.offer .col-xs-6 {
+  		width: 270px;
+  	}
+}
+
+@media screen and (max-width: 900px) {
+	.store h1 {
+		font-size: 88px;
+	}
+}
+
+@media screen and (max-width: 895px) {
+	.intro h1 {
+		font-size: 76px;
+	}
+	.intro span {
+		font-size: 40px;
+	}
+	.offer .circle.green {
+		height: 280px; 
+		width: 280px; 
+		border-radius: 140px; 
+		margin-left: -20px; 
+	}
+	.store h1 {
+		font-size: 86px;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.countdown h1 {
+  		font-size: 40px;
+  	}
+	.intro h1 {
+		font-size: 76px;
+	}
+	.intro span {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 865px) {
+	.intro h1 {
+		font-size: 70px;
+	}
+	.intro span {
+		font-size: 36px;
+	}
+	.offer .circle.green {
+		height: 240px; 
+		width: 240px; 
+		border-radius: 120px; 
+		margin-left: 0px; 
+	}
+	.calendar h3 {
+  		font-size: 32px;
+  	}
+	.store h1 {
+		font-size: 84px;
 	}
 }
