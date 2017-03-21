@@ -66,20 +66,16 @@ var carousel = {
             "_descriptionRightTextCSS_" : item.slides[slideKey].descriptionRightTextCSS != null ? item.slides[slideKey].descriptionRightTextCSS : "display:none",
             "_descriptionRightTextMobileCSS_" : item.slides[slideKey].descriptionRightTextMobileCSS != null ? item.slides[slideKey].descriptionRightTextMobileCSS : "display:none"
           };
-
           html = hlf.drawTemplate("#slide-template", mapping);
           $('.carousel-inner').append(html);
-
           // remove price image if there is none
           if (item.slides[slideKey].priceImage == null ) {
             $('.price-image').remove();
           }
-
           // make the first slide active
           if (slideKey === 0) {
             $('.item').addClass('active');
           }
-
           // add carousel dots dynamically
           if (slideKey === 0) {
             $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + slideKey + '" class="active" style="margin-left: 4px"></li>');
@@ -87,11 +83,18 @@ var carousel = {
             $('.carousel-indicators').append('<li data-target="#carousel" data-slide-to="' + slideKey + '" style="margin-left: 4px"></li>');
           }
         });
-
         // do not continue iterating through list
         return false;
       }
-
     });
   }
 }
+
+jQuery(document).ready(function($) {
+    sl.init();
+    $("body").on("click", ".menu-toggle", function(){
+        $(".main-nav").hasClass("closed")?$(".main-nav").removeClass("closed"):$(".main-nav").addClass("closed");
+    });
+    carousel.currentTime = new Date();
+    carousel.init(carousel.currentTime);
+});
