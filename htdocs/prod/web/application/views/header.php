@@ -116,14 +116,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <nav class="desktop">
         <ul>
-            <li><a class="link-menu" id="home" href='<?=site_url()?>'>Home</a></li>
-            <li><a class="link-menu" id="flyer" href='<?=site_url()?>flyer'>Flyer</a></li>
-            <li><a class="link-menu" id="recipes" href='<?=site_url()?>recipes'>Recipes</a></li>
-            <li><a class="link-menu" id="insideTheStore" href='<?=site_url()?>inside-store'>Inside The Store</a></li>
-            <li><a class="link-menu" id="countryKitchen" href='<?=site_url()?>country-kitchen'>Country Kitchen</a></li>
-            <li><a class="link-menu" id="plattersAndGifts" href='<?=site_url()?>party-platters'>Platters & Gifts</a></li>
-            <li><a class="link-menu" id="about" href='<?=site_url()?>about'>About</a></li>
-            <li><a class="link-menu" id="visitUs" href='<?=site_url()?>visit-us'>Visit Us</a></li>
+            <li><a id="home" href='<?=site_url()?>'>Home</a></li>
+            <li><a id="flyer" href='<?=site_url()?>flyer'>Flyer</a></li>
+            <li><a id="recipes" href='<?=site_url()?>recipes'>Recipes</a></li>
+            <li><a id="insideTheStore" href='<?=site_url()?>inside-store'>Inside The Store</a></li>
+            <li><a id="countryKitchen" href='<?=site_url()?>country-kitchen'>Country Kitchen</a></li>
+            <li><a id="plattersAndGifts" href='<?=site_url()?>party-platters'>Platters &amp; Gifts</a></li>
+            <li><a id="about" href='<?=site_url()?>about'>About</a></li>
+            <li><a id="visitUs" href='<?=site_url()?>visit-us'>Visit Us</a></li>
         </ul>
     </nav>
 
