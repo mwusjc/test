@@ -250,8 +250,9 @@ html, body {
 	padding-right: 30px;
 }
 
-.organic .col-md-6 .row {
+.organic .col-md-6 {
 	padding-left: 30px;
+	padding-top: 50px;
 }
 .organic h1 {
 	font-size: 100px;
@@ -397,11 +398,14 @@ html, body {
   	.produce h1 {
   		font-size: 90px;
   	}
+  	.organic div:first-child {
+	  	padding-left: 30px;
+	}
   	.organic h1, .organic p {
   		padding-right: 30px;
   	}
-  	.organic .col-md-6:nth-child(2) {
-  		padding-top: 50px;
+  	.organic .col-md-6 {
+  		padding-top: 30px;
   	}
   	.landing-4 {
   		margin-top: 30px;
@@ -461,6 +465,9 @@ html, body {
 	}
 	.flyer-deals h1 {
 		font-size: 50px;
+	}
+	.organic div:first-child {
+	  	padding-left: 40px;
 	}
 }
 
@@ -529,6 +536,12 @@ html, body {
 	.prepared h1 {
 		font-size: 90px;
 	}
+	.organic h1 {
+		font-size: 90px;
+	}
+	.organic .col-md-6 {
+		padding-top: 10px;
+	}
 }
 
 @media screen and (max-width: 845px) {
@@ -544,8 +557,8 @@ html, body {
   	.offer h3 {
   		font-size: 20px;
   	}
-	.organic h1 {
-		font-size: 90px;
+  	.organic .col-md-6 {
+		padding-top: 0;
 	}
 }
 
@@ -575,6 +588,9 @@ html, body {
   		font-size: 30px;
   	}
 	.prepared h1 {
+		font-size: 82px;
+	}
+	.organic h1 {
 		font-size: 82px;
 	}
 }
@@ -697,10 +713,13 @@ html, body {
 	.landing-3 {
 		margin-top: 0;
 	}
+	.organic div:first-child {
+	  	padding-left: 20px;
+	}
 	.organic h1 {
 		font-size: 76px;
 	}
-	.organic .col-md-6:nth-child(2) {
+	.organic .col-md- {
 		padding-top: 30px;
 	}
 	.country-kitchen-header {
@@ -752,9 +771,6 @@ html, body {
 		font-size: 20px;
 		letter-spacing: 0.5spx;
 	}
-	.organic h1 {
-		font-size: 70px;
-	}
 	.prepared h1 {
 		font-size: 70px;
 	}
@@ -801,7 +817,7 @@ html, body {
 		font-size: 80px;
 	}
 	.organic h1 {
-		font-size: 66px;
+		font-size: 70px;
 	}
 	.prepared h1 {
 		font-size: 66px;
@@ -809,7 +825,6 @@ html, body {
 }
 
 @media screen and (max-width: 652px) {
-
 	.aisle h1 {
 		font-size: 82px;
 	}
@@ -860,7 +875,7 @@ html, body {
 		position: relative;
 	}
 	.organic h1 {
-		font-size: 60px;
+		font-size: 64px;
 	}
 	.calendar .breakpoint {
 		display: none;
@@ -1223,6 +1238,7 @@ html, body {
 	}
 	.organic div:first-child {
 		width: 100%;
+		padding-right: 20px;
 	}
 	.organic h1 {
 		font-size: 40px;
