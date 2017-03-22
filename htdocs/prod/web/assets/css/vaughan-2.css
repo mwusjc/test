@@ -394,9 +394,6 @@
   	.calendar h3 {
   		font-size: 36px;
   	}
-	.store h1 {
-		font-size: 90px;
-	}
 	.store .col-md-12, .deli h1, .deli p, .produce h1, .produce p, .landing-4 h1, .landing-4 p {
   		padding: 0 40px 0 40px;
   	}
@@ -423,12 +420,6 @@
   	}
 }
 
-@media screen and (max-width: 900px) {
-	.store h1 {
-		font-size: 88px;
-	}
-}
-
 @media screen and (max-width: 895px) {
 	.intro h1 {
 		font-size: 76px;
@@ -441,9 +432,6 @@
 		width: 280px; 
 		border-radius: 140px; 
 		margin-left: -20px; 
-	}
-	.store h1 {
-		font-size: 86px;
 	}
 }
 
@@ -485,9 +473,6 @@
 	.calendar h3 {
   		font-size: 32px;
   	}
-	.store h1 {
-		font-size: 84px;
-	}
 	.prepared h1 {
 		font-size: 90px;
 	}
@@ -506,9 +491,6 @@
   	.offer h3 {
   		font-size: 20px;
   	}
-  	.store h1 {
-		font-size: 79px;
-	}
 	.organic h1 {
 		font-size: 90px;
 	}
@@ -539,9 +521,6 @@
   	.calendar h3 {
   		font-size: 30px;
   	}
-  	.store h1 {
-		font-size: 75px;
-	}
 	.prepared h1 {
 		font-size: 82px;
 	}
@@ -651,13 +630,13 @@
   	.vaughan-subscribe-2.desktop {
   		width: 100%;
   	}
-  	.store h1 {
-		font-size: 64px;
-	}
 	.store-caption {
 		margin-left: 50px;
 		margin-top: -220px;
 		font-size: 28px;
+	}
+	.store h1 {
+		font-size: 88px;
 	}
 	.deli h1 {
 		font-size: 90px;
@@ -718,10 +697,7 @@
 	}
 	.calendar h3 {
 		font-size: 20px;
-		letter-spacing: 1px;
-	}
-	.store h1 {
-		font-size: 60px;
+		letter-spacing: 0.5spx;
 	}
 	.organic h1 {
 		font-size: 70px;
@@ -757,9 +733,6 @@
 	.calendar h3 {
 		font-size: 18px;
 	}
-	.store h1 {
-		font-size: 55px;
-	}
 	.store-image .circle {
 		margin-top: -95%;
 	}
@@ -771,7 +744,7 @@
 	.store-caption span {
 		letter-spacing: 0.5px;
 	}
-	.deli h1 {
+	.store h1, .deli h1 {
 		font-size: 80px;
 	}
 	.organic h1 {
@@ -855,9 +828,6 @@
 	.calendar .col-md-8 {
 		width: 300px;
 	}
-	.store h1 {
-		font-size: 52px;
-	}
 	.produce h1 {
 		font-size: 80px;
 	}
@@ -876,7 +846,7 @@
 	.store-image .circle {
 		margin-top: -98%;
 	}
-	.deli h1 {
+	.store h1, .deli h1 {
 		font-size: 70px;
 	}
 	.row.produce {
@@ -940,9 +910,6 @@
 	.store .col-md-12 {
 		padding: 0;
 	}
-	.store h1 {
-		font-size: 50px;
-	}
 	.store-caption {
 		margin-left: 30px;
 		margin-top: -160px;
@@ -981,13 +948,10 @@
 	.offer .col-md-9 {
 		margin-top: -20px;
 	}
-	.store h1 {
-		font-size: 48px;
-	}
 	.store-image .circle {
 		margin-top: -102%;
 	}
-	.deli h1 {
+	.store h1, .deli h1 {
 		font-size: 62px;
 	}
 	.produce h1 {
@@ -1022,9 +986,6 @@
 	}
 	.calendar {
 		margin-top: -80px;
-	}
-	.store h1 {
-		font-size: 46px;
 	}
 	.store-image .circle {
 		margin-top: -105%;
@@ -1062,9 +1023,6 @@
 	.calendar {
 		margin-top: -70px;
 	}
-	.store h1 {
-		font-size: 44px;
-	}
 	.store-image .circle {
 		height: 180px;
 		width: 180px;
@@ -1074,7 +1032,7 @@
 	.store-image .circle h4 {
 		font-size: 32px;
 	}
-	.deli h1 {
+	.store h1, .deli h1 {
 		font-size: 60px;
 	}
 	.produce h1, .aisle h1 {
@@ -1109,18 +1067,14 @@
 		top: 10px;
 		width: 278px;
 	}
-	.store h1 {
-		font-size: 42px;
-	}
 	.store-caption {
 		margin-left: 20px;
-		margin-top: -140px;
-		font-size: 18px;
+		margin-top: -150px;
 	}
 	.store-caption span {
 		letter-spacing: 1px;
 	}
-	.deli h1 {
+	.store h1, .deli h1 {
 		font-size: 54px;
 	}
 }
@@ -1187,13 +1141,9 @@
 	.calendar .col-md-4 a {
 		margin: auto;
 	}
-	.store h1 {
-		font-size: 33px;
-	}
 	.store-caption {
 		margin-left: 10px;
-		margin-top: -110px;
-		font-size: 14px;
+		margin-top: -140px;
 	}
 	.store-image .circle {
 		height: 150px;
@@ -1203,7 +1153,7 @@
 	.store-image .circle h4 {
 		font-size: 30px;
 	}
-	.deli h1 {
+	.store h1, .deli h1 {
 		font-size: 44px;
 	}
 	.produce h1, .aisle h1 {
@@ -1223,6 +1173,9 @@
 	}
 
 @media screen and (max-width: 375px) {
+	.intro span {
+		font-size: 19px;
+	}
 	.offer .col-xs-6 {
 		width: 150px;
 	}
@@ -1254,13 +1207,10 @@
 	.offer h3 {
 		font-size: 13px;
 	}
-	.store h1 {
-		font-size: 30px;
-	}
 	.store-caption {
 		margin-left: 0px;
-		margin-top: -90px;
-		font-size: 12px;
+		margin-top: -120px;
+		font-size: 18px;
 	}
 	.store-image .circle {
 		height: 140px;
@@ -1270,7 +1220,7 @@
 	.store-image .circle h4 {
 		font-size: 28px;
 	}
-	.deli h1 {
+	.store h1, .deli h1 {
 		font-size: 40px;
 	}
 	.produce h1, .aisle h1 {
