@@ -169,9 +169,17 @@
 	font-size: 36px;
 }
 
-.deli-header .row div {
+.deli-header .col-md-6 {
 	padding-left: 0;
 	padding-right: 0;
+}
+
+.deli-header .col-md-6:first-child {
+	padding-right: 10px;
+}
+
+.deli-header .col-md-6:last-child {
+	padding-left: 10px;
 }
 
 .landing-3 {
@@ -295,6 +303,16 @@
 	cursor: pointer;
 }
 
+.store-image img, .deli-header img, .produce img, .organic img, .country-kitchen-header img, .aisle img {
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.store-image img {
+	z-index:0.5
+}
 
 @media screen and (max-width: 991px) {
 	.title {
@@ -324,6 +342,13 @@
 	}
 	.produce .circle.green {
 		margin-right: 0px;
+	}
+	.deli-header .col-md-6:first-child {
+		padding-right: 0;
+	}
+
+	.deli-header .col-md-6:last-child {
+		padding-left: 0;
 	}
   	.offer .col-md-2, .offer .col-md-9, .calendar .col-md-4, .calendar .col-md-8 {
   		display: inline-block;
@@ -363,6 +388,9 @@
   	}
   	.flyer-deals h1 {
 		font-size: 51px;
+	}
+	.aisle .breakpoint {
+		display: none;
 	}
 	.vaughan-subscribe-2.desktop {
 	margin-left: 16.66667%;
