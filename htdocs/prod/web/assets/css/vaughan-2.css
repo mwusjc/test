@@ -229,11 +229,15 @@
   background-color: #f99d1c !important;
 }
 
-.vaughan-subscribe.mobile {
+.vaughan-subscribe-2.mobile {
 	width: 100%;
 	padding: 0;
 	float: none;
-	display: inline-block !important;
+}
+
+.vaughan-subscribe-2.mobile .subscribe-email {
+	display: block;
+	margin: auto;
 }
 
 .landing .email {
@@ -247,9 +251,6 @@
 	margin-right: 0;
 }
 
-.landing .social-icons {
-	margin-top: 30px;
-}
 
 @media screen and (max-width: 991px) {
 	.title {
@@ -597,7 +598,9 @@
 	.organic .col-md-6:first-child {
 		margin-bottom: 0;
 	}
-
+	.vaughan-subscribe-2.desktop {
+		margin-left: 0;
+	}
 }
 
 @media screen and (max-width: 735px) {
@@ -613,6 +616,7 @@
 	}
 	.offer h3 {
 		font-size: 14px;
+		letter-spacing: 0.5px;
 	}
 	.offer .col-xs-6 {
 		width: 180px;
@@ -625,6 +629,7 @@
 	}
 	.calendar h3 {
 		font-size: 20px;
+		letter-spacing: 0.5px;
 	}
 	.store h1 {
 		font-size: 60px;
@@ -660,6 +665,9 @@
 		margin-left: 40px;
 		margin-top: -150px;
 		font-size: 24px;
+	}
+	.store-caption span {
+		letter-spacing: 0.5px;
 	}
 	.deli h1 {
 		font-size: 80px;
@@ -719,9 +727,6 @@
 	}
 	.offer h4 {
 		font-size: 48px;
-	}
-	.offer h3 {
-		font-size: 12px;
 	}
 	.produce .circle.green {
 		float: right; 
@@ -828,8 +833,11 @@
 	.offer .circle.green {
 		margin-left: -50px; 
 	}
+	.store .col-md-12 {
+		padding: 0;
+	}
 	.store h1 {
-		font-size: 46px;
+		font-size: 50px;
 	}
 	.store-caption {
 		margin-left: 30px;
@@ -866,8 +874,11 @@
 		border-radius: 90px; 
 		margin-left: -40px; 
 	}
+	.offer .col-md-9 {
+		margin-top: -20px;
+	}
 	.store h1 {
-		font-size: 44px;
+		font-size: 48px;
 	}
 	.store-image .circle {
 		margin-top: -102%;
@@ -899,11 +910,14 @@
 		border-radius: 80px; 
 		margin-left: -50px; 
 	}
+	.offer .circle.green {
+		margin-top: -10px;
+	}
 	.offer .col-md-9 {
 		top: -20px;
 	}
 	.store h1 {
-		font-size: 40px;
+		font-size: 46px;
 	}
 	.store-image .circle {
 		margin-top: -105%;
@@ -939,7 +953,7 @@
 		font-size: 40px;
 	}
 	.store h1 {
-		font-size: 38px;
+		font-size: 44px;
 	}
 	.store-image .circle {
 		height: 180px;
@@ -972,17 +986,23 @@
 		width: 140px;
 		right: 20px;
 	}
+	.offer .breakpoint {
+		display: none;
+	}
 	.calendar .col-md-8 {
 		top: 10px;
 		width: 278px;
 	}
 	.store h1 {
-		font-size: 36px;
+		font-size: 42px;
 	}
 	.store-caption {
 		margin-left: 20px;
 		margin-top: -100px;
 		font-size: 18px;
+	}
+	.store-caption span {
+		letter-spacing: 1px;
 	}
 	.deli h1 {
 		font-size: 54px;
@@ -992,9 +1012,46 @@
 @media screen and (max-width: 450px) {
 	.intro h1 {
 		font-size: 36px;
+		letter-spacing: 0.5px;
+	}
+	.intro .breakpoint {
+		display: none;
+	}
+	.offer .circle.green {
+		margin: auto;
+		display: block;
+		margin-top: -30px;
+	}
+	.offer .col-md-9 {
+		margin-top: 20px;
+		width: 100%;
+		float: left;
+	}
+	.offer .row:first-child {
+		width: 100%;
+		margin: 0;
+	}
+	.offer .details {
+		width: 100%;
+		margin: 0;
+	}
+	.calendar .col-md-8 {
+		float: left;
+		right: 0;
+	}
+	.calendar .col-md-4 {
+		width: 100%;
+		float: none;
+		margin: auto;
+		display: block;
+		right: 0;
+		padding: 0;
+	}
+	.calendar .col-md-4 a {
+		margin: auto;
 	}
 	.store h1 {
-		font-size: 28px;
+		font-size: 33px;
 	}
 	.store-caption {
 		margin-left: 10px;
@@ -1039,15 +1096,10 @@
 		font-size: 40px;
 	}
 	.offer h3 {
-		font-size: 12px;
+		font-size: 13px;
 	}
-	.offer .col-md-9 {
-		float: left;
-		left: 20px;
-	}
-	.calendar .col-md-8 {
-		float: left;
-		left: 0px;
+	.store h1 {
+		font-size: 30px;
 	}
 	.store-caption {
 		margin-left: 0px;
