@@ -3,6 +3,19 @@
 <link rel="stylesheet" href="<?=site_url()?>assets/css/vaughan-2.css">
 
 <main class='landing-2'>
+  <div class="row">
+    <div class="social-blurb mobile">
+      <span><span class="orange-text">Follow us</span> and get the <br class="breakpoint">latest deals &amp; savings!</span>
+    </div><br class="mobile">
+    <div class="event-social-icons">
+      <a href="http://www.facebook.com/sharer.php?s=100&p[url]=http://hfstartfresh.ca" alt="facebook" class="facebook-landing"></a>
+      <a href="http://twitter.com/intent/tweet?text=A+fresh+new+Highland+Farms+is+coming+to+Vaughan&hashtags=hfstartfresh" alt="twitter" class="twitter-landing"></a>
+      <a href="https://www.instagram.com/highlandfarms_on/" alt="instagram" class="instagram-landing"></a><br>
+    </div>
+    <div class="social-blurb desktop">
+      <span><span class="orange-text">Follow us</span> and get the <br class="breakpoint">latest deals &amp; savings!</span>
+    </div>
+  </div>
   <div class="row countdown">
     <div class="title col-md-8"><h1>Grand Opening Countdown</h1></div>
     <div id="clockdiv" class="col-md-4">
@@ -40,7 +53,7 @@
         <div class="col-xs-6 col-md-6"><h4>FREE</h4></div>
       </div>
       <div class="row details">
-        <div class="col-xs-6 col-md-6"><h3>$25 Gift Card <br>to first the 200 <br>customers</h3></div>
+        <div class="col-xs-6 col-md-6"><h3>$25 Gift Card <br>to the first 200 <br>customers</h3></div>
         <div class="col-xs-6 col-md-6"><h3>Eco-friendly <br>shopping bag with <br class="breakpoint">every purchase</h3></div>
       </div>
     </div>
@@ -67,7 +80,7 @@
     <div class="col-md-3 orange circle"><h4>FRESH<br>&amp; NEW</h4></div>
     <div class="row">
       <div class="col-md-6 store-caption">
-        <span>Check out our state-of-the-art <br>supermarket fully stocked with <br>freshness.</span>
+        <span>Check out our <br>state-of-the-art <br>supermarket fully <br>stocked with <br>freshness.</span>
       </div>
     </div>
   </div>
@@ -141,6 +154,9 @@
         <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email" style="background-color:#f99d1c">
       </form>
     </div>
+  </div>
+  <div class="scroll">
+    <a onclick="scrollWin()"><img src="<?=site_url()?>/assets/media/vaughan/scroll-to-top.png"></a>
   </div>
 </main>
 

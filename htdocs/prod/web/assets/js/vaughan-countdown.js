@@ -39,3 +39,7 @@ function initializeClock(id, endtime) {
 
 var deadline = 'March 31 2017 10:00:00 GMT-0400';
 initializeClock('clockdiv', deadline);
+
+function scrollWin() {
+    window.scrollTo(0, 0);
+}

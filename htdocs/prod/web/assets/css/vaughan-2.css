@@ -32,6 +32,36 @@
 	padding: 20px;
 }
 
+.landing-2 .row:first-child {
+	margin-top: -40px;
+}
+
+.social-blurb {
+	float:right;
+	padding-right: 20px;
+	font-family: 'HelveticaNeueLT-Roman';
+}
+
+.social-blurb .orange-text {
+	font-family: 'HelveticaNeueLT-Bold';
+}
+
+.social-blurb.mobile .breakpoint {
+	display: none;
+}
+
+.event-social-icons {
+	float: right;
+	padding-right: 15px;
+}
+
+.event-social-icons a {
+  height: 32px;
+  width: 32px;
+  background-size: cover;
+  display: inline-block;
+}
+
 .countdown h1 {
   font-size: 46px;
   margin-bottom: 0;
@@ -116,7 +146,7 @@
 .store-caption {
 	color:white; 
 	margin-left: 70px;
-	margin-top: -190px;
+	margin-top: -260px;
 	font-size: 32px;
 	font-family: 'SerifaBT-Light';
 	line-height: 1; 
@@ -249,6 +279,16 @@
 .landing .subscribe-email {
 	margin-top: 10px;
 	margin-right: 0;
+}
+
+.scroll {
+	padding-top: 30px;
+}
+
+.scroll img {
+	margin: auto;
+	display: block;
+	cursor: pointer;
 }
 
 
@@ -440,6 +480,7 @@
   	}
   	.offer h3 {
   		font-size: 22px;
+  		padding-left: 2px;
   	}
 	.calendar h3 {
   		font-size: 32px;
@@ -507,6 +548,42 @@
 }
 
 @media screen and (max-width: 768px) {
+	.social-blurb .breakpoint {
+		display: none;
+	}
+	.row > .social-blurb.desktop {
+		position: relative;
+		top:-30px;
+	}
+	.landing-2 .row:first-child {
+		margin: 0;
+	    position: absolute;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    padding-top: 50px;
+	    width: 100%;
+	}
+	.row > .social-blurb {
+		float: none;
+		display: inline-block;
+		margin-bottom: 0;
+		padding: 0;
+		padding-bottom: 5px;
+		text-align: center;
+		width: 100%;
+	}
+	.row > .event-social-icons {
+		float: none;
+		display: inline-block;
+		margin-bottom: 0;
+		padding: 0;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.row.countdown {
+		padding-top: 120px;
+	}
 	.countdown div {
 		margin-top: 30px;
 		margin-bottom: 0;
@@ -541,6 +618,12 @@
 		right: 0;
 		margin-bottom: 10px;
 	}
+	.offer .row:first-child {
+		top: -20px;
+	}
+	.offer .details {
+		top: 100px;
+	}
 	.offer h4 {
 		font-size: 64px;
 	}
@@ -573,7 +656,7 @@
 	}
 	.store-caption {
 		margin-left: 50px;
-		margin-top: -170px;
+		margin-top: -220px;
 		font-size: 28px;
 	}
 	.deli h1 {
@@ -617,6 +700,12 @@
 	.offer h3 {
 		font-size: 14px;
 		letter-spacing: 0.5px;
+	}
+	.offer .row:first-child {
+		top: -30px;
+	}
+	.offer .details {
+		top: 70px;
 	}
 	.offer .col-xs-6 {
 		width: 180px;
@@ -676,7 +765,7 @@
 	}
 	.store-caption {
 		margin-left: 40px;
-		margin-top: -150px;
+		margin-top: -200px;
 		font-size: 24px;
 	}
 	.store-caption span {
@@ -746,6 +835,9 @@
 	}
 	.organic h1 {
 		font-size: 60px;
+	}
+	.calendar .breakpoint {
+		display: none;
 	}
 }
 
@@ -830,11 +922,18 @@
 		right: -5px;
 		padding: 0;
 	}
+	.offer .row:first-child {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.offer .row:first-child .col-xs-6:last-child {
+		top: -51px;
+		left: 160px;
+	}
 	.calendar .col-md-8 {
 		right: -15px;
 		padding: 0;
 	}
-
 	.offer .circle.green {
 		margin-left: -50px; 
 	}
@@ -846,7 +945,7 @@
 	}
 	.store-caption {
 		margin-left: 30px;
-		margin-top: -120px;
+		margin-top: -160px;
 		font-size: 20px;
 	}
 	.produce h1 {
@@ -921,6 +1020,9 @@
 	.offer .col-md-9 {
 		top: -20px;
 	}
+	.calendar {
+		margin-top: -80px;
+	}
 	.store h1 {
 		font-size: 46px;
 	}
@@ -956,6 +1058,9 @@
 	}
 	.offer .circle.green h4 {
 		font-size: 40px;
+	}
+	.calendar {
+		margin-top: -70px;
 	}
 	.store h1 {
 		font-size: 44px;
@@ -994,6 +1099,12 @@
 	.offer .breakpoint {
 		display: none;
 	}
+	.offer .row h4 {
+		font-size: 46px;
+	}
+	.offer .row:first-child .col-xs-6:last-child {
+		left: 120px;
+	}
 	.calendar .col-md-8 {
 		top: 10px;
 		width: 278px;
@@ -1003,7 +1114,7 @@
 	}
 	.store-caption {
 		margin-left: 20px;
-		margin-top: -100px;
+		margin-top: -140px;
 		font-size: 18px;
 	}
 	.store-caption span {
@@ -1044,6 +1155,11 @@
 	.offer .row:first-child {
 		width: 100%;
 		margin: 0;
+		margin-left: 19px;
+	}
+	.offer .row:first-child .col-xs-6:last-child {
+		left: -21px;
+		top: 0;
 	}
 	.offer .details {
 		width: 100%;
@@ -1056,6 +1172,7 @@
 		padding-left: 0;
 	}
 	.calendar .col-md-8 {
+		margin-top: 50px;
 		float: left;
 		right: 0;
 	}
@@ -1075,7 +1192,7 @@
 	}
 	.store-caption {
 		margin-left: 10px;
-		margin-top: -90px;
+		margin-top: -110px;
 		font-size: 14px;
 	}
 	.store-image .circle {
@@ -1104,7 +1221,6 @@
 	.offer .col-xs-6 {
 		width: 160px;
 	}
-}
 
 @media screen and (max-width: 375px) {
 	.offer .col-xs-6 {
@@ -1113,6 +1229,12 @@
 }
 
 @media screen and (max-width: 350px) {
+	.social-blurb.mobile .breakpoint {
+		display: inline;
+	}
+	.row.countdown {
+		padding-top: 140px;
+	}
 	.title h1 {
 		font-size: 36px;
 	}
@@ -1124,7 +1246,7 @@
 		font-size: 18px;
 	}
 	.offer .col-xs-6 {
-		width: 135px;
+		width: 145px;
 	}
 	.offer h4 {
 		font-size: 40px;
@@ -1132,15 +1254,12 @@
 	.offer h3 {
 		font-size: 13px;
 	}
-	.calendar .breakpoint {
-		display: none;
-	}
 	.store h1 {
 		font-size: 30px;
 	}
 	.store-caption {
 		margin-left: 0px;
-		margin-top: -70px;
+		margin-top: -90px;
 		font-size: 12px;
 	}
 	.store-image .circle {
@@ -1159,5 +1278,17 @@
 	}
 	.flyer-deals h1 {
 		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.offer .col-xs-6 {
+		width: 140px;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	.offer .col-xs-6 {
+		width: 135px;
 	}
 }
