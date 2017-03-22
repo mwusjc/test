@@ -151,6 +151,10 @@ html, body {
 	padding: 0; 
 }
 
+.row.store-image .row {
+	margin-bottom: 0;
+}
+
 .store-caption {
 	color:white; 
 	margin-left: 70px;
@@ -173,17 +177,23 @@ html, body {
 	font-size: 36px;
 }
 
-.deli-header .col-md-6 {
+.deli-header .row div {
 	padding-left: 0;
 	padding-right: 0;
+	display: inline-block;
+	margin-bottom: 0;
 }
 
-.deli-header .col-md-6:first-child {
+.deli-header .row div:first-child {
 	padding-right: 10px;
+	width: 50%;
+	float: left;
 }
 
-.deli-header .col-md-6:last-child {
+.deli-header .row div:last-child {
 	padding-left: 10px;
+	width: 50%;
+	float: right;
 }
 
 .landing-3 {
@@ -231,6 +241,13 @@ html, body {
 	font-size: 20px;
 	position: relative;
 	top: -10px;
+}
+
+.organic div:first-child {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	padding-right: 30px;
 }
 
 .organic .col-md-6 .row {
@@ -347,11 +364,11 @@ html, body {
 	.produce .circle.green {
 		margin-right: 0px;
 	}
-	.deli-header .col-md-6:first-child {
+	.deli-header .row div:first-child {
 		padding-right: 0;
 	}
 
-	.deli-header .col-md-6:last-child {
+	.deli-header .row div:last-child {
 		padding-left: 0;
 	}
   	.offer .col-md-2, .offer .col-md-9, .calendar .col-md-4, .calendar .col-md-8 {
@@ -1203,6 +1220,9 @@ html, body {
 	}
 	.produce h1, .aisle h1 {
 		font-size: 48px;
+	}
+	.organic div:first-child {
+		width: 100%;
 	}
 	.organic h1 {
 		font-size: 40px;

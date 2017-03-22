@@ -87,10 +87,10 @@
 </main>
 <div class="container-fluid deli-header">
   <div class="row">
-    <div class="col-md-6">
+    <div>
       <img src="<?=site_url()?>/assets/media/vaughan/deli-sign.jpg">
     </div>
-    <div class="col-md-6">
+    <div>
       <img src="<?=site_url()?>/assets/media/vaughan/platters-gifts.jpg">
     </div>
   </div>
@@ -107,14 +107,11 @@
     <p>The size, selection and value of our produce is unsurpassed. Everything is hand-selected daily. Bringing you the freshest produce at the best prices.</p>
   </div>
   <div class="row organic">
-    <div class="col-md-6">
+    <div>
       <img src="<?=site_url()?>/assets/media/vaughan/organic-badge.jpg">
     </div>
     <div class="col-md-6">
-      <div class="row">
         <h1>Live and eat well</h1>
-      </div>
-      <div class="row">
         <p>We know how important health and wellness is to our customers. That’s why our new store features a huge selection of gluten-free, natural and organic products.</p>
     </div>
   </div>
