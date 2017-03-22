@@ -48,7 +48,7 @@
   <div class="row box orange calendar">
     <div class="col-md-8">
       <h3>Get these exclusive offers<br>
-      Friday, March 31 only at our<br>
+      Friday, March 31 only at our<br class="breakpoint">
       fresh new Vaughan location!</h3>
     </div>
     <div class="col-md-4">

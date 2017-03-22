@@ -629,7 +629,7 @@
 	}
 	.calendar h3 {
 		font-size: 20px;
-		letter-spacing: 0.5px;
+		letter-spacing: 1px;
 	}
 	.store h1 {
 		font-size: 60px;
@@ -1131,6 +1131,9 @@
 	}
 	.offer h3 {
 		font-size: 13px;
+	}
+	.calendar .breakpoint {
+		display: none;
 	}
 	.store h1 {
 		font-size: 30px;
