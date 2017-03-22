@@ -40,7 +40,7 @@
         <div class="col-xs-6 col-md-6"><h4>FREE</h4></div>
       </div>
       <div class="row details">
-        <div class="col-xs-6 col-md-6"><h3>$25 Gift Card <br>to first 200 <br>customers</h3></div>
+        <div class="col-xs-6 col-md-6"><h3>$25 Gift Card <br>to first the 200 <br>customers</h3></div>
         <div class="col-xs-6 col-md-6"><h3>Eco-friendly <br>shopping bag with <br class="breakpoint">every purchase</h3></div>
       </div>
     </div>
@@ -91,7 +91,7 @@
     <img src="<?=site_url()?>/assets/media/vaughan/apples.jpg" style="width: 100%; height: auto;">
     <div class="col-md-3 green circle"><h4><span>FARM</span><br>FRESH<br><span>EVERY DAY</span></h4></div>
     <h1>The freshest produce</h1>
-    <p>The size, selection and value of our produce is unsurpassed. Everything is hand-selected daily from local and international farmers, bringing you the freshest produce at the best prices.</p>
+    <p>The size, selection and value of our produce is unsurpassed. Everything is hand-selected daily. Bringing you the freshest produce at the best prices.</p>
   </div>
   <div class="row organic">
     <div class="col-md-6">
@@ -114,8 +114,7 @@
 <main class="landing-4">
   <div class="row prepared">
     <h1>Freshly prepared</h1><br>
-    <p>Don’t worry if you’re running a little late. Our talented cooks whip up fresh and delicious meals such as chicken, ribs, pasta and a variety of sides – all ready to serve at a low price 
-and great taste. Let us take care of dinner tonight!</p>
+    <p>Don’t worry if you’re running a little late. Our talented cooks whip up fresh and delicious meals such as chicken, ribs, pasta and a variety of sides – all ready to serve quickly and easily. Let us take care of dinner tonight!</p>
   </div>
   <div class="row aisle">
     <img src="<?=site_url()?>/assets/media/vaughan/aisle.jpg" style="width: 100%; height: auto;"><br>
