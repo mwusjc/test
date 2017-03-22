@@ -97,6 +97,10 @@
 	font-size: 47px;
 }
 
+.intro span .breakpoint {
+	display: none;
+}
+
 .offer .row {
 	padding: 40px 0 0 40px;
 }
@@ -836,6 +840,12 @@
 	}
 }
 
+@media screen and (max-width: 633px) {
+	#clockdiv {
+		margin-top: -10px;
+	}
+}
+
 @media screen and (max-width: 612px) {
 	.intro h1 {
 		font-size: 47px;
@@ -1047,6 +1057,9 @@
 }
 
 @media screen and (max-width: 463px) {
+	.intro span .breakpoint {
+		display: inline;
+	}
 	.offer .col-md-9 .row:first-child {
 		margin-top:0px;
 	}

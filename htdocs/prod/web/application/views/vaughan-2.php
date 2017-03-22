@@ -42,7 +42,7 @@
     <h1>Join us Friday,<br>
     March 31 at 10am for<br class="breakpoint">
     our Grand Opening!</h1><br>
-    <span style="font-family: 'SerifaBT-Light';" align="center">9940 Dufferin St. at Major MacKenzie Dr. W.</span>
+    <span style="font-family: 'SerifaBT-Light';" align="center">9940 Dufferin St. at <br class="breakpoint">Major MacKenzie Dr. W.</span>
     </div>
   </div>
   <div class="row box orange offer">
@@ -88,10 +88,10 @@
 <div class="container-fluid deli-header">
   <div class="row">
     <div class="col-md-6">
-      <img src="<?=site_url()?>/assets/media/vaughan/deli-sign.jpg" width="100%">
+      <img src="<?=site_url()?>/assets/media/vaughan/deli-sign.jpg" style="width: 100%; height: 100%;">
     </div>
     <div class="col-md-6">
-      <img src="<?=site_url()?>/assets/media/vaughan/platters-gifts.jpg" width="100%">
+      <img src="<?=site_url()?>/assets/media/vaughan/platters-gifts.jpg" style="width: 100%; height: 100%;">
     </div>
   </div>
 </div>
@@ -101,14 +101,14 @@
     <p>Shop our legendary selection of meats and cheeses inspired by flavours from around the world. Everything is cut-to-order by our friendly staff. You’ll also find a mouth-watering selection of olives, antipastos and fresh deli salads.</p>
   </div>
   <div class="row produce">
-    <img src="<?=site_url()?>/assets/media/vaughan/apples.jpg" style="width: 100%; height: auto;">
+    <img src="<?=site_url()?>/assets/media/vaughan/apples.jpg" style="width: 100%; height: 100%;">
     <div class="col-md-3 green circle"><h4><span>FARM</span><br>FRESH<br><span>EVERY DAY</span></h4></div>
     <h1>The freshest produce</h1>
     <p>The size, selection and value of our produce is unsurpassed. Everything is hand-selected daily. Bringing you the freshest produce at the best prices.</p>
   </div>
   <div class="row organic">
     <div class="col-md-6">
-      <img src="<?=site_url()?>/assets/media/vaughan/organic-badge.jpg" style="width: 100%; height: auto;">
+      <img src="<?=site_url()?>/assets/media/vaughan/organic-badge.jpg" style="width: 100%; height: 100%;">
     </div>
     <div class="col-md-6">
       <div class="row">
@@ -121,7 +121,7 @@
 </main>
 <div class="container-fluid country-kitchen-header">
   <div class="row">
-  <img src="<?=site_url()?>/assets/media/vaughan/country-kitchen.jpg" style="width: 100%; height: auto;">
+  <img src="<?=site_url()?>/assets/media/vaughan/country-kitchen.jpg" style="width: 100%; height: 100%;">
   </div>
 </div>
 <main class="landing-4">
@@ -130,7 +130,7 @@
     <p>Don’t worry if you’re running a little late. Our talented cooks whip up fresh and delicious meals such as chicken, ribs, pasta and a variety of sides – all ready to serve quickly and easily. Let us take care of dinner tonight!</p>
   </div>
   <div class="row aisle">
-    <img src="<?=site_url()?>/assets/media/vaughan/aisle.jpg" style="width: 100%; height: auto;"><br>
+    <img src="<?=site_url()?>/assets/media/vaughan/aisle.jpg" style="width: 100%; height: 100%;"><br>
     <h1>Great prices in every aisle</h1>    
     <p>Get competitive prices on thousands of brand names throughout the store.</p>
     <hr>
