@@ -99,6 +99,7 @@ html, body {
 
 .intro span {
 	font-size: 47px;
+	font-family: 'SerifaBT-Light';
 }
 
 .intro span .breakpoint {
@@ -300,14 +301,27 @@ html, body {
   color: black;
 }
 
-.vaughan-subscribe .subscribe-email {
+.vaughan-subscribe-2 .subscribe-email {
   background-color: #f99d1c !important;
+}
+
+.vaughan-subscribe-2 div {
+	position: absolute;
+	left: -5000px;
+}
+
+.vaughan-subscribe-2.desktop input:first-child {
+	width: 97%;
 }
 
 .vaughan-subscribe-2.mobile {
 	width: 100%;
 	padding: 0;
 	float: none;
+}
+
+.vaughan-subscribe-2.mobile input:first-child {
+	width: 100%;
 }
 
 .vaughan-subscribe-2.mobile .subscribe-email {

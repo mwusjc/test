@@ -19,6 +19,7 @@
 .addeventatc:hover 						 {
     color: #ffffff;
     text-decoration: none;
+    background-color: #62a60a;
 }
 
 .addeventatc .start,  .addeventatc .end,  .addeventatc .timezone,  .addeventatc .title,  .addeventatc .description,  .addeventatc .location,  .addeventatc .organizer,  .addeventatc .organizer_email,  .addeventatc .facebook_event,  .addeventatc .all_day_event,  .addeventatc .date_format,  .addeventatc .alarm_reminder,  .addeventatc .recurring,  .addeventatc .attendees,  .addeventatc .calname,  .addeventatc .uid,  .addeventatc .status,  .addeventatc .method,  .addeventatc .client  {

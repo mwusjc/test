@@ -1,8 +1,8 @@
 </header>
 
 <link rel="stylesheet" href="<?=site_url()?>assets/css/vaughan-2.css">
-<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 <link rel="stylesheet" href="<?=site_url()?>assets/css/addtocalendar.css">
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 <script type="text/javascript">
 window.addeventasync = function(){
     addeventatc.settings({
@@ -13,9 +13,9 @@ window.addeventasync = function(){
         google     : {show:true, text:"Google <em>(online)</em>"},
         yahoo      : {show:true, text:"Yahoo <em>(online)</em>"},
         outlookcom : {show:true, text:"Outlook.com <em>(online)</em>"},
-        appleical  : {show:true, text:"Apple Calendar"},
+        appleical  : {show:true, text:"Apple iCalendar"},
         facebook   : {show:false, text:"Facebook Event"},
-        dropdown   : {order:"google,appleical,outlook"}
+        dropdown   : {order:"appleical,google,outlook,outlookcom,yahoo"}
     });
 };
 </script>
@@ -60,7 +60,7 @@ window.addeventasync = function(){
     <h1>Join us Friday,<br>
     March 31 at 10am for<br class="breakpoint">
     our Grand Opening!</h1><br>
-    <span style="font-family: 'SerifaBT-Light';" align="center">9940 Dufferin St. at <br class="breakpoint">Major MacKenzie Dr. W.</span>
+    <span>9940 Dufferin St. at <br class="breakpoint">Major MacKenzie Dr. W.</span>
     </div>
   </div>
   <div class="row box orange offer">
@@ -167,17 +167,17 @@ window.addeventasync = function(){
     <div class="col-xs-8 col-sm-8 col-md-offset-2 vaughan-subscribe-2 desktop">
     <!-- Begin MailChimp Signup Form -->
       <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-        <input type="email" value="" name="EMAIL" style="width:97%" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
-         <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
-        <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email sticky right" style="background-color:#f99d1c">
+        <input type="email" value="" name="EMAIL" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
+         <div><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
+        <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email sticky right">
       </form>
     </div>
     <div class="vaughan-subscribe-2 mobile">
       <!-- Begin MailChimp Signup Form -->
       <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-        <input type="email" value="" name="EMAIL" style="width:100%" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
-        <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
-        <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email" style="background-color:#f99d1c">
+        <input type="email" value="" name="EMAIL" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
+        <div><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
+        <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email">
       </form>
     </div>
   </div>
