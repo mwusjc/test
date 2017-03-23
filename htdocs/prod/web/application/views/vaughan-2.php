@@ -1,6 +1,24 @@
 </header>
 
 <link rel="stylesheet" href="<?=site_url()?>assets/css/vaughan-2.css">
+<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+<link rel="stylesheet" href="<?=site_url()?>assets/css/addtocalendar.css">
+<script type="text/javascript">
+window.addeventasync = function(){
+    addeventatc.settings({
+        license    : "axrmLOfZszxyrEweZmoa27130",
+        mouse      : false,
+        css        : false,
+        outlook    : {show:true, text:"Outlook"},
+        google     : {show:true, text:"Google <em>(online)</em>"},
+        yahoo      : {show:true, text:"Yahoo <em>(online)</em>"},
+        outlookcom : {show:true, text:"Outlook.com <em>(online)</em>"},
+        appleical  : {show:true, text:"Apple Calendar"},
+        facebook   : {show:false, text:"Facebook Event"},
+        dropdown   : {order:"google,appleical,outlook"}
+    });
+};
+</script>
 
 <main class='landing-2'>
   <div class="row">
@@ -65,9 +83,20 @@
       fresh new Vaughan location!</h3>
     </div>
     <div class="col-md-4">
-      <a href="<?=site_url()?>/assets/media/vaughan/Highland_Farms_Vaughan_Grand_Opening.ics">
-        <input type="submit" aria-label="Submit" value="+ add to your calendar" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email" >
-      </a>
+      <div title="Add to Calendar" class="addeventatc addtocalendar">
+          + add to your calendar
+          <span class="start">03/31/2017 10:00 AM</span>
+          <span class="end">03/31/2017 12:00 PM</span>
+          <span class="timezone">America/Toronto</span>
+          <span class="title">Highland Farms Grand Opening</span>
+          <span class="description">For details, link here: http://www.hfstartfresh.ca</span>
+          <span class="location">9940 Dufferin Street, Vaughan, ON, L6A 4K5</span>
+          <span class="organizer">Highland Farms</span>
+          <span class="organizer_email">Organizer e-mail</span>
+          <span class="all_day_event">false</span>
+          <span class="date_format">MM/DD/YYYY</span>
+          <span class="calname">Highland_Farms_Vaughan_Grand_Opening</span>
+      </div>
     </div>
   </div>
   <div class="row store"> 
@@ -140,7 +169,7 @@
       <form action="//highlandfarms.us9.list-manage.com/subscribe/post?u=a574aa827269d018202389912&amp;id=792b79af52" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
         <input type="email" value="" name="EMAIL" style="width:97%" id="mce-EMAIL" aria-label="email" placeholder="email address" aria-required="true" required>
          <div style="position: absolute; left: -5000px;"><input type="text" name="b_a574aa827269d018202389912_792b79af52" tabindex="-1" value="" placeholder="Your e-mail address"></div>
-        <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email sticky right green" style="background-color:#f99d1c">
+        <input type="submit" aria-label="Subscribe" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribe-email sticky right" style="background-color:#f99d1c">
       </form>
     </div>
     <div class="vaughan-subscribe-2 mobile">

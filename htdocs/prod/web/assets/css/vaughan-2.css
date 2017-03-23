@@ -140,7 +140,9 @@ html, body {
 	float: left;
 	margin-top: 45px;
 }
-
+.calendar .col-md-4 {
+	top: 40px;
+}
 .store h1 {
 	margin-top: 30px;
 	color: #00a64f;
@@ -211,7 +213,7 @@ html, body {
 	font-family: 'SerifaBT-Light';
 }
 
-.produce, .organic, .country-kitchen-header, .aisle {padding-top:70px;}
+.produce, .organic, .aisle {padding-top:70px;}
 
 .produce h1, .aisle h1 {
 	margin-top: 30px;
@@ -261,9 +263,18 @@ html, body {
 .organic p {
 	font-size: 20px;
 	font-family: 'SerifaBT-Light';
+	margin-bottom: 0;
 }
 
-.aisle h1 {padding-top: 50px;}
+.country-kitchen-header {padding-top: 100px;}
+
+.landing-4 {
+	margin-top: 30px;
+}
+
+.aisle h1 {
+	padding-top: 0;
+}
 
 .aisle hr {
 	margin-top: 60px;
@@ -365,13 +376,7 @@ html, body {
 	.produce .circle.green {
 		margin-right: 0px;
 	}
-	.deli-header .row div:first-child {
-		padding-right: 0;
-	}
 
-	.deli-header .row div:last-child {
-		padding-left: 0;
-	}
   	.offer .col-md-2, .offer .col-md-9, .calendar .col-md-4, .calendar .col-md-8 {
   		display: inline-block;
   	}
@@ -391,9 +396,6 @@ html, body {
   	}
   	.deli h1, .deli p, .produce h1, .produce p, .landing-4 h1, .landing-4 p {
   		padding: 0 30px 0 30px;
-  	}
-  	.aisle h1 {
-  		padding-top: 50px;
   	}
   	.produce h1 {
   		font-size: 90px;
@@ -713,6 +715,9 @@ html, body {
 	.landing-3 {
 		margin-top: 0;
 	}
+	.organic {
+		padding-top: 40px;
+	}
 	.organic div:first-child {
 	  	padding-left: 20px;
 	}
@@ -723,17 +728,24 @@ html, body {
 		padding-top: 30px;
 	}
 	.country-kitchen-header {
-		padding-top: 30px;
+		padding-top: 20px;
 	}
 	.prepared h1 {
 		font-size: 76px;
 		padding-top: 0;
+	}
+	.prepared p {
+		margin-bottom: 0;
 	}
 	.organic .col-md-6:first-child {
 		margin-bottom: 0;
 	}
 	.vaughan-subscribe-2.desktop {
 		margin-left: 0;
+	}
+	.vaughan-subscribe-2.mobile {
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 
@@ -795,6 +807,9 @@ html, body {
 		right: 24px;
 		float: right;
 		width: 340px;
+	}
+	.calendar .col-md-4 {
+		top: 10px;
 	}
 	.calendar .col-md-4 a{
 		margin-top: 10px;
@@ -868,11 +883,14 @@ html, body {
 		margin-top: 10px;
 	}
 	.produce .circle.green h4 span:first-child {
+		position: relative;
+		top: 5px;
 		font-size: 37px;
 	}
 	.produce .circle.green h4 span:last-child {
 		font-size: 18px;
 		position: relative;
+		top: -14px;
 	}
 	.organic h1 {
 		font-size: 64px;
@@ -938,10 +956,13 @@ html, body {
 	}
 	.produce .circle.green h4 span:first-child {
 		font-size: 30px;
+		position: relative;
+		top: 3px;
 	}
 	.produce .circle.green h4 span:last-child {
 		font-size: 15px;
 		position: relative;
+		top: -11px;
 	}
 }
 
@@ -1144,6 +1165,9 @@ html, body {
 		top: 10px;
 		width: 278px;
 	}
+	.calendar .col-md-4 {
+		top: 10px;
+	}
 	.store-caption {
 		margin-left: 20px;
 		margin-top: -150px;
@@ -1208,15 +1232,9 @@ html, body {
 		right: 0;
 	}
 	.calendar .col-md-4 {
-		width: 100%;
-		float: none;
-		margin: auto;
-		display: block;
-		right: 0;
+		float: left;
+		right: auto;
 		padding: 0;
-	}
-	.calendar .col-md-4 a {
-		margin: auto;
 	}
 	.store-caption {
 		margin-left: 10px;
