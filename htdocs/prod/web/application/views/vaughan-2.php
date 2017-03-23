@@ -105,7 +105,7 @@ window.addeventasync = function(){
     </div>
   </div>
   <div class="row store-image"> 
-    <img src="<?=site_url()?>/assets/media/vaughan/store-front.jpg">
+    <img alt="Highland Farms Store Front" src="<?=site_url()?>/assets/media/vaughan/store-front.jpg">
     <div class="col-md-3 orange circle"><h4>FRESH<br>&amp; NEW</h4></div>
     <div class="row">
       <div class="col-md-6 store-caption">
@@ -117,10 +117,10 @@ window.addeventasync = function(){
 <div class="container-fluid deli-header">
   <div class="row">
     <div>
-      <img src="<?=site_url()?>/assets/media/vaughan/deli-sign.jpg">
+      <img alt="Deli Section" src="<?=site_url()?>/assets/media/vaughan/deli-sign.jpg">
     </div>
     <div>
-      <img src="<?=site_url()?>/assets/media/vaughan/platters-gifts.jpg">
+      <img alt="Platters and Gifts" src="<?=site_url()?>/assets/media/vaughan/platters-gifts.jpg">
     </div>
   </div>
 </div>
@@ -130,14 +130,14 @@ window.addeventasync = function(){
     <p>Shop our legendary selection of meats and cheeses inspired by flavours from around the world. Everything is cut-to-order by our friendly staff. You’ll also find a mouth-watering selection of olives, antipastos and fresh deli salads.</p>
   </div>
   <div class="row produce">
-    <img src="<?=site_url()?>/assets/media/vaughan/apples.jpg">
+    <img alt="Produce Section" src="<?=site_url()?>/assets/media/vaughan/apples.jpg">
     <div class="col-md-3 green circle"><h4><span>FARM</span><br>FRESH<br><span>EVERY DAY</span></h4></div>
     <h1>The freshest produce</h1>
     <p>The size, selection and value of our produce is unsurpassed. Everything is hand-selected daily. Bringing you the freshest produce at the best prices.</p>
   </div>
   <div class="row organic">
     <div>
-      <img src="<?=site_url()?>/assets/media/vaughan/organic-badge.jpg">
+      <img alt="Natural and Wellness Badge" src="<?=site_url()?>/assets/media/vaughan/organic-badge.jpg">
     </div>
     <div class="col-md-6">
         <h1>Live and eat well</h1>
@@ -147,7 +147,7 @@ window.addeventasync = function(){
 </main>
 <div class="container-fluid country-kitchen-header">
   <div class="row">
-  <img src="<?=site_url()?>/assets/media/vaughan/country-kitchen.jpg">
+  <img alt="Country Kitchen Section" src="<?=site_url()?>/assets/media/vaughan/country-kitchen.jpg">
   </div>
 </div>
 <main class="landing-4">
@@ -156,7 +156,7 @@ window.addeventasync = function(){
     <p>Don’t worry if you’re running a little late. Our talented cooks whip up fresh and delicious meals such as chicken, ribs, pasta and a variety of sides – all ready to serve quickly and easily. Let us take care of dinner tonight!</p>
   </div>
   <div class="row aisle">
-    <img src="<?=site_url()?>/assets/media/vaughan/aisle.jpg"><br>
+    <img alt="Shopping Aisle" src="<?=site_url()?>/assets/media/vaughan/aisle.jpg"><br>
     <h1>Great prices in <br class="breakpoint">every aisle</h1>    
     <p>Get competitive prices on thousands of brand names throughout the store.</p>
     <hr>
@@ -182,7 +182,7 @@ window.addeventasync = function(){
     </div>
   </div>
   <div class="scroll">
-    <a onclick="scrollWin()"><img src="<?=site_url()?>/assets/media/vaughan/scroll-to-top.png"></a>
+    <a onclick="scrollWin()"><img alt="Scroll to Top" src="<?=site_url()?>/assets/media/vaughan/scroll-to-top.png"></a>
   </div>
 </main>
 
