@@ -152,7 +152,7 @@ window.addeventasync = function(){
 </div>
 <main class="landing-4">
   <div class="row prepared">
-    <h1>Freshly prepared</h1><br>
+    <h1>Freshly prepared</h1>
     <p>Don’t worry if you’re running a little late. Our talented cooks whip up fresh and delicious meals such as chicken, ribs, pasta and a variety of sides – all ready to serve quickly and easily. Let us take care of dinner tonight!</p>
   </div>
   <div class="row aisle">

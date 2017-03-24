@@ -1197,7 +1197,7 @@ html, body {
 @media screen and (max-width: 450px) {
 	.intro h1 {
 		font-size: 36px;
-		letter-spacing: 0.5px;
+		letter-spacing: 0;
 	}
 	.intro .breakpoint {
 		display: none;
