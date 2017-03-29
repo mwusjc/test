@@ -7,7 +7,7 @@
     </div>
 <div class="row">
   <div class="col-xs-12 col-sm-3">
-	<h2><strong style="color: #00a64f">Opening Soon:</strong> Vaughan</h2>
+	<h2>Vaughan</h2>
     <p style="margin: 10px 0 12px;">9940 Dufferin Street </br/>
       Vaughan, Ontario, L6A 4K5</br/>
       <a href="https://www.google.ca/maps/dir/9940+Dufferin+St,+Vaughan,+ON+L6A//@43.8593551,-79.4892365,17z/data=!3m1!4b1!4m8!4m7!1m5!1m1!1s0x882b296988ff9a6b:0x746897a2e8081ae5!2m2!1d-79.4870478!2d43.8593513!1m0" target="_blank" class="vaughan direction green">Get Directions</a></p>
@@ -16,7 +16,7 @@
     Sun: 8:00AM-8:00PM</p>
 	<a target="_blank" href="tel:+19058324481">(905)-832-4481</a>
 
-    <h2 style="margin-top: 50px;">Scarborough</h2>
+    <h2 style="margin-top: 85px;">Scarborough</h2>
     <p>850 Ellesmere Road </br/>
       Scarborough, ON, M1P 2W5 </br/>
       <a href="https://www.google.ca/maps/dir//830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4/@43.7651696,-79.2837722,17z/data=!4m13!1m4!3m3!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2s830+Ellesmere+Rd,+Scarborough,+ON+M1P+2W4!3b1!4m7!1m0!1m5!1m1!1s0x89d4d18c85f57a1b:0x10c6c8ca7ccfa579!2m2!1d-79.2837722!2d43.7651696" target="_blank" class="scarborough direction green">Get Directions</a></p>
