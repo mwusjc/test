@@ -34,27 +34,6 @@ window.addeventasync = function(){
       <span><span class="orange-text">Follow us</span> and get the <br class="breakpoint">latest deals &amp; savings!</span>
     </div>
   </div>
-  <div class="row countdown">
-    <div class="title col-md-8"><h1>Grand Opening Countdown</h1></div>
-    <div id="clockdiv" class="col-md-4">
-      <div class="numbercontainer">
-        <h1 class="seconds clocknumber orange-text heading-text">00:</h1>
-        <div class="smalltext">Seconds</div>
-      </div>
-      <div class="numbercontainer">
-        <h1 class="minutes clocknumber orange-text heading-text">00:</h1>
-        <div class="smalltext">Minutes</div>
-      </div>
-      <div class="numbercontainer">
-        <h1 class="hours clocknumber orange-text heading-text">00:</h1>
-        <div class="smalltext">Hours</div>
-      </div>
-      <div class="numbercontainer">
-        <h1 class="days clocknumber orange-text heading-text">00:</h1>
-        <div class="smalltext">Days</div>
-      </div>
-     </div>
-  </div>
   <div class="row box orange rounded intro">
     <div class="col-xs-12 col-sm-12">
     <h1>Join us Friday,<br>
