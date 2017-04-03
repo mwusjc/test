@@ -1,1 +1,187 @@
-.countdown h1{letter-spacing:0;font-size:34px;padding-top:30px}#clockdiv{margin-top:80px;margin-bottom:25px}.countdown .smalltext{font-size:18px;padding:10px 0 0 5px;text-align:left}.clocknumber{font-size:132px}.numbercontainer{display:inline-block}.vaughan-subscribe{width:720px;height:70px;padding:0;margin:0 auto;float:none}.vaughan-subscribe .email{width:90%!important;color:#000}.vaughan-subscribe .subscribe-email{background-color:#f99d1c!important}@media screen and (max-width:768px){.landing .countdown h1{font-size:28px}.landing #clockdiv{margin-top:65px;margin-bottom:20px}.landing .clocknumber{font-size:108px}.vaughan-subscribe.mobile{width:100%;padding:0;float:none;display:inline-block!important}.vaughan-subscribe.desktop{display:none}.landing .email{width:580px!important;margin:0 auto}.landing .subscribe-email{margin-top:10px;margin-right:0}.landing .social-icons{margin-top:30px}}@media screen and (max-width:720px){.landing .countdown h1{font-size:26px}.landing .clocknumber{font-size:100px}.landing #clockdiv{margin-top:55px}.landing .email{width:540px!important;margin:0 auto}}@media screen and (max-width:670px){.landing .countdown h1{font-size:22px}.landing .clocknumber{font-size:85px}.landing .smalltext{font-size:14px}.landing .email{width:460px!important}.landing #clockdiv{margin-top:45px;margin-bottom:10px}.landing .social-icons .span{margin-top:20px;font-size:18px}}@media screen and (max-width:578px){.landing .countdown h1{font-size:19px}.landing .clocknumber{font-size:72px}#clockdiv{margin-top:35px}.landing .email{width:390px!important}}@media screen and (max-width:520px){.landing .countdown h1{font-size:18px}.landing .clocknumber{font-size:68px}.landing #clockdiv{margin-top:40px;margin-bottom:15px}.landing .email{width:370px!important}}@media screen and (max-width:477px){.landing .clocknumber{font-size:56px}.landing #clockdiv{margin-top:30px;margin-bottom:5px}.landing .email{width:310px!important}}@media screen and (max-width:406px){.landing .clocknumber{font-size:50px}.landing #clockdiv{margin-top:25px}.landing .smalltext{font-size:12px}.landing .email{width:280px!important}}@media screen and (max-width:370px){.landing .clocknumber{font-size:40px}.landing .smalltext{font-size:10px;padding:0 0 0 5px}.landing .email{width:230px!important}}
+.countdown h1 {
+  letter-spacing: 0px;
+  font-size: 34px;
+  padding-top: 30px;
+}
+
+#clockdiv {
+  margin-top:80px; 
+  margin-bottom:25px;
+}
+
+.countdown .smalltext {
+  font-size: 18px;
+  padding: 10px 0 0 5px;
+  text-align: left;
+}
+
+.clocknumber {
+  font-size: 132px;
+}
+
+.numbercontainer {
+  display: inline-block;
+}
+
+.vaughan-subscribe {
+  width: 720px;
+  height: 70px;
+  padding: 0;
+  margin: 0 auto; 
+  float: none; 
+}
+
+.vaughan-subscribe .email {
+  width: 90% !important;
+  color: black;
+}
+
+.vaughan-subscribe .subscribe-email {
+  background-color: #f99d1c !important;
+}
+
+@media screen and (max-width: 768px) {
+	.landing .countdown h1 {
+		font-size: 28px;
+	}
+	.landing #clockdiv {
+		margin-top: 65px;
+		margin-bottom: 20px;
+	}
+	.landing .clocknumber  {
+		font-size: 108px;
+	}
+	.vaughan-subscribe.mobile {
+		width: 100%;
+		padding: 0;
+		float: none;
+		display: inline-block !important;
+	}
+	.vaughan-subscribe.desktop {
+		display:none;
+	}
+	.landing .email {
+		width: 580px !important;
+		margin: 0 auto;
+		width: 90%;
+	}
+	.landing .subscribe-email {
+		margin-top: 10px;
+		margin-right: 0;
+	}
+	.landing .social-icons {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.landing .countdown h1 {
+		font-size: 26px;
+	}
+	.landing .clocknumber  {
+		font-size: 100px;
+	}
+	.landing #clockdiv {
+		margin-top: 55px;
+	}
+	.landing .email {
+		width: 540px !important;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.landing .countdown h1 {
+		font-size: 22px;
+	}
+	.landing .clocknumber  {
+		font-size: 85px;
+	}
+	.landing .smalltext {
+		font-size: 14px;
+	}
+	.landing .email {
+		width: 460px !important;
+	}
+	.landing #clockdiv {
+		margin-top: 45px;
+		margin-bottom: 10px;
+	}
+	.landing .social-icons .span {
+		margin-top: 20px;
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 578px) {
+	.landing .countdown h1 {
+		font-size: 19px;
+	}
+	.landing .clocknumber  {
+		font-size: 72px;
+	}
+	#clockdiv {
+		margin-top: 35px;
+	}
+	.landing .email {
+		width: 390px !important;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.landing .countdown h1 {
+		font-size: 18px;
+	}
+	.landing .clocknumber  {
+		font-size: 68px;
+	}
+	.landing #clockdiv {
+		margin-top: 40px;
+		margin-bottom: 15px;
+	}
+	.landing .email {
+		width: 370px !important;
+	}
+}
+
+@media screen and (max-width: 477px) {
+	.landing .clocknumber  {
+		font-size: 56px;
+	}
+	.landing #clockdiv {
+		margin-top: 30px;
+		margin-bottom: 5px;
+	}
+	.landing .email {
+		width: 310px !important;
+	}
+}
+
+@media screen and (max-width: 406px) {
+	.landing .clocknumber  {
+		font-size: 50px;
+	}
+	.landing #clockdiv {
+		margin-top: 25px;
+	}
+	.landing .smalltext {
+		font-size: 12px;
+	}
+	.landing .email {
+		width: 280px !important;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.landing .clocknumber  {
+		font-size: 40px;
+	}
+	.landing .smalltext {
+		font-size: 10px;
+		padding: 0 0 0 5px;
+	}
+	.landing .email {
+		width: 230px !important;
+	}
+}
+

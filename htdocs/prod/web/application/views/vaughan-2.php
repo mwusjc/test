@@ -165,5 +165,4 @@ window.addeventasync = function(){
   </div>
 </main>
 
-<script type="text/javascript" async src="<?=site_url()?>/assets/js/vaughan-countdown.js"></script>
 <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
