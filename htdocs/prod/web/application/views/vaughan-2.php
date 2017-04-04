@@ -2,24 +2,6 @@
 
 <link rel="stylesheet" href="<?=site_url()?>assets/css/vaughan-2.css">
 <link rel="stylesheet" href="<?=site_url()?>assets/css/addtocalendar.css">
-<script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
-<script type="text/javascript">
-window.addeventasync = function(){
-    addeventatc.settings({
-        license    : "axrmLOfZszxyrEweZmoa27130",
-        mouse      : false,
-        css        : false,
-        outlook    : {show:true, text:"Outlook"},
-        google     : {show:true, text:"Google <em>(online)</em>"},
-        yahoo      : {show:true, text:"Yahoo <em>(online)</em>"},
-        outlookcom : {show:true, text:"Outlook.com <em>(online)</em>"},
-        appleical  : {show:true, text:"Apple iCalendar"},
-        facebook   : {show:false, text:"Facebook Event"},
-        dropdown   : {order:"appleical,google,outlook,outlookcom,yahoo"}
-    });
-};
-</script>
-
 <main class='landing-2'>
   <div class="row">
     <div class="social-blurb mobile">
@@ -32,50 +14,6 @@ window.addeventasync = function(){
     </div>
     <div class="social-blurb desktop">
       <span><span class="orange-text">Follow us</span> and get the <br class="breakpoint">latest deals &amp; savings!</span>
-    </div>
-  </div>
-  <div class="row box orange rounded intro">
-    <div class="col-xs-12 col-sm-12">
-    <h1>Join us Friday,<br>
-    March 31 at 10am for<br class="breakpoint">
-    our Grand Opening!</h1><br>
-    <span>9940 Dufferin St. at <br class="breakpoint">Major MacKenzie Dr. W.</span>
-    </div>
-  </div>
-  <div class="row box orange offer">
-    <div class="col-md-2 circle green"><h4>Plus</h4></div>
-    <div class="col-md-9">
-      <div class="row">
-        <div class="col-xs-6 col-md-6"><h4>FREE</h4></div>
-        <div class="col-xs-6 col-md-6"><h4>FREE</h4></div>
-      </div>
-      <div class="row details">
-        <div class="col-xs-6 col-md-6"><h3>$25 Gift Card <br>to the first 200 <br>customers</h3></div>
-        <div class="col-xs-6 col-md-6"><h3>Eco-friendly <br>shopping bag with <br class="breakpoint">every purchase</h3></div>
-      </div>
-    </div>
-  </div>
-  <div class="row box orange calendar">
-    <div class="col-md-8">
-      <h3>Get these exclusive offers<br>
-      Friday, March 31 only at our<br class="breakpoint">
-      fresh new Vaughan location!</h3>
-    </div>
-    <div class="col-md-4">
-      <div title="Add to Calendar" class="addeventatc addtocalendar">
-          + add to your calendar
-          <span class="start">03/31/2017 10:00 AM</span>
-          <span class="end">03/31/2017 12:00 PM</span>
-          <span class="timezone">America/Toronto</span>
-          <span class="title">Highland Farms Grand Opening</span>
-          <span class="description">For details, link here: http://www.hfstartfresh.ca</span>
-          <span class="location">9940 Dufferin Street, Vaughan, ON, L6A 4K5</span>
-          <span class="organizer">Highland Farms</span>
-          <span class="organizer_email">Organizer e-mail</span>
-          <span class="all_day_event">false</span>
-          <span class="date_format">MM/DD/YYYY</span>
-          <span class="calname">Highland_Farms_Vaughan_Grand_Opening</span>
-      </div>
     </div>
   </div>
   <div class="row store"> 
