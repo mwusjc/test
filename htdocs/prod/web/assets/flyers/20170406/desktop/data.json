@@ -260,8 +260,8 @@
           "brands": ["The Worthy Crumb Pastry Co."],
           "category": "bakery",
           "summary": "",
-          "packaging":"150-180g",
-          "pricing":"$4.29",
+          "packaging":"450-490g",
+          "pricing":"$4.99",
           "comments":""
         },
         {
@@ -509,7 +509,7 @@
           "category": "grocery",
           "summary": "",
           "packaging":"141-170g",
-          "pricing":"$4.99",
+          "pricing":"$3.99",
           "comments":""
         },
         {
@@ -765,7 +765,7 @@
           "coords":[117,279,99,115],
           "name": "Ocean Prime Frozen Easy Peel Raw White Shrimp 31-40ct",
           "brands": ["Ocean Prime"],
-          "category": "frozen foods",
+          "category": "seafood",
           "summary": "",
           "packaging":"454g",
           "pricing":"$8.99",
@@ -818,8 +818,8 @@
         {
           "image":"Tenderflake-shells.jpg",
           "coords":[222,398,100,117],
-          "name": "Tenderflakes Frozen Shells and Puff Pastry, Selected Varieties",
-          "brands": ["Tenderflakes"],
+          "name": "Tenderflake Frozen Shells and Puff Pastry, Selected Varieties",
+          "brands": ["Tenderflake"],
           "category": "frozen foods",
           "summary": "",
           "packaging":"255-454g",

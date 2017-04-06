@@ -7,7 +7,7 @@
       "products":[
         {
           "image":"Sirloin-roast-beef.jpg",
-          "coords":[9,116,148,150],
+          "coords":[12,160,204,208],
           "name": "Fresh Beef Sirloin Tip Roast Product of Canada",
           "brands": [""],
           "category": "meat",
@@ -18,7 +18,7 @@
         },
         {
           "image":"Strawberries.jpg",
-          "coords":[163,116,148,150],
+          "coords":[224,160,204,208],
           "name": "Fresh Driscoll's Strawberries Product of U.S.A. No. 1 Grade",
           "brands": ["Driscoll's"],
           "category": "produce",
@@ -29,7 +29,7 @@
         },
         {
           "image":"LaMolisana-pasta.jpg",
-          "coords":[9,275,96,106],
+          "coords":[12,380,134,146],
           "name": "La Molisana Pasta 450g, Assorted Regular Cuts or Passata di Pomodoro 680ml",
           "brands": ["La Molisana"],
           "category": "grocery",
@@ -40,7 +40,7 @@
         },
         {
           "image":"Chapmans-ice-cream.jpg",
-          "coords":[111,275,96,106],
+          "coords":[154,380,134,146],
           "name": "Chapman's Premium Ice Cream 2L, Yukon Novelties 6-8pk or Breyers Classic 1.66L, Selected Varieties",
           "brands": ["Chapman's", "Breyers"],
           "category": "frozen foods",
@@ -51,7 +51,7 @@
         },
         {
           "image":"Burnbrae-Farms-eggs.jpg",
-          "coords":[213,275,96,106],
+          "coords":[294,380,134,146],
           "name": "Burnbrae Farms Fresh Large White Eggs Limit of 5 Per Family",
           "brands": ["Burnbrae Farms"],
           "category": "dairy",
@@ -68,7 +68,7 @@
       "products":[
         {
           "image":"Navel-Oranges.jpg",
-          "coords":[9,24,150,87],
+          "coords":[12,33,206,120],
           "name": "Seedless Navel Oranges Product of U.S.A. Large Size",
           "brands": [""],
           "category": "produce",
@@ -79,7 +79,7 @@
         },
         {
           "image":"Sweet-Bell-Peppers.jpg",
-          "coords":[161,8,150,102],
+          "coords":[222,12,206,140],
           "name": "Ontario Homegrown Greenhouse Sweet Bell Peppers Red, Yellow or Orange",
           "brands": [""],
           "category": "produce",
@@ -90,7 +90,7 @@
         },
         {
           "image":"Red-Grapes.jpg",
-          "coords":[9,112,74,85],
+          "coords":[12,156,101,117],
           "name": "Fresh Red Seedless Grapes Product of Chile No. 1 Grade",
           "brands": [""],
           "category": "produce",
@@ -101,7 +101,7 @@
         },
         {
           "image":"Honeydew-melons.jpg",
-          "coords":[85,112,74,85],
+          "coords":[117,157,101,117],
           "name": "Honeydew Melons Product of Guatemala Jumbo Size",
           "brands": [""],
           "category": "produce",
@@ -112,7 +112,7 @@
         },
         {
           "image":"Tomatoes.jpg",
-          "coords":[161,112,74,85],
+          "coords":[222,157,101,117],
           "name": "Ontario Homegrown Greenhouse Tomatoes No. 1 Grade",
           "brands": [""],
           "category": "produce",
@@ -123,7 +123,7 @@
         },
         {
           "image":"Anise.jpg",
-          "coords":[237,112,74,85],
+          "coords":[327,157,101,117],
           "name": "Anise Product of U.S.A.",
           "brands": [""],
           "category": "produce",
@@ -134,7 +134,7 @@
         },
         {
           "image":"Bartlett-pears.jpg",
-          "coords":[9,200,74,85],
+          "coords":[12,276,101,117],
           "name": "Bartlett Pears Product of Argentina Extra Fancy Grade",
           "brands": [""],
           "category": "produce",
@@ -145,7 +145,7 @@
         },
         {
           "image":"Pineapples.jpg",
-          "coords":[85,200,74,85],
+          "coords":[117,276,101,117],
           "name": "Fresh Golden Pineapples Product of Costa Rica",
           "brands": [""],
           "category": "produce",
@@ -156,7 +156,7 @@
         },
         {
           "image":"Sweet-Potatoes.jpg",
-          "coords":[161,200,74,85],
+          "coords":[222,276,101,117],
           "name": "Sweet Potatoes Product of U.S.A.",
           "brands": [""],
           "category": "produce",
@@ -167,7 +167,7 @@
         },
         {
           "image":"Broccoli.jpg",
-          "coords":[237,200,74,85],
+          "coords":[327,276,101,117],
           "name": "Fresh Andy Boy Broccoli Product of U.S.A.",
           "brands": ["Andy Boy"],
           "category": "produce",
@@ -178,7 +178,7 @@
         },
         {
           "image":"kiwifruit.jpg",
-          "coords":[9,288,74,85],
+          "coords":[12,397,101,117],
           "name": "Kiwifruit Product of Italy",
           "brands": [""],
           "category": "produce",
@@ -189,7 +189,7 @@
         },
         {
           "image":"Classic-salads.jpg",
-          "coords":[85,288,74,85],
+          "coords":[117,397,101,117],
           "name": "Organic Classic Salads Product of U.S.A., Assorted Varieties",
           "brands": ["Classic Salads"],
           "category": "produce",
@@ -200,7 +200,7 @@
         },
         {
           "image":"Potatoes-organic.jpg",
-          "coords":[161,288,74,85],
+          "coords":[222,397,101,117],
           "name": "Potatoes Baking, Red or Yellow Fleshed Product of P.E.I. Canada No. 1 Grade",
           "brands": [""],
           "category": "produce",
@@ -211,7 +211,7 @@
         },
         {
           "image":"Easter-Lilies.jpg",
-          "coords":[237,288,74,85],
+          "coords":[327,397,101,117],
           "name": "Easter Lilies Product of Ontario 5 Bloom & Up",
           "brands": [""],
           "category": "produce",
@@ -219,16 +219,10 @@
           "packaging":"6in pot",
           "pricing":"$5.99",
           "comments":""
-        }
-      ]
-    },
-    {
-      "id":"page3",
-      "image":"page3.jpg",
-      "products":[
+        },
         {
           "image":"Wonder-Bread.jpg",
-          "coords":[9,9,150,101],
+          "coords":[453,12,206,140],
           "name": "Wonder Classic or +Fibre Sliced Bread White or 100% Whole Wheat",
           "brands": ["Wonder"],
           "category": "bakery",
@@ -239,7 +233,7 @@
         },
         {
           "image":"LaRocca-8in-cake.jpg",
-          "coords":[162,24,149,174],
+          "coords":[663,33,206,240],
           "name": "La Rocca Fresh 8in Cake Dulce Napoleon or Truffle Royale",
           "brands": ["La Rocca"],
           "category": "bakery",
@@ -250,7 +244,7 @@
         },
         {
           "image":"Stonehouse-Bakehouse-bread.jpg",
-          "coords":[9,113,74,85],
+          "coords":[453,156,101,117],
           "name": "Stonemill Bakehouse Sliced Grain Bread, Selected Varieties",
           "brands": ["Stonemill Bakehouse"],
           "category": "bakery",
@@ -261,18 +255,18 @@
         },
         {
           "image":"The-Worthy-Crumb-Crostata.jpg",
-          "coords":[85,113,74,85],
+          "coords":[558,156,101,117],
           "name": "The Worthy Crumb Pastry Co. Crostata, Assorted Varieties",
           "brands": ["The Worthy Crumb Pastry Co."],
           "category": "bakery",
           "summary": "",
-          "packaging":"450-490g",
-          "pricing":"$4.99",
+          "packaging":"150-180g",
+          "pricing":"$4.29",
           "comments":""
         },
         {
           "image":"Natrel-Cream.jpg",
-          "coords":[9,201,74,85],
+          "coords":[453,276,101,117],
           "name": "Natrel Cream 10%, 5% or Lactose Free 10% 1L or Natrel Whipping Cream 35% or Lactose Free 35% 473ml",
           "brands": ["Natrel"],
           "category": "dairy",
@@ -283,7 +277,7 @@
         },
         {
           "image":"Gay-Lea-Astro-Alphonso.jpg",
-          "coords":[84,201,75,85],
+          "coords":[558,276,101,117],
           "name": "Gay Lea Whipped Cream 225g, Alphonso Premium Juice 1.75L or Astro Yogurt 750g, Assorted Varieties",
           "brands": ["Gay Lea", "Alphonso", "Astro"],
           "category": "dairy",
@@ -294,7 +288,7 @@
         },
         {
           "image":"Pillsbury-Rolls.jpg",
-          "coords":[162,201,74,85],
+          "coords":[663,276,101,117],
           "name": "Pillsbury Crescent Rolls Regular or Reduced Fat & Wiener Wraps",
           "brands": ["Pillsbury"],
           "category": "dairy",
@@ -305,7 +299,7 @@
         },
         {
           "image":"Becel-Margarine.jpg",
-          "coords":[237,201,74,85],
+          "coords":[768,276,101,117],
           "name": "Becel Margarine, Selected Varieties",
           "brands": ["Becel"],
           "category": "dairy",
@@ -316,7 +310,7 @@
         },
         {
           "image":"Tropicana-Orange-Juice.jpg",
-          "coords":[9,288,74,85],
+          "coords":[453,397,101,117],
           "name": "Tropicana Pure Premium Orange Juice, Assorted Varieties",
           "brands": ["Tropicana"],
           "category": "dairy",
@@ -327,7 +321,7 @@
         },
         {
           "image":"Western-Sour-Cream.jpg",
-          "coords":[85,288,74,85],
+          "coords":[558,397,101,117],
           "name": "Western Sour Cream Regular or Light",
           "brands": ["Western"],
           "category": "dairy",
@@ -338,7 +332,7 @@
         },
         {
           "image":"Western-Baking-Cheese.jpg",
-          "coords":[161,288,74,85],
+          "coords":[663,397,101,117],
           "name": "Western Superior Baking Cheese",
           "brands": ["Western"],
           "category": "dairy",
@@ -349,7 +343,7 @@
         },
         {
           "image":"Simply-Dressed-Marzetti.jpg",
-          "coords":[237,288,74,85],
+          "coords":[768,397,101,117],
           "name": "Marzetti Veggie Dips 248-340g or Simply Dressed Dressings 354ml, Assorted Varieties",
           "brands": ["Marzetti", "Simply Dressed"],
           "category": "dairy",
@@ -361,12 +355,12 @@
       ]
     },
     {
-      "id":"page4",
-      "image":"page4.jpg",
+      "id":"page3",
+      "image":"page3.jpg",
       "products":[
         {
           "image":"Unico-Tomatoes-Mamma-Nuccia-Gnocchi.jpg",
-          "coords":[9,24,150,87],
+          "coords":[12,33,205,120],
           "name": "Unico Tomatoes 796ml or Beans 540ml, Assorted Varieties or Mamma Nuccia Gnocchi 500g",
           "brands": ["Unico", "Mamma Nuccia"],
           "category": "grocery",
@@ -377,7 +371,7 @@
         },
         {
           "image":"CK-Pasta-Sauce.jpg",
-          "coords":[161,9,74,102],
+          "coords":[222,13,102,141],
           "name": "Highland Farms Country Kitchen Pasta Sauce, Assorted Varieties",
           "brands": ["Highland Farms Country Kitchen"],
           "category": "grocery",
@@ -388,7 +382,7 @@
         },
         {
           "image":"Italpasta-Primo-Lasagna.jpg",
-          "coords":[237,9,74,102],
+          "coords":[328,13,100,141],
           "name": "Italpasta or Primo Lasagne Regular or Oven Ready",
           "brands": ["Italpasta", "Primo"],
           "category": "grocery",
@@ -399,7 +393,7 @@
         },
         {
           "image":"OceanSpray-Motts-blends.jpg",
-          "coords":[9,113,74,85],
+          "coords":[12,157,205,116],
           "name": "Ocean Spray Cranberry Cocktail or 100% Juice Blend or Mott's Clamato or Garden Cocktail, Assorted Varieties",
           "brands": ["Ocean Spray", "Mott's"],
           "category": "grocery",
@@ -410,7 +404,7 @@
         },
         {
           "image":"Mother-Parkers-Coffee.jpg",
-          "coords":[161,113,74,85],
+          "coords":[222,157,102,117],
           "name": "Mother Parkers Original Roast Ground Coffee",
           "brands": ["Mother Parkers"],
           "category": "grocery",
@@ -421,7 +415,7 @@
         },
         {
           "image":"Mastro-Olive-Oil.jpg",
-          "coords":[237,113,74,85],
+          "coords":[328,157,100,117],
           "name": "Mastro Extra Virgin Olive Oil",
           "brands": ["Mastro"],
           "category": "grocery",
@@ -432,7 +426,7 @@
         },
         {
           "image":"Aurora-Broth.jpg",
-          "coords":[9,200,74,85],
+          "coords":[12,277,100,117],
           "name": "Aurora Broth, Assorted Varieties",
           "brands": ["Aurora"],
           "category": "grocery",
@@ -443,7 +437,7 @@
         },
         {
           "image":"Aurora-Salt-Olives.jpg",
-          "coords":[85,200,74,85],
+          "coords":[117,277,101,117],
           "name": "Aurora Sea Salt 1kg or Sardo Black Olives 398ml, Assorted Varieties",
           "brands": ["Aurora", "Sardo"],
           "category": "grocery",
@@ -452,9 +446,9 @@
           "pricing":"$0.99",
           "comments":""
         },
-        {
+        { 
           "image":"Hellmanns-Mayo-Martelli-Rice.jpg",
-          "coords":[161,200,74,85],
+          "coords":[222,276,101,117],
           "name": "Hellmann's Mayonnaise 750-890ml, Assorted Varieties or Martelli Arborio Rice 1kg",
           "brands": ["Hellmann's", "Martelli"],
           "category": "grocery",
@@ -463,9 +457,9 @@
           "pricing":"$3.99",
           "comments":""
         },
-        {
+        { 
           "image":"FiveRoses-RobinHood-flour.jpg",
-          "coords":[237,200,74,85],
+          "coords":[327,276,101,117],
           "name": "Five Roses or Robin Hood All Purpose Flour, Selected Varieties",
           "brands": ["Five Roses", "Robin Hood"],
           "category": "grocery",
@@ -476,7 +470,7 @@
         },
         {
           "image":"Clover-Leaf-Tuna.jpg",
-          "coords":[9,288,74,85],
+          "coords":[12,397,101,117],
           "name": "Clover Leaf Light Skipjack Tuna in Water Chunk or Flaked",
           "brands": ["Clover Leaf"],
           "category": "grocery",
@@ -487,7 +481,7 @@
         },
         {
           "image":"FrancoAmerican-gravy-Dole-pineapple.jpg",
-          "coords":[85,288,74,85],
+          "coords":[117,397,101,117],
           "name": "Franco American Gravy 284ml or Dole Pineapple 398ml, Assorted Varieties",
           "brands": ["Franco American", "Dole"],
           "category": "grocery",
@@ -498,7 +492,7 @@
         },
         {
           "image":"Hidden-Valley-Dressing.jpg",
-          "coords":[161,288,74,85],
+          "coords":[222,397,101,117],
           "name": "Hidden Valley Ranch Dressing, Assorted Varieties",
           "brands": ["Hidden Valley"],
           "category": "grocery",
@@ -509,24 +503,18 @@
         },
         {
           "image":"Pam-cooking-spray.jpg",
-          "coords":[237,288,74,85],
+          "coords":[327,397,101,117],
           "name": "Pam Cooking Spray, Assorted Varieties",
           "brands": ["Pam"],
           "category": "grocery",
           "summary": "",
           "packaging":"141-170g",
-          "pricing":"$3.99",
+          "pricing":"$4.99",
           "comments":""
-        }
-      ]
-    },
-    {
-      "id":"page5",
-      "image":"page5.jpg",
-      "products":[
+        },
         {
           "image":"Baci-Chocolates.jpg",
-          "coords":[9,15,74,95],
+          "coords":[453,12,101,140],
           "name": "Baci Perugina Chocolates 24 pieces",
           "brands": ["Baci"],
           "category": "grocery",
@@ -537,7 +525,7 @@
         },
         {
           "image":"Excelsior-chocolat-egg.jpg",
-          "coords":[85,15,74,95],
+          "coords":[558,12,101,140],
           "name": "Excelsior Chocolate Easter Egg with Surprise Toy",
           "brands": ["Excelsior"],
           "category": "grocery",
@@ -548,7 +536,7 @@
         },
         {
           "image":"Pepsi-Coke-cans.jpg",
-          "coords":[161,24,104,87],
+          "coords":[663,33,145,120],
           "name": "Pepsi or Coca-Cola Soft Drinks, Assorted Varieties",
           "brands": ["Pepsi", "Coca-Cola"],
           "category": "grocery",
@@ -559,7 +547,7 @@
         },
         {
           "image":"Pepsi-Coke-2L-bottle.jpg",
-          "coords":[270,24,41,59],
+          "coords":[813,33,56,79],
           "name": "Pepsi or Coca-Cola Soft Drinks, Assorted Varieties",
           "brands": ["Pepsi", "Coca-Cola"],
           "category": "grocery",
@@ -570,7 +558,7 @@
         },
         {
           "image":"Lindt-choco-bars.jpg",
-          "coords":[9,113,74,85],
+          "coords":[453,156,101,117],
           "name": "Lindt Swiss Classic Gold Chocolate Bars, Assorted Varieties",
           "brands": ["Lindt"],
           "category": "grocery",
@@ -581,7 +569,7 @@
         },
         {
           "image":"SanBenedetto-water.jpg",
-          "coords":[85,113,74,85],
+          "coords":[558,156,101,117],
           "name": "San Benedetto Spring Water Natural & Carbonated",
           "brands": ["San Benedetto"],
           "category": "grocery",
@@ -592,7 +580,7 @@
         },
         {
           "image":"Lays-Kettle-Brand-chips.jpg",
-          "coords":[161,113,150,85],
+          "coords":[663,156,206,117],
           "name": "Lay's Potato Chips 255g or Kettle Brand Chips 170-220g, Assorted Varieties",
           "brands": ["Lay's", "Kettle Brand"],
           "category": "grocery",
@@ -603,7 +591,7 @@
         },
         {
           "image":"Breton-Crackers-Martelli.jpg",
-          "coords":[9,200,74,85],
+          "coords":[453,276,101,117],
           "name": "Dare Breton Crackers, Bites, Popped! or Gluten Free 100-250g, Selected Varieties or Martelli Savoiardi 400g",
           "brands": ["Dare", "Martelli"],
           "category": "grocery",
@@ -614,7 +602,7 @@
         },
         {
           "image":"Trophy-peanuts-Christie-crackers.jpg",
-          "coords":[85,200,74,85],
+          "coords":[558,276,101,117],
           "name": "Trophy Kettle Cooked Peanuts 275g or Christie Snacking Crackers 175-250g, Assorted Varieties",
           "brands": ["Trophy", "Christie"],
           "category": "grocery",
@@ -625,7 +613,7 @@
         },
         {
           "image":"Pringles-chip.jpg",
-          "coords":[161,200,74,85],
+          "coords":[663,276,101,117],
           "name": "Pringles Chips, Assorted Varieties",
           "brands": ["Pringles"],
           "category": "grocery",
@@ -636,7 +624,7 @@
         },
         {
           "image":"Clorox-cleaners.jpg",
-          "coords":[237,200,74,85],
+          "coords":[768,276,101,117],
           "name": "Clorox Toilet Bowl Cleaner",
           "brands": ["Clorox"],
           "category": "grocery",
@@ -647,7 +635,7 @@
         },
         {
           "image":"Shady-Maple-Farms-syrup.jpg",
-          "coords":[9,287,74,85],
+          "coords":[453,397,101,117],
           "name": "Shady Maple Farms Organic 100% Pure Maple Syrup Amber or Very Dark",
           "brands": ["Shady Maple Farms"],
           "category": "grocery",
@@ -658,7 +646,7 @@
         },
         {
           "image":"Imagine-broth.jpg",
-          "coords":[85,287,74,85],
+          "coords":[558,397,101,117],
           "name": "Imagine Organic Broth, Assorted Varieties",
           "brands": ["Imagine"],
           "category": "grocery",
@@ -669,7 +657,7 @@
         },
         {
           "image":"Oasis-Rougemont-juice.jpg",
-          "coords":[161,287,74,85],
+          "coords":[663,397,101,117],
           "name": "Oasis NutriSource Juice Blends 1.36L or Rougemont Apple Juice 2L, Assorted Varieties",
           "brands": ["Oasis", "Rougemont"],
           "category": "grocery",
@@ -680,7 +668,7 @@
         },
         {
           "image":"Glad-cling-wrap.jpg",
-          "coords":[237,287,74,85],
+          "coords":[768,397,101,117],
           "name": "Glad Cling Wrap",
           "brands": ["Glad"],
           "category": "grocery",
@@ -692,12 +680,12 @@
       ]
     },
     {
-      "id":"page6",
-      "image":"page6.jpg",
+      "id":"page4",
+      "image":"page4.jpg",
       "products":[
         {
           "image":"Atlantic-Salmon-Fillets.jpg",
-          "coords":[7,24,152,87],
+          "coords":[10,38,206,114],
           "name": "Fresh Atlantic Salmon Fillets",
           "brands": [""],
           "category": "seafood",
@@ -708,7 +696,7 @@
         },
         {
           "image":"Cod-Fillets.jpg",
-          "coords":[161,9,74,102],
+          "coords":[222,17,101,136],
           "name": "Fresh Cod Fillets Product of Iceland",
           "brands": [""],
           "category": "seafood",
@@ -719,7 +707,7 @@
         },
         {
           "image":"Mussels.jpg",
-          "coords":[238,9,73,102],
+          "coords":[328,17,100,136],
           "name": "Fresh P.E.I. Cultivated Mussels",
           "brands": [""],
           "category": "seafood",
@@ -730,7 +718,7 @@
         },
         {
           "image":"Ocean-Prime-frozen-seafood.jpg",
-          "coords":[7,113,152,85],
+          "coords":[10,157,206,115],
           "name": "Ocean Prime Frozen Seafood Mix, Squid Rings 908g or Squid Tubes 1.13kg",
           "brands": ["Ocean Prime"],
           "category": "seafood",
@@ -741,7 +729,7 @@
         },
         {
           "image":"Toppits-shrimp-platter.jpg",
-          "coords":[161,113,74,85],
+          "coords":[222,157,101,117],
           "name": "Toppits Jumbo Cooked Shrimp Platter with Cocktail Sauce",
           "brands": ["Toppits"],
           "category": "seafood",
@@ -752,7 +740,7 @@
         },
         {
           "image":"Norwegian-Fjord-salmon.jpg",
-          "coords":[238,113,73,85],
+          "coords":[328,157,101,117],
           "name": "Norwegian Fjord Frozen Smoked Steelhead Salmon",
           "brands": [""],
           "category": "seafood",
@@ -761,9 +749,9 @@
           "pricing":"$14.99",
           "comments":""
         },
-        { 
+        {
           "image":"Ocean-Prime-frozen-cooked-shrimp.jpg",
-          "coords":[7,200,74,85],
+          "coords":[10,279,103,115],
           "name": "Ocean Prime Frozen Cooked Pacific White Shrimp 21-25ct",
           "brands": ["Ocean Prime"],
           "category": "seafood",
@@ -772,12 +760,12 @@
           "pricing":"$13.99",
           "comments":""
         },
-        { 
+        {
           "image":"Ocean-Prime-frozen-raw-shrimp.jpg",
-          "coords":[85,200,74,85],
+          "coords":[117,279,99,115],
           "name": "Ocean Prime Frozen Easy Peel Raw White Shrimp 31-40ct",
           "brands": ["Ocean Prime"],
-          "category": "seafood",
+          "category": "frozen foods",
           "summary": "",
           "packaging":"454g",
           "pricing":"$8.99",
@@ -785,7 +773,7 @@
         },
         {
           "image":"CK-frozen-lasagna.jpg",
-          "coords":[161,200,74,85],
+          "coords":[223,277,99,117],
           "name": "Highland Farms Country Kitchen Frozen Lasagna, Canelloni or Cabbage Rolls",
           "brands": ["Highland Farms Country Kitchen"],
           "category": "frozen foods",
@@ -796,7 +784,7 @@
         },
         {
           "image":"Green-Giant-frozen-veg.jpg",
-          "coords":[238,200,74,85],
+          "coords":[328,277,100,117],
           "name": "Green Giant Frozen Vegetables 750g or Valley Selections 300-500g, Assorted Varieties",
           "brands": ["Green Giant"],
           "category": "frozen foods",
@@ -807,7 +795,7 @@
         },
         {
           "image":"7Days-Bake-It-filo-twist.jpg",
-          "coords":[7,288,74,85],
+          "coords":[10,398,103,117],
           "name": "7 Days Bake It Filo Rollini or Filo Twist",
           "brands": ["7 Days Bake It"],
           "category": "frozen foods",
@@ -818,7 +806,7 @@
         },
         {
           "image":"7Days-Bake-It-filo-pastry-leaves.jpg",
-          "coords":[85,288,74,85],
+          "coords":[117,398,99,117],
           "name": "7 Days Bake It Frozen Filo Pastry Leaves",
           "brands": ["7 Days Bake It"],
           "category": "frozen foods",
@@ -829,9 +817,9 @@
         },
         {
           "image":"Tenderflake-shells.jpg",
-          "coords":[161,288,73,85],
-          "name": "Tenderflake Frozen Shells and Puff Pastry, Selected Varieties",
-          "brands": ["Tenderflake"],
+          "coords":[222,398,100,117],
+          "name": "Tenderflakes Frozen Shells and Puff Pastry, Selected Varieties",
+          "brands": ["Tenderflakes"],
           "category": "frozen foods",
           "summary": "",
           "packaging":"255-454g",
@@ -840,7 +828,7 @@
         },
         {
           "image":"Europes-Best-fruit.jpg",
-          "coords":[238,288,73,85],
+          "coords":[327,398,100,117],
           "name": "Europe's Best Frozen Fruit, Selected Varieties",
           "brands": ["Europe's Best"],
           "category": "frozen foods",
@@ -848,16 +836,10 @@
           "packaging":"500-600g",
           "pricing":"$3.99",
           "comments":""
-        }
-      ]
-    },
-    {
-      "id":"page7",
-      "image":"page7.jpg",
-      "products":[
+        },
         {
           "image":"Mastro-salami.jpg",
-          "coords":[9,15,74,95],
+          "coords":[453,12,103,140],
           "name": "Mastro Genoa Salami Regular or Hot, Freshly Sliced at the Deli",
           "brands": ["Mastro"],
           "category": "deli",
@@ -868,7 +850,7 @@
         },
         {
           "image":"SanDaniele-proscuitto.jpg",
-          "coords":[85,15,74,95],
+          "coords":[558,12,101,140],
           "name": "San Daniele Boneless Prosciutto, Freshly Sliced at the Deli",
           "brands": ["San Daniele"],
           "category": "deli",
@@ -879,7 +861,7 @@
         },
         {
           "image":"Doric-Krinos-feta-cheese.jpg",
-          "coords":[161,27,150,84],
+          "coords":[663,41,206,110],
           "name": "Doric Macedonian Style Feta Cheese, Krinos Traditional or Cow & Goat Feta Cheese",
           "brands": ["Doric", "Krinos"],
           "category": "deli",
@@ -890,7 +872,7 @@
         },
         {
           "image":"TreStella-provolone-cheese.jpg",
-          "coords":[9,113,74,85],
+          "coords":[453,163,101,111],
           "name": "Tre Stelle Provolone Cheese Regular or Light, Freshly Sliced at the Deli",
           "brands": ["Tre Stelle"],
           "category": "deli",
@@ -901,7 +883,7 @@
         },
         {
           "image":"Saputo-friulano-cheese.jpg",
-          "coords":[85,113,74,85],
+          "coords":[558,163,101,111],
           "name": "Saputo Mini Friulano Cheese",
           "brands": ["Saputo"],
           "category": "deli",
@@ -912,7 +894,7 @@
         },
         {
           "image":"Silani-Ricotta-chese.jpg",
-          "coords":[161,113,150,84],
+          "coords":[663,163,206,110],
           "name": "Silani Fresh Ricotta Cheese",
           "brands": ["Silani"],
           "category": "deli",
@@ -923,7 +905,7 @@
         },
         {
           "image":"O-Sole-Mio-lasagna.jpg",
-          "coords":[9,200,74,85],
+          "coords":[453,276,101,117],
           "name": "O Sole Mio Fresh Lasagna",
           "brands": ["O Sole Mio"],
           "category": "deli",
@@ -934,7 +916,7 @@
         },
         {
           "image":"Santa-Lucia-mozz-cheese.jpg",
-          "coords":[85,200,74,85],
+          "coords":[558,276,101,117],
           "name": "Santa Lucia Mozzarella Cheese",
           "brands": ["Santa Lucia"],
           "category": "deli",
@@ -945,7 +927,7 @@
         },
         {
           "image":"Agropur-brie.jpg",
-          "coords":[161,200,74,85],
+          "coords":[663,276,101,117],
           "name": "Agropur L&rsquo;Extra Brie or L&rsquo;Extra Double Cr&eacute;me Brie, At the Deli",
           "brands": ["Agropur"],
           "category": "deli",
@@ -956,7 +938,7 @@
         },
         {
           "image":"TreStella-mascarpone-cheese.jpg",
-          "coords":[237,200,74,85],
+          "coords":[768,276,101,117],
           "name": "Tre Stelle Mascarpone Cheese",
           "brands": ["Tre Stelle"],
           "category": "deli",
@@ -967,7 +949,7 @@
         },
         {
           "image":"MarcAngelo-deli-meat-slices.jpg",
-          "coords":[9,287,74,85],
+          "coords":[453,397,101,117],
           "name": "Marc Angelo Imported Deli Meat Slices, Selected Varieties",
           "brands": ["Marc Angelo"],
           "category": "deli",
@@ -978,7 +960,7 @@
         },
         {
           "image":"MarcAngelo-antipasto-trio.jpg",
-          "coords":[84,287,74,85],
+          "coords":[558,397,101,117],
           "name": "Marc Angelo Antipasto Trio Imported from Italy",
           "brands": ["Marc Angelo"],
           "category": "deli",
@@ -989,7 +971,7 @@
         },
         {
           "image":"CK-focaccia.jpg",
-          "coords":[161,287,74,85],
+          "coords":[663,397,101,117],
           "name": "Highland Farms Country Kitchen Heat & Serve Focaccia with Tomato, Feta & Olives, Potato & Rosemary or Pepper Medley Min. Weight 950g",
           "brands": ["Highland Farms Country Kitchen"],
           "category": "deli",
@@ -1000,7 +982,7 @@
         },
         {
           "image":"CK-fresh-lasagna.jpg",
-          "coords":[237,287,74,85],
+          "coords":[770,397,101,117],
           "name": "Highland Farms Country Kitchen Fresh Lasagna Beef or Vegetable",
           "brands": ["Highland Farms Country Kitchen"],
           "category": "deli",
@@ -1012,12 +994,12 @@
       ]
     },
     {
-      "id":"page8",
-      "image":"page8.jpg",
+      "id":"page5",
+      "image":"page5.jpg",
       "products":[
         {
           "image":"baby-spring-lamb.jpg",
-          "coords":[9,25,150,86],
+          "coords":[12,33,206,121],
           "name": "Fresh Ontario Whole or Half Baby Spring Lamb 30-35lb Average",
           "brands": [""],
           "category": "meat",
@@ -1028,7 +1010,7 @@
         },
         {
           "image":"Pork-Loin-Roast.jpg",
-          "coords":[161,25,74,85],
+          "coords":[222,33,101,121],
           "name": "Fresh Ontario Boneless Pork Loin Roast",
           "brands": [""],
           "category": "meat",
@@ -1039,7 +1021,7 @@
         },
         {
           "image":"Beef-capless-prime-rib-roast.jpg",
-          "coords":[237,25,74,86],
+          "coords":[328,33,100,121],
           "name": "Fresh Beef Capless Prime Rib Roast Product of Canada",
           "brands": [""],
           "category": "meat",
@@ -1050,7 +1032,7 @@
         },
         {
           "image":"Lamb-shoulder.jpg",
-          "coords":[9,114,74,84],
+          "coords":[12,157,101,113],
           "name": "Fresh Ontario Lamb Shoulder",
           "brands": [""],
           "category": "meat",
@@ -1061,7 +1043,7 @@
         },
         {
           "image":"Lamb-loin-rib-chops.jpg",
-          "coords":[85,114,74,84],
+          "coords":[117,157,101,113],
           "name": "Fresh Ontario Lamb Loin & Rib Chops",
           "brands": [""],
           "category": "meat",
@@ -1072,7 +1054,7 @@
         },
         {
           "image":"Inside-round-veal-scallopini.jpg",
-          "coords":[161,114,74,84],
+          "coords":[222,158,101,113],
           "name": "Fresh Ontario Inside Round Veal Scallopini",
           "brands": [""],
           "category": "meat",
@@ -1083,7 +1065,7 @@
         },
         {
           "image":"Lamb-Frozen-Spiedini.jpg",
-          "coords":[237,114,74,84],
+          "coords":[327,158,101,113],
           "name": "Ontario Lamb Frozen Spiedini",
           "brands": [""],
           "category": "meat",
@@ -1094,7 +1076,7 @@
         },
         {
           "image":"Frozen-ducks.jpg",
-          "coords":[9,200,73,82],
+          "coords":[12,277,101,113],
           "name": "King Cole Frozen Grade A Ducks",
           "brands": [""],
           "category": "poultry",
@@ -1105,7 +1087,7 @@
         },
         {
           "image":"Frozen-cornish-hens.jpg",
-          "coords":[85,200,73,82],
+          "coords":[117,277,101,113],
           "name": "Frozen Grade A Cornish Hens",
           "brands": [""],
           "category": "poultry",
@@ -1116,7 +1098,7 @@
         },
         {
           "image":"Maple-Leaf-bacon.jpg",
-          "coords":[161,200,74,82],
+          "coords":[222,277,101,113],
           "name": "Maple Leaf Bacon, Selected Varieties",
           "brands": ["Maple Leaf"],
           "category": "meat",
@@ -1127,7 +1109,7 @@
         },
         {
           "image":"Springers-pork-picnic-shoulder.jpg",
-          "coords":[237,200,74,82],
+          "coords":[327,277,101,113],
           "name": "Springer&rsquo;s Whole Smoked Bone-In Pork Picnic Shoulder",
           "brands": ["Springer&rsquo;s"],
           "category": "meat",
@@ -1136,7 +1118,7 @@
           "pricing":"$1.69/lb",
           "comments":""
         }
-      ]
+      ] 
     }
   ]
 }
