@@ -53,6 +53,10 @@ var fl = {
       var range = "Thu Apr 06 2017 - Wed Apr 19 2017";
       return range;
     }
+    if(fl.getWeek("current") == "20170413") {
+      var range = "Thu Apr 06 2017 - Wed Apr 19 2017";
+      return range;
+    }
 
     return wednesday.toDateString() +" - "+ nextTuesday.toDateString();
   },
@@ -156,13 +160,13 @@ var fl = {
     * The line that reads 'window.setTimeout('$("#chooseFlyer").modal("show");',1000);' is to remain as that is critical to visual treatment of overlap days
      */
     if(currentWeek == "20170330") {
-      $("#nextFlyer .flyerDateRange").html("Thu Apr 06 2017 - Wed Apr 19 2017");    
-    } 
+      $("#nextFlyer .flyerDateRange").html("Thu Apr 06 2017 - Wed Apr 19 2017");
+    }
     if(currentWeek == "20170330") {
-      $("#currentFlyer .flyerDateRange").html("Thu Mar 30 2017 - Wed Apr 05 2017");    
-    } 
+      $("#currentFlyer .flyerDateRange").html("Thu Mar 30 2017 - Wed Apr 05 2017");
+    }
 
-    
+
 
     window.setTimeout('$("#chooseFlyer").modal("show");',1000);
   },
