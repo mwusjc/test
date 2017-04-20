@@ -55,9 +55,9 @@
             "badges":[
 
             ],
-            "descriptionLeftText":"Janes <br>Pub Style Chicken <br>Fries, Nuggets, Strips or Burgers",
+            "descriptionLeftText":"<br>Janes Pub Style <br>Chicken Fries, Nuggets, <br>Strips or Burgers",
             "descriptionLeftTextCSS":"font-size: 18px; left: 5px; bottom: 20px;",
-            "descriptionLeftTextMobileCSS":"font-size: 14px; left: 17px; bottom: 15px",
+            "descriptionLeftTextMobileCSS":"font-size: 13px; left: 17px; bottom: 15px",
             "descriptionRightText":null,
             "descriptionRightTextCSS":null,
             "descriptionRightTextMobileCSS":null
@@ -118,9 +118,9 @@
             "descriptionLeftText":null,
             "descriptionLeftTextCSS":null,
             "descriptionLeftTextMobileCSS":null,
-            "descriptionRightText":"Kellogg's Cereal  <br>Corn Pops, Froot Loops, <br>Frosted Flakes, Corn Flakes, <br>All-Bran Flakes or <br>Rice Krispies",
+            "descriptionRightText":"Kellogg's Cereal  <br>Corn Pops, Froot Loops,<br>Frosted Flakes, Corn Flakes, <br>All-Bran Flakes or Rice Krispies<br>",
             "descriptionRightTextCSS":"font-size: 18px;",
-            "descriptionRightTextMobileCSS":"font-size: 15px; padding-bottom:20px"
+            "descriptionRightTextMobileCSS":"font-size: 13px; padding-bottom:20px"
          },
          {
             "slideID":"carousel-slide5",
