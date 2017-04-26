@@ -50,7 +50,7 @@
           "comments":""
         },
         {
-          "image":"Ice-River-Springs",
+          "image":"Ice-River-Springs.jpg",
           "coords":[294,380,134,146],
           "name": "Ice River Springs Natural Spring Water",
           "brands": ["Ice River Springs"],
@@ -222,7 +222,7 @@
         },
         {
           "image":"Sweet-Bundle.jpg",
-          "coords":[453,12,206,140],
+          "coords":[453,33,206,119],
           "name": "Sweet Bundle Buy 1 + 1 for $5",
           "brands": ["Dempster's", "Vachon"],
           "category": "bakery",
@@ -592,7 +592,7 @@
         {
           "image":"Nuts-to-You-Almond-Butter.jpg",
           "coords":[768,397,101,117],
-          "name": "Nuts to You Almond Butter Smooth, Crunch or Raw",
+          "name": "Nuts to You Almond Butter Smooth, Crunchy or Raw",
           "brands": ["Nuts to You"],
           "category": "grocery",
           "summary": "",
