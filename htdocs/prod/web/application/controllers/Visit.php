@@ -40,7 +40,7 @@ class Visit extends CI_Controller {
 
     $this->form_validation->set_rules($config);
 
-    $this->load->view("header", array('title'=>'Store Locations & Hours | Contact Us | Highland Farms', "desc" => "Directions, maps and contact details for Highland Farms stores in Scarborough and Mississauga." ));
+    $this->load->view("header", array('title'=>'Store Locations & Hours | Contact Us | Highland Farms', "desc" => "Directions, maps and contact details for Highland Farms stores in Scarborough, Vaughan and Mississauga." ));
 
     if ($this->form_validation->run())  {
 
