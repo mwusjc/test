@@ -9,5 +9,3 @@
 <IfModule !mod_rewrite.c>
   ErrorDocument 404 /index.php
 </IfModule>
-
-redirect 301 /vaughan /visit-us
