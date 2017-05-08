@@ -111,14 +111,14 @@
             $("body").on('click','#currentFlyer', function(){
                 fl.loadData(fl.getWeek("current"),"desktop");
                 fl.loadData(fl.getWeek("current"),"mobile");
-                $(".currentFlyerDateRange").html(fl.getWeekRange("Thu Apr 27 2017 - Wed May 3 2017"));
+                $(".currentFlyerDateRange").html(fl.getWeekRange("Thu May 4 2017 - Wed May 10 2017"));
                 $(".currentFlyerDateRangeTitle").html("Current Flyer");
             });
 
             $("body").on('click','#nextFlyer', function() {
                 fl.loadData(fl.getWeek("next"),"desktop");
                 fl.loadData(fl.getWeek("next"),"mobile");
-                $(".currentFlyerDateRange").html("Thu May 4 2017 - Wed May 10 2017");
+                $(".currentFlyerDateRange").html("Thu May 11 2017 - Wed May 17 2017");
                 $(".currentFlyerDateRangeTitle").html("Next Week's Flyer");
             });
 
