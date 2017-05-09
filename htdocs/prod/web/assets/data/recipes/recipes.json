@@ -1,5 +1,41 @@
 [
   {
+    "title":"Broccoli Quiche",
+    "slug":"broccoli-quiche",
+    "categories": [
+      {
+        "title":"Vegetarian",
+        "slug":"vegetarian"
+      }
+    ],
+    "ingredients": "2 tablespoons butter \n1 onion, minced \n1 teaspoon minced garlic \n2 cups chopped fresh broccoli \n1 (9 inch) unbaked piecrust  \n1 1/2 cups shredded mozzarella cheese \n4 eggs, well beaten \n1 1/2 cups milk \n 1 teaspoon salt \n1/2 teaspoon black pepper \n 1 tablespoon butter, melted",
+    "instructions": "Preheat oven to 350°F (175°C). Melt butter in a large saucepan over medium-low heat. Add onions, garlic and broccoli. Cook slowly, stirring occasionally until the vegetables are soft. Spoon vegetables into crust and sprinkle with cheese. Combine eggs and milk. Season with salt and pepper. Stir in melted butter. Pour egg mixture over vegetables and cheese. Bake in preheated oven for 30 to 50 minutes, or until centre has set.",
+    "featuredStartDate": "2017-05-30T00:00:00-05:00",
+    "publish": true,
+    "related": [
+      {
+        "image": "media/recipes/rec_herbed_rice_pilaf.jpg",
+        "thumbnail": "media/recipes/rec_herbed_rice_pilaf-tn.jpg",
+        "slug": "herbed-rice-pilaf",
+        "title": "Herbed Rice Pilaf"
+      },
+      {
+        "image": "media/recipes/rec_chickpea_falafel.jpg",
+        "thumbnail": "media/recipes/rec_chickpea_falafel-tn.jpg",
+        "slug": "chickpea-falafel-with-cilantro-dip",
+        "title": "Chickpea Falafel with Cilantro Dip"
+      },
+      {
+        "image": "media/recipes/rec_vegetables_provencal.jpg",
+        "thumbnail": "media/recipes/rec_vegetables_provencal-tn.jpg",
+        "slug": "vegetables-provencal",
+        "title": "Vegetables Provencal"
+      }
+     ],
+    "image":"media/recipes/rec_broccoli-quiche.jpg",
+    "thumbnail":"media/recipes/rec_broccoli-quiche-tn.jpg"
+  },
+  {
     "title":"Baked Sweet Potatoes",
     "slug":"baked-sweet-potatoes",
     "categories": [
