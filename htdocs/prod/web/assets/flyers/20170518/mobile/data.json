@@ -31,7 +31,7 @@
           "image":"Coke-Pepsi.jpg",
           "coords":[9,275,96,106],
           "name": "Coke or Pepsi Soft Drinks 12x355ml, Assorted Varieties",
-          "brands": ["Coke", "Pepsi"],
+          "brands": ["Coca Cola", "Pepsi"],
           "category": "grocery",
           "summary": "",
           "packaging":"each",
@@ -216,8 +216,8 @@
           "brands": [""],
           "category": "produce",
           "summary": "",
-          "packaging":"dozen",
-          "pricing":"$17.99",
+          "packaging":"5in ceramic pot",
+          "pricing":"$14.99",
           "comments":""
         }
       ]
@@ -329,7 +329,7 @@
           "image":"Simply-lemonade-Califia-almond-bev.jpg",
           "coords":[85,288,74,85],
           "name": "Simply Lemonade 2.63L or Califia Almond Beverage 1.4L, Selected Varieties",
-          "brands": ["Simply", "Califia"],
+          "brands": ["Simply Lemonade", "Califia"],
           "category": "dairy",
           "summary": "",
           "packaging":"each",
@@ -825,7 +825,7 @@
         {
           "image":"SantaLucia-mozzarella.jpg",
           "coords":[85,200,74,85],
-          "name": "Santa Lucia Mozzarella Fior'di Latte Cheese",
+          "name": "Santa Lucia Mozzarella Fior' di Latte Cheese",
           "brands": ["Santa Lucia"],
           "category": "deli",
           "summary": "",
@@ -858,7 +858,7 @@
         {
           "image":"Schneiders-Juicy-Jumbos.jpg",
           "coords":[8,287,74,85],
-          "name": "Schneiders Juice Jumbos 450g & Grill'ems Smoked Sausages 375g",
+          "name": "Schneiders Juicy Jumbos 450g & Grill'ems Smoked Sausages 375g",
           "brands": ["Schneiders"],
           "category": "deli",
           "summary": "",
