@@ -6216,6 +6216,9 @@ a.details {
   margin-left: 5px;
   text-transform: capitalize !important;
 }
+.herobanner.responsive {
+  width: 100%;
+}
 .about-feature-text {
   font-size: 42px;
   letter-spacing: 1px;

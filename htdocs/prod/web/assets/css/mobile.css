@@ -233,3 +233,21 @@
   }
 
 }
+
+@media (max-width:767px) and (min-width:659px) {
+
+  .inside-store-item .box.bottom.title {
+    width: 560px;
+    margin: auto;
+  }
+}
+
+@media (max-width:780px) and (min-width:768px) {
+
+  .inside-store-item-container:nth-child(7) {
+    height: 237px;
+  }
+  .inside-store-item .box.bottom.title.gingham {
+    height: 63px;
+  }
+}

@@ -35,12 +35,12 @@ $inside[] = array(     "title" => "Seafood",     "subtitle" => "Fish for Flavour
 $inside[] = array(     "title" => "Flowers",     "subtitle" => "In Full Bloom",     "description" => "Stop by our flower shop for potted plants and beautiful blooms. Ask our specially trained assistants to put together a customized bouquet.",     "image" =>
 "assets/images/store_flowers_web_crop.jpg",     "class" => "lightpurple" );
 
-$inside[] = array(     "title" => "Groceries",     "subtitle" => "Selection To Suit Every Taste",     "description" => "As the innovator of the ultimate one-stop supermarket, we are committed to bringing you the widest range of groceries, all while saving you money every day.",     "image" => "assets/images/93472004.jpg",     "class" =>
+$inside[] = array(     "title" => "Groceries",     "subtitle" => "Selection To Suit Every Taste",     "description" => "As the innovator of the ultimate one-stop supermarket, we are committed to bringing you the widest range of groceries, all while saving you money every day.",     "image" => "assets/images/store_grocery_web_crop.jpg",     "class" =>
 "green" );
 
 $inside[] = array(     "title" => "Natural &amp; Wellness",     "subtitle" =>
 "For Your Natural Lifestyle",     "description" => "We know that offering organic and natural choices is important to our customers. Everything from cereals to soya ice creams – you'll find hundreds of items at a great price.",     "image"
-=> "assets/images/177555175.jpg",     "class" => "natural" );
+=> "assets/images/store_natural_web_crop.jpg",     "class" => "natural" );
 
 
 $inside[] = array(     "title" => "Sushi",     "subtitle" => "Fresh and Ready to Roll",     "description" => "In the mood for some Japanese? We offer fresh sushi to satisfy your cravings. Packaged and ready to enjoy, Highland Farms gives you a taste of Japan without the cost of expensive specialty restaurants.",     "image" =>
