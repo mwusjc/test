@@ -86,7 +86,7 @@
             "descriptionLeftText":null,
             "descriptionLeftTextCSS":null,
             "descriptionLeftTextMobileCSS":null,
-            "descriptionRightText":"Red Bing Cherries <br>Product of California, U.S.A. <br>No. 1 Grade, Jumbo Size",
+            "descriptionRightText":"Red Bing Cherries <br>Product of California, U.S.A.<br>No. 1 Grade, Jumbo Size",
             "descriptionRightTextCSS":"font-size: 18px;",
             "descriptionRightTextMobileCSS":"font-size: 15px; padding-bottom:20px"
          },
@@ -116,7 +116,7 @@
             "descriptionLeftText":null,
             "descriptionLeftTextCSS":null,
             "descriptionLeftTextMobileCSS":null,
-            "descriptionRightText":"Primo Pasta <br>Regular Assorted Cuts 900g, <br>Grain Wise Whole Grain 375g or <br>Thick & Zesty Pasta Sauce 680ml <br>Selected Varieties",
+            "descriptionRightText":"Primo Pasta <br>Regular Assorted Cuts 900g, <br>Grain Wise Whole Grain 375g or<br>Thick & Zesty Pasta Sauce 680ml <br>Selected Varieties",
             "descriptionRightTextCSS":"font-size: 18px;",
             "descriptionRightTextMobileCSS":"font-size: 13px; padding-bottom:20px"
          },
@@ -176,7 +176,7 @@
             "descriptionLeftText":null,
             "descriptionLeftTextCSS":null,
             "descriptionLeftTextMobileCSS":null,
-            "descriptionRightText":"Danone <br>DanActive or Danino <br>Drinkable Yogurt 8x93ml or <br>Creamy Yogurt 16x100g <br>Selected Varieties",
+            "descriptionRightText":"Danone <br>DanActive or Danino <br>Drinkable Yogurt 8x93ml or<br>Creamy Yogurt 16x100g <br>Selected Varieties",
             "descriptionRightTextCSS":"font-size: 18px;",
             "descriptionRightTextMobileCSS":"font-size: 15px; padding-bottom:20px"
          }
