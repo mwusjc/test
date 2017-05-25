@@ -116,9 +116,9 @@
             "descriptionLeftText":null,
             "descriptionLeftTextCSS":null,
             "descriptionLeftTextMobileCSS":null,
-            "descriptionRightText":"Primo Pasta <br>Regular Assorted Cuts 900g, <br>Grain Wise Whole Grain 375g or<br>Thick & Zesty Pasta Sauce 680ml <br>Selected Varieties",
+            "descriptionRightText":"Primo Pasta <br>Regular Assorted Cuts 900g, <br>Grain Wise Whole Grain 375g or<br>Thick & Zesty Pasta Sauce 680ml<br>Selected Varieties",
             "descriptionRightTextCSS":"font-size: 18px;",
-            "descriptionRightTextMobileCSS":"font-size: 13px; padding-bottom:20px"
+            "descriptionRightTextMobileCSS":"font-size: 12px; padding-bottom:20px"
          },
          {
             "slideID":"carousel-slide5",
