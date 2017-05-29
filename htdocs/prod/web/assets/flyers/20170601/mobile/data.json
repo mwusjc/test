@@ -835,7 +835,7 @@
         },
         {
           "image":"Silani-bocconcino.jpg",
-          "coords":[161,200,74,85],
+          "coords":[237,200,74,85],
           "name": "Silani Large Bocconcino Cheese",
           "brands": ["Silani"],
           "category": "deli",
@@ -908,7 +908,7 @@
         {
           "image":"Beef-short-ribs.jpg",
           "coords":[237,25,74,86],
-          "name": "Fresh Seasoned In-Store Alabama-Style Beef Short Ribs",
+          "name": "Freshly Seasoned In-Store Alabama-Style Beef Short Ribs",
           "brands": [""],
           "category": "meat",
           "summary": "",
