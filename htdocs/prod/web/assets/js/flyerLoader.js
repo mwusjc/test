@@ -44,13 +44,13 @@ var fl = {
     /*
     * NOTE: Temporary code for flyer week of March 2nd 2017 to March 8th 2017 - to be removed when permanent flyer logic changes take effect    */
 
-    if(fl.getWeek("current") == "20170525") {
-      var range = "Thu May 25 2017 - Wed May 31 2017";
+    if(fl.getWeek("current") == "20170601") {
+      var range = "Thu Jun 1 2017 - Wed Jun 7 2017";
       return range;
     }
 
-    if(fl.getWeek("current") == "20170601") {
-      var range = "Thu Jun 1 2017 - Wed Jun 7 2017";
+    if(fl.getWeek("current") == "20170608") {
+      var range = "Thu Jun 8 2017 - Wed Jun 14 2017";
       return range;
     }
 
@@ -155,11 +155,11 @@ var fl = {
     * Code to be removed when permanent flyer logic changes take effect is only the if..statement below.
     * The line that reads 'window.setTimeout('$("#chooseFlyer").modal("show");',1000);' is to remain as that is critical to visual treatment of overlap days
      */
-    if(currentWeek == "20170525") {
-      $("#nextFlyer .flyerDateRange").html("Thu Jun 1 2017 - Wed Jun 7 2017");
+    if(currentWeek == "20170601") {
+      $("#nextFlyer .flyerDateRange").html("Thu Jun 8 2017 - Wed Jun 14 2017");
     }
-    if(currentWeek == "20170525") {
-      $("#currentFlyer .flyerDateRange").html("Thu May 25 2017 - Wed May 31 2017");
+    if(currentWeek == "20170601") {
+      $("#currentFlyer .flyerDateRange").html("Thu Jun 1 2017 - Wed Jun 7 2017");
     }
 
 
