@@ -354,8 +354,8 @@
           "brands": ["Danone"],
           "category": "dairy",
           "summary": "",
-          "packaging":"500g",
-          "pricing":"$2.99",
+          "packaging":"each",
+          "pricing":"$2.49",
           "comments":""
         }
       ]
