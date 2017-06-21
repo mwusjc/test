@@ -102,7 +102,7 @@
         {
           "image":"Melons.jpg",
           "coords":[85,112,74,85],
-          "name": "Canary, Crenshaw or Santa Claus Melons",
+          "name": "Canary, Crenshaw or Santa Claus Melons Product of U.S.A. Jumbo Size",
           "brands": [""],
           "category": "produce",
           "summary": "",
@@ -262,7 +262,7 @@
         {
           "image":"CK-strudel.jpg",
           "coords":[84,113,74,85],
-          "name": "Highland Farms Country Kitchen Fresh, Bake In-Store Strudel, Assorted Varieties",
+          "name": "Highland Farms Country Kitchen Fresh, Baked In-Store Strudel, Assorted Varieties",
           "brands": ["Highland Farms Country Kitchen"],
           "category": "bakery",
           "summary": "",
@@ -707,7 +707,7 @@
           "comments":""
         },
         {
-          "image":"Chapmans-yogurt-Yukon-novelties.jpg",
+          "image":"Chapmans-yogurt-Yukon-novelties-v2.jpg",
           "coords":[161,288,150,85],
           "name": "Chapman's Frozen Yogurt 2L or Yukon Novelties 6-8pk, Selected Varieties",
           "brands": ["Chapman's"],
@@ -803,7 +803,7 @@
         {
           "image":"Santa-Lucia-bocconcini-cheese.jpg",
           "coords":[161,200,74,85],
-          "name": "Santa Lucia Bocconcini Cheese",
+          "name": "Santa Lucia Bocconcini Cheese, Assorted Varieties",
           "brands": ["Santa Lucia"],
           "category": "deli",
           "summary": "",
