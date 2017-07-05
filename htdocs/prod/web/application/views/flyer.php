@@ -118,7 +118,7 @@
             $("body").on('click','#nextFlyer', function() {
                 fl.loadData(fl.getWeek("next"),"desktop");
                 fl.loadData(fl.getWeek("next"),"mobile");
-                $(".currentFlyerDateRange").html("Thu Jun 06 2017 - Wed Jul 12 2017");
+                $(".currentFlyerDateRange").html("Thu Jul 06 2017 - Wed Jul 12 2017");
                 $(".currentFlyerDateRangeTitle").html("Next Week's Flyer");
             });
 
