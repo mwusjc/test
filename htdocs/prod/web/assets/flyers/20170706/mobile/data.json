@@ -39,7 +39,7 @@
           "comments":""
         },
         {
-          "image":"dr-oetker-pizza.jpg.jpg",
+          "image":"dr-oetker-pizza.jpg",
           "coords":[111,275,96,106],
           "name": "Dr. Oetker Frozen Pizza Ristorante or Casa di Mama, Selected Varieties",
           "brands": ["Dr. Oetker"],
@@ -277,7 +277,7 @@
           "brands": ["Natrel"],
           "category": "dairy",
           "summary": "",
-          "packaging":"",
+          "packaging":"2L",
           "pricing":"$4.99",
           "comments":""
         },

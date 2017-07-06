@@ -146,7 +146,7 @@
             "descriptionLeftText":null,
             "descriptionLeftTextCSS":null,
             "descriptionLeftTextMobileCSS":null,
-            "descriptionRightText":"Dr. Oetker <br>Frozen Pizza <br>Ristorante or Casa di Mama <br>Selected Varieties",
+            "descriptionRightText":"Dr. Oetker <br>Frozen Pizza <br>Ristorante or Casa di Mama<br>Selected Varieties",
             "descriptionRightTextCSS":"font-size: 18px;",
             "descriptionRightTextMobileCSS":"font-size: 15px; padding-bottom:20px"
          },
