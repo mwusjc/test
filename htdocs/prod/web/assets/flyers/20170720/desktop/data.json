@@ -382,7 +382,7 @@
         },
         {
           "image":"san-pellegrino-beverage.jpg",
-          "coords":[3280,156,101,117],
+          "coords":[328,156,101,117],
           "name": "San Pellegrino Sparkling Fruit Beverage, Assorted Varieties",
           "brands": ["San Pellegrino"],
           "category": "grocery",
@@ -702,7 +702,7 @@
           "category": "frozen foods",
           "summary": "",
           "packaging":"300-750g or Vegetables in Butter Sauce 250g 2/$3.00",
-          "pricing":"$4.99",
+          "pricing":"2/$5.00",
           "comments":""
         },
         {
